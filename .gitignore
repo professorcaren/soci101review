@@ -2,3 +2,4 @@
 .playwright-mcp/
 *.png
 __pycache__/
+Old-games/
