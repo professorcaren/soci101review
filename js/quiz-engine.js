@@ -1,0 +1,214 @@
+/**
+ * Quiz engine: generates questions, manages study sessions.
+ */
+const QuizEngine = (() => {
+    const SESSION_SIZE = 10;
+
+    /**
+     * Build a study session for a chapter (or all chapters).
+     * Returns an array of question objects ready to display.
+     *
+     * Pacing: concepts can repeat within a session so students can
+     * pass a level (which needs 2 correct) in one sitting.
+     * - In-progress concepts: min(remaining_to_pass, 2) questions
+     * - New concepts: 2 questions each, up to ~5 new concepts
+     * - SR review: 1 question each
+     */
+    function buildSession(chapters) {
+        if (!Array.isArray(chapters)) chapters = [chapters];
+
+        const candidates = [];
+        const MAX_NEW_CONCEPTS = 5;
+        let newConceptCount = 0;
+
+        for (const chapter of chapters) {
+            for (const concept of chapter.concepts) {
+                const hasL3 = concept.level3_question_ids.length > 0;
+                const currentLevel = Progress.getCurrentLevel(concept.id, hasL3);
+
+                if (currentLevel === 0) {
+                    // Mastered - only add if due for SR review
+                    addSRReviewQuestions(candidates, chapter, concept);
+                    continue;
+                }
+
+                const inProgress = Progress.isConceptStarted(concept.id);
+
+                if (currentLevel === 1) {
+                    const remaining = Progress.LEVEL1_PASS - Progress.getConceptProgress(concept.id).level1.correct;
+                    if (inProgress) {
+                        const count = Math.min(remaining, 2);
+                        for (let i = 0; i < count; i++) {
+                            candidates.push(makeLevel1Question(chapter, concept));
+                        }
+                    } else {
+                        // New concept — cap how many we introduce
+                        if (newConceptCount < MAX_NEW_CONCEPTS) {
+                            for (let i = 0; i < 2; i++) {
+                                candidates.push(makeLevel1Question(chapter, concept));
+                            }
+                            newConceptCount++;
+                        }
+                    }
+                } else if (currentLevel === 2) {
+                    const remaining = Progress.LEVEL2_PASS - Progress.getConceptProgress(concept.id).level2.correct;
+                    const count = Math.min(remaining, 2);
+                    for (let i = 0; i < count; i++) {
+                        candidates.push(makeLevel2Question(chapter, concept));
+                    }
+                } else if (currentLevel === 3) {
+                    addLevel3Questions(candidates, chapter, concept);
+                }
+            }
+        }
+
+        // Sort: due SR first, then in-progress, then new
+        candidates.sort((a, b) => {
+            return priorityScore(a) - priorityScore(b);
+        });
+
+        return candidates.slice(0, SESSION_SIZE);
+    }
+
+    function priorityScore(q) {
+        // Lower = higher priority
+        if (q._srDue) return 0;
+        if (q._inProgress) return 1;
+        return 2;
+    }
+
+    function addSRReviewQuestions(candidates, chapter, concept) {
+        // Check if any level questions are due for review
+        for (const level of [1, 2]) {
+            const key = `${concept.id}_L${level}`;
+            if (Progress.isDueForReview(key)) {
+                const q = level === 1
+                    ? makeLevel1Question(chapter, concept)
+                    : makeLevel2Question(chapter, concept);
+                q._srDue = true;
+                candidates.push(q);
+            }
+        }
+        // Check L3 questions
+        for (const qId of concept.level3_question_ids) {
+            const key = `L3_${qId}`;
+            if (Progress.isDueForReview(key)) {
+                const qData = chapter.chapter_questions.find(cq => cq.id === qId);
+                if (qData) {
+                    candidates.push({
+                        ...makeLevel3FromData(qData, concept),
+                        _srDue: true,
+                    });
+                }
+            }
+        }
+    }
+
+    function addLevel3Questions(candidates, chapter, concept) {
+        for (const qId of concept.level3_question_ids) {
+            const qData = chapter.chapter_questions.find(cq => cq.id === qId);
+            if (qData) {
+                const q = makeLevel3FromData(qData, concept);
+                q._inProgress = Progress.isConceptStarted(concept.id);
+                candidates.push(q);
+            }
+        }
+    }
+
+    /**
+     * Level 1: Given term, pick definition.
+     */
+    function makeLevel1Question(chapter, concept) {
+        const correctDef = concept.definition;
+        const distractors = pickDistractors(
+            chapter.concepts.filter(c => c.id !== concept.id),
+            c => c.definition,
+            3
+        );
+        const choices = shuffle([correctDef, ...distractors]);
+        return {
+            level: 1,
+            levelLabel: 'Level 1 — Term Recognition',
+            conceptId: concept.id,
+            questionKey: `${concept.id}_L1`,
+            text: `What is the definition of "${concept.term}"?`,
+            choices,
+            correctIndex: choices.indexOf(correctDef),
+            _inProgress: Progress.isConceptStarted(concept.id),
+        };
+    }
+
+    /**
+     * Level 2: Given definition, pick term.
+     */
+    function makeLevel2Question(chapter, concept) {
+        const correctTerm = concept.term;
+        const distractors = pickDistractors(
+            chapter.concepts.filter(c => c.id !== concept.id),
+            c => c.term,
+            3
+        );
+        const choices = shuffle([correctTerm, ...distractors]);
+        return {
+            level: 2,
+            levelLabel: 'Level 2 — Definition Recognition',
+            conceptId: concept.id,
+            questionKey: `${concept.id}_L2`,
+            text: concept.definition,
+            choices,
+            correctIndex: choices.indexOf(correctTerm),
+            _inProgress: true,
+        };
+    }
+
+    /**
+     * Level 3: Higher-order YAQ3 question.
+     */
+    function makeLevel3FromData(qData, concept) {
+        return {
+            level: 3,
+            levelLabel: 'Level 3 — Application',
+            conceptId: concept.id,
+            questionKey: `L3_${qData.id}`,
+            text: qData.question,
+            choices: qData.choices,
+            correctIndex: qData.correct,
+            _inProgress: true,
+        };
+    }
+
+    function pickDistractors(pool, extractor, count) {
+        const shuffled = shuffle([...pool]);
+        const result = [];
+        for (const item of shuffled) {
+            if (result.length >= count) break;
+            const val = extractor(item);
+            if (!result.includes(val)) result.push(val);
+        }
+        // If not enough distractors, pad with placeholders
+        while (result.length < count) {
+            result.push('(no other option)');
+        }
+        return result;
+    }
+
+    function shuffle(arr) {
+        for (let i = arr.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [arr[i], arr[j]] = [arr[j], arr[i]];
+        }
+        return arr;
+    }
+
+    /**
+     * Record answer and update both concept progress and SR.
+     */
+    function recordAnswer(question, selectedIndex) {
+        const wasCorrect = selectedIndex === question.correctIndex;
+        Progress.recordConceptAnswer(question.conceptId, question.level, wasCorrect);
+        Progress.recordQuestionAnswer(question.questionKey, wasCorrect);
+        return wasCorrect;
+    }
+
+    return { buildSession, recordAnswer, SESSION_SIZE };
+})();

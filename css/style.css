@@ -1,0 +1,229 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-bg: #f8f9fa;
+    --color-surface: #ffffff;
+    --color-text: #212529;
+    --color-text-secondary: #6c757d;
+    --color-primary: #4361ee;
+    --color-primary-hover: #3a56d4;
+    --color-success: #2d6a4f;
+    --color-success-bg: #d8f3dc;
+    --color-error: #c1121f;
+    --color-error-bg: #fde8e8;
+    --color-border: #dee2e6;
+    --color-progress-bg: #e9ecef;
+    --color-level-locked: #adb5bd;
+    --color-level-active: #4361ee;
+    --color-level-done: #2d6a4f;
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+    --shadow-md: 0 2px 8px rgba(0,0,0,0.1);
+    --transition: 0.2s ease;
+}
+
+html {
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.5;
+    min-height: 100dvh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+/* Screens */
+.screen {
+    display: none;
+    min-height: 100dvh;
+}
+.screen.active {
+    display: block;
+}
+
+/* Top bar */
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    min-height: 44px;
+}
+.top-bar h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.top-bar-right {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+/* Welcome Screen */
+#screen-welcome {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#screen-welcome.active {
+    display: flex;
+}
+#screen-welcome h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+}
+.subtitle {
+    color: var(--color-text-secondary);
+    margin-bottom: 32px;
+    font-size: 1rem;
+}
+.welcome-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 320px;
+    margin: 0 auto;
+}
+.welcome-form label {
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+.welcome-form input {
+    padding: 12px 14px;
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    font-size: 1rem;
+    outline: none;
+    transition: border-color var(--transition);
+}
+.welcome-form input:focus {
+    border-color: var(--color-primary);
+}
+.welcome-note {
+    margin-top: 24px;
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+}
+
+/* Study progress label */
+.study-progress-label {
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+    font-weight: 600;
+}
+
+/* Question area */
+.question-area {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.question-level {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-primary);
+    margin-bottom: 8px;
+}
+.question-text {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+/* Feedback */
+.feedback {
+    margin-top: 16px;
+    padding: 14px 16px;
+    border-radius: var(--radius-md);
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+.feedback.correct {
+    background: var(--color-success-bg);
+    color: var(--color-success);
+}
+.feedback.incorrect {
+    background: var(--color-error-bg);
+    color: var(--color-error);
+}
+
+/* Summary */
+.summary-card {
+    text-align: center;
+    padding: 32px 20px;
+}
+.summary-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.summary-score {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--color-primary);
+    margin-bottom: 8px;
+}
+.summary-details {
+    color: var(--color-text-secondary);
+    margin-bottom: 28px;
+    line-height: 1.8;
+}
+.summary-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+/* Chapter header in detail view */
+.chapter-header {
+    margin-bottom: 24px;
+}
+.chapter-header h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.chapter-stats {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    margin-top: 8px;
+}
+
+/* Utility */
+.hidden {
+    display: none !important;
+}
+
+@media (min-width: 600px) {
+    .container {
+        padding: 24px;
+    }
+    #screen-welcome h1 {
+        font-size: 2.5rem;
+    }
+    .question-text {
+        font-size: 1.25rem;
+    }
+}

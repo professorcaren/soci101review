@@ -1,0 +1,225 @@
+/**
+ * DOM manipulation and screen rendering.
+ */
+const UI = (() => {
+    const screens = {};
+
+    function init() {
+        document.querySelectorAll('.screen').forEach(el => {
+            screens[el.id] = el;
+        });
+    }
+
+    function showScreen(id) {
+        Object.values(screens).forEach(el => el.classList.remove('active'));
+        const target = screens[`screen-${id}`];
+        if (target) {
+            target.classList.add('active');
+            window.scrollTo(0, 0);
+        }
+    }
+
+    // --- Dashboard ---
+
+    function renderDashboard() {
+        const grid = document.getElementById('chapter-grid');
+        grid.innerHTML = '';
+        const chapters = ContentLoader.getChapters();
+        for (const ch of chapters) {
+            const stats = Progress.getChapterStats(ch);
+            const card = document.createElement('div');
+            card.className = 'chapter-card' + (stats.pct === 100 ? ' mastered' : '');
+            card.dataset.chapterId = ch.id;
+            const fillClass = stats.pct === 100 ? ' complete' : '';
+            const statusText = stats.mastered === stats.total
+                ? `All ${stats.total} concepts mastered!`
+                : stats.levelsDone > 0
+                    ? `${stats.levelsDone}/${stats.levelsTotal} levels passed`
+                    : stats.started > 0
+                        ? `${stats.started} concept${stats.started === 1 ? '' : 's'} started`
+                        : `${stats.total} concepts`;
+            card.innerHTML = `
+                <div class="chapter-card-title">${ch.name}</div>
+                <div class="chapter-card-stats">${statusText}</div>
+                <div class="progress-bar"><div class="progress-fill${fillClass}" style="width:${stats.pct}%"></div></div>
+            `;
+            card.addEventListener('click', () => App.showChapter(ch.id));
+            grid.appendChild(card);
+        }
+    }
+
+    // --- Chapter Detail ---
+
+    function renderChapterDetail(chapter) {
+        document.getElementById('chapter-title').textContent = chapter.name;
+        const stats = Progress.getChapterStats(chapter);
+        const bar = document.querySelector('#chapter-progress-bar .progress-fill');
+        bar.style.width = stats.pct + '%';
+        bar.className = 'progress-fill' + (stats.pct === 100 ? ' complete' : '');
+        const statsText = stats.mastered === stats.total
+            ? `All ${stats.total} concepts mastered!`
+            : `${stats.levelsDone} of ${stats.levelsTotal} levels passed \u00b7 ${stats.mastered} of ${stats.total} concepts mastered`;
+        document.getElementById('chapter-stats').textContent = statsText;
+
+        const list = document.getElementById('concept-list');
+        list.innerHTML = '';
+
+        // Add legend
+        const legend = document.createElement('div');
+        legend.className = 'level-legend';
+        legend.innerHTML = `
+            <span class="level-legend-item"><span class="level-dot done"></span> Passed</span>
+            <span class="level-legend-item"><span class="level-dot active"></span> In progress</span>
+            <span class="level-legend-item"><span class="level-dot"></span> Locked</span>
+        `;
+        list.appendChild(legend);
+
+        for (const concept of chapter.concepts) {
+            const hasL3 = concept.level3_question_ids.length > 0;
+            const maxLevel = hasL3 ? 3 : 2;
+            const currentLevel = Progress.getCurrentLevel(concept.id, hasL3);
+
+            const row = document.createElement('div');
+            row.className = 'concept-row';
+
+            let dotsHtml = '';
+            for (let lvl = 1; lvl <= maxLevel; lvl++) {
+                let dotClass = 'level-dot';
+                if (Progress.isLevelPassed(concept.id, lvl)) {
+                    dotClass += ' done';
+                } else if (lvl === currentLevel) {
+                    dotClass += ' active';
+                }
+                const levelNames = { 1: 'Term → Definition', 2: 'Definition → Term', 3: 'Application' };
+                dotsHtml += `<div class="${dotClass}" title="Level ${lvl}: ${levelNames[lvl]}"></div>`;
+            }
+
+            row.innerHTML = `
+                <span class="concept-term">${concept.term}</span>
+                <div class="concept-levels">${dotsHtml}</div>
+            `;
+            list.appendChild(row);
+        }
+    }
+
+    // --- Study Session ---
+
+    let _sessionQuestions = [];
+    let _sessionIndex = 0;
+    let _sessionCorrect = 0;
+    let _answered = false;
+
+    function startStudySession(questions) {
+        _sessionQuestions = questions;
+        _sessionIndex = 0;
+        _sessionCorrect = 0;
+        if (questions.length === 0) {
+            renderSessionSummary();
+            return;
+        }
+        showScreen('study');
+        renderQuestion();
+    }
+
+    function renderQuestion() {
+        _answered = false;
+        const q = _sessionQuestions[_sessionIndex];
+        document.getElementById('study-progress-label').textContent =
+            `${_sessionIndex + 1} / ${_sessionQuestions.length}`;
+        document.getElementById('question-level').textContent = q.levelLabel;
+        document.getElementById('question-text').textContent = q.text;
+        document.getElementById('question-area').dataset.correctIndex = q.correctIndex;
+
+        const feedback = document.getElementById('feedback');
+        feedback.classList.add('hidden');
+        feedback.className = 'feedback hidden';
+        document.getElementById('btn-next').classList.add('hidden');
+
+        const container = document.getElementById('choices');
+        container.innerHTML = '';
+        q.choices.forEach((choice, idx) => {
+            const btn = document.createElement('button');
+            btn.className = 'choice-btn';
+            btn.textContent = choice;
+            btn.addEventListener('click', () => handleAnswer(idx));
+            container.appendChild(btn);
+        });
+    }
+
+    function handleAnswer(selectedIndex) {
+        if (_answered) return;
+        _answered = true;
+
+        const q = _sessionQuestions[_sessionIndex];
+        const wasCorrect = QuizEngine.recordAnswer(q, selectedIndex);
+        if (wasCorrect) _sessionCorrect++;
+
+        // Highlight choices
+        const btns = document.querySelectorAll('#choices .choice-btn');
+        btns.forEach((btn, idx) => {
+            btn.classList.add('answered');
+            if (idx === selectedIndex && wasCorrect) {
+                btn.classList.add('selected-correct');
+            } else if (idx === selectedIndex && !wasCorrect) {
+                btn.classList.add('selected-incorrect');
+            }
+            if (idx === q.correctIndex && !wasCorrect) {
+                btn.classList.add('reveal-correct');
+            }
+        });
+
+        // Show feedback
+        const feedback = document.getElementById('feedback');
+        const feedbackText = document.getElementById('feedback-text');
+        feedback.classList.remove('hidden', 'correct', 'incorrect');
+        if (wasCorrect) {
+            feedback.classList.add('correct');
+            feedbackText.textContent = 'Correct!';
+        } else {
+            feedback.classList.add('incorrect');
+            feedbackText.textContent = `Incorrect. The answer is: ${q.choices[q.correctIndex]}`;
+        }
+
+        document.getElementById('btn-next').classList.remove('hidden');
+
+        // Sync check
+        Sync.onAnswer();
+    }
+
+    function nextQuestion() {
+        _sessionIndex++;
+        if (_sessionIndex >= _sessionQuestions.length) {
+            renderSessionSummary();
+        } else {
+            renderQuestion();
+        }
+    }
+
+    function renderSessionSummary() {
+        showScreen('summary');
+        const total = _sessionQuestions.length;
+        document.getElementById('summary-score').textContent =
+            total > 0 ? `${_sessionCorrect}/${total}` : 'No questions available';
+
+        const details = document.getElementById('summary-details');
+        if (total === 0) {
+            details.innerHTML = 'All concepts in this chapter are mastered and no reviews are due. Nice work!';
+        } else {
+            const pct = Math.round((_sessionCorrect / total) * 100);
+            details.innerHTML = `You answered ${pct}% correctly this session.`;
+        }
+    }
+
+    // --- Keyboard shortcut ---
+    function handleKeydown(e) {
+        if (e.key === 'Enter' && _answered && !document.getElementById('btn-next').classList.contains('hidden')) {
+            nextQuestion();
+        }
+    }
+
+    return {
+        init, showScreen,
+        renderDashboard, renderChapterDetail,
+        startStudySession, nextQuestion, handleKeydown,
+    };
+})();
