@@ -173,8 +173,6 @@
 .concept-term {
     font-weight: 600;
     font-size: 0.9rem;
-    flex: 1;
-    min-width: 0;
 }
 .concept-levels {
     display: flex;
@@ -351,6 +349,60 @@
     color: var(--color-text-secondary);
     min-width: 40px;
     text-align: right;
+}
+
+/* Skip Button */
+.btn-skip {
+    background: none;
+    border: none;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+    flex-shrink: 0;
+    min-width: 32px;
+    min-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-skip:hover {
+    background: var(--color-surface-hover);
+    color: var(--color-text);
+}
+
+/* Skipped concept row */
+.concept-row.skipped {
+    opacity: 0.4;
+}
+.concept-row.skipped .concept-term {
+    text-decoration: line-through;
+}
+
+/* Skipped count label */
+.skipped-count {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    padding: 6px 14px;
+}
+
+/* Confusable hints */
+.concept-term-container {
+    flex: 1;
+    min-width: 0;
+}
+.confusable-hint {
+    font-size: 0.7rem;
+    color: var(--color-text-secondary);
+    margin-top: 2px;
+    font-style: italic;
+}
+
+/* Trouble spot indicator */
+.trouble-dot {
+    color: var(--color-error);
+    font-size: 0.6rem;
 }
 
 /* Text helper */

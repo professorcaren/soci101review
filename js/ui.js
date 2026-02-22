@@ -86,13 +86,23 @@ const UI = (() => {
         `;
         list.appendChild(legend);
 
+        // Show skipped count label if any terms are skipped
+        const skippedCount = Progress.getSkippedCount(chapter);
+        if (skippedCount > 0) {
+            const skippedLabel = document.createElement('div');
+            skippedLabel.className = 'skipped-count';
+            skippedLabel.textContent = skippedCount + ' term' + (skippedCount > 1 ? 's' : '') + ' skipped';
+            list.appendChild(skippedLabel);
+        }
+
         for (const concept of chapter.concepts) {
             const hasL3 = concept.level3_question_ids.length > 0;
             const maxLevel = hasL3 ? 3 : 2;
             const currentLevel = Progress.getCurrentLevel(concept.id, hasL3);
 
             const row = document.createElement('div');
-            row.className = 'concept-row';
+            const isSkipped = Progress.isConceptSkipped(concept.id);
+            row.className = 'concept-row' + (isSkipped ? ' skipped' : '');
 
             let dotsHtml = '';
             for (let lvl = 1; lvl <= maxLevel; lvl++) {
@@ -106,10 +116,55 @@ const UI = (() => {
                 dotsHtml += `<div class="${dotClass}" title="Level ${lvl}: ${levelNames[lvl]}"></div>`;
             }
 
-            row.innerHTML = `
-                <span class="concept-term">${concept.term}</span>
-                <div class="concept-levels">${dotsHtml}</div>
-            `;
+            // Skip button
+            const skipBtn = document.createElement('button');
+            skipBtn.className = 'btn-skip';
+            skipBtn.textContent = isSkipped ? '\u21a9' : '\u2715';
+            skipBtn.title = isSkipped ? 'Restore term' : 'Skip term';
+            skipBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                Progress.toggleSkipConcept(concept.id);
+                renderChapterDetail(chapter);
+            });
+            row.appendChild(skipBtn);
+
+            // Term container with confusable hints and trouble spot
+            const termContainer = document.createElement('div');
+            termContainer.className = 'concept-term-container';
+
+            // Check for trouble spot
+            const cp = Progress.getConceptProgress(concept.id);
+            const totalAttempts = cp.level1.attempts + cp.level2.attempts + cp.level3.attempts;
+            const totalCorrect = cp.level1.correct + cp.level2.correct + cp.level3.correct;
+            const isTroubleSpot = totalAttempts >= 3 && (totalCorrect / totalAttempts) < 0.5;
+
+            let termHtml = '<span class="concept-term">' + concept.term;
+            if (isTroubleSpot) {
+                termHtml += ' <span class="trouble-dot" title="Trouble spot">\u25cf</span>';
+            }
+            termHtml += '</span>';
+
+            // Confusable hints (only for non-skipped)
+            if (!isSkipped && concept.confusable_ids && concept.confusable_ids.length > 0) {
+                const confusableNames = concept.confusable_ids
+                    .slice(0, 3)
+                    .map(id => chapter.concepts.find(c => c.id === id))
+                    .filter(Boolean)
+                    .map(c => c.term);
+                if (confusableNames.length > 0) {
+                    termHtml += '<div class="confusable-hint">Often confused with: ' + confusableNames.join(', ') + '</div>';
+                }
+            }
+
+            termContainer.innerHTML = termHtml;
+            row.appendChild(termContainer);
+
+            // Level dots
+            const dotsContainer = document.createElement('div');
+            dotsContainer.className = 'concept-levels';
+            dotsContainer.innerHTML = dotsHtml;
+            row.appendChild(dotsContainer);
+
             list.appendChild(row);
         }
     }
