@@ -280,6 +280,75 @@ const UI = (() => {
         Sync.onAnswer();
     }
 
+    function showRecallAnswer() {
+        const q = _sessionQuestions[_sessionIndex];
+        const container = document.getElementById('choices');
+        container.classList.remove('recall-hidden');
+        document.getElementById('btn-show-answer').classList.add('hidden');
+
+        // Highlight the correct answer
+        const btns = container.querySelectorAll('.choice-btn');
+        btns.forEach((btn, idx) => {
+            btn.classList.add('answered');
+            if (idx === q.correctIndex) {
+                btn.classList.add('reveal-correct');
+            }
+        });
+
+        // Show self-grade buttons
+        document.getElementById('self-grade').classList.remove('hidden');
+    }
+
+    function handleSelfGrade(knewIt) {
+        if (_answered) return;
+        _answered = true;
+
+        const q = _sessionQuestions[_sessionIndex];
+        const wasCorrect = knewIt;
+        Progress.recordConceptAnswer(q.conceptId, q.level, wasCorrect);
+        Progress.recordQuestionAnswer(q.questionKey, wasCorrect);
+
+        if (wasCorrect) {
+            _sessionCorrect++;
+            _sessionConsecutiveCorrect++;
+            const earned = Progress.addXP(q.level, _sessionConsecutiveCorrect);
+            _sessionXPEarned += earned;
+            showXPFlyup(earned);
+            updateStatsBar();
+        } else {
+            _sessionConsecutiveCorrect = 0;
+        }
+
+        // Check for level-up
+        if (wasCorrect && Progress.isLevelPassed(q.conceptId, q.level)) {
+            const chapters = ContentLoader.getChapters();
+            for (const ch of chapters) {
+                const concept = ch.concepts.find(c => c.id === q.conceptId);
+                if (concept) {
+                    _sessionLevelUps.push({ term: concept.term, level: q.level });
+                    break;
+                }
+            }
+        }
+
+        document.getElementById('self-grade').classList.add('hidden');
+
+        // Show feedback
+        const feedback = document.getElementById('feedback');
+        const feedbackText = document.getElementById('feedback-text');
+        feedback.classList.remove('hidden', 'correct', 'incorrect');
+        if (wasCorrect) {
+            feedback.classList.add('correct');
+            feedbackText.textContent = 'Marked as known!';
+        } else {
+            feedback.classList.add('incorrect');
+            feedbackText.textContent = 'Marked for review. The answer is: ' + q.choices[q.correctIndex];
+        }
+
+        document.getElementById('btn-next').classList.remove('hidden');
+        Sync.onAnswer();
+    }
+
     function nextQuestion() {
         _sessionIndex++;
         if (_sessionIndex >= _sessionQuestions.length) {
@@ -391,6 +460,7 @@ const UI = (() => {
         init, showScreen,
         renderDashboard, renderChapterDetail,
         startStudySession, nextQuestion, handleKeydown,
+        showRecallAnswer, handleSelfGrade,
         showXPFlyup, updateStatsBar, renderLeaderboard,
     };
 })();
