@@ -243,6 +243,12 @@
     opacity: 1;
 }
 
+/* Exam Mode - Neutral Selection */
+.choice-btn.selected-neutral {
+    border-color: var(--color-primary);
+    background: rgba(88, 166, 255, 0.15);
+}
+
 /* Stats Bar */
 .stats-bar {
     position: sticky;

@@ -178,8 +178,12 @@ const UI = (() => {
     let _sessionConsecutiveCorrect = 0;
     let _sessionXPEarned = 0;
     let _sessionLevelUps = [];
+    let _examMode = false;
+    let _examTimer = null;
+    let _examTimeLeft = 0;
 
-    function startStudySession(questions) {
+    function startStudySession(questions, options) {
+        _examMode = (options && options.examMode) || false;
         _sessionQuestions = questions;
         _sessionIndex = 0;
         _sessionCorrect = 0;
@@ -189,6 +193,9 @@ const UI = (() => {
         if (questions.length === 0) {
             renderSessionSummary();
             return;
+        }
+        if (_examMode && options && options.timeLimit) {
+            startExamTimer(options.timeLimit);
         }
         showScreen('study');
         renderQuestion();
@@ -246,6 +253,14 @@ const UI = (() => {
                     break;
                 }
             }
+        }
+
+        if (_examMode) {
+            // Brief highlight then auto-advance
+            const btns = document.querySelectorAll('#choices .choice-btn');
+            btns[selectedIndex].classList.add('selected-neutral');
+            setTimeout(() => nextQuestion(), 300);
+            return;
         }
 
         // Highlight choices
@@ -358,7 +373,25 @@ const UI = (() => {
         }
     }
 
+    function startExamTimer(minutes) {
+        const timerEl = document.getElementById('study-progress-label');
+        if (!minutes) return;
+        _examTimeLeft = minutes * 60;
+        _examTimer = setInterval(() => {
+            _examTimeLeft--;
+            const m = Math.floor(_examTimeLeft / 60);
+            const s = String(_examTimeLeft % 60).padStart(2, '0');
+            timerEl.textContent = m + ':' + s;
+            if (_examTimeLeft <= 0) {
+                clearInterval(_examTimer);
+                _examTimer = null;
+                renderSessionSummary();
+            }
+        }, 1000);
+    }
+
     function renderSessionSummary() {
+        if (_examTimer) { clearInterval(_examTimer); _examTimer = null; }
         showScreen('summary');
         const total = _sessionQuestions.length;
 
