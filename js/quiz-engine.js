@@ -187,7 +187,8 @@ const QuizEngine = (() => {
         const distractors = pickDistractors(
             chapter.concepts.filter(c => c.id !== concept.id),
             c => c.definition,
-            3
+            3,
+            concept.confusable_ids
         );
         const choices = shuffle([correctDef, ...distractors]);
         return {
@@ -210,7 +211,8 @@ const QuizEngine = (() => {
         const distractors = pickDistractors(
             chapter.concepts.filter(c => c.id !== concept.id),
             c => c.term,
-            3
+            3,
+            concept.confusable_ids
         );
         const choices = shuffle([correctTerm, ...distractors]);
         return {
@@ -241,14 +243,35 @@ const QuizEngine = (() => {
         };
     }
 
-    function pickDistractors(pool, extractor, count) {
-        const shuffled = shuffle([...pool]);
+    function pickDistractors(pool, extractor, count, preferredIds) {
         const result = [];
-        for (const item of shuffled) {
+        const usedItems = new Set();
+
+        // Prefer confusable concepts first
+        if (preferredIds && preferredIds.length > 0) {
+            const preferred = shuffle(
+                pool.filter(c => preferredIds.includes(c.id))
+            );
+            for (const item of preferred) {
+                if (result.length >= count) break;
+                const val = extractor(item);
+                if (!result.includes(val)) {
+                    result.push(val);
+                    usedItems.add(item.id);
+                }
+            }
+        }
+
+        // Fill remaining slots randomly from pool
+        const remaining = shuffle(
+            pool.filter(c => !usedItems.has(c.id))
+        );
+        for (const item of remaining) {
             if (result.length >= count) break;
             const val = extractor(item);
             if (!result.includes(val)) result.push(val);
         }
+
         // If not enough distractors, pad with placeholders
         while (result.length < count) {
             result.push('(no other option)');
