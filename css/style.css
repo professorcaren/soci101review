@@ -160,6 +160,10 @@ body {
     margin-bottom: 20px;
     line-height: 1.4;
 }
+.term-highlight {
+    color: var(--color-primary);
+    font-weight: 700;
+}
 
 /* Feedback */
 .feedback {

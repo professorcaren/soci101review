@@ -207,7 +207,7 @@ const UI = (() => {
         document.getElementById('study-progress-label').textContent =
             `${_sessionIndex + 1} / ${_sessionQuestions.length}`;
         document.getElementById('question-level').textContent = q.levelLabel;
-        document.getElementById('question-text').textContent = q.text;
+        document.getElementById('question-text').innerHTML = q.text;
         document.getElementById('question-area').dataset.correctIndex = q.correctIndex;
 
         const feedback = document.getElementById('feedback');
