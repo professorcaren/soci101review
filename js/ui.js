@@ -175,11 +175,17 @@ const UI = (() => {
     let _sessionIndex = 0;
     let _sessionCorrect = 0;
     let _answered = false;
+    let _sessionConsecutiveCorrect = 0;
+    let _sessionXPEarned = 0;
+    let _sessionLevelUps = [];
 
     function startStudySession(questions) {
         _sessionQuestions = questions;
         _sessionIndex = 0;
         _sessionCorrect = 0;
+        _sessionConsecutiveCorrect = 0;
+        _sessionXPEarned = 0;
+        _sessionLevelUps = [];
         if (questions.length === 0) {
             renderSessionSummary();
             return;
@@ -219,7 +225,28 @@ const UI = (() => {
 
         const q = _sessionQuestions[_sessionIndex];
         const wasCorrect = QuizEngine.recordAnswer(q, selectedIndex);
-        if (wasCorrect) _sessionCorrect++;
+        if (wasCorrect) {
+            _sessionCorrect++;
+            _sessionConsecutiveCorrect++;
+            const earned = Progress.addXP(q.level, _sessionConsecutiveCorrect);
+            _sessionXPEarned += earned;
+            showXPFlyup(earned);
+            updateStatsBar();
+        } else {
+            _sessionConsecutiveCorrect = 0;
+        }
+
+        // Check for level-up
+        if (wasCorrect && Progress.isLevelPassed(q.conceptId, q.level)) {
+            const chapters = ContentLoader.getChapters();
+            for (const ch of chapters) {
+                const concept = ch.concepts.find(c => c.id === q.conceptId);
+                if (concept) {
+                    _sessionLevelUps.push({ term: concept.term, level: q.level });
+                    break;
+                }
+            }
+        }
 
         // Highlight choices
         const btns = document.querySelectorAll('#choices .choice-btn');
@@ -265,16 +292,46 @@ const UI = (() => {
     function renderSessionSummary() {
         showScreen('summary');
         const total = _sessionQuestions.length;
-        document.getElementById('summary-score').textContent =
-            total > 0 ? `${_sessionCorrect}/${total}` : 'No questions available';
+
+        // Update daily streak
+        if (total > 0) Progress.updateDailyStreak();
+
+        const scoreEl = document.getElementById('summary-score');
+        scoreEl.textContent = total > 0 ? _sessionCorrect + '/' + total : '';
 
         const details = document.getElementById('summary-details');
+        let html = '';
+
         if (total === 0) {
-            details.innerHTML = 'All concepts in this chapter are mastered and no reviews are due. Nice work!';
+            html = 'All concepts mastered and no reviews are due. Nice work!';
         } else {
             const pct = Math.round((_sessionCorrect / total) * 100);
-            details.innerHTML = `You answered ${pct}% correctly this session.`;
+            html += '<div class="summary-stat">' + pct + '% correct</div>';
+
+            if (_sessionXPEarned > 0) {
+                html += '<div class="summary-stat summary-xp">+' + _sessionXPEarned + ' XP earned</div>';
+            }
+
+            const streak = Progress.getDailyStreak();
+            if (streak > 1) {
+                html += '<div class="summary-stat summary-streak">' + streak + ' day streak!</div>';
+            }
+
+            if (_sessionLevelUps.length > 0) {
+                html += '<div class="summary-levelups">';
+                for (const lu of _sessionLevelUps) {
+                    html += '<div class="summary-levelup">\u2713 ' + lu.term + ' \u2014 Level ' + lu.level + ' passed</div>';
+                }
+                html += '</div>';
+            }
         }
+        details.innerHTML = html;
+
+        // Update stats bar
+        updateStatsBar();
+
+        // Sync at session end
+        Sync.pushProgress();
     }
 
     // --- XP Flyup ---

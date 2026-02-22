@@ -405,6 +405,29 @@
     font-size: 0.6rem;
 }
 
+/* Summary Stats */
+.summary-stat {
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+.summary-xp {
+    color: var(--color-xp);
+    font-weight: 700;
+}
+.summary-streak {
+    color: var(--color-streak);
+    font-weight: 700;
+}
+.summary-levelups {
+    margin-top: 12px;
+    text-align: left;
+}
+.summary-levelup {
+    font-size: 0.9rem;
+    color: var(--color-success);
+    padding: 4px 0;
+}
+
 /* Text helper */
 .text-secondary {
     color: var(--color-text-secondary);
