@@ -244,6 +244,8 @@ const Progress = (() => {
         return {
             studentName: getStudentName(),
             chapterProgress,
+            xp: getXP(),
+            streak: getDailyStreak(),
             fullData: getData(),
         };
     }

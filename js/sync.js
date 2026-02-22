@@ -3,19 +3,16 @@
  * Set APPS_SCRIPT_URL after deploying the Apps Script web app.
  */
 const Sync = (() => {
-    let APPS_SCRIPT_URL = '';  // Set this after deploying
-    let _answerCount = 0;
-    const SYNC_INTERVAL = 5;
+    let APPS_SCRIPT_URL = '';
+    let _hasUnsavedProgress = false;
+    let _leaderboardCache = null;
 
     function setUrl(url) {
         APPS_SCRIPT_URL = url;
     }
 
     function onAnswer() {
-        _answerCount++;
-        if (_answerCount % SYNC_INTERVAL === 0) {
-            pushProgress();
-        }
+        _hasUnsavedProgress = true;
     }
 
     async function pushProgress() {
@@ -30,6 +27,7 @@ const Sync = (() => {
             });
             Progress.getData().lastSync = Date.now();
             Progress.save();
+            _hasUnsavedProgress = false;
         } catch (e) {
             // Silent fail - offline is fine
         }
@@ -40,7 +38,7 @@ const Sync = (() => {
         const name = Progress.getStudentName();
         if (!name) return;
         try {
-            const resp = await fetch(`${APPS_SCRIPT_URL}?name=${encodeURIComponent(name)}`);
+            const resp = await fetch(APPS_SCRIPT_URL + '?name=' + encodeURIComponent(name));
             if (resp.ok) {
                 const remote = await resp.json();
                 if (remote && remote.concepts) {
@@ -52,13 +50,33 @@ const Sync = (() => {
         }
     }
 
+    async function fetchLeaderboard() {
+        if (!APPS_SCRIPT_URL) return [];
+        if (_leaderboardCache) return _leaderboardCache;
+        try {
+            const resp = await fetch(APPS_SCRIPT_URL + '?action=leaderboard');
+            if (resp.ok) {
+                _leaderboardCache = await resp.json();
+                return _leaderboardCache;
+            }
+        } catch (e) {
+            // Silent fail
+        }
+        return [];
+    }
+
+    function clearLeaderboardCache() {
+        _leaderboardCache = null;
+    }
+
     function setupUnloadSync() {
         window.addEventListener('beforeunload', () => {
-            if (!APPS_SCRIPT_URL) return;
+            if (!APPS_SCRIPT_URL || !_hasUnsavedProgress) return;
             const payload = Progress.getSyncPayload(ContentLoader.getChapters());
             navigator.sendBeacon(APPS_SCRIPT_URL, JSON.stringify(payload));
+            _hasUnsavedProgress = false;
         });
     }
 
-    return { setUrl, onAnswer, pushProgress, pullProgress, setupUnloadSync };
+    return { setUrl, onAnswer, pushProgress, pullProgress, fetchLeaderboard, clearLeaderboardCache, setupUnloadSync };
 })();
