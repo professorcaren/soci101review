@@ -38,29 +38,29 @@ const QuizEngine = (() => {
                 const inProgress = Progress.isConceptStarted(concept.id);
 
                 if (currentLevel === 1) {
-                    const remaining = Progress.LEVEL1_PASS - Progress.getConceptProgress(concept.id).level1.correct;
                     if (inProgress) {
-                        const count = Math.min(remaining, 2);
-                        for (let i = 0; i < count; i++) {
-                            candidates.push(makeLevel1Question(chapter, concept));
-                        }
+                        candidates.push(makeLevel1Question(chapter, concept));
                     } else {
                         // New concept — cap how many we introduce
                         if (newConceptCount < MAX_NEW_CONCEPTS) {
-                            for (let i = 0; i < 2; i++) {
-                                candidates.push(makeLevel1Question(chapter, concept));
-                            }
+                            candidates.push(makeLevel1Question(chapter, concept));
                             newConceptCount++;
                         }
                     }
                 } else if (currentLevel === 2) {
-                    const remaining = Progress.LEVEL2_PASS - Progress.getConceptProgress(concept.id).level2.correct;
-                    const count = Math.min(remaining, 2);
-                    for (let i = 0; i < count; i++) {
-                        candidates.push(makeLevel2Question(chapter, concept));
-                    }
+                    candidates.push(makeLevel2Question(chapter, concept));
                 } else if (currentLevel === 3) {
-                    addLevel3Questions(candidates, chapter, concept);
+                    // Pick one random L3 question for this concept
+                    const qIds = concept.level3_question_ids;
+                    if (qIds.length > 0) {
+                        const randomId = qIds[Math.floor(Math.random() * qIds.length)];
+                        const qData = chapter.chapter_questions.find(cq => cq.id === randomId);
+                        if (qData) {
+                            const q = makeLevel3FromData(qData, concept);
+                            q._inProgress = inProgress;
+                            candidates.push(q);
+                        }
+                    }
                 }
             }
         }
@@ -73,12 +73,14 @@ const QuizEngine = (() => {
             q._weaknessScore = totalAttempts > 0 ? (totalAttempts - totalCorrect) / totalAttempts : 0;
         }
 
-        // Sort: due SR first, then in-progress, then new
+        // Sort: due SR first, then in-progress, then new — with random tiebreaker
         candidates.sort((a, b) => {
-            return priorityScore(a) - priorityScore(b);
+            const diff = priorityScore(a) - priorityScore(b);
+            if (Math.abs(diff) < 0.01) return Math.random() - 0.5;
+            return diff;
         });
 
-        return interleave(candidates.slice(0, _sessionSize));
+        return candidates.slice(0, _sessionSize);
     }
 
     function priorityScore(q) {
@@ -86,27 +88,6 @@ const QuizEngine = (() => {
         if (q._srDue) return 0 - (q._weaknessScore || 0) * 0.1;
         if (q._inProgress) return 1 - (q._weaknessScore || 0) * 0.1;
         return 2;
-    }
-
-    function interleave(questions) {
-        for (let i = 1; i < questions.length; i++) {
-            if (questions[i].conceptId === questions[i - 1].conceptId) {
-                let swapped = false;
-                for (let j = i + 1; j < questions.length; j++) {
-                    if (questions[j].conceptId !== questions[i - 1].conceptId &&
-                        (j + 1 >= questions.length || questions[j].conceptId !== questions[i + 1]?.conceptId)) {
-                        [questions[i], questions[j]] = [questions[j], questions[i]];
-                        swapped = true;
-                        break;
-                    }
-                }
-                if (!swapped && questions.length > 3) {
-                    questions.splice(i, 1);
-                    i--;
-                }
-            }
-        }
-        return questions;
     }
 
     function addSRReviewQuestions(candidates, chapter, concept) {
@@ -132,17 +113,6 @@ const QuizEngine = (() => {
                         _srDue: true,
                     });
                 }
-            }
-        }
-    }
-
-    function addLevel3Questions(candidates, chapter, concept) {
-        for (const qId of concept.level3_question_ids) {
-            const qData = chapter.chapter_questions.find(cq => cq.id === qId);
-            if (qData) {
-                const q = makeLevel3FromData(qData, concept);
-                q._inProgress = Progress.isConceptStarted(concept.id);
-                candidates.push(q);
             }
         }
     }
