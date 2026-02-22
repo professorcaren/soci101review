@@ -244,3 +244,116 @@
 .choice-btn.reveal-correct.answered {
     opacity: 1;
 }
+
+/* Stats Bar */
+.stats-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    padding: 8px 16px;
+}
+.stats-bar-inner {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+}
+.stat-item {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+}
+.stat-value {
+    font-weight: 700;
+    font-size: 1rem;
+}
+.stat-label {
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+}
+.stat-xp .stat-value { color: var(--color-xp); }
+.stat-streak .stat-value { color: var(--color-streak); }
+.stat-mastered .stat-value { color: var(--color-success); }
+
+/* XP Flyup */
+.xp-flyup {
+    position: fixed;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-xp);
+    pointer-events: none;
+    z-index: 200;
+    animation: flyup 1s ease-out forwards;
+}
+@keyframes flyup {
+    0% { opacity: 1; transform: translateX(-50%) translateY(0); }
+    100% { opacity: 0; transform: translateX(-50%) translateY(-40px); }
+}
+
+/* Session Size Select */
+.session-size-select {
+    background: var(--color-surface);
+    color: var(--color-text);
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    padding: 6px 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    min-height: 40px;
+}
+
+/* Leaderboard */
+.leaderboard-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.leaderboard-row {
+    display: flex;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--color-surface);
+    border-radius: var(--radius-sm);
+    gap: 12px;
+}
+.leaderboard-rank {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    min-width: 28px;
+    text-align: center;
+}
+.leaderboard-rank.top-3 {
+    color: var(--color-streak);
+}
+.leaderboard-name {
+    flex: 1;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.leaderboard-name.is-you {
+    color: var(--color-primary);
+}
+.leaderboard-xp {
+    font-weight: 700;
+    color: var(--color-xp);
+    font-size: 0.85rem;
+}
+.leaderboard-mastery {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    min-width: 40px;
+    text-align: right;
+}
+
+/* Text helper */
+.text-secondary {
+    color: var(--color-text-secondary);
+}

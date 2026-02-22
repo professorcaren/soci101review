@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="css/components.css">
 </head>
 <body>
+    <div id="stats-bar" class="stats-bar hidden">
+        <div class="stats-bar-inner">
+            <span class="stat-item stat-xp">
+                <span class="stat-value" id="stat-xp">0</span>
+                <span class="stat-label">XP</span>
+            </span>
+            <span class="stat-item stat-streak">
+                <span class="stat-value" id="stat-streak">0</span>
+                <span class="stat-label">day streak</span>
+            </span>
+            <span class="stat-item stat-mastered">
+                <span class="stat-value" id="stat-mastered">0</span>
+                <span class="stat-label">mastered</span>
+            </span>
+        </div>
+    </div>
+    <div id="xp-flyup" class="xp-flyup hidden"></div>
+
     <!-- Welcome Screen -->
     <div id="screen-welcome" class="screen active">
         <div class="container">
@@ -28,6 +46,7 @@
             <header class="top-bar">
                 <h2>Chapters</h2>
                 <div class="top-bar-right">
+                    <button id="btn-leaderboard" class="btn btn-small btn-secondary">Leaderboard</button>
                     <button id="btn-review-all" class="btn btn-small">Review All</button>
                 </div>
             </header>
@@ -41,6 +60,11 @@
             <header class="top-bar">
                 <button id="btn-back-dashboard" class="btn btn-back">&larr; Chapters</button>
                 <div class="top-bar-right">
+                    <select id="session-size-select" class="session-size-select">
+                        <option value="5">5 Qs</option>
+                        <option value="10" selected>10 Qs</option>
+                        <option value="20">20 Qs</option>
+                    </select>
                     <button id="btn-study-chapter" class="btn btn-primary btn-small">Study</button>
                 </div>
             </header>
@@ -50,6 +74,7 @@
                     <div class="progress-fill"></div>
                 </div>
                 <p id="chapter-stats" class="chapter-stats"></p>
+                <button id="btn-exam-mode" class="btn btn-secondary btn-small" style="margin-top:12px;">Exam Mode</button>
             </div>
             <div id="concept-list" class="concept-list"></div>
         </div>
@@ -85,6 +110,20 @@
                     <button id="btn-continue-studying" class="btn btn-primary">Keep Studying</button>
                     <button id="btn-back-to-dashboard" class="btn btn-secondary">Back to Chapters</button>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leaderboard Screen -->
+    <div id="screen-leaderboard" class="screen">
+        <div class="container">
+            <header class="top-bar">
+                <button id="btn-back-from-leaderboard" class="btn btn-back">&larr; Back</button>
+                <h2>Leaderboard</h2>
+                <button id="btn-refresh-leaderboard" class="btn btn-small">Refresh</button>
+            </header>
+            <div id="leaderboard-list" class="leaderboard-list">
+                <p class="text-secondary">Loading...</p>
             </div>
         </div>
     </div>

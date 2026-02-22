@@ -25,6 +25,18 @@ const UI = (() => {
         const grid = document.getElementById('chapter-grid');
         grid.innerHTML = '';
         const chapters = ContentLoader.getChapters();
+
+        // Show and update stats bar
+        document.getElementById('stats-bar').classList.remove('hidden');
+        document.getElementById('stat-xp').textContent = Progress.getXP();
+        document.getElementById('stat-streak').textContent = Progress.getDailyStreak();
+        let totalMastered = 0;
+        for (const ch of chapters) {
+            const stats = Progress.getChapterStats(ch);
+            totalMastered += stats.mastered;
+        }
+        document.getElementById('stat-mastered').textContent = totalMastered;
+
         for (const ch of chapters) {
             const stats = Progress.getChapterStats(ch);
             const card = document.createElement('div');
@@ -210,6 +222,52 @@ const UI = (() => {
         }
     }
 
+    // --- XP Flyup ---
+
+    function showXPFlyup(amount) {
+        const el = document.getElementById('xp-flyup');
+        el.textContent = '+' + amount + ' XP';
+        el.classList.remove('hidden');
+        el.style.animation = 'none';
+        el.offsetHeight; // Trigger reflow
+        el.style.animation = '';
+        setTimeout(() => el.classList.add('hidden'), 1000);
+    }
+
+    // --- Stats Bar Update ---
+
+    function updateStatsBar() {
+        document.getElementById('stat-xp').textContent = Progress.getXP();
+        document.getElementById('stat-streak').textContent = Progress.getDailyStreak();
+    }
+
+    // --- Leaderboard ---
+
+    async function renderLeaderboard() {
+        const listEl = document.getElementById('leaderboard-list');
+        listEl.innerHTML = '<p class="text-secondary">Loading...</p>';
+
+        const data = await Sync.fetchLeaderboard();
+        if (!data || data.length === 0) {
+            listEl.innerHTML = '<p class="text-secondary">No leaderboard data yet. Complete a study session to appear!</p>';
+            return;
+        }
+
+        const myName = Progress.getStudentName();
+        listEl.innerHTML = '';
+        data.forEach((entry, idx) => {
+            const row = document.createElement('div');
+            row.className = 'leaderboard-row';
+            const isYou = myName && entry.name.startsWith(myName.split(' ')[0]);
+            row.innerHTML =
+                '<span class="leaderboard-rank ' + (idx < 3 ? 'top-3' : '') + '">' + (idx + 1) + '</span>' +
+                '<span class="leaderboard-name ' + (isYou ? 'is-you' : '') + '">' + entry.name + (isYou ? ' (you)' : '') + '</span>' +
+                '<span class="leaderboard-xp">' + entry.xp + ' XP</span>' +
+                '<span class="leaderboard-mastery">' + entry.mastery + '%</span>';
+            listEl.appendChild(row);
+        });
+    }
+
     // --- Keyboard shortcut ---
     function handleKeydown(e) {
         if (e.key === 'Enter' && _answered && !document.getElementById('btn-next').classList.contains('hidden')) {
@@ -221,5 +279,6 @@ const UI = (() => {
         init, showScreen,
         renderDashboard, renderChapterDetail,
         startStudySession, nextQuestion, handleKeydown,
+        showXPFlyup, updateStatsBar, renderLeaderboard,
     };
 })();
