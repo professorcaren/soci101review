@@ -166,7 +166,7 @@ const QuizEngine = (() => {
             levelLabel: 'Level 1 — Term Recognition',
             conceptId: concept.id,
             questionKey: `${concept.id}_L1`,
-            text: `What is the definition of <strong class="term-highlight">${concept.term}</strong>?`,
+            text: `What is the best definition of <strong class="term-highlight">${concept.term}</strong>?`,
             choices,
             correctIndex: choices.indexOf(correctDef),
             _inProgress: Progress.isConceptStarted(concept.id),
