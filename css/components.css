@@ -31,7 +31,7 @@
     border: 2px solid var(--color-border);
 }
 .btn-secondary:hover:not(:disabled) {
-    background: var(--color-bg);
+    background: var(--color-surface-hover);
 }
 .btn-small {
     padding: 8px 16px;
@@ -209,7 +209,7 @@
 }
 .choice-btn:hover:not(.answered) {
     border-color: var(--color-primary);
-    background: #f0f3ff;
+    background: rgba(88, 166, 255, 0.1);
 }
 .choice-btn.selected-correct {
     border-color: var(--color-success);
