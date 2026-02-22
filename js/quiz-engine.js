@@ -2,7 +2,9 @@
  * Quiz engine: generates questions, manages study sessions.
  */
 const QuizEngine = (() => {
-    const SESSION_SIZE = 10;
+    let _sessionSize = 10;
+    function setSessionSize(size) { _sessionSize = size; }
+    function getSessionSize() { return _sessionSize; }
 
     /**
      * Build a study session for a chapter (or all chapters).
@@ -23,6 +25,7 @@ const QuizEngine = (() => {
 
         for (const chapter of chapters) {
             for (const concept of chapter.concepts) {
+                if (Progress.isConceptSkipped(concept.id)) continue;
                 const hasL3 = concept.level3_question_ids.length > 0;
                 const currentLevel = Progress.getCurrentLevel(concept.id, hasL3);
 
@@ -62,19 +65,48 @@ const QuizEngine = (() => {
             }
         }
 
+        // Compute weakness scores for tiebreaking
+        for (const q of candidates) {
+            const cp = Progress.getConceptProgress(q.conceptId);
+            const totalAttempts = cp.level1.attempts + cp.level2.attempts + cp.level3.attempts;
+            const totalCorrect = cp.level1.correct + cp.level2.correct + cp.level3.correct;
+            q._weaknessScore = totalAttempts > 0 ? (totalAttempts - totalCorrect) / totalAttempts : 0;
+        }
+
         // Sort: due SR first, then in-progress, then new
         candidates.sort((a, b) => {
             return priorityScore(a) - priorityScore(b);
         });
 
-        return candidates.slice(0, SESSION_SIZE);
+        return interleave(candidates.slice(0, _sessionSize));
     }
 
     function priorityScore(q) {
         // Lower = higher priority
-        if (q._srDue) return 0;
-        if (q._inProgress) return 1;
+        if (q._srDue) return 0 - (q._weaknessScore || 0) * 0.1;
+        if (q._inProgress) return 1 - (q._weaknessScore || 0) * 0.1;
         return 2;
+    }
+
+    function interleave(questions) {
+        for (let i = 1; i < questions.length; i++) {
+            if (questions[i].conceptId === questions[i - 1].conceptId) {
+                let swapped = false;
+                for (let j = i + 1; j < questions.length; j++) {
+                    if (questions[j].conceptId !== questions[i - 1].conceptId &&
+                        (j + 1 >= questions.length || questions[j].conceptId !== questions[i + 1]?.conceptId)) {
+                        [questions[i], questions[j]] = [questions[j], questions[i]];
+                        swapped = true;
+                        break;
+                    }
+                }
+                if (!swapped && questions.length > 3) {
+                    questions.splice(i, 1);
+                    i--;
+                }
+            }
+        }
+        return questions;
     }
 
     function addSRReviewQuestions(candidates, chapter, concept) {
@@ -113,6 +145,38 @@ const QuizEngine = (() => {
                 candidates.push(q);
             }
         }
+    }
+
+    /**
+     * Build an exam session: random questions across all levels, no feedback.
+     */
+    function buildExamSession(chapters, size) {
+        if (!Array.isArray(chapters)) chapters = [chapters];
+        const allQuestions = [];
+
+        for (const chapter of chapters) {
+            for (const concept of chapter.concepts) {
+                if (Progress.isConceptSkipped(concept.id)) continue;
+                const hasL3 = concept.level3_question_ids.length > 0;
+                const currentLevel = Progress.getCurrentLevel(concept.id, hasL3);
+                const maxLvl = currentLevel === 0 ? (hasL3 ? 3 : 2) : currentLevel;
+                for (let lvl = 1; lvl <= maxLvl; lvl++) {
+                    if (lvl === 1) allQuestions.push(makeLevel1Question(chapter, concept));
+                    else if (lvl === 2) allQuestions.push(makeLevel2Question(chapter, concept));
+                    else if (lvl === 3) {
+                        const qIds = concept.level3_question_ids;
+                        if (qIds.length > 0) {
+                            const randomId = qIds[Math.floor(Math.random() * qIds.length)];
+                            const qData = chapter.chapter_questions.find(cq => cq.id === randomId);
+                            if (qData) allQuestions.push(makeLevel3FromData(qData, concept));
+                        }
+                    }
+                }
+            }
+        }
+
+        shuffle(allQuestions);
+        return allQuestions.slice(0, size || allQuestions.length);
     }
 
     /**
@@ -210,5 +274,5 @@ const QuizEngine = (() => {
         return wasCorrect;
     }
 
-    return { buildSession, recordAnswer, SESSION_SIZE };
+    return { buildSession, buildExamSession, recordAnswer, setSessionSize, getSessionSize };
 })();

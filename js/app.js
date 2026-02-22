@@ -25,6 +25,7 @@ const App = (() => {
             Sync.pullProgress();
         } else {
             UI.showScreen('welcome');
+            document.getElementById('stats-bar').classList.add('hidden');
         }
 
         // Handle hash routing
@@ -100,6 +101,46 @@ const App = (() => {
         });
         document.getElementById('btn-back-to-dashboard').addEventListener('click', showDashboard);
 
+        // Session size selector
+        document.getElementById('session-size-select').addEventListener('change', (e) => {
+            QuizEngine.setSessionSize(parseInt(e.target.value));
+        });
+
+        // Exam mode button
+        document.getElementById('btn-exam-mode').addEventListener('click', () => {
+            if (_currentChapterId) {
+                const chapter = ContentLoader.getChapter(_currentChapterId);
+                const session = QuizEngine.buildExamSession(chapter);
+                UI.startStudySession(session, { examMode: true });
+                window.location.hash = 'study';
+            }
+        });
+
+        // Leaderboard
+        document.getElementById('btn-leaderboard').addEventListener('click', () => {
+            UI.showScreen('leaderboard');
+            UI.renderLeaderboard();
+            window.location.hash = 'leaderboard';
+        });
+        document.getElementById('btn-back-from-leaderboard').addEventListener('click', () => {
+            showDashboard();
+        });
+        document.getElementById('btn-refresh-leaderboard').addEventListener('click', () => {
+            if (Sync.clearLeaderboardCache) Sync.clearLeaderboardCache();
+            UI.renderLeaderboard();
+        });
+
+        // Recall mode (show answer / self-grade)
+        document.getElementById('btn-show-answer').addEventListener('click', () => {
+            UI.showRecallAnswer();
+        });
+        document.getElementById('btn-knew-it').addEventListener('click', () => {
+            UI.handleSelfGrade(true);
+        });
+        document.getElementById('btn-didnt-know').addEventListener('click', () => {
+            UI.handleSelfGrade(false);
+        });
+
         // Keyboard
         document.addEventListener('keydown', UI.handleKeydown);
     }
@@ -109,6 +150,7 @@ const App = (() => {
         UI.renderDashboard();
         UI.showScreen('dashboard');
         window.location.hash = 'dashboard';
+        document.getElementById('stats-bar').classList.remove('hidden');
     }
 
     function showChapter(chapterId) {
@@ -128,6 +170,9 @@ const App = (() => {
         } else if (hash.startsWith('chapter/')) {
             const chId = hash.split('/')[1];
             showChapter(chId);
+        } else if (hash === 'leaderboard' && Progress.getStudentName()) {
+            UI.showScreen('leaderboard');
+            UI.renderLeaderboard();
         }
     }
 

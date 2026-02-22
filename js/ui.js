@@ -25,6 +25,18 @@ const UI = (() => {
         const grid = document.getElementById('chapter-grid');
         grid.innerHTML = '';
         const chapters = ContentLoader.getChapters();
+
+        // Show and update stats bar
+        document.getElementById('stats-bar').classList.remove('hidden');
+        document.getElementById('stat-xp').textContent = Progress.getXP();
+        document.getElementById('stat-streak').textContent = Progress.getDailyStreak();
+        let totalMastered = 0;
+        for (const ch of chapters) {
+            const stats = Progress.getChapterStats(ch);
+            totalMastered += stats.mastered;
+        }
+        document.getElementById('stat-mastered').textContent = totalMastered;
+
         for (const ch of chapters) {
             const stats = Progress.getChapterStats(ch);
             const card = document.createElement('div');
@@ -74,13 +86,23 @@ const UI = (() => {
         `;
         list.appendChild(legend);
 
+        // Show skipped count label if any terms are skipped
+        const skippedCount = Progress.getSkippedCount(chapter);
+        if (skippedCount > 0) {
+            const skippedLabel = document.createElement('div');
+            skippedLabel.className = 'skipped-count';
+            skippedLabel.textContent = skippedCount + ' term' + (skippedCount > 1 ? 's' : '') + ' skipped';
+            list.appendChild(skippedLabel);
+        }
+
         for (const concept of chapter.concepts) {
             const hasL3 = concept.level3_question_ids.length > 0;
             const maxLevel = hasL3 ? 3 : 2;
             const currentLevel = Progress.getCurrentLevel(concept.id, hasL3);
 
             const row = document.createElement('div');
-            row.className = 'concept-row';
+            const isSkipped = Progress.isConceptSkipped(concept.id);
+            row.className = 'concept-row' + (isSkipped ? ' skipped' : '');
 
             let dotsHtml = '';
             for (let lvl = 1; lvl <= maxLevel; lvl++) {
@@ -94,10 +116,55 @@ const UI = (() => {
                 dotsHtml += `<div class="${dotClass}" title="Level ${lvl}: ${levelNames[lvl]}"></div>`;
             }
 
-            row.innerHTML = `
-                <span class="concept-term">${concept.term}</span>
-                <div class="concept-levels">${dotsHtml}</div>
-            `;
+            // Skip button
+            const skipBtn = document.createElement('button');
+            skipBtn.className = 'btn-skip';
+            skipBtn.textContent = isSkipped ? '\u21a9' : '\u2715';
+            skipBtn.title = isSkipped ? 'Restore term' : 'Skip term';
+            skipBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                Progress.toggleSkipConcept(concept.id);
+                renderChapterDetail(chapter);
+            });
+            row.appendChild(skipBtn);
+
+            // Term container with confusable hints and trouble spot
+            const termContainer = document.createElement('div');
+            termContainer.className = 'concept-term-container';
+
+            // Check for trouble spot
+            const cp = Progress.getConceptProgress(concept.id);
+            const totalAttempts = cp.level1.attempts + cp.level2.attempts + cp.level3.attempts;
+            const totalCorrect = cp.level1.correct + cp.level2.correct + cp.level3.correct;
+            const isTroubleSpot = totalAttempts >= 3 && (totalCorrect / totalAttempts) < 0.5;
+
+            let termHtml = '<span class="concept-term">' + concept.term;
+            if (isTroubleSpot) {
+                termHtml += ' <span class="trouble-dot" title="Trouble spot">\u25cf</span>';
+            }
+            termHtml += '</span>';
+
+            // Confusable hints (only for non-skipped)
+            if (!isSkipped && concept.confusable_ids && concept.confusable_ids.length > 0) {
+                const confusableNames = concept.confusable_ids
+                    .slice(0, 3)
+                    .map(id => chapter.concepts.find(c => c.id === id))
+                    .filter(Boolean)
+                    .map(c => c.term);
+                if (confusableNames.length > 0) {
+                    termHtml += '<div class="confusable-hint">Often confused with: ' + confusableNames.join(', ') + '</div>';
+                }
+            }
+
+            termContainer.innerHTML = termHtml;
+            row.appendChild(termContainer);
+
+            // Level dots
+            const dotsContainer = document.createElement('div');
+            dotsContainer.className = 'concept-levels';
+            dotsContainer.innerHTML = dotsHtml;
+            row.appendChild(dotsContainer);
+
             list.appendChild(row);
         }
     }
@@ -108,14 +175,27 @@ const UI = (() => {
     let _sessionIndex = 0;
     let _sessionCorrect = 0;
     let _answered = false;
+    let _sessionConsecutiveCorrect = 0;
+    let _sessionXPEarned = 0;
+    let _sessionLevelUps = [];
+    let _examMode = false;
+    let _examTimer = null;
+    let _examTimeLeft = 0;
 
-    function startStudySession(questions) {
+    function startStudySession(questions, options) {
+        _examMode = (options && options.examMode) || false;
         _sessionQuestions = questions;
         _sessionIndex = 0;
         _sessionCorrect = 0;
+        _sessionConsecutiveCorrect = 0;
+        _sessionXPEarned = 0;
+        _sessionLevelUps = [];
         if (questions.length === 0) {
             renderSessionSummary();
             return;
+        }
+        if (_examMode && options && options.timeLimit) {
+            startExamTimer(options.timeLimit);
         }
         showScreen('study');
         renderQuestion();
@@ -152,7 +232,36 @@ const UI = (() => {
 
         const q = _sessionQuestions[_sessionIndex];
         const wasCorrect = QuizEngine.recordAnswer(q, selectedIndex);
-        if (wasCorrect) _sessionCorrect++;
+        if (wasCorrect) {
+            _sessionCorrect++;
+            _sessionConsecutiveCorrect++;
+            const earned = Progress.addXP(q.level, _sessionConsecutiveCorrect);
+            _sessionXPEarned += earned;
+            showXPFlyup(earned);
+            updateStatsBar();
+        } else {
+            _sessionConsecutiveCorrect = 0;
+        }
+
+        // Check for level-up
+        if (wasCorrect && Progress.isLevelPassed(q.conceptId, q.level)) {
+            const chapters = ContentLoader.getChapters();
+            for (const ch of chapters) {
+                const concept = ch.concepts.find(c => c.id === q.conceptId);
+                if (concept) {
+                    _sessionLevelUps.push({ term: concept.term, level: q.level });
+                    break;
+                }
+            }
+        }
+
+        if (_examMode) {
+            // Brief highlight then auto-advance
+            const btns = document.querySelectorAll('#choices .choice-btn');
+            btns[selectedIndex].classList.add('selected-neutral');
+            setTimeout(() => nextQuestion(), 300);
+            return;
+        }
 
         // Highlight choices
         const btns = document.querySelectorAll('#choices .choice-btn');
@@ -186,6 +295,75 @@ const UI = (() => {
         Sync.onAnswer();
     }
 
+    function showRecallAnswer() {
+        const q = _sessionQuestions[_sessionIndex];
+        const container = document.getElementById('choices');
+        container.classList.remove('recall-hidden');
+        document.getElementById('btn-show-answer').classList.add('hidden');
+
+        // Highlight the correct answer
+        const btns = container.querySelectorAll('.choice-btn');
+        btns.forEach((btn, idx) => {
+            btn.classList.add('answered');
+            if (idx === q.correctIndex) {
+                btn.classList.add('reveal-correct');
+            }
+        });
+
+        // Show self-grade buttons
+        document.getElementById('self-grade').classList.remove('hidden');
+    }
+
+    function handleSelfGrade(knewIt) {
+        if (_answered) return;
+        _answered = true;
+
+        const q = _sessionQuestions[_sessionIndex];
+        const wasCorrect = knewIt;
+        Progress.recordConceptAnswer(q.conceptId, q.level, wasCorrect);
+        Progress.recordQuestionAnswer(q.questionKey, wasCorrect);
+
+        if (wasCorrect) {
+            _sessionCorrect++;
+            _sessionConsecutiveCorrect++;
+            const earned = Progress.addXP(q.level, _sessionConsecutiveCorrect);
+            _sessionXPEarned += earned;
+            showXPFlyup(earned);
+            updateStatsBar();
+        } else {
+            _sessionConsecutiveCorrect = 0;
+        }
+
+        // Check for level-up
+        if (wasCorrect && Progress.isLevelPassed(q.conceptId, q.level)) {
+            const chapters = ContentLoader.getChapters();
+            for (const ch of chapters) {
+                const concept = ch.concepts.find(c => c.id === q.conceptId);
+                if (concept) {
+                    _sessionLevelUps.push({ term: concept.term, level: q.level });
+                    break;
+                }
+            }
+        }
+
+        document.getElementById('self-grade').classList.add('hidden');
+
+        // Show feedback
+        const feedback = document.getElementById('feedback');
+        const feedbackText = document.getElementById('feedback-text');
+        feedback.classList.remove('hidden', 'correct', 'incorrect');
+        if (wasCorrect) {
+            feedback.classList.add('correct');
+            feedbackText.textContent = 'Marked as known!';
+        } else {
+            feedback.classList.add('incorrect');
+            feedbackText.textContent = 'Marked for review. The answer is: ' + q.choices[q.correctIndex];
+        }
+
+        document.getElementById('btn-next').classList.remove('hidden');
+        Sync.onAnswer();
+    }
+
     function nextQuestion() {
         _sessionIndex++;
         if (_sessionIndex >= _sessionQuestions.length) {
@@ -195,19 +373,113 @@ const UI = (() => {
         }
     }
 
+    function startExamTimer(minutes) {
+        const timerEl = document.getElementById('study-progress-label');
+        if (!minutes) return;
+        _examTimeLeft = minutes * 60;
+        _examTimer = setInterval(() => {
+            _examTimeLeft--;
+            const m = Math.floor(_examTimeLeft / 60);
+            const s = String(_examTimeLeft % 60).padStart(2, '0');
+            timerEl.textContent = m + ':' + s;
+            if (_examTimeLeft <= 0) {
+                clearInterval(_examTimer);
+                _examTimer = null;
+                renderSessionSummary();
+            }
+        }, 1000);
+    }
+
     function renderSessionSummary() {
+        if (_examTimer) { clearInterval(_examTimer); _examTimer = null; }
         showScreen('summary');
         const total = _sessionQuestions.length;
-        document.getElementById('summary-score').textContent =
-            total > 0 ? `${_sessionCorrect}/${total}` : 'No questions available';
+
+        // Update daily streak
+        if (total > 0) Progress.updateDailyStreak();
+
+        const scoreEl = document.getElementById('summary-score');
+        scoreEl.textContent = total > 0 ? _sessionCorrect + '/' + total : '';
 
         const details = document.getElementById('summary-details');
+        let html = '';
+
         if (total === 0) {
-            details.innerHTML = 'All concepts in this chapter are mastered and no reviews are due. Nice work!';
+            html = 'All concepts mastered and no reviews are due. Nice work!';
         } else {
             const pct = Math.round((_sessionCorrect / total) * 100);
-            details.innerHTML = `You answered ${pct}% correctly this session.`;
+            html += '<div class="summary-stat">' + pct + '% correct</div>';
+
+            if (_sessionXPEarned > 0) {
+                html += '<div class="summary-stat summary-xp">+' + _sessionXPEarned + ' XP earned</div>';
+            }
+
+            const streak = Progress.getDailyStreak();
+            if (streak > 1) {
+                html += '<div class="summary-stat summary-streak">' + streak + ' day streak!</div>';
+            }
+
+            if (_sessionLevelUps.length > 0) {
+                html += '<div class="summary-levelups">';
+                for (const lu of _sessionLevelUps) {
+                    html += '<div class="summary-levelup">\u2713 ' + lu.term + ' \u2014 Level ' + lu.level + ' passed</div>';
+                }
+                html += '</div>';
+            }
         }
+        details.innerHTML = html;
+
+        // Update stats bar
+        updateStatsBar();
+
+        // Sync at session end
+        Sync.pushProgress();
+    }
+
+    // --- XP Flyup ---
+
+    function showXPFlyup(amount) {
+        const el = document.getElementById('xp-flyup');
+        el.textContent = '+' + amount + ' XP';
+        el.classList.remove('hidden');
+        el.style.animation = 'none';
+        el.offsetHeight; // Trigger reflow
+        el.style.animation = '';
+        setTimeout(() => el.classList.add('hidden'), 1000);
+    }
+
+    // --- Stats Bar Update ---
+
+    function updateStatsBar() {
+        document.getElementById('stat-xp').textContent = Progress.getXP();
+        document.getElementById('stat-streak').textContent = Progress.getDailyStreak();
+    }
+
+    // --- Leaderboard ---
+
+    async function renderLeaderboard() {
+        const listEl = document.getElementById('leaderboard-list');
+        listEl.innerHTML = '<p class="text-secondary">Loading...</p>';
+
+        const data = await Sync.fetchLeaderboard();
+        if (!data || data.length === 0) {
+            listEl.innerHTML = '<p class="text-secondary">No leaderboard data yet. Complete a study session to appear!</p>';
+            return;
+        }
+
+        const myName = Progress.getStudentName();
+        listEl.innerHTML = '';
+        data.forEach((entry, idx) => {
+            const row = document.createElement('div');
+            row.className = 'leaderboard-row';
+            const isYou = myName && entry.name.startsWith(myName.split(' ')[0]);
+            row.innerHTML =
+                '<span class="leaderboard-rank ' + (idx < 3 ? 'top-3' : '') + '">' + (idx + 1) + '</span>' +
+                '<span class="leaderboard-name ' + (isYou ? 'is-you' : '') + '">' + entry.name + (isYou ? ' (you)' : '') + '</span>' +
+                '<span class="leaderboard-xp">' + entry.xp + ' XP</span>' +
+                '<span class="leaderboard-mastery">' + entry.mastery + '%</span>';
+            listEl.appendChild(row);
+        });
     }
 
     // --- Keyboard shortcut ---
@@ -221,5 +493,7 @@ const UI = (() => {
         init, showScreen,
         renderDashboard, renderChapterDetail,
         startStudySession, nextQuestion, handleKeydown,
+        showRecallAnswer, handleSelfGrade,
+        showXPFlyup, updateStatsBar, renderLeaderboard,
     };
 })();
