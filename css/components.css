@@ -434,6 +434,22 @@
     padding: 4px 0;
 }
 
+/* Recall mode */
+.recall-hidden {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/* Self-grade buttons (recall mode) */
+.self-grade {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+.self-grade .btn {
+    flex: 1;
+}
+
 /* Text helper */
 .text-secondary {
     color: var(--color-text-secondary);

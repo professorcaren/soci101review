@@ -111,7 +111,7 @@ const App = (() => {
             if (_currentChapterId) {
                 const chapter = ContentLoader.getChapter(_currentChapterId);
                 const session = QuizEngine.buildExamSession(chapter);
-                UI.startStudySession(session);
+                UI.startStudySession(session, { examMode: true });
                 window.location.hash = 'study';
             }
         });
@@ -128,6 +128,17 @@ const App = (() => {
         document.getElementById('btn-refresh-leaderboard').addEventListener('click', () => {
             if (Sync.clearLeaderboardCache) Sync.clearLeaderboardCache();
             UI.renderLeaderboard();
+        });
+
+        // Recall mode (show answer / self-grade)
+        document.getElementById('btn-show-answer').addEventListener('click', () => {
+            UI.showRecallAnswer();
+        });
+        document.getElementById('btn-knew-it').addEventListener('click', () => {
+            UI.handleSelfGrade(true);
+        });
+        document.getElementById('btn-didnt-know').addEventListener('click', () => {
+            UI.handleSelfGrade(false);
         });
 
         // Keyboard
