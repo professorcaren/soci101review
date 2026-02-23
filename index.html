@@ -51,6 +51,7 @@
                 </div>
             </header>
             <div id="chapter-grid" class="chapter-grid"></div>
+            <button id="btn-study-selected" class="btn btn-primary btn-study-selected hidden">Study Selected (0)</button>
         </div>
     </div>
 
@@ -74,7 +75,11 @@
                     <div class="progress-fill"></div>
                 </div>
                 <p id="chapter-stats" class="chapter-stats"></p>
-                <button id="btn-exam-mode" class="btn btn-secondary btn-small" style="margin-top:12px;">Exam Mode</button>
+                <div class="chapter-mode-buttons">
+                    <button id="btn-exam-mode" class="btn btn-secondary btn-small">Exam Mode</button>
+                    <button id="btn-speed-round" class="btn btn-secondary btn-small">Speed Round</button>
+                    <button id="btn-marathon" class="btn btn-secondary btn-small">Marathon</button>
+                </div>
             </div>
             <div id="concept-list" class="concept-list"></div>
         </div>
@@ -100,6 +105,7 @@
                     <p id="feedback-text"></p>
                 </div>
                 <button id="btn-next" class="btn btn-primary btn-next hidden">Next</button>
+                <button id="btn-end-marathon" class="btn btn-secondary btn-end-marathon hidden">End Marathon</button>
             </div>
         </div>
     </div>

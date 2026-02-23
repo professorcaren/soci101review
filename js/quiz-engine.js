@@ -170,6 +170,8 @@ const QuizEngine = (() => {
             choices,
             correctIndex: choices.indexOf(correctDef),
             _inProgress: Progress.isConceptStarted(concept.id),
+            _term: concept.term,
+            _definition: concept.definition,
         };
     }
 
@@ -194,6 +196,8 @@ const QuizEngine = (() => {
             choices,
             correctIndex: choices.indexOf(correctTerm),
             _inProgress: true,
+            _term: concept.term,
+            _definition: concept.definition,
         };
     }
 
@@ -210,6 +214,8 @@ const QuizEngine = (() => {
             choices: qData.choices,
             correctIndex: qData.correct,
             _inProgress: true,
+            _term: concept.term,
+            _definition: concept.definition,
         };
     }
 
@@ -267,5 +273,50 @@ const QuizEngine = (() => {
         return wasCorrect;
     }
 
-    return { buildSession, buildExamSession, recordAnswer, setSessionSize, getSessionSize };
+    /**
+     * Speed round: L1 questions for all non-skipped concepts, no size limit.
+     */
+    function buildSpeedSession(chapters) {
+        if (!Array.isArray(chapters)) chapters = [chapters];
+        const questions = [];
+        for (const chapter of chapters) {
+            for (const concept of chapter.concepts) {
+                if (Progress.isConceptSkipped(concept.id)) continue;
+                questions.push(makeLevel1Question(chapter, concept));
+            }
+        }
+        return shuffle(questions);
+    }
+
+    /**
+     * Marathon: questions for all started-but-not-mastered concepts at their current level.
+     */
+    function buildMarathonSession(chapters) {
+        if (!Array.isArray(chapters)) chapters = [chapters];
+        const questions = [];
+        for (const chapter of chapters) {
+            for (const concept of chapter.concepts) {
+                if (Progress.isConceptSkipped(concept.id)) continue;
+                if (!Progress.isConceptStarted(concept.id)) continue;
+                const hasL3 = concept.level3_question_ids.length > 0;
+                const currentLevel = Progress.getCurrentLevel(concept.id, hasL3);
+                if (currentLevel === 0) continue; // mastered
+                if (currentLevel === 1) {
+                    questions.push(makeLevel1Question(chapter, concept));
+                } else if (currentLevel === 2) {
+                    questions.push(makeLevel2Question(chapter, concept));
+                } else if (currentLevel === 3) {
+                    const qIds = concept.level3_question_ids;
+                    if (qIds.length > 0) {
+                        const randomId = qIds[Math.floor(Math.random() * qIds.length)];
+                        const qData = chapter.chapter_questions.find(cq => cq.id === randomId);
+                        if (qData) questions.push(makeLevel3FromData(qData, concept));
+                    }
+                }
+            }
+        }
+        return shuffle(questions);
+    }
+
+    return { buildSession, buildExamSession, buildSpeedSession, buildMarathonSession, recordAnswer, setSessionSize, getSessionSize };
 })();

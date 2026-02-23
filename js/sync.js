@@ -17,7 +17,9 @@ const Sync = (() => {
 
     async function pushProgress() {
         if (!APPS_SCRIPT_URL) return;
-        const payload = Progress.getSyncPayload(ContentLoader.getChapters());
+        const chapters = ContentLoader.getChapters();
+        const payload = Progress.getSyncPayload(chapters);
+        payload.analytics = Progress.getAnalyticsPayload(chapters);
         try {
             await fetch(APPS_SCRIPT_URL, {
                 method: 'POST',

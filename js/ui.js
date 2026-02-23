@@ -21,6 +21,8 @@ const UI = (() => {
 
     // --- Dashboard ---
 
+    let _selectedChapterIds = new Set();
+
     function renderDashboard() {
         const grid = document.getElementById('chapter-grid');
         grid.innerHTML = '';
@@ -50,14 +52,46 @@ const UI = (() => {
                     : stats.started > 0
                         ? `${stats.started} concept${stats.started === 1 ? '' : 's'} started`
                         : `${stats.total} concepts`;
+
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.className = 'chapter-card-checkbox';
+            checkbox.checked = _selectedChapterIds.has(ch.id);
+            checkbox.addEventListener('click', (e) => e.stopPropagation());
+            checkbox.addEventListener('change', (e) => {
+                if (e.target.checked) {
+                    _selectedChapterIds.add(ch.id);
+                } else {
+                    _selectedChapterIds.delete(ch.id);
+                }
+                updateStudySelectedButton();
+            });
+
             card.innerHTML = `
                 <div class="chapter-card-title">${ch.name}</div>
                 <div class="chapter-card-stats">${statusText}</div>
                 <div class="progress-bar"><div class="progress-fill${fillClass}" style="width:${stats.pct}%"></div></div>
             `;
+            card.prepend(checkbox);
             card.addEventListener('click', () => App.showChapter(ch.id));
             grid.appendChild(card);
         }
+        updateStudySelectedButton();
+    }
+
+    function updateStudySelectedButton() {
+        const btn = document.getElementById('btn-study-selected');
+        const count = _selectedChapterIds.size;
+        if (count >= 2) {
+            btn.textContent = 'Study Selected (' + count + ')';
+            btn.classList.remove('hidden');
+        } else {
+            btn.classList.add('hidden');
+        }
+    }
+
+    function getSelectedChapterIds() {
+        return _selectedChapterIds;
     }
 
     // --- Chapter Detail ---
@@ -181,9 +215,15 @@ const UI = (() => {
     let _examMode = false;
     let _examTimer = null;
     let _examTimeLeft = 0;
+    let _speedMode = false;
+    let _speedTimer = null;
+    let _speedTimeLeft = 0;
+    let _marathonMode = false;
 
     function startStudySession(questions, options) {
         _examMode = (options && options.examMode) || false;
+        _speedMode = (options && options.speedMode) || false;
+        _marathonMode = (options && options.marathonMode) || false;
         _sessionQuestions = questions;
         _sessionIndex = 0;
         _sessionCorrect = 0;
@@ -197,6 +237,15 @@ const UI = (() => {
         if (_examMode && options && options.timeLimit) {
             startExamTimer(options.timeLimit);
         }
+        // Speed mode timer
+        if (_speedMode) {
+            startSpeedTimer();
+        }
+        // Marathon mode: show end button
+        const endMarathonBtn = document.getElementById('btn-end-marathon');
+        if (endMarathonBtn) {
+            endMarathonBtn.classList.toggle('hidden', !_marathonMode);
+        }
         showScreen('study');
         renderQuestion();
     }
@@ -204,8 +253,10 @@ const UI = (() => {
     function renderQuestion() {
         _answered = false;
         const q = _sessionQuestions[_sessionIndex];
-        document.getElementById('study-progress-label').textContent =
-            `${_sessionIndex + 1} / ${_sessionQuestions.length}`;
+        if (!_speedMode) {
+            document.getElementById('study-progress-label').textContent =
+                (_sessionIndex + 1) + ' / ' + _sessionQuestions.length;
+        }
         document.getElementById('question-level').textContent = q.levelLabel;
         document.getElementById('question-text').innerHTML = q.text;
         document.getElementById('question-area').dataset.correctIndex = q.correctIndex;
@@ -255,6 +306,19 @@ const UI = (() => {
             }
         }
 
+        if (_speedMode) {
+            const btns = document.querySelectorAll('#choices .choice-btn');
+            if (wasCorrect) {
+                btns[selectedIndex].classList.add('selected-correct');
+                setTimeout(() => nextQuestion(), 100);
+            } else {
+                btns[selectedIndex].classList.add('selected-incorrect');
+                btns[q.correctIndex].classList.add('reveal-correct');
+                setTimeout(() => nextQuestion(), 500);
+            }
+            return;
+        }
+
         if (_examMode) {
             // Brief highlight then auto-advance
             const btns = document.querySelectorAll('#choices .choice-btn');
@@ -286,7 +350,17 @@ const UI = (() => {
             feedbackText.textContent = 'Correct!';
         } else {
             feedback.classList.add('incorrect');
-            feedbackText.textContent = `Incorrect. The answer is: ${q.choices[q.correctIndex]}`;
+            if (q._term && q._definition) {
+                if (q.level === 1) {
+                    feedbackText.innerHTML = 'The definition of <strong>' + q._term + '</strong> is: ' + q._definition;
+                } else if (q.level === 2) {
+                    feedbackText.innerHTML = 'That definition refers to <strong>' + q._term + '</strong>: ' + q._definition;
+                } else {
+                    feedbackText.innerHTML = 'The correct answer is: ' + q.choices[q.correctIndex] + '. This relates to <strong>' + q._term + '</strong>: ' + q._definition;
+                }
+            } else {
+                feedbackText.textContent = 'Incorrect. The answer is: ' + q.choices[q.correctIndex];
+            }
         }
 
         document.getElementById('btn-next').classList.remove('hidden');
@@ -390,8 +464,35 @@ const UI = (() => {
         }, 1000);
     }
 
+    function startSpeedTimer() {
+        _speedTimeLeft = 120;
+        const timerEl = document.getElementById('study-progress-label');
+        updateSpeedTimerDisplay(timerEl);
+        _speedTimer = setInterval(() => {
+            _speedTimeLeft--;
+            updateSpeedTimerDisplay(timerEl);
+            if (_speedTimeLeft <= 0) {
+                clearInterval(_speedTimer);
+                _speedTimer = null;
+                renderSessionSummary();
+            }
+        }, 1000);
+    }
+
+    function updateSpeedTimerDisplay(el) {
+        const m = Math.floor(_speedTimeLeft / 60);
+        const s = String(_speedTimeLeft % 60).padStart(2, '0');
+        el.textContent = m + ':' + s;
+        if (_speedTimeLeft <= 30) {
+            el.classList.add('timer-warning');
+        } else {
+            el.classList.remove('timer-warning');
+        }
+    }
+
     function renderSessionSummary() {
         if (_examTimer) { clearInterval(_examTimer); _examTimer = null; }
+        if (_speedTimer) { clearInterval(_speedTimer); _speedTimer = null; }
         showScreen('summary');
         const total = _sessionQuestions.length;
 
@@ -406,6 +507,26 @@ const UI = (() => {
 
         if (total === 0) {
             html = 'All concepts mastered and no reviews are due. Nice work!';
+        } else if (_speedMode) {
+            const rate = (total > 0 ? (_sessionCorrect / 2).toFixed(1) : '0');
+            html += '<div class="summary-stat">' + _sessionCorrect + ' correct in 2 minutes!</div>';
+            html += '<div class="summary-stat">' + rate + ' questions/minute</div>';
+            if (_sessionXPEarned > 0) {
+                html += '<div class="summary-stat summary-xp">+' + _sessionXPEarned + ' XP earned</div>';
+            }
+        } else if (_marathonMode) {
+            const pct = Math.round((_sessionCorrect / total) * 100);
+            html += '<div class="summary-stat">' + _sessionCorrect + ' of ' + total + ' correct (' + pct + '%)</div>';
+            if (_sessionXPEarned > 0) {
+                html += '<div class="summary-stat summary-xp">+' + _sessionXPEarned + ' XP earned</div>';
+            }
+            if (_sessionLevelUps.length > 0) {
+                html += '<div class="summary-levelups">';
+                for (const lu of _sessionLevelUps) {
+                    html += '<div class="summary-levelup">\u2713 ' + lu.term + ' \u2014 Level ' + lu.level + ' passed</div>';
+                }
+                html += '</div>';
+            }
         } else {
             const pct = Math.round((_sessionCorrect / total) * 100);
             html += '<div class="summary-stat">' + pct + '% correct</div>';
@@ -489,11 +610,16 @@ const UI = (() => {
         }
     }
 
+    function endSession() {
+        renderSessionSummary();
+    }
+
     return {
         init, showScreen,
         renderDashboard, renderChapterDetail,
         startStudySession, nextQuestion, handleKeydown,
         showRecallAnswer, handleSelfGrade,
         showXPFlyup, updateStatsBar, renderLeaderboard,
+        getSelectedChapterIds, endSession,
     };
 })();

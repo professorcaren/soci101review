@@ -23,6 +23,12 @@
             380,
             388,
             390
+          ],
+          "confusable_ids": [
+            "ch01_t03",
+            "ch01_t07",
+            "ch01_t04",
+            "ch01_t08"
           ]
         },
         {
@@ -50,6 +56,12 @@
             849,
             851,
             855
+          ],
+          "confusable_ids": [
+            "ch01_t14",
+            "ch01_t05",
+            "ch01_t03",
+            "ch01_t01"
           ]
         },
         {
@@ -61,6 +73,12 @@
             337,
             338,
             339
+          ],
+          "confusable_ids": [
+            "ch01_t01",
+            "ch01_t07",
+            "ch01_t04",
+            "ch01_t11"
           ]
         },
         {
@@ -72,6 +90,12 @@
             838,
             839,
             842
+          ],
+          "confusable_ids": [
+            "ch01_t03",
+            "ch01_t01",
+            "ch01_t07",
+            "ch01_t22"
           ]
         },
         {
@@ -82,6 +106,10 @@
             340,
             341,
             342
+          ],
+          "confusable_ids": [
+            "ch01_t02",
+            "ch01_t26"
           ]
         },
         {
@@ -95,6 +123,9 @@
             826,
             827,
             857
+          ],
+          "confusable_ids": [
+            "ch01_t04"
           ]
         },
         {
@@ -107,6 +138,12 @@
             345,
             346,
             347
+          ],
+          "confusable_ids": [
+            "ch01_t03",
+            "ch01_t01",
+            "ch01_t04",
+            "ch01_t08"
           ]
         },
         {
@@ -118,6 +155,11 @@
             344,
             346,
             347
+          ],
+          "confusable_ids": [
+            "ch01_t03",
+            "ch01_t01",
+            "ch01_t07"
           ]
         },
         {
@@ -129,6 +171,9 @@
             350,
             351,
             393
+          ],
+          "confusable_ids": [
+            "ch01_t25"
           ]
         },
         {
@@ -138,7 +183,8 @@
           "level3_question_ids": [
             227,
             228
-          ]
+          ],
+          "confusable_ids": []
         },
         {
           "id": "ch01_t11",
@@ -148,6 +194,10 @@
             355,
             356,
             357
+          ],
+          "confusable_ids": [
+            "ch01_t03",
+            "ch01_t01"
           ]
         },
         {
@@ -158,6 +208,12 @@
             358,
             359,
             360
+          ],
+          "confusable_ids": [
+            "ch01_t16",
+            "ch01_t03",
+            "ch01_t15",
+            "ch01_t01"
           ]
         },
         {
@@ -172,6 +228,12 @@
             832,
             841,
             842
+          ],
+          "confusable_ids": [
+            "ch01_t19",
+            "ch01_t25",
+            "ch01_t18",
+            "ch01_t22"
           ]
         },
         {
@@ -191,6 +253,12 @@
             849,
             850,
             851
+          ],
+          "confusable_ids": [
+            "ch01_t02",
+            "ch01_t24",
+            "ch01_t04",
+            "ch01_t16"
           ]
         },
         {
@@ -208,6 +276,12 @@
             848,
             850,
             851
+          ],
+          "confusable_ids": [
+            "ch01_t16",
+            "ch01_t12",
+            "ch01_t27",
+            "ch01_t18"
           ]
         },
         {
@@ -226,6 +300,12 @@
             849,
             850,
             851
+          ],
+          "confusable_ids": [
+            "ch01_t15",
+            "ch01_t12",
+            "ch01_t18",
+            "ch01_t14"
           ]
         },
         {
@@ -240,6 +320,12 @@
             847,
             850,
             851
+          ],
+          "confusable_ids": [
+            "ch01_t03",
+            "ch01_t23",
+            "ch01_t01",
+            "ch01_t02"
           ]
         },
         {
@@ -250,6 +336,12 @@
             370,
             371,
             372
+          ],
+          "confusable_ids": [
+            "ch01_t25",
+            "ch01_t16",
+            "ch01_t15",
+            "ch01_t22"
           ]
         },
         {
@@ -266,6 +358,12 @@
             841,
             842,
             853
+          ],
+          "confusable_ids": [
+            "ch01_t13",
+            "ch01_t21",
+            "ch01_t20",
+            "ch01_t03"
           ]
         },
         {
@@ -279,6 +377,12 @@
             376,
             377,
             378
+          ],
+          "confusable_ids": [
+            "ch01_t21",
+            "ch01_t27",
+            "ch01_t19",
+            "ch01_t25"
           ]
         },
         {
@@ -292,6 +396,12 @@
             376,
             377,
             378
+          ],
+          "confusable_ids": [
+            "ch01_t20",
+            "ch01_t27",
+            "ch01_t19",
+            "ch01_t25"
           ]
         },
         {
@@ -310,6 +420,12 @@
             840,
             841,
             842
+          ],
+          "confusable_ids": [
+            "ch01_t26",
+            "ch01_t25",
+            "ch01_t23",
+            "ch01_t04"
           ]
         },
         {
@@ -322,6 +438,12 @@
             384,
             389,
             828
+          ],
+          "confusable_ids": [
+            "ch01_t22",
+            "ch01_t03",
+            "ch01_t17",
+            "ch01_t01"
           ]
         },
         {
@@ -333,6 +455,12 @@
             386,
             387,
             851
+          ],
+          "confusable_ids": [
+            "ch01_t14",
+            "ch01_t03",
+            "ch01_t01",
+            "ch01_t02"
           ]
         },
         {
@@ -344,6 +472,12 @@
             388,
             389,
             390
+          ],
+          "confusable_ids": [
+            "ch01_t22",
+            "ch01_t26",
+            "ch01_t18",
+            "ch01_t13"
           ]
         },
         {
@@ -364,6 +498,12 @@
             840,
             841,
             842
+          ],
+          "confusable_ids": [
+            "ch01_t22",
+            "ch01_t25",
+            "ch01_t05",
+            "ch01_t18"
           ]
         },
         {
@@ -374,6 +514,11 @@
             391,
             392,
             393
+          ],
+          "confusable_ids": [
+            "ch01_t21",
+            "ch01_t20",
+            "ch01_t15"
           ]
         }
       ],
@@ -1713,6 +1858,12 @@
             677,
             679,
             680
+          ],
+          "confusable_ids": [
+            "ch02_t04",
+            "ch02_t24",
+            "ch02_t02",
+            "ch02_t32"
           ]
         },
         {
@@ -1724,6 +1875,12 @@
             679,
             680,
             681
+          ],
+          "confusable_ids": [
+            "ch02_t32",
+            "ch02_t01",
+            "ch02_t15",
+            "ch02_t22"
           ]
         },
         {
@@ -1735,6 +1892,12 @@
             669,
             673,
             675
+          ],
+          "confusable_ids": [
+            "ch02_t21",
+            "ch02_t25",
+            "ch02_t33",
+            "ch02_t24"
           ]
         },
         {
@@ -1745,6 +1908,12 @@
             660,
             661,
             669
+          ],
+          "confusable_ids": [
+            "ch02_t01",
+            "ch02_t24",
+            "ch02_t02",
+            "ch02_t32"
           ]
         },
         {
@@ -1763,6 +1932,12 @@
             738,
             739,
             740
+          ],
+          "confusable_ids": [
+            "ch02_t10",
+            "ch02_t08",
+            "ch02_t11",
+            "ch02_t06"
           ]
         },
         {
@@ -1779,6 +1954,12 @@
             714,
             726,
             738
+          ],
+          "confusable_ids": [
+            "ch02_t20",
+            "ch02_t07",
+            "ch02_t27",
+            "ch02_t05"
           ]
         },
         {
@@ -1789,6 +1970,12 @@
             701,
             703,
             704
+          ],
+          "confusable_ids": [
+            "ch02_t06",
+            "ch02_t27",
+            "ch02_t02",
+            "ch02_t32"
           ]
         },
         {
@@ -1811,6 +1998,12 @@
             728,
             729,
             730
+          ],
+          "confusable_ids": [
+            "ch02_t11",
+            "ch02_t05",
+            "ch02_t10",
+            "ch02_t06"
           ]
         },
         {
@@ -1825,6 +2018,12 @@
             696,
             697,
             698
+          ],
+          "confusable_ids": [
+            "ch02_t27",
+            "ch02_t30",
+            "ch02_t31",
+            "ch02_t10"
           ]
         },
         {
@@ -1838,6 +2037,12 @@
             728,
             729,
             730
+          ],
+          "confusable_ids": [
+            "ch02_t11",
+            "ch02_t26",
+            "ch02_t05",
+            "ch02_t08"
           ]
         },
         {
@@ -1856,6 +2061,12 @@
             728,
             729,
             730
+          ],
+          "confusable_ids": [
+            "ch02_t08",
+            "ch02_t10",
+            "ch02_t05",
+            "ch02_t31"
           ]
         },
         {
@@ -1868,6 +2079,11 @@
             672,
             676,
             714
+          ],
+          "confusable_ids": [
+            "ch02_t23",
+            "ch02_t14",
+            "ch02_t28"
           ]
         },
         {
@@ -1879,6 +2095,12 @@
             678,
             688,
             713
+          ],
+          "confusable_ids": [
+            "ch02_t22",
+            "ch02_t25",
+            "ch02_t33",
+            "ch02_t03"
           ]
         },
         {
@@ -1889,6 +2111,12 @@
             662,
             666,
             673
+          ],
+          "confusable_ids": [
+            "ch02_t21",
+            "ch02_t26",
+            "ch02_t23",
+            "ch02_t12"
           ]
         },
         {
@@ -1907,6 +2135,9 @@
             741,
             743,
             744
+          ],
+          "confusable_ids": [
+            "ch02_t02"
           ]
         },
         {
@@ -1916,6 +2147,11 @@
           "level3_question_ids": [
             667,
             668
+          ],
+          "confusable_ids": [
+            "ch02_t17",
+            "ch02_t33",
+            "ch02_t27"
           ]
         },
         {
@@ -1925,6 +2161,10 @@
           "level3_question_ids": [
             667,
             668
+          ],
+          "confusable_ids": [
+            "ch02_t16",
+            "ch02_t33"
           ]
         },
         {
@@ -1936,6 +2176,12 @@
             669,
             670,
             675
+          ],
+          "confusable_ids": [
+            "ch02_t19",
+            "ch02_t02",
+            "ch02_t32",
+            "ch02_t01"
           ]
         },
         {
@@ -1944,6 +2190,12 @@
           "definition": "The accuracy and trustworthiness of research methods and findings",
           "level3_question_ids": [
             723
+          ],
+          "confusable_ids": [
+            "ch02_t21",
+            "ch02_t18",
+            "ch02_t02",
+            "ch02_t32"
           ]
         },
         {
@@ -1954,6 +2206,11 @@
             664,
             670,
             675
+          ],
+          "confusable_ids": [
+            "ch02_t23",
+            "ch02_t06",
+            "ch02_t22"
           ]
         },
         {
@@ -1964,6 +2221,12 @@
             685,
             690,
             717
+          ],
+          "confusable_ids": [
+            "ch02_t29",
+            "ch02_t19",
+            "ch02_t14",
+            "ch02_t03"
           ]
         },
         {
@@ -1983,6 +2246,12 @@
             710,
             715,
             722
+          ],
+          "confusable_ids": [
+            "ch02_t13",
+            "ch02_t30",
+            "ch02_t23",
+            "ch02_t20"
           ]
         },
         {
@@ -1997,6 +2266,12 @@
             709,
             713,
             719
+          ],
+          "confusable_ids": [
+            "ch02_t20",
+            "ch02_t22",
+            "ch02_t14",
+            "ch02_t12"
           ]
         },
         {
@@ -2009,6 +2284,12 @@
             720,
             741,
             742
+          ],
+          "confusable_ids": [
+            "ch02_t04",
+            "ch02_t01",
+            "ch02_t28",
+            "ch02_t21"
           ]
         },
         {
@@ -2025,6 +2306,12 @@
             742,
             743,
             744
+          ],
+          "confusable_ids": [
+            "ch02_t31",
+            "ch02_t26",
+            "ch02_t13",
+            "ch02_t28"
           ]
         },
         {
@@ -2041,6 +2328,12 @@
             732,
             734,
             737
+          ],
+          "confusable_ids": [
+            "ch02_t27",
+            "ch02_t10",
+            "ch02_t09",
+            "ch02_t25"
           ]
         },
         {
@@ -2056,6 +2349,12 @@
             733,
             736,
             739
+          ],
+          "confusable_ids": [
+            "ch02_t26",
+            "ch02_t09",
+            "ch02_t10",
+            "ch02_t06"
           ]
         },
         {
@@ -2067,6 +2366,12 @@
             665,
             672,
             676
+          ],
+          "confusable_ids": [
+            "ch02_t24",
+            "ch02_t25",
+            "ch02_t30",
+            "ch02_t23"
           ]
         },
         {
@@ -2077,6 +2382,12 @@
             690,
             721,
             723
+          ],
+          "confusable_ids": [
+            "ch02_t21",
+            "ch02_t02",
+            "ch02_t32",
+            "ch02_t01"
           ]
         },
         {
@@ -2087,6 +2398,12 @@
             666,
             673,
             674
+          ],
+          "confusable_ids": [
+            "ch02_t31",
+            "ch02_t09",
+            "ch02_t22",
+            "ch02_t28"
           ]
         },
         {
@@ -2096,6 +2413,12 @@
           "level3_question_ids": [
             666,
             674
+          ],
+          "confusable_ids": [
+            "ch02_t30",
+            "ch02_t25",
+            "ch02_t09",
+            "ch02_t11"
           ]
         },
         {
@@ -2109,6 +2432,12 @@
             673,
             674,
             675
+          ],
+          "confusable_ids": [
+            "ch02_t02",
+            "ch02_t01",
+            "ch02_t22",
+            "ch02_t29"
           ]
         },
         {
@@ -2124,6 +2453,12 @@
             694,
             707,
             717
+          ],
+          "confusable_ids": [
+            "ch02_t16",
+            "ch02_t17",
+            "ch02_t01",
+            "ch02_t25"
           ]
         }
       ],
@@ -3175,6 +3510,12 @@
             784,
             785,
             786
+          ],
+          "confusable_ids": [
+            "ch03_t02",
+            "ch03_t20",
+            "ch03_t17",
+            "ch03_t06"
           ]
         },
         {
@@ -3185,6 +3526,12 @@
             785,
             786,
             1088
+          ],
+          "confusable_ids": [
+            "ch03_t01",
+            "ch03_t20",
+            "ch03_t22",
+            "ch03_t19"
           ]
         },
         {
@@ -3194,6 +3541,12 @@
           "level3_question_ids": [
             790,
             1104
+          ],
+          "confusable_ids": [
+            "ch03_t04",
+            "ch03_t10",
+            "ch03_t17",
+            "ch03_t21"
           ]
         },
         {
@@ -3204,6 +3557,12 @@
             785,
             787,
             790
+          ],
+          "confusable_ids": [
+            "ch03_t03",
+            "ch03_t17",
+            "ch03_t01",
+            "ch03_t21"
           ]
         },
         {
@@ -3212,6 +3571,9 @@
           "definition": "Theory that language shapes how people think and perceive reality",
           "level3_question_ids": [
             1102
+          ],
+          "confusable_ids": [
+            "ch03_t12"
           ]
         },
         {
@@ -3242,6 +3604,12 @@
             1126,
             1128,
             1130
+          ],
+          "confusable_ids": [
+            "ch03_t01",
+            "ch03_t02",
+            "ch03_t19",
+            "ch03_t20"
           ]
         },
         {
@@ -3261,6 +3629,12 @@
             1108,
             1109,
             1128
+          ],
+          "confusable_ids": [
+            "ch03_t09",
+            "ch03_t21",
+            "ch03_t20",
+            "ch03_t16"
           ]
         },
         {
@@ -3275,6 +3649,11 @@
             1112,
             1125,
             1128
+          ],
+          "confusable_ids": [
+            "ch03_t07",
+            "ch03_t20",
+            "ch03_t09"
           ]
         },
         {
@@ -3286,6 +3665,12 @@
             787,
             788,
             1112
+          ],
+          "confusable_ids": [
+            "ch03_t07",
+            "ch03_t13",
+            "ch03_t21",
+            "ch03_t20"
           ]
         },
         {
@@ -3294,6 +3679,12 @@
           "definition": "Objects or gestures that carry a particular meaning in a culture",
           "level3_question_ids": [
             787
+          ],
+          "confusable_ids": [
+            "ch03_t11",
+            "ch03_t03",
+            "ch03_t17",
+            "ch03_t04"
           ]
         },
         {
@@ -3302,6 +3693,10 @@
           "definition": "Body movements that communicate meaning",
           "level3_question_ids": [
             787
+          ],
+          "confusable_ids": [
+            "ch03_t10",
+            "ch03_t12"
           ]
         },
         {
@@ -3315,6 +3710,11 @@
             1115,
             1118,
             1121
+          ],
+          "confusable_ids": [
+            "ch03_t05",
+            "ch03_t11",
+            "ch03_t22"
           ]
         },
         {
@@ -3329,6 +3729,12 @@
             1112,
             1113,
             1128
+          ],
+          "confusable_ids": [
+            "ch03_t07",
+            "ch03_t09",
+            "ch03_t14",
+            "ch03_t15"
           ]
         },
         {
@@ -3337,6 +3743,12 @@
           "definition": "Actions that are strictly forbidden by cultural norms",
           "level3_question_ids": [
             1111
+          ],
+          "confusable_ids": [
+            "ch03_t22",
+            "ch03_t19",
+            "ch03_t07",
+            "ch03_t13"
           ]
         },
         {
@@ -3346,6 +3758,12 @@
           "level3_question_ids": [
             1092,
             1093
+          ],
+          "confusable_ids": [
+            "ch03_t16",
+            "ch03_t07",
+            "ch03_t14",
+            "ch03_t13"
           ]
         },
         {
@@ -3357,6 +3775,12 @@
             1096,
             1113,
             1130
+          ],
+          "confusable_ids": [
+            "ch03_t15",
+            "ch03_t21",
+            "ch03_t07",
+            "ch03_t09"
           ]
         },
         {
@@ -3368,6 +3792,12 @@
             1100,
             1101,
             1116
+          ],
+          "confusable_ids": [
+            "ch03_t18",
+            "ch03_t21",
+            "ch03_t20",
+            "ch03_t03"
           ]
         },
         {
@@ -3379,6 +3809,12 @@
             1114,
             1115,
             1117
+          ],
+          "confusable_ids": [
+            "ch03_t17",
+            "ch03_t21",
+            "ch03_t19",
+            "ch03_t22"
           ]
         },
         {
@@ -3391,6 +3827,12 @@
             1101,
             1116,
             1117
+          ],
+          "confusable_ids": [
+            "ch03_t22",
+            "ch03_t18",
+            "ch03_t02",
+            "ch03_t14"
           ]
         },
         {
@@ -3403,6 +3845,12 @@
             1104,
             1105,
             1107
+          ],
+          "confusable_ids": [
+            "ch03_t07",
+            "ch03_t01",
+            "ch03_t17",
+            "ch03_t02"
           ]
         },
         {
@@ -3416,6 +3864,12 @@
             1106,
             1107,
             1108
+          ],
+          "confusable_ids": [
+            "ch03_t18",
+            "ch03_t07",
+            "ch03_t17",
+            "ch03_t16"
           ]
         },
         {
@@ -3429,6 +3883,12 @@
             1119,
             1120,
             1121
+          ],
+          "confusable_ids": [
+            "ch03_t19",
+            "ch03_t02",
+            "ch03_t18",
+            "ch03_t14"
           ]
         },
         {
@@ -3438,6 +3898,12 @@
           "level3_question_ids": [
             789,
             791
+          ],
+          "confusable_ids": [
+            "ch03_t22",
+            "ch03_t19",
+            "ch03_t02",
+            "ch03_t17"
           ]
         }
       ],
@@ -4225,6 +4691,12 @@
             808,
             810,
             812
+          ],
+          "confusable_ids": [
+            "ch04_t16",
+            "ch04_t13",
+            "ch04_t12",
+            "ch04_t11"
           ]
         },
         {
@@ -4254,6 +4726,12 @@
             803,
             804,
             811
+          ],
+          "confusable_ids": [
+            "ch04_t27",
+            "ch04_t04",
+            "ch04_t03",
+            "ch04_t21"
           ]
         },
         {
@@ -4278,6 +4756,12 @@
             792,
             804,
             811
+          ],
+          "confusable_ids": [
+            "ch04_t04",
+            "ch04_t02",
+            "ch04_t27",
+            "ch04_t05"
           ]
         },
         {
@@ -4286,6 +4770,12 @@
           "definition": "Theory that the self develops through social interaction and role-taking",
           "level3_question_ids": [
             793
+          ],
+          "confusable_ids": [
+            "ch04_t03",
+            "ch04_t02",
+            "ch04_t08",
+            "ch04_t11"
           ]
         },
         {
@@ -4296,6 +4786,12 @@
             241,
             792,
             793
+          ],
+          "confusable_ids": [
+            "ch04_t13",
+            "ch04_t03",
+            "ch04_t23",
+            "ch04_t25"
           ]
         },
         {
@@ -4305,6 +4801,10 @@
           "level3_question_ids": [
             794,
             803
+          ],
+          "confusable_ids": [
+            "ch04_t07",
+            "ch04_t13"
           ]
         },
         {
@@ -4313,6 +4813,12 @@
           "definition": "How people understand and interpret social situations",
           "level3_question_ids": [
             798
+          ],
+          "confusable_ids": [
+            "ch04_t06",
+            "ch04_t13",
+            "ch04_t11",
+            "ch04_t17"
           ]
         },
         {
@@ -4323,6 +4829,12 @@
             276,
             796,
             804
+          ],
+          "confusable_ids": [
+            "ch04_t04",
+            "ch04_t10",
+            "ch04_t03",
+            "ch04_t11"
           ]
         },
         {
@@ -4338,6 +4850,11 @@
             794,
             798,
             803
+          ],
+          "confusable_ids": [
+            "ch04_t15",
+            "ch04_t28",
+            "ch04_t03"
           ]
         },
         {
@@ -4352,6 +4869,12 @@
             811,
             981,
             982
+          ],
+          "confusable_ids": [
+            "ch04_t08",
+            "ch04_t23",
+            "ch04_t27",
+            "ch04_t11"
           ]
         },
         {
@@ -4361,6 +4884,12 @@
           "level3_question_ids": [
             803,
             811
+          ],
+          "confusable_ids": [
+            "ch04_t04",
+            "ch04_t17",
+            "ch04_t20",
+            "ch04_t18"
           ]
         },
         {
@@ -4370,6 +4899,12 @@
           "level3_question_ids": [
             798,
             807
+          ],
+          "confusable_ids": [
+            "ch04_t21",
+            "ch04_t19",
+            "ch04_t01",
+            "ch04_t16"
           ]
         },
         {
@@ -4383,6 +4918,12 @@
             248,
             799,
             812
+          ],
+          "confusable_ids": [
+            "ch04_t01",
+            "ch04_t07",
+            "ch04_t15",
+            "ch04_t25"
           ]
         },
         {
@@ -4394,6 +4935,9 @@
             805,
             810,
             812
+          ],
+          "confusable_ids": [
+            "ch04_t16"
           ]
         },
         {
@@ -4407,6 +4951,10 @@
             253,
             254,
             279
+          ],
+          "confusable_ids": [
+            "ch04_t13",
+            "ch04_t09"
           ]
         },
         {
@@ -4418,6 +4966,12 @@
             807,
             810,
             812
+          ],
+          "confusable_ids": [
+            "ch04_t01",
+            "ch04_t14",
+            "ch04_t13",
+            "ch04_t12"
           ]
         },
         {
@@ -4447,6 +5001,12 @@
             807,
             808,
             809
+          ],
+          "confusable_ids": [
+            "ch04_t21",
+            "ch04_t20",
+            "ch04_t18",
+            "ch04_t19"
           ]
         },
         {
@@ -4455,6 +5015,12 @@
           "definition": "Social position assigned at birth or involuntarily",
           "level3_question_ids": [
             809
+          ],
+          "confusable_ids": [
+            "ch04_t17",
+            "ch04_t20",
+            "ch04_t21",
+            "ch04_t19"
           ]
         },
         {
@@ -4464,6 +5030,12 @@
           "level3_question_ids": [
             802,
             808
+          ],
+          "confusable_ids": [
+            "ch04_t22",
+            "ch04_t21",
+            "ch04_t17",
+            "ch04_t20"
           ]
         },
         {
@@ -4473,6 +5045,12 @@
           "level3_question_ids": [
             275,
             806
+          ],
+          "confusable_ids": [
+            "ch04_t17",
+            "ch04_t18",
+            "ch04_t21",
+            "ch04_t19"
           ]
         },
         {
@@ -4485,6 +5063,12 @@
             231,
             267,
             809
+          ],
+          "confusable_ids": [
+            "ch04_t17",
+            "ch04_t19",
+            "ch04_t20",
+            "ch04_t18"
           ]
         },
         {
@@ -4517,6 +5101,12 @@
             808,
             811,
             981
+          ],
+          "confusable_ids": [
+            "ch04_t19",
+            "ch04_t24",
+            "ch04_t21",
+            "ch04_t23"
           ]
         },
         {
@@ -4532,6 +5122,12 @@
             805,
             807,
             811
+          ],
+          "confusable_ids": [
+            "ch04_t24",
+            "ch04_t22",
+            "ch04_t27",
+            "ch04_t13"
           ]
         },
         {
@@ -4547,6 +5143,11 @@
             795,
             802,
             808
+          ],
+          "confusable_ids": [
+            "ch04_t22",
+            "ch04_t23",
+            "ch04_t04"
           ]
         },
         {
@@ -4559,6 +5160,12 @@
             807,
             983,
             984
+          ],
+          "confusable_ids": [
+            "ch04_t13",
+            "ch04_t23",
+            "ch04_t05",
+            "ch04_t11"
           ]
         },
         {
@@ -4568,7 +5175,8 @@
           "level3_question_ids": [
             806,
             808
-          ]
+          ],
+          "confusable_ids": []
         },
         {
           "id": "ch04_t27",
@@ -4577,6 +5185,12 @@
           "level3_question_ids": [
             802,
             803
+          ],
+          "confusable_ids": [
+            "ch04_t02",
+            "ch04_t04",
+            "ch04_t03",
+            "ch04_t23"
           ]
         },
         {
@@ -4586,6 +5200,10 @@
           "level3_question_ids": [
             803,
             804
+          ],
+          "confusable_ids": [
+            "ch04_t09",
+            "ch04_t03"
           ]
         }
       ],
@@ -5547,6 +6165,12 @@
             656,
             658,
             659
+          ],
+          "confusable_ids": [
+            "ch05_t04",
+            "ch05_t19",
+            "ch05_t02",
+            "ch05_t15"
           ]
         },
         {
@@ -5556,6 +6180,12 @@
           "level3_question_ids": [
             281,
             648
+          ],
+          "confusable_ids": [
+            "ch05_t04",
+            "ch05_t01",
+            "ch05_t08",
+            "ch05_t03"
           ]
         },
         {
@@ -5565,6 +6195,12 @@
           "level3_question_ids": [
             280,
             281
+          ],
+          "confusable_ids": [
+            "ch05_t08",
+            "ch05_t07",
+            "ch05_t17",
+            "ch05_t19"
           ]
         },
         {
@@ -5575,6 +6211,12 @@
             281,
             282,
             283
+          ],
+          "confusable_ids": [
+            "ch05_t01",
+            "ch05_t02",
+            "ch05_t08",
+            "ch05_t03"
           ]
         },
         {
@@ -5595,6 +6237,12 @@
             99,
             100,
             656
+          ],
+          "confusable_ids": [
+            "ch05_t06",
+            "ch05_t09",
+            "ch05_t10",
+            "ch05_t12"
           ]
         },
         {
@@ -5611,6 +6259,11 @@
             98,
             100,
             656
+          ],
+          "confusable_ids": [
+            "ch05_t05",
+            "ch05_t26",
+            "ch05_t28"
           ]
         },
         {
@@ -5621,6 +6274,12 @@
             102,
             650,
             658
+          ],
+          "confusable_ids": [
+            "ch05_t08",
+            "ch05_t03",
+            "ch05_t11",
+            "ch05_t17"
           ]
         },
         {
@@ -5629,6 +6288,12 @@
           "definition": "Connections between people in a social network",
           "level3_question_ids": [
             86
+          ],
+          "confusable_ids": [
+            "ch05_t07",
+            "ch05_t03",
+            "ch05_t17",
+            "ch05_t19"
           ]
         },
         {
@@ -5639,6 +6304,12 @@
             649,
             650,
             656
+          ],
+          "confusable_ids": [
+            "ch05_t10",
+            "ch05_t05",
+            "ch05_t12",
+            "ch05_t28"
           ]
         },
         {
@@ -5656,6 +6327,12 @@
             649,
             650,
             656
+          ],
+          "confusable_ids": [
+            "ch05_t09",
+            "ch05_t12",
+            "ch05_t08",
+            "ch05_t05"
           ]
         },
         {
@@ -5669,6 +6346,12 @@
             83,
             84,
             107
+          ],
+          "confusable_ids": [
+            "ch05_t08",
+            "ch05_t07",
+            "ch05_t03",
+            "ch05_t17"
           ]
         },
         {
@@ -5681,6 +6364,12 @@
             650,
             651,
             654
+          ],
+          "confusable_ids": [
+            "ch05_t13",
+            "ch05_t14",
+            "ch05_t15",
+            "ch05_t09"
           ]
         },
         {
@@ -5692,6 +6381,12 @@
             105,
             286,
             658
+          ],
+          "confusable_ids": [
+            "ch05_t14",
+            "ch05_t12",
+            "ch05_t15",
+            "ch05_t01"
           ]
         },
         {
@@ -5702,6 +6397,12 @@
             101,
             103,
             104
+          ],
+          "confusable_ids": [
+            "ch05_t13",
+            "ch05_t12",
+            "ch05_t15",
+            "ch05_t01"
           ]
         },
         {
@@ -5718,6 +6419,12 @@
             649,
             652,
             658
+          ],
+          "confusable_ids": [
+            "ch05_t13",
+            "ch05_t12",
+            "ch05_t14",
+            "ch05_t01"
           ]
         },
         {
@@ -5732,6 +6439,12 @@
             84,
             652,
             654
+          ],
+          "confusable_ids": [
+            "ch05_t29",
+            "ch05_t18",
+            "ch05_t19",
+            "ch05_t09"
           ]
         },
         {
@@ -5740,6 +6453,12 @@
           "definition": "Ways in which people affect the thoughts, feelings, and behaviors of others",
           "level3_question_ids": [
             91
+          ],
+          "confusable_ids": [
+            "ch05_t08",
+            "ch05_t20",
+            "ch05_t07",
+            "ch05_t03"
           ]
         },
         {
@@ -5749,6 +6468,12 @@
           "level3_question_ids": [
             284,
             285
+          ],
+          "confusable_ids": [
+            "ch05_t13",
+            "ch05_t12",
+            "ch05_t14",
+            "ch05_t15"
           ]
         },
         {
@@ -5758,6 +6483,12 @@
           "level3_question_ids": [
             286,
             287
+          ],
+          "confusable_ids": [
+            "ch05_t01",
+            "ch05_t08",
+            "ch05_t15",
+            "ch05_t07"
           ]
         },
         {
@@ -5788,6 +6519,12 @@
             655,
             657,
             659
+          ],
+          "confusable_ids": [
+            "ch05_t21",
+            "ch05_t25",
+            "ch05_t24",
+            "ch05_t23"
           ]
         },
         {
@@ -5798,6 +6535,12 @@
             95,
             655,
             659
+          ],
+          "confusable_ids": [
+            "ch05_t20",
+            "ch05_t25",
+            "ch05_t24",
+            "ch05_t23"
           ]
         },
         {
@@ -5807,6 +6550,12 @@
           "level3_question_ids": [
             288,
             289
+          ],
+          "confusable_ids": [
+            "ch05_t24",
+            "ch05_t23",
+            "ch05_t21",
+            "ch05_t25"
           ]
         },
         {
@@ -5815,6 +6564,12 @@
           "definition": "Power based on specialized knowledge or skills",
           "level3_question_ids": [
             657
+          ],
+          "confusable_ids": [
+            "ch05_t24",
+            "ch05_t21",
+            "ch05_t25",
+            "ch05_t22"
           ]
         },
         {
@@ -5824,6 +6579,12 @@
           "level3_question_ids": [
             290,
             291
+          ],
+          "confusable_ids": [
+            "ch05_t23",
+            "ch05_t21",
+            "ch05_t25",
+            "ch05_t22"
           ]
         },
         {
@@ -5833,6 +6594,12 @@
           "level3_question_ids": [
             292,
             293
+          ],
+          "confusable_ids": [
+            "ch05_t21",
+            "ch05_t20",
+            "ch05_t24",
+            "ch05_t23"
           ]
         },
         {
@@ -5841,6 +6608,10 @@
           "definition": "Leadership focused on accomplishing tasks and reaching goals",
           "level3_question_ids": [
             659
+          ],
+          "confusable_ids": [
+            "ch05_t27",
+            "ch05_t06"
           ]
         },
         {
@@ -5850,6 +6621,12 @@
           "level3_question_ids": [
             654,
             659
+          ],
+          "confusable_ids": [
+            "ch05_t26",
+            "ch05_t13",
+            "ch05_t12",
+            "ch05_t14"
           ]
         },
         {
@@ -5860,6 +6637,12 @@
             105,
             651,
             657
+          ],
+          "confusable_ids": [
+            "ch05_t09",
+            "ch05_t22",
+            "ch05_t06",
+            "ch05_t12"
           ]
         },
         {
@@ -5868,6 +6651,12 @@
           "definition": "Process of replacing traditional and emotional thought with reason and efficiency",
           "level3_question_ids": [
             657
+          ],
+          "confusable_ids": [
+            "ch05_t30",
+            "ch05_t16",
+            "ch05_t09",
+            "ch05_t10"
           ]
         },
         {
@@ -5877,6 +6666,9 @@
           "level3_question_ids": [
             651,
             657
+          ],
+          "confusable_ids": [
+            "ch05_t29"
           ]
         }
       ],
@@ -6891,6 +7683,12 @@
             331,
             332,
             333
+          ],
+          "confusable_ids": [
+            "ch06_t21",
+            "ch06_t05",
+            "ch06_t15",
+            "ch06_t03"
           ]
         },
         {
@@ -6901,6 +7699,11 @@
             307,
             308,
             309
+          ],
+          "confusable_ids": [
+            "ch06_t03",
+            "ch06_t04",
+            "ch06_t05"
           ]
         },
         {
@@ -6911,6 +7714,12 @@
             190,
             310,
             312
+          ],
+          "confusable_ids": [
+            "ch06_t04",
+            "ch06_t05",
+            "ch06_t01",
+            "ch06_t21"
           ]
         },
         {
@@ -6921,6 +7730,12 @@
             310,
             311,
             312
+          ],
+          "confusable_ids": [
+            "ch06_t03",
+            "ch06_t05",
+            "ch06_t19",
+            "ch06_t16"
           ]
         },
         {
@@ -6935,6 +7750,12 @@
             315,
             319,
             323
+          ],
+          "confusable_ids": [
+            "ch06_t07",
+            "ch06_t03",
+            "ch06_t04",
+            "ch06_t01"
           ]
         },
         {
@@ -6955,6 +7776,12 @@
             322,
             330,
             332
+          ],
+          "confusable_ids": [
+            "ch06_t07",
+            "ch06_t08",
+            "ch06_t14",
+            "ch06_t11"
           ]
         },
         {
@@ -6978,6 +7805,12 @@
             331,
             332,
             333
+          ],
+          "confusable_ids": [
+            "ch06_t06",
+            "ch06_t05",
+            "ch06_t08",
+            "ch06_t14"
           ]
         },
         {
@@ -6999,6 +7832,12 @@
             329,
             331,
             333
+          ],
+          "confusable_ids": [
+            "ch06_t14",
+            "ch06_t21",
+            "ch06_t07",
+            "ch06_t05"
           ]
         },
         {
@@ -7014,6 +7853,12 @@
             324,
             329,
             333
+          ],
+          "confusable_ids": [
+            "ch06_t10",
+            "ch06_t11",
+            "ch06_t01",
+            "ch06_t12"
           ]
         },
         {
@@ -7026,6 +7871,12 @@
             322,
             323,
             324
+          ],
+          "confusable_ids": [
+            "ch06_t09",
+            "ch06_t21",
+            "ch06_t08",
+            "ch06_t12"
           ]
         },
         {
@@ -7048,6 +7899,12 @@
             200,
             325,
             326
+          ],
+          "confusable_ids": [
+            "ch06_t09",
+            "ch06_t18",
+            "ch06_t06",
+            "ch06_t01"
           ]
         },
         {
@@ -7063,6 +7920,12 @@
             329,
             330,
             331
+          ],
+          "confusable_ids": [
+            "ch06_t13",
+            "ch06_t08",
+            "ch06_t14",
+            "ch06_t11"
           ]
         },
         {
@@ -7078,6 +7941,12 @@
             329,
             330,
             332
+          ],
+          "confusable_ids": [
+            "ch06_t12",
+            "ch06_t04",
+            "ch06_t11",
+            "ch06_t09"
           ]
         },
         {
@@ -7097,6 +7966,12 @@
             331,
             332,
             333
+          ],
+          "confusable_ids": [
+            "ch06_t08",
+            "ch06_t07",
+            "ch06_t05",
+            "ch06_t06"
           ]
         },
         {
@@ -7109,6 +7984,12 @@
             14,
             15,
             16
+          ],
+          "confusable_ids": [
+            "ch06_t19",
+            "ch06_t16",
+            "ch06_t01",
+            "ch06_t20"
           ]
         },
         {
@@ -7118,6 +7999,12 @@
           "level3_question_ids": [
             13,
             14
+          ],
+          "confusable_ids": [
+            "ch06_t15",
+            "ch06_t19",
+            "ch06_t20",
+            "ch06_t04"
           ]
         },
         {
@@ -7127,6 +8014,11 @@
           "level3_question_ids": [
             15,
             16
+          ],
+          "confusable_ids": [
+            "ch06_t18",
+            "ch06_t16",
+            "ch06_t15"
           ]
         },
         {
@@ -7136,6 +8028,12 @@
           "level3_question_ids": [
             17,
             18
+          ],
+          "confusable_ids": [
+            "ch06_t20",
+            "ch06_t19",
+            "ch06_t11",
+            "ch06_t15"
           ]
         },
         {
@@ -7146,6 +8044,12 @@
             187,
             188,
             191
+          ],
+          "confusable_ids": [
+            "ch06_t20",
+            "ch06_t15",
+            "ch06_t16",
+            "ch06_t04"
           ]
         },
         {
@@ -7156,6 +8060,12 @@
             11,
             19,
             20
+          ],
+          "confusable_ids": [
+            "ch06_t19",
+            "ch06_t16",
+            "ch06_t15",
+            "ch06_t18"
           ]
         },
         {
@@ -7168,6 +8078,12 @@
             316,
             321,
             327
+          ],
+          "confusable_ids": [
+            "ch06_t01",
+            "ch06_t08",
+            "ch06_t10",
+            "ch06_t03"
           ]
         }
       ],
@@ -8416,6 +9332,12 @@
             1060,
             1064,
             1070
+          ],
+          "confusable_ids": [
+            "ch07_t18",
+            "ch07_t09",
+            "ch07_t12",
+            "ch07_t05"
           ]
         },
         {
@@ -8426,6 +9348,12 @@
             1056,
             1057,
             1058
+          ],
+          "confusable_ids": [
+            "ch07_t23",
+            "ch07_t16",
+            "ch07_t20",
+            "ch07_t05"
           ]
         },
         {
@@ -8436,6 +9364,12 @@
             524,
             1073,
             1075
+          ],
+          "confusable_ids": [
+            "ch07_t17",
+            "ch07_t18",
+            "ch07_t10",
+            "ch07_t16"
           ]
         },
         {
@@ -8449,6 +9383,12 @@
             533,
             535,
             536
+          ],
+          "confusable_ids": [
+            "ch07_t03",
+            "ch07_t18",
+            "ch07_t17",
+            "ch07_t27"
           ]
         },
         {
@@ -8477,6 +9417,12 @@
             1054,
             1061,
             1063
+          ],
+          "confusable_ids": [
+            "ch07_t06",
+            "ch07_t08",
+            "ch07_t27",
+            "ch07_t13"
           ]
         },
         {
@@ -8499,6 +9445,12 @@
             1004,
             1060,
             1062
+          ],
+          "confusable_ids": [
+            "ch07_t05",
+            "ch07_t09",
+            "ch07_t12",
+            "ch07_t19"
           ]
         },
         {
@@ -8525,6 +9477,12 @@
             553,
             554,
             555
+          ],
+          "confusable_ids": [
+            "ch07_t20",
+            "ch07_t12",
+            "ch07_t09",
+            "ch07_t06"
           ]
         },
         {
@@ -8544,6 +9502,12 @@
             546,
             549,
             553
+          ],
+          "confusable_ids": [
+            "ch07_t15",
+            "ch07_t05",
+            "ch07_t27",
+            "ch07_t28"
           ]
         },
         {
@@ -8556,6 +9520,12 @@
             1030,
             1031,
             1032
+          ],
+          "confusable_ids": [
+            "ch07_t06",
+            "ch07_t01",
+            "ch07_t12",
+            "ch07_t20"
           ]
         },
         {
@@ -8570,6 +9540,12 @@
             538,
             539,
             1075
+          ],
+          "confusable_ids": [
+            "ch07_t17",
+            "ch07_t03",
+            "ch07_t18",
+            "ch07_t04"
           ]
         },
         {
@@ -8586,6 +9562,12 @@
             1062,
             1063,
             1067
+          ],
+          "confusable_ids": [
+            "ch07_t01",
+            "ch07_t13",
+            "ch07_t21",
+            "ch07_t20"
           ]
         },
         {
@@ -8599,6 +9581,12 @@
             1061,
             1062,
             1066
+          ],
+          "confusable_ids": [
+            "ch07_t06",
+            "ch07_t09",
+            "ch07_t05",
+            "ch07_t01"
           ]
         },
         {
@@ -8621,6 +9609,12 @@
             1050,
             1061,
             1062
+          ],
+          "confusable_ids": [
+            "ch07_t05",
+            "ch07_t16",
+            "ch07_t06",
+            "ch07_t20"
           ]
         },
         {
@@ -8630,6 +9624,12 @@
           "level3_question_ids": [
             1003,
             1033
+          ],
+          "confusable_ids": [
+            "ch07_t19",
+            "ch07_t05",
+            "ch07_t06",
+            "ch07_t16"
           ]
         },
         {
@@ -8649,6 +9649,12 @@
             551,
             552,
             555
+          ],
+          "confusable_ids": [
+            "ch07_t08",
+            "ch07_t05",
+            "ch07_t27",
+            "ch07_t28"
           ]
         },
         {
@@ -8672,6 +9678,12 @@
             1070,
             1073,
             1075
+          ],
+          "confusable_ids": [
+            "ch07_t20",
+            "ch07_t19",
+            "ch07_t27",
+            "ch07_t01"
           ]
         },
         {
@@ -8683,6 +9695,12 @@
             1072,
             1073,
             1075
+          ],
+          "confusable_ids": [
+            "ch07_t03",
+            "ch07_t18",
+            "ch07_t10",
+            "ch07_t01"
           ]
         },
         {
@@ -8694,6 +9712,12 @@
             1073,
             1074,
             1075
+          ],
+          "confusable_ids": [
+            "ch07_t17",
+            "ch07_t03",
+            "ch07_t01",
+            "ch07_t10"
           ]
         },
         {
@@ -8708,6 +9732,12 @@
             1039,
             1040,
             1042
+          ],
+          "confusable_ids": [
+            "ch07_t20",
+            "ch07_t14",
+            "ch07_t16",
+            "ch07_t06"
           ]
         },
         {
@@ -8721,6 +9751,12 @@
             1037,
             1039,
             1042
+          ],
+          "confusable_ids": [
+            "ch07_t19",
+            "ch07_t22",
+            "ch07_t16",
+            "ch07_t12"
           ]
         },
         {
@@ -8749,6 +9785,12 @@
             1062,
             1063,
             1067
+          ],
+          "confusable_ids": [
+            "ch07_t11",
+            "ch07_t02",
+            "ch07_t23",
+            "ch07_t05"
           ]
         },
         {
@@ -8762,6 +9804,12 @@
             1039,
             1040,
             1042
+          ],
+          "confusable_ids": [
+            "ch07_t20",
+            "ch07_t19",
+            "ch07_t08",
+            "ch07_t15"
           ]
         },
         {
@@ -8775,6 +9823,12 @@
             544,
             546,
             1020
+          ],
+          "confusable_ids": [
+            "ch07_t02",
+            "ch07_t15",
+            "ch07_t24",
+            "ch07_t21"
           ]
         },
         {
@@ -8794,6 +9848,9 @@
             546,
             547,
             549
+          ],
+          "confusable_ids": [
+            "ch07_t23"
           ]
         },
         {
@@ -8812,6 +9869,12 @@
             547,
             548,
             554
+          ],
+          "confusable_ids": [
+            "ch07_t26",
+            "ch07_t05",
+            "ch07_t27",
+            "ch07_t09"
           ]
         },
         {
@@ -8822,6 +9885,12 @@
             1051,
             1052,
             1053
+          ],
+          "confusable_ids": [
+            "ch07_t25",
+            "ch07_t05",
+            "ch07_t22",
+            "ch07_t30"
           ]
         },
         {
@@ -8837,6 +9906,12 @@
             548,
             549,
             551
+          ],
+          "confusable_ids": [
+            "ch07_t05",
+            "ch07_t08",
+            "ch07_t16",
+            "ch07_t15"
           ]
         },
         {
@@ -8853,6 +9928,12 @@
             1025,
             1026,
             1027
+          ],
+          "confusable_ids": [
+            "ch07_t05",
+            "ch07_t08",
+            "ch07_t15",
+            "ch07_t30"
           ]
         },
         {
@@ -8863,6 +9944,12 @@
             550,
             551,
             552
+          ],
+          "confusable_ids": [
+            "ch07_t08",
+            "ch07_t15",
+            "ch07_t04",
+            "ch07_t05"
           ]
         },
         {
@@ -8878,6 +9965,12 @@
             555,
             1040,
             1042
+          ],
+          "confusable_ids": [
+            "ch07_t05",
+            "ch07_t08",
+            "ch07_t28",
+            "ch07_t15"
           ]
         }
       ],
@@ -10073,6 +11166,12 @@
             759,
             767,
             993
+          ],
+          "confusable_ids": [
+            "ch08_t18",
+            "ch08_t19",
+            "ch08_t02",
+            "ch08_t15"
           ]
         },
         {
@@ -10095,6 +11194,12 @@
             994,
             995,
             1001
+          ],
+          "confusable_ids": [
+            "ch08_t17",
+            "ch08_t07",
+            "ch08_t22",
+            "ch08_t05"
           ]
         },
         {
@@ -10114,6 +11219,12 @@
             994,
             995,
             1001
+          ],
+          "confusable_ids": [
+            "ch08_t04",
+            "ch08_t19",
+            "ch08_t16",
+            "ch08_t02"
           ]
         },
         {
@@ -10128,6 +11239,12 @@
             987,
             988,
             992
+          ],
+          "confusable_ids": [
+            "ch08_t03",
+            "ch08_t19",
+            "ch08_t02",
+            "ch08_t12"
           ]
         },
         {
@@ -10143,6 +11260,12 @@
             751,
             752,
             753
+          ],
+          "confusable_ids": [
+            "ch08_t20",
+            "ch08_t22",
+            "ch08_t21",
+            "ch08_t13"
           ]
         },
         {
@@ -10162,6 +11285,12 @@
             993,
             996,
             1002
+          ],
+          "confusable_ids": [
+            "ch08_t20",
+            "ch08_t22",
+            "ch08_t21",
+            "ch08_t23"
           ]
         },
         {
@@ -10179,6 +11308,12 @@
             768,
             770,
             771
+          ],
+          "confusable_ids": [
+            "ch08_t02",
+            "ch08_t08",
+            "ch08_t17",
+            "ch08_t20"
           ]
         },
         {
@@ -10205,6 +11340,12 @@
             992,
             995,
             1002
+          ],
+          "confusable_ids": [
+            "ch08_t14",
+            "ch08_t18",
+            "ch08_t11",
+            "ch08_t07"
           ]
         },
         {
@@ -10214,7 +11355,8 @@
           "level3_question_ids": [
             989,
             1002
-          ]
+          ],
+          "confusable_ids": []
         },
         {
           "id": "ch08_t10",
@@ -10227,6 +11369,12 @@
             989,
             990,
             995
+          ],
+          "confusable_ids": [
+            "ch08_t11",
+            "ch08_t08",
+            "ch08_t18",
+            "ch08_t15"
           ]
         },
         {
@@ -10241,6 +11389,12 @@
             990,
             992,
             1002
+          ],
+          "confusable_ids": [
+            "ch08_t10",
+            "ch08_t08",
+            "ch08_t05",
+            "ch08_t18"
           ]
         },
         {
@@ -10252,6 +11406,11 @@
             993,
             995,
             1002
+          ],
+          "confusable_ids": [
+            "ch08_t22",
+            "ch08_t04",
+            "ch08_t03"
           ]
         },
         {
@@ -10263,6 +11422,12 @@
             988,
             992,
             996
+          ],
+          "confusable_ids": [
+            "ch08_t22",
+            "ch08_t05",
+            "ch08_t16",
+            "ch08_t21"
           ]
         },
         {
@@ -10273,6 +11438,12 @@
             989,
             993,
             996
+          ],
+          "confusable_ids": [
+            "ch08_t08",
+            "ch08_t15",
+            "ch08_t18",
+            "ch08_t06"
           ]
         },
         {
@@ -10281,6 +11452,12 @@
           "definition": "An ideology that acknowledges race as a powerful social construct that shapes our individual and social experiences",
           "level3_question_ids": [
             993
+          ],
+          "confusable_ids": [
+            "ch08_t14",
+            "ch08_t18",
+            "ch08_t19",
+            "ch08_t01"
           ]
         },
         {
@@ -10293,6 +11470,12 @@
             994,
             996,
             1001
+          ],
+          "confusable_ids": [
+            "ch08_t13",
+            "ch08_t03",
+            "ch08_t05",
+            "ch08_t15"
           ]
         },
         {
@@ -10304,6 +11487,12 @@
             992,
             994,
             996
+          ],
+          "confusable_ids": [
+            "ch08_t22",
+            "ch08_t02",
+            "ch08_t20",
+            "ch08_t07"
           ]
         },
         {
@@ -10315,6 +11504,12 @@
             990,
             993,
             1002
+          ],
+          "confusable_ids": [
+            "ch08_t08",
+            "ch08_t15",
+            "ch08_t10",
+            "ch08_t14"
           ]
         },
         {
@@ -10327,6 +11522,12 @@
             999,
             1000,
             1001
+          ],
+          "confusable_ids": [
+            "ch08_t15",
+            "ch08_t01",
+            "ch08_t02",
+            "ch08_t04"
           ]
         },
         {
@@ -10345,6 +11546,12 @@
             999,
             1000,
             1001
+          ],
+          "confusable_ids": [
+            "ch08_t21",
+            "ch08_t22",
+            "ch08_t05",
+            "ch08_t23"
           ]
         },
         {
@@ -10354,6 +11561,12 @@
           "level3_question_ids": [
             780,
             998
+          ],
+          "confusable_ids": [
+            "ch08_t22",
+            "ch08_t20",
+            "ch08_t05",
+            "ch08_t06"
           ]
         },
         {
@@ -10371,6 +11584,12 @@
             999,
             1000,
             1001
+          ],
+          "confusable_ids": [
+            "ch08_t21",
+            "ch08_t20",
+            "ch08_t17",
+            "ch08_t05"
           ]
         },
         {
@@ -10384,6 +11603,12 @@
             997,
             999,
             1000
+          ],
+          "confusable_ids": [
+            "ch08_t20",
+            "ch08_t22",
+            "ch08_t21",
+            "ch08_t17"
           ]
         }
       ],
@@ -11065,6 +12290,12 @@
             969,
             970,
             971
+          ],
+          "confusable_ids": [
+            "ch09_t03",
+            "ch09_t22",
+            "ch09_t06",
+            "ch09_t02"
           ]
         },
         {
@@ -11165,6 +12396,12 @@
             978,
             979,
             980
+          ],
+          "confusable_ids": [
+            "ch09_t01",
+            "ch09_t08",
+            "ch09_t22",
+            "ch09_t15"
           ]
         },
         {
@@ -11179,6 +12416,12 @@
             931,
             934,
             953
+          ],
+          "confusable_ids": [
+            "ch09_t01",
+            "ch09_t05",
+            "ch09_t18",
+            "ch09_t06"
           ]
         },
         {
@@ -11193,6 +12436,12 @@
             930,
             931,
             933
+          ],
+          "confusable_ids": [
+            "ch09_t18",
+            "ch09_t05",
+            "ch09_t06",
+            "ch09_t13"
           ]
         },
         {
@@ -11237,6 +12486,12 @@
             976,
             977,
             979
+          ],
+          "confusable_ids": [
+            "ch09_t03",
+            "ch09_t18",
+            "ch09_t06",
+            "ch09_t08"
           ]
         },
         {
@@ -11285,6 +12540,12 @@
             971,
             978,
             980
+          ],
+          "confusable_ids": [
+            "ch09_t17",
+            "ch09_t07",
+            "ch09_t18",
+            "ch09_t08"
           ]
         },
         {
@@ -11305,6 +12566,12 @@
             972,
             973,
             974
+          ],
+          "confusable_ids": [
+            "ch09_t17",
+            "ch09_t18",
+            "ch09_t06",
+            "ch09_t08"
           ]
         },
         {
@@ -11342,6 +12609,12 @@
             963,
             964,
             966
+          ],
+          "confusable_ids": [
+            "ch09_t18",
+            "ch09_t06",
+            "ch09_t17",
+            "ch09_t07"
           ]
         },
         {
@@ -11353,6 +12626,12 @@
             944,
             945,
             946
+          ],
+          "confusable_ids": [
+            "ch09_t13",
+            "ch09_t10",
+            "ch09_t18",
+            "ch09_t05"
           ]
         },
         {
@@ -11363,6 +12642,12 @@
             947,
             948,
             949
+          ],
+          "confusable_ids": [
+            "ch09_t09",
+            "ch09_t13",
+            "ch09_t17",
+            "ch09_t07"
           ]
         },
         {
@@ -11399,6 +12684,12 @@
             978,
             979,
             980
+          ],
+          "confusable_ids": [
+            "ch09_t14",
+            "ch09_t18",
+            "ch09_t19",
+            "ch09_t20"
           ]
         },
         {
@@ -11413,6 +12704,9 @@
             957,
             958,
             962
+          ],
+          "confusable_ids": [
+            "ch09_t22"
           ]
         },
         {
@@ -11423,6 +12717,12 @@
             956,
             957,
             958
+          ],
+          "confusable_ids": [
+            "ch09_t23",
+            "ch09_t09",
+            "ch09_t04",
+            "ch09_t14"
           ]
         },
         {
@@ -11436,6 +12736,12 @@
             959,
             960,
             961
+          ],
+          "confusable_ids": [
+            "ch09_t18",
+            "ch09_t11",
+            "ch09_t05",
+            "ch09_t16"
           ]
         },
         {
@@ -11446,6 +12752,10 @@
             962,
             963,
             964
+          ],
+          "confusable_ids": [
+            "ch09_t02",
+            "ch09_t14"
           ]
         },
         {
@@ -11456,6 +12766,12 @@
             965,
             966,
             967
+          ],
+          "confusable_ids": [
+            "ch09_t14",
+            "ch09_t23",
+            "ch09_t20",
+            "ch09_t18"
           ]
         },
         {
@@ -11474,6 +12790,12 @@
             972,
             973,
             974
+          ],
+          "confusable_ids": [
+            "ch09_t07",
+            "ch09_t18",
+            "ch09_t06",
+            "ch09_t08"
           ]
         },
         {
@@ -11494,6 +12816,12 @@
             972,
             973,
             974
+          ],
+          "confusable_ids": [
+            "ch09_t17",
+            "ch09_t07",
+            "ch09_t06",
+            "ch09_t14"
           ]
         },
         {
@@ -11507,6 +12835,10 @@
             978,
             979,
             980
+          ],
+          "confusable_ids": [
+            "ch09_t20",
+            "ch09_t11"
           ]
         },
         {
@@ -11520,6 +12852,12 @@
             978,
             979,
             980
+          ],
+          "confusable_ids": [
+            "ch09_t19",
+            "ch09_t23",
+            "ch09_t16",
+            "ch09_t11"
           ]
         },
         {
@@ -11529,6 +12867,11 @@
           "level3_question_ids": [
             640,
             641
+          ],
+          "confusable_ids": [
+            "ch09_t22",
+            "ch09_t01",
+            "ch09_t02"
           ]
         },
         {
@@ -11538,6 +12881,12 @@
           "level3_question_ids": [
             642,
             643
+          ],
+          "confusable_ids": [
+            "ch09_t12",
+            "ch09_t01",
+            "ch09_t21",
+            "ch09_t17"
           ]
         },
         {
@@ -11547,6 +12896,12 @@
           "level3_question_ids": [
             644,
             645
+          ],
+          "confusable_ids": [
+            "ch09_t13",
+            "ch09_t24",
+            "ch09_t20",
+            "ch09_t16"
           ]
         },
         {
@@ -11556,6 +12911,9 @@
           "level3_question_ids": [
             646,
             647
+          ],
+          "confusable_ids": [
+            "ch09_t23"
           ]
         }
       ],
@@ -12800,6 +14158,12 @@
             297,
             302,
             304
+          ],
+          "confusable_ids": [
+            "ch10_t02",
+            "ch10_t03",
+            "ch10_t13",
+            "ch10_t04"
           ]
         },
         {
@@ -12815,6 +14179,10 @@
             302,
             303,
             305
+          ],
+          "confusable_ids": [
+            "ch10_t04",
+            "ch10_t01"
           ]
         },
         {
@@ -12827,6 +14195,9 @@
             296,
             302,
             305
+          ],
+          "confusable_ids": [
+            "ch10_t01"
           ]
         },
         {
@@ -12840,6 +14211,12 @@
             297,
             300,
             303
+          ],
+          "confusable_ids": [
+            "ch10_t05",
+            "ch10_t02",
+            "ch10_t09",
+            "ch10_t13"
           ]
         },
         {
@@ -12854,6 +14231,11 @@
             304,
             305,
             306
+          ],
+          "confusable_ids": [
+            "ch10_t04",
+            "ch10_t13",
+            "ch10_t07"
           ]
         },
         {
@@ -12868,6 +14250,10 @@
             300,
             303,
             306
+          ],
+          "confusable_ids": [
+            "ch10_t01",
+            "ch10_t07"
           ]
         },
         {
@@ -12879,6 +14265,12 @@
             302,
             304,
             305
+          ],
+          "confusable_ids": [
+            "ch10_t08",
+            "ch10_t09",
+            "ch10_t10",
+            "ch10_t06"
           ]
         },
         {
@@ -12891,6 +14283,12 @@
             299,
             301,
             306
+          ],
+          "confusable_ids": [
+            "ch10_t09",
+            "ch10_t07",
+            "ch10_t10",
+            "ch10_t13"
           ]
         },
         {
@@ -12904,6 +14302,12 @@
             301,
             305,
             306
+          ],
+          "confusable_ids": [
+            "ch10_t08",
+            "ch10_t04",
+            "ch10_t07",
+            "ch10_t10"
           ]
         },
         {
@@ -12913,6 +14317,12 @@
           "level3_question_ids": [
             300,
             303
+          ],
+          "confusable_ids": [
+            "ch10_t13",
+            "ch10_t12",
+            "ch10_t08",
+            "ch10_t07"
           ]
         },
         {
@@ -12923,6 +14333,10 @@
             296,
             302,
             305
+          ],
+          "confusable_ids": [
+            "ch10_t13",
+            "ch10_t01"
           ]
         },
         {
@@ -12931,6 +14345,10 @@
           "definition": "Durkheim's term for the heightened sense of shared energy and community that people experience during religious gatherings",
           "level3_question_ids": [
             296
+          ],
+          "confusable_ids": [
+            "ch10_t10",
+            "ch10_t01"
           ]
         },
         {
@@ -12949,6 +14367,12 @@
             304,
             305,
             306
+          ],
+          "confusable_ids": [
+            "ch10_t11",
+            "ch10_t01",
+            "ch10_t10",
+            "ch10_t05"
           ]
         }
       ],
@@ -13122,6 +14546,12 @@
           "definition": "Systems and structures within society that shape the activities of groups and individuals, providing stability and meeting essential societal needs",
           "level3_question_ids": [
             503
+          ],
+          "confusable_ids": [
+            "ch11_t11",
+            "ch11_t05",
+            "ch11_t10",
+            "ch11_t02"
           ]
         },
         {
@@ -13131,6 +14561,11 @@
           "level3_question_ids": [
             479,
             489
+          ],
+          "confusable_ids": [
+            "ch11_t11",
+            "ch11_t05",
+            "ch11_t01"
           ]
         },
         {
@@ -13139,7 +14574,8 @@
           "definition": "The emphasis placed on degrees and certificates as determinants of social status and readiness for the job market, leading to credential inflation",
           "level3_question_ids": [
             1007
-          ]
+          ],
+          "confusable_ids": []
         },
         {
           "id": "ch11_t04",
@@ -13147,6 +14583,9 @@
           "definition": "The placement of students in educational 'tracks' or programs of study (e.g., college prep, remedial) that determine the types of classes they take",
           "level3_question_ids": [
             1008
+          ],
+          "confusable_ids": [
+            "ch11_t05"
           ]
         },
         {
@@ -13155,6 +14594,12 @@
           "definition": "Values or behaviors that students learn indirectly over the course of their schooling, often reinforcing social norms and power structures",
           "level3_question_ids": [
             1009
+          ],
+          "confusable_ids": [
+            "ch11_t15",
+            "ch11_t12",
+            "ch11_t01",
+            "ch11_t13"
           ]
         },
         {
@@ -13180,6 +14625,12 @@
             505,
             507,
             509
+          ],
+          "confusable_ids": [
+            "ch11_t08",
+            "ch11_t09",
+            "ch11_t07",
+            "ch11_t15"
           ]
         },
         {
@@ -13195,6 +14646,12 @@
             514,
             518,
             1010
+          ],
+          "confusable_ids": [
+            "ch11_t08",
+            "ch11_t14",
+            "ch11_t09",
+            "ch11_t13"
           ]
         },
         {
@@ -13206,6 +14663,12 @@
             472,
             474,
             1010
+          ],
+          "confusable_ids": [
+            "ch11_t07",
+            "ch11_t06",
+            "ch11_t14",
+            "ch11_t09"
           ]
         },
         {
@@ -13214,6 +14677,12 @@
           "definition": "A person's inner religious life or personal relationship to the divine, reflecting internal spiritual motivation",
           "level3_question_ids": [
             476
+          ],
+          "confusable_ids": [
+            "ch11_t10",
+            "ch11_t14",
+            "ch11_t08",
+            "ch11_t07"
           ]
         },
         {
@@ -13225,6 +14694,12 @@
             477,
             478,
             479
+          ],
+          "confusable_ids": [
+            "ch11_t09",
+            "ch11_t14",
+            "ch11_t12",
+            "ch11_t13"
           ]
         },
         {
@@ -13235,6 +14710,12 @@
             481,
             484,
             489
+          ],
+          "confusable_ids": [
+            "ch11_t01",
+            "ch11_t02",
+            "ch11_t15",
+            "ch11_t12"
           ]
         },
         {
@@ -13245,6 +14726,12 @@
             514,
             515,
             518
+          ],
+          "confusable_ids": [
+            "ch11_t13",
+            "ch11_t15",
+            "ch11_t08",
+            "ch11_t11"
           ]
         },
         {
@@ -13257,6 +14744,12 @@
             521,
             522,
             523
+          ],
+          "confusable_ids": [
+            "ch11_t12",
+            "ch11_t05",
+            "ch11_t15",
+            "ch11_t14"
           ]
         },
         {
@@ -13268,6 +14761,12 @@
             491,
             494,
             1011
+          ],
+          "confusable_ids": [
+            "ch11_t08",
+            "ch11_t07",
+            "ch11_t09",
+            "ch11_t10"
           ]
         },
         {
@@ -13280,6 +14779,12 @@
             499,
             501,
             521
+          ],
+          "confusable_ids": [
+            "ch11_t11",
+            "ch11_t12",
+            "ch11_t05",
+            "ch11_t13"
           ]
         },
         {
@@ -13292,6 +14797,9 @@
             497,
             498,
             499
+          ],
+          "confusable_ids": [
+            "ch11_t11"
           ]
         }
       ],
@@ -14019,6 +15527,12 @@
             861,
             862,
             863
+          ],
+          "confusable_ids": [
+            "ch12_t14",
+            "ch12_t03",
+            "ch12_t08",
+            "ch12_t02"
           ]
         },
         {
@@ -14029,6 +15543,11 @@
             861,
             862,
             863
+          ],
+          "confusable_ids": [
+            "ch12_t03",
+            "ch12_t01",
+            "ch12_t11"
           ]
         },
         {
@@ -14039,6 +15558,12 @@
             861,
             862,
             863
+          ],
+          "confusable_ids": [
+            "ch12_t01",
+            "ch12_t05",
+            "ch12_t02",
+            "ch12_t04"
           ]
         },
         {
@@ -14048,6 +15573,12 @@
           "level3_question_ids": [
             563,
             864
+          ],
+          "confusable_ids": [
+            "ch12_t05",
+            "ch12_t15",
+            "ch12_t06",
+            "ch12_t03"
           ]
         },
         {
@@ -14056,6 +15587,12 @@
           "definition": "Work providing services to businesses or consumers rather than manufacturing goods",
           "level3_question_ids": [
             864
+          ],
+          "confusable_ids": [
+            "ch12_t04",
+            "ch12_t03",
+            "ch12_t06",
+            "ch12_t15"
           ]
         },
         {
@@ -14071,6 +15608,12 @@
             573,
             574,
             575
+          ],
+          "confusable_ids": [
+            "ch12_t07",
+            "ch12_t04",
+            "ch12_t10",
+            "ch12_t03"
           ]
         },
         {
@@ -14085,6 +15628,9 @@
             585,
             586,
             587
+          ],
+          "confusable_ids": [
+            "ch12_t06"
           ]
         },
         {
@@ -14097,6 +15643,10 @@
             578,
             579,
             580
+          ],
+          "confusable_ids": [
+            "ch12_t01",
+            "ch12_t09"
           ]
         },
         {
@@ -14105,6 +15655,12 @@
           "definition": "Methods workers use to express job discontent and reclaim control over their labor conditions",
           "level3_question_ids": [
             865
+          ],
+          "confusable_ids": [
+            "ch12_t08",
+            "ch12_t10",
+            "ch12_t13",
+            "ch12_t11"
           ]
         },
         {
@@ -14119,6 +15675,11 @@
             560,
             865,
             866
+          ],
+          "confusable_ids": [
+            "ch12_t11",
+            "ch12_t06",
+            "ch12_t09"
           ]
         },
         {
@@ -14127,6 +15688,12 @@
           "definition": "Workplace with extreme worker exploitation including substandard wages, excessive hours, and hazardous conditions",
           "level3_question_ids": [
             594
+          ],
+          "confusable_ids": [
+            "ch12_t10",
+            "ch12_t02",
+            "ch12_t06",
+            "ch12_t09"
           ]
         },
         {
@@ -14138,6 +15705,10 @@
             597,
             598,
             599
+          ],
+          "confusable_ids": [
+            "ch12_t09",
+            "ch12_t04"
           ]
         },
         {
@@ -14146,6 +15717,10 @@
           "definition": "Workers in temporary or freelance positions without long-term employment contracts",
           "level3_question_ids": [
             866
+          ],
+          "confusable_ids": [
+            "ch12_t09",
+            "ch12_t15"
           ]
         },
         {
@@ -14155,6 +15730,9 @@
           "level3_question_ids": [
             599,
             867
+          ],
+          "confusable_ids": [
+            "ch12_t01"
           ]
         },
         {
@@ -14163,6 +15741,12 @@
           "definition": "Economic segment of nonprofit organizations with mission-driven rather than profit-driven workers",
           "level3_question_ids": [
             868
+          ],
+          "confusable_ids": [
+            "ch12_t04",
+            "ch12_t05",
+            "ch12_t09",
+            "ch12_t13"
           ]
         }
       ],
@@ -14814,6 +16398,11 @@
             160,
             420,
             422
+          ],
+          "confusable_ids": [
+            "ch13_t07",
+            "ch13_t16",
+            "ch13_t08"
           ]
         },
         {
@@ -14854,6 +16443,12 @@
             425,
             426,
             427
+          ],
+          "confusable_ids": [
+            "ch13_t03",
+            "ch13_t07",
+            "ch13_t04",
+            "ch13_t11"
           ]
         },
         {
@@ -14879,6 +16474,12 @@
             425,
             426,
             427
+          ],
+          "confusable_ids": [
+            "ch13_t04",
+            "ch13_t02",
+            "ch13_t13",
+            "ch13_t05"
           ]
         },
         {
@@ -14899,6 +16500,12 @@
             422,
             425,
             427
+          ],
+          "confusable_ids": [
+            "ch13_t03",
+            "ch13_t02",
+            "ch13_t05",
+            "ch13_t06"
           ]
         },
         {
@@ -14912,6 +16519,12 @@
             419,
             420,
             427
+          ],
+          "confusable_ids": [
+            "ch13_t06",
+            "ch13_t04",
+            "ch13_t03",
+            "ch13_t08"
           ]
         },
         {
@@ -14925,6 +16538,12 @@
             419,
             420,
             427
+          ],
+          "confusable_ids": [
+            "ch13_t05",
+            "ch13_t04",
+            "ch13_t15",
+            "ch13_t03"
           ]
         },
         {
@@ -14937,6 +16556,12 @@
             421,
             422,
             425
+          ],
+          "confusable_ids": [
+            "ch13_t08",
+            "ch13_t02",
+            "ch13_t01",
+            "ch13_t03"
           ]
         },
         {
@@ -14949,6 +16574,12 @@
             421,
             422,
             425
+          ],
+          "confusable_ids": [
+            "ch13_t07",
+            "ch13_t01",
+            "ch13_t02",
+            "ch13_t04"
           ]
         },
         {
@@ -14960,6 +16591,10 @@
             156,
             423,
             424
+          ],
+          "confusable_ids": [
+            "ch13_t12",
+            "ch13_t02"
           ]
         },
         {
@@ -14979,6 +16614,11 @@
             146,
             423,
             424
+          ],
+          "confusable_ids": [
+            "ch13_t11",
+            "ch13_t15",
+            "ch13_t12"
           ]
         },
         {
@@ -14998,6 +16638,11 @@
             146,
             423,
             424
+          ],
+          "confusable_ids": [
+            "ch13_t10",
+            "ch13_t02",
+            "ch13_t12"
           ]
         },
         {
@@ -15007,6 +16652,12 @@
           "level3_question_ids": [
             423,
             424
+          ],
+          "confusable_ids": [
+            "ch13_t13",
+            "ch13_t11",
+            "ch13_t09",
+            "ch13_t03"
           ]
         },
         {
@@ -15016,6 +16667,10 @@
           "level3_question_ids": [
             155,
             425
+          ],
+          "confusable_ids": [
+            "ch13_t03",
+            "ch13_t12"
           ]
         },
         {
@@ -15028,6 +16683,10 @@
             154,
             161,
             426
+          ],
+          "confusable_ids": [
+            "ch13_t15",
+            "ch13_t04"
           ]
         },
         {
@@ -15040,6 +16699,12 @@
             134,
             154,
             426
+          ],
+          "confusable_ids": [
+            "ch13_t14",
+            "ch13_t06",
+            "ch13_t10",
+            "ch13_t04"
           ]
         },
         {
@@ -15048,6 +16713,11 @@
           "definition": "The unpaid housework and childcare performed by individuals (typically women) after finishing their paid workday.",
           "level3_question_ids": [
             426
+          ],
+          "confusable_ids": [
+            "ch13_t01",
+            "ch13_t07",
+            "ch13_t08"
           ]
         }
       ],
@@ -15835,6 +17505,10 @@
             1211,
             1212,
             1213
+          ],
+          "confusable_ids": [
+            "ch14_t24",
+            "ch14_t02"
           ]
         },
         {
@@ -15844,6 +17518,9 @@
           "level3_question_ids": [
             406,
             1172
+          ],
+          "confusable_ids": [
+            "ch14_t01"
           ]
         },
         {
@@ -15859,6 +17536,9 @@
             1169,
             1179,
             1196
+          ],
+          "confusable_ids": [
+            "ch14_t24"
           ]
         },
         {
@@ -15879,7 +17559,8 @@
             1206,
             1207,
             1208
-          ]
+          ],
+          "confusable_ids": []
         },
         {
           "id": "ch14_t05",
@@ -15888,6 +17569,9 @@
           "level3_question_ids": [
             416,
             1177
+          ],
+          "confusable_ids": [
+            "ch14_t06"
           ]
         },
         {
@@ -15898,6 +17582,11 @@
             407,
             416,
             1178
+          ],
+          "confusable_ids": [
+            "ch14_t05",
+            "ch14_t19",
+            "ch14_t17"
           ]
         },
         {
@@ -15911,6 +17600,12 @@
             1170,
             1179,
             1192
+          ],
+          "confusable_ids": [
+            "ch14_t08",
+            "ch14_t10",
+            "ch14_t24",
+            "ch14_t11"
           ]
         },
         {
@@ -15924,6 +17619,12 @@
             1177,
             1192,
             1204
+          ],
+          "confusable_ids": [
+            "ch14_t07",
+            "ch14_t10",
+            "ch14_t11",
+            "ch14_t24"
           ]
         },
         {
@@ -15934,6 +17635,11 @@
             413,
             1214,
             1216
+          ],
+          "confusable_ids": [
+            "ch14_t21",
+            "ch14_t24",
+            "ch14_t11"
           ]
         },
         {
@@ -15943,6 +17649,12 @@
           "level3_question_ids": [
             985,
             986
+          ],
+          "confusable_ids": [
+            "ch14_t08",
+            "ch14_t07",
+            "ch14_t16",
+            "ch14_t20"
           ]
         },
         {
@@ -15953,6 +17665,12 @@
             1178,
             1192,
             1204
+          ],
+          "confusable_ids": [
+            "ch14_t08",
+            "ch14_t21",
+            "ch14_t07",
+            "ch14_t09"
           ]
         },
         {
@@ -15967,6 +17685,12 @@
             1189,
             1197,
             1204
+          ],
+          "confusable_ids": [
+            "ch14_t15",
+            "ch14_t14",
+            "ch14_t13",
+            "ch14_t17"
           ]
         },
         {
@@ -15987,6 +17711,12 @@
             1196,
             1197,
             1198
+          ],
+          "confusable_ids": [
+            "ch14_t12",
+            "ch14_t16",
+            "ch14_t20",
+            "ch14_t18"
           ]
         },
         {
@@ -15998,6 +17728,12 @@
             412,
             1169,
             1189
+          ],
+          "confusable_ids": [
+            "ch14_t15",
+            "ch14_t12",
+            "ch14_t17",
+            "ch14_t24"
           ]
         },
         {
@@ -16008,6 +17744,12 @@
             411,
             412,
             1190
+          ],
+          "confusable_ids": [
+            "ch14_t12",
+            "ch14_t14",
+            "ch14_t17",
+            "ch14_t18"
           ]
         },
         {
@@ -16018,6 +17760,12 @@
             409,
             411,
             412
+          ],
+          "confusable_ids": [
+            "ch14_t13",
+            "ch14_t18",
+            "ch14_t10",
+            "ch14_t15"
           ]
         },
         {
@@ -16029,6 +17777,12 @@
             411,
             1170,
             1190
+          ],
+          "confusable_ids": [
+            "ch14_t15",
+            "ch14_t12",
+            "ch14_t14",
+            "ch14_t19"
           ]
         },
         {
@@ -16037,6 +17791,12 @@
           "definition": "Frameworks or methods audiences employ to understand media texts.",
           "level3_question_ids": [
             1190
+          ],
+          "confusable_ids": [
+            "ch14_t21",
+            "ch14_t20",
+            "ch14_t13",
+            "ch14_t16"
           ]
         },
         {
@@ -16048,6 +17808,12 @@
             411,
             415,
             1190
+          ],
+          "confusable_ids": [
+            "ch14_t23",
+            "ch14_t17",
+            "ch14_t22",
+            "ch14_t06"
           ]
         },
         {
@@ -16063,6 +17829,12 @@
             1144,
             1145,
             1192
+          ],
+          "confusable_ids": [
+            "ch14_t13",
+            "ch14_t18",
+            "ch14_t21",
+            "ch14_t10"
           ]
         },
         {
@@ -16077,6 +17849,12 @@
             1143,
             1144,
             1145
+          ],
+          "confusable_ids": [
+            "ch14_t18",
+            "ch14_t11",
+            "ch14_t09",
+            "ch14_t20"
           ]
         },
         {
@@ -16091,6 +17869,9 @@
             1191,
             1192,
             1193
+          ],
+          "confusable_ids": [
+            "ch14_t19"
           ]
         },
         {
@@ -16099,6 +17880,10 @@
           "definition": "A person whose behavior or success serves as an example for others to follow.",
           "level3_question_ids": [
             1178
+          ],
+          "confusable_ids": [
+            "ch14_t19",
+            "ch14_t17"
           ]
         },
         {
@@ -16110,6 +17895,12 @@
             417,
             1176,
             1189
+          ],
+          "confusable_ids": [
+            "ch14_t01",
+            "ch14_t07",
+            "ch14_t03",
+            "ch14_t14"
           ]
         }
       ],
@@ -17349,6 +19140,12 @@
             401,
             402,
             1013
+          ],
+          "confusable_ids": [
+            "ch15_t06",
+            "ch15_t04",
+            "ch15_t09",
+            "ch15_t10"
           ]
         },
         {
@@ -17380,6 +19177,9 @@
             921,
             923,
             925
+          ],
+          "confusable_ids": [
+            "ch15_t03"
           ]
         },
         {
@@ -17402,6 +19202,10 @@
             921,
             923,
             925
+          ],
+          "confusable_ids": [
+            "ch15_t02",
+            "ch15_t06"
           ]
         },
         {
@@ -17417,6 +19221,10 @@
             919,
             921,
             924
+          ],
+          "confusable_ids": [
+            "ch15_t01",
+            "ch15_t06"
           ]
         },
         {
@@ -17434,6 +19242,9 @@
             921,
             923,
             925
+          ],
+          "confusable_ids": [
+            "ch15_t07"
           ]
         },
         {
@@ -17464,6 +19275,12 @@
             925,
             1012,
             1013
+          ],
+          "confusable_ids": [
+            "ch15_t01",
+            "ch15_t04",
+            "ch15_t03",
+            "ch15_t10"
           ]
         },
         {
@@ -17480,6 +19297,12 @@
             919,
             922,
             924
+          ],
+          "confusable_ids": [
+            "ch15_t10",
+            "ch15_t01",
+            "ch15_t05",
+            "ch15_t06"
           ]
         },
         {
@@ -17496,7 +19319,8 @@
             912,
             922,
             924
-          ]
+          ],
+          "confusable_ids": []
         },
         {
           "id": "ch15_t09",
@@ -17513,6 +19337,9 @@
             883,
             922,
             925
+          ],
+          "confusable_ids": [
+            "ch15_t01"
           ]
         },
         {
@@ -17528,6 +19355,12 @@
             405,
             877,
             887
+          ],
+          "confusable_ids": [
+            "ch15_t11",
+            "ch15_t07",
+            "ch15_t01",
+            "ch15_t06"
           ]
         },
         {
@@ -17539,6 +19372,11 @@
             397,
             402,
             403
+          ],
+          "confusable_ids": [
+            "ch15_t10",
+            "ch15_t01",
+            "ch15_t06"
           ]
         }
       ],
@@ -18424,6 +20262,12 @@
             622,
             623,
             624
+          ],
+          "confusable_ids": [
+            "ch16_t02",
+            "ch16_t14",
+            "ch16_t03",
+            "ch16_t12"
           ]
         },
         {
@@ -18439,6 +20283,12 @@
             436,
             444,
             455
+          ],
+          "confusable_ids": [
+            "ch16_t01",
+            "ch16_t14",
+            "ch16_t03",
+            "ch16_t13"
           ]
         },
         {
@@ -18453,6 +20303,12 @@
             466,
             614,
             636
+          ],
+          "confusable_ids": [
+            "ch16_t02",
+            "ch16_t01",
+            "ch16_t13",
+            "ch16_t14"
           ]
         },
         {
@@ -18462,6 +20318,12 @@
           "level3_question_ids": [
             431,
             446
+          ],
+          "confusable_ids": [
+            "ch16_t05",
+            "ch16_t07",
+            "ch16_t06",
+            "ch16_t15"
           ]
         },
         {
@@ -18471,6 +20333,12 @@
           "level3_question_ids": [
             446,
             458
+          ],
+          "confusable_ids": [
+            "ch16_t04",
+            "ch16_t06",
+            "ch16_t07",
+            "ch16_t15"
           ]
         },
         {
@@ -18480,6 +20348,12 @@
           "level3_question_ids": [
             433,
             446
+          ],
+          "confusable_ids": [
+            "ch16_t05",
+            "ch16_t07",
+            "ch16_t04",
+            "ch16_t15"
           ]
         },
         {
@@ -18488,6 +20362,12 @@
           "definition": "Both birth and death rates are low, leading to stable, zero, or declining population growth.",
           "level3_question_ids": [
             452
+          ],
+          "confusable_ids": [
+            "ch16_t06",
+            "ch16_t04",
+            "ch16_t05",
+            "ch16_t22"
           ]
         },
         {
@@ -18498,6 +20378,9 @@
             435,
             451,
             462
+          ],
+          "confusable_ids": [
+            "ch16_t11"
           ]
         },
         {
@@ -18520,6 +20403,12 @@
             622,
             623,
             624
+          ],
+          "confusable_ids": [
+            "ch16_t15",
+            "ch16_t12",
+            "ch16_t20",
+            "ch16_t11"
           ]
         },
         {
@@ -18529,6 +20418,12 @@
           "level3_question_ids": [
             437,
             448
+          ],
+          "confusable_ids": [
+            "ch16_t03",
+            "ch16_t15",
+            "ch16_t13",
+            "ch16_t07"
           ]
         },
         {
@@ -18537,6 +20432,12 @@
           "definition": "Graphs (population pyramids) showing the distribution of a population by age and sex.",
           "level3_question_ids": [
             639
+          ],
+          "confusable_ids": [
+            "ch16_t08",
+            "ch16_t09",
+            "ch16_t22",
+            "ch16_t13"
           ]
         },
         {
@@ -18545,6 +20446,12 @@
           "definition": "The TFR required for a generation to replace itself without migration (approx. 2.1 children per woman).",
           "level3_question_ids": [
             637
+          ],
+          "confusable_ids": [
+            "ch16_t09",
+            "ch16_t02",
+            "ch16_t01",
+            "ch16_t19"
           ]
         },
         {
@@ -18564,6 +20471,12 @@
             624,
             636,
             637
+          ],
+          "confusable_ids": [
+            "ch16_t03",
+            "ch16_t14",
+            "ch16_t02",
+            "ch16_t20"
           ]
         },
         {
@@ -18583,6 +20496,12 @@
             623,
             624,
             636
+          ],
+          "confusable_ids": [
+            "ch16_t01",
+            "ch16_t02",
+            "ch16_t13",
+            "ch16_t15"
           ]
         },
         {
@@ -18596,6 +20515,12 @@
             612,
             614,
             636
+          ],
+          "confusable_ids": [
+            "ch16_t09",
+            "ch16_t14",
+            "ch16_t21",
+            "ch16_t06"
           ]
         },
         {
@@ -18612,6 +20537,12 @@
             614,
             626,
             635
+          ],
+          "confusable_ids": [
+            "ch16_t17",
+            "ch16_t18",
+            "ch16_t19",
+            "ch16_t02"
           ]
         },
         {
@@ -18625,6 +20556,12 @@
             608,
             614,
             638
+          ],
+          "confusable_ids": [
+            "ch16_t16",
+            "ch16_t18",
+            "ch16_t21",
+            "ch16_t19"
           ]
         },
         {
@@ -18668,6 +20605,12 @@
             636,
             637,
             638
+          ],
+          "confusable_ids": [
+            "ch16_t16",
+            "ch16_t17",
+            "ch16_t19",
+            "ch16_t20"
           ]
         },
         {
@@ -18683,6 +20626,12 @@
             464,
             467,
             638
+          ],
+          "confusable_ids": [
+            "ch16_t18",
+            "ch16_t20",
+            "ch16_t16",
+            "ch16_t17"
           ]
         },
         {
@@ -18703,6 +20652,12 @@
             632,
             633,
             634
+          ],
+          "confusable_ids": [
+            "ch16_t21",
+            "ch16_t19",
+            "ch16_t09",
+            "ch16_t13"
           ]
         },
         {
@@ -18712,6 +20667,12 @@
           "level3_question_ids": [
             441,
             600
+          ],
+          "confusable_ids": [
+            "ch16_t20",
+            "ch16_t17",
+            "ch16_t15",
+            "ch16_t14"
           ]
         },
         {
@@ -18721,6 +20682,10 @@
           "level3_question_ids": [
             605,
             639
+          ],
+          "confusable_ids": [
+            "ch16_t07",
+            "ch16_t11"
           ]
         }
       ],

@@ -62,6 +62,18 @@ const App = (() => {
             window.location.hash = 'study';
         });
 
+        // Study Selected (multi-chapter)
+        document.getElementById('btn-study-selected').addEventListener('click', () => {
+            const selectedIds = UI.getSelectedChapterIds();
+            const chapters = ContentLoader.getChapters().filter(ch => selectedIds.has(ch.id));
+            if (chapters.length >= 2) {
+                const session = QuizEngine.buildSession(chapters);
+                _currentChapterId = null;
+                UI.startStudySession(session);
+                window.location.hash = 'study';
+            }
+        });
+
         // Chapter detail
         document.getElementById('btn-back-dashboard').addEventListener('click', () => {
             showDashboard();
@@ -114,6 +126,31 @@ const App = (() => {
                 UI.startStudySession(session, { examMode: true });
                 window.location.hash = 'study';
             }
+        });
+
+        // Speed round
+        document.getElementById('btn-speed-round').addEventListener('click', () => {
+            if (_currentChapterId) {
+                const chapter = ContentLoader.getChapter(_currentChapterId);
+                const session = QuizEngine.buildSpeedSession(chapter);
+                UI.startStudySession(session, { speedMode: true });
+                window.location.hash = 'study';
+            }
+        });
+
+        // Marathon mode
+        document.getElementById('btn-marathon').addEventListener('click', () => {
+            if (_currentChapterId) {
+                const chapter = ContentLoader.getChapter(_currentChapterId);
+                const session = QuizEngine.buildMarathonSession(chapter);
+                UI.startStudySession(session, { marathonMode: true });
+                window.location.hash = 'study';
+            }
+        });
+
+        // End Marathon button
+        document.getElementById('btn-end-marathon').addEventListener('click', () => {
+            UI.endSession();
         });
 
         // Leaderboard

@@ -250,6 +250,29 @@ const Progress = (() => {
         };
     }
 
+    function getAnalyticsPayload(chapters) {
+        const analytics = [];
+        for (const ch of chapters) {
+            for (const concept of ch.concepts) {
+                const cp = getConceptProgress(concept.id);
+                const attempts = cp.level1.attempts + cp.level2.attempts + cp.level3.attempts;
+                if (attempts === 0) continue;
+                const correct = cp.level1.correct + cp.level2.correct + cp.level3.correct;
+                const hasL3 = concept.level3_question_ids.length > 0;
+                analytics.push({
+                    conceptId: concept.id,
+                    term: concept.term,
+                    chapter: ch.id,
+                    level: getCurrentLevel(concept.id, hasL3),
+                    attempts: attempts,
+                    correct: correct,
+                    errorRate: Math.round(((attempts - correct) / attempts) * 100),
+                });
+            }
+        }
+        return analytics;
+    }
+
     function mergeRemoteData(remote) {
         // Merge remote progress - keep the higher correct count for each concept/question
         const local = getData();
@@ -283,7 +306,7 @@ const Progress = (() => {
         getConceptProgress, recordConceptAnswer,
         isLevelPassed, getCurrentLevel, isConceptMastered, isConceptStarted,
         getQuestionSR, recordQuestionAnswer, isDueForReview,
-        getChapterStats, getSyncPayload, mergeRemoteData,
+        getChapterStats, getSyncPayload, getAnalyticsPayload, mergeRemoteData,
         addXP, getXP,
         updateDailyStreak, getDailyStreak,
         isConceptSkipped, toggleSkipConcept, getSkippedCount,
