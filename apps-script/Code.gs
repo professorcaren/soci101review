@@ -2,13 +2,21 @@
  * Google Apps Script web app for SOCI 101 Exam Review progress sync.
  *
  * Deploy as web app:
- *   1. Open script.google.com, paste this code
- *   2. Deploy > New deployment > Web app
- *   3. Execute as: Me, Access: Anyone
- *   4. Copy the URL and set it in js/sync.js
+ *   1. Open script.google.com, create a new project
+ *   2. Paste this code into Code.gs
+ *   3. Create a Google Sheet and open it (the script binds to the active spreadsheet)
+ *      — or use Extensions > Apps Script from within a Sheet
+ *   4. Deploy > New deployment > Web app
+ *      - Execute as: Me
+ *      - Who has access: Anyone
+ *   5. Copy the deployment URL
+ *   6. Set APPS_SCRIPT_URL in js/sync.js to that URL
  *
- * Sheet format: Row 1 = headers, subsequent rows = one per student
- * Columns: Name | Last Sync | Ch01 % | Ch02 % | ... | Ch16 % | XP | Streak | Mastery % | Full JSON
+ * Sheet "Progress" columns:
+ *   ONYEN | Name | Last Sync | Ch01% | Ch02% | ... | Ch16% | Overall% | Full JSON
+ *
+ * Sheet "Analytics" columns (auto-generated from student data):
+ *   Concept ID | Term | Chapter | Total Students Attempted | Avg Error Rate | Most Common Wrong Level
  */
 
 const SHEET_NAME = 'Progress';
@@ -20,7 +28,7 @@ function doPost(e) {
     const sheet = getOrCreateSheet();
     upsertStudent(sheet, data);
     if (data.analytics && data.analytics.length > 0) {
-      updateAnalytics(data.studentName, data.analytics);
+      updateAnalytics(data.analytics);
     }
     return ContentService.createTextOutput(JSON.stringify({ status: 'ok' }))
       .setMimeType(ContentService.MimeType.JSON);
@@ -33,20 +41,18 @@ function doPost(e) {
 function doGet(e) {
   try {
     const action = e.parameter.action;
-    if (action === 'leaderboard') {
-      return getLeaderboard();
-    }
     if (action === 'analytics') {
       return getAnalyticsData();
     }
 
-    const name = e.parameter.name;
-    if (!name) {
-      return ContentService.createTextOutput(JSON.stringify({ status: 'error', message: 'name required' }))
+    // Look up student by ONYEN
+    const onyen = e.parameter.onyen;
+    if (!onyen) {
+      return ContentService.createTextOutput(JSON.stringify({ status: 'error', message: 'onyen required' }))
         .setMimeType(ContentService.MimeType.JSON);
     }
     const sheet = getOrCreateSheet();
-    const row = findStudentRow(sheet, name);
+    const row = findStudentRow(sheet, onyen);
     if (!row) {
       return ContentService.createTextOutput(JSON.stringify(null))
         .setMimeType(ContentService.MimeType.JSON);
@@ -68,11 +74,11 @@ function getOrCreateSheet() {
   let sheet = ss.getSheetByName(SHEET_NAME);
   if (!sheet) {
     sheet = ss.insertSheet(SHEET_NAME);
-    const headers = ['Name', 'Last Sync'];
+    const headers = ['ONYEN', 'Name', 'Last Sync'];
     for (let i = 1; i <= NUM_CHAPTERS; i++) {
       headers.push('Ch' + String(i).padStart(2, '0') + ' %');
     }
-    headers.push('XP', 'Streak', 'Mastery %', 'Full JSON');
+    headers.push('Overall %', 'Full JSON');
     sheet.getRange(1, 1, 1, headers.length).setValues([headers]);
     sheet.setFrozenRows(1);
     sheet.getRange(1, 1, 1, headers.length).setFontWeight('bold');
@@ -80,29 +86,29 @@ function getOrCreateSheet() {
   return sheet;
 }
 
-function findStudentRow(sheet, name) {
-  const names = sheet.getRange(2, 1, Math.max(1, sheet.getLastRow() - 1), 1).getValues();
-  for (let i = 0; i < names.length; i++) {
-    if (names[i][0] === name) return i + 2; // +2 for 1-indexed + header row
+function findStudentRow(sheet, onyen) {
+  const lastRow = sheet.getLastRow();
+  if (lastRow < 2) return null;
+  const onyens = sheet.getRange(2, 1, lastRow - 1, 1).getValues();
+  for (let i = 0; i < onyens.length; i++) {
+    if (String(onyens[i][0]).trim() === String(onyen).trim()) return i + 2;
   }
   return null;
 }
 
 function upsertStudent(sheet, data) {
-  const name = data.studentName;
-  if (!name) return;
+  const onyen = data.onyen;
+  if (!onyen) return;
 
-  let row = findStudentRow(sheet, name);
+  let row = findStudentRow(sheet, onyen);
   if (!row) row = sheet.getLastRow() + 1;
 
-  const values = [name, new Date().toISOString()];
+  const values = [onyen, data.studentName || '', new Date().toISOString()];
   for (let i = 1; i <= NUM_CHAPTERS; i++) {
     const chId = 'ch' + String(i).padStart(2, '0');
     values.push(data.chapterProgress[chId] || 0);
   }
-  values.push(data.xp || 0);
-  values.push(data.streak || 0);
-  // Overall mastery = average of chapter percentages
+  // Overall = average of chapter percentages
   let totalPct = 0;
   for (let i = 1; i <= NUM_CHAPTERS; i++) {
     const chId = 'ch' + String(i).padStart(2, '0');
@@ -114,42 +120,7 @@ function upsertStudent(sheet, data) {
   sheet.getRange(row, 1, 1, values.length).setValues([values]);
 }
 
-function getLeaderboard() {
-  const sheet = getOrCreateSheet();
-  const lastRow = sheet.getLastRow();
-  if (lastRow < 2) {
-    return ContentService.createTextOutput(JSON.stringify([]))
-      .setMimeType(ContentService.MimeType.JSON);
-  }
-  const data = sheet.getRange(2, 1, lastRow - 1, sheet.getLastColumn()).getValues();
-  const headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0];
-
-  const nameCol = 0;
-  const xpCol = headers.indexOf('XP');
-  const streakCol = headers.indexOf('Streak');
-  const masteryCol = headers.indexOf('Mastery %');
-
-  const leaderboard = data
-    .filter(row => row[nameCol])
-    .map(row => ({
-      name: formatName(String(row[nameCol])),
-      xp: xpCol >= 0 ? (row[xpCol] || 0) : 0,
-      streak: streakCol >= 0 ? (row[streakCol] || 0) : 0,
-      mastery: masteryCol >= 0 ? (row[masteryCol] || 0) : 0,
-    }))
-    .sort((a, b) => b.xp - a.xp);
-
-  return ContentService.createTextOutput(JSON.stringify(leaderboard))
-    .setMimeType(ContentService.MimeType.JSON);
-}
-
-function formatName(name) {
-  const parts = name.trim().split(/\s+/);
-  if (parts.length >= 2) {
-    return parts[0] + ' ' + parts[parts.length - 1][0] + '.';
-  }
-  return parts[0];
-}
+// --- Analytics ---
 
 var ANALYTICS_SHEET_NAME = 'Analytics';
 
@@ -166,7 +137,7 @@ function getOrCreateAnalyticsSheet() {
   return sheet;
 }
 
-function updateAnalytics(studentName, analytics) {
+function updateAnalytics(analytics) {
   var progressSheet = getOrCreateSheet();
   var analyticsSheet = getOrCreateAnalyticsSheet();
   var conceptMap = {};
