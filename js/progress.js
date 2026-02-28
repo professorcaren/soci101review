@@ -6,17 +6,14 @@ const Progress = (() => {
     const LEVEL1_PASS = 2;  // correct answers to pass Level 1
     const LEVEL2_PASS = 2;  // correct answers to pass Level 2
     const LEVEL3_PASS = 1;  // correct answers to pass Level 3
-    const XP_PER_LEVEL = { 1: 10, 2: 20, 3: 30 };
-    const STREAK_MULTIPLIERS = { 3: 1.5, 5: 2.0 };
 
     function getDefault() {
         return {
             studentName: '',
+            onyen: '',
             concepts: {},      // conceptId -> { level1: {attempts, correct}, level2: {...}, level3: {...} }
             questions: {},     // "questionKey" -> SM-2 data
             lastSync: null,
-            xp: 0,
-            streak: { current: 0, lastStudyDate: null },
             skippedConcepts: {},
         };
     }
@@ -49,6 +46,17 @@ const Progress = (() => {
 
     function getStudentName() {
         return getData().studentName;
+    }
+
+    function setStudent(name, onyen) {
+        const data = getData();
+        data.studentName = name;
+        data.onyen = onyen;
+        save();
+    }
+
+    function getOnyen() {
+        return getData().onyen || '';
     }
 
     // --- Concept progress ---
@@ -84,10 +92,10 @@ const Progress = (() => {
         if (!isLevelPassed(conceptId, 1)) return 1;
         if (!isLevelPassed(conceptId, 2)) return 2;
         if (hasLevel3 && !isLevelPassed(conceptId, 3)) return 3;
-        return 0; // mastered
+        return 0; // learned
     }
 
-    function isConceptMastered(conceptId, hasLevel3) {
+    function isConceptLearned(conceptId, hasLevel3) {
         return getCurrentLevel(conceptId, hasLevel3) === 0;
     }
 
@@ -132,53 +140,6 @@ const Progress = (() => {
         return Date.now() >= sr.nextReview;
     }
 
-    // --- XP functions ---
-
-    function addXP(level, sessionStreak) {
-        const base = XP_PER_LEVEL[level] || 10;
-        let multiplier = 1;
-        for (const [threshold, mult] of Object.entries(STREAK_MULTIPLIERS)) {
-            if (sessionStreak >= parseInt(threshold)) multiplier = mult;
-        }
-        const earned = Math.round(base * multiplier);
-        getData().xp = (getData().xp || 0) + earned;
-        save();
-        return earned;
-    }
-
-    function getXP() {
-        return getData().xp || 0;
-    }
-
-    // --- Daily streak functions ---
-
-    function updateDailyStreak() {
-        const data = getData();
-        const today = new Date().toDateString();
-        const streak = data.streak || { current: 0, lastStudyDate: null };
-        if (streak.lastStudyDate === today) return;
-        const yesterday = new Date(Date.now() - 86400000).toDateString();
-        if (streak.lastStudyDate === yesterday) {
-            streak.current++;
-        } else if (streak.lastStudyDate !== today) {
-            streak.current = 1;
-        }
-        streak.lastStudyDate = today;
-        data.streak = streak;
-        save();
-    }
-
-    function getDailyStreak() {
-        const data = getData();
-        const streak = data.streak || { current: 0, lastStudyDate: null };
-        const today = new Date().toDateString();
-        const yesterday = new Date(Date.now() - 86400000).toDateString();
-        if (streak.lastStudyDate === today || streak.lastStudyDate === yesterday) {
-            return streak.current;
-        }
-        return 0;
-    }
-
     // --- Skip functions ---
 
     function isConceptSkipped(conceptId) {
@@ -204,7 +165,7 @@ const Progress = (() => {
     // --- Chapter stats ---
 
     function getChapterStats(chapter) {
-        let started = 0, mastered = 0, total = 0;
+        let started = 0, learned = 0, total = 0;
         let levelsDone = 0, levelsTotal = 0;
         let progressSum = 0; // fractional progress including partial level credit
         for (const concept of chapter.concepts) {
@@ -227,10 +188,10 @@ const Progress = (() => {
                     progressSum += partial;
                 }
             }
-            if (isConceptMastered(concept.id, hasL3)) mastered++;
+            if (isConceptLearned(concept.id, hasL3)) learned++;
         }
         const pct = levelsTotal > 0 ? Math.round((progressSum / levelsTotal) * 100) : 0;
-        return { total, started, mastered, levelsDone, levelsTotal, pct };
+        return { total, started, learned, levelsDone, levelsTotal, pct };
     }
 
     // --- Sync data ---
@@ -244,8 +205,6 @@ const Progress = (() => {
         return {
             studentName: getStudentName(),
             chapterProgress,
-            xp: getXP(),
-            streak: getDailyStreak(),
             fullData: getData(),
         };
     }
@@ -302,15 +261,12 @@ const Progress = (() => {
     }
 
     return {
-        load, save, getData, setStudentName, getStudentName,
+        load, save, getData, setStudentName, getStudentName, setStudent, getOnyen,
         getConceptProgress, recordConceptAnswer,
-        isLevelPassed, getCurrentLevel, isConceptMastered, isConceptStarted,
+        isLevelPassed, getCurrentLevel, isConceptLearned, isConceptStarted,
         getQuestionSR, recordQuestionAnswer, isDueForReview,
         getChapterStats, getSyncPayload, getAnalyticsPayload, mergeRemoteData,
-        addXP, getXP,
-        updateDailyStreak, getDailyStreak,
         isConceptSkipped, toggleSkipConcept, getSkippedCount,
         LEVEL1_PASS, LEVEL2_PASS, LEVEL3_PASS,
-        XP_PER_LEVEL,
     };
 })();
