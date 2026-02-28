@@ -56,7 +56,7 @@ const QuizEngine = (() => {
                         const randomId = qIds[Math.floor(Math.random() * qIds.length)];
                         const qData = chapter.chapter_questions.find(cq => cq.id === randomId);
                         if (qData) {
-                            const q = makeLevel3FromData(qData, concept);
+                            const q = makeLevel3FromData(qData, concept, chapter);
                             q._inProgress = inProgress;
                             candidates.push(q);
                         }
@@ -109,7 +109,7 @@ const QuizEngine = (() => {
                 const qData = chapter.chapter_questions.find(cq => cq.id === qId);
                 if (qData) {
                     candidates.push({
-                        ...makeLevel3FromData(qData, concept),
+                        ...makeLevel3FromData(qData, concept, chapter),
                         _srDue: true,
                     });
                 }
@@ -138,7 +138,7 @@ const QuizEngine = (() => {
                         if (qIds.length > 0) {
                             const randomId = qIds[Math.floor(Math.random() * qIds.length)];
                             const qData = chapter.chapter_questions.find(cq => cq.id === randomId);
-                            if (qData) allQuestions.push(makeLevel3FromData(qData, concept));
+                            if (qData) allQuestions.push(makeLevel3FromData(qData, concept, chapter));
                         }
                     }
                 }
@@ -163,7 +163,8 @@ const QuizEngine = (() => {
         const choices = shuffle([correctDef, ...distractors]);
         return {
             level: 1,
-            levelLabel: 'Level 1 — Term Recognition',
+            levelLabel: 'Term Recognition',
+            chapterId: chapter.id,
             conceptId: concept.id,
             questionKey: `${concept.id}_L1`,
             text: `What is the best definition of <strong class="term-highlight">${concept.term}</strong>?`,
@@ -189,7 +190,8 @@ const QuizEngine = (() => {
         const choices = shuffle([correctTerm, ...distractors]);
         return {
             level: 2,
-            levelLabel: 'Level 2 — Definition Recognition',
+            levelLabel: 'Definition Recognition',
+            chapterId: chapter.id,
             conceptId: concept.id,
             questionKey: `${concept.id}_L2`,
             text: concept.definition,
@@ -204,10 +206,11 @@ const QuizEngine = (() => {
     /**
      * Level 3: Higher-order YAQ3 question.
      */
-    function makeLevel3FromData(qData, concept) {
+    function makeLevel3FromData(qData, concept, chapter) {
         return {
             level: 3,
-            levelLabel: 'Level 3 — Application',
+            levelLabel: 'Application',
+            chapterId: chapter ? chapter.id : undefined,
             conceptId: concept.id,
             questionKey: `L3_${qData.id}`,
             text: qData.question,
@@ -274,49 +277,34 @@ const QuizEngine = (() => {
     }
 
     /**
-     * Speed round: L1 questions for all non-skipped concepts, no size limit.
+     * Build a practice exam: proportional questions from exam chapters.
+     * Returns questions with chapterId for per-chapter scoring.
      */
-    function buildSpeedSession(chapters) {
+    function buildPracticeExam(chapters, size) {
         if (!Array.isArray(chapters)) chapters = [chapters];
-        const questions = [];
-        for (const chapter of chapters) {
-            for (const concept of chapter.concepts) {
-                if (Progress.isConceptSkipped(concept.id)) continue;
-                questions.push(makeLevel1Question(chapter, concept));
-            }
-        }
-        return shuffle(questions);
-    }
+        size = size || 50;
+        const allQuestions = [];
 
-    /**
-     * Marathon: questions for all started-but-not-mastered concepts at their current level.
-     */
-    function buildMarathonSession(chapters) {
-        if (!Array.isArray(chapters)) chapters = [chapters];
-        const questions = [];
         for (const chapter of chapters) {
             for (const concept of chapter.concepts) {
                 if (Progress.isConceptSkipped(concept.id)) continue;
-                if (!Progress.isConceptStarted(concept.id)) continue;
                 const hasL3 = concept.level3_question_ids.length > 0;
-                const currentLevel = Progress.getCurrentLevel(concept.id, hasL3);
-                if (currentLevel === 0) continue; // mastered
-                if (currentLevel === 1) {
-                    questions.push(makeLevel1Question(chapter, concept));
-                } else if (currentLevel === 2) {
-                    questions.push(makeLevel2Question(chapter, concept));
-                } else if (currentLevel === 3) {
+
+                allQuestions.push(makeLevel1Question(chapter, concept));
+                allQuestions.push(makeLevel2Question(chapter, concept));
+
+                if (hasL3) {
                     const qIds = concept.level3_question_ids;
-                    if (qIds.length > 0) {
-                        const randomId = qIds[Math.floor(Math.random() * qIds.length)];
-                        const qData = chapter.chapter_questions.find(cq => cq.id === randomId);
-                        if (qData) questions.push(makeLevel3FromData(qData, concept));
-                    }
+                    const randomId = qIds[Math.floor(Math.random() * qIds.length)];
+                    const qData = chapter.chapter_questions.find(cq => cq.id === randomId);
+                    if (qData) allQuestions.push(makeLevel3FromData(qData, concept, chapter));
                 }
             }
         }
-        return shuffle(questions);
+
+        shuffle(allQuestions);
+        return allQuestions.slice(0, size);
     }
 
-    return { buildSession, buildExamSession, buildSpeedSession, buildMarathonSession, recordAnswer, setSessionSize, getSessionSize };
+    return { buildSession, buildExamSession, buildPracticeExam, recordAnswer, setSessionSize, getSessionSize };
 })();
