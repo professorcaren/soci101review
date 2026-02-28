@@ -5,30 +5,30 @@
 }
 
 :root {
-    /* Dark theme */
-    --color-bg: #0d1117;
-    --color-surface: #161b22;
-    --color-surface-hover: #1c2129;
-    --color-text: #e6edf3;
-    --color-text-secondary: #8b949e;
-    --color-primary: #58a6ff;
-    --color-primary-hover: #79b8ff;
-    --color-success: #3fb950;
-    --color-success-bg: rgba(63, 185, 80, 0.15);
-    --color-error: #f85149;
-    --color-error-bg: rgba(248, 81, 73, 0.15);
-    --color-border: #30363d;
-    --color-progress-bg: #21262d;
-    --color-level-locked: #484f58;
-    --color-level-active: #58a6ff;
-    --color-level-done: #3fb950;
-    --color-xp: #d2a8ff;
-    --color-streak: #f0883e;
-    --radius-sm: 6px;
-    --radius-md: 10px;
-    --radius-lg: 14px;
-    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
-    --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.4);
+    /* Warm light theme */
+    --color-bg: #FBF7F0;
+    --color-surface: #FFFFFF;
+    --color-surface-hover: #F5F0E8;
+    --color-text: #2D2A26;
+    --color-text-secondary: #7A7267;
+    --color-primary: #B05E3A;
+    --color-primary-hover: #C46D48;
+    --color-success: #5A8A5E;
+    --color-success-bg: rgba(90, 138, 94, 0.12);
+    --color-error: #C04040;
+    --color-error-bg: rgba(192, 64, 64, 0.10);
+    --color-border: #E0D8CE;
+    --color-progress-bg: #EDE7DD;
+    --color-level-locked: #C8C0B4;
+    --color-level-active: #B05E3A;
+    --color-level-done: #5A8A5E;
+    --color-xp: #8B6AC2;
+    --color-streak: #D18A3B;
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --shadow-sm: 0 1px 4px rgba(45, 42, 38, 0.08);
+    --shadow-md: 0 3px 12px rgba(45, 42, 38, 0.12);
     --transition: 0.2s ease;
 }
 
@@ -38,11 +38,15 @@ html {
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background: var(--color-bg);
     color: var(--color-text);
     line-height: 1.5;
     min-height: 100dvh;
+}
+
+h1, h2, h3 {
+    font-family: 'DM Serif Display', Georgia, serif;
 }
 
 .container {

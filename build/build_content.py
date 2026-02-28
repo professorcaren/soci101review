@@ -161,9 +161,21 @@ def build_content():
 
     content = {"chapters": chapters}
 
-    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+    data_dir = os.path.dirname(OUTPUT_PATH)
+    os.makedirs(data_dir, exist_ok=True)
+
+    # Write monolithic content.json (backward compat)
     with open(OUTPUT_PATH, "w") as f:
         json.dump(content, f, indent=2)
+
+    # Write per-chapter files and manifest
+    manifest = [{"id": ch["id"], "name": ch["name"], "order": ch["order"]} for ch in chapters]
+    with open(os.path.join(data_dir, "chapters.json"), "w") as f:
+        json.dump(manifest, f, indent=2)
+
+    for ch in chapters:
+        with open(os.path.join(data_dir, f"{ch['id']}.json"), "w") as f:
+            json.dump(ch, f, indent=2)
 
     # Print summary
     total_terms = sum(len(ch["concepts"]) for ch in chapters)
@@ -171,7 +183,7 @@ def build_content():
     linked = sum(
         1 for ch in chapters for q in ch["chapter_questions"] if q["linked_concept_id"]
     )
-    print(f"Built content.json:")
+    print(f"Built content.json + {len(chapters)} per-chapter files + chapters.json:")
     print(f"  {len(chapters)} chapters")
     print(f"  {total_terms} vocab terms")
     print(f"  {total_questions} YAQ3 questions")
