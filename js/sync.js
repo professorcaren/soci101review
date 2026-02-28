@@ -5,7 +5,7 @@
  * Set APPS_SCRIPT_URL after deploying the Apps Script web app.
  */
 const Sync = (() => {
-    let APPS_SCRIPT_URL = '';
+    let APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxw3K37CAiJxeiQH_UFmr2XNDkqilJpmHz0Xfn1LKlF4wonoeRBi71UGvM2TKW1AaGIeg/exec';
     let _hasUnsavedProgress = false;
 
     function setUrl(url) {
