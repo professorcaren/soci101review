@@ -1,8 +1,16 @@
 /**
- * App initialization and routing.
+ * App initialization, routing, and event wiring.
  */
+const EXAMS = [
+    { id: 1, name: 'Exam 1', chapters: ['ch01','ch02','ch03','ch04','ch05','ch06'] },
+    { id: 2, name: 'Exam 2', chapters: ['ch07','ch08','ch09','ch10','ch11','ch12'] },
+    { id: 3, name: 'Exam 3', chapters: ['ch13','ch14','ch15','ch16'] },
+];
+
 const App = (() => {
     let _currentChapterId = null;
+    let _currentExamId = null;
+    let _returnTo = 'home'; // where "back" goes from study/summary
 
     async function init() {
         UI.init();
@@ -11,7 +19,7 @@ const App = (() => {
         try {
             await ContentLoader.load();
         } catch (e) {
-            document.body.innerHTML = '<p style="padding:2rem;color:red;">Failed to load content. Make sure data/content.json exists.</p>';
+            document.body.innerHTML = '<p style="padding:2rem;color:red;">Failed to load content. Make sure data files exist.</p>';
             return;
         }
 
@@ -19,201 +27,263 @@ const App = (() => {
         Sync.setupUnloadSync();
 
         // Check for returning student
-        const name = Progress.getStudentName();
-        if (name) {
-            showDashboard();
-            Sync.pullProgress();
+        const onyen = Progress.getOnyen();
+        if (onyen) {
+            showHome();
         } else {
-            UI.showScreen('welcome');
-            document.getElementById('stats-bar').classList.add('hidden');
+            UI.showIdentityModal();
+            showHome();
         }
 
-        // Handle hash routing
         handleHash();
         window.addEventListener('hashchange', handleHash);
     }
 
     function setupEvents() {
-        // Welcome screen
-        const nameInput = document.getElementById('student-name');
-        const startBtn = document.getElementById('btn-start');
-        nameInput.value = Progress.getStudentName() || '';
-        nameInput.addEventListener('input', () => {
-            startBtn.disabled = nameInput.value.trim().length === 0;
-        });
-        startBtn.addEventListener('click', () => {
-            Progress.setStudentName(nameInput.value.trim());
-            showDashboard();
-        });
-        // Enter key on name input
-        nameInput.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter' && nameInput.value.trim()) {
-                Progress.setStudentName(nameInput.value.trim());
-                showDashboard();
+        // --- Identity Modal ---
+        const nameInput = document.getElementById('input-name');
+        const onyenInput = document.getElementById('input-onyen');
+        const identityBtn = document.getElementById('btn-identity-save');
+
+        nameInput.addEventListener('input', () => UI.updateIdentityButton());
+        onyenInput.addEventListener('input', () => UI.updateIdentityButton());
+
+        identityBtn.addEventListener('click', () => {
+            const name = nameInput.value.trim();
+            const onyen = onyenInput.value.trim();
+            if (name && onyen) {
+                Progress.setStudent(name, onyen);
+                UI.hideIdentityModal();
+                showHome();
             }
         });
 
-        // Dashboard
-        document.getElementById('btn-review-all').addEventListener('click', () => {
-            const chapters = ContentLoader.getChapters();
-            const session = QuizEngine.buildSession(chapters);
-            _currentChapterId = null;
-            UI.startStudySession(session);
-            window.location.hash = 'study';
-        });
-
-        // Study Selected (multi-chapter)
-        document.getElementById('btn-study-selected').addEventListener('click', () => {
-            const selectedIds = UI.getSelectedChapterIds();
-            const chapters = ContentLoader.getChapters().filter(ch => selectedIds.has(ch.id));
-            if (chapters.length >= 2) {
-                const session = QuizEngine.buildSession(chapters);
-                _currentChapterId = null;
-                UI.startStudySession(session);
-                window.location.hash = 'study';
+        // Enter key on ONYEN input
+        onyenInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && nameInput.value.trim() && onyenInput.value.trim()) {
+                identityBtn.click();
             }
         });
 
-        // Chapter detail
-        document.getElementById('btn-back-dashboard').addEventListener('click', () => {
-            showDashboard();
+        // --- Home Screen ---
+        document.getElementById('card-chapters').addEventListener('click', () => {
+            showChapters();
         });
+
+        // Exam rows (delegated)
+        document.getElementById('home-exam-list').addEventListener('click', (e) => {
+            const row = e.target.closest('.home-exam-row');
+            if (row) {
+                const examId = parseInt(row.dataset.examId);
+                showExamPrep(examId);
+            }
+        });
+
+        // "Not you?" link (delegated from greeting)
+        document.getElementById('home-greeting').addEventListener('click', (e) => {
+            if (e.target.id === 'link-not-you') {
+                UI.showIdentityModal();
+            }
+        });
+
+        // --- Chapters List ---
+        document.getElementById('btn-back-home-from-chapters').addEventListener('click', () => {
+            showHome();
+        });
+
+        document.getElementById('chapters-list').addEventListener('click', (e) => {
+            const row = e.target.closest('.chapter-list-row');
+            if (row) {
+                showChapter(row.dataset.chapterId);
+            }
+        });
+
+        // --- Chapter Detail ---
+        document.getElementById('btn-back-chapters').addEventListener('click', () => {
+            if (_returnTo === 'exam' && _currentExamId) {
+                showExamPrep(_currentExamId);
+            } else {
+                showChapters();
+            }
+        });
+
         document.getElementById('btn-study-chapter').addEventListener('click', () => {
             if (_currentChapterId) {
                 const chapter = ContentLoader.getChapter(_currentChapterId);
                 const session = QuizEngine.buildSession(chapter);
+                _returnTo = 'chapter';
                 UI.startStudySession(session);
                 window.location.hash = 'study';
             }
         });
 
-        // Study session
-        document.getElementById('btn-back-chapter').addEventListener('click', () => {
-            if (_currentChapterId) {
-                showChapter(_currentChapterId);
-            } else {
-                showDashboard();
-            }
-        });
-        document.getElementById('btn-next').addEventListener('click', () => {
-            UI.nextQuestion();
-        });
-
-        // Summary
-        document.getElementById('btn-continue-studying').addEventListener('click', () => {
-            if (_currentChapterId) {
-                const chapter = ContentLoader.getChapter(_currentChapterId);
-                const session = QuizEngine.buildSession(chapter);
-                UI.startStudySession(session);
-            } else {
-                const chapters = ContentLoader.getChapters();
-                const session = QuizEngine.buildSession(chapters);
-                UI.startStudySession(session);
-            }
-        });
-        document.getElementById('btn-back-to-dashboard').addEventListener('click', showDashboard);
-
-        // Session size selector
         document.getElementById('session-size-select').addEventListener('change', (e) => {
             QuizEngine.setSessionSize(parseInt(e.target.value));
         });
 
-        // Exam mode button
-        document.getElementById('btn-exam-mode').addEventListener('click', () => {
-            if (_currentChapterId) {
-                const chapter = ContentLoader.getChapter(_currentChapterId);
-                const session = QuizEngine.buildExamSession(chapter);
-                UI.startStudySession(session, { examMode: true });
-                window.location.hash = 'study';
+        // --- Exam Prep ---
+        document.getElementById('btn-back-home-from-exam').addEventListener('click', () => {
+            showHome();
+        });
+
+        document.getElementById('btn-test-mode').addEventListener('click', () => {
+            if (_currentExamId) {
+                startPracticeExam(_currentExamId, true);
             }
         });
 
-        // Speed round
-        document.getElementById('btn-speed-round').addEventListener('click', () => {
-            if (_currentChapterId) {
-                const chapter = ContentLoader.getChapter(_currentChapterId);
-                const session = QuizEngine.buildSpeedSession(chapter);
-                UI.startStudySession(session, { speedMode: true });
-                window.location.hash = 'study';
+        document.getElementById('btn-study-mode').addEventListener('click', () => {
+            if (_currentExamId) {
+                startPracticeExam(_currentExamId, false);
             }
         });
 
-        // Marathon mode
-        document.getElementById('btn-marathon').addEventListener('click', () => {
-            if (_currentChapterId) {
-                const chapter = ContentLoader.getChapter(_currentChapterId);
-                const session = QuizEngine.buildMarathonSession(chapter);
-                UI.startStudySession(session, { marathonMode: true });
-                window.location.hash = 'study';
+        document.getElementById('exam-chapter-list').addEventListener('click', (e) => {
+            const row = e.target.closest('.chapter-list-row');
+            if (row) {
+                _returnTo = 'exam';
+                showChapter(row.dataset.chapterId);
             }
         });
 
-        // End Marathon button
-        document.getElementById('btn-end-marathon').addEventListener('click', () => {
-            UI.endSession();
+        // --- Study Session ---
+        document.getElementById('btn-back-from-study').addEventListener('click', () => {
+            navigateBack();
         });
 
-        // Leaderboard
-        document.getElementById('btn-leaderboard').addEventListener('click', () => {
-            UI.showScreen('leaderboard');
-            UI.renderLeaderboard();
-            window.location.hash = 'leaderboard';
-        });
-        document.getElementById('btn-back-from-leaderboard').addEventListener('click', () => {
-            showDashboard();
-        });
-        document.getElementById('btn-refresh-leaderboard').addEventListener('click', () => {
-            if (Sync.clearLeaderboardCache) Sync.clearLeaderboardCache();
-            UI.renderLeaderboard();
+        document.getElementById('btn-next').addEventListener('click', () => {
+            UI.nextQuestion();
         });
 
-        // Recall mode (show answer / self-grade)
-        document.getElementById('btn-show-answer').addEventListener('click', () => {
-            UI.showRecallAnswer();
-        });
-        document.getElementById('btn-knew-it').addEventListener('click', () => {
-            UI.handleSelfGrade(true);
-        });
-        document.getElementById('btn-didnt-know').addEventListener('click', () => {
-            UI.handleSelfGrade(false);
+        // --- Summary (dynamic buttons, use delegation) ---
+        document.getElementById('summary-content').addEventListener('click', (e) => {
+            const target = e.target;
+            if (target.id === 'btn-keep-studying') {
+                if (_currentChapterId) {
+                    const chapter = ContentLoader.getChapter(_currentChapterId);
+                    const session = QuizEngine.buildSession(chapter);
+                    UI.startStudySession(session);
+                    window.location.hash = 'study';
+                } else {
+                    showHome();
+                }
+            } else if (target.id === 'btn-back-from-summary') {
+                if (_currentChapterId) {
+                    showChapter(_currentChapterId);
+                } else {
+                    showHome();
+                }
+            } else if (target.id === 'btn-review-missed') {
+                const missed = UI.getMissedQuestions();
+                if (missed.length > 0) {
+                    UI.startStudySession(missed, {
+                        examStudyMode: true,
+                        examId: UI.getCurrentExamId(),
+                    });
+                    window.location.hash = 'study';
+                }
+            } else if (target.id === 'btn-back-to-exam') {
+                const examId = UI.getCurrentExamId();
+                if (examId) {
+                    showExamPrep(examId);
+                } else {
+                    showHome();
+                }
+            }
         });
 
-        // Keyboard
+        // --- Keyboard ---
         document.addEventListener('keydown', UI.handleKeydown);
     }
 
-    function showDashboard() {
+    function startPracticeExam(examId, testMode) {
+        const exam = EXAMS.find(e => e.id === examId);
+        if (!exam) return;
+        const chapters = exam.chapters.map(id => ContentLoader.getChapter(id)).filter(Boolean);
+        const questions = QuizEngine.buildPracticeExam(chapters, 50);
+        _returnTo = 'exam';
+        UI.startStudySession(questions, {
+            examTestMode: testMode,
+            examStudyMode: !testMode,
+            examId: examId,
+        });
+        window.location.hash = 'study';
+    }
+
+    function showHome() {
         _currentChapterId = null;
-        UI.renderDashboard();
-        UI.showScreen('dashboard');
-        window.location.hash = 'dashboard';
-        document.getElementById('stats-bar').classList.remove('hidden');
+        _currentExamId = null;
+        _returnTo = 'home';
+        UI.renderHome();
+        UI.showScreen('home');
+        window.location.hash = 'home';
+    }
+
+    function showChapters() {
+        _currentChapterId = null;
+        _returnTo = 'home';
+        UI.renderChaptersList();
+        UI.showScreen('chapters');
+        window.location.hash = 'chapters';
     }
 
     function showChapter(chapterId) {
         _currentChapterId = chapterId;
         const chapter = ContentLoader.getChapter(chapterId);
-        if (!chapter) return showDashboard();
+        if (!chapter) return showHome();
         UI.renderChapterDetail(chapter);
+        // Update back button label based on context
+        const backBtn = document.getElementById('btn-back-chapters');
+        if (_returnTo === 'exam' && _currentExamId) {
+            const exam = EXAMS.find(e => e.id === _currentExamId);
+            backBtn.innerHTML = '&larr; ' + (exam ? exam.name : 'Exam');
+        } else {
+            backBtn.innerHTML = '&larr; Chapters';
+        }
         UI.showScreen('chapter');
-        window.location.hash = `chapter/${chapterId}`;
+        window.location.hash = 'chapter/' + chapterId;
+    }
+
+    function showExamPrep(examId) {
+        _currentExamId = examId;
+        const exam = EXAMS.find(e => e.id === examId);
+        if (!exam) return showHome();
+        const chapters = exam.chapters.map(id => ContentLoader.getChapter(id)).filter(Boolean);
+        UI.renderExamPrep(examId, chapters);
+        UI.showScreen('exam');
+        window.location.hash = 'exam/' + examId;
+    }
+
+    function navigateBack() {
+        if (_returnTo === 'exam' && _currentExamId) {
+            showExamPrep(_currentExamId);
+        } else if (_returnTo === 'chapter' && _currentChapterId) {
+            showChapter(_currentChapterId);
+        } else {
+            showHome();
+        }
     }
 
     function handleHash() {
         const hash = window.location.hash.replace('#', '');
-        if (!hash || hash === 'welcome') return;
-        if (hash === 'dashboard' && Progress.getStudentName()) {
-            showDashboard();
-        } else if (hash.startsWith('chapter/')) {
+        if (!hash) return;
+
+        const onyen = Progress.getOnyen();
+
+        if (hash === 'home') {
+            showHome();
+        } else if (hash === 'chapters' && onyen) {
+            showChapters();
+        } else if (hash.startsWith('chapter/') && onyen) {
             const chId = hash.split('/')[1];
             showChapter(chId);
-        } else if (hash === 'leaderboard' && Progress.getStudentName()) {
-            UI.showScreen('leaderboard');
-            UI.renderLeaderboard();
+        } else if (hash.startsWith('exam/') && onyen) {
+            const examId = parseInt(hash.split('/')[1]);
+            showExamPrep(examId);
         }
     }
 
-    return { init, showDashboard, showChapter };
+    return { init, showHome, showChapters, showChapter, showExamPrep, EXAMS };
 })();
 
 document.addEventListener('DOMContentLoaded', App.init);

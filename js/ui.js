@@ -4,6 +4,16 @@
 const UI = (() => {
     const screens = {};
 
+    let _sessionQuestions = [];
+    let _sessionIndex = 0;
+    let _sessionCorrect = 0;
+    let _answered = false;
+    let _sessionLevelUps = [];
+    let _examTestMode = false;
+    let _examStudyMode = false;
+    let _examResults = [];
+    let _currentExamId = null;
+
     function init() {
         document.querySelectorAll('.screen').forEach(el => {
             screens[el.id] = el;
@@ -19,79 +29,74 @@ const UI = (() => {
         }
     }
 
-    // --- Dashboard ---
+    // --- Home Screen ---
 
-    let _selectedChapterIds = new Set();
+    function renderHome() {
+        const chapters = ContentLoader.getChapters();
+        let totalLearned = 0;
+        let totalConcepts = 0;
+        for (const ch of chapters) {
+            const stats = Progress.getChapterStats(ch);
+            totalLearned += stats.learned;
+            totalConcepts += stats.total;
+        }
 
-    function renderDashboard() {
-        const grid = document.getElementById('chapter-grid');
-        grid.innerHTML = '';
+        // Greeting
+        const name = Progress.getStudentName();
+        const greetingEl = document.getElementById('home-greeting');
+        if (name) {
+            greetingEl.innerHTML = 'Hi, ' + escapeHtml(name) + '! <a id="link-not-you">Not you?</a>';
+        } else {
+            greetingEl.textContent = '';
+        }
+
+        // Chapters card progress
+        const chaptersProgress = document.getElementById('home-chapters-progress');
+        const pct = totalConcepts > 0 ? Math.round((totalLearned / totalConcepts) * 100) : 0;
+        const fillClass = pct === 100 ? ' complete' : '';
+        chaptersProgress.innerHTML =
+            totalLearned + ' of ' + totalConcepts + ' concepts learned' +
+            '<div class="progress-bar"><div class="progress-fill' + fillClass + '" style="width:' + pct + '%"></div></div>';
+
+        // Exam list
+        const examList = document.getElementById('home-exam-list');
+        examList.innerHTML = '';
+        for (const exam of App.EXAMS) {
+            const row = document.createElement('div');
+            row.className = 'home-exam-row';
+            row.dataset.examId = exam.id;
+            row.innerHTML =
+                '<span class="home-exam-row-name">' + exam.name + '</span>' +
+                '<span class="home-exam-row-arrow">&rsaquo;</span>';
+            examList.appendChild(row);
+        }
+    }
+
+    // --- Chapters List ---
+
+    function renderChaptersList() {
+        const list = document.getElementById('chapters-list');
+        list.innerHTML = '';
         const chapters = ContentLoader.getChapters();
 
-        // Show and update stats bar
-        document.getElementById('stats-bar').classList.remove('hidden');
-        document.getElementById('stat-xp').textContent = Progress.getXP();
-        document.getElementById('stat-streak').textContent = Progress.getDailyStreak();
-        let totalMastered = 0;
         for (const ch of chapters) {
             const stats = Progress.getChapterStats(ch);
-            totalMastered += stats.mastered;
-        }
-        document.getElementById('stat-mastered').textContent = totalMastered;
+            const row = document.createElement('div');
+            row.className = 'chapter-list-row' + (stats.pct === 100 ? ' complete' : '');
+            row.dataset.chapterId = ch.id;
 
-        for (const ch of chapters) {
-            const stats = Progress.getChapterStats(ch);
-            const card = document.createElement('div');
-            card.className = 'chapter-card' + (stats.pct === 100 ? ' mastered' : '');
-            card.dataset.chapterId = ch.id;
             const fillClass = stats.pct === 100 ? ' complete' : '';
-            const statusText = stats.mastered === stats.total
-                ? `All ${stats.total} concepts mastered!`
-                : stats.levelsDone > 0
-                    ? `${stats.levelsDone}/${stats.levelsTotal} levels passed`
-                    : stats.started > 0
-                        ? `${stats.started} concept${stats.started === 1 ? '' : 's'} started`
-                        : `${stats.total} concepts`;
+            row.innerHTML =
+                '<div class="chapter-list-info">' +
+                    '<div class="chapter-list-name">' + ch.name + '</div>' +
+                    '<div class="chapter-list-stats">' + stats.learned + '/' + stats.total + ' learned</div>' +
+                '</div>' +
+                '<div class="chapter-list-bar">' +
+                    '<div class="progress-bar"><div class="progress-fill' + fillClass + '" style="width:' + stats.pct + '%"></div></div>' +
+                '</div>';
 
-            const checkbox = document.createElement('input');
-            checkbox.type = 'checkbox';
-            checkbox.className = 'chapter-card-checkbox';
-            checkbox.checked = _selectedChapterIds.has(ch.id);
-            checkbox.addEventListener('click', (e) => e.stopPropagation());
-            checkbox.addEventListener('change', (e) => {
-                if (e.target.checked) {
-                    _selectedChapterIds.add(ch.id);
-                } else {
-                    _selectedChapterIds.delete(ch.id);
-                }
-                updateStudySelectedButton();
-            });
-
-            card.innerHTML = `
-                <div class="chapter-card-title">${ch.name}</div>
-                <div class="chapter-card-stats">${statusText}</div>
-                <div class="progress-bar"><div class="progress-fill${fillClass}" style="width:${stats.pct}%"></div></div>
-            `;
-            card.prepend(checkbox);
-            card.addEventListener('click', () => App.showChapter(ch.id));
-            grid.appendChild(card);
+            list.appendChild(row);
         }
-        updateStudySelectedButton();
-    }
-
-    function updateStudySelectedButton() {
-        const btn = document.getElementById('btn-study-selected');
-        const count = _selectedChapterIds.size;
-        if (count >= 2) {
-            btn.textContent = 'Study Selected (' + count + ')';
-            btn.classList.remove('hidden');
-        } else {
-            btn.classList.add('hidden');
-        }
-    }
-
-    function getSelectedChapterIds() {
-        return _selectedChapterIds;
     }
 
     // --- Chapter Detail ---
@@ -102,25 +107,25 @@ const UI = (() => {
         const bar = document.querySelector('#chapter-progress-bar .progress-fill');
         bar.style.width = stats.pct + '%';
         bar.className = 'progress-fill' + (stats.pct === 100 ? ' complete' : '');
-        const statsText = stats.mastered === stats.total
-            ? `All ${stats.total} concepts mastered!`
-            : `${stats.levelsDone} of ${stats.levelsTotal} levels passed \u00b7 ${stats.mastered} of ${stats.total} concepts mastered`;
+
+        const statsText = stats.learned === stats.total
+            ? 'All ' + stats.total + ' concepts learned!'
+            : stats.learned + ' of ' + stats.total + ' concepts learned';
         document.getElementById('chapter-stats').textContent = statsText;
 
         const list = document.getElementById('concept-list');
         list.innerHTML = '';
 
-        // Add legend
+        // Legend
         const legend = document.createElement('div');
         legend.className = 'level-legend';
-        legend.innerHTML = `
-            <span class="level-legend-item"><span class="level-dot done"></span> Passed</span>
-            <span class="level-legend-item"><span class="level-dot active"></span> In progress</span>
-            <span class="level-legend-item"><span class="level-dot"></span> Locked</span>
-        `;
+        legend.innerHTML =
+            '<span class="level-legend-item"><span class="level-dot done"></span> Learned</span>' +
+            '<span class="level-legend-item"><span class="level-dot active"></span> Practicing</span>' +
+            '<span class="level-legend-item"><span class="level-dot"></span> Not started</span>';
         list.appendChild(legend);
 
-        // Show skipped count label if any terms are skipped
+        // Skipped count
         const skippedCount = Progress.getSkippedCount(chapter);
         if (skippedCount > 0) {
             const skippedLabel = document.createElement('div');
@@ -146,8 +151,8 @@ const UI = (() => {
                 } else if (lvl === currentLevel) {
                     dotClass += ' active';
                 }
-                const levelNames = { 1: 'Term → Definition', 2: 'Definition → Term', 3: 'Application' };
-                dotsHtml += `<div class="${dotClass}" title="Level ${lvl}: ${levelNames[lvl]}"></div>`;
+                const levelNames = { 1: 'Term \u2192 Definition', 2: 'Definition \u2192 Term', 3: 'Application' };
+                dotsHtml += '<div class="' + dotClass + '" title="Level ' + lvl + ': ' + levelNames[lvl] + '"></div>';
             }
 
             // Skip button
@@ -166,19 +171,17 @@ const UI = (() => {
             const termContainer = document.createElement('div');
             termContainer.className = 'concept-term-container';
 
-            // Check for trouble spot
             const cp = Progress.getConceptProgress(concept.id);
             const totalAttempts = cp.level1.attempts + cp.level2.attempts + cp.level3.attempts;
             const totalCorrect = cp.level1.correct + cp.level2.correct + cp.level3.correct;
             const isTroubleSpot = totalAttempts >= 3 && (totalCorrect / totalAttempts) < 0.5;
 
-            let termHtml = '<span class="concept-term">' + concept.term;
+            let termHtml = '<span class="concept-term">' + escapeHtml(concept.term);
             if (isTroubleSpot) {
                 termHtml += ' <span class="trouble-dot" title="Trouble spot">\u25cf</span>';
             }
             termHtml += '</span>';
 
-            // Confusable hints (only for non-skipped)
             if (!isSkipped && concept.confusable_ids && concept.confusable_ids.length > 0) {
                 const confusableNames = concept.confusable_ids
                     .slice(0, 3)
@@ -186,14 +189,13 @@ const UI = (() => {
                     .filter(Boolean)
                     .map(c => c.term);
                 if (confusableNames.length > 0) {
-                    termHtml += '<div class="confusable-hint">Often confused with: ' + confusableNames.join(', ') + '</div>';
+                    termHtml += '<div class="confusable-hint">Often confused with: ' + confusableNames.map(escapeHtml).join(', ') + '</div>';
                 }
             }
 
             termContainer.innerHTML = termHtml;
             row.appendChild(termContainer);
 
-            // Level dots
             const dotsContainer = document.createElement('div');
             dotsContainer.className = 'concept-levels';
             dotsContainer.innerHTML = dotsHtml;
@@ -203,49 +205,75 @@ const UI = (() => {
         }
     }
 
+    // --- Exam Prep ---
+
+    function renderExamPrep(examId, examChapters) {
+        _currentExamId = examId;
+        const exam = App.EXAMS.find(e => e.id === examId);
+        document.getElementById('exam-title').textContent = exam ? exam.name : 'Exam ' + examId;
+
+        // Compute aggregate stats
+        let totalLearned = 0, totalConcepts = 0;
+        let totalProgressSum = 0, totalLevelsTotal = 0;
+        for (const ch of examChapters) {
+            const stats = Progress.getChapterStats(ch);
+            totalLearned += stats.learned;
+            totalConcepts += stats.total;
+            totalProgressSum += stats.levelsDone;
+            totalLevelsTotal += stats.levelsTotal;
+        }
+        const pct = totalLevelsTotal > 0 ? Math.round((totalProgressSum / totalLevelsTotal) * 100) : 0;
+
+        const bar = document.querySelector('#exam-progress-bar .progress-fill');
+        bar.style.width = pct + '%';
+        bar.className = 'progress-fill' + (pct === 100 ? ' complete' : '');
+        document.getElementById('exam-stats').textContent =
+            totalLearned + ' of ' + totalConcepts + ' concepts learned';
+
+        // Question count
+        document.getElementById('exam-question-count').textContent =
+            '50 questions from all chapters';
+
+        // Chapter list
+        const listEl = document.getElementById('exam-chapter-list');
+        listEl.innerHTML = '';
+        for (const ch of examChapters) {
+            const stats = Progress.getChapterStats(ch);
+            const row = document.createElement('div');
+            row.className = 'chapter-list-row' + (stats.pct === 100 ? ' complete' : '');
+            row.dataset.chapterId = ch.id;
+            const fillClass = stats.pct === 100 ? ' complete' : '';
+            row.innerHTML =
+                '<div class="chapter-list-info">' +
+                    '<div class="chapter-list-name">' + ch.name + '</div>' +
+                    '<div class="chapter-list-stats">' + stats.learned + '/' + stats.total + ' learned</div>' +
+                '</div>' +
+                '<div class="chapter-list-bar">' +
+                    '<div class="progress-bar"><div class="progress-fill' + fillClass + '" style="width:' + stats.pct + '%"></div></div>' +
+                '</div>';
+            listEl.appendChild(row);
+        }
+    }
+
     // --- Study Session ---
 
-    let _sessionQuestions = [];
-    let _sessionIndex = 0;
-    let _sessionCorrect = 0;
-    let _answered = false;
-    let _sessionConsecutiveCorrect = 0;
-    let _sessionXPEarned = 0;
-    let _sessionLevelUps = [];
-    let _examMode = false;
-    let _examTimer = null;
-    let _examTimeLeft = 0;
-    let _speedMode = false;
-    let _speedTimer = null;
-    let _speedTimeLeft = 0;
-    let _marathonMode = false;
-
     function startStudySession(questions, options) {
-        _examMode = (options && options.examMode) || false;
-        _speedMode = (options && options.speedMode) || false;
-        _marathonMode = (options && options.marathonMode) || false;
+        options = options || {};
+        _examTestMode = !!options.examTestMode;
+        _examStudyMode = !!options.examStudyMode;
+        _currentExamId = options.examId || null;
         _sessionQuestions = questions;
         _sessionIndex = 0;
         _sessionCorrect = 0;
-        _sessionConsecutiveCorrect = 0;
-        _sessionXPEarned = 0;
         _sessionLevelUps = [];
+        _answered = false;
+        _examResults = [];
+
         if (questions.length === 0) {
             renderSessionSummary();
             return;
         }
-        if (_examMode && options && options.timeLimit) {
-            startExamTimer(options.timeLimit);
-        }
-        // Speed mode timer
-        if (_speedMode) {
-            startSpeedTimer();
-        }
-        // Marathon mode: show end button
-        const endMarathonBtn = document.getElementById('btn-end-marathon');
-        if (endMarathonBtn) {
-            endMarathonBtn.classList.toggle('hidden', !_marathonMode);
-        }
+
         showScreen('study');
         renderQuestion();
     }
@@ -253,13 +281,12 @@ const UI = (() => {
     function renderQuestion() {
         _answered = false;
         const q = _sessionQuestions[_sessionIndex];
-        if (!_speedMode) {
-            document.getElementById('study-progress-label').textContent =
-                (_sessionIndex + 1) + ' / ' + _sessionQuestions.length;
-        }
+
+        document.getElementById('study-progress-label').textContent =
+            'Question ' + (_sessionIndex + 1) + ' of ' + _sessionQuestions.length;
+
         document.getElementById('question-level').textContent = q.levelLabel;
         document.getElementById('question-text').innerHTML = q.text;
-        document.getElementById('question-area').dataset.correctIndex = q.correctIndex;
 
         const feedback = document.getElementById('feedback');
         feedback.classList.add('hidden');
@@ -283,51 +310,46 @@ const UI = (() => {
 
         const q = _sessionQuestions[_sessionIndex];
         const wasCorrect = QuizEngine.recordAnswer(q, selectedIndex);
-        if (wasCorrect) {
-            _sessionCorrect++;
-            _sessionConsecutiveCorrect++;
-            const earned = Progress.addXP(q.level, _sessionConsecutiveCorrect);
-            _sessionXPEarned += earned;
-            showXPFlyup(earned);
-            updateStatsBar();
-        } else {
-            _sessionConsecutiveCorrect = 0;
-        }
+        if (wasCorrect) _sessionCorrect++;
 
-        // Check for level-up
+        // Track level-ups
         if (wasCorrect && Progress.isLevelPassed(q.conceptId, q.level)) {
             const chapters = ContentLoader.getChapters();
             for (const ch of chapters) {
                 const concept = ch.concepts.find(c => c.id === q.conceptId);
                 if (concept) {
-                    _sessionLevelUps.push({ term: concept.term, level: q.level });
+                    const hasL3 = concept.level3_question_ids.length > 0;
+                    const currentLevel = Progress.getCurrentLevel(concept.id, hasL3);
+                    if (currentLevel === 0) {
+                        // Just became learned
+                        _sessionLevelUps.push({ term: concept.term, level: q.level, learned: true });
+                    } else {
+                        _sessionLevelUps.push({ term: concept.term, level: q.level, learned: false });
+                    }
                     break;
                 }
             }
         }
 
-        if (_speedMode) {
-            const btns = document.querySelectorAll('#choices .choice-btn');
-            if (wasCorrect) {
-                btns[selectedIndex].classList.add('selected-correct');
-                setTimeout(() => nextQuestion(), 100);
-            } else {
-                btns[selectedIndex].classList.add('selected-incorrect');
-                btns[q.correctIndex].classList.add('reveal-correct');
-                setTimeout(() => nextQuestion(), 500);
-            }
-            return;
+        // Track exam results
+        if (_examTestMode || _examStudyMode) {
+            _examResults.push({
+                question: q,
+                selectedIndex: selectedIndex,
+                wasCorrect: wasCorrect,
+                chapterId: q.chapterId,
+            });
         }
 
-        if (_examMode) {
-            // Brief highlight then auto-advance
+        if (_examTestMode) {
+            // Neutral highlight, auto-advance
             const btns = document.querySelectorAll('#choices .choice-btn');
             btns[selectedIndex].classList.add('selected-neutral');
             setTimeout(() => nextQuestion(), 300);
             return;
         }
 
-        // Highlight choices
+        // Normal or exam study mode: show feedback
         const btns = document.querySelectorAll('#choices .choice-btn');
         btns.forEach((btn, idx) => {
             btn.classList.add('answered');
@@ -341,7 +363,6 @@ const UI = (() => {
             }
         });
 
-        // Show feedback
         const feedback = document.getElementById('feedback');
         const feedbackText = document.getElementById('feedback-text');
         feedback.classList.remove('hidden', 'correct', 'incorrect');
@@ -352,86 +373,15 @@ const UI = (() => {
             feedback.classList.add('incorrect');
             if (q._term && q._definition) {
                 if (q.level === 1) {
-                    feedbackText.innerHTML = 'The definition of <strong>' + q._term + '</strong> is: ' + q._definition;
+                    feedbackText.innerHTML = 'The definition of <strong>' + escapeHtml(q._term) + '</strong> is: ' + escapeHtml(q._definition);
                 } else if (q.level === 2) {
-                    feedbackText.innerHTML = 'That definition refers to <strong>' + q._term + '</strong>: ' + q._definition;
+                    feedbackText.innerHTML = 'That definition refers to <strong>' + escapeHtml(q._term) + '</strong>: ' + escapeHtml(q._definition);
                 } else {
-                    feedbackText.innerHTML = 'The correct answer is: ' + q.choices[q.correctIndex] + '. This relates to <strong>' + q._term + '</strong>: ' + q._definition;
+                    feedbackText.innerHTML = 'The correct answer is: ' + escapeHtml(q.choices[q.correctIndex]) + '. This relates to <strong>' + escapeHtml(q._term) + '</strong>: ' + escapeHtml(q._definition);
                 }
             } else {
                 feedbackText.textContent = 'Incorrect. The answer is: ' + q.choices[q.correctIndex];
             }
-        }
-
-        document.getElementById('btn-next').classList.remove('hidden');
-
-        // Sync check
-        Sync.onAnswer();
-    }
-
-    function showRecallAnswer() {
-        const q = _sessionQuestions[_sessionIndex];
-        const container = document.getElementById('choices');
-        container.classList.remove('recall-hidden');
-        document.getElementById('btn-show-answer').classList.add('hidden');
-
-        // Highlight the correct answer
-        const btns = container.querySelectorAll('.choice-btn');
-        btns.forEach((btn, idx) => {
-            btn.classList.add('answered');
-            if (idx === q.correctIndex) {
-                btn.classList.add('reveal-correct');
-            }
-        });
-
-        // Show self-grade buttons
-        document.getElementById('self-grade').classList.remove('hidden');
-    }
-
-    function handleSelfGrade(knewIt) {
-        if (_answered) return;
-        _answered = true;
-
-        const q = _sessionQuestions[_sessionIndex];
-        const wasCorrect = knewIt;
-        Progress.recordConceptAnswer(q.conceptId, q.level, wasCorrect);
-        Progress.recordQuestionAnswer(q.questionKey, wasCorrect);
-
-        if (wasCorrect) {
-            _sessionCorrect++;
-            _sessionConsecutiveCorrect++;
-            const earned = Progress.addXP(q.level, _sessionConsecutiveCorrect);
-            _sessionXPEarned += earned;
-            showXPFlyup(earned);
-            updateStatsBar();
-        } else {
-            _sessionConsecutiveCorrect = 0;
-        }
-
-        // Check for level-up
-        if (wasCorrect && Progress.isLevelPassed(q.conceptId, q.level)) {
-            const chapters = ContentLoader.getChapters();
-            for (const ch of chapters) {
-                const concept = ch.concepts.find(c => c.id === q.conceptId);
-                if (concept) {
-                    _sessionLevelUps.push({ term: concept.term, level: q.level });
-                    break;
-                }
-            }
-        }
-
-        document.getElementById('self-grade').classList.add('hidden');
-
-        // Show feedback
-        const feedback = document.getElementById('feedback');
-        const feedbackText = document.getElementById('feedback-text');
-        feedback.classList.remove('hidden', 'correct', 'incorrect');
-        if (wasCorrect) {
-            feedback.classList.add('correct');
-            feedbackText.textContent = 'Marked as known!';
-        } else {
-            feedback.classList.add('incorrect');
-            feedbackText.textContent = 'Marked for review. The answer is: ' + q.choices[q.correctIndex];
         }
 
         document.getElementById('btn-next').classList.remove('hidden');
@@ -447,160 +397,136 @@ const UI = (() => {
         }
     }
 
-    function startExamTimer(minutes) {
-        const timerEl = document.getElementById('study-progress-label');
-        if (!minutes) return;
-        _examTimeLeft = minutes * 60;
-        _examTimer = setInterval(() => {
-            _examTimeLeft--;
-            const m = Math.floor(_examTimeLeft / 60);
-            const s = String(_examTimeLeft % 60).padStart(2, '0');
-            timerEl.textContent = m + ':' + s;
-            if (_examTimeLeft <= 0) {
-                clearInterval(_examTimer);
-                _examTimer = null;
-                renderSessionSummary();
-            }
-        }, 1000);
-    }
-
-    function startSpeedTimer() {
-        _speedTimeLeft = 120;
-        const timerEl = document.getElementById('study-progress-label');
-        updateSpeedTimerDisplay(timerEl);
-        _speedTimer = setInterval(() => {
-            _speedTimeLeft--;
-            updateSpeedTimerDisplay(timerEl);
-            if (_speedTimeLeft <= 0) {
-                clearInterval(_speedTimer);
-                _speedTimer = null;
-                renderSessionSummary();
-            }
-        }, 1000);
-    }
-
-    function updateSpeedTimerDisplay(el) {
-        const m = Math.floor(_speedTimeLeft / 60);
-        const s = String(_speedTimeLeft % 60).padStart(2, '0');
-        el.textContent = m + ':' + s;
-        if (_speedTimeLeft <= 30) {
-            el.classList.add('timer-warning');
-        } else {
-            el.classList.remove('timer-warning');
-        }
-    }
+    // --- Session Summary / Exam Report ---
 
     function renderSessionSummary() {
-        if (_examTimer) { clearInterval(_examTimer); _examTimer = null; }
-        if (_speedTimer) { clearInterval(_speedTimer); _speedTimer = null; }
         showScreen('summary');
+        const contentEl = document.getElementById('summary-content');
         const total = _sessionQuestions.length;
 
-        // Update daily streak
-        if (total > 0) Progress.updateDailyStreak();
-
-        const scoreEl = document.getElementById('summary-score');
-        scoreEl.textContent = total > 0 ? _sessionCorrect + '/' + total : '';
-
-        const details = document.getElementById('summary-details');
-        let html = '';
-
-        if (total === 0) {
-            html = 'All concepts mastered and no reviews are due. Nice work!';
-        } else if (_speedMode) {
-            const rate = (total > 0 ? (_sessionCorrect / 2).toFixed(1) : '0');
-            html += '<div class="summary-stat">' + _sessionCorrect + ' correct in 2 minutes!</div>';
-            html += '<div class="summary-stat">' + rate + ' questions/minute</div>';
-            if (_sessionXPEarned > 0) {
-                html += '<div class="summary-stat summary-xp">+' + _sessionXPEarned + ' XP earned</div>';
-            }
-        } else if (_marathonMode) {
-            const pct = Math.round((_sessionCorrect / total) * 100);
-            html += '<div class="summary-stat">' + _sessionCorrect + ' of ' + total + ' correct (' + pct + '%)</div>';
-            if (_sessionXPEarned > 0) {
-                html += '<div class="summary-stat summary-xp">+' + _sessionXPEarned + ' XP earned</div>';
-            }
-            if (_sessionLevelUps.length > 0) {
-                html += '<div class="summary-levelups">';
-                for (const lu of _sessionLevelUps) {
-                    html += '<div class="summary-levelup">\u2713 ' + lu.term + ' \u2014 Level ' + lu.level + ' passed</div>';
-                }
-                html += '</div>';
-            }
+        if ((_examTestMode || _examStudyMode) && _currentExamId) {
+            // Exam report
+            renderExamReport(contentEl, total);
         } else {
-            const pct = Math.round((_sessionCorrect / total) * 100);
-            html += '<div class="summary-stat">' + pct + '% correct</div>';
-
-            if (_sessionXPEarned > 0) {
-                html += '<div class="summary-stat summary-xp">+' + _sessionXPEarned + ' XP earned</div>';
-            }
-
-            const streak = Progress.getDailyStreak();
-            if (streak > 1) {
-                html += '<div class="summary-stat summary-streak">' + streak + ' day streak!</div>';
-            }
-
-            if (_sessionLevelUps.length > 0) {
-                html += '<div class="summary-levelups">';
-                for (const lu of _sessionLevelUps) {
-                    html += '<div class="summary-levelup">\u2713 ' + lu.term + ' \u2014 Level ' + lu.level + ' passed</div>';
-                }
-                html += '</div>';
-            }
+            // Normal session summary
+            renderNormalSummary(contentEl, total);
         }
-        details.innerHTML = html;
 
-        // Update stats bar
-        updateStatsBar();
-
-        // Sync at session end
         Sync.pushProgress();
     }
 
-    // --- XP Flyup ---
+    function renderExamReport(contentEl, total) {
+        const exam = App.EXAMS.find(e => e.id === _currentExamId);
+        const examName = exam ? exam.name : 'Exam';
+        const pct = total > 0 ? Math.round((_sessionCorrect / total) * 100) : 0;
 
-    function showXPFlyup(amount) {
-        const el = document.getElementById('xp-flyup');
-        el.textContent = '+' + amount + ' XP';
-        el.classList.remove('hidden');
-        el.style.animation = 'none';
-        el.offsetHeight; // Trigger reflow
-        el.style.animation = '';
-        setTimeout(() => el.classList.add('hidden'), 1000);
-    }
+        let html = '<h2>' + examName + ' Report</h2>';
+        html += '<div class="summary-score">' + _sessionCorrect + '/' + total + '</div>';
+        html += '<div class="summary-details">' + pct + '% correct</div>';
 
-    // --- Stats Bar Update ---
-
-    function updateStatsBar() {
-        document.getElementById('stat-xp').textContent = Progress.getXP();
-        document.getElementById('stat-streak').textContent = Progress.getDailyStreak();
-    }
-
-    // --- Leaderboard ---
-
-    async function renderLeaderboard() {
-        const listEl = document.getElementById('leaderboard-list');
-        listEl.innerHTML = '<p class="text-secondary">Loading...</p>';
-
-        const data = await Sync.fetchLeaderboard();
-        if (!data || data.length === 0) {
-            listEl.innerHTML = '<p class="text-secondary">No leaderboard data yet. Complete a study session to appear!</p>';
-            return;
+        // Chapter breakdown
+        const byChapter = {};
+        for (const r of _examResults) {
+            if (!byChapter[r.chapterId]) {
+                byChapter[r.chapterId] = { correct: 0, total: 0 };
+            }
+            byChapter[r.chapterId].total++;
+            if (r.wasCorrect) byChapter[r.chapterId].correct++;
         }
 
-        const myName = Progress.getStudentName();
-        listEl.innerHTML = '';
-        data.forEach((entry, idx) => {
-            const row = document.createElement('div');
-            row.className = 'leaderboard-row';
-            const isYou = myName && entry.name.startsWith(myName.split(' ')[0]);
-            row.innerHTML =
-                '<span class="leaderboard-rank ' + (idx < 3 ? 'top-3' : '') + '">' + (idx + 1) + '</span>' +
-                '<span class="leaderboard-name ' + (isYou ? 'is-you' : '') + '">' + entry.name + (isYou ? ' (you)' : '') + '</span>' +
-                '<span class="leaderboard-xp">' + entry.xp + ' XP</span>' +
-                '<span class="leaderboard-mastery">' + entry.mastery + '%</span>';
-            listEl.appendChild(row);
-        });
+        html += '<div class="exam-report-breakdown"><h3>By Chapter</h3>';
+        const chapters = ContentLoader.getChapters();
+        for (const chId of Object.keys(byChapter)) {
+            const ch = chapters.find(c => c.id === chId);
+            const chName = ch ? ch.name : chId;
+            const s = byChapter[chId];
+            const chPct = Math.round((s.correct / s.total) * 100);
+            const perfectClass = chPct === 100 ? ' perfect' : '';
+            html += '<div class="exam-report-row">' +
+                '<span class="exam-report-chapter">' + chName + '</span>' +
+                '<span class="exam-report-score' + perfectClass + '">' + s.correct + '/' + s.total + ' (' + chPct + '%)</span>' +
+                '</div>';
+        }
+        html += '</div>';
+
+        // Buttons
+        const missedCount = _examResults.filter(r => !r.wasCorrect).length;
+        html += '<div class="summary-actions">';
+        if (missedCount > 0) {
+            html += '<button id="btn-review-missed" class="btn btn-primary">Review Missed (' + missedCount + ')</button>';
+        }
+        html += '<button id="btn-back-to-exam" class="btn btn-secondary">Back to ' + examName + '</button>';
+        html += '</div>';
+
+        contentEl.innerHTML = html;
+    }
+
+    function renderNormalSummary(contentEl, total) {
+        let html = '<h2>Session Complete</h2>';
+
+        if (total === 0) {
+            html += '<div class="summary-details">All concepts learned and no reviews are due. Nice work!</div>';
+        } else {
+            const pct = Math.round((_sessionCorrect / total) * 100);
+            html += '<div class="summary-score">' + _sessionCorrect + '/' + total + '</div>';
+            html += '<div class="summary-details">' + pct + '% correct</div>';
+        }
+
+        // Level-ups
+        if (_sessionLevelUps.length > 0) {
+            html += '<div class="summary-levelups">';
+            for (const lu of _sessionLevelUps) {
+                if (lu.learned) {
+                    html += '<div class="summary-levelup">\u2713 ' + escapeHtml(lu.term) + ' \u2014 Learned!</div>';
+                } else {
+                    const levelNames = { 1: 'Term Recognition', 2: 'Definition Recognition', 3: 'Application' };
+                    html += '<div class="summary-levelup">\u2713 ' + escapeHtml(lu.term) + ' \u2014 ' + (levelNames[lu.level] || 'Level ' + lu.level) + ' passed</div>';
+                }
+            }
+            html += '</div>';
+        }
+
+        // Buttons
+        html += '<div class="summary-actions">';
+        html += '<button id="btn-keep-studying" class="btn btn-primary">Keep Studying</button>';
+        html += '<button id="btn-back-from-summary" class="btn btn-secondary">Back to Chapter</button>';
+        html += '</div>';
+
+        contentEl.innerHTML = html;
+    }
+
+    function getMissedQuestions() {
+        return _examResults.filter(r => !r.wasCorrect).map(r => r.question);
+    }
+
+    function getCurrentExamId() {
+        return _currentExamId;
+    }
+
+    function isExamMode() {
+        return _examTestMode || _examStudyMode;
+    }
+
+    // --- Identity Modal ---
+
+    function showIdentityModal() {
+        document.getElementById('identity-modal').classList.remove('hidden');
+        const nameInput = document.getElementById('input-name');
+        const onyenInput = document.getElementById('input-onyen');
+        nameInput.value = Progress.getStudentName() || '';
+        onyenInput.value = Progress.getOnyen() || '';
+        updateIdentityButton();
+    }
+
+    function hideIdentityModal() {
+        document.getElementById('identity-modal').classList.add('hidden');
+    }
+
+    function updateIdentityButton() {
+        const nameInput = document.getElementById('input-name');
+        const onyenInput = document.getElementById('input-onyen');
+        const btn = document.getElementById('btn-identity-save');
+        btn.disabled = !(nameInput.value.trim() && onyenInput.value.trim());
     }
 
     // --- Keyboard shortcut ---
@@ -610,16 +536,19 @@ const UI = (() => {
         }
     }
 
-    function endSession() {
-        renderSessionSummary();
+    // --- Utility ---
+    function escapeHtml(str) {
+        const div = document.createElement('div');
+        div.textContent = str;
+        return div.innerHTML;
     }
 
     return {
         init, showScreen,
-        renderDashboard, renderChapterDetail,
+        renderHome, renderChaptersList, renderChapterDetail, renderExamPrep,
         startStudySession, nextQuestion, handleKeydown,
-        showRecallAnswer, handleSelfGrade,
-        showXPFlyup, updateStatsBar, renderLeaderboard,
-        getSelectedChapterIds, endSession,
+        renderSessionSummary,
+        showIdentityModal, hideIdentityModal, updateIdentityButton,
+        getMissedQuestions, getCurrentExamId, isExamMode,
     };
 })();

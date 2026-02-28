@@ -30,7 +30,7 @@ const QuizEngine = (() => {
                 const currentLevel = Progress.getCurrentLevel(concept.id, hasL3);
 
                 if (currentLevel === 0) {
-                    // Mastered - only add if due for SR review
+                    // Learned - only add if due for SR review
                     addSRReviewQuestions(candidates, chapter, concept);
                     continue;
                 }

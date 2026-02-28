@@ -57,78 +57,123 @@
     position: sticky;
     bottom: 16px;
 }
-.btn-show-answer {
-    width: 100%;
-    margin-top: auto;
-    padding: 16px 24px;
-    position: sticky;
-    bottom: 16px;
-}
 
-/* Chapter Grid */
-.chapter-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 12px;
+/* Home Cards */
+.home-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
 }
-@media (min-width: 500px) {
-    .chapter-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* Chapter Card */
-.chapter-card {
+.home-card {
     background: var(--color-surface);
-    border-radius: var(--radius-md);
-    padding: 16px;
-    cursor: pointer;
-    box-shadow: var(--shadow-sm);
-    transition: box-shadow var(--transition), transform var(--transition);
     border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: 20px;
+    cursor: pointer;
+    transition: box-shadow var(--transition), transform var(--transition);
 }
-.chapter-card:hover {
+.home-card:hover {
     box-shadow: var(--shadow-md);
-    transform: translateY(-3px);
+    transform: translateY(-2px);
 }
-.chapter-card-title {
-    font-weight: 700;
-    font-size: 0.95rem;
-    margin-bottom: 8px;
+.home-card h3 {
+    font-size: 1.15rem;
+    margin-bottom: 4px;
 }
-.chapter-card-stats {
-    font-size: 0.8rem;
+.home-card-subtitle {
+    font-size: 0.875rem;
     color: var(--color-text-secondary);
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
-.chapter-card.mastered {
+.home-card-progress {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+}
+.home-card-progress .progress-bar {
+    margin-top: 8px;
+}
+.home-card-exams {
+    cursor: default;
+}
+.home-card-exams:hover {
+    box-shadow: none;
+    transform: none;
+}
+
+/* Home Exam List inside card */
+.home-exam-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.home-exam-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    cursor: pointer;
+    border-bottom: 1px solid var(--color-progress-bg);
+    transition: color var(--transition);
+}
+.home-exam-row:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.home-exam-row:hover {
+    color: var(--color-primary);
+}
+.home-exam-row-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.home-exam-row-arrow {
+    color: var(--color-text-secondary);
+    font-size: 0.85rem;
+}
+
+/* Chapters List */
+.chapters-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.chapter-list-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    padding: 14px 16px;
+    cursor: pointer;
+    transition: box-shadow var(--transition);
+}
+.chapter-list-row:hover {
+    box-shadow: var(--shadow-sm);
+}
+.chapter-list-row.complete {
     border-color: var(--color-level-done);
 }
-
-/* Chapter Card Checkbox */
-.chapter-card-checkbox {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 20px;
-    height: 20px;
-    accent-color: var(--color-primary);
-    cursor: pointer;
-    z-index: 2;
+.chapter-list-info {
+    flex: 1;
+    min-width: 0;
 }
-.chapter-card {
-    position: relative;
+.chapter-list-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 4px;
 }
-
-/* Study Selected Button */
-.btn-study-selected {
-    position: sticky;
-    bottom: 16px;
-    width: 100%;
-    margin-top: 16px;
-    padding: 16px 24px;
-    font-size: 1rem;
-    z-index: 10;
+.chapter-list-stats {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+}
+.chapter-list-bar {
+    width: 80px;
+    flex-shrink: 0;
+    margin-left: 16px;
 }
 
 /* Progress Bars */
@@ -277,58 +322,6 @@
     background: rgba(176, 94, 58, 0.12);
 }
 
-/* Stats Bar */
-.stats-bar {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: var(--color-surface);
-    border-bottom: 1px solid var(--color-border);
-    box-shadow: 0 2px 8px rgba(45, 42, 38, 0.06);
-    padding: 8px 16px;
-}
-.stats-bar-inner {
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    gap: 12px;
-}
-.stat-item {
-    display: flex;
-    align-items: baseline;
-    gap: 4px;
-}
-.stat-value {
-    font-weight: 700;
-    font-size: 1rem;
-}
-.stat-label {
-    font-size: 0.75rem;
-    color: var(--color-text-secondary);
-}
-.stat-xp .stat-value { color: var(--color-xp); }
-.stat-streak .stat-value { color: var(--color-streak); }
-.stat-mastered .stat-value { color: var(--color-success); }
-
-/* XP Flyup */
-.xp-flyup {
-    position: fixed;
-    top: 60px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: var(--color-xp);
-    pointer-events: none;
-    z-index: 200;
-    animation: flyup 1s ease-out forwards;
-}
-@keyframes flyup {
-    0% { opacity: 1; transform: translateX(-50%) translateY(0); }
-    100% { opacity: 0; transform: translateX(-50%) translateY(-40px); }
-}
-
 /* Session Size Select */
 .session-size-select {
     background: var(--color-surface);
@@ -340,50 +333,6 @@
     font-weight: 600;
     cursor: pointer;
     min-height: 40px;
-}
-
-/* Leaderboard */
-.leaderboard-list {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-.leaderboard-row {
-    display: flex;
-    align-items: center;
-    padding: 12px 14px;
-    background: var(--color-surface);
-    border-radius: var(--radius-sm);
-    gap: 12px;
-}
-.leaderboard-rank {
-    font-weight: 700;
-    font-size: 1rem;
-    color: var(--color-text-secondary);
-    min-width: 28px;
-    text-align: center;
-}
-.leaderboard-rank.top-3 {
-    color: var(--color-streak);
-}
-.leaderboard-name {
-    flex: 1;
-    font-weight: 600;
-    font-size: 0.9rem;
-}
-.leaderboard-name.is-you {
-    color: var(--color-primary);
-}
-.leaderboard-xp {
-    font-weight: 700;
-    color: var(--color-xp);
-    font-size: 0.85rem;
-}
-.leaderboard-mastery {
-    font-size: 0.8rem;
-    color: var(--color-text-secondary);
-    min-width: 40px;
-    text-align: right;
 }
 
 /* Skip Button */
@@ -440,19 +389,81 @@
     font-size: 0.6rem;
 }
 
-/* Summary Stats */
-.summary-stat {
+/* Exam Prep Screen */
+.exam-header {
+    margin-bottom: 24px;
+}
+.exam-stats {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    margin-top: 8px;
+}
+.exam-practice-section {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: 20px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.exam-practice-label {
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+}
+.exam-practice-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.exam-practice-buttons .btn {
+    flex: 1;
+    max-width: 180px;
+}
+.exam-practice-hint {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+}
+.exam-chapter-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Exam Report */
+.exam-report-breakdown {
+    text-align: left;
+    margin: 20px 0;
+}
+.exam-report-breakdown h3 {
     font-size: 1rem;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
 }
-.summary-xp {
-    color: var(--color-xp);
-    font-weight: 700;
+.exam-report-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--color-progress-bg);
+    font-size: 0.9rem;
 }
-.summary-streak {
-    color: var(--color-streak);
-    font-weight: 700;
+.exam-report-row:last-child {
+    border-bottom: none;
 }
+.exam-report-chapter {
+    flex: 1;
+}
+.exam-report-score {
+    font-weight: 600;
+    min-width: 70px;
+    text-align: right;
+}
+.exam-report-score.perfect {
+    color: var(--color-success);
+}
+
+/* Summary Level-ups */
 .summary-levelups {
     margin-top: 12px;
     text-align: left;
@@ -461,42 +472,6 @@
     font-size: 0.9rem;
     color: var(--color-success);
     padding: 4px 0;
-}
-
-/* Recall mode */
-.recall-hidden {
-    visibility: hidden;
-    pointer-events: none;
-}
-
-/* Self-grade buttons (recall mode) */
-.self-grade {
-    display: flex;
-    gap: 10px;
-    margin-top: 12px;
-}
-.self-grade .btn {
-    flex: 1;
-}
-
-/* Timer warning */
-.timer-warning {
-    color: var(--color-error) !important;
-    font-weight: 700;
-}
-
-/* Chapter mode buttons */
-.chapter-mode-buttons {
-    display: flex;
-    gap: 8px;
-    margin-top: 12px;
-    flex-wrap: wrap;
-}
-
-/* End Marathon button */
-.btn-end-marathon {
-    width: 100%;
-    margin-top: 12px;
 }
 
 /* Text helper */

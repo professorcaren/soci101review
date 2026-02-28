@@ -11,50 +11,51 @@
     <link rel="stylesheet" href="css/components.css">
 </head>
 <body>
-    <div id="stats-bar" class="stats-bar hidden">
-        <div class="stats-bar-inner">
-            <span class="stat-item stat-xp">
-                <span class="stat-value" id="stat-xp">0</span>
-                <span class="stat-label">XP</span>
-            </span>
-            <span class="stat-item stat-streak">
-                <span class="stat-value" id="stat-streak">0</span>
-                <span class="stat-label">day streak</span>
-            </span>
-            <span class="stat-item stat-mastered">
-                <span class="stat-value" id="stat-mastered">0</span>
-                <span class="stat-label">mastered</span>
-            </span>
-        </div>
-    </div>
-    <div id="xp-flyup" class="xp-flyup hidden"></div>
 
-    <!-- Welcome Screen -->
-    <div id="screen-welcome" class="screen active">
-        <div class="container">
-            <h1>SOCI 101<br>Exam Review</h1>
-            <p class="subtitle">Master key concepts from definitions to application</p>
-            <div class="welcome-form">
-                <label for="student-name">Your Name</label>
-                <input type="text" id="student-name" placeholder="Enter your name" autocomplete="name">
-                <button id="btn-start" class="btn btn-primary" disabled>Get Started</button>
+    <!-- Identity Modal -->
+    <div id="identity-modal" class="modal-overlay hidden">
+        <div class="modal-card">
+            <h2>Welcome</h2>
+            <p class="modal-subtitle">Enter your info to get started.</p>
+            <div class="modal-form">
+                <label for="input-name">Name</label>
+                <input type="text" id="input-name" placeholder="Your name" autocomplete="name">
+                <label for="input-onyen">ONYEN</label>
+                <input type="text" id="input-onyen" placeholder="Your ONYEN" autocomplete="username">
+                <button id="btn-identity-save" class="btn btn-primary" disabled>Get Started</button>
             </div>
-            <p class="welcome-note">Progress is saved automatically on this device.</p>
         </div>
     </div>
 
-    <!-- Dashboard Screen -->
-    <div id="screen-dashboard" class="screen">
+    <!-- Home Screen -->
+    <div id="screen-home" class="screen">
+        <div class="container home-container">
+            <h1 class="home-title">SOCI 101<br>Exam Review</h1>
+            <p id="home-greeting" class="home-greeting"></p>
+            <div class="home-cards">
+                <div id="card-chapters" class="home-card">
+                    <h3>Chapters</h3>
+                    <p class="home-card-subtitle">Study by topic</p>
+                    <div id="home-chapters-progress" class="home-card-progress"></div>
+                </div>
+                <div class="home-card home-card-exams">
+                    <h3>Practice Exams</h3>
+                    <p class="home-card-subtitle">Test your knowledge</p>
+                    <div id="home-exam-list" class="home-exam-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chapters List Screen -->
+    <div id="screen-chapters" class="screen">
         <div class="container">
             <header class="top-bar">
+                <button id="btn-back-home-from-chapters" class="btn btn-back">&larr; Home</button>
                 <h2>Chapters</h2>
-                <div class="top-bar-right">
-                    <button id="btn-leaderboard" class="btn btn-small btn-secondary">Leaderboard</button>
-                    <button id="btn-review-all" class="btn btn-small">Review All</button>
-                </div>
+                <span></span>
             </header>
-            <div id="chapter-grid" class="chapter-grid"></div>
-            <button id="btn-study-selected" class="btn btn-primary btn-study-selected hidden">Study Selected (0)</button>
+            <div id="chapters-list" class="chapters-list"></div>
         </div>
     </div>
 
@@ -62,7 +63,7 @@
     <div id="screen-chapter" class="screen">
         <div class="container">
             <header class="top-bar">
-                <button id="btn-back-dashboard" class="btn btn-back">&larr; Chapters</button>
+                <button id="btn-back-chapters" class="btn btn-back">&larr; Chapters</button>
                 <div class="top-bar-right">
                     <select id="session-size-select" class="session-size-select">
                         <option value="5">5 Qs</option>
@@ -78,13 +79,34 @@
                     <div class="progress-fill"></div>
                 </div>
                 <p id="chapter-stats" class="chapter-stats"></p>
-                <div class="chapter-mode-buttons">
-                    <button id="btn-exam-mode" class="btn btn-secondary btn-small">Exam Mode</button>
-                    <button id="btn-speed-round" class="btn btn-secondary btn-small">Speed Round</button>
-                    <button id="btn-marathon" class="btn btn-secondary btn-small">Marathon</button>
-                </div>
             </div>
             <div id="concept-list" class="concept-list"></div>
+        </div>
+    </div>
+
+    <!-- Exam Prep Screen -->
+    <div id="screen-exam" class="screen">
+        <div class="container">
+            <header class="top-bar">
+                <button id="btn-back-home-from-exam" class="btn btn-back">&larr; Home</button>
+                <h2 id="exam-title"></h2>
+                <span></span>
+            </header>
+            <div id="exam-header" class="exam-header">
+                <div id="exam-progress-bar" class="progress-bar-large">
+                    <div class="progress-fill"></div>
+                </div>
+                <p id="exam-stats" class="exam-stats"></p>
+            </div>
+            <div class="exam-practice-section">
+                <p class="exam-practice-label" id="exam-question-count"></p>
+                <div class="exam-practice-buttons">
+                    <button id="btn-test-mode" class="btn btn-primary">Test Mode</button>
+                    <button id="btn-study-mode" class="btn btn-secondary">Study Mode</button>
+                </div>
+                <p class="exam-practice-hint">Test Mode: no feedback. Study Mode: feedback after each question.</p>
+            </div>
+            <div id="exam-chapter-list" class="exam-chapter-list"></div>
         </div>
     </div>
 
@@ -92,53 +114,25 @@
     <div id="screen-study" class="screen">
         <div class="container">
             <header class="top-bar">
-                <button id="btn-back-chapter" class="btn btn-back">&larr; Back</button>
+                <button id="btn-back-from-study" class="btn btn-back">&larr; Back</button>
                 <span id="study-progress-label" class="study-progress-label"></span>
             </header>
             <div id="question-area" class="question-area">
                 <div id="question-level" class="question-level"></div>
                 <p id="question-text" class="question-text"></p>
                 <div id="choices" class="choices"></div>
-                <button id="btn-show-answer" class="btn btn-secondary btn-show-answer hidden">Show Answer</button>
-                <div id="self-grade" class="self-grade hidden">
-                    <button id="btn-knew-it" class="btn btn-primary">I knew it</button>
-                    <button id="btn-didnt-know" class="btn btn-secondary">I didn't know</button>
-                </div>
                 <div id="feedback" class="feedback hidden">
                     <p id="feedback-text"></p>
                 </div>
                 <button id="btn-next" class="btn btn-primary btn-next hidden">Next</button>
-                <button id="btn-end-marathon" class="btn btn-secondary btn-end-marathon hidden">End Marathon</button>
             </div>
         </div>
     </div>
 
-    <!-- Session Summary Screen -->
+    <!-- Session Summary / Exam Report Screen -->
     <div id="screen-summary" class="screen">
         <div class="container">
-            <div class="summary-card">
-                <h2>Session Complete</h2>
-                <div id="summary-score" class="summary-score"></div>
-                <div id="summary-details" class="summary-details"></div>
-                <div class="summary-actions">
-                    <button id="btn-continue-studying" class="btn btn-primary">Keep Studying</button>
-                    <button id="btn-back-to-dashboard" class="btn btn-secondary">Back to Chapters</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Leaderboard Screen -->
-    <div id="screen-leaderboard" class="screen">
-        <div class="container">
-            <header class="top-bar">
-                <button id="btn-back-from-leaderboard" class="btn btn-back">&larr; Back</button>
-                <h2>Leaderboard</h2>
-                <button id="btn-refresh-leaderboard" class="btn btn-small">Refresh</button>
-            </header>
-            <div id="leaderboard-list" class="leaderboard-list">
-                <p class="text-secondary">Loading...</p>
-            </div>
+            <div id="summary-content" class="summary-card"></div>
         </div>
     </div>
 
