@@ -1,0 +1,1837 @@
+{
+  "id": "ch07",
+  "name": "Social Stratification",
+  "order": 7,
+  "concepts": [
+    {
+      "id": "ch07_t01",
+      "term": "Social Stratification",
+      "definition": "The hierarchical arrangement of individuals in society based on wealth, power, and prestige",
+      "level3_question_ids": [
+        1043,
+        1054,
+        1055,
+        1058,
+        1059,
+        1060,
+        1064,
+        1070
+      ],
+      "confusable_ids": [
+        "ch07_t05",
+        "ch07_t02",
+        "ch07_t09",
+        "ch07_t16",
+        "ch07_t08"
+      ]
+    },
+    {
+      "id": "ch07_t02",
+      "term": "Social Inequality",
+      "definition": "Unequal distribution of resources, opportunities, and privileges within a society",
+      "level3_question_ids": [
+        1056,
+        1057,
+        1058
+      ],
+      "confusable_ids": [
+        "ch07_t23",
+        "ch07_t01",
+        "ch07_t16",
+        "ch07_t05",
+        "ch07_t14"
+      ]
+    },
+    {
+      "id": "ch07_t03",
+      "term": "Caste System",
+      "definition": "A rigid system of stratification in which social status is inherited and movement between castes is restricted",
+      "level3_question_ids": [
+        524,
+        1073,
+        1075
+      ],
+      "confusable_ids": [
+        "ch07_t17",
+        "ch07_t18",
+        "ch07_t10",
+        "ch07_t20",
+        "ch07_t12"
+      ]
+    },
+    {
+      "id": "ch07_t04",
+      "term": "Apartheid",
+      "definition": "A system of institutionalized racial segregation and discrimination, particularly in South Africa from 1948 to 1994",
+      "level3_question_ids": [
+        524,
+        526,
+        529,
+        533,
+        535,
+        536
+      ],
+      "confusable_ids": [
+        "ch07_t03",
+        "ch07_t17",
+        "ch07_t18",
+        "ch07_t29",
+        "ch07_t10"
+      ]
+    },
+    {
+      "id": "ch07_t05",
+      "term": "Social Class",
+      "definition": "A division of society based on economic, social, and cultural factors such as income, education, and occupation",
+      "level3_question_ids": [
+        524,
+        525,
+        529,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537,
+        538,
+        540,
+        546,
+        549,
+        550,
+        553,
+        1023,
+        1027,
+        1054,
+        1061,
+        1063
+      ],
+      "confusable_ids": [
+        "ch07_t06",
+        "ch07_t08",
+        "ch07_t14",
+        "ch07_t01",
+        "ch07_t27"
+      ]
+    },
+    {
+      "id": "ch07_t06",
+      "term": "Socioeconomic Status (SES)",
+      "definition": "A measure of an individual's or family's economic and social position based on income, education, and occupation",
+      "level3_question_ids": [
+        527,
+        528,
+        532,
+        534,
+        535,
+        536,
+        537,
+        539,
+        542,
+        544,
+        549,
+        1003,
+        1004,
+        1060,
+        1062
+      ],
+      "confusable_ids": [
+        "ch07_t05",
+        "ch07_t09",
+        "ch07_t12",
+        "ch07_t18",
+        "ch07_t27"
+      ]
+    },
+    {
+      "id": "ch07_t07",
+      "term": "Intersectionality",
+      "definition": "Concept that examines how overlapping social identities and systems of oppression interact to shape individual experiences",
+      "level3_question_ids": [
+        526,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534,
+        536,
+        537,
+        538,
+        540,
+        541,
+        545,
+        548,
+        550,
+        552,
+        553,
+        554,
+        555
+      ],
+      "confusable_ids": [
+        "ch07_t12",
+        "ch07_t22",
+        "ch07_t14",
+        "ch07_t20",
+        "ch07_t13"
+      ]
+    },
+    {
+      "id": "ch07_t08",
+      "term": "The U.S. Social Class Ladder",
+      "definition": "A framework categorizing American society into upper class, upper-middle class, middle class, working class, and lower class based on economic and social factors",
+      "level3_question_ids": [
+        529,
+        531,
+        532,
+        533,
+        534,
+        538,
+        540,
+        546,
+        549,
+        553
+      ],
+      "confusable_ids": [
+        "ch07_t05",
+        "ch07_t27",
+        "ch07_t14",
+        "ch07_t01",
+        "ch07_t15"
+      ]
+    },
+    {
+      "id": "ch07_t09",
+      "term": "Status Inconsistency",
+      "definition": "A situation in which an individual's social position has varying levels of prestige, income, and power",
+      "level3_question_ids": [
+        1028,
+        1029,
+        1030,
+        1031,
+        1032
+      ],
+      "confusable_ids": [
+        "ch07_t06",
+        "ch07_t01",
+        "ch07_t20",
+        "ch07_t16",
+        "ch07_t18"
+      ]
+    },
+    {
+      "id": "ch07_t10",
+      "term": "Feudal System",
+      "definition": "A medieval European system of land ownership and hierarchy where lords controlled land and serfs worked it in exchange for protection",
+      "level3_question_ids": [
+        524,
+        536,
+        538,
+        539,
+        1075,
+        535,
+        537
+      ],
+      "confusable_ids": [
+        "ch07_t03",
+        "ch07_t17",
+        "ch07_t18",
+        "ch07_t16",
+        "ch07_t04"
+      ]
+    },
+    {
+      "id": "ch07_t11",
+      "term": "Wealth",
+      "definition": "The total value of an individual's or household's assets, including property, investments, and savings",
+      "level3_question_ids": [
+        1014,
+        1015,
+        1049,
+        1054,
+        1056,
+        1061,
+        1062,
+        1063,
+        1067
+      ],
+      "confusable_ids": [
+        "ch07_t20",
+        "ch07_t01",
+        "ch07_t13",
+        "ch07_t09",
+        "ch07_t16"
+      ]
+    },
+    {
+      "id": "ch07_t12",
+      "term": "Prestige",
+      "definition": "Social honor or respect granted to an individual based on their status, achievements, or occupation",
+      "level3_question_ids": [
+        1032,
+        1054,
+        1056,
+        1061,
+        1062,
+        1066
+      ],
+      "confusable_ids": [
+        "ch07_t17",
+        "ch07_t05",
+        "ch07_t06",
+        "ch07_t20",
+        "ch07_t03"
+      ]
+    },
+    {
+      "id": "ch07_t13",
+      "term": "Cultural Capital",
+      "definition": "Non-financial social assets, such as education, style, and knowledge, that can enhance social mobility",
+      "level3_question_ids": [
+        525,
+        526,
+        527,
+        530,
+        1004,
+        1043,
+        1044,
+        1045,
+        1046,
+        1047,
+        1048,
+        1049,
+        1050,
+        1061,
+        1062
+      ],
+      "confusable_ids": [
+        "ch07_t17",
+        "ch07_t05",
+        "ch07_t06",
+        "ch07_t28",
+        "ch07_t14"
+      ]
+    },
+    {
+      "id": "ch07_t14",
+      "term": "Social Reproduction",
+      "definition": "The transmission of social and economic inequalities from one generation to the next",
+      "level3_question_ids": [
+        1003,
+        1033
+      ],
+      "confusable_ids": [
+        "ch07_t19",
+        "ch07_t05",
+        "ch07_t16",
+        "ch07_t08",
+        "ch07_t01"
+      ]
+    },
+    {
+      "id": "ch07_t15",
+      "term": "Class Consciousness",
+      "definition": "An awareness of one's own social class and the class positions of others in daily interactions",
+      "level3_question_ids": [
+        525,
+        538,
+        539,
+        540,
+        543,
+        545,
+        547,
+        548,
+        550,
+        551,
+        555
+      ],
+      "confusable_ids": [
+        "ch07_t29",
+        "ch07_t05",
+        "ch07_t08",
+        "ch07_t27",
+        "ch07_t28"
+      ]
+    },
+    {
+      "id": "ch07_t16",
+      "term": "Social Mobility",
+      "definition": "The movement of individuals or groups within a social hierarchy, either upward or downward",
+      "level3_question_ids": [
+        530,
+        553,
+        1003,
+        1026,
+        1031,
+        1033,
+        1036,
+        1037,
+        1039,
+        1041,
+        1043,
+        1053,
+        1055,
+        1070,
+        1073,
+        1075
+      ],
+      "confusable_ids": [
+        "ch07_t20",
+        "ch07_t19",
+        "ch07_t02",
+        "ch07_t14",
+        "ch07_t01"
+      ]
+    },
+    {
+      "id": "ch07_t17",
+      "term": "Closed System",
+      "definition": "A system of stratification where social mobility is highly restricted, often based on ascribed status",
+      "level3_question_ids": [
+        1070,
+        1072,
+        1073,
+        1075
+      ],
+      "confusable_ids": [
+        "ch07_t03",
+        "ch07_t18",
+        "ch07_t10",
+        "ch07_t12",
+        "ch07_t20"
+      ]
+    },
+    {
+      "id": "ch07_t18",
+      "term": "Open System",
+      "definition": "A system of stratification that allows individuals to move between social classes based on achievement",
+      "level3_question_ids": [
+        1071,
+        1073,
+        1074,
+        1075
+      ],
+      "confusable_ids": [
+        "ch07_t17",
+        "ch07_t03",
+        "ch07_t10",
+        "ch07_t06",
+        "ch07_t20"
+      ]
+    },
+    {
+      "id": "ch07_t19",
+      "term": "Intergenerational Mobility",
+      "definition": "Changes in social status that occur from one generation to the next within a family",
+      "level3_question_ids": [
+        1033,
+        1034,
+        1036,
+        1037,
+        1042
+      ],
+      "confusable_ids": [
+        "ch07_t20",
+        "ch07_t14",
+        "ch07_t16",
+        "ch07_t22",
+        "ch07_t30"
+      ]
+    },
+    {
+      "id": "ch07_t20",
+      "term": "Intragenerational Mobility",
+      "definition": "Changes in social status that occur within an individual's lifetime",
+      "level3_question_ids": [
+        1033,
+        1034,
+        1035,
+        1037,
+        1042,
+        1039
+      ],
+      "confusable_ids": [
+        "ch07_t19",
+        "ch07_t16",
+        "ch07_t22",
+        "ch07_t30",
+        "ch07_t03"
+      ]
+    },
+    {
+      "id": "ch07_t21",
+      "term": "Income",
+      "definition": "The flow of money or monetary resources received over a period of time through wages, investments, or other sources",
+      "level3_question_ids": [
+        525,
+        527,
+        530,
+        534,
+        540,
+        542,
+        544,
+        546,
+        547,
+        549,
+        552,
+        1027,
+        1029,
+        1051,
+        1054,
+        1055,
+        1059,
+        1061,
+        1062,
+        1063,
+        1067
+      ],
+      "confusable_ids": [
+        "ch07_t02",
+        "ch07_t23",
+        "ch07_t11"
+      ]
+    },
+    {
+      "id": "ch07_t22",
+      "term": "Structural Mobility",
+      "definition": "Changes in social class due to shifts in the economy or societal structure rather than individual effort",
+      "level3_question_ids": [
+        1034,
+        1036,
+        1038,
+        1039,
+        1042,
+        1040
+      ],
+      "confusable_ids": [
+        "ch07_t20",
+        "ch07_t19",
+        "ch07_t30",
+        "ch07_t16",
+        "ch07_t12"
+      ]
+    },
+    {
+      "id": "ch07_t23",
+      "term": "Relative Deprivation",
+      "definition": "The subjective feeling of lacking resources or opportunities compared to others in society",
+      "level3_question_ids": [
+        541,
+        542,
+        543,
+        544,
+        546,
+        1020
+      ],
+      "confusable_ids": [
+        "ch07_t02",
+        "ch07_t24",
+        "ch07_t01",
+        "ch07_t15",
+        "ch07_t05"
+      ]
+    },
+    {
+      "id": "ch07_t24",
+      "term": "Absolute Deprivation",
+      "definition": "The objective lack of basic necessities required for survival and minimal well-being",
+      "level3_question_ids": [
+        527,
+        531,
+        533,
+        540,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        549
+      ],
+      "confusable_ids": [
+        "ch07_t23"
+      ]
+    },
+    {
+      "id": "ch07_t25",
+      "term": "Federal Poverty Line",
+      "definition": "An income threshold set by the U.S. government to determine eligibility for social assistance programs",
+      "level3_question_ids": [
+        526,
+        530,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        554
+      ],
+      "confusable_ids": [
+        "ch07_t09",
+        "ch07_t27",
+        "ch07_t05",
+        "ch07_t06",
+        "ch07_t26"
+      ]
+    },
+    {
+      "id": "ch07_t26",
+      "term": "Culture of Poverty",
+      "definition": "A contested theory examining how economic hardship may influence behavioral patterns and values, while acknowledging the primary role of structural factors in perpetuating poverty",
+      "level3_question_ids": [
+        1051,
+        1052,
+        1053
+      ],
+      "confusable_ids": [
+        "ch07_t25",
+        "ch07_t05",
+        "ch07_t08",
+        "ch07_t14",
+        "ch07_t27"
+      ]
+    },
+    {
+      "id": "ch07_t27",
+      "term": "Residential Segregation",
+      "definition": "The physical separation of social groups based on factors such as race, income, or social class",
+      "level3_question_ids": [
+        525,
+        532,
+        534,
+        539,
+        547,
+        548,
+        549,
+        551
+      ],
+      "confusable_ids": [
+        "ch07_t05",
+        "ch07_t08",
+        "ch07_t06",
+        "ch07_t09",
+        "ch07_t12"
+      ]
+    },
+    {
+      "id": "ch07_t28",
+      "term": "Homogamy",
+      "definition": "The tendency to choose romantic partners who are similar in social background, such as class, religion, or education.",
+      "level3_question_ids": [
+        550,
+        551,
+        552,
+        1022,
+        1023,
+        1024,
+        1025,
+        1026,
+        1027
+      ],
+      "confusable_ids": [
+        "ch07_t30",
+        "ch07_t13",
+        "ch07_t15",
+        "ch07_t27",
+        "ch07_t05"
+      ]
+    },
+    {
+      "id": "ch07_t29",
+      "term": "Heterogamy",
+      "definition": "The practice of selecting a mate with social characteristics different from one's own, such as different class or racial backgrounds.",
+      "level3_question_ids": [
+        550,
+        551,
+        552
+      ],
+      "confusable_ids": [
+        "ch07_t15",
+        "ch07_t27",
+        "ch07_t28",
+        "ch07_t22",
+        "ch07_t30"
+      ]
+    },
+    {
+      "id": "ch07_t30",
+      "term": "Horizontal Mobility",
+      "definition": "A change in occupation or role that does not result in a shift in social class, such as moving from one job to another with a similar salary.",
+      "level3_question_ids": [
+        525,
+        527,
+        531,
+        553,
+        554,
+        555,
+        1040,
+        1042
+      ],
+      "confusable_ids": [
+        "ch07_t19",
+        "ch07_t22",
+        "ch07_t20",
+        "ch07_t16",
+        "ch07_t28"
+      ]
+    }
+  ],
+  "chapter_questions": [
+    {
+      "id": 524,
+      "question": "A South African family in 1985 is forced to relocate from their home in Cape Town to a designated \"homeland\" area, where they must carry passes to travel for work. This scenario best illustrates which system of stratification?",
+      "choices": [
+        "A social class system based on merit",
+        "A feudal system with serfs and nobles",
+        "Apartheid as a legal system of racial segregation",
+        "A caste system based on Hindu beliefs"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t10"
+    },
+    {
+      "id": 525,
+      "question": "A researcher studying residential patterns finds that wealthy families live in gated communities, middle-income families in suburbs, and poor families in inner-city housing projects, with little interaction between groups. This is an example of which concept?",
+      "choices": [
+        "Class consciousness among different groups",
+        "Cultural capital being passed down",
+        "Residential segregation by social class",
+        "Horizontal mobility patterns"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t27"
+    },
+    {
+      "id": 526,
+      "question": "An activist argues that the criminal justice system creates a modern version of apartheid by denying voting rights to convicted felons, who are disproportionately Black men. This analysis draws on which concept?",
+      "choices": [
+        "The federal poverty line measurement",
+        "Apartheid as a system of legal discrimination",
+        "Intersectionality theory",
+        "Cultural capital acquisition"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch07_t25"
+    },
+    {
+      "id": 527,
+      "question": "A college admissions counselor notices that students from wealthy families can afford SAT prep courses, college visits, and application fees, while low-income students cannot access these resources. This difference in access based on economic status reflects which concept?",
+      "choices": [
+        "Absolute deprivation in basic needs",
+        "Horizontal mobility patterns",
+        "Socioeconomic status (SES) creating unequal opportunities",
+        "Cultural capital transmission"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t06"
+    },
+    {
+      "id": 528,
+      "question": "A study finds that children whose parents are doctors and lawyers have higher college graduation rates than children whose parents are factory workers, even when controlling for academic ability. This pattern demonstrates the influence of which factor?",
+      "choices": [
+        "Individual merit and effort alone",
+        "Socioeconomic status (SES) on educational outcomes",
+        "Random chance in life outcomes",
+        "Genetic intelligence differences"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch07_t06"
+    },
+    {
+      "id": 529,
+      "question": "A researcher studying workplace discrimination finds that a Latina woman experiences different treatment than a white woman or a Latino man would face individually. This approach to understanding multiple, overlapping identities reflects which concept?",
+      "choices": [
+        "Social class mobility patterns",
+        "The U.S. Social Class Ladder categories",
+        "Apartheid-style segregation",
+        "Intersectionality of social identities"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch07_t08"
+    },
+    {
+      "id": 530,
+      "question": "An immigrant family faces discrimination based on their race, struggles financially due to limited English skills affecting job opportunities, and lives in substandard housing because of their low income. Which concept best explains how these different disadvantages combine?",
+      "choices": [
+        "Vertical social mobility patterns",
+        "The federal poverty line calculation",
+        "Intersectionality of multiple inequalities",
+        "Cultural capital differences"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t25"
+    },
+    {
+      "id": 531,
+      "question": "A social worker notices that elderly Black women receiving government assistance face different challenges than young white men or middle-aged Latina women in similar economic situations. This observation reflects which theoretical approach?",
+      "choices": [
+        "Intersectionality recognizing multiple identity dimensions",
+        "The U.S. Social Class Ladder placement",
+        "Absolute deprivation measurements",
+        "Horizontal mobility analysis"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t08"
+    },
+    {
+      "id": 532,
+      "question": "A sociologist creates a diagram showing that 1% of Americans are upper class, 14% are upper-middle class, 30% are middle class, 30% are working class, and 25% are working poor or underclass. This framework represents which concept?",
+      "choices": [
+        "Intersectionality of social identities",
+        "Socioeconomic status measurements",
+        "The U.S. Social Class Ladder structure",
+        "Residential segregation patterns"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t08"
+    },
+    {
+      "id": 533,
+      "question": "An analysis reveals that families earning $150,000 typically live in different neighborhoods, send children to different schools, and have different political influence than families earning $40,000. This illustrates which concept?",
+      "choices": [
+        "Apartheid legal segregation",
+        "The U.S. Social Class Ladder creating distinct groups",
+        "Intersectionality theory",
+        "Absolute deprivation measures"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch07_t08"
+    },
+    {
+      "id": 534,
+      "question": "A study finds that people in the top 1% of income have vastly more political influence and live completely different lifestyles than those in the bottom 50%, despite both groups being American citizens. This demonstrates which concept?",
+      "choices": [
+        "Socioeconomic status measurement tools",
+        "Intersectionality of identities",
+        "The U.S. Social Class Ladder hierarchy",
+        "Residential segregation patterns"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t08"
+    },
+    {
+      "id": 535,
+      "question": "A historian studying medieval Europe finds that nobles owned large estates worked by peasants who were bound to the land and could not leave without permission. The peasants provided military service and crops in exchange for protection. This system represents which concept?",
+      "choices": [
+        "Apartheid racial segregation",
+        "The U.S. Social Class Ladder",
+        "The feudal system of stratification",
+        "Modern socioeconomic status"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t10"
+    },
+    {
+      "id": 536,
+      "question": "A sociologist compares a system where serfs were legally bound to work nobles' land with today's system where people can theoretically change jobs and social class. This comparison highlights which concept?",
+      "choices": [
+        "The feudal system as a rigid form of stratification",
+        "Intersectionality across time periods",
+        "Socioeconomic status measurements",
+        "Apartheid legal structures"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t06"
+    },
+    {
+      "id": 537,
+      "question": "An anthropologist notes that in pre-industrial societies, land ownership by nobility and forced labor by peasants created a stable but unequal social structure that lasted for centuries. This describes which concept?",
+      "choices": [
+        "The U.S. Social Class Ladder categories",
+        "Modern socioeconomic status",
+        "The feudal system's hierarchical structure",
+        "Intersectionality in historical context"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t10"
+    },
+    {
+      "id": 538,
+      "question": "At a community meeting, a factory worker mentions that she's aware her neighborhood is considered \"working class\" while the area across town is \"upper class,\" and she adjusts her behavior accordingly when visiting different areas. This demonstrates which concept?",
+      "choices": [
+        "The feudal system in modern times",
+        "Intersectionality of identities",
+        "Class consciousness in daily life",
+        "The U.S. Social Class Ladder structure"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t08"
+    },
+    {
+      "id": 539,
+      "question": "A student from a working-class family notices that their classmates from wealthy families speak differently, dress differently, and make references to cultural experiences (like symphony concerts) that seem foreign. This awareness reflects which concept?",
+      "choices": [
+        "Class consciousness through social interaction",
+        "The feudal system hierarchy",
+        "Socioeconomic status measurements",
+        "Residential segregation effects"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t06"
+    },
+    {
+      "id": 540,
+      "question": "A retail worker observes that customers treat them differently based on assumptions about their education and income level, while the worker also makes judgments about customers' social class based on their appearance and behavior. This mutual recognition illustrates which concept?",
+      "choices": [
+        "The U.S. Social Class Ladder categories",
+        "Intersectionality theory",
+        "Class consciousness in social interactions",
+        "Absolute deprivation effects"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t08"
+    },
+    {
+      "id": 541,
+      "question": "A family of four earning $20,000 annually cannot afford adequate food, housing, or healthcare, representing the inability to meet basic survival needs. This situation exemplifies which concept?",
+      "choices": [
+        "Absolute deprivation below minimal standards",
+        "Relative deprivation compared to others",
+        "The federal poverty line calculation method",
+        "Intersectionality of economic factors"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t23"
+    },
+    {
+      "id": 542,
+      "question": "A researcher studying global poverty finds that families in rural areas lack access to clean water, adequate nutrition, and basic medical care, regardless of their income relative to neighbors. This represents which concept?",
+      "choices": [
+        "The federal poverty line measurement",
+        "Relative deprivation comparisons",
+        "Absolute deprivation of basic necessities",
+        "Socioeconomic status categories"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t06"
+    },
+    {
+      "id": 543,
+      "question": "An aid organization defines poverty as families unable to afford minimum caloric intake, basic shelter, and emergency medical care, using the same standard globally. This approach reflects which concept?",
+      "choices": [
+        "Relative deprivation within societies",
+        "The federal poverty line approach",
+        "Absolute deprivation using universal standards",
+        "Class consciousness measurement"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t23"
+    },
+    {
+      "id": 544,
+      "question": "In 2019, a family of four with an annual income below $25,750 qualifies for government assistance programs, while a similar family earning $30,000 does not, despite struggling to afford basic needs. This illustrates which concept?",
+      "choices": [
+        "Absolute deprivation measurements",
+        "Relative deprivation comparisons",
+        "Socioeconomic status calculations",
+        "The federal poverty line threshold"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch07_t06"
+    },
+    {
+      "id": 545,
+      "question": "A social worker notices that families earning just above the official poverty threshold still cannot afford housing, healthcare, and childcare in their expensive city, yet receive no government assistance. This limitation demonstrates which concept?",
+      "choices": [
+        "Federal poverty line's inadequacy in measuring real need",
+        "Absolute deprivation's universal applicability",
+        "Intersectionality of economic factors",
+        "Class consciousness effects"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t24"
+    },
+    {
+      "id": 546,
+      "question": "Researchers find that the income level used to determine poverty status has not kept pace with actual housing and healthcare costs, leaving many struggling families ineligible for aid. This problem reflects which concept?",
+      "choices": [
+        "Relative deprivation measurement issues",
+        "Absolute deprivation in wealthy societies",
+        "Federal poverty line calculation limitations",
+        "The U.S. Social Class Ladder boundaries"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t08"
+    },
+    {
+      "id": 547,
+      "question": "A neighborhood association successfully prevents the construction of low-income housing nearby, with residents citing concerns about property values and \"maintaining community character.\" This illustrates which concept?",
+      "choices": [
+        "The federal poverty line effects",
+        "Absolute deprivation patterns",
+        "Class consciousness development",
+        "Residential segregation by income"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch07_t27"
+    },
+    {
+      "id": 548,
+      "question": "A study finds that children in wealthy suburban school districts have access to advanced courses and college counseling, while children in poor urban districts lack these resources despite living in the same metropolitan area. This demonstrates which concept?",
+      "choices": [
+        "Residential segregation affecting educational opportunities",
+        "The federal poverty line measurement",
+        "Intersectionality theory application",
+        "Class consciousness in schools"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t27"
+    },
+    {
+      "id": 549,
+      "question": "A city's public transportation system primarily serves low-income neighborhoods, while wealthy areas have limited bus routes, reflecting how different social classes are spatially separated. This pattern exemplifies which concept?",
+      "choices": [
+        "The U.S. Social Class Ladder structure",
+        "Socioeconomic status measurement",
+        "Residential segregation by social class",
+        "Absolute deprivation effects"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t08"
+    },
+    {
+      "id": 550,
+      "question": "A couple chooses romantic partners from their college classmates, country club members, and professional colleagues rather than from people they might meet working in retail or manual labor jobs. This pattern illustrates which concept?",
+      "choices": [
+        "Intersectionality of relationship choices",
+        "Class consciousness in dating",
+        "Homogamy based on similar social class",
+        "Heterogamy across social boundaries"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t15"
+    },
+    {
+      "id": 551,
+      "question": "A wealthy lawyer marries a working-class mechanic they met through community volunteer work, which is statistically uncommon. This relationship represents which concept?",
+      "choices": [
+        "Homogamy in mate selection",
+        "Residential segregation effects",
+        "Heterogamy across social classes",
+        "Class consciousness in relationships"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t27"
+    },
+    {
+      "id": 552,
+      "question": "Research shows that dating apps and social activities tend to connect people with similar educational and income backgrounds, despite offering the potential to meet people from different social classes. This demonstrates which concept?",
+      "choices": [
+        "Social reproduction through dating",
+        "Intersectionality in relationship formation",
+        "Homogamy patterns",
+        "Class consciousness in dating"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t28"
+    },
+    {
+      "id": 553,
+      "question": "A factory worker changes jobs to become a store manager, earning about the same salary but having a different job title. Six months later, they become a restaurant manager with similar pay and responsibilities. This career pattern exemplifies which concept?",
+      "choices": [
+        "Vertical social mobility upward",
+        "Intersectionality in career paths",
+        "Horizontal mobility within the same class",
+        "The U.S. Social Class Ladder climbing"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t08"
+    },
+    {
+      "id": 554,
+      "question": "A teacher decides to become a social worker, then later becomes a librarian, with all three jobs requiring similar education levels and offering comparable salaries and social status. This represents which concept?",
+      "choices": [
+        "Vertical mobility between classes",
+        "The federal poverty line effects",
+        "Horizontal mobility among similar occupations",
+        "Intersectionality in career choices"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch07_t25"
+    },
+    {
+      "id": 555,
+      "question": "An electrician becomes a plumber, then later works as an HVAC technician, with all positions requiring similar skills and offering similar wages and working conditions. This career path illustrates which concept?",
+      "choices": [
+        "Horizontal mobility within the working class",
+        "Vertical mobility up the social ladder",
+        "Intersectionality affecting job choices",
+        "Class consciousness in career decisions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t15"
+    },
+    {
+      "id": 1003,
+      "question": "A researcher studying educational outcomes finds that students from families with higher Socioeconomic Status (SES) are more likely to attend college, even when controlling for academic performance. This pattern best illustrates which sociological principle?",
+      "choices": [
+        "Social reproduction - how class advantages are transmitted across generations",
+        "Meritocracy - how individual effort determines success",
+        "Social mobility - how people move between social classes",
+        "Cultural assimilation - how groups adopt dominant cultural practices"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t06"
+    },
+    {
+      "id": 1004,
+      "question": "Maria notices that her wealthy classmates discuss expensive vacations and private tutoring casually, while she feels embarrassed about her family's financial struggles. How does Socioeconomic Status (SES) most directly influence Maria's experience in this situation?",
+      "choices": [
+        "It shapes her cultural capital and sense of belonging in academic spaces",
+        "It determines her innate intellectual abilities compared to her peers",
+        "It controls her access to basic educational materials like textbooks",
+        "It dictates which courses she is legally allowed to enroll in"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t06"
+    },
+    {
+      "id": 1014,
+      "question": "What type of poverty measure is based on a fixed standard that remains constant regardless of the overall wealth of a society?",
+      "choices": [
+        "Absolute poverty measure",
+        "Comparative poverty measure",
+        "Structural poverty measure",
+        "Relative poverty measure"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t11"
+    },
+    {
+      "id": 1015,
+      "question": "Which of the following is the best example of relative poverty?",
+      "choices": [
+        "A family that cannot afford a computer in a society where digital access is the norm",
+        "A family that cannot afford the minimum daily caloric intake needed for basic health in any society",
+        "A household with no access to clean drinking water regardless of their society's overall wealth",
+        "A person who cannot afford essential medication for a chronic illness in any economic context"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t11"
+    },
+    {
+      "id": 1016,
+      "question": "What type of poverty measure defines poverty in relation to the economic status of other citizens in a society?",
+      "choices": [
+        "Relative poverty measure",
+        "Absolute poverty measure",
+        "Objective poverty measure",
+        "Standardized poverty measure"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1017,
+      "question": "Which of the following is the best example of absolute poverty?",
+      "choices": [
+        "A person who cannot afford adequate nutrition to maintain basic health",
+        "A family that cannot afford to take annual vacations in a society where most families do",
+        "A student without access to a computer in a community where digital literacy is expected",
+        "A worker without reliable transportation in an area with limited public transit options"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1018,
+      "question": "When poverty is measured by determining whether individuals can afford a specific basket of essential goods, this represents which approach?",
+      "choices": [
+        "Absolute poverty measurement",
+        "Relative poverty measurement",
+        "Subjective poverty measurement",
+        "Multidimensional poverty measurement"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1019,
+      "question": "Which of the following best describes a key advantage of using absolute poverty measures over relative measures?",
+      "choices": [
+        "They allow for consistent comparison of poverty rates across countries with different living standards",
+        "They better account for social exclusion and inequality within a society",
+        "They automatically adjust to changing social expectations about necessary goods",
+        "They are more effective at measuring poverty in wealthy nations"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1020,
+      "question": "Which of the following scenarios best illustrates the concept of relative deprivation?",
+      "choices": [
+        "A working class family feeling poor because they cannot afford the same luxuries as their middle-class neighbors",
+        "A family unable to afford housing that meets basic safety and sanitation standards regardless of their community",
+        "An individual experiencing hunger because they cannot afford sufficient food for adequate nutrition",
+        "A household able to access essential healthcare services in a developing country with limited resources."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t23"
+    },
+    {
+      "id": 1021,
+      "question": "Which of the following is a primary criticism of absolute poverty measures?",
+      "choices": [
+        "They fail to account for how people's needs change as societies become more affluent",
+        "They are too subjective and vary significantly between different international organizations",
+        "They are difficult to update over time to reflect changing costs of essential goods",
+        "They often underestimate poverty in developed countries where basic necessities are universally available"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1022,
+      "question": "What sociological term refers to the tendency to marry or form relationships with someone from a similar social background?",
+      "choices": [
+        "Homogamy",
+        "Exogamy",
+        "Hypergamy",
+        "Social endogamy"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t28"
+    },
+    {
+      "id": 1023,
+      "question": "Which of the following is the best example of homogamy?",
+      "choices": [
+        "A college professor marrying another academic with a similar educational background",
+        "A wealthy business executive marrying a struggling artist from a different social class",
+        "A person from a rural farming community marrying someone who grew up in a large metropolitan area",
+        "A deeply religious individual marrying someone who does not share their faith"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t05"
+    },
+    {
+      "id": 1024,
+      "question": "What is considered the primary social mechanism that promotes homogamy in modern societies?",
+      "choices": [
+        "Social segregation and structured interaction opportunities",
+        "Biological attraction to genetic similarity",
+        "Government policies that discourage cross-class marriages",
+        "Family pressure to maintain pure bloodlines"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t28"
+    },
+    {
+      "id": 1025,
+      "question": "Clyde and Tiana, both from middle-class backgrounds, married after meeting in college. This pattern of choosing a partner from a similar social background is called homogamy. What is a common reason sociologists give for this tendency?",
+      "choices": [
+        "People tend to have more access to and interaction with others from similar social backgrounds.",
+        "Government policies require people to marry within their social class.",
+        "Biological factors drive people to seek genetically similar partners.",
+        "Religious institutions mandate same-class marriages in most societies."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t28"
+    },
+    {
+      "id": 1026,
+      "question": "Which of the following is considered a significant social consequence of widespread homogamy?",
+      "choices": [
+        "Reduced social mobility and reinforcement of existing inequalities",
+        "Increased psychological stress in marriages due to competition between similar partners",
+        "Declining birth rates as similar partners delay having children",
+        "Greater political polarization as family units become more ideologically uniform"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t16"
+    },
+    {
+      "id": 1027,
+      "question": "Which of the following couples most strongly exemplifies homogamy?",
+      "choices": [
+        "Jason and Maria, who share the same religion, educational level, ethnicity, and social class",
+        "Darnell and Keisha, who have different educational backgrounds but share the same ethnicity and political views",
+        "Robert and Chen, who come from different ethnic backgrounds but share the same profession and income level",
+        "Taylor and Jordan, who were raised in the same neighborhood but differ in religious beliefs and family structures"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t05"
+    },
+    {
+      "id": 1028,
+      "question": "What sociological term describes the situation when an individual's positions across different status dimensions are not aligned or at similar levels?",
+      "choices": [
+        "Status inconsistency",
+        "Status dissonance",
+        "Status disequilibrium",
+        "Status incongruence"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t09"
+    },
+    {
+      "id": 1029,
+      "question": "Which of the following is the best example of status inconsistency?",
+      "choices": [
+        "A highly educated immigrant with an advanced degree working as a taxi driver due to non-recognition of foreign credentials",
+        "A CEO of a major corporation who lives in an expensive home and belongs to exclusive social clubs",
+        "A teacher who earns a modest income and lives in a middle-class neighborhood",
+        "A skilled tradesperson who earns a good income and is respected in their working-class community"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t09"
+    },
+    {
+      "id": 1030,
+      "question": "According to sociological research, what is a common consequence of experiencing status inconsistency?",
+      "choices": [
+        "Increased stress and role strain",
+        "Greater life satisfaction due to diverse social experiences",
+        "Higher levels of political apathy and social withdrawal",
+        "Stronger identification with one's highest status position"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t09"
+    },
+    {
+      "id": 1031,
+      "question": "In which societal context are individuals most likely to experience high levels of status inconsistency?",
+      "choices": [
+        "Rapidly changing societies undergoing significant social mobility and structural transformation",
+        "Traditional societies with rigid caste systems and clear status hierarchies",
+        "Homogeneous communities with strong cultural norms governing social positions",
+        "Advanced economies with standardized educational requirements for professional positions and clear social hierarchies"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t09"
+    },
+    {
+      "id": 1032,
+      "question": "During which historical period would status inconsistency likely be most widespread in the United States?",
+      "choices": [
+        "The post-World War II era when rapid educational expansion outpaced changes in the occupational structure",
+        "The Colonial period when social hierarchies were more directly imported from European class systems",
+        "The Great Depression when economic hardship was experienced relatively uniformly across social classes",
+        "The early 21st century when educational credentials became more closely aligned with occupational prestige"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t09"
+    },
+    {
+      "id": 1033,
+      "question": "When offspring from working-class families manage to pursue higher education and secure employment in a professional field, what sociological concept does this situation represent?",
+      "choices": [
+        "intergenerational mobility",
+        "intragenerational mobility",
+        "horizontal social mobility",
+        "social reproduction"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t19"
+    },
+    {
+      "id": 1034,
+      "question": "Consider a scenario where a substantial shift in the economy, possibly due to large-scale events, prompts a significant proportion of the population to experience a change in their socio-economic position. What is the term for this phenomenon?",
+      "choices": [
+        "structural mobility",
+        "intergenerational mobility",
+        "intragenerational mobility",
+        "collective mobility"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t19"
+    },
+    {
+      "id": 1035,
+      "question": "Which of the following best exemplifies intragenerational mobility?",
+      "choices": [
+        "A retail worker who becomes a store manager after ten years with the company",
+        "A doctor whose child also becomes a doctor",
+        "A teacher who transfers from an elementary school to a high school",
+        "A population that moves up economically due to rapid industrialization"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t20"
+    },
+    {
+      "id": 1036,
+      "question": "A paralegal who changes jobs to work at a different law firm with similar pay and responsibilities is experiencing:",
+      "choices": [
+        "horizontal social mobility",
+        "intergenerational mobility",
+        "structural mobility",
+        "vertical social mobility"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t19"
+    },
+    {
+      "id": 1037,
+      "question": "The term for changes in social status that occur between generations, such as when children achieve different occupational positions than their parents, is:",
+      "choices": [
+        "intergenerational mobility",
+        "intragenerational mobility",
+        "horizontal social mobility",
+        "occupational inheritance"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t19"
+    },
+    {
+      "id": 1038,
+      "question": "Which of the following is the best example of structural mobility?",
+      "choices": [
+        "Factory workers becoming unemployed due to widespread automation in manufacturing",
+        "A nurse who pursues additional education to become a nurse practitioner",
+        "A family whose social status has improved over three generations",
+        "A teacher who transfers to a similar position in a different school district"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t22"
+    },
+    {
+      "id": 1039,
+      "question": "An individual who changes careers from being a bank teller to becoming a licensed financial advisor is experiencing:",
+      "choices": [
+        "intragenerational mobility",
+        "intergenerational mobility",
+        "horizontal social mobility",
+        "structural mobility"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t20"
+    },
+    {
+      "id": 1040,
+      "question": "When economic expansion creates new high-status positions that allow a significant portion of the population to move upward socially without others necessarily moving downward, this represents:",
+      "choices": [
+        "structural mobility",
+        "intergenerational mobility",
+        "exchange mobility",
+        "horizontal mobility"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t22"
+    },
+    {
+      "id": 1041,
+      "question": "Which of the following scenarios best exemplifies horizontal social mobility?",
+      "choices": [
+        "A history professor who transfers from one university to another",
+        "A family that has moved from working class to middle class over two generations",
+        "A retail employee who is promoted to regional manager over several years",
+        "A society experiencing upward mobility due to rapid technological advancement"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t16"
+    },
+    {
+      "id": 1042,
+      "question": "The widespread shift from agricultural to industrial employment during the Industrial Revolution, which altered the class structure of entire societies, is an example of:",
+      "choices": [
+        "structural mobility",
+        "intragenerational mobility",
+        "intergenerational mobility",
+        "horizontal mobility"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t19"
+    },
+    {
+      "id": 1043,
+      "question": "Which concept refers to non-financial social assets that promote social mobility beyond economic means, including education, intellect, style of speech, and dress?",
+      "choices": [
+        "cultural capital",
+        "human capital",
+        "social stratification",
+        "cultural reproduction"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t01"
+    },
+    {
+      "id": 1044,
+      "question": "Which of the following is the best example of embodied cultural capital?",
+      "choices": [
+        "Speaking with an accent associated with elite education",
+        "Owning an extensive collection of classic literature",
+        "Having a degree from a prestigious university",
+        "Being a member of an exclusive social club"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t13"
+    },
+    {
+      "id": 1045,
+      "question": "According to Bourdieu, non-financial assets such as education, knowledge of art, and refined cultural tastes that help individuals maintain or improve their social position are known as:",
+      "choices": [
+        "Cultural capital",
+        "Socioeconomic determination",
+        "Stratification theory",
+        "Functionalist reproduction"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t13"
+    },
+    {
+      "id": 1046,
+      "question": "Which of the following is the best example of how schools contribute to cultural capital acquisition?",
+      "choices": [
+        "Teaching students to appreciate classical music and fine arts",
+        "Providing equal funding to all school districts regardless of location",
+        "Focusing exclusively on standardized test preparation",
+        "Eliminating extracurricular activities to focus on core subjects"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t13"
+    },
+    {
+      "id": 1047,
+      "question": "A parent who takes their child to museums, enrolls them in music lessons, and encourages them to read literature is primarily helping their child develop:",
+      "choices": [
+        "cultural capital",
+        "economic resilience",
+        "cognitive psychology",
+        "meritocratic advantage"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t13"
+    },
+    {
+      "id": 1048,
+      "question": "Institutionalized cultural capital is most directly represented by:",
+      "choices": [
+        "academic degrees and professional certifications",
+        "knowledge of fine wines and gourmet cuisine",
+        "speaking multiple languages fluently",
+        "having \"refined\" manners and etiquette"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t13"
+    },
+    {
+      "id": 1049,
+      "question": "The conversion of cultural capital into economic advantage occurs most directly when:",
+      "choices": [
+        "a person's prestigious educational credentials lead to a high-paying job",
+        "an individual uses their wealth to purchase expensive artwork",
+        "someone develops a refined taste in classical literature",
+        "a family maintains strict traditions across generations"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t13"
+    },
+    {
+      "id": 1050,
+      "question": "Which theoretical concept did Pierre Bourdieu develop to explain how social classes maintain their position across generations through non-economic means?",
+      "choices": [
+        "cultural capital",
+        "conflict theory",
+        "structural functionalism",
+        "symbolic interactionism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t13"
+    },
+    {
+      "id": 1051,
+      "question": "What significant sociological criticism is raised against the concept of the 'culture of poverty'?",
+      "choices": [
+        "It tends to blame the victims of poverty for their own misfortunes while ignoring the structural causes of inequality.",
+        "It overemphasizes cultural transmission across generations while underestimating individual agency and resilience.",
+        "It fails to account for the diversity of cultural adaptations found within different ethnic communities experiencing poverty.",
+        "It places too much emphasis on economic factors while neglecting the social capital that exists in low-income communities."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t26"
+    },
+    {
+      "id": 1052,
+      "question": "Which of the following best defines the \"culture of poverty\" theory as originally proposed by Oscar Lewis?",
+      "choices": [
+        "A self-perpetuating set of values, beliefs, and behaviors that develop among the poor as an adaptation to their marginalized position",
+        "The structural economic conditions that create persistent inequality and prevent upward mobility regardless of individual values",
+        "The intergenerational transmission of disadvantage through inadequate social institutions and limited opportunity structures",
+        "A theoretical framework examining how poverty creates distinct cultural identities that can be studied through ethnographic methods"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t26"
+    },
+    {
+      "id": 1053,
+      "question": "Which of the following is the best example of a belief associated with the \"culture of poverty\" as described in sociological literature?",
+      "choices": [
+        "A sense of fatalism and resignation about one's chances for social mobility",
+        "A strategic approach to managing limited resources to maximize household stability",
+        "A preference for immediate employment over long-term educational investment",
+        "A strong sense of community solidarity as a response to economic marginalization"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t26"
+    },
+    {
+      "id": 1054,
+      "question": "What is social stratification?",
+      "choices": [
+        "The division of society into groups arranged in a social hierarchy",
+        "The unequal distribution of wealth, power, or prestige among members of a society",
+        "The process by which individuals move up or down in social class",
+        "The measurement of income differences between various occupational groups"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t01"
+    },
+    {
+      "id": 1055,
+      "question": "Which of the following is the best example of social stratification?",
+      "choices": [
+        "A society that divides people into distinct castes based on family lineage",
+        "A community with different income levels but equal legal rights and social mobility",
+        "A corporation that pays employees based solely on their productivity",
+        "A school that randomly assigns students to different classrooms"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t01"
+    },
+    {
+      "id": 1056,
+      "question": "What is social inequality?",
+      "choices": [
+        "The unequal distribution of wealth, power, or prestige among members of a society",
+        "The division of society into groups arranged in a social hierarchy",
+        "The process by which cultural norms and values are transmitted across generations",
+        "The tendency for similar social groups to form based on shared characteristics"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t02"
+    },
+    {
+      "id": 1057,
+      "question": "Which of the following is the best example of social inequality?",
+      "choices": [
+        "A significant wage gap between men and women working in the same profession",
+        "A society that assigns people to different occupations based on their skills",
+        "A community where citizens vote to elect their local representatives",
+        "A university that groups students according to their academic major"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t02"
+    },
+    {
+      "id": 1058,
+      "question": "Which statement correctly distinguishes between social stratification and social inequality?",
+      "choices": [
+        "Social stratification is the structured ranking of groups, while social inequality is the unequal access to resources resulting from this ranking",
+        "Social stratification is limited to economic differences, while social inequality encompasses all forms of social differences",
+        "Social stratification is an inevitable feature of modern societies, while social inequality can be eliminated through policy changes",
+        "Social stratification is determined by individual achievement, while social inequality is determined by inherited characteristics"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t01"
+    },
+    {
+      "id": 1059,
+      "question": "Which of the following is the best example of social stratification based on class?",
+      "choices": [
+        "A society where access to education is determined primarily by family income",
+        "A community where leadership positions can only be held by men",
+        "A country where certain ethnic groups face housing discrimination",
+        "A workplace where older employees receive preferential treatment"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t01"
+    },
+    {
+      "id": 1060,
+      "question": "Which of the following best describes an outcome of social stratification?",
+      "choices": [
+        "Differential access to healthcare based on socioeconomic status",
+        "The organization of society into distinct social classes",
+        "Cultural norms that define appropriate behavior for different genders",
+        "Legal systems that classify citizens according to their birthplace"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t06"
+    },
+    {
+      "id": 1061,
+      "question": "What is social class?",
+      "choices": [
+        "A system of stratification based on access to resources such as wealth, property, power, and prestige",
+        "A ranking system based primarily on cultural capital and social networks that individuals develop over time",
+        "The hierarchical arrangement of individuals based exclusively on their income and consumption patterns",
+        "A categorization method that divides society according to inherited status and family lineage"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t13"
+    },
+    {
+      "id": 1062,
+      "question": "Which of the following are interconnected factors that shape Socioeconomic Status (SES)?",
+      "choices": [
+        "Wealth, income, education, power, and prestige",
+        "Cultural capital, social networks, family background, lifestyle, and consumption patterns",
+        "Occupational status, neighborhood quality, healthcare access, leisure activities, and material possessions",
+        "Employment stability, debt-to-income ratio, retirement savings, inheritance potential, and financial literacy"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t06"
+    },
+    {
+      "id": 1063,
+      "question": "Which of the following best exemplifies social class as a system of stratification?",
+      "choices": [
+        "A society where access to quality healthcare and education varies significantly based on family wealth and connections",
+        "A community where residents of different neighborhoods have varying levels of political representation based on their tax contributions",
+        "A company where employees receive differential benefits packages based on their demonstrated skill levels and productivity metrics",
+        "A university that admits students through a lottery system but charges tuition fees proportional to family income"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t05"
+    },
+    {
+      "id": 1064,
+      "question": "According to structural functionalism, why does social stratification exist in society?",
+      "choices": [
+        "It motivates talented individuals to fill crucial societal roles",
+        "It is a temporary phase that will eventually be eliminated through social evolution",
+        "It primarily exists to maintain cultural traditions across generations",
+        "It results from random historical developments with no specific function"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t01"
+    },
+    {
+      "id": 1065,
+      "question": "Which of the following is the best example of stratification as explained by conflict theory?",
+      "choices": [
+        "A corporation lobbies for tax laws that primarily benefit wealthy shareholders",
+        "A community college offers scholarships to high-achieving students from all backgrounds",
+        "A hospital pays surgeons higher salaries due to their specialized training and skills",
+        "A city implements a merit-based civil service exam for all government positions"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1066,
+      "question": "In structural functionalism, what is meant by \"positions are more highly valued because they are perceived as crucial to society\"?",
+      "choices": [
+        "Jobs requiring specialized skills or training receive greater rewards to attract qualified individuals",
+        "Jobs that promote equality and fairness receive the highest social recognition",
+        "Jobs with the longest historical tradition receive the greatest prestige in society",
+        "Jobs requiring physical labor are valued most highly due to their tangible contributions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t12"
+    },
+    {
+      "id": 1067,
+      "question": "Which of the following best exemplifies the conflict theory perspective on stratification?",
+      "choices": [
+        "Wealth inequality persists because elites shape policies to maintain their advantages",
+        "Income differences exist primarily to reward those who contribute most to society",
+        "Social hierarchies develop naturally to organize complex societies efficiently",
+        "Status differences motivate individuals to develop specialized skills beneficial to society"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t11"
+    },
+    {
+      "id": 1068,
+      "question": "Which of the following statements reflects a structural functionalist perspective on stratification?",
+      "choices": [
+        "Stratification provides stability by giving individuals defined social positions",
+        "Stratification primarily exists to enable dominant groups to exploit subordinate groups",
+        "Stratification is a historical artifact that modern societies are gradually eliminating",
+        "Stratification represents a moral failure that societies must actively work to overcome"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1069,
+      "question": "According to conflict theory, which of the following best explains persistent poverty in wealthy nations?",
+      "choices": [
+        "Systemic barriers and exploitation maintain advantages for privileged groups",
+        "Insufficient incentives for individuals to develop valuable skills and talents",
+        "Natural differences in individual abilities and motivation levels",
+        "Functional necessity of having various socioeconomic levels in complex societies"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1070,
+      "question": "Which of the following best describes a closed system?",
+      "choices": [
+        "A system in which there is little opportunity to move from one class to another",
+        "A system where social mobility is primarily determined by individual merit and effort",
+        "A system where class boundaries exist but are regularly crossed through education",
+        "A system where social stratification is acknowledged but not rigidly maintained"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t01"
+    },
+    {
+      "id": 1071,
+      "question": "An open system is characterized by:",
+      "choices": [
+        "Ample opportunity to move from one class to another",
+        "Social positions determined primarily by family lineage and inheritance",
+        "Formal legal barriers preventing movement between social classes",
+        "Economic structures that maintain intergenerational class stability"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t18"
+    },
+    {
+      "id": 1072,
+      "question": "Which of the following is the best example of a closed system?",
+      "choices": [
+        "A feudal society where peasants remain in their birth class for life",
+        "A society where education access varies by region but scholarships exist",
+        "A corporate structure with performance-based promotion policies",
+        "A society with social distinctions but no legal barriers to advancement"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t17"
+    },
+    {
+      "id": 1073,
+      "question": "Which system is characterized by social mobility primarily based on individual achievement?",
+      "choices": [
+        "Open system",
+        "Closed system",
+        "Traditional caste system where occupation is determined by birth",
+        "Feudal estate system with hereditary social positions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t16"
+    },
+    {
+      "id": 1074,
+      "question": "Which of the following is the best example of an open system?",
+      "choices": [
+        "A society where people regularly move between social classes through education",
+        "A society with rigid occupational guilds that restrict entry to family members",
+        "A monarchy where noble titles and privileges are passed down through bloodlines",
+        "A society where religious authorities assign social positions based on family heritage"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t18"
+    },
+    {
+      "id": 1075,
+      "question": "In sociological terms, which of the following systems would likely have the highest rates of intergenerational social mobility?",
+      "choices": [
+        "Open system",
+        "Closed system with strong class demarcation",
+        "Traditional caste system where social status is determined by religious doctrine",
+        "Feudal system with legally enforced class boundaries"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch07_t16"
+    }
+  ]
+}

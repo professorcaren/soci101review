@@ -1,0 +1,1524 @@
+{
+  "id": "ch05",
+  "name": "Groups",
+  "order": 5,
+  "concepts": [
+    {
+      "id": "ch05_t01",
+      "term": "Group",
+      "definition": "Two or more people who interact regularly and share a sense of unity and common identity",
+      "level3_question_ids": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        73,
+        78,
+        87,
+        89,
+        90,
+        101,
+        102,
+        103,
+        104,
+        105,
+        109,
+        110,
+        111,
+        112,
+        280,
+        283,
+        285,
+        286,
+        287,
+        648,
+        649,
+        650,
+        651,
+        652,
+        654,
+        656,
+        658,
+        659
+      ],
+      "confusable_ids": [
+        "ch05_t04",
+        "ch05_t02",
+        "ch05_t15",
+        "ch05_t12",
+        "ch05_t19"
+      ]
+    },
+    {
+      "id": "ch05_t02",
+      "term": "Crowd",
+      "definition": "Temporary gathering of people who share a common focus of attention",
+      "level3_question_ids": [
+        281,
+        648
+      ],
+      "confusable_ids": [
+        "ch05_t04",
+        "ch05_t01",
+        "ch05_t08",
+        "ch05_t03",
+        "ch05_t15"
+      ]
+    },
+    {
+      "id": "ch05_t03",
+      "term": "Aggregates",
+      "definition": "Collection of people who happen to be in the same place but have no social connection",
+      "level3_question_ids": [
+        280,
+        281,
+        648
+      ],
+      "confusable_ids": [
+        "ch05_t08",
+        "ch05_t04",
+        "ch05_t15",
+        "ch05_t02",
+        "ch05_t07"
+      ]
+    },
+    {
+      "id": "ch05_t04",
+      "term": "Category",
+      "definition": "People who share common characteristics but may not interact",
+      "level3_question_ids": [
+        281,
+        282,
+        283
+      ],
+      "confusable_ids": [
+        "ch05_t01",
+        "ch05_t02",
+        "ch05_t08",
+        "ch05_t03",
+        "ch05_t15"
+      ]
+    },
+    {
+      "id": "ch05_t05",
+      "term": "Primary Groups",
+      "definition": "Small, intimate groups characterized by face-to-face interaction and emotional bonds",
+      "level3_question_ids": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        87,
+        88,
+        96,
+        97,
+        98,
+        99,
+        100,
+        656
+      ],
+      "confusable_ids": [
+        "ch05_t09",
+        "ch05_t06",
+        "ch05_t10",
+        "ch05_t12",
+        "ch05_t27"
+      ]
+    },
+    {
+      "id": "ch05_t06",
+      "term": "Secondary Groups",
+      "definition": "Larger, more impersonal groups formed around specific tasks or goals",
+      "level3_question_ids": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        97,
+        98,
+        100,
+        656
+      ],
+      "confusable_ids": [
+        "ch05_t05",
+        "ch05_t26",
+        "ch05_t28"
+      ]
+    },
+    {
+      "id": "ch05_t07",
+      "term": "Social Network",
+      "definition": "Web of social relationships that connect individuals to one another",
+      "level3_question_ids": [
+        102,
+        650,
+        658
+      ],
+      "confusable_ids": [
+        "ch05_t08",
+        "ch05_t17",
+        "ch05_t19",
+        "ch05_t12",
+        "ch05_t03"
+      ]
+    },
+    {
+      "id": "ch05_t08",
+      "term": "Social Ties",
+      "definition": "Connections between people in a social network",
+      "level3_question_ids": [
+        86,
+        65
+      ],
+      "confusable_ids": [
+        "ch05_t03",
+        "ch05_t07",
+        "ch05_t17",
+        "ch05_t19",
+        "ch05_t09"
+      ]
+    },
+    {
+      "id": "ch05_t09",
+      "term": "Strong Ties",
+      "definition": "Close relationships characterized by frequent interaction and emotional intensity",
+      "level3_question_ids": [
+        650,
+        656,
+        649
+      ],
+      "confusable_ids": [
+        "ch05_t10",
+        "ch05_t05",
+        "ch05_t12",
+        "ch05_t28",
+        "ch05_t08"
+      ]
+    },
+    {
+      "id": "ch05_t10",
+      "term": "Weak Ties",
+      "definition": "Casual relationships with less frequent interaction and emotional investment",
+      "level3_question_ids": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        81,
+        108,
+        649,
+        650,
+        656
+      ],
+      "confusable_ids": [
+        "ch05_t09",
+        "ch05_t12",
+        "ch05_t05",
+        "ch05_t08",
+        "ch05_t07"
+      ]
+    },
+    {
+      "id": "ch05_t11",
+      "term": "Anomie",
+      "definition": "State of normlessness or social instability resulting from breakdown of standards",
+      "level3_question_ids": [
+        107,
+        80,
+        81,
+        82,
+        83,
+        84
+      ],
+      "confusable_ids": [
+        "ch05_t08",
+        "ch05_t03",
+        "ch05_t07"
+      ]
+    },
+    {
+      "id": "ch05_t12",
+      "term": "Group Dynamics",
+      "definition": "Patterns of interaction and relationships within a group",
+      "level3_question_ids": [
+        73,
+        87,
+        650,
+        651,
+        654
+      ],
+      "confusable_ids": [
+        "ch05_t15",
+        "ch05_t09",
+        "ch05_t10",
+        "ch05_t01",
+        "ch05_t13"
+      ]
+    },
+    {
+      "id": "ch05_t13",
+      "term": "In-group",
+      "definition": "Group to which a person belongs and feels loyal",
+      "level3_question_ids": [
+        102,
+        105,
+        286,
+        658
+      ],
+      "confusable_ids": [
+        "ch05_t14",
+        "ch05_t12",
+        "ch05_t15",
+        "ch05_t18",
+        "ch05_t27"
+      ]
+    },
+    {
+      "id": "ch05_t14",
+      "term": "Out-group",
+      "definition": "Group that a person does not belong to and may view as different or opposing",
+      "level3_question_ids": [
+        101,
+        103,
+        104
+      ],
+      "confusable_ids": [
+        "ch05_t13",
+        "ch05_t12",
+        "ch05_t15",
+        "ch05_t18",
+        "ch05_t27"
+      ]
+    },
+    {
+      "id": "ch05_t15",
+      "term": "Reference Group",
+      "definition": "Group that people compare themselves to or model their behavior after",
+      "level3_question_ids": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        658
+      ],
+      "confusable_ids": [
+        "ch05_t12",
+        "ch05_t01",
+        "ch05_t19",
+        "ch05_t08",
+        "ch05_t04"
+      ]
+    },
+    {
+      "id": "ch05_t16",
+      "term": "Groupthink",
+      "definition": "Pattern of thought characterized by self-deception, forced manufacture of consent, and conformity",
+      "level3_question_ids": [
+        654,
+        652
+      ],
+      "confusable_ids": [
+        "ch05_t09",
+        "ch05_t18",
+        "ch05_t28",
+        "ch05_t29",
+        "ch05_t05"
+      ]
+    },
+    {
+      "id": "ch05_t17",
+      "term": "Social Influence",
+      "definition": "Ways in which people affect the thoughts, feelings, and behaviors of others",
+      "level3_question_ids": [
+        91,
+        66,
+        67,
+        68,
+        69
+      ],
+      "confusable_ids": [
+        "ch05_t08",
+        "ch05_t19",
+        "ch05_t07",
+        "ch05_t20",
+        "ch05_t04"
+      ]
+    },
+    {
+      "id": "ch05_t18",
+      "term": "Asch Experiment",
+      "definition": "Classic study demonstrating how group pressure can lead to conformity",
+      "level3_question_ids": [
+        284,
+        285
+      ],
+      "confusable_ids": [
+        "ch05_t12",
+        "ch05_t13",
+        "ch05_t14",
+        "ch05_t15",
+        "ch05_t27"
+      ]
+    },
+    {
+      "id": "ch05_t19",
+      "term": "Social Identity Theory",
+      "definition": "Theory explaining how people develop sense of self through group membership",
+      "level3_question_ids": [
+        286,
+        287
+      ],
+      "confusable_ids": [
+        "ch05_t08",
+        "ch05_t17",
+        "ch05_t15",
+        "ch05_t01",
+        "ch05_t07"
+      ]
+    },
+    {
+      "id": "ch05_t20",
+      "term": "Power",
+      "definition": "Ability to exercise one's will over others",
+      "level3_question_ids": [
+        70,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        91,
+        92,
+        93,
+        95,
+        109,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        655,
+        657,
+        659
+      ],
+      "confusable_ids": [
+        "ch05_t21",
+        "ch05_t25",
+        "ch05_t22",
+        "ch05_t23",
+        "ch05_t24"
+      ]
+    },
+    {
+      "id": "ch05_t21",
+      "term": "Coercive Power",
+      "definition": "Power based on the ability to punish or threaten others",
+      "level3_question_ids": [
+        95,
+        655,
+        659
+      ],
+      "confusable_ids": [
+        "ch05_t25",
+        "ch05_t20",
+        "ch05_t23",
+        "ch05_t24",
+        "ch05_t22"
+      ]
+    },
+    {
+      "id": "ch05_t22",
+      "term": "Legitimate Power",
+      "definition": "Power derived from formal position or authority",
+      "level3_question_ids": [
+        288,
+        289
+      ],
+      "confusable_ids": [
+        "ch05_t23",
+        "ch05_t24",
+        "ch05_t21",
+        "ch05_t25",
+        "ch05_t20"
+      ]
+    },
+    {
+      "id": "ch05_t23",
+      "term": "Expert Power",
+      "definition": "Power based on specialized knowledge or skills",
+      "level3_question_ids": [
+        657
+      ],
+      "confusable_ids": [
+        "ch05_t24",
+        "ch05_t21",
+        "ch05_t25",
+        "ch05_t22",
+        "ch05_t20"
+      ]
+    },
+    {
+      "id": "ch05_t24",
+      "term": "Referent Power",
+      "definition": "Power based on personal charisma or attractiveness",
+      "level3_question_ids": [
+        290,
+        291
+      ],
+      "confusable_ids": [
+        "ch05_t23",
+        "ch05_t21",
+        "ch05_t25",
+        "ch05_t22",
+        "ch05_t20"
+      ]
+    },
+    {
+      "id": "ch05_t25",
+      "term": "Reward Power",
+      "definition": "Power based on ability to provide benefits or rewards",
+      "level3_question_ids": [
+        292,
+        293
+      ],
+      "confusable_ids": [
+        "ch05_t21",
+        "ch05_t23",
+        "ch05_t24",
+        "ch05_t20",
+        "ch05_t22"
+      ]
+    },
+    {
+      "id": "ch05_t26",
+      "term": "Instrumental Leadership",
+      "definition": "Leadership focused on accomplishing tasks and reaching goals",
+      "level3_question_ids": [
+        659
+      ],
+      "confusable_ids": [
+        "ch05_t27",
+        "ch05_t06"
+      ]
+    },
+    {
+      "id": "ch05_t27",
+      "term": "Expressive Leadership",
+      "definition": "Leadership focused on maintaining group harmony and emotional well-being",
+      "level3_question_ids": [
+        654,
+        659
+      ],
+      "confusable_ids": [
+        "ch05_t26",
+        "ch05_t12",
+        "ch05_t13",
+        "ch05_t14",
+        "ch05_t15"
+      ]
+    },
+    {
+      "id": "ch05_t28",
+      "term": "Bureaucracy",
+      "definition": "Formal organization characterized by hierarchy, rules, and impersonal relationships",
+      "level3_question_ids": [
+        105,
+        651,
+        657
+      ],
+      "confusable_ids": [
+        "ch05_t09",
+        "ch05_t12",
+        "ch05_t22",
+        "ch05_t07",
+        "ch05_t10"
+      ]
+    },
+    {
+      "id": "ch05_t29",
+      "term": "Rationalization",
+      "definition": "Process of replacing traditional and emotional thought with reason and efficiency",
+      "level3_question_ids": [
+        657
+      ],
+      "confusable_ids": [
+        "ch05_t09",
+        "ch05_t10",
+        "ch05_t27",
+        "ch05_t30",
+        "ch05_t05"
+      ]
+    },
+    {
+      "id": "ch05_t30",
+      "term": "McDonaldization",
+      "definition": "Process by which principles of fast-food restaurants dominate other sectors of society",
+      "level3_question_ids": [
+        651,
+        657
+      ],
+      "confusable_ids": [
+        "ch05_t29"
+      ]
+    }
+  ],
+  "chapter_questions": [
+    {
+      "id": 60,
+      "question": "Sarah joins an acting society in her college. Over time, she becomes close to some members and forms a book club with them.  This demonstrates the:",
+      "choices": [
+        "way secondary group ties can lead to membership in primary groups.",
+        "distinction between primary groups and secondary groups.",
+        "way primary groups can often yield membership in secondary groups.",
+        "way secondary groups uphold impersonal relationships."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t06"
+    },
+    {
+      "id": 61,
+      "question": "After moving to a new city, Tom finds solace in a local basketball league. He later forms a close-knit group with some players for evening workouts. This scenario exemplifies the:",
+      "choices": [
+        "way secondary group ties can lead to membership in primary groups.",
+        "way primary groups develop into secondary groups.",
+        "distinction between primary groups and secondary groups.",
+        "way secondary groups facilitate impersonal relationships."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t06"
+    },
+    {
+      "id": 62,
+      "question": "Vanessa becomes a member of a local community service organization. She eventually makes friends with a few other members and they start hiking together regularly. This situation represents the:",
+      "choices": [
+        "way secondary group ties can lead to membership in primary groups.",
+        "distinction between primary groups and secondary groups.",
+        "way secondary groups encourage impersonal connections.",
+        "way membership in a primary group can result in joining secondary groups."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t06"
+    },
+    {
+      "id": 63,
+      "question": "Mark takes up employment in a tech company, where he interacts with his project team. Gradually, he starts dining with some team members, making them his close pals. This case illustrates the:",
+      "choices": [
+        "way secondary group ties can lead to membership in primary groups.",
+        "distinction between primary groups and secondary groups.",
+        "way secondary groups foster impersonal interactions.",
+        "way primary groups can generate secondary group memberships."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t06"
+    },
+    {
+      "id": 64,
+      "question": "Emily joins a dance class in her neighborhood. Over time, she forms a close bond with some dancers and they begin to hang out frequently. This example illustrates the:",
+      "choices": [
+        "way secondary group ties can lead to membership in primary groups.",
+        "distinction between primary groups and secondary groups.",
+        "way secondary groups cultivate impersonal relationships.",
+        "way primary groups can lead to participation in secondary groups."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t06"
+    },
+    {
+      "id": 65,
+      "question": "A movement for environmental conservation in an urban area encouraged large apartment dwellers to compost their waste. Researchers found that residents who had strong ties to neighbors and participated in community activities were far more likely to adopt composting. What does this illustration depict?",
+      "choices": [
+        "Social bonds not only link us with others, but they also shape our actions.",
+        "Massive urbanization is detrimental to the environment.",
+        "Environmental initiatives are often unsuccessful without government mandates.",
+        "The green movement is a direct consequence of globalization."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t08"
+    },
+    {
+      "id": 66,
+      "question": "In a smoking cessation campaign, workers who had strong friendships with colleagues who quit smoking were the most likely to also quit. This showcases what aspect of sociology?",
+      "choices": [
+        "Connections to others are not just relational but also modify our behavior.",
+        "There's a global need for more virtual workspaces.",
+        "Health improvement attempts are often more successful when individuals are less influenced by peer pressure.",
+        "Rapid worldwide changes lead to standardized work cultures."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t17"
+    },
+    {
+      "id": 67,
+      "question": "A community program attempting to promote recycling faced the challenge of persuading people to separate their waste. The families who regularly attended neighborhood meetings were the first to start recycling. What does this situation exemplify?",
+      "choices": [
+        "Our affiliations with others not only establish contacts but also guide our actions.",
+        "Recycling requires increased virtual awareness campaigns.",
+        "Community involvement can sometimes hinder the adoption of new behaviors.",
+        "Globalization encourages uniformity in community programs."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t17"
+    },
+    {
+      "id": 68,
+      "question": "In a campaign to promote physical exercise, students who were part of close-knit friend groups were the most likely to adopt the habit of daily jogging. What is the sociological concept demonstrated by this scenario?",
+      "choices": [
+        "Our social connections not only link us to others but also have a bearing on our behavior.",
+        "Individualistic lifestyles can sometimes be more conducive to adopting certain health behaviors.",
+        "Physical exercise is mostly unsuccessful without individual motivation.",
+        "Global connectivity fosters a universal culture of physical fitness."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t17"
+    },
+    {
+      "id": 69,
+      "question": "A health drive aimed at reducing fast food consumption faced the hurdle of persuading town folks to cook meals at home. The residents who regularly participated in town gatherings were the first to begin home cooking. Which sociological understanding does this situation signify?",
+      "choices": [
+        "Links with others are not just social connectors but also affect our behavior.",
+        "The implementation of virtual cooking sessions is a global need.",
+        "Existing social habits can significantly impact the success of public health initiatives.",
+        "Globalization tends to uniform eating habits across societies."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t17"
+    },
+    {
+      "id": 70,
+      "question": "A research conducted in a large corporation in New York revealed that majority of employee promotions were attributed to interactions with colleagues from different departments rather than close team members. This observation aligns with which sociological principle?",
+      "choices": [
+        "the strength of weak ties",
+        "the power of exclusive networks",
+        "the influence of interdepartmental politics",
+        "the impact of team dynamics"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t10"
+    },
+    {
+      "id": 71,
+      "question": "In a rural town in Spain, it was discovered that information about job opportunities often reaches villagers through their interactions with loosely associated contacts outside their immediate families. What sociological concept is illustrated in this scenario?",
+      "choices": [
+        "the strength of weak ties",
+        "the role of community cohesiveness",
+        "the importance of familial bonds",
+        "the necessity of strong affiliations"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t10"
+    },
+    {
+      "id": 72,
+      "question": "In India, a research pointed out that people often secured more lucrative job opportunities through implications from distant relatives or old classmates rather than through their close friends. Which principle is being exemplified here?",
+      "choices": [
+        "the strength of weak ties",
+        "the influence of familial connections",
+        "the dynamics of social class",
+        "the power of longstanding friendships"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t10"
+    },
+    {
+      "id": 73,
+      "question": "During a study in Brazil, it was found that musicians often got the best gig opportunities not from their bandmates, but through interactions with fans, colleagues, or other bands. What sociological theory is reflected in this phenomenon?",
+      "choices": [
+        "the strength of weak ties",
+        "the impact of fan power",
+        "the role of inter-band competition",
+        "the importance of group dynamics"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t12"
+    },
+    {
+      "id": 74,
+      "question": "A survey in Sweden discovered that many startup founders got their initial funding through contacts they made at entrepreneurial events, rather than relying solely on close family or friends. What sociological principle is signified here?",
+      "choices": [
+        "the strength of weak ties",
+        "the importance of networking events",
+        "the power of family support",
+        "the role of peer pressure"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t10"
+    },
+    {
+      "id": 75,
+      "question": "A nonprofit organization focusing on addressing societal issues and promoting unity sees itself as beneficial to society due to shared goals and values. What sociological perspective represents this view?",
+      "choices": [
+        "structural functionalism",
+        "symbolic interactionism",
+        "power theory",
+        "social conflict theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t20"
+    },
+    {
+      "id": 76,
+      "question": "In a college, all students must follow certain rules and live by a shared system of values to ensure a harmonious environment. What sociological theory best fits this idea?",
+      "choices": [
+        "structural functionalism",
+        "symbolic interactionism",
+        "negative power theory",
+        "social conflict theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t20"
+    },
+    {
+      "id": 77,
+      "question": "A sports team operates under shared values and norms to keep the team functioning cohesively. Which sociological perspective describes this situation?",
+      "choices": [
+        "structural functionalism",
+        "symbolic interactionism",
+        "power-dominance theory",
+        "conflict theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t20"
+    },
+    {
+      "id": 78,
+      "question": "A civic group believes their shared objectives and beliefs help in creating societal balance. What school of thought in sociology does this belief adhere to?",
+      "choices": [
+        "structural functionalism",
+        "symbolic interactionism",
+        "authoritative power theory",
+        "conflict theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t01"
+    },
+    {
+      "id": 79,
+      "question": "A worker's union operates using shared rules and principles to achieve unison and organization amongst its members. What sociological perspective underpins this concept?",
+      "choices": [
+        "structural functionalism",
+        "symbolic interactionism",
+        "power elite theory",
+        "conflict theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t20"
+    },
+    {
+      "id": 80,
+      "question": "Following a major economic downturn, many people in a city become disillusioned and lose hope in social norms. A sociologist might identify this societal condition as:",
+      "choices": [
+        "anomie",
+        "groupthink",
+        "peer influence",
+        "positive deviance"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t11"
+    },
+    {
+      "id": 81,
+      "question": "Brad recently moved to a new city for work and hasn't made many friends yet. He often feels isolated and struggles to connect to the wider community. What sociological phenomenon is Brad likely experiencing?",
+      "choices": [
+        "anomie",
+        "groupthink",
+        "weak ties",
+        "informal social control"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t11"
+    },
+    {
+      "id": 82,
+      "question": "In a society where citizens begin to feel adrift and disconnected due to rapid technological advancements, a sociologist may argue they are experiencing:",
+      "choices": [
+        "anomie",
+        "groupthink",
+        "social epidemic",
+        "planned obsolescence"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t11"
+    },
+    {
+      "id": 83,
+      "question": "Following the arrests of several political leaders, residents of a country feel disoriented and unguided. Which sociological condition describes this scenario?",
+      "choices": [
+        "anomie",
+        "groupthink",
+        "diffused responsibility",
+        "moral panic"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t11"
+    },
+    {
+      "id": 84,
+      "question": "In a rapidly globalizing society, individuals often feel disconnected and lost due to the breakdown of traditional norms. This phenomenon is best described as:",
+      "choices": [
+        "anomie",
+        "groupthink",
+        "conformity",
+        "chronic mobility"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t11"
+    },
+    {
+      "id": 85,
+      "question": "What was the primary objective of the Twenty Statements Test (TST) in sociological studies?",
+      "choices": [
+        "It was developed to measure the extent to which we base our identity on membership in groups.",
+        "It was introduced to measure individuals' propensity to conform to societal norms.",
+        "It aimed to assess the structure and strength of individuals' social networks.",
+        "It strived to evaluate the influence of societal norms on individual behaviors."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 86,
+      "question": "In sociology, why does the Twenty Statements Test primarily start with 'I am'?",
+      "choices": [
+        "It was developed to measure the extent to which we base our identity on membership in groups.",
+        "It was designed to evaluate individual's mastery of societal norms.",
+        "It is used to chart out social networks by identifying existing social ties.",
+        "It assists in understanding the degree to which societal norms impose restrictions on individuals."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t08"
+    },
+    {
+      "id": 87,
+      "question": "How does the Twenty Statements Test contribute to the study of group dynamics in sociology?",
+      "choices": [
+        "It was developed to measure the extent to which we base our identity on membership in groups.",
+        "It examines the pressure of conformity within primary groups.",
+        "It maps social connections to reveal intricate social relationships.",
+        "It gauges the extent of influence that societal norms have on individual actions."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t05"
+    },
+    {
+      "id": 88,
+      "question": "Why is the Twenty Statements Test, starting with 'I am', an essential tool for sociologists studying collective identities?",
+      "choices": [
+        "It was developed to measure the extent to which we base our identity on membership in groups.",
+        "It aims to analyse the impact of societal norms on personal behaviour.",
+        "It is a tool to generate a detailed mapping of social networks.",
+        "It helps to study the individual adherence to the rules of their primary groups."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t05"
+    },
+    {
+      "id": 89,
+      "question": "What purpose does the 'I am' clause serve in the Twenty Statements Test from a sociological perspective?",
+      "choices": [
+        "It was developed to measure the extent to which we base our identity on membership in groups.",
+        "It is used to understand how much an individual conforms to group norms.",
+        "It helps to outline social networks by identifying inter-personal ties.",
+        "It studies the individual's compliance with societal norms."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t01"
+    },
+    {
+      "id": 90,
+      "question": "The results of the Zimbardo prison experiment and Milgram\u2019s obedience experiment both underscore a similar sociological principle. What is the main implication of these studies for present-day society?",
+      "choices": [
+        "They reveal the profound influence that authority and social roles can have on individual behavior.*",
+        "They show that individuals are naturally inclined to perform inhumane acts when they conform to group norms.",
+        "They uncover how environments free of authority enable the true nature of individuals to emerge.",
+        "They illustrate that only people with weak moral compasses tend to conform to questionable group norms."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t01"
+    },
+    {
+      "id": 91,
+      "question": "Milgram\u2019s obedience experiment was repeated successfully in recent years, delivering similar outcomes. What inference can be drawn from this for our current society?",
+      "choices": [
+        "It highlights that even today, individuals may adhere to orders from authority figures, despite moral reservations.",
+        "It signifies that today's people have a stronger propensity to reject oppressive command.",
+        "It suggests people are now less susceptible to authority power due to higher levels of education.",
+        "It indicates the diminished impact of social influence on people's decisions in recent times."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t17"
+    },
+    {
+      "id": 92,
+      "question": "Contemporary replication of the Milgram\u2019s obedience experiment produced comparable results to the original. What insight can this provide for the modern era?",
+      "choices": [
+        "It demonstrates that obedience to authority, even when norms are violated, remains a potent social force today.",
+        "It affirms the inherent disobedience and nonconformity in human nature in face of oppressive authority.",
+        "It negates the power of social and cultural forces in shaping individual behavior.",
+        "It shows how people's fear of authority has declined over years due to societal evolution."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t20"
+    },
+    {
+      "id": 93,
+      "question": "Recent consequences of Milgram\u2019s obedience experiment parallel the initial findings. What social observation does this suggest for contemporary societies?",
+      "choices": [
+        "It illustrates the profound role of authority on individual behavior and the potential for obedience even in morally questionable situations.",
+        "It reveals a natural tendency among people to rebel against authoritative control.",
+        "It signifies a decline in the power of social norms and roles over individual actions.",
+        "It stresses the innate resilience of individuals in resisting socio-cultural influences."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t20"
+    },
+    {
+      "id": 94,
+      "question": "The replication of Milgram\u2019s obedience experiment has led to outcomes strikingly similar to those of the original study. What does this fact imply about our current societal structures?",
+      "choices": [
+        "It shows the enduring strength of authority influence, indicating individuals can bend their moral boundaries under compelling orders.",
+        "It confirms that individuals have developed stronger resistance against undue authority influence.",
+        "It asserts that societal controls have lessened, encouraging more individualistic actions.",
+        "It suggests an ingrained human tendency to defy strict authoritative expectations."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 95,
+      "question": "A community soccer team starts wearing lucky socks to influence game results, which arises from the belief in their shared meaning of these socks. Which sociological theory best explains this behavior?",
+      "choices": [
+        "symbolic interactionism",
+        "coercive power",
+        "structural functionalism",
+        "conflict theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t21"
+    },
+    {
+      "id": 96,
+      "question": "In modern societies, with high rates of geographical and occupational mobility due to economic demands, what types of interpersonal connections may be compromised?",
+      "choices": [
+        "Primary groups",
+        "Crowds",
+        "Categories",
+        "Institutions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t05"
+    },
+    {
+      "id": 97,
+      "question": "Which relationships might experience strain in a modern society where frequent movement for economic purposes is prevalent?",
+      "choices": [
+        "Primary groups",
+        "Crowds",
+        "Secondary groups",
+        "Categories"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t06"
+    },
+    {
+      "id": 98,
+      "question": "Bureaucratic organizations have become more common due to high geo-occupational mobility in modern economies. Which kind of groups might weaken as a result of this trend?",
+      "choices": [
+        "Primary groups",
+        "Crowds",
+        "Secondary groups",
+        "Bureaucratic structures"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t06"
+    },
+    {
+      "id": 99,
+      "question": "In a society with a highly mobile workforce, what type of social groups are likely to suffer or become less effective due to the requirement of frequent relocation?",
+      "choices": [
+        "Primary groups",
+        "Crowds",
+        "Tertiary groups",
+        "Occupational categories"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t05"
+    },
+    {
+      "id": 100,
+      "question": "With the rise of a modern economy necessitating occupational and geographic shifts, which traditional social structures might experience a decline in strength or stabilities?",
+      "choices": [
+        "Primary groups",
+        "Categories",
+        "Crowds",
+        "Secondary groups"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t06"
+    },
+    {
+      "id": 101,
+      "question": "Each time Daniel evaluates his personal worth and achievements, he tends to compare himself with his teammates at work. This team at work represents what type of group in sociological terms?",
+      "choices": [
+        "reference group",
+        "out-group",
+        "primary group",
+        "associative group"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t15"
+    },
+    {
+      "id": 102,
+      "question": "Jasmine, an entrepreneur, constantly measures her professional accomplishments based on the success stories of others in her LinkedIn groups. What is this LinkedIn group to Jasmine in sociological theory?",
+      "choices": [
+        "reference group",
+        "secondary group",
+        "in-group",
+        "social network"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t15"
+    },
+    {
+      "id": 103,
+      "question": "In his community, Bob aspires to be as influential and dedicated as the members of the city council. In sociological context, what do members of the city council represent for Bob?",
+      "choices": [
+        "reference group",
+        "out-group",
+        "ecclesia",
+        "peer group"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t15"
+    },
+    {
+      "id": 104,
+      "question": "Despite playing for a different club, Fiona regularly compares her cricket skills and performance with players of the champion league team. In sociological terms, this champion league team represents what?",
+      "choices": [
+        "reference group",
+        "primary group",
+        "out-group",
+        "institution"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t15"
+    },
+    {
+      "id": 105,
+      "question": "Laura feels the pressure to perform well in her studies as she continually relates her academic progress with that of her cousins who are all doctors. What do her cousins represent, from a sociological perspective?",
+      "choices": [
+        "reference group",
+        "bureaucracy",
+        "in-group",
+        "culture"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t15"
+    },
+    {
+      "id": 106,
+      "question": "Sociologist Patricia Hill Collins examined how patterns of social relationships between people are built and maintained overtime within a black feminist context. What concept was Collins studying?",
+      "choices": [
+        "social networks",
+        "class struggle",
+        "patriarchy",
+        "cultural relativity"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 107,
+      "question": "The study of how individuals create and use connections among people in their environment is key in understanding Robert Putnam's research on 'Bowling Alone'. What sociological concept refers to these connections?",
+      "choices": [
+        "social networks",
+        "social stratification",
+        "labeling theory",
+        "anomie"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t11"
+    },
+    {
+      "id": 108,
+      "question": "Mark Granovetter's research on the 'strength of weak ties' helps develop which sociological concept?",
+      "choices": [
+        "social networks*",
+        "gatekeeping",
+        "agenda-setting",
+        "social closure"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t10"
+    },
+    {
+      "id": 109,
+      "question": "During the Stanford prison experiment, why did the participants playing guards begin to enforce strict and abusive rules?",
+      "choices": [
+        "The participants were succumbing to the pressures of a group role, leading to conformity.",
+        "The participants inherently enjoyed enforcing power.",
+        "The facilitators encouraged them to become abusive.",
+        "The participants didn't understand the experiment's guidelines."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t01"
+    },
+    {
+      "id": 110,
+      "question": "Attributing increased bystander effect to the size of the group, suggests that:",
+      "choices": [
+        "The larger the group, the less each member feels individually responsible.",
+        "Larger groups are naturally apathetic towards incidents.",
+        "The size of the group doesn't affect the bystander effect.",
+        "People in larger groups are often more courageous."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t01"
+    },
+    {
+      "id": 111,
+      "question": "After a team of software engineers discusses best practices, they unanimously decide to adopt a new coding standard\u2014even though many of them initially resisted the idea. Which phenomenon does this scenario best illustrate?",
+      "choices": [
+        "The influence of group consensus can induce conformity.",
+        "Software engineers dislike changing their coding standards.",
+        "An external authority made the engineers adopt the new standards.",
+        "Individual engineers lack personal opinions."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t01"
+    },
+    {
+      "id": 112,
+      "question": "If the members of a book club start reading books they initially disliked following a forceful recommendation from a fellow member, it indicates:",
+      "choices": [
+        "An assertive individual can considerably influence group decisions.",
+        "The book club members don't have personal preferences.",
+        "The book club members have similar tastes.",
+        "Book club recommendations don't affect individual reading choices."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t01"
+    },
+    {
+      "id": 280,
+      "question": "A researcher observes that people waiting at a bus stop don't interact with each other despite being physically close. This situation best illustrates the concept of aggregates because:",
+      "choices": [
+        "The people share physical proximity but lack meaningful social bonds or interaction",
+        "They represent different social classes within the same geographic area",
+        "They demonstrate how urban environments create lasting social connections",
+        "They form a cohesive group working toward a common transportation goal"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t03"
+    },
+    {
+      "id": 281,
+      "question": "When analyzing crowd behavior at a concert, a sociologist notes that most attendees don't know each other personally. However, during an emergency evacuation, these aggregates transformed into something else because:",
+      "choices": [
+        "The shared crisis created temporary social bonds and coordinated action among strangers",
+        "The physical space became too small to maintain individual anonymity",
+        "The concert-goers already belonged to the same socioeconomic category",
+        "The music had already established permanent relationships between audience members"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t03"
+    },
+    {
+      "id": 282,
+      "question": "A marketing firm targets \"millennials aged 25-35 with college degrees\" for a new product campaign. This represents a category because:",
+      "choices": [
+        "These individuals share demographic traits but don't necessarily know or interact with each other",
+        "They all belong to the same social media networks and communicate regularly",
+        "They physically gather in the same locations on a regular basis",
+        "They have formed a political movement with shared goals and leadership"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t04"
+    },
+    {
+      "id": 283,
+      "question": "A sociology student notices that all left-handed people in her university could theoretically be studied as one group. This illustrates the concept of category because:",
+      "choices": [
+        "Left-handed students share a common trait but likely have no awareness of or connection to other left-handed students",
+        "These students automatically form study groups based on their handedness",
+        "They face identical discrimination and have organized to address it collectively",
+        "Their shared trait creates immediate social bonds when they encounter each other"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t04"
+    },
+    {
+      "id": 284,
+      "question": "A psychology professor replicates the Asch experiment with modern college students and finds that about 75% of participants conformed at least once when surrounded by confederates giving obviously wrong answers. This demonstrates:",
+      "choices": [
+        "How social pressure can override individual judgment even when the correct answer is obvious",
+        "That college students today are less intelligent than previous generations",
+        "Why democratic decision-making always produces the best outcomes",
+        "That people are naturally inclined to be dishonest in research settings"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t18"
+    },
+    {
+      "id": 285,
+      "question": "A company uses the Asch experiment findings to understand why employees rarely speak up during meetings when they disagree with the majority opinion. This application shows:",
+      "choices": [
+        "How conformity pressure in groups can suppress individual critical thinking and dissent",
+        "That employees lack the expertise to contribute meaningfully to discussions",
+        "Why hierarchical organizations are more efficient than democratic ones",
+        "That group consensus always reflects the most accurate available information"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t18"
+    },
+    {
+      "id": 286,
+      "question": "According to social identity theory, when students at University A chant \"We're number one!\" at a basketball game against University B, they are:",
+      "choices": [
+        "Enhancing their self-esteem through positive association with their in-group's success",
+        "Demonstrating superior knowledge about basketball statistics and team performance",
+        "Expressing individual athletic achievements rather than group membership",
+        "Showing respect for the opposing team's competitive efforts"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t19"
+    },
+    {
+      "id": 287,
+      "question": "A teenager who was bullied at her previous school joins the drama club at her new school and begins to feel confident and valued. Social identity theory would explain this change as:",
+      "choices": [
+        "Her self-concept improving through positive identification with a new group membership",
+        "The natural result of getting older and maturing emotionally",
+        "A temporary phase that will disappear once she faces new challenges",
+        "Evidence that her previous negative experiences were entirely imaginary"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t19"
+    },
+    {
+      "id": 288,
+      "question": "A police officer's ability to issue traffic tickets and make arrests is an example of legitimate power because:",
+      "choices": [
+        "The authority stems from a legally recognized position within the formal criminal justice system",
+        "Drivers personally admire and want to emulate the officer's character traits",
+        "The officer offers rewards like reduced fines in exchange for compliance",
+        "The power exists only when the officer is physically stronger than the citizen"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t22"
+    },
+    {
+      "id": 289,
+      "question": "When a newly elected mayor struggles to implement policy changes despite having legitimate power, this illustrates:",
+      "choices": [
+        "That formal authority alone may be insufficient without other forms of influence or support",
+        "Why democratic elections are less effective than appointed positions",
+        "That legitimate power automatically guarantees successful leadership outcomes",
+        "How legal authority always overcomes resistance from subordinates"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t22"
+    },
+    {
+      "id": 290,
+      "question": "A social media influencer's ability to convince followers to buy products they endorse demonstrates referent power because:",
+      "choices": [
+        "Followers comply due to their admiration for the influencer's lifestyle and personality",
+        "The influencer holds an official position in the companies whose products they promote",
+        "Followers receive direct financial compensation for making purchases",
+        "The influencer has legal authority to require followers to buy specific items"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t24"
+    },
+    {
+      "id": 291,
+      "question": "A charismatic religious leader's referent power becomes problematic when:",
+      "choices": [
+        "Followers make important life decisions based solely on personal devotion rather than critical evaluation",
+        "The leader starts offering material benefits to attract new members",
+        "The leader seeks formal recognition from established religious institutions",
+        "Followers begin to question the leader's teachings and seek alternative perspectives"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t24"
+    },
+    {
+      "id": 292,
+      "question": "A manager's reward power is most effectively demonstrated when:",
+      "choices": [
+        "Employees increase productivity because they anticipate promotions, bonuses, or recognition",
+        "Workers follow instructions due to respect for the manager's expertise and experience",
+        "The manager threatens to terminate employees who don't meet performance standards",
+        "Employees comply because the manager holds a formal supervisory position"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t25"
+    },
+    {
+      "id": 293,
+      "question": "The limitations of reward power become apparent when:",
+      "choices": [
+        "Employees lose motivation once they realize desired rewards are unavailable or insufficient",
+        "A manager's formal authority is questioned by higher-level executives",
+        "Workers begin to admire their supervisor's personal qualities and leadership style",
+        "The organization implements new policies that increase available resources"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t25"
+    },
+    {
+      "id": 648,
+      "question": "A college sociology professor observes that students in her large lecture hall of 200 rarely interact with one another or form lasting relationships, but those who join her smaller discussion groups often develop friendships. The large lecture hall represents which type of social formation?",
+      "choices": [
+        "A secondary group",
+        "A reference group",
+        "A crowd",
+        "An aggregate"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch05_t03"
+    },
+    {
+      "id": 649,
+      "question": "Maria belongs to a book club where members meet monthly to discuss novels and have developed close personal relationships over several years. When analyzing her social connections, a researcher would most likely classify this book club as demonstrating which concept?",
+      "choices": [
+        "Weak ties connecting her to diverse networks",
+        "Secondary group relationships focused on tasks",
+        "Strong ties characterized by frequent interaction and emotional intensity",
+        "Reference group influence on her behavior"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch05_t09"
+    },
+    {
+      "id": 650,
+      "question": "Dr. Chen is studying how workplace relationships affect employee satisfaction. She notices that employees who have more connections to colleagues across different departments report higher job satisfaction and learn about more advancement opportunities. This finding best illustrates which concept in social network theory?",
+      "choices": [
+        "The strength of primary group relationships",
+        "Group dynamics within small teams",
+        "The importance of strong ties for emotional support",
+        "Social networks and the flow of information through weak ties"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch05_t07"
+    },
+    {
+      "id": 651,
+      "question": "In a corporate office, employees work in clearly defined roles with specific job descriptions, follow written procedures, and report to supervisors in a clear chain of command. Decisions are made based on company policies rather than personal relationships. This organizational structure best exemplifies which sociological concept?",
+      "choices": [
+        "Bureaucracy with its characteristics of hierarchy and impersonality",
+        "McDonaldization of the workplace",
+        "Primary group dynamics",
+        "Charismatic authority in leadership"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t30"
+    },
+    {
+      "id": 652,
+      "question": "When members of a high school basketball team begin to suppress dissenting opinions about game strategy because they prioritize team unity over critical evaluation of their coach's decisions, this team is most likely experiencing which group dynamic?",
+      "choices": [
+        "Social loafing due to diffusion of responsibility",
+        "The benefits of strong group cohesion",
+        "Reference group influence on individual behavior",
+        "Groupthink leading to poor decision-making"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch05_t16"
+    },
+    {
+      "id": 653,
+      "question": "A researcher studying social conformity sets up an experiment where participants must judge which of three lines matches a standard line length. Unknown to the real participant, other \"participants\" are confederates who deliberately give wrong answers. This experimental design is most closely associated with which classic study?",
+      "choices": [
+        "The Milgram obedience experiments",
+        "The Asch experiments on conformity",
+        "The Stanford Prison Experiment",
+        "Zimbardo's research on deindividuation"
+      ],
+      "correct": 1,
+      "linked_concept_id": null
+    },
+    {
+      "id": 654,
+      "question": "A restaurant manager notices that when she assigns tasks to large groups of servers, individual productivity decreases even though the overall work gets completed. Each server seems to put in less effort when working as part of a bigger team. This phenomenon illustrates which concept from the study of group dynamics?",
+      "choices": [
+        "Groupthink affecting team decision-making",
+        "The challenges of instrumental versus expressive leadership",
+        "Social loafing in team environments",
+        "The formation of in-groups and out-groups"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch05_t27"
+    },
+    {
+      "id": 655,
+      "question": "A CEO leads her company through personal charisma and an inspiring vision that motivates employees to work toward revolutionary changes in their industry. Her leadership style breaks from traditional corporate hierarchies and formal procedures. According to Weber's typology, this leader exercises which type of authority?",
+      "choices": [
+        "Traditional authority based on custom",
+        "Legal-rational authority based on formal rules",
+        "Charismatic authority based on personal qualities",
+        "Coercive power backed by threats"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch05_t21"
+    },
+    {
+      "id": 656,
+      "question": "Members of a college fraternity strongly identify with their organization and view members of rival fraternities with suspicion and hostility. They regularly compete with these other groups and emphasize their own fraternity's superiority. This scenario best demonstrates the sociological concepts of which group relationships?",
+      "choices": [
+        "Reference groups and social comparison processes",
+        "In-groups and out-groups with intergroup rivalry",
+        "Primary groups versus secondary groups",
+        "Strong ties versus weak ties in social networks"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch05_t06"
+    },
+    {
+      "id": 657,
+      "question": "A factory implements standardized procedures where workers follow detailed scripts for customer interactions, meals are prepared using exact timing and measurements, and efficiency is prioritized over personalized service. This transformation of the workplace reflects which sociological concept?",
+      "choices": [
+        "The iron cage of bureaucracy",
+        "McDonaldization of organizational processes",
+        "The shift from traditional to legal-rational authority",
+        "Rationalization through expert power"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch05_t29"
+    },
+    {
+      "id": 658,
+      "question": "A teenager begins dressing like her older sister, adopting similar mannerisms and career aspirations because she admires her sister's success in college. The older sister serves as which type of group influence in this relationship?",
+      "choices": [
+        "An in-group providing social identity",
+        "A reference group for social comparison",
+        "A secondary group connection",
+        "A strong tie in her social network"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch05_t15"
+    },
+    {
+      "id": 659,
+      "question": "During a team meeting, a project manager maintains focus on completing tasks and meeting deadlines, while showing less concern for team members' personal feelings about the work assignments. This manager is demonstrating which leadership style?",
+      "choices": [
+        "Instrumental leadership focused on task accomplishment",
+        "Expressive leadership concerned with group harmony",
+        "Charismatic authority based on personal appeal",
+        "Coercive power through threat of punishment"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch05_t26"
+    }
+  ]
+}

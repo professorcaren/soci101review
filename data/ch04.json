@@ -1,0 +1,1466 @@
+{
+  "id": "ch04",
+  "name": "Socialization",
+  "order": 4,
+  "concepts": [
+    {
+      "id": "ch04_t01",
+      "term": "Socialization",
+      "definition": "The lifelong process of learning cultural norms and social patterns",
+      "level3_question_ids": [
+        245,
+        246,
+        247,
+        248,
+        266,
+        274,
+        794,
+        799,
+        800,
+        801,
+        805,
+        806,
+        808,
+        810,
+        812
+      ],
+      "confusable_ids": [
+        "ch04_t13",
+        "ch04_t16",
+        "ch04_t17",
+        "ch04_t07",
+        "ch04_t18"
+      ]
+    },
+    {
+      "id": "ch04_t02",
+      "term": "Self",
+      "definition": "One's identity and conception of who they are",
+      "level3_question_ids": [
+        232,
+        233,
+        234,
+        240,
+        242,
+        243,
+        244,
+        255,
+        256,
+        257,
+        258,
+        259,
+        265,
+        276,
+        278,
+        792,
+        793,
+        796,
+        802,
+        803,
+        804,
+        811
+      ],
+      "confusable_ids": [
+        "ch04_t27",
+        "ch04_t03",
+        "ch04_t21",
+        "ch04_t25",
+        "ch04_t16"
+      ]
+    },
+    {
+      "id": "ch04_t03",
+      "term": "Looking-glass Self",
+      "definition": "Cooley's theory that we develop our self-image based on how we think others see us",
+      "level3_question_ids": [
+        232,
+        233,
+        234,
+        240,
+        242,
+        243,
+        244,
+        255,
+        256,
+        257,
+        258,
+        259,
+        265,
+        278,
+        792,
+        804,
+        811
+      ],
+      "confusable_ids": [
+        "ch04_t02",
+        "ch04_t27",
+        "ch04_t09",
+        "ch04_t04",
+        "ch04_t28"
+      ]
+    },
+    {
+      "id": "ch04_t04",
+      "term": "Mead's Theory of the Self",
+      "definition": "Theory that the self develops through social interaction and role-taking",
+      "level3_question_ids": [
+        793
+      ],
+      "confusable_ids": [
+        "ch04_t07",
+        "ch04_t11",
+        "ch04_t08",
+        "ch04_t13",
+        "ch04_t03"
+      ]
+    },
+    {
+      "id": "ch04_t05",
+      "term": "Generalized Other",
+      "definition": "The composite mental image of the general attitudes and expectations of society",
+      "level3_question_ids": [
+        241,
+        792,
+        793
+      ],
+      "confusable_ids": [
+        "ch04_t23",
+        "ch04_t13",
+        "ch04_t25"
+      ]
+    },
+    {
+      "id": "ch04_t06",
+      "term": "Thomas Theorem",
+      "definition": "If people define situations as real, they are real in their consequences",
+      "level3_question_ids": [
+        803,
+        794
+      ],
+      "confusable_ids": [
+        "ch04_t07",
+        "ch04_t13"
+      ]
+    },
+    {
+      "id": "ch04_t07",
+      "term": "Definition of the Situation",
+      "definition": "How people understand and interpret social situations",
+      "level3_question_ids": [],
+      "confusable_ids": [
+        "ch04_t13",
+        "ch04_t06",
+        "ch04_t04",
+        "ch04_t17",
+        "ch04_t18"
+      ]
+    },
+    {
+      "id": "ch04_t08",
+      "term": "Dramaturgy",
+      "definition": "Goffman's theory viewing social life as a theatrical performance",
+      "level3_question_ids": [
+        276,
+        796,
+        804
+      ],
+      "confusable_ids": [
+        "ch04_t04",
+        "ch04_t10",
+        "ch04_t17",
+        "ch04_t07",
+        "ch04_t18"
+      ]
+    },
+    {
+      "id": "ch04_t09",
+      "term": "Impression Management",
+      "definition": "Efforts to control how others perceive and evaluate us",
+      "level3_question_ids": [
+        237,
+        239,
+        240,
+        241,
+        244,
+        798,
+        803
+      ],
+      "confusable_ids": [
+        "ch04_t03",
+        "ch04_t15",
+        "ch04_t28"
+      ]
+    },
+    {
+      "id": "ch04_t10",
+      "term": "Frontstage/Backstage",
+      "definition": "Public performance of social roles versus private preparation and relaxation",
+      "level3_question_ids": [
+        238,
+        797,
+        811,
+        981,
+        982
+      ],
+      "confusable_ids": [
+        "ch04_t08",
+        "ch04_t17",
+        "ch04_t07",
+        "ch04_t18",
+        "ch04_t20"
+      ]
+    },
+    {
+      "id": "ch04_t11",
+      "term": "Social Construction",
+      "definition": "The idea that social reality is created through human interaction",
+      "level3_question_ids": [
+        803,
+        811
+      ],
+      "confusable_ids": [
+        "ch04_t04",
+        "ch04_t17",
+        "ch04_t07",
+        "ch04_t18",
+        "ch04_t20"
+      ]
+    },
+    {
+      "id": "ch04_t12",
+      "term": "Cooling the Mark Out",
+      "definition": "Process of helping someone adjust to a failure or loss of status",
+      "level3_question_ids": [
+        807,
+        798
+      ],
+      "confusable_ids": [
+        "ch04_t22",
+        "ch04_t19",
+        "ch04_t01",
+        "ch04_t21",
+        "ch04_t07"
+      ]
+    },
+    {
+      "id": "ch04_t13",
+      "term": "Agents of Socialization",
+      "definition": "People and institutions that teach social norms and expectations",
+      "level3_question_ids": [
+        245,
+        246,
+        247,
+        248,
+        799,
+        812
+      ],
+      "confusable_ids": [
+        "ch04_t07",
+        "ch04_t01",
+        "ch04_t25",
+        "ch04_t04",
+        "ch04_t17"
+      ]
+    },
+    {
+      "id": "ch04_t14",
+      "term": "Hidden Curriculum",
+      "definition": "Unofficial lessons, values, and perspectives learned in school",
+      "level3_question_ids": [
+        800,
+        805,
+        810,
+        812
+      ],
+      "confusable_ids": [
+        "ch04_t16"
+      ]
+    },
+    {
+      "id": "ch04_t15",
+      "term": "Total Institutions",
+      "definition": "Organizations that control all aspects of members' lives",
+      "level3_question_ids": [
+        245,
+        250,
+        251,
+        253,
+        254,
+        279
+      ],
+      "confusable_ids": [
+        "ch04_t09"
+      ]
+    },
+    {
+      "id": "ch04_t16",
+      "term": "Resocialization",
+      "definition": "Process of learning new norms and values, replacing previous ones",
+      "level3_question_ids": [
+        801,
+        807,
+        810,
+        812
+      ],
+      "confusable_ids": [
+        "ch04_t01",
+        "ch04_t02",
+        "ch04_t13",
+        "ch04_t14",
+        "ch04_t12"
+      ]
+    },
+    {
+      "id": "ch04_t17",
+      "term": "Status",
+      "definition": "Social position that a person occupies",
+      "level3_question_ids": [
+        229,
+        230,
+        231,
+        233,
+        234,
+        240,
+        243,
+        260,
+        261,
+        262,
+        263,
+        264,
+        267,
+        275,
+        795,
+        802,
+        806,
+        807,
+        808,
+        809
+      ],
+      "confusable_ids": [
+        "ch04_t18",
+        "ch04_t20",
+        "ch04_t21",
+        "ch04_t19",
+        "ch04_t07"
+      ]
+    },
+    {
+      "id": "ch04_t18",
+      "term": "Ascribed Status",
+      "definition": "Social position assigned at birth or involuntarily",
+      "level3_question_ids": [
+        809
+      ],
+      "confusable_ids": [
+        "ch04_t17",
+        "ch04_t20",
+        "ch04_t21",
+        "ch04_t19",
+        "ch04_t07"
+      ]
+    },
+    {
+      "id": "ch04_t19",
+      "term": "Embodied Status",
+      "definition": "Status characteristics physically manifested in appearance or behavior",
+      "level3_question_ids": [
+        808
+      ],
+      "confusable_ids": [
+        "ch04_t21",
+        "ch04_t22",
+        "ch04_t17",
+        "ch04_t18",
+        "ch04_t20"
+      ]
+    },
+    {
+      "id": "ch04_t20",
+      "term": "Achieved Status",
+      "definition": "Social position attained through individual effort",
+      "level3_question_ids": [
+        275,
+        806
+      ],
+      "confusable_ids": [
+        "ch04_t17",
+        "ch04_t18",
+        "ch04_t21",
+        "ch04_t19",
+        "ch04_t07"
+      ]
+    },
+    {
+      "id": "ch04_t21",
+      "term": "Master Status",
+      "definition": "Primary status that shapes a person's overall social identity",
+      "level3_question_ids": [
+        229,
+        230,
+        231,
+        267,
+        809
+      ],
+      "confusable_ids": [
+        "ch04_t17",
+        "ch04_t18",
+        "ch04_t20",
+        "ch04_t19",
+        "ch04_t02"
+      ]
+    },
+    {
+      "id": "ch04_t22",
+      "term": "Role",
+      "definition": "Expected behavior associated with a particular status",
+      "level3_question_ids": [
+        233,
+        235,
+        236,
+        239,
+        240,
+        261,
+        264,
+        268,
+        269,
+        271,
+        272,
+        277,
+        792,
+        793,
+        794,
+        795,
+        797,
+        802,
+        805,
+        807,
+        808,
+        811,
+        981,
+        270,
+        273
+      ],
+      "confusable_ids": [
+        "ch04_t19",
+        "ch04_t23",
+        "ch04_t24",
+        "ch04_t12",
+        "ch04_t21"
+      ]
+    },
+    {
+      "id": "ch04_t23",
+      "term": "Role Conflict",
+      "definition": "Tension between incompatible expectations of different roles",
+      "level3_question_ids": [
+        236,
+        240,
+        277,
+        795,
+        797,
+        805,
+        807,
+        811,
+        802
+      ],
+      "confusable_ids": [
+        "ch04_t22",
+        "ch04_t24",
+        "ch04_t13",
+        "ch04_t27",
+        "ch04_t05"
+      ]
+    },
+    {
+      "id": "ch04_t24",
+      "term": "Role Strain",
+      "definition": "Difficulty fulfilling obligations of a single role",
+      "level3_question_ids": [
+        233,
+        235,
+        236,
+        277,
+        794,
+        795,
+        802,
+        808
+      ],
+      "confusable_ids": [
+        "ch04_t22",
+        "ch04_t23"
+      ]
+    },
+    {
+      "id": "ch04_t25",
+      "term": "Emotional Work/Labor",
+      "definition": "Managing one's emotions to meet job or social expectations",
+      "level3_question_ids": [
+        804,
+        805,
+        807,
+        983,
+        984
+      ],
+      "confusable_ids": [
+        "ch04_t13",
+        "ch04_t02",
+        "ch04_t17",
+        "ch04_t07",
+        "ch04_t18"
+      ]
+    },
+    {
+      "id": "ch04_t26",
+      "term": "Agency",
+      "definition": "Capacity of individuals to act independently and make choices",
+      "level3_question_ids": [
+        808,
+        806
+      ],
+      "confusable_ids": []
+    },
+    {
+      "id": "ch04_t27",
+      "term": "Saturated Self",
+      "definition": "Modern identity overwhelmed by multiple roles and relationships",
+      "level3_question_ids": [
+        802,
+        803
+      ],
+      "confusable_ids": [
+        "ch04_t02",
+        "ch04_t03",
+        "ch04_t23",
+        "ch04_t21",
+        "ch04_t10"
+      ]
+    },
+    {
+      "id": "ch04_t28",
+      "term": "Civil Inattention",
+      "definition": "Acknowledging others' presence while maintaining their privacy",
+      "level3_question_ids": [
+        803,
+        804
+      ],
+      "confusable_ids": [
+        "ch04_t09",
+        "ch04_t03"
+      ]
+    }
+  ],
+  "chapter_questions": [
+    {
+      "id": 229,
+      "question": "Which of the following best describes the concept of \"master status\"?",
+      "choices": [
+        "The social position that dominates how others perceive and respond to an individual across different social contexts.",
+        "Any social position that a person considers important.",
+        "The most recently acquired social position.",
+        "The most visible aspect of a person's identity."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t21"
+    },
+    {
+      "id": 230,
+      "question": "How does a master status differ from other statuses?",
+      "choices": [
+        "It tends to override other statuses in shaping social interactions and opportunities.",
+        "It is always chosen by the individual.",
+        "It only affects professional relationships.",
+        "It changes more frequently than other statuses."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t21"
+    },
+    {
+      "id": 231,
+      "question": "Which example best shows how master status can vary by cultural context?",
+      "choices": [
+        "Being elderly is a master status commanding great respect in East Asian societies but may be less influential in Western societies.",
+        "Being wealthy is equally important in all societies.",
+        "Being educated has the same impact everywhere.",
+        "Being employed matters only in industrial societies."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t21"
+    },
+    {
+      "id": 232,
+      "question": "According to Cooley's looking-glass self theory, self-image develops through:",
+      "choices": [
+        "A three-step process: imagining how we appear to others, imagining their judgment, and developing self-feelings based on these imagined judgments.",
+        "Direct feedback from others about our behavior.",
+        "Personal reflection on our achievements.",
+        "Comparison with idealized social standards."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t03"
+    },
+    {
+      "id": 233,
+      "question": "A student gives a presentation and: 1. Pictures how the class sees them (nervous); 2. Imagines classmates think they're unprepared; and 3. Feels embarrassed as a result.  This complete scenario best illustrates:",
+      "choices": [
+        "All three components of Cooley's looking-glass self theory in action.",
+        "Only the first step of the looking-glass self process.",
+        "Role strain in academic performance.",
+        "Status inconsistency in the classroom."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t03"
+    },
+    {
+      "id": 234,
+      "question": "In the looking-glass self theory, why might two people react differently to the same social feedback?",
+      "choices": [
+        "Because the theory emphasizes our imagination of others' judgments, not their actual judgments.",
+        "Because people have different personalities.",
+        "Because feedback is always interpreted literally.",
+        "Because social status determines reactions to feedback."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t03"
+    },
+    {
+      "id": 235,
+      "question": "Which scenario best illustrates role strain?",
+      "choices": [
+        "A teacher struggles between wanting to help struggling students and maintaining strict grading standards within their teaching role.",
+        "A person balances being both a parent and a full-time student.",
+        "An employee disagrees with company policy.",
+        "A teenager rebels against parental authority."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t24"
+    },
+    {
+      "id": 236,
+      "question": "Which situation most clearly shows role conflict rather than role strain?",
+      "choices": [
+        "A police officer must arrest a close friend, creating tension between their roles as friend and law enforcer.",
+        "A doctor feels stressed about having too many patients to see in one day.",
+        "A retail worker deals with an angry customer while following store policy.",
+        "A student worries about maintaining high grades."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t23"
+    },
+    {
+      "id": 237,
+      "question": "Which example best illustrates impression management in the digital age?",
+      "choices": [
+        "A job seeker maintaining different social media profiles - professional on LinkedIn, casual on Instagram - to appeal to different audiences.",
+        "A person spontaneously sharing their thoughts online without considering the audience.",
+        "Someone using social media solely to stay in touch with family.",
+        "An individual who refuses to use social media to protect their privacy."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t09"
+    },
+    {
+      "id": 238,
+      "question": "In Goffman's dramaturgical theory, which scenario best illustrates the difference between \"front stage\" and \"backstage\" behavior?",
+      "choices": [
+        "A retail worker who maintains a cheerful demeanor with customers but complains about difficult interactions in the break room.",
+        "A student who acts the same way at school and at home.",
+        "A politician who believes in everything they say publicly.",
+        "An actor who stays in character even when not performing."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t10"
+    },
+    {
+      "id": 239,
+      "question": "How does impression management differ from role-taking?",
+      "choices": [
+        "Impression management involves consciously controlling others' perceptions, while role-taking involves understanding others' perspectives.",
+        "Impression management is unconscious, while role-taking is deliberate.",
+        "Impression management only occurs in formal settings, while role-taking happens everywhere.",
+        "Impression management is innate, while role-taking must be learned."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t09"
+    },
+    {
+      "id": 240,
+      "question": "A professor adjusts their teaching style based on student feedback, using more examples with first-year students and more theory with seniors. This best illustrates:",
+      "choices": [
+        "Strategic impression management adapted to different audiences.",
+        "Role conflict between teaching different levels.",
+        "Status inconsistency in the classroom.",
+        "The looking-glass self in action."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t09"
+    },
+    {
+      "id": 241,
+      "question": "The concept of the \"generalized other\" differs from impression management in that:",
+      "choices": [
+        "It involves internalizing society's general expectations rather than managing specific impressions.",
+        "It only applies to childhood development.",
+        "It focuses on individual rather than group expectations.",
+        "It requires conscious effort to maintain."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t09"
+    },
+    {
+      "id": 242,
+      "question": "Which scenario best demonstrates all three components of the looking-glass self?",
+      "choices": [
+        "A new employee imagines appearing competent to colleagues (self-image), believes they think she's struggling (imagined judgment), and feels anxious about work (self-feeling).",
+        "A student worries about their grades without considering others' views.",
+        "An athlete celebrates a victory without regard for audience reaction.",
+        "A writer receives criticism but maintains confidence in their work."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t03"
+    },
+    {
+      "id": 243,
+      "question": "How does the looking-glass self theory explain why the same social feedback might affect people differently?",
+      "choices": [
+        "Because our self-feelings depend on how we interpret others' judgments, not their actual judgments.",
+        "Because people have different personality types.",
+        "Because social status determines reactions to feedback.",
+        "Because some people are naturally more confident than others."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t03"
+    },
+    {
+      "id": 244,
+      "question": "Which best illustrates the difference between the looking-glass self and impression management?",
+      "choices": [
+        "Looking-glass self shapes how we see ourselves based on imagined judgments, while impression management involves actively controlling others' perceptions.",
+        "Looking-glass self applies only to close relationships, while impression management works with strangers.",
+        "Looking-glass self is conscious, while impression management is unconscious.",
+        "Looking-glass self operates only in childhood, while impression management continues throughout life."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t09"
+    },
+    {
+      "id": 245,
+      "question": "Given that schools communicate expected behavior and societal norms, they are:",
+      "choices": [
+        "Agents of socialization that formally and informally shape student behavior and values.",
+        "Total institutions that control all aspects of student life.",
+        "Purely academic institutions focused only on knowledge transfer.",
+        "Independent entities separate from broader social influences."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t13"
+    },
+    {
+      "id": 246,
+      "question": "How do families differ from other agents of socialization?",
+      "choices": [
+        "They are typically the primary agent of socialization, providing early exposure to values, language, and basic norms.",
+        "They focus solely on teaching practical life skills.",
+        "They have no influence on cultural values.",
+        "They only affect children during their teenage years."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t13"
+    },
+    {
+      "id": 247,
+      "question": "Which best describes how different agents of socialization work together?",
+      "choices": [
+        "Media reinforces or challenges family values, while peer groups and schools provide additional socialization contexts.",
+        "Each agent operates independently without influencing others.",
+        "Only formal institutions like schools matter in socialization.",
+        "Social media has completely replaced traditional agents of socialization."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t13"
+    },
+    {
+      "id": 248,
+      "question": "How do workplaces function as agents of socialization?",
+      "choices": [
+        "They teach both formal job skills and unwritten rules about professional behavior and organizational culture.",
+        "They only provide technical training for specific tasks.",
+        "They have no impact on personal values or behavior.",
+        "They influence workers solely through formal policies."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t13"
+    },
+    {
+      "id": 249,
+      "question": "What distinguishes a total institution from other social institutions?",
+      "choices": [
+        "It controls almost all aspects of participants' daily lives and severely limits contact with the outside world.",
+        "It provides specialized services to the public.",
+        "It operates only during business hours.",
+        "It allows members to freely come and go."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 250,
+      "question": "Which characteristics make prisons typical total institutions?",
+      "choices": [
+        "Rigid schedules, physical barriers, formal hierarchies, and limited outside contact.",
+        "Voluntary membership and flexible routines.",
+        "Focus on specific skills development.",
+        "Temporary impact on participants."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t15"
+    },
+    {
+      "id": 251,
+      "question": "How do military boot camps exemplify total institutions?",
+      "choices": [
+        "They deliberately break down civilian identity and rebuild a military identity through controlled routines and isolation.",
+        "They provide optional training programs.",
+        "They maintain regular contact with civilian life.",
+        "They focus only on physical fitness."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t15"
+    },
+    {
+      "id": 252,
+      "question": "Which scenario best contrasts a total institution with a regular organization?",
+      "choices": [
+        "A monastery where members live, work, and worship together under strict rules vs. a church where members attend services but maintain separate lives.",
+        "Two different churches with different worship styles.",
+        "A small business vs. a large corporation.",
+        "A public school vs. a private school."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 253,
+      "question": "How can long-term care facilities become total institutions?",
+      "choices": [
+        "Through controlled schedules, limited outside contact, and comprehensive management of residents' daily activities.",
+        "By providing medical care to patients.",
+        "Through short-term rehabilitation programs.",
+        "By offering recreational activities."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t15"
+    },
+    {
+      "id": 254,
+      "question": "Which best explains why mental hospitals are considered total institutions?",
+      "choices": [
+        "They control patients' daily routines, medication, social contacts, and activities while maintaining physical and social barriers with the outside world.",
+        "They provide only outpatient services.",
+        "They focus solely on medical treatment.",
+        "They allow patients to maintain normal work and social lives."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t15"
+    },
+    {
+      "id": 255,
+      "question": "According to Charles Cooley's looking-glass self theory, which of the following is a key step in how we develop our self-concept?",
+      "choices": [
+        "Imagining how others perceive and judge us, then developing feelings about ourselves based on those imagined judgments",
+        "Developing personal goals and aspirations independently of others",
+        "Comparing our achievements to societal standards",
+        "Recording daily experiences in a reflective journal"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t03"
+    },
+    {
+      "id": 256,
+      "question": "In the context of Cooley's looking-glass self theory, which example best demonstrates the theory in action?",
+      "choices": [
+        "A teenager changing their style of dress after imagining their peers might find their current clothes outdated",
+        "A student studying harder after receiving a low grade on an exam",
+        "An athlete training more intensively to improve their performance",
+        "A professional seeking direct feedback from their supervisor"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t03"
+    },
+    {
+      "id": 257,
+      "question": "According to Cooley's looking-glass self theory, how do individuals primarily develop their self-concept?",
+      "choices": [
+        "Through interpreting and internalizing their perceptions of how others view them",
+        "By constantly switching between different social personas",
+        "Through measuring their achievements against objective criteria",
+        "By following their internal moral compass"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t03"
+    },
+    {
+      "id": 258,
+      "question": "Which scenario best illustrates the looking-glass self in contemporary society?",
+      "choices": [
+        "A social media user editing their profile photo while considering how their followers might perceive it",
+        "A researcher publishing findings based on empirical data",
+        "A musician practicing scales to improve technical skills",
+        "A chef following a recipe to ensure consistent results"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t03"
+    },
+    {
+      "id": 259,
+      "question": "What fundamental principle of Cooley's looking-glass self theory is most accurate?",
+      "choices": [
+        "Our self-image develops and evolves through our interpretations of social interactions and others' perceived judgments",
+        "Our personality is primarily shaped by genetic factors",
+        "Our self-concept is completely formed by age five",
+        "Our identity develops independently of social interaction"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t03"
+    },
+    {
+      "id": 260,
+      "question": "In sociology, which term describes a recognized social position that carries specific rights and expectations within society?",
+      "choices": [
+        "Status",
+        "Norm",
+        "Belief",
+        "Value"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t17"
+    },
+    {
+      "id": 261,
+      "question": "What sociological concept describes the behavioral expectations, rights, and responsibilities attached to a particular status?",
+      "choices": [
+        "Role",
+        "Mores",
+        "Folkways",
+        "Sanctions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t17"
+    },
+    {
+      "id": 262,
+      "question": "Which sociological term refers to a person's recognized position within society's hierarchical structure?",
+      "choices": [
+        "Status",
+        "Perspective",
+        "Function",
+        "Symbol"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t17"
+    },
+    {
+      "id": 263,
+      "question": "What term do sociologists use to describe a formally recognized position within society's institutional framework?",
+      "choices": [
+        "Status",
+        "Scale",
+        "Class",
+        "Pathos"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t17"
+    },
+    {
+      "id": 264,
+      "question": "Which concept describes the set of behaviors society expects from someone occupying a particular status?",
+      "choices": [
+        "Role",
+        "Taboo",
+        "Ethnocentric view",
+        "Subculture"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t17"
+    },
+    {
+      "id": 265,
+      "question": "According to the looking-glass self theory, how does self-esteem develop?",
+      "choices": [
+        "Self-esteem develops through our interpretation of others' reactions and perceived judgments of us",
+        "Self-esteem is determined primarily by innate personality traits",
+        "Self-esteem remains constant throughout life regardless of social interaction",
+        "Self-esteem forms independently of social feedback or influence"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t03"
+    },
+    {
+      "id": 266,
+      "question": "What is the primary importance of socialization in human development and society?",
+      "choices": [
+        "It teaches individuals cultural norms, values, and expected behaviors that enable social functioning",
+        "It eliminates individual differences to create uniform social behavior",
+        "It focuses solely on personal achievement and success",
+        "It replaces the need for formal social institutions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t01"
+    },
+    {
+      "id": 267,
+      "question": "How does a master status influence an individual's life experiences?",
+      "choices": [
+        "It becomes a primary lens through which others view and interact with the person, affecting various opportunities",
+        "It only affects formal situations like job interviews or legal proceedings",
+        "It automatically provides advantages in all social situations",
+        "It has minimal impact compared to individual choices"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t21"
+    },
+    {
+      "id": 268,
+      "question": "What role do social statuses and roles play in maintaining societal stability?",
+      "choices": [
+        "They create predictable patterns of behavior and clear expectations that help organize social interaction",
+        "They prevent any form of social change or progress",
+        "They force everyone to behave exactly the same way",
+        "They guarantee equal treatment for all society members"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t22"
+    },
+    {
+      "id": 269,
+      "question": "What sociological concept describes the set of expected behaviors, rights, and obligations associated with a particular social position?",
+      "choices": [
+        "Social role",
+        "Personal identity",
+        "Social class",
+        "Cultural norm"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t22"
+    },
+    {
+      "id": 270,
+      "question": "In sociology, which term best describes the collective expectations that guide how a person should act in a specific social position?",
+      "choices": [
+        "Social role",
+        "Personality trait",
+        "Cultural value",
+        "Social status"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t22"
+    },
+    {
+      "id": 271,
+      "question": "How do sociologists describe the standardized set of behaviors expected from someone occupying a particular position in society?",
+      "choices": [
+        "Social role",
+        "Personal character",
+        "Social attitude",
+        "Cultural identity"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t22"
+    },
+    {
+      "id": 272,
+      "question": "Which concept refers to the rights, duties, and expected behaviors that come with a recognized position in society?",
+      "choices": [
+        "Social role",
+        "Social prestige",
+        "Personal reputation",
+        "Cultural background"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t22"
+    },
+    {
+      "id": 273,
+      "question": "What term do sociologists use to describe the collection of expected behaviors and responsibilities associated with a specific status in society?",
+      "choices": [
+        "Social role",
+        "Personal mission",
+        "Social image",
+        "Cultural mandate"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t22"
+    },
+    {
+      "id": 274,
+      "question": "From a conflict theory perspective, what is the primary function of socialization?",
+      "choices": [
+        "It perpetuates social inequality by transmitting and legitimizing the values of dominant groups",
+        "It creates social cohesion by teaching universal cooperation skills",
+        "It serves as a neutral mechanism for transmitting basic survival skills",
+        "It empowers individuals to freely choose their social roles"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t01"
+    },
+    {
+      "id": 275,
+      "question": "In a society that strongly emphasizes achieved status, which pattern would be most prominent?",
+      "choices": [
+        "Frequent social mobility and intense competition for high-status positions",
+        "Fixed social hierarchies based on birth and family background",
+        "Strong traditions of inherited privilege and dynastic succession",
+        "Minimal status distinctions between social positions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t20"
+    },
+    {
+      "id": 276,
+      "question": "What key insight does Goffman's dramaturgy theory provide about social interaction?",
+      "choices": [
+        "People consciously manage their self-presentation in different social settings, similar to actors performing different roles",
+        "Authentic self-expression is more important than social expectations",
+        "Internal psychological factors determine most social behavior",
+        "Social context has minimal impact on personal presentation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t08"
+    },
+    {
+      "id": 277,
+      "question": "What example best distinguishes between role conflict and role strain?",
+      "choices": [
+        "A teacher experiencing stress from grading, lesson planning, and classroom management (role strain) versus a person balancing roles as both teacher and parent (role conflict)",
+        "Both terms describe any stress from social expectations",
+        "Role conflict occurs within one role; role strain happens between roles",
+        "Role conflict is personal while role strain is social"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t23"
+    },
+    {
+      "id": 278,
+      "question": "How do social media platforms affect the looking-glass self process?",
+      "choices": [
+        "They create new venues for carefully crafted self-presentation and heightened awareness of others' reactions",
+        "They make in-person interactions less relevant to identity formation",
+        "They eliminate self-reflection through anonymous interactions",
+        "They have no significant impact on self-concept development"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t03"
+    },
+    {
+      "id": 279,
+      "question": "What insights do total institutions reveal about social control?",
+      "choices": [
+        "They demonstrate how comprehensive control of physical and social environments can fundamentally reshape individual identity and behavior",
+        "They show how strict rules create ideal social harmony",
+        "They represent unusual cases with little broader relevance",
+        "They prove that individual will always overcomes social pressure"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t15"
+    },
+    {
+      "id": 792,
+      "question": "A teenager carefully curates their Instagram posts to show only their best achievements and happiest moments. According to Cooley's theory, which scenario best illustrates the looking-glass self?",
+      "choices": [
+        "The teenager is focused on maintaining their authentic identity",
+        "The teenager is developing their ego over their superego",
+        "The teenager is imagining how others perceive them and adjusting their self-presentation based on those imagined judgments",
+        "The teenager is taking the role of the generalized other"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch04_t03"
+    },
+    {
+      "id": 793,
+      "question": "During recess, 7-year-old Maria pretends to be a doctor and \"treats\" her classmate who is pretending to be sick. According to Mead's theory of the self, Maria is demonstrating which stage of development?",
+      "choices": [
+        "The preparatory stage",
+        "The play stage, taking the role of a particular other",
+        "The game stage, considering the generalized other",
+        "The role-taking stage"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch04_t04"
+    },
+    {
+      "id": 794,
+      "question": "A college student believes their professor is angry with them after receiving a lower grade, even though the professor was simply following a strict grading rubric and has no personal feelings about the student. This situation best demonstrates the Thomas theorem because:",
+      "choices": [
+        "The student is experiencing role strain in their academic role",
+        "The professor is engaging in impression management",
+        "The student's interpretation of the situation as real creates real consequences for their behavior and emotions",
+        "The student is practicing anticipatory socialization"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch04_t06"
+    },
+    {
+      "id": 795,
+      "question": "Sarah works as a nurse during the day and attends graduate school at night. She struggles because her nursing supervisor expects her to work overtime while her professors expect her to attend evening study sessions. Sarah is experiencing:",
+      "choices": [
+        "Role strain within her student role",
+        "Role exit from nursing",
+        "Role conflict between her work and student roles",
+        "Status inconsistency"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch04_t23"
+    },
+    {
+      "id": 796,
+      "question": "Which scenario best illustrates how dramaturgy differs from other theories of self-development?",
+      "choices": [
+        "A child learns language by imitating their parents' speech patterns",
+        "A job applicant researches the company culture and dresses differently for interviews at a tech startup versus a law firm",
+        "An adolescent feels embarrassed when they imagine their friends judging their appearance",
+        "A student internalizes their teacher's expectations about academic performance"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch04_t08"
+    },
+    {
+      "id": 797,
+      "question": "At work, David maintains a professional demeanor and speaks formally with clients. At home with his friends, he uses slang and jokes around freely. Goffman would describe David's work environment as _______ and his home as _______.",
+      "choices": [
+        "front region; back region",
+        "frontstage; backstage",
+        "personal front; social front",
+        "role set; role conflict"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch04_t10"
+    },
+    {
+      "id": 798,
+      "question": "When a student fails an important exam, their friends avoid mentioning it and change the subject when the student brings it up. According to Goffman, the friends are engaging in:",
+      "choices": [
+        "Impression management",
+        "Definition of the situation",
+        "Expression of behavior",
+        "Cooling the mark out"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch04_t12"
+    },
+    {
+      "id": 799,
+      "question": "A family immigrates to the United States and their children gradually adopt American customs while the parents maintain their traditional practices. The children are learning from which agents of socialization?",
+      "choices": [
+        "Only the family",
+        "Multiple agents including schools, peers, and media in addition to family",
+        "Primarily the media",
+        "Only their peer groups"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch04_t13"
+    },
+    {
+      "id": 800,
+      "question": "Students learn not only math and science in school but also to be punctual, follow rules, and compete for grades. These unstated lessons represent the:",
+      "choices": [
+        "Manifest function of education",
+        "Formal curriculum",
+        "Hidden curriculum",
+        "Secondary socialization"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch04_t14"
+    },
+    {
+      "id": 801,
+      "question": "A military recruit goes through basic training where their civilian clothes are taken away, their head is shaved, and they must follow strict schedules and protocols. This process of replacing their previous identity illustrates:",
+      "choices": [
+        "Secondary socialization",
+        "Anticipatory socialization",
+        "Adult socialization",
+        "Resocialization in a total institution"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch04_t16"
+    },
+    {
+      "id": 802,
+      "question": "Maria feels torn between her role as a successful businesswoman, which requires her to be assertive and competitive, and her role as a caring mother, which emphasizes nurturing and patience. Her struggle best illustrates:",
+      "choices": [
+        "Role conflict between incompatible social roles",
+        "Embodied status characteristics",
+        "Role strain within a single role",
+        "The saturated self in postmodern society"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t23"
+    },
+    {
+      "id": 803,
+      "question": "In online dating, people often present idealized versions of themselves, carefully selecting photos and crafting profiles that may not fully reflect their everyday reality. This behavior best demonstrates:",
+      "choices": [
+        "The Thomas theorem in digital spaces",
+        "Civil inattention in virtual environments",
+        "Social construction of identity through digital impression management",
+        "The development of a saturated self"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch04_t09"
+    },
+    {
+      "id": 804,
+      "question": "During a crowded elevator ride, passengers typically avoid eye contact and remain quiet, acknowledging others' presence while maintaining their privacy. This behavior exemplifies:",
+      "choices": [
+        "Backstage behavior in Goffman's dramaturgy",
+        "Emotional labor in service interactions",
+        "Civil inattention as a form of social courtesy",
+        "The looking-glass self in anonymous settings"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch04_t28"
+    },
+    {
+      "id": 805,
+      "question": "A customer service representative must remain cheerful and helpful even when dealing with rude customers, suppressing their frustration to meet job expectations. This requirement illustrates:",
+      "choices": [
+        "Role conflict between personal and professional identities",
+        "Emotional work as a job requirement",
+        "The hidden curriculum of workplace socialization",
+        "Anticipatory socialization for management roles"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch04_t25"
+    },
+    {
+      "id": 806,
+      "question": "A teenager claims they have complete freedom to make their own choices, but a sociologist notes that their preferences for music, clothing, and activities closely match their peer group's trends. This illustrates the tension between:",
+      "choices": [
+        "Ascribed and achieved status",
+        "Primary and secondary socialization",
+        "Individual agency and social influence",
+        "Frontstage and backstage behavior"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch04_t26"
+    },
+    {
+      "id": 807,
+      "question": "When a celebrity is caught in a scandal, their publicist helps them craft an apology and plan a comeback strategy to restore their public image. The publicist is primarily helping with:",
+      "choices": [
+        "Resocialization in a total institution",
+        "Managing role conflict",
+        "Cooling the mark out after status loss",
+        "Developing emotional labor skills"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch04_t12"
+    },
+    {
+      "id": 808,
+      "question": "A college student from a working-class family who hopes to enter the professional class after graduation begins adopting the speech patterns, clothing styles, and social activities of their wealthy classmates in preparation for their future career. This represents:",
+      "choices": [
+        "Role strain within their student identity",
+        "Resocialization into a new social group",
+        "Anticipatory socialization for a different class position",
+        "Agency in choosing their social identity"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch04_t19"
+    },
+    {
+      "id": 809,
+      "question": "Which scenario best illustrates the difference between ascribed status and master status?",
+      "choices": [
+        "A person is born wealthy but loses their fortune in business",
+        "Someone born into a racial minority finds that this characteristic overshadows all their achievements in how others perceive them",
+        "A student excels academically and becomes class valedictorian",
+        "A person moves from being single to married"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch04_t18"
+    },
+    {
+      "id": 810,
+      "question": "A person who was raised in a strict religious household begins questioning their beliefs after taking college philosophy courses and interacting with diverse classmates. This change primarily illustrates the influence of:",
+      "choices": [
+        "Primary socialization from family",
+        "The hidden curriculum in education",
+        "Resocialization in a total institution",
+        "Secondary socialization through new agents and experiences"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch04_t14"
+    },
+    {
+      "id": 811,
+      "question": "A social media influencer carefully stages their home, appearance, and activities for Instagram posts, but behaves much more casually when the camera is off. The contrast between these behaviors best demonstrates:",
+      "choices": [
+        "The looking-glass self in digital environments",
+        "Role conflict between online and offline identities",
+        "The social construction of digital personas",
+        "The distinction between frontstage and backstage regions"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch04_t10"
+    },
+    {
+      "id": 812,
+      "question": "An immigrant family's children interpret American customs for their parents and help them navigate interactions with schools, banks, and government offices. The children are serving as:",
+      "choices": [
+        "Primary agents of socialization for their parents",
+        "Cultural bridges facilitating their parents' resocialization",
+        "Examples of anticipatory socialization",
+        "Agents of the hidden curriculum"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch04_t13"
+    },
+    {
+      "id": 981,
+      "question": "A restaurant server maintains a cheerful demeanor and smile while taking orders from difficult customers, but vents frustration to coworkers in the kitchen between tables. This scenario best illustrates the distinction between frontstage and backstage behavior because:",
+      "choices": [
+        "The dining room represents the frontstage where the server performs their professional role, while the kitchen serves as the backstage where authentic emotions can be expressed",
+        "The server is demonstrating poor customer service by complaining about customers",
+        "The frontstage behavior shows the server's true personality while backstage behavior is artificial",
+        "Both locations represent frontstage behavior since the server is still at work"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t10"
+    },
+    {
+      "id": 982,
+      "question": "A politician gives a passionate speech about family values at a public rally, then immediately afterward discusses campaign strategy and polls with advisors in a private room. How does this example demonstrate the concept of frontstage and backstage behavior?",
+      "choices": [
+        "The public rally represents frontstage performance where the politician presents an idealized image, while the private strategy session represents backstage preparation and authentic discussion",
+        "Both the rally and private meeting are frontstage performances since politics always involves acting",
+        "The politician is being hypocritical by having different conversations in different settings",
+        "The backstage behavior contradicts the frontstage behavior, showing the politician's true beliefs"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t10"
+    },
+    {
+      "id": 983,
+      "question": "Flight attendants are required to remain calm and helpful even when passengers are rude or when they personally feel stressed about turbulence. This requirement represents emotional work because:",
+      "choices": [
+        "The attendants must suppress their authentic feelings and display emotions that serve the airline's business interests rather than their own emotional state",
+        "The job involves physical tasks like serving food and demonstrating safety procedures",
+        "Flight attendants naturally enjoy helping passengers and don't experience negative emotions",
+        "The airline industry is particularly stressful compared to other service jobs"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t25"
+    },
+    {
+      "id": 984,
+      "question": "A nurse who feels overwhelmed and frustrated during a busy shift still speaks gently to patients and maintains a caring bedside manner. This situation illustrates emotional work because:",
+      "choices": [
+        "The nurse is managing and modifying their emotional expression to meet professional expectations and patient care standards",
+        "The nurse is being dishonest with patients about their true feelings",
+        "Healthcare work naturally involves emotional responses to patient suffering",
+        "The nurse's training automatically eliminates negative emotions during patient interactions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch04_t25"
+    }
+  ]
+}

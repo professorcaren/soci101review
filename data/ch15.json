@@ -1,0 +1,1106 @@
+{
+  "id": "ch15",
+  "name": "Health",
+  "order": 15,
+  "concepts": [
+    {
+      "id": "ch15_t01",
+      "term": "Population Health",
+      "definition": "The health outcomes and distribution within a group of individuals.",
+      "level3_question_ids": [
+        394,
+        396,
+        398,
+        401,
+        402,
+        1013
+      ],
+      "confusable_ids": [
+        "ch15_t06",
+        "ch15_t10",
+        "ch15_t04",
+        "ch15_t09",
+        "ch15_t11"
+      ]
+    },
+    {
+      "id": "ch15_t02",
+      "term": "Medicalization",
+      "definition": "Defining non-medical problems as medical issues requiring treatment.",
+      "level3_question_ids": [
+        869,
+        873,
+        875,
+        891,
+        892,
+        893,
+        901,
+        903,
+        904,
+        906,
+        909,
+        913,
+        917,
+        920,
+        921,
+        923,
+        925,
+        889,
+        899,
+        900,
+        902,
+        919,
+        907
+      ],
+      "confusable_ids": [
+        "ch15_t03"
+      ]
+    },
+    {
+      "id": "ch15_t03",
+      "term": "Demedicalization",
+      "definition": "Removing conditions or behaviors from the scope of medical definition and treatment.",
+      "level3_question_ids": [
+        869,
+        873,
+        890,
+        893,
+        901,
+        903,
+        905,
+        906,
+        918,
+        921,
+        923,
+        925
+      ],
+      "confusable_ids": [
+        "ch15_t02",
+        "ch15_t06"
+      ]
+    },
+    {
+      "id": "ch15_t04",
+      "term": "Epidemiology",
+      "definition": "The study of disease distribution and determinants in populations.",
+      "level3_question_ids": [
+        870,
+        894,
+        895,
+        896,
+        898,
+        919,
+        921,
+        924,
+        897
+      ],
+      "confusable_ids": [
+        "ch15_t01"
+      ]
+    },
+    {
+      "id": "ch15_t05",
+      "term": "Food Desert",
+      "definition": "An area with limited access to affordable, healthy food.",
+      "level3_question_ids": [
+        871,
+        884,
+        885,
+        910,
+        913,
+        919,
+        921,
+        923,
+        925,
+        875
+      ],
+      "confusable_ids": [
+        "ch15_t07"
+      ]
+    },
+    {
+      "id": "ch15_t06",
+      "term": "Social Determinants of Health (SDOH)",
+      "definition": "The environmental conditions (social, economic, physical) affecting health outcomes.",
+      "level3_question_ids": [
+        395,
+        399,
+        401,
+        402,
+        404,
+        405,
+        869,
+        870,
+        871,
+        872,
+        873,
+        909,
+        913,
+        915,
+        921,
+        922,
+        923,
+        924,
+        925,
+        1012,
+        1013,
+        878,
+        914
+      ],
+      "confusable_ids": [
+        "ch15_t01",
+        "ch15_t03",
+        "ch15_t10",
+        "ch15_t11",
+        "ch15_t07"
+      ]
+    },
+    {
+      "id": "ch15_t07",
+      "term": "Deprivation Amplification",
+      "definition": "Exacerbated poor health in deprived areas due to combined individual and area factors.",
+      "level3_question_ids": [
+        870,
+        911,
+        913,
+        922,
+        924,
+        887
+      ],
+      "confusable_ids": [
+        "ch15_t01",
+        "ch15_t05",
+        "ch15_t10",
+        "ch15_t06",
+        "ch15_t11"
+      ]
+    },
+    {
+      "id": "ch15_t08",
+      "term": "Cultural Competence",
+      "definition": "Providing healthcare responsive to diverse patient values, beliefs, and needs.",
+      "level3_question_ids": [
+        869,
+        873,
+        875,
+        877,
+        887,
+        889,
+        912,
+        922,
+        924
+      ],
+      "confusable_ids": []
+    },
+    {
+      "id": "ch15_t09",
+      "term": "Sick Role",
+      "definition": "Societal expectations and exemptions for individuals deemed ill.",
+      "level3_question_ids": [
+        869,
+        873,
+        882,
+        922,
+        925,
+        876
+      ],
+      "confusable_ids": [
+        "ch15_t01",
+        "ch15_t10"
+      ]
+    },
+    {
+      "id": "ch15_t10",
+      "term": "Absolute Income Hypothesis",
+      "definition": "Theory that health is determined solely by an individual's own income.",
+      "level3_question_ids": [
+        396,
+        397,
+        399,
+        403,
+        404,
+        405,
+        877,
+        887
+      ],
+      "confusable_ids": [
+        "ch15_t11",
+        "ch15_t01",
+        "ch15_t09",
+        "ch15_t06",
+        "ch15_t07"
+      ]
+    },
+    {
+      "id": "ch15_t11",
+      "term": "Relative Income Hypothesis",
+      "definition": "Theory that health depends on income relative to others in society (inequality).",
+      "level3_question_ids": [
+        396,
+        397,
+        402,
+        403
+      ],
+      "confusable_ids": [
+        "ch15_t10",
+        "ch15_t01",
+        "ch15_t06",
+        "ch15_t07"
+      ]
+    }
+  ],
+  "chapter_questions": [
+    {
+      "id": 394,
+      "question": "A hospital administrator notices that residents in the affluent Westside neighborhood have significantly lower rates of diabetes and heart disease compared to residents in the lower-income Eastside neighborhood, despite both areas being served by the same medical facilities. This difference in population health outcomes most likely reflects which concept?",
+      "choices": [
+        "Individual lifestyle choices unrelated to social factors",
+        "Genetic differences between neighborhood populations",
+        "Population health variations due to different social and economic conditions",
+        "Random statistical variation in disease occurrence"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch15_t01"
+    },
+    {
+      "id": 395,
+      "question": "Maria lives in a neighborhood with limited public transportation, no grocery stores within walking distance, high air pollution from nearby factories, and poorly funded schools. According to health research, these conditions represent which concept?",
+      "choices": [
+        "Individual health behaviors that Maria can easily control",
+        "Social determinants of health affecting her community's health outcomes",
+        "Genetic predispositions to certain diseases",
+        "Acute medical conditions requiring immediate treatment"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 396,
+      "question": "Dr. Johnson argues that wealthy individuals have better health outcomes simply because they can afford better medical care, healthier food, and safer living conditions. Their income level directly determines their health status. This perspective best exemplifies which hypothesis?",
+      "choices": [
+        "Relative Income Hypothesis",
+        "Absolute Income Hypothesis",
+        "Social Determinants Theory",
+        "Population Health Model"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch15_t10"
+    },
+    {
+      "id": 397,
+      "question": "A researcher studying a wealthy suburb finds that residents with household incomes in the bottom 10% of their community have higher rates of depression and anxiety than residents with similar incomes living in a working-class town. This finding would best support which theory?",
+      "choices": [
+        "Relative Income Hypothesis",
+        "Absolute Income Hypothesis",
+        "Acute disease patterns",
+        "Individual genetic factors"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t10"
+    },
+    {
+      "id": 398,
+      "question": "A public health researcher comparing two cities finds that City A has better overall health outcomes than City B, even though both cities have similar medical facilities. The researcher should examine which factor to understand this population health difference?",
+      "choices": [
+        "The genetic makeup of each city's residents",
+        "Individual personality traits of residents",
+        "The distribution of social, economic, and environmental conditions across both cities",
+        "The number of hospitals per capita in each city"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch15_t01"
+    },
+    {
+      "id": 399,
+      "question": "A factory closes in a small town, causing unemployment rates to rise from 5% to 25%. Six months later, public health officials notice increases in heart disease, depression, and substance abuse in the community. This scenario best demonstrates which concept?",
+      "choices": [
+        "Individual medical conditions unrelated to social factors",
+        "How social determinants of health can rapidly impact community health outcomes",
+        "The absolute income hypothesis operating at the individual level",
+        "Genetic predispositions becoming more apparent under stress"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 400,
+      "question": "Two families each earn $50,000 annually. Family A lives in an area where the median income is $40,000, while Family B lives where the median income is $80,000. According to health research, which family is likely to experience better health outcomes?",
+      "choices": [
+        "Family A, because their relative income position is higher in their community",
+        "Family B, because their absolute income provides better health resources",
+        "Both families will have identical health outcomes since their incomes are equal",
+        "Neither family's income is relevant to their health outcomes"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 401,
+      "question": "A health department wants to improve population health outcomes in their county. Based on research, which approach would be most effective?",
+      "choices": [
+        "Focus only on building more hospitals and clinics",
+        "Provide individual health education to one person at a time",
+        "Address multiple social determinants of health including housing, education, and economic opportunities",
+        "Concentrate solely on treating people after they become ill"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 402,
+      "question": "Researchers find that in a particular region, people earning $30,000 per year have similar health outcomes whether they live in low-income or high-income neighborhoods. This finding would most strongly challenge which hypothesis?",
+      "choices": [
+        "Population health theory",
+        "Social determinants of health",
+        "Relative Income Hypothesis",
+        "Medical care effectiveness"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 403,
+      "question": "A city implements a program providing guaranteed minimum income to all residents, ensuring everyone has enough money for basic needs like food and housing. According to health theories, this intervention most directly tests which hypothesis?",
+      "choices": [
+        "Absolute Income Hypothesis",
+        "Relative Income Hypothesis",
+        "Population genetics theory",
+        "Individual behavior change model"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t10"
+    },
+    {
+      "id": 404,
+      "question": "Public health officials notice that residents of two adjacent counties with similar income levels have very different health outcomes. County X has better schools, cleaner air, more parks, and safer neighborhoods. This scenario best illustrates which concept?",
+      "choices": [
+        "Individual genetic differences between populations",
+        "Random variation in disease patterns",
+        "How social determinants of health extend beyond just economic factors",
+        "The failure of the absolute income hypothesis"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 405,
+      "question": "A researcher argues that a community's health problems stem primarily from individuals making poor lifestyle choices, regardless of their social and economic circumstances. This perspective conflicts most directly with which concept?",
+      "choices": [
+        "Individual medical treatment approaches",
+        "Genetic theories of disease",
+        "Social determinants of health framework",
+        "Absolute income hypothesis only"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 869,
+      "question": "In a study examining the factors influencing life expectancy, researchers found that people living in low-income neighborhoods have significantly shorter life spans compared to those living in affluent neighborhoods. This finding supports which sociological concept?",
+      "choices": [
+        "social determinants of health",
+        "medicalization and demedicalization",
+        "sick role",
+        "cultural competence"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 870,
+      "question": "A researcher analyzes the impact of food availability on the overall health of communities. The findings reveal that areas with limited access to fresh and nutritious food have higher rates of obesity and related health issues. This research aligns with which sociological concept?",
+      "choices": [
+        "social determinants of health",
+        "epidemiology",
+        "deprivation amplification",
+        "symbolic interactionism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 871,
+      "question": "A sociologist investigates the impact of race and income on infant mortality rates. The findings show that infants from racial minority groups and low-income families are more likely to experience higher rates of mortality. This study contributes to the understanding of which sociological concept?",
+      "choices": [
+        "social determinants of health",
+        "food desert",
+        "absolute and relative income hypotheses",
+        "conflict theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 872,
+      "question": "A public health researcher explores the impact of education level on access to healthcare services. The findings reveal that individuals with lower education levels face barriers in obtaining adequate healthcare. This research is relevant to the sociological concept known as:",
+      "choices": [
+        "social determinants of health",
+        "structural functionalism",
+        "modernism",
+        "life expectancy at birth by race and gender"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 873,
+      "question": "A sociologist investigates how neighborhood characteristics influence mental health outcomes. The findings reveal that individuals living in neighborhoods with high crime rates and limited social support networks are more likely to experience mental health issues. This study sheds light on which sociological concept?",
+      "choices": [
+        "social determinants of health",
+        "cultural competence",
+        "sick role",
+        "medicalization and demedicalization"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 874,
+      "question": "Which of the following is NOT considered a social determinant of health?",
+      "choices": [
+        "Genetic factors",
+        "Access to healthcare",
+        "Socioeconomic status",
+        "Education level"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 875,
+      "question": "A community with limited access to nutritious food options is most likely experiencing:",
+      "choices": [
+        "Food desert",
+        "Medicalization",
+        "Deprivation amplification",
+        "Cultural competence"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t05"
+    },
+    {
+      "id": 876,
+      "question": "The concept of 'sick role' refers to:",
+      "choices": [
+        "The rights and obligations of individuals who are experiencing an illness",
+        "The social stigmatization of illness",
+        "The medicalization of society",
+        "The impact of socioeconomic status on health outcomes"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t09"
+    },
+    {
+      "id": 877,
+      "question": "The absolute income hypothesis suggests that:",
+      "choices": [
+        "The level of income, regardless of inequality, directly impacts health outcomes",
+        "Relative income inequality is the primary determinant of health outcomes",
+        "Access to healthcare is the main factor influencing health outcomes",
+        "The cultural competence of healthcare providers influences health outcomes"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t10"
+    },
+    {
+      "id": 878,
+      "question": "From a sociological perspective, life expectancy at birth varies by race and gender primarily due to:",
+      "choices": [
+        "Social and environmental factors such as poverty, discrimination, and neighborhood conditions",
+        "Innate biological differences between racial groups",
+        "Individual lifestyle choices alone",
+        "Random chance and statistical error"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 879,
+      "question": "In the __________ approach to addiction, people who become addicted may be responding to strains in the social system and their own lives by escaping through drugs and alcohol.",
+      "choices": [
+        "structural functionalist",
+        "conflict theory",
+        "symbolic interactionist",
+        "sick role"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 880,
+      "question": "According to the __________ perspective, addiction is a result of conflicts and power struggles within society, where different groups have competing interests.",
+      "choices": [
+        "conflict theory",
+        "structural functionalist",
+        "symbolic interactionist",
+        "sick role"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 881,
+      "question": "The __________ perspective focuses on the meanings attached to addiction and how individuals interact and interpret their experiences related to addiction.",
+      "choices": [
+        "symbolic interactionist",
+        "structural functionalist",
+        "conflict theory",
+        "sick role"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 882,
+      "question": "According to Talcott Parsons, when a person is recognized as ill, they are temporarily exempt from normal social responsibilities but are also expected to seek competent help and work toward recovery. This set of expectations is known as the:",
+      "choices": [
+        "sick role",
+        "medicalization process",
+        "illness behavior model",
+        "social determinants framework"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t09"
+    },
+    {
+      "id": 883,
+      "question": "In the context of addiction, the __________ approach examines how the social structure and its inequalities contribute to the prevalence and distribution of addiction within a population.",
+      "choices": [
+        "structural functionalist",
+        "conflict theory",
+        "symbolic interactionist",
+        "sick role"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 884,
+      "question": "A food desert is an area characterized by",
+      "choices": [
+        "limited access to healthy and affordable food",
+        "an excess of grocery stores",
+        "a high concentration of fast-food chains",
+        "a thriving agricultural industry"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t05"
+    },
+    {
+      "id": 885,
+      "question": "Which of the following is a consequence of living in a food desert?",
+      "choices": [
+        "Increased risk of chronic health conditions",
+        "Improved mental health",
+        "Higher life expectancy",
+        "Decreased risk of obesity"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t05"
+    },
+    {
+      "id": 886,
+      "question": "What is one potential solution to address food deserts?",
+      "choices": [
+        "Implementing community gardens",
+        "Building more fast-food chains",
+        "Increasing the number of liquor stores",
+        "Promoting unhealthy eating habits"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 887,
+      "question": "What term is used to describe the concept where marginalized communities face multiple forms of deprivation?",
+      "choices": [
+        "Deprivation amplification",
+        "Cultural competence",
+        "Absolute income hypothesis",
+        "Social determinants of health"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t07"
+    },
+    {
+      "id": 888,
+      "question": "Why is studying food deserts important for sociologists?",
+      "choices": [
+        "It highlights the unequal distribution of resources in society",
+        "It promotes healthy eating habits",
+        "It demonstrates the influence of genetics on health",
+        "It proves the effectiveness of social programs"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 889,
+      "question": "The process by which a condition or behavior becomes defined as a medical problem and a medical intervention is sought is known as:",
+      "choices": [
+        "medicalization",
+        "stigmatization",
+        "deprivation amplification",
+        "cultural competence"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t02"
+    },
+    {
+      "id": 890,
+      "question": "Which of the following is an example of demedicalization?",
+      "choices": [
+        "The shift from institutionalized psychiatric care to community-based mental health services.",
+        "The increase in the use of prescription medications for mental health conditions.",
+        "The development of new medical technologies for the treatment of cancer.",
+        "The integration of alternative and complementary medicine into mainstream healthcare."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t03"
+    },
+    {
+      "id": 891,
+      "question": "Which of the following best describes the concept of medicalization?",
+      "choices": [
+        "The process by which non-medical aspects of life come under medical control and management.",
+        "The process by which medical professionals gain more authority and power over healthcare decisions.",
+        "The process by which diseases and illnesses become more prevalent in society.",
+        "The process by which medical knowledge and technology are shared globally."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t02"
+    },
+    {
+      "id": 892,
+      "question": "Which of the following best represents an example of medicalization?",
+      "choices": [
+        "The growing trend of using pharmaceutical drugs to address normal variations in human behavior, such as shyness or sadness.",
+        "The development of new surgical procedures to treat life-threatening conditions.",
+        "The inclusion of mental health education in school curricula.",
+        "The use of medical technology to monitor and manage chronic diseases."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t02"
+    },
+    {
+      "id": 893,
+      "question": "In the context of medicalization, which of the following is an example of demedicalization?",
+      "choices": [
+        "The recognition of childbirth as a natural process and the promotion of home births.",
+        "The increasing reliance on medical technology for prenatal care.",
+        "The expansion of medical insurance coverage for preventive screenings.",
+        "The integration of mental health services into primary care settings."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t03"
+    },
+    {
+      "id": 894,
+      "question": "Which field of study focuses on the patterns, causes, and effects of health and disease conditions in defined populations?",
+      "choices": [
+        "Epidemiology",
+        "Sociology",
+        "Psychology",
+        "Biology"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t04"
+    },
+    {
+      "id": 895,
+      "question": "A researcher is investigating the outbreak of a new infectious disease in a particular community. Which discipline would most likely be involved in this research?",
+      "choices": [
+        "Epidemiology",
+        "Anthropology",
+        "Political Science",
+        "Chemistry"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t04"
+    },
+    {
+      "id": 896,
+      "question": "The study of the distribution and determinants of health-related states or events in specified populations is known as:",
+      "choices": [
+        "Epidemiology",
+        "Economics",
+        "Geography",
+        "Sociology"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t04"
+    },
+    {
+      "id": 897,
+      "question": "Epidemiologists use various research methods to study the occurrence and spread of diseases. Which of the following is NOT commonly used in epidemiological research?",
+      "choices": [
+        "Analyzing literary themes in fiction novels",
+        "Collecting health data from surveys",
+        "Analyzing medical records",
+        "Conducting interviews"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t04"
+    },
+    {
+      "id": 898,
+      "question": "A team of researchers is tracking how a new strain of influenza spreads across a metropolitan area by collecting data on infection rates, demographic patterns, and transmission routes. What field of study does this research belong to?",
+      "choices": [
+        "Epidemiology",
+        "Clinical psychology",
+        "Pharmacology",
+        "Genetic counseling"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t04"
+    },
+    {
+      "id": 899,
+      "question": "In the early 1900s, many mental health conditions were considered a result of personal weakness or moral failing. Today, these same conditions are commonly treated as medical issues. This shift in perspective is an example of:",
+      "choices": [
+        "medicalization",
+        "demedicalization",
+        "stigmatization",
+        "normalization"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t02"
+    },
+    {
+      "id": 900,
+      "question": "The increasing number of children being diagnosed with attention-deficit/hyperactivity disorder (ADHD) and prescribed medication to manage the condition is an example of:",
+      "choices": [
+        "medicalization",
+        "stigmatization",
+        "demedicalization",
+        "normalization"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t02"
+    },
+    {
+      "id": 901,
+      "question": "In 1973, the American Psychiatric Association removed homosexuality from the Diagnostic and Statistical Manual of Mental Disorders (DSM), no longer classifying it as a mental illness. This shift is an example of:",
+      "choices": [
+        "demedicalization",
+        "medicalization",
+        "stigmatization",
+        "normalization"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t03"
+    },
+    {
+      "id": 902,
+      "question": "The classification of obesity as a medical condition and the focus on medical treatments and interventions for weight management is an example of:",
+      "choices": [
+        "medicalization",
+        "demedicalization",
+        "stigmatization",
+        "normalization"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t02"
+    },
+    {
+      "id": 903,
+      "question": "In recent decades, childbirth has increasingly moved from hospitals back to home settings with midwives, and some conditions once treated with medication are now managed through lifestyle changes instead. This trend is an example of:",
+      "choices": [
+        "demedicalization",
+        "medicalization",
+        "stigmatization",
+        "normalization"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t03"
+    },
+    {
+      "id": 904,
+      "question": "Which of the following statements best reflects the concept of medicalization?",
+      "choices": [
+        "The process by which non-medical conditions become defined and treated as medical issues.",
+        "The process of reducing the significance of medical conditions in society.",
+        "The process by which medical conditions are cured through alternative therapies.",
+        "The process of providing medical services to underserved populations."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t02"
+    },
+    {
+      "id": 905,
+      "question": "Which of the following scenarios best illustrates the concept of demedicalization?",
+      "choices": [
+        "A shift away from institutionalized treatment for mental illness towards community-based support programs.",
+        "The development of new medical technologies to treat chronic illnesses.",
+        "The integration of mental health services into primary care settings.",
+        "The expansion of health insurance coverage for preventive care."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t03"
+    },
+    {
+      "id": 906,
+      "question": "Which of the following statements is true about medicalization and demedicalization?",
+      "choices": [
+        "Medicalization and demedicalization are social processes influenced by cultural, political, and economic factors.",
+        "Medicalization and demedicalization are purely medical decisions made by healthcare professionals.",
+        "Medicalization and demedicalization are static concepts that do not change over time.",
+        "Medicalization and demedicalization are only relevant in developed countries."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t03"
+    },
+    {
+      "id": 907,
+      "question": "Which of the following is an example of medicalization?",
+      "choices": [
+        "Defining shyness as a mental disorder and prescribing medication to treat it.",
+        "Promoting the use of alternative therapies for chronic pain management.",
+        "Expanding access to reproductive healthcare services.",
+        "Addressing social determinants of health to reduce health disparities."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t02"
+    },
+    {
+      "id": 908,
+      "question": "Which of the following factors is NOT considered a social determinant of health?",
+      "choices": [
+        "genetics",
+        "income",
+        "education",
+        "employment"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 909,
+      "question": "A study found that individuals with higher levels of education have better health outcomes. This is an example of:",
+      "choices": [
+        "social determinants of health",
+        "biological determinism",
+        "genetic predisposition",
+        "medicalization"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 910,
+      "question": "In a certain neighborhood, residents have limited access to supermarkets and fresh produce. This is an example of:",
+      "choices": [
+        "food desert",
+        "nutrition transition",
+        "food insecurity",
+        "toxic food environment"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t05"
+    },
+    {
+      "id": 911,
+      "question": "Which of the following is an example of deprivation amplification?",
+      "choices": [
+        "Individuals experiencing poverty also face higher levels of stress and limited access to healthcare.",
+        "Individuals with higher income have better health outcomes.",
+        "Access to healthcare is determined solely by personal choices.",
+        "Social class has no impact on health outcomes."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t07"
+    },
+    {
+      "id": 912,
+      "question": "What is cultural competence in healthcare?",
+      "choices": [
+        "The ability of healthcare providers to understand and respond effectively to the cultural and linguistic needs of patients.",
+        "The belief that one's own cultural practices are superior to others.",
+        "The integration of cultural practices into medical treatments.",
+        "The promotion of cultural assimilation in healthcare settings."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t08"
+    },
+    {
+      "id": 913,
+      "question": "Which of the following refers to the conditions in which people are born, grow, live, work, and age, and how these conditions can influence health outcomes?",
+      "choices": [
+        "Social determinants of health",
+        "Medicalization",
+        "Deprivation amplification",
+        "A food desert"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 914,
+      "question": "Which of the following is an example of a social determinant of health?",
+      "choices": [
+        "Neighborhood conditions",
+        "Genetic factors",
+        "Blood type",
+        "Eye color"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 915,
+      "question": "How do social determinants of health contribute to health disparities?",
+      "choices": [
+        "They create unequal opportunities for good health",
+        "They have no impact on health disparities",
+        "They only affect individuals with certain genetic conditions",
+        "They lead to uniform health outcomes for everyone"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 916,
+      "question": "Which of the following is an example of a social determinant of health that influences access to healthcare?",
+      "choices": [
+        "Health insurance status",
+        "Personal hygiene",
+        "Genetic predisposition to illness",
+        "Individual lifestyle choices"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 917,
+      "question": "What is an example of medicalization?",
+      "choices": [
+        "Defining addiction as a disease",
+        "Promoting healthy eating habits",
+        "Encouraging exercise",
+        "Educating about mental health"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t02"
+    },
+    {
+      "id": 918,
+      "question": "What is an example of demedicalization?",
+      "choices": [
+        "Decriminalizing marijuana",
+        "Recommending regular check-ups",
+        "Developing new medical treatments",
+        "Providing mental health services"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t03"
+    },
+    {
+      "id": 919,
+      "question": "Which sociological concept refers to the transformation of a personal or social problem into a medical condition?",
+      "choices": [
+        "Medicalization",
+        "Epidemiology",
+        "Food desert",
+        "Deprivation amplification"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t02"
+    },
+    {
+      "id": 920,
+      "question": "Why is the medicalization of certain conditions controversial?",
+      "choices": [
+        "It may lead to overdiagnosis, unnecessary medical treatments, and the pathologization of normal human experiences.",
+        "It ensures that all health issues receive appropriate medical attention.",
+        "It helps to reduce healthcare costs.",
+        "It allows medical professionals to maintain control over health-related decisions."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t02"
+    },
+    {
+      "id": 921,
+      "question": "Researchers found that children from low-income neighborhoods have higher rates of asthma compared to children from higher-income neighborhoods. What is this an example of?",
+      "choices": [
+        "social determinants of health",
+        "medicalization and demedicalization",
+        "epidemiology",
+        "food desert"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 922,
+      "question": "A study shows that individuals with higher levels of education tend to live longer than those with lower levels of education. What does this study demonstrate?",
+      "choices": [
+        "social determinants of health",
+        "cultural competence",
+        "deprivation amplification",
+        "sick role"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 923,
+      "question": "Researchers find that communities with a higher density of fast-food restaurants have higher rates of obesity among residents. What does this finding suggest?",
+      "choices": [
+        "social determinants of health",
+        "absolute and relative income hypotheses",
+        "medicalization and demedicalization",
+        "food desert"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 924,
+      "question": "A study reveals that individuals living in neighborhoods with limited access to parks and recreational facilities have higher rates of sedentary behavior and obesity. What concept does this study illustrate?",
+      "choices": [
+        "social determinants of health",
+        "epidemiology",
+        "cultural competence",
+        "deprivation amplification"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 925,
+      "question": "A research study finds that individuals from marginalized racial and ethnic groups have higher rates of chronic diseases compared to the dominant racial and ethnic group. What does this study suggest?",
+      "choices": [
+        "social determinants of health",
+        "sick role",
+        "medicalization and demedicalization",
+        "food desert"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 1012,
+      "question": "A researcher finds that residents in neighborhoods with fewer grocery stores, lower median incomes, and limited public transportation have higher rates of diabetes and heart disease compared to affluent areas with abundant health resources. This study best demonstrates how Social Determinants of Health (SDOH) operate through which mechanism?",
+      "choices": [
+        "Environmental conditions create differential access to resources that shape health outcomes across communities",
+        "Individual lifestyle choices are the primary factor determining disease prevalence in different neighborhoods",
+        "Genetic predispositions cluster geographically, explaining health disparities between areas",
+        "Healthcare quality varies randomly across locations, creating unpredictable health patterns"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 1013,
+      "question": "An urban planning committee debates whether to invest in a new hospital or improve public housing, expand job training programs, and build more parks in a low-income district. Using the Social Determinants of Health (SDOH) framework, which recommendation would most effectively address the root causes of health disparities?",
+      "choices": [
+        "Prioritize the housing, job training, and parks because addressing social and economic conditions prevents health problems more effectively than treating them after they occur",
+        "Build the hospital first since direct medical intervention is the most scientifically proven way to improve population health outcomes",
+        "Focus solely on individual health education programs to teach residents better personal health management skills",
+        "Implement all projects simultaneously since Social Determinants of Health (SDOH) theory suggests that only comprehensive medical approaches work"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t06"
+    }
+  ]
+}

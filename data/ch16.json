@@ -1,0 +1,1584 @@
+{
+  "id": "ch16",
+  "name": "Population",
+  "order": 16,
+  "concepts": [
+    {
+      "id": "ch16_t01",
+      "term": "Crude Birth Rate (CBR)",
+      "definition": "Total live births per 1,000 people in a population per year.",
+      "level3_question_ids": [
+        1,
+        2,
+        428,
+        430,
+        443,
+        445,
+        448,
+        455,
+        460,
+        621,
+        622,
+        623,
+        624
+      ],
+      "confusable_ids": [
+        "ch16_t02",
+        "ch16_t14",
+        "ch16_t03",
+        "ch16_t13",
+        "ch16_t16"
+      ]
+    },
+    {
+      "id": "ch16_t02",
+      "term": "Crude Death Rate (CDR)",
+      "definition": "Total deaths per 1,000 people in a population per year.",
+      "level3_question_ids": [
+        1,
+        3,
+        4,
+        429,
+        430,
+        436,
+        444,
+        455
+      ],
+      "confusable_ids": [
+        "ch16_t01",
+        "ch16_t14",
+        "ch16_t13",
+        "ch16_t03",
+        "ch16_t16"
+      ]
+    },
+    {
+      "id": "ch16_t03",
+      "term": "Rate of Natural Increase (RNI)",
+      "definition": "Population growth rate based only on births and deaths (CBR minus CDR), excluding migration.",
+      "level3_question_ids": [
+        5,
+        6,
+        430,
+        445,
+        466,
+        614,
+        636,
+        616
+      ],
+      "confusable_ids": [
+        "ch16_t02",
+        "ch16_t13",
+        "ch16_t01",
+        "ch16_t14",
+        "ch16_t10"
+      ]
+    },
+    {
+      "id": "ch16_t04",
+      "term": "Demographic Transition Stage 1",
+      "definition": "High birth rates and high death rates result in slow or stable population growth.",
+      "level3_question_ids": [
+        431,
+        446
+      ],
+      "confusable_ids": [
+        "ch16_t05",
+        "ch16_t07",
+        "ch16_t06",
+        "ch16_t03",
+        "ch16_t02"
+      ]
+    },
+    {
+      "id": "ch16_t05",
+      "term": "Demographic Transition Stage 2",
+      "definition": "Death rates fall while birth rates remain high, causing rapid population growth.",
+      "level3_question_ids": [
+        446,
+        458,
+        627,
+        449
+      ],
+      "confusable_ids": [
+        "ch16_t04",
+        "ch16_t06",
+        "ch16_t07",
+        "ch16_t03",
+        "ch16_t02"
+      ]
+    },
+    {
+      "id": "ch16_t06",
+      "term": "Demographic Transition Stage 3",
+      "definition": "Birth rates decline and death rates remain low, slowing population growth.",
+      "level3_question_ids": [
+        433,
+        446,
+        628
+      ],
+      "confusable_ids": [
+        "ch16_t05",
+        "ch16_t07",
+        "ch16_t04",
+        "ch16_t03",
+        "ch16_t02"
+      ]
+    },
+    {
+      "id": "ch16_t07",
+      "term": "Demographic Transition Stage 4",
+      "definition": "Both birth and death rates are low, leading to stable, zero, or declining population growth.",
+      "level3_question_ids": [
+        452
+      ],
+      "confusable_ids": [
+        "ch16_t04",
+        "ch16_t06",
+        "ch16_t05",
+        "ch16_t03",
+        "ch16_t22"
+      ]
+    },
+    {
+      "id": "ch16_t08",
+      "term": "Demography",
+      "definition": "The statistical study of human populations, including size, structure, distribution, and changes.",
+      "level3_question_ids": [
+        435,
+        451,
+        462,
+        619
+      ],
+      "confusable_ids": [
+        "ch16_t11"
+      ]
+    },
+    {
+      "id": "ch16_t09",
+      "term": "Total Fertility Rate (TFR)",
+      "definition": "The average number of children a woman is expected to bear during her lifetime based on current age-specific rates.",
+      "level3_question_ids": [
+        7,
+        8,
+        436,
+        444,
+        445,
+        448,
+        450,
+        453,
+        454,
+        455,
+        460,
+        621,
+        622,
+        623,
+        624,
+        465
+      ],
+      "confusable_ids": [
+        "ch16_t15",
+        "ch16_t12",
+        "ch16_t14",
+        "ch16_t03",
+        "ch16_t01"
+      ]
+    },
+    {
+      "id": "ch16_t10",
+      "term": "Population Doubling Estimate Formula",
+      "definition": "Rule of 70: Approximate years to double = 70 / (Annual Growth Rate %).",
+      "level3_question_ids": [
+        437,
+        448
+      ],
+      "confusable_ids": [
+        "ch16_t03",
+        "ch16_t04",
+        "ch16_t06",
+        "ch16_t05",
+        "ch16_t07"
+      ]
+    },
+    {
+      "id": "ch16_t11",
+      "term": "Age Structure Diagrams",
+      "definition": "Graphs (population pyramids) showing the distribution of a population by age and sex.",
+      "level3_question_ids": [
+        639,
+        613,
+        618
+      ],
+      "confusable_ids": [
+        "ch16_t02",
+        "ch16_t13",
+        "ch16_t01",
+        "ch16_t04",
+        "ch16_t06"
+      ]
+    },
+    {
+      "id": "ch16_t12",
+      "term": "Replacement Level Fertility",
+      "definition": "The TFR required for a generation to replace itself without migration (approx. 2.1 children per woman).",
+      "level3_question_ids": [
+        637
+      ],
+      "confusable_ids": [
+        "ch16_t09",
+        "ch16_t19",
+        "ch16_t02",
+        "ch16_t01",
+        "ch16_t03"
+      ]
+    },
+    {
+      "id": "ch16_t13",
+      "term": "Mortality Rate",
+      "definition": "The measure of the frequency of deaths in a defined population during a specified time.",
+      "level3_question_ids": [
+        10,
+        444,
+        448,
+        450,
+        454,
+        611,
+        621,
+        622,
+        623,
+        624,
+        636,
+        637
+      ],
+      "confusable_ids": [
+        "ch16_t02",
+        "ch16_t14",
+        "ch16_t03",
+        "ch16_t01",
+        "ch16_t11"
+      ]
+    },
+    {
+      "id": "ch16_t14",
+      "term": "Infant Mortality Rate (IMR)",
+      "definition": "Number of deaths of infants under one year old per 1,000 live births per year.",
+      "level3_question_ids": [
+        9,
+        10,
+        438,
+        444,
+        448,
+        450,
+        621,
+        622,
+        623,
+        624,
+        636
+      ],
+      "confusable_ids": [
+        "ch16_t01",
+        "ch16_t02",
+        "ch16_t13",
+        "ch16_t03",
+        "ch16_t09"
+      ]
+    },
+    {
+      "id": "ch16_t15",
+      "term": "Life Expectancy",
+      "definition": "Average number of years an individual is expected to live based on current mortality rates.",
+      "level3_question_ids": [
+        4,
+        6,
+        612,
+        614,
+        636
+      ],
+      "confusable_ids": [
+        "ch16_t09",
+        "ch16_t14",
+        "ch16_t21",
+        "ch16_t20",
+        "ch16_t01"
+      ]
+    },
+    {
+      "id": "ch16_t16",
+      "term": "Immigration",
+      "definition": "The movement of people *into* a country or region to settle.",
+      "level3_question_ids": [
+        6,
+        441,
+        602,
+        608,
+        611,
+        612,
+        614,
+        626,
+        635
+      ],
+      "confusable_ids": [
+        "ch16_t17",
+        "ch16_t18",
+        "ch16_t19",
+        "ch16_t02",
+        "ch16_t01"
+      ]
+    },
+    {
+      "id": "ch16_t17",
+      "term": "Emigration",
+      "definition": "The movement of people *out of* a country or region to settle elsewhere.",
+      "level3_question_ids": [
+        441,
+        461,
+        600,
+        608,
+        614,
+        638
+      ],
+      "confusable_ids": [
+        "ch16_t16",
+        "ch16_t18",
+        "ch16_t21",
+        "ch16_t19",
+        "ch16_t02"
+      ]
+    },
+    {
+      "id": "ch16_t18",
+      "term": "Migration",
+      "definition": "The movement of people from one place to another with the intent to settle.",
+      "level3_question_ids": [
+        5,
+        435,
+        439,
+        440,
+        441,
+        444,
+        445,
+        449,
+        450,
+        451,
+        455,
+        456,
+        457,
+        458,
+        459,
+        464,
+        466,
+        467,
+        468,
+        469,
+        606,
+        607,
+        608,
+        609,
+        610,
+        630,
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        637,
+        638,
+        454
+      ],
+      "confusable_ids": [
+        "ch16_t16",
+        "ch16_t17",
+        "ch16_t19",
+        "ch16_t20",
+        "ch16_t02"
+      ]
+    },
+    {
+      "id": "ch16_t19",
+      "term": "Internal Migration",
+      "definition": "Migration occurring *within* the borders of a country.",
+      "level3_question_ids": [
+        439,
+        445,
+        450,
+        457,
+        458,
+        464,
+        467,
+        638
+      ],
+      "confusable_ids": [
+        "ch16_t18",
+        "ch16_t20",
+        "ch16_t16",
+        "ch16_t17",
+        "ch16_t03"
+      ]
+    },
+    {
+      "id": "ch16_t20",
+      "term": "Net Migration",
+      "definition": "The difference between the number of immigrants and emigrants for a specific area over time.",
+      "level3_question_ids": [
+        440,
+        444,
+        606,
+        607,
+        608,
+        609,
+        610,
+        630,
+        631,
+        632,
+        633,
+        634
+      ],
+      "confusable_ids": [
+        "ch16_t21",
+        "ch16_t18",
+        "ch16_t19",
+        "ch16_t13",
+        "ch16_t15"
+      ]
+    },
+    {
+      "id": "ch16_t21",
+      "term": "Net Emigration",
+      "definition": "Occurs when the number of emigrants exceeds the number of immigrants in an area.",
+      "level3_question_ids": [
+        441,
+        600
+      ],
+      "confusable_ids": [
+        "ch16_t20",
+        "ch16_t17",
+        "ch16_t15",
+        "ch16_t14",
+        "ch16_t09"
+      ]
+    },
+    {
+      "id": "ch16_t22",
+      "term": "Malthusian Theorem",
+      "definition": "Theory that population tends to grow faster than resources, leading to inevitable population checks (famine, disease, war).",
+      "level3_question_ids": [
+        605,
+        639
+      ],
+      "confusable_ids": [
+        "ch16_t07",
+        "ch16_t02",
+        "ch16_t11",
+        "ch16_t13",
+        "ch16_t01"
+      ]
+    }
+  ],
+  "chapter_questions": [
+    {
+      "id": 1,
+      "question": "A country has improved healthcare and sanitation but maintains traditional values encouraging large families. If the Crude Birth Rate (CBR) remains at 35 per 1,000 while the Crude Death Rate drops from 15 to 8 per 1,000, what sociological phenomenon is this country most likely experiencing?",
+      "choices": [
+        "The beginning of demographic transition with rapid population growth",
+        "Population decline due to urbanization",
+        "Demographic equilibrium with stable population size",
+        "The demographic dividend with economic prosperity"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t01"
+    },
+    {
+      "id": 2,
+      "question": "Two countries have identical Crude Birth Rates (CBR) of 20 per 1,000, but Country A has a younger population age structure while Country B has an older population. What does this suggest about their future population trends?",
+      "choices": [
+        "Country A will likely see its CBR increase in coming years as more women enter childbearing age",
+        "Both countries will maintain identical population growth patterns",
+        "Country B will experience higher fertility rates due to cultural factors",
+        "The age structure difference will have no impact on future birth rates"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t01"
+    },
+    {
+      "id": 3,
+      "question": "Country X has a Crude Death Rate (CDR) of 12 per 1,000, while Country Y has a CDR of 8 per 1,000. What is the most sociologically significant factor you should consider before concluding that Country Y has better healthcare?",
+      "choices": [
+        "The age structure of both populations, as older populations naturally have higher death rates",
+        "The total population size of each country",
+        "The geographic size and climate of each country",
+        "The dominant religious beliefs in each country"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t02"
+    },
+    {
+      "id": 4,
+      "question": "A developed nation shows an increasing Crude Death Rate (CDR) despite having excellent healthcare and rising life expectancy. Which demographic factor best explains this apparent contradiction?",
+      "choices": [
+        "An aging population structure with large cohorts of elderly people",
+        "Declining economic conditions reducing healthcare access",
+        "Increasing rates of infectious diseases",
+        "Higher rates of accidents and violence among young people"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t02"
+    },
+    {
+      "id": 5,
+      "question": "Two neighboring countries have identical Crude Birth Rates and Crude Death Rates, giving them the same Rate of Natural Increase (RNI). However, Country A's population is growing much faster than Country B's. What factor best explains this difference?",
+      "choices": [
+        "Country A is experiencing significant in-migration while Country B faces out-migration",
+        "Country A has better healthcare systems improving survival rates",
+        "Country B is experiencing economic development reducing family sizes",
+        "Statistical errors in calculating the birth and death rates"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t03"
+    },
+    {
+      "id": 6,
+      "question": "A country's Rate of Natural Increase (RNI) has been declining for two decades, yet its population continues to grow at nearly the same pace. Which sociological factor most likely explains this demographic pattern?",
+      "choices": [
+        "High levels of immigration compensating for slower natural population growth",
+        "Improved healthcare extending life expectancy",
+        "Government policies encouraging larger families",
+        "Increasing urbanization concentrating population growth"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t03"
+    },
+    {
+      "id": 7,
+      "question": "Country A has a Total Fertility Rate (TFR) of 2.8 children per woman, while Country B has a TFR of 1.4. Both countries have similar economic development levels. What sociological factor most likely explains this difference?",
+      "choices": [
+        "Different cultural values regarding family size, gender roles, or religious beliefs",
+        "Country A has better healthcare leading to higher fertility",
+        "Country B has a younger population with more women of childbearing age",
+        "Economic policies that directly control reproduction rates"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t09"
+    },
+    {
+      "id": 8,
+      "question": "A nation's Total Fertility Rate (TFR) has dropped from 6.2 to 2.1 children per woman over 30 years, coinciding with increased female education and urbanization. What does this trend most clearly demonstrate?",
+      "choices": [
+        "The relationship between social modernization and reproductive behavior changes",
+        "The impact of government population control policies",
+        "Declining healthcare quality affecting fertility",
+        "Economic recession forcing families to have fewer children"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t09"
+    },
+    {
+      "id": 9,
+      "question": "Two regions within the same country have vastly different Infant Mortality Rates (IMR) - Region A has an IMR of 45 per 1,000 while Region B has an IMR of 8 per 1,000. What does this disparity most likely reveal about social inequality?",
+      "choices": [
+        "Unequal access to healthcare, education, and economic resources between regions",
+        "Different climate conditions affecting infant health",
+        "Genetic differences between populations in each region",
+        "Varying cultural practices regarding childbirth timing"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t14"
+    },
+    {
+      "id": 10,
+      "question": "A country's Infant Mortality Rate (IMR) has remained high at 62 per 1,000 live births despite recent economic growth. Which combination of social factors most likely explains this persistence?",
+      "choices": [
+        "Continued poverty among certain groups combined with inadequate healthcare infrastructure and maternal education",
+        "Genetic factors specific to the population that cannot be changed",
+        "Government policies that prioritize economic growth over health spending",
+        "Cultural traditions that prevent the use of modern medical practices"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t14"
+    },
+    {
+      "id": 428,
+      "question": "A city records 1,200 live births in a population of 80,000 people during one year. What is the crude birth rate (CBR) for this city?",
+      "choices": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch16_t01"
+    },
+    {
+      "id": 429,
+      "question": "Two countries have different crude death rates (CDR). Country A has a CDR of 12 per 1,000, while Country B has a CDR of 8 per 1,000. What does this difference most likely indicate?",
+      "choices": [
+        "Country A has better healthcare facilities",
+        "Country B has a younger population structure",
+        "Country A has an older population or poorer health conditions",
+        "The countries have identical life expectancies"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch16_t02"
+    },
+    {
+      "id": 430,
+      "question": "A demographer calculates that a region has a crude birth rate of 18 per 1,000 and a crude death rate of 9 per 1,000. What is the rate of natural increase (RNI) for this population?",
+      "choices": [
+        "9 per 1,000",
+        "27 per 1,000",
+        "18 per 1,000",
+        "1.8 percent"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t03"
+    },
+    {
+      "id": 431,
+      "question": "Which scenario best illustrates Demographic Transition Stage 1 characteristics?",
+      "choices": [
+        "A country experiencing rapid industrialization with declining death rates",
+        "A modern European nation with low birth and death rates",
+        "A pre-industrial society with high infant mortality and large families to ensure survival",
+        "An industrialized nation where birth rates are falling faster than death rates"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch16_t04"
+    },
+    {
+      "id": 432,
+      "question": "A developing country shows declining death rates due to improved sanitation and medical care, while birth rates remain high, causing rapid population growth. This country is experiencing which stage of demographic transition?",
+      "choices": [
+        "Stage 1",
+        "Stage 2",
+        "Stage 3",
+        "Stage 4"
+      ],
+      "correct": 1,
+      "linked_concept_id": null
+    },
+    {
+      "id": 433,
+      "question": "In Demographic Transition Stage 3, which pattern would a demographer expect to observe?",
+      "choices": [
+        "Both birth and death rates increasing rapidly",
+        "Birth rates declining while death rates remain low, slowing population growth",
+        "Death rates rising faster than birth rates",
+        "Population growth accelerating due to medical advances"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t06"
+    },
+    {
+      "id": 434,
+      "question": "A country has achieved very low birth rates (1.4 per woman) and very low death rates, resulting in near-zero population growth. This situation exemplifies which demographic transition stage?",
+      "choices": [
+        "Stage 2",
+        "Stage 3",
+        "Stage 4",
+        "This pattern doesn't fit the demographic transition model"
+      ],
+      "correct": 2,
+      "linked_concept_id": null
+    },
+    {
+      "id": 435,
+      "question": "A researcher wants to understand population patterns by examining statistical data on births, deaths, and migration in different countries. This researcher is most likely working in which field?",
+      "choices": [
+        "Demography",
+        "Urban planning",
+        "Environmental science",
+        "Cultural anthropology"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t08"
+    },
+    {
+      "id": 436,
+      "question": "Country X has a Total Fertility Rate (TFR) of 2.8, while Country Y has a TFR of 1.5. What can we conclude about these countries?",
+      "choices": [
+        "Country X has a higher crude death rate than Country Y",
+        "Women in Country X have more children on average than women in Country Y",
+        "Country Y has a larger total population than Country X",
+        "Both countries have similar population growth rates"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t09"
+    },
+    {
+      "id": 437,
+      "question": "Using the Population Doubling Estimate Formula (Rule of 70), if a country has an annual population growth rate of 3.5 percent, approximately how long will it take for the population to double?",
+      "choices": [
+        "15 years",
+        "17 years",
+        "20 years",
+        "25 years"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch16_t10"
+    },
+    {
+      "id": 438,
+      "question": "Two regions report different infant mortality rates (IMR). Region A has an IMR of 45, while Region B has an IMR of 8. What does this difference most likely indicate?",
+      "choices": [
+        "Region A has a higher birth rate than Region B",
+        "Region A likely has poorer healthcare and living conditions than Region B",
+        "Region B has more hospitals per capita than Region A",
+        "The regions have similar levels of economic development"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t14"
+    },
+    {
+      "id": 439,
+      "question": "A family moves from rural Nebraska to Chicago, seeking better job opportunities in the urban economy. This movement is an example of which type of migration?",
+      "choices": [
+        "Internal migration",
+        "International migration",
+        "External migration",
+        "Transnational migration"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t19"
+    },
+    {
+      "id": 440,
+      "question": "A small island nation reports 500 immigrants and 300 emigrants in one year, with a population of 100,000. What is the net migration for this country?",
+      "choices": [
+        "+800 per 1,000 population",
+        "+2 per 1,000 population",
+        "+200 per 1,000 population",
+        "-2 per 1,000 population"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t20"
+    },
+    {
+      "id": 441,
+      "question": "A country experiences net emigration when analyzing its migration patterns. Which scenario best describes this situation?",
+      "choices": [
+        "More people are moving within the country's borders",
+        "Immigration and emigration rates are equal",
+        "More people are leaving the country than entering it",
+        "The country has closed its borders to all migration"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch16_t21"
+    },
+    {
+      "id": 442,
+      "question": "A researcher studying how different cultures approach reproduction, urbanization, and environmental practices would be primarily engaged in which type of demographic analysis?",
+      "choices": [
+        "Statistical population modeling",
+        "Examining how social factors influence demographic patterns",
+        "Mathematical projections of population growth",
+        "Geographic mapping of population density"
+      ],
+      "correct": 1,
+      "linked_concept_id": null
+    },
+    {
+      "id": 443,
+      "question": "Which scenario best demonstrates the application of the Crude Birth Rate in demographic analysis?",
+      "choices": [
+        "Comparing reproductive patterns across different countries by standardizing births per 1,000 people",
+        "Calculating the average number of children per woman in a specific population",
+        "Determining how many people die in a given year",
+        "Measuring population movement between rural and urban areas"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t01"
+    },
+    {
+      "id": 444,
+      "question": "An epidemiologist investigating public health patterns would be most interested in which demographic measure when studying population health outcomes?",
+      "choices": [
+        "Total Fertility Rate",
+        "Crude Death Rate and Infant Mortality Rate",
+        "Net Migration Rate",
+        "Population Doubling Formula"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t14"
+    },
+    {
+      "id": 445,
+      "question": "A government planner needs to project future population size to plan infrastructure development. Which demographic concept would be most useful for making these projections?",
+      "choices": [
+        "Crude Birth Rate alone",
+        "Internal Migration patterns only",
+        "Rate of Natural Increase combined with migration data",
+        "Total Fertility Rate without considering mortality"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch16_t03"
+    },
+    {
+      "id": 446,
+      "question": "A researcher observes that as a society industrializes, families begin having fewer children even though child mortality rates have decreased. This pattern is most consistent with which demographic concept?",
+      "choices": [
+        "Demographic Transition Stage 1",
+        "Demographic Transition Stage 2",
+        "Demographic Transition Stage 3",
+        "Population doubling acceleration"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch16_t04"
+    },
+    {
+      "id": 447,
+      "question": "How does demographic transition theory differ from Malthusian predictions about population growth?",
+      "choices": [
+        "Both theories predict inevitable population disasters",
+        "Demographic transition suggests population growth stabilizes as countries develop, while Malthus predicted continuous exponential growth",
+        "Malthus was more optimistic about technological solutions than demographic transition theorists",
+        "Both theories ignore the role of economic development in population change"
+      ],
+      "correct": 1,
+      "linked_concept_id": null
+    },
+    {
+      "id": 448,
+      "question": "A demographer calculating that a population will double in 23 years is most likely using which analytical tool?",
+      "choices": [
+        "Crude Birth Rate analysis",
+        "Total Fertility Rate projections",
+        "Population Doubling Estimate Formula (Rule of 70)",
+        "Infant Mortality Rate calculations"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch16_t10"
+    },
+    {
+      "id": 449,
+      "question": "In studying global demographic patterns, which concept would best help explain why some countries have very young populations while others have aging populations?",
+      "choices": [
+        "Net Migration rates only",
+        "Different stages of demographic transition",
+        "Crude Death Rates exclusively",
+        "Population Doubling calculations"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t05"
+    },
+    {
+      "id": 450,
+      "question": "A public health official tracking disease outbreaks would find which demographic measure most useful for identifying vulnerable populations?",
+      "choices": [
+        "Total Fertility Rate",
+        "Population Doubling Formula",
+        "Infant Mortality Rate and age-specific mortality patterns",
+        "Internal Migration flows only"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch16_t14"
+    },
+    {
+      "id": 451,
+      "question": "Which statement best illustrates the sociological approach to demography rather than a purely statistical one?",
+      "choices": [
+        "\"The population grew by 50,000 people last year.\"",
+        "\"Religious beliefs about contraception influence family size decisions in this community.\"",
+        "\"There were 12,000 births recorded in the county.\"",
+        "\"The migration rate increased by 2 percent.\""
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t08"
+    },
+    {
+      "id": 452,
+      "question": "A policy maker concerned about supporting an aging population would be most interested in which demographic trend?",
+      "choices": [
+        "Increasing Crude Birth Rates",
+        "Countries moving toward Demographic Transition Stage 4",
+        "Rising Infant Mortality Rates",
+        "Accelerating population doubling times"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t07"
+    },
+    {
+      "id": 453,
+      "question": "How would a demographer explain the relationship between economic development and Total Fertility Rate?",
+      "choices": [
+        "Economic development always increases TFR",
+        "As countries develop economically, TFR generally decreases due to urbanization, education, and changing family economics",
+        "There is no relationship between economic development and fertility",
+        "Economic development only affects mortality, not fertility"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t09"
+    },
+    {
+      "id": 454,
+      "question": "A researcher studying climate change impacts on population movements would be most concerned with which demographic process?",
+      "choices": [
+        "Natural increase from births and deaths",
+        "Migration patterns driven by environmental factors",
+        "Total Fertility Rate changes",
+        "Infant Mortality Rate improvements"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t18"
+    },
+    {
+      "id": 455,
+      "question": "Which scenario best demonstrates how social factors influence demographic patterns?",
+      "choices": [
+        "A government's one-child policy significantly reduces the country's Total Fertility Rate",
+        "A natural disaster increases the Crude Death Rate temporarily",
+        "An aging population automatically reduces the Crude Birth Rate",
+        "Economic recession has no impact on migration patterns"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t09"
+    },
+    {
+      "id": 456,
+      "question": "In analyzing global demographic trends, which concept best explains why some countries face labor shortages while others have youth unemployment?",
+      "choices": [
+        "Different Crude Birth Rates only",
+        "Countries at different stages of demographic transition with different age structures",
+        "Variations in migration policies exclusively",
+        "Different calculation methods for population growth"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t18"
+    },
+    {
+      "id": 457,
+      "question": "A demographer studying urbanization patterns would be most interested in which type of demographic data?",
+      "choices": [
+        "Total Fertility Rates across different countries",
+        "Crude Death Rates in rural vs. urban areas",
+        "Internal migration flows from rural to urban areas",
+        "International migration between countries"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch16_t19"
+    },
+    {
+      "id": 458,
+      "question": "Which demographic concept would best help explain why some developing countries have rapid population growth despite poverty?",
+      "choices": [
+        "Low Total Fertility Rates compensate for high mortality",
+        "High Total Fertility Rates combined with declining mortality rates (Demographic Transition Stage 2)",
+        "Rapid internal migration to urban areas",
+        "Population doubling slowing down over time"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t05"
+    },
+    {
+      "id": 459,
+      "question": "A researcher examining how cultural attitudes toward children affect family size would be applying which demographic approach?",
+      "choices": [
+        "Pure statistical analysis of birth and death records",
+        "Sociological analysis of how cultural values influence Total Fertility Rates",
+        "Mathematical modeling of population doubling",
+        "Geographic mapping of migration flows"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t18"
+    },
+    {
+      "id": 460,
+      "question": "How do Crude Birth Rate and Total Fertility Rate provide different insights into population patterns?",
+      "choices": [
+        "CBR shows overall birth intensity in a population, while TFR shows individual women's reproductive behavior",
+        "CBR and TFR always provide identical information about fertility",
+        "CBR measures mortality while TFR measures fertility",
+        "CBR is more accurate than TFR for all demographic analysis"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t09"
+    },
+    {
+      "id": 461,
+      "question": "A public policy analyst evaluating the sustainability of social security systems would be most concerned with which demographic trend?",
+      "choices": [
+        "Increasing infant mortality rates",
+        "Rising crude birth rates among young populations",
+        "Demographic transition toward Stage 4 with aging populations and low fertility",
+        "High rates of international emigration"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch16_t17"
+    },
+    {
+      "id": 462,
+      "question": "Which statement best explains why demography is considered a macro-level approach to understanding society?",
+      "choices": [
+        "Demography examines large-scale population patterns and trends that affect entire societies",
+        "Demography only studies individual reproductive decisions",
+        "Demography focuses exclusively on small community changes",
+        "Demography ignores social and economic factors in population change"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t08"
+    },
+    {
+      "id": 463,
+      "question": "A researcher comparing population policies between countries would be most interested in which demographic outcome?",
+      "choices": [
+        "Natural variations in crude death rates",
+        "How different policies affect Total Fertility Rates and population growth",
+        "Genetic differences in population characteristics",
+        "Climate-related mortality patterns"
+      ],
+      "correct": 1,
+      "linked_concept_id": null
+    },
+    {
+      "id": 464,
+      "question": "Which concept best explains how economic opportunities influence demographic patterns?",
+      "choices": [
+        "Crude death rates automatically decline with economic growth",
+        "Internal migration from rural to urban areas as people seek better economic opportunities",
+        "Total fertility rates are unrelated to economic conditions",
+        "Population doubling accelerates in wealthy countries"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t19"
+    },
+    {
+      "id": 465,
+      "question": "A demographer studying the relationship between education and family size would likely focus on which demographic measure?",
+      "choices": [
+        "Crude death rates across educational levels",
+        "Total Fertility Rates among women with different education levels",
+        "Migration patterns of educated individuals",
+        "Population doubling times in educated communities"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t09"
+    },
+    {
+      "id": 466,
+      "question": "How does the Rate of Natural Increase differ from overall population growth rate?",
+      "choices": [
+        "RNI excludes migration while overall growth includes all population change factors",
+        "RNI includes migration while overall growth excludes it",
+        "RNI and overall growth rate are always identical",
+        "RNI only measures urban population changes"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t03"
+    },
+    {
+      "id": 467,
+      "question": "Which demographic pattern would most concern a government planning education and healthcare infrastructure?",
+      "choices": [
+        "Declining crude death rates in elderly populations",
+        "High Total Fertility Rates creating a large cohort of children needing services",
+        "Steady internal migration within the country",
+        "Stable population doubling times"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t19"
+    },
+    {
+      "id": 468,
+      "question": "A researcher studying how modernization affects population patterns would most likely examine which demographic transition?",
+      "choices": [
+        "The relationship between migration and urbanization only",
+        "How countries move from Stage 1 through Stage 4 of demographic transition",
+        "Only the changes in crude death rates over time",
+        "Population doubling acceleration in developed countries"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch16_t18"
+    },
+    {
+      "id": 469,
+      "question": "Which concept would best help explain why some countries worry about population decline while others worry about population explosion?",
+      "choices": [
+        "All countries calculate demographic rates differently",
+        "Some countries have better healthcare than others",
+        "Countries are at different stages of demographic transition with different population growth patterns",
+        "Migration policies vary significantly between countries"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch16_t18"
+    },
+    {
+      "id": 600,
+      "question": "In a country with a declining birth rate and net emigration, the population increased for a brief period due to the return of citizens who had been living abroad. This data was likely analyzed by a",
+      "choices": [
+        "demographer",
+        "social ecologist",
+        "environmental sociologist",
+        "nongovernmental organization"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t21"
+    },
+    {
+      "id": 601,
+      "question": "In a country with a high percentage of people aged 65 and above, the government wants to estimate the future social and economic implications of this aging population. This analysis is likely to be conducted by a",
+      "choices": [
+        "demographer",
+        "social ecologist",
+        "environmental sociologist",
+        "nongovernmental organization"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 602,
+      "question": "In a country with a high rate of immigration and a rapidly changing ethnic composition, a researcher wants to understand the social integration of immigrant communities. This research is likely to be conducted by a",
+      "choices": [
+        "demographer",
+        "social ecologist",
+        "environmental sociologist",
+        "nongovernmental organization"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t16"
+    },
+    {
+      "id": 603,
+      "question": "A government agency wants to plan for services and infrastructure based on the current and projected population growth in different regions of the country. They are likely to consult with a",
+      "choices": [
+        "demographer",
+        "social ecologist",
+        "environmental sociologist",
+        "nongovernmental organization"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 604,
+      "question": "A city is experiencing a decline in its working-age population and wants to develop strategies to attract and retain young professionals. They seek the expertise of a",
+      "choices": [
+        "demographer",
+        "social ecologist",
+        "environmental sociologist",
+        "nongovernmental organization"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 605,
+      "question": "Which of the following is an example of a way to collect demographic data?",
+      "choices": [
+        "the U.S. Census Bureau sending out surveys",
+        "voluntary simplicity and recycling",
+        "organizing environmental activist groups to engage in direct actions",
+        "the Malthusian theorem"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t22"
+    },
+    {
+      "id": 606,
+      "question": "What is the net migration rate?",
+      "choices": [
+        "the number of emigrants subtracted from the number of immigrants",
+        "the number of deaths that can be expected per one thousand people in a given year",
+        "the average number of births per one thousand people in the total population",
+        "the average age to which a person can expect to live"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t20"
+    },
+    {
+      "id": 607,
+      "question": "What does the net migration rate indicate?",
+      "choices": [
+        "whether a country is experiencing a net influx or net outflux of people",
+        "the total population of a country",
+        "the average age of the population in a country",
+        "the number of people emigrating from a country"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t20"
+    },
+    {
+      "id": 608,
+      "question": "Which factor does the net migration rate take into account?",
+      "choices": [
+        "both immigration and emigration",
+        "only immigration",
+        "only emigration",
+        "neither immigration nor emigration"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t20"
+    },
+    {
+      "id": 609,
+      "question": "What does a positive net migration rate indicate?",
+      "choices": [
+        "more people are immigrating to the country than emigrating from it",
+        "more people are emigrating from the country than immigrating to it",
+        "there is no migration happening in the country",
+        "the birth rate is higher than the death rate"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t20"
+    },
+    {
+      "id": 610,
+      "question": "In which scenario would the net migration rate be negative?",
+      "choices": [
+        "when the number of people emigrating from a country is greater than the number of people immigrating to it",
+        "when the birth rate exceeds the death rate in a country",
+        "when the average age of the population is increasing",
+        "when there are no immigrants in a country"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t20"
+    },
+    {
+      "id": 611,
+      "question": "Which of the following factors contributes to the growth of the population in the United States?",
+      "choices": [
+        "Increased immigration rates",
+        "Decreased life expectancy",
+        "Increasing mortality rate",
+        "Declining birth rates"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t16"
+    },
+    {
+      "id": 612,
+      "question": "What is the main reason for the decline in fertility rates in the United States?",
+      "choices": [
+        "Increase in the use of contraceptive methods",
+        "Decrease in life expectancy",
+        "Advances in modern medicine",
+        "Decline in immigration rates"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t15"
+    },
+    {
+      "id": 613,
+      "question": "According to U.S. Census data, which age group makes up a larger share of the population than those aged 65 and older?",
+      "choices": [
+        "People younger than 18",
+        "People older than 65",
+        "Only immigrants",
+        "Only college students"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t11"
+    },
+    {
+      "id": 614,
+      "question": "Which of the following factors affects the rate of natural increase in the population?",
+      "choices": [
+        "Difference between birth rate and death rate",
+        "Immigration rate",
+        "Emigration rate",
+        "Life expectancy"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t03"
+    },
+    {
+      "id": 615,
+      "question": "Which stage of the demographic transition theory is characterized by low birth rates and low death rates?",
+      "choices": [
+        "Stage 4",
+        "Stage 1",
+        "Stage 2",
+        "Stage 3"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 616,
+      "question": "Compared to many developing nations, the United States has a population growth rate that is:",
+      "choices": [
+        "Relatively low, under 1% per year",
+        "Moderate, around 2% per year",
+        "High, around 3% per year",
+        "Very high, above 4% per year"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t03"
+    },
+    {
+      "id": 617,
+      "question": "Which demographic group has the highest percentage of the total population in the United States?",
+      "choices": [
+        "Non-Hispanic White",
+        "Hispanic",
+        "African American",
+        "Asian"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 618,
+      "question": "According to U.S. Census data, approximately what percentage of the U.S. population is younger than 18 years old?",
+      "choices": [
+        "About 22%",
+        "About 15%",
+        "About 32%",
+        "About 40%"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t11"
+    },
+    {
+      "id": 619,
+      "question": "According to the 2020 U.S. Census, the population of the United States was approximately:",
+      "choices": [
+        "331 million",
+        "290 million",
+        "365 million",
+        "400 million"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t08"
+    },
+    {
+      "id": 620,
+      "question": "Which of the following is an example of a basic demographic variable?",
+      "choices": [
+        "Age",
+        "Agglomeration",
+        "Dystopia",
+        "Pluralism"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 621,
+      "question": "Which demographic variable refers to the number of births per 1,000 individuals in a population?",
+      "choices": [
+        "Crude birth rate",
+        "Total fertility rate",
+        "Mortality rate",
+        "Infant mortality rate"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t14"
+    },
+    {
+      "id": 622,
+      "question": "Which demographic variable represents the average number of children born to a woman over her lifetime?",
+      "choices": [
+        "Total fertility rate",
+        "Crude birth rate",
+        "Mortality rate",
+        "Infant mortality rate"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t14"
+    },
+    {
+      "id": 623,
+      "question": "Which demographic variable measures the number of deaths per 1,000 individuals in a population?",
+      "choices": [
+        "Mortality rate",
+        "Crude birth rate",
+        "Total fertility rate",
+        "Infant mortality rate"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t14"
+    },
+    {
+      "id": 624,
+      "question": "Which demographic variable measures the number of deaths of infants under one year old per 1,000 live births?",
+      "choices": [
+        "Infant mortality rate",
+        "Crude birth rate",
+        "Total fertility rate",
+        "Mortality rate"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t14"
+    },
+    {
+      "id": 625,
+      "question": "According to demographic transition theory, which stage is characterized by high birth rates and high death rates?",
+      "choices": [
+        "Stage 1",
+        "Stage 2",
+        "Stage 3",
+        "Stage 4"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 626,
+      "question": "Which of the following best describes the demographic transition theory?",
+      "choices": [
+        "A model that explains the transition from high birth and death rates to low birth and death rates as countries develop economically.",
+        "A theory that suggests the population will exceed the carrying capacity of the Earth and lead to resource depletion and collapse.",
+        "A theory that predicts an increase in population due to higher immigration rates.",
+        "A model that explains the impact of social factors on population growth and distribution."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t16"
+    },
+    {
+      "id": 627,
+      "question": "In which stage of demographic transition theory does a country experience declining death rates while birth rates remain high, causing rapid population growth?",
+      "choices": [
+        "Stage 2",
+        "Stage 1",
+        "Stage 3",
+        "Stage 4"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t05"
+    },
+    {
+      "id": 628,
+      "question": "Which of the following factors most directly reduces the number of births by giving individuals the means to control family size during the demographic transition?",
+      "choices": [
+        "Increased access to contraception and family planning services",
+        "A decrease in infant mortality rates",
+        "Improved healthcare infrastructure",
+        "Higher levels of urbanization"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t06"
+    },
+    {
+      "id": 629,
+      "question": "Which of the following best describes the relationship between economic development and population growth according to demographic transition theory?",
+      "choices": [
+        "As countries develop economically, population growth initially increases due to declining death rates, but eventually decreases as birth rates also decline.",
+        "As countries develop economically, population growth continuously increases.",
+        "As countries develop economically, population growth continuously decreases.",
+        "Only developed countries experience a decline in population growth."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 630,
+      "question": "Which of the following factors would result in a positive net migration rate for a country?",
+      "choices": [
+        "A high number of people immigrating to the country",
+        "A high number of people emigrating from the country",
+        "An increase in the country's birth rate",
+        "A decrease in the country's death rate"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t20"
+    },
+    {
+      "id": 631,
+      "question": "What does a negative net migration rate indicate for a country?",
+      "choices": [
+        "More people emigrate from the country than immigrate to it",
+        "More people immigrate to the country than emigrate from it",
+        "The country has a high birth rate",
+        "The country has a low death rate"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t20"
+    },
+    {
+      "id": 632,
+      "question": "Which of the following scenarios would result in a net migration rate of zero for a country?",
+      "choices": [
+        "An equal number of people immigrate to and emigrate from the country",
+        "More people immigrate to the country than emigrate from it",
+        "More people emigrate from the country than immigrate to it",
+        "The country has a high birth rate"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t20"
+    },
+    {
+      "id": 633,
+      "question": "How can net migration affect a country's population size?",
+      "choices": [
+        "Net migration can increase or decrease a country's population size",
+        "Net migration only increases a country's population size",
+        "Net migration only decreases a country's population size",
+        "Net migration has no effect on a country's population size"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t20"
+    },
+    {
+      "id": 634,
+      "question": "If a country has a net migration rate of -2.5, what does this indicate?",
+      "choices": [
+        "For every 1,000 people in the country, 2.5 more people emigrate than immigrate",
+        "For every 1,000 people in the country, 2.5 more people immigrate than emigrate",
+        "For every 1,000 people in the country, 2.5 people immigrate and emigrate",
+        "The net migration rate is positive, not negative"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t20"
+    },
+    {
+      "id": 635,
+      "question": "Which of the following factors is related to high population growth in urban areas?",
+      "choices": [
+        "High immigration rates",
+        "Low birth rates",
+        "High death rates",
+        "Low migration rates"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t16"
+    },
+    {
+      "id": 636,
+      "question": "Which demographic variable is a result of both birth rates and death rates in a population?",
+      "choices": [
+        "Rate of natural increase",
+        "Life expectancy",
+        "Migration rate",
+        "Infant mortality rate"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t03"
+    },
+    {
+      "id": 637,
+      "question": "The replacement level fertility in developed countries is approximately 2.1 children per woman rather than exactly 2.0. What factor accounts for this difference?",
+      "choices": [
+        "Some children do not survive to reproductive age, so slightly more than two births are needed to replace each generation",
+        "Contraceptive use reduces births below replacement",
+        "Migration rates offset the fertility calculation",
+        "Education levels raise the replacement threshold"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t12"
+    },
+    {
+      "id": 638,
+      "question": "How does internal migration contribute to population growth?",
+      "choices": [
+        "It results in population concentration in specific areas",
+        "It leads to population decline",
+        "It has no impact on population growth",
+        "It encourages emigration"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t19"
+    },
+    {
+      "id": 639,
+      "question": "Which sociological theory explains a decline in population growth due to improvements in living standards, education, and healthcare?",
+      "choices": [
+        "Demographic transition theory",
+        "Malthusian theorem",
+        "Population doubling estimate",
+        "Age structure diagrams"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t11"
+    }
+  ]
+}

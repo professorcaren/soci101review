@@ -1,0 +1,1873 @@
+{
+  "id": "ch01",
+  "name": "Sociological Perspective",
+  "order": 1,
+  "concepts": [
+    {
+      "id": "ch01_t01",
+      "term": "Sociology",
+      "definition": "The systematic study of society and human behavior",
+      "level3_question_ids": [
+        334,
+        335,
+        336,
+        338,
+        339,
+        342,
+        352,
+        354,
+        356,
+        370,
+        380,
+        388,
+        390
+      ],
+      "confusable_ids": [
+        "ch01_t03",
+        "ch01_t07",
+        "ch01_t04",
+        "ch01_t08",
+        "ch01_t23"
+      ]
+    },
+    {
+      "id": "ch01_t02",
+      "term": "Society",
+      "definition": "A group of people who share a culture and territory",
+      "level3_question_ids": [
+        334,
+        352,
+        359,
+        364,
+        366,
+        367,
+        379,
+        381,
+        814,
+        815,
+        818,
+        819,
+        828,
+        829,
+        830,
+        832,
+        833,
+        849,
+        851,
+        855
+      ],
+      "confusable_ids": [
+        "ch01_t14"
+      ]
+    },
+    {
+      "id": "ch01_t03",
+      "term": "Social Sciences",
+      "definition": "Fields that study human behavior and society",
+      "level3_question_ids": [
+        336,
+        337,
+        338,
+        339
+      ],
+      "confusable_ids": [
+        "ch01_t01",
+        "ch01_t07",
+        "ch01_t23",
+        "ch01_t12",
+        "ch01_t04"
+      ]
+    },
+    {
+      "id": "ch01_t04",
+      "term": "Sociological Perspective",
+      "definition": "Understanding human behavior by placing it within its broader social context",
+      "level3_question_ids": [
+        813,
+        838,
+        839,
+        842,
+        342
+      ],
+      "confusable_ids": [
+        "ch01_t06",
+        "ch01_t01",
+        "ch01_t03",
+        "ch01_t07",
+        "ch01_t08"
+      ]
+    },
+    {
+      "id": "ch01_t05",
+      "term": "Culture Shock",
+      "definition": "Disorientation when experiencing an unfamiliar way of life",
+      "level3_question_ids": [
+        340,
+        341
+      ],
+      "confusable_ids": [
+        "ch01_t26"
+      ]
+    },
+    {
+      "id": "ch01_t06",
+      "term": "Sociological Imagination",
+      "definition": "The ability to connect individual experiences to larger social forces",
+      "level3_question_ids": [
+        823,
+        824,
+        825,
+        826,
+        827,
+        857
+      ],
+      "confusable_ids": [
+        "ch01_t04",
+        "ch01_t08",
+        "ch01_t09",
+        "ch01_t20",
+        "ch01_t21"
+      ]
+    },
+    {
+      "id": "ch01_t07",
+      "term": "Microsociology",
+      "definition": "Study of human behavior in small groups and interactions",
+      "level3_question_ids": [
+        343,
+        344,
+        345
+      ],
+      "confusable_ids": [
+        "ch01_t01",
+        "ch01_t03",
+        "ch01_t04",
+        "ch01_t08",
+        "ch01_t12"
+      ]
+    },
+    {
+      "id": "ch01_t08",
+      "term": "Macrosociology",
+      "definition": "Study of large-scale social structures and institutions",
+      "level3_question_ids": [
+        343,
+        344,
+        346,
+        347
+      ],
+      "confusable_ids": [
+        "ch01_t01",
+        "ch01_t03",
+        "ch01_t09",
+        "ch01_t20",
+        "ch01_t21"
+      ]
+    },
+    {
+      "id": "ch01_t09",
+      "term": "Theories",
+      "definition": "Sets of statements that explain social phenomena",
+      "level3_question_ids": [
+        349,
+        350,
+        351,
+        393
+      ],
+      "confusable_ids": [
+        "ch01_t08",
+        "ch01_t20",
+        "ch01_t21",
+        "ch01_t10",
+        "ch01_t16"
+      ]
+    },
+    {
+      "id": "ch01_t10",
+      "term": "Paradigm",
+      "definition": "A theoretical framework used to understand social reality",
+      "level3_question_ids": [
+        227,
+        228
+      ],
+      "confusable_ids": [
+        "ch01_t08",
+        "ch01_t09",
+        "ch01_t20",
+        "ch01_t21",
+        "ch01_t16"
+      ]
+    },
+    {
+      "id": "ch01_t11",
+      "term": "Positivism",
+      "definition": "The belief that society operates according to general laws like natural sciences",
+      "level3_question_ids": [
+        356,
+        355,
+        357
+      ],
+      "confusable_ids": [
+        "ch01_t01",
+        "ch01_t03",
+        "ch01_t23",
+        "ch01_t17",
+        "ch01_t24"
+      ]
+    },
+    {
+      "id": "ch01_t12",
+      "term": "Social Darwinism",
+      "definition": "Application of biological evolutionary concepts to human societies",
+      "level3_question_ids": [
+        358,
+        359,
+        360
+      ],
+      "confusable_ids": [
+        "ch01_t03",
+        "ch01_t23",
+        "ch01_t01",
+        "ch01_t07",
+        "ch01_t16"
+      ]
+    },
+    {
+      "id": "ch01_t13",
+      "term": "Structural Functionalism",
+      "definition": "Theory viewing society as a complex system of parts working together",
+      "level3_question_ids": [
+        381,
+        828,
+        829,
+        830,
+        832,
+        841,
+        842
+      ],
+      "confusable_ids": [
+        "ch01_t19",
+        "ch01_t01",
+        "ch01_t03",
+        "ch01_t18",
+        "ch01_t23"
+      ]
+    },
+    {
+      "id": "ch01_t14",
+      "term": "Solidarity",
+      "definition": "Unity or agreement of feeling or action within a group",
+      "level3_question_ids": [
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        840,
+        847,
+        848,
+        849,
+        850,
+        851
+      ],
+      "confusable_ids": [
+        "ch01_t15",
+        "ch01_t16",
+        "ch01_t02",
+        "ch01_t24",
+        "ch01_t04"
+      ]
+    },
+    {
+      "id": "ch01_t15",
+      "term": "Mechanical Solidarity",
+      "definition": "Social cohesion based on shared beliefs and values in traditional societies",
+      "level3_question_ids": [
+        361,
+        362,
+        363,
+        364,
+        366,
+        847,
+        848,
+        850,
+        851
+      ],
+      "confusable_ids": [
+        "ch01_t16",
+        "ch01_t14",
+        "ch01_t08",
+        "ch01_t09",
+        "ch01_t18"
+      ]
+    },
+    {
+      "id": "ch01_t16",
+      "term": "Organic Solidarity",
+      "definition": "Social cohesion based on interdependence in modern societies",
+      "level3_question_ids": [
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        847,
+        849,
+        850,
+        851,
+        840
+      ],
+      "confusable_ids": [
+        "ch01_t15",
+        "ch01_t14",
+        "ch01_t08",
+        "ch01_t09",
+        "ch01_t18"
+      ]
+    },
+    {
+      "id": "ch01_t17",
+      "term": "Anomie",
+      "definition": "A state of normlessness or lack of social norms in society",
+      "level3_question_ids": [
+        362,
+        367,
+        368,
+        369,
+        847,
+        850,
+        851
+      ],
+      "confusable_ids": [
+        "ch01_t01",
+        "ch01_t03",
+        "ch01_t08",
+        "ch01_t09",
+        "ch01_t20"
+      ]
+    },
+    {
+      "id": "ch01_t18",
+      "term": "Empirical",
+      "definition": "Based on observation or experience rather than theory",
+      "level3_question_ids": [
+        370,
+        371,
+        372
+      ],
+      "confusable_ids": [
+        "ch01_t16",
+        "ch01_t26",
+        "ch01_t25",
+        "ch01_t13",
+        "ch01_t15"
+      ]
+    },
+    {
+      "id": "ch01_t19",
+      "term": "Structural",
+      "definition": "Relating to the enduring patterns and organized relationships that shape society",
+      "level3_question_ids": [
+        381,
+        828,
+        829,
+        830,
+        831,
+        832,
+        841,
+        842,
+        853
+      ],
+      "confusable_ids": [
+        "ch01_t13",
+        "ch01_t01",
+        "ch01_t03",
+        "ch01_t20",
+        "ch01_t21"
+      ]
+    },
+    {
+      "id": "ch01_t20",
+      "term": "Manifest Functions",
+      "definition": "Intended and recognized consequences of social patterns",
+      "level3_question_ids": [
+        373,
+        374,
+        375,
+        376,
+        377,
+        378
+      ],
+      "confusable_ids": [
+        "ch01_t21",
+        "ch01_t08",
+        "ch01_t09",
+        "ch01_t10",
+        "ch01_t16"
+      ]
+    },
+    {
+      "id": "ch01_t21",
+      "term": "Latent Functions",
+      "definition": "Unintended and unrecognized consequences of social patterns",
+      "level3_question_ids": [
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        843,
+        844,
+        845
+      ],
+      "confusable_ids": [
+        "ch01_t20",
+        "ch01_t08",
+        "ch01_t09",
+        "ch01_t10",
+        "ch01_t16"
+      ]
+    },
+    {
+      "id": "ch01_t22",
+      "term": "Conflict Theory",
+      "definition": "Perspective focusing on social, political, and material inequality",
+      "level3_question_ids": [
+        227,
+        358,
+        380,
+        381,
+        838,
+        839,
+        840,
+        841,
+        842,
+        379
+      ],
+      "confusable_ids": [
+        "ch01_t25",
+        "ch01_t26",
+        "ch01_t08",
+        "ch01_t09",
+        "ch01_t20"
+      ]
+    },
+    {
+      "id": "ch01_t23",
+      "term": "Social Inequality",
+      "definition": "Unequal distribution of resources and opportunities in society",
+      "level3_question_ids": [
+        382,
+        383,
+        384,
+        828
+      ],
+      "confusable_ids": [
+        "ch01_t03",
+        "ch01_t12",
+        "ch01_t01",
+        "ch01_t17",
+        "ch01_t24"
+      ]
+    },
+    {
+      "id": "ch01_t24",
+      "term": "Alienation",
+      "definition": "Feeling of disconnection from one's work, society, or self",
+      "level3_question_ids": [
+        385,
+        386,
+        387,
+        851
+      ],
+      "confusable_ids": [
+        "ch01_t01",
+        "ch01_t03",
+        "ch01_t23",
+        "ch01_t14",
+        "ch01_t17"
+      ]
+    },
+    {
+      "id": "ch01_t25",
+      "term": "Critical Theory",
+      "definition": "Approach combining social theory and criticism to promote social change",
+      "level3_question_ids": [
+        390,
+        388,
+        389
+      ],
+      "confusable_ids": [
+        "ch01_t22",
+        "ch01_t26",
+        "ch01_t08",
+        "ch01_t09",
+        "ch01_t18"
+      ]
+    },
+    {
+      "id": "ch01_t26",
+      "term": "Symbolic Interactionism",
+      "definition": "Theory focusing on meaning and interaction in social life",
+      "level3_question_ids": [
+        358,
+        381,
+        833,
+        834,
+        835,
+        836,
+        837,
+        838,
+        841,
+        842
+      ],
+      "confusable_ids": [
+        "ch01_t22",
+        "ch01_t25",
+        "ch01_t05",
+        "ch01_t08",
+        "ch01_t09"
+      ]
+    },
+    {
+      "id": "ch01_t27",
+      "term": "Pragmatism",
+      "definition": "Philosophy emphasizing practical consequences of ideas and beliefs",
+      "level3_question_ids": [
+        391,
+        392,
+        393
+      ],
+      "confusable_ids": [
+        "ch01_t20",
+        "ch01_t21",
+        "ch01_t15"
+      ]
+    }
+  ],
+  "chapter_questions": [
+    {
+      "id": 227,
+      "question": "A researcher studying income inequality chooses to focus on how different social classes compete for limited resources and how the wealthy use their power to maintain their advantages. Which paradigm is this researcher most likely using to frame their analysis?",
+      "choices": [
+        "Conflict theory paradigm",
+        "Symbolic interactionist paradigm",
+        "Functionalist paradigm",
+        "Social exchange paradigm"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t22"
+    },
+    {
+      "id": 228,
+      "question": "When examining the same phenomenon of students dropping out of high school, one sociologist focuses on how this affects social stability and the need for educational institutions to adapt, while another examines how dropping out is interpreted differently by students, parents, and teachers. This scenario best demonstrates how:",
+      "choices": [
+        "One paradigm is more scientifically valid than others",
+        "Researchers should avoid using theoretical frameworks",
+        "Social problems have only one correct explanation",
+        "Different paradigms can lead to entirely different research questions and interpretations of the same social issue"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch01_t10"
+    },
+    {
+      "id": 334,
+      "question": "Dr. Martinez observes that college students from upper-class families consistently receive better grades than those from working-class families, even when controlling for test scores and study hours. This systematic investigation of society and social behavior is an example of:",
+      "choices": [
+        "Social psychology",
+        "Sociology",
+        "Cultural anthropology",
+        "Political science"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t01"
+    },
+    {
+      "id": 335,
+      "question": "A researcher wants to study how social media affects teen behavior. She decides to use interviews, surveys, and statistical analysis rather than just personal observation. This approach demonstrates the principles of which field?",
+      "choices": [
+        "Sociology",
+        "Journalism",
+        "Philosophy",
+        "Common sense knowledge"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t01"
+    },
+    {
+      "id": 336,
+      "question": "Which scenario best illustrates sociology as distinct from other social sciences?",
+      "choices": [
+        "Studying voting patterns in elections",
+        "Examining how family structures, economic conditions, and educational systems all interact to affect individual outcomes",
+        "Analyzing psychological factors in decision-making",
+        "Researching historical causes of wars"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t03"
+    },
+    {
+      "id": 337,
+      "question": "Professor Chen studies memory formation in the brain, Dr. Rodriguez analyzes voting behavior, and Dr. Kim examines kinship patterns in traditional societies. Dr. Wilson studies how all these phenomena connect to broader social institutions and structures. Which scholar is most likely working in the social sciences?",
+      "choices": [
+        "Professor Chen only",
+        "Dr. Rodriguez only",
+        "Dr. Kim only",
+        "All except Professor Chen"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch01_t03"
+    },
+    {
+      "id": 338,
+      "question": "A student argues that economics, political science, psychology, and sociology are basically the same field since they all study people. What distinguishes sociology from these other social sciences?",
+      "choices": [
+        "Sociology only studies modern societies",
+        "Sociology focuses exclusively on individual behavior",
+        "Sociology takes a comprehensive, integrative approach to understanding human life across multiple levels and institutions",
+        "Sociology uses only qualitative research methods"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch01_t03"
+    },
+    {
+      "id": 339,
+      "question": "A research team includes an economist studying market trends, a political scientist analyzing election data, a psychologist examining cognitive biases, and a sociologist investigating social movements. What makes the sociologist's approach part of the social sciences?",
+      "choices": [
+        "Only sociology uses scientific methods",
+        "Sociology is the oldest social science",
+        "Sociology examines the social world using scientific methods to understand human behavior in social contexts",
+        "Sociology focuses only on contemporary issues"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch01_t03"
+    },
+    {
+      "id": 340,
+      "question": "Maria, an exchange student from rural Mexico, feels overwhelmed and confused by the fast-paced lifestyle, different social norms, and unfamiliar customs she encounters at an American university. She struggles to understand why students eat alone while walking, why professors are addressed by first names, and why roommates don't share food. Maria is experiencing:",
+      "choices": [
+        "Culture shock",
+        "Social anxiety",
+        "Homesickness",
+        "Academic stress"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t05"
+    },
+    {
+      "id": 341,
+      "question": "An anthropologist studying a remote tribe finds herself initially disturbed by their burial practices, gender roles, and concept of time, but gradually begins to understand their logic within that cultural context. This transformation represents:",
+      "choices": [
+        "Professional development",
+        "Culture shock",
+        "Scientific objectivity",
+        "Cultural relativism"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch01_t05"
+    },
+    {
+      "id": 342,
+      "question": "A sociology student decides to spend a day observing life in a nursing home to better understand aging in America. Despite having visited her grandmother in similar facilities, she finds herself surprised by the complex social hierarchies, informal rules, and daily rituals she hadn't noticed before. What concept does this illustrate?",
+      "choices": [
+        "Participant observation",
+        "The sociological perspective",
+        "Scientific method",
+        "Empathy development"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t04"
+    },
+    {
+      "id": 343,
+      "question": "Dr. Johnson conducts a study examining how teachers interact with individual students during classroom discussions, focusing on patterns of eye contact, response time, and verbal encouragement. This research approach represents:",
+      "choices": [
+        "Microsociology",
+        "Macrosociology",
+        "Psychological analysis",
+        "Educational assessment"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t07"
+    },
+    {
+      "id": 344,
+      "question": "A researcher analyzes conversation patterns between couples during conflict resolution, examining interruptions, silence, and supportive responses. This study focuses on the _____ level of analysis.",
+      "choices": [
+        "Microsociology",
+        "Macrosociology",
+        "Institutional",
+        "Cultural"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t07"
+    },
+    {
+      "id": 345,
+      "question": "Which research question would most likely be approached through microsociology?",
+      "choices": [
+        "How do economic recessions affect national divorce rates?",
+        "How do customers and cashiers negotiate social interactions in grocery store checkout lines?",
+        "What factors influence a country's healthcare policies?",
+        "How do religious institutions shape political movements?"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t07"
+    },
+    {
+      "id": 346,
+      "question": "Professor Williams studies how the rise of social media platforms has transformed dating patterns, marriage rates, and family formation across different countries and social classes. Her approach represents:",
+      "choices": [
+        "Microsociology",
+        "Macrosociology",
+        "Social psychology",
+        "Technology studies"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t08"
+    },
+    {
+      "id": 347,
+      "question": "A sociologist examines how changes in global economic policies affect local employment rates, which in turn influence family stability and community cohesion in small towns. This research exemplifies:",
+      "choices": [
+        "Macrosociology",
+        "Microsociology",
+        "Economic analysis",
+        "Community psychology"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t08"
+    },
+    {
+      "id": 348,
+      "question": "Which research focus would be most characteristic of a macrosociological approach?",
+      "choices": [
+        "How married couples divide household labor",
+        "Conversation patterns in doctor-patient interactions",
+        "How industrialization transformed kinship systems across societies",
+        "Friendship formation among college roommates"
+      ],
+      "correct": 2,
+      "linked_concept_id": null
+    },
+    {
+      "id": 349,
+      "question": "A graduate student proposes that \"social media addiction stems from the psychological need for validation combined with algorithmic design that maximizes engagement.\" Her advisor critiques this as too narrow and suggests incorporating broader social factors. The advisor is encouraging the student to develop better:",
+      "choices": [
+        "Research methods",
+        "Theories",
+        "Data collection",
+        "Writing skills"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t09"
+    },
+    {
+      "id": 350,
+      "question": "Dr. Martinez argues that all social problems can be understood through the lens of economic inequality and class conflict. His colleague Dr. Patel counters that symbolic meanings and cultural interpretations are equally important. This disagreement reflects different:",
+      "choices": [
+        "Research methods",
+        "Theories",
+        "Data sources",
+        "Academic disciplines"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t09"
+    },
+    {
+      "id": 351,
+      "question": "A research team develops a comprehensive model to explain why some social movements succeed while others fail, incorporating factors like resource availability, political opportunities, cultural frames, and organizational structure. This model represents:",
+      "choices": [
+        "Theories",
+        "Hypotheses",
+        "Variables",
+        "Methods"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t09"
+    },
+    {
+      "id": 352,
+      "question": "Professor Jackson teaches her students that sociology encompasses multiple \"lenses\" or \"frameworks\" for understanding society, each offering different insights into social life. She is referring to:",
+      "choices": [
+        "Research methods",
+        "Paradigms",
+        "Statistical techniques",
+        "Data sources"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t01"
+    },
+    {
+      "id": 353,
+      "question": "During a faculty meeting, sociologists debate whether to emphasize quantitative analysis of social trends or qualitative interpretation of social meanings. This discussion reflects differences in:",
+      "choices": [
+        "Paradigms",
+        "Funding sources",
+        "Student preferences",
+        "Administrative policies"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 354,
+      "question": "Two sociology departments have fundamentally different approaches: one emphasizes objective measurement and scientific laws, while the other focuses on subjective interpretation and cultural understanding. These represent different:",
+      "choices": [
+        "Budgets",
+        "Student populations",
+        "Paradigms",
+        "Geographic locations"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch01_t01"
+    },
+    {
+      "id": 355,
+      "question": "A researcher argues that criminal behavior can be understood by identifying measurable social laws that operate like natural laws in physics, allowing us to predict and control crime rates through scientific analysis. This approach reflects:",
+      "choices": [
+        "Positivism",
+        "Interpretivism",
+        "Critical theory",
+        "Postmodernism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t11"
+    },
+    {
+      "id": 356,
+      "question": "Dr. Thompson insists that sociology should follow the same methods as chemistry and biology, using controlled experiments and statistical analysis to discover universal truths about human behavior. Her approach exemplifies:",
+      "choices": [
+        "Humanism",
+        "Positivism",
+        "Relativism",
+        "Constructivism"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t11"
+    },
+    {
+      "id": 357,
+      "question": "A sociologist studies crime rates by collecting arrest data, measuring economic indicators, and using statistical models to identify patterns, believing this will reveal objective truths about criminal behavior. This research philosophy represents:",
+      "choices": [
+        "Positivism",
+        "Phenomenology",
+        "Ethnomethodology",
+        "Symbolic interactionism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t11"
+    },
+    {
+      "id": 358,
+      "question": "Professor Smith argues that modern societies naturally evolve toward greater complexity and efficiency, with less successful social arrangements disappearing over time, just like biological evolution. This perspective reflects:",
+      "choices": [
+        "Functionalism",
+        "Social Darwinism",
+        "Conflict theory",
+        "Symbolic interactionism"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t26"
+    },
+    {
+      "id": 359,
+      "question": "A policy analyst argues that welfare programs should be eliminated because they interfere with natural social selection, claiming that helping the poor prevents society from becoming stronger through the survival of the most capable individuals. This reasoning reflects:",
+      "choices": [
+        "Social Darwinism",
+        "Social justice theory",
+        "Humanitarian ethics",
+        "Economic liberalism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t12"
+    },
+    {
+      "id": 360,
+      "question": "During the late 1800s, some scholars argued that wealthy nations and social classes achieved their positions through superior adaptation, while poor societies and individuals failed because they were less fit. This reasoning exemplifies:",
+      "choices": [
+        "Social Darwinism",
+        "Marxist theory",
+        "Liberal humanism",
+        "Democratic socialism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t12"
+    },
+    {
+      "id": 361,
+      "question": "An anthropologist studying a small farming village in rural Peru observes that community members share similar beliefs about family obligations, religious practices, and moral values, which creates strong unity among them. Durkheim would describe their social bonds as:",
+      "choices": [
+        "Mechanical solidarity",
+        "Organic solidarity",
+        "Social cohesion",
+        "Cultural integration"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t15"
+    },
+    {
+      "id": 362,
+      "question": "In a traditional Amish community, members share the same religious beliefs, follow identical customs, dress alike, and hold similar values about work and family. According to Durkheim, this community exhibits:",
+      "choices": [
+        "Organic solidarity",
+        "Mechanical solidarity",
+        "Anomie",
+        "Social dysfunction"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t15"
+    },
+    {
+      "id": 363,
+      "question": "A sociologist studying a remote indigenous tribe finds that all members participate in the same rituals, hold identical beliefs about the spiritual world, and follow the same customs for marriage and child-rearing. This represents what Durkheim called:",
+      "choices": [
+        "Mechanical solidarity",
+        "Organic solidarity",
+        "Cultural relativism",
+        "Social integration"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t15"
+    },
+    {
+      "id": 364,
+      "question": "In a modern city, a software programmer depends on farmers for food, mechanics for car repair, doctors for healthcare, teachers for education, and countless other specialists. According to Durkheim, her connection to society demonstrates:",
+      "choices": [
+        "Mechanical solidarity",
+        "Organic solidarity",
+        "Social complexity",
+        "Urban interdependence"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t15"
+    },
+    {
+      "id": 365,
+      "question": "A hospital functions because doctors, nurses, technicians, administrators, custodians, and food service workers each perform different specialized roles that complement each other. Durkheim would say this illustrates:",
+      "choices": [
+        "Organic solidarity",
+        "Mechanical solidarity",
+        "Anomie",
+        "Professional hierarchy"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t16"
+    },
+    {
+      "id": 366,
+      "question": "In contemporary society, a teacher needs farmers, manufacturers, transporters, and retailers to provide her daily necessities, while others depend on her educational services. This mutual dependence represents:",
+      "choices": [
+        "Organic solidarity",
+        "Mechanical solidarity",
+        "Social exchange",
+        "Economic relationships"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t15"
+    },
+    {
+      "id": 367,
+      "question": "During a period of rapid social change, many people report feeling disconnected from traditional values, unsure about moral standards, and confused about their place in society. Durkheim would describe this condition as:",
+      "choices": [
+        "Social disorganization",
+        "Anomie",
+        "Cultural lag",
+        "Identity crisis"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t02"
+    },
+    {
+      "id": 368,
+      "question": "A sociologist studying suicide rates discovers they increase during economic recessions and social upheavals when people lose their jobs, move frequently, and traditional institutions weaken. This pattern reflects what Durkheim called:",
+      "choices": [
+        "Anomie",
+        "Social integration",
+        "Cultural change",
+        "Economic determinism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t17"
+    },
+    {
+      "id": 369,
+      "question": "After a major natural disaster destroys much of a community, residents report feeling lost, uncertain about the future, and disconnected from their normal social relationships and routines. This represents:",
+      "choices": [
+        "Trauma response",
+        "Anomie",
+        "Social disintegration",
+        "Community breakdown"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t17"
+    },
+    {
+      "id": 370,
+      "question": "A researcher uses statistical analysis, controlled experiments, and measurable observations to test hypotheses about social behavior, believing this approach will reveal objective truths. This methodology represents:",
+      "choices": [
+        "Qualitative research",
+        "Empirical research",
+        "Theoretical analysis",
+        "Interpretive sociology"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t01"
+    },
+    {
+      "id": 371,
+      "question": "Dr. Chen argues that sociological knowledge should come from direct observation and measurement rather than abstract philosophical reasoning or untested assumptions. Her approach emphasizes:",
+      "choices": [
+        "Empirical methods",
+        "Theoretical speculation",
+        "Intuitive understanding",
+        "Cultural interpretation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t18"
+    },
+    {
+      "id": 372,
+      "question": "A study of workplace discrimination collects data through surveys, interviews, salary records, and promotion statistics rather than relying solely on theoretical assumptions. This research approach is:",
+      "choices": [
+        "Empirical",
+        "Speculative",
+        "Normative",
+        "Philosophical"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t18"
+    },
+    {
+      "id": 373,
+      "question": "A school principal implements a new attendance policy intending to reduce truancy rates. However, the policy also inadvertently increases student stress, parent complaints, and administrative workload. The unintended consequences represent:",
+      "choices": [
+        "Manifest functions",
+        "Latent functions",
+        "Policy failures",
+        "Implementation problems"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t20"
+    },
+    {
+      "id": 374,
+      "question": "Universities are designed to educate students and conduct research, but they also serve as marriage markets where many people meet their future spouses. This secondary outcome illustrates:",
+      "choices": [
+        "Latent functions",
+        "Manifest functions",
+        "Institutional drift",
+        "Social benefits"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t20"
+    },
+    {
+      "id": 375,
+      "question": "A researcher studying public schools identifies both their intended educational goals and their unexpected role in providing childcare for working parents. The childcare function represents:",
+      "choices": [
+        "Manifest functions",
+        "Latent functions",
+        "Hidden curriculum",
+        "Social services"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t20"
+    },
+    {
+      "id": 376,
+      "question": "Congress passes a law requiring all children to attend school until age 16, with the explicit goal of ensuring basic literacy and numeracy. This intended purpose represents:",
+      "choices": [
+        "Manifest functions",
+        "Latent functions",
+        "Educational policy",
+        "Social control"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t20"
+    },
+    {
+      "id": 377,
+      "question": "A community builds a new library with the stated purpose of providing books and internet access to residents. This intended goal illustrates:",
+      "choices": [
+        "Manifest functions",
+        "Latent functions",
+        "Public services",
+        "Community resources"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t20"
+    },
+    {
+      "id": 378,
+      "question": "City planners design a public park specifically to provide recreation space and improve air quality in an urban neighborhood. These stated objectives represent:",
+      "choices": [
+        "Latent functions",
+        "Manifest functions",
+        "Urban planning",
+        "Environmental benefits"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t20"
+    },
+    {
+      "id": 379,
+      "question": "Dr. Rodriguez argues that society is best understood by examining how wealthy elites use their power to maintain advantages over working-class people, leading to ongoing struggles between these groups. Her perspective reflects:",
+      "choices": [
+        "Functionalism",
+        "Conflict theory",
+        "Symbolic interactionism",
+        "Social psychology"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t22"
+    },
+    {
+      "id": 380,
+      "question": "A sociologist studying healthcare finds that expensive medical treatments are readily available to the wealthy while the poor often go without basic care, creating ongoing tension between social classes. This analysis exemplifies:",
+      "choices": [
+        "Conflict theory",
+        "Functionalist theory",
+        "Medical sociology",
+        "Health economics"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t22"
+    },
+    {
+      "id": 381,
+      "question": "Professor Williams teaches that society is characterized by ongoing competition for scarce resources, with dominant groups using their power to exploit subordinate groups. Her theoretical approach represents:",
+      "choices": [
+        "Structural functionalism",
+        "Conflict theory",
+        "Symbolic interactionism",
+        "Social exchange theory"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t13"
+    },
+    {
+      "id": 382,
+      "question": "A study reveals significant disparities in educational funding between wealthy suburban districts and poor urban districts, with the wealthy districts consistently receiving more resources per student. This finding illustrates:",
+      "choices": [
+        "Structural functionalism",
+        "Social inequality",
+        "Resource allocation",
+        "Policy differences"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t23"
+    },
+    {
+      "id": 383,
+      "question": "Research shows that CEOs earn 300 times more than average workers, while many full-time employees qualify for food stamps due to low wages. This situation demonstrates:",
+      "choices": [
+        "Social inequality",
+        "Market forces",
+        "Economic efficiency",
+        "Wage structures"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t23"
+    },
+    {
+      "id": 384,
+      "question": "A sociologist finds that children from wealthy families are more likely to attend elite universities, get high-paying jobs, and maintain their class position, while children from poor families face barriers at each step. This pattern reflects:",
+      "choices": [
+        "Social inequality",
+        "Individual differences",
+        "Educational variation",
+        "Career paths"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t23"
+    },
+    {
+      "id": 385,
+      "question": "Factory workers report feeling disconnected from their work because they only perform small, repetitive tasks and never see the final product they help create. Marx would describe their experience as:",
+      "choices": [
+        "Job dissatisfaction",
+        "Alienation",
+        "Worker exploitation",
+        "Industrial monotony"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t24"
+    },
+    {
+      "id": 386,
+      "question": "A software programmer works for a large tech company, writing code that generates millions in profits, but she feels no ownership or control over the products she helps create. Her experience reflects what Marx called:",
+      "choices": [
+        "Alienation",
+        "Economic exploitation",
+        "Job specialization",
+        "Corporate hierarchy"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t24"
+    },
+    {
+      "id": 387,
+      "question": "An assembly line worker spends eight hours a day installing the same car part repeatedly, never seeing the completed vehicle or benefiting directly from the cars his labor helps produce. Marx would identify this as:",
+      "choices": [
+        "Alienation",
+        "Division of labor",
+        "Industrial efficiency",
+        "Repetitive work"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t24"
+    },
+    {
+      "id": 388,
+      "question": "Professor Jackson combines insights from sociology, economics, and political science to analyze how mass media shapes public opinion, serves corporate interests, and potentially undermines democratic processes. Her interdisciplinary approach reflects:",
+      "choices": [
+        "Conflict theory",
+        "Critical theory",
+        "Media studies",
+        "Political sociology"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t25"
+    },
+    {
+      "id": 389,
+      "question": "A research team examines how advertising, entertainment media, and social media work together to promote consumerism while obscuring environmental costs and social inequality. Their analysis represents:",
+      "choices": [
+        "Critical theory",
+        "Media analysis",
+        "Cultural studies",
+        "Communication research"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t25"
+    },
+    {
+      "id": 390,
+      "question": "Scholars argue that standardized testing, tracking systems, and school funding mechanisms work together to maintain racial and class advantages in education while appearing meritocratic. This analysis reflects:",
+      "choices": [
+        "Educational research",
+        "Policy analysis",
+        "Critical theory",
+        "School sociology"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch01_t25"
+    },
+    {
+      "id": 391,
+      "question": "A philosophy professor emphasizes that knowledge comes from practical experience and that ideas should be judged by their usefulness in solving real-world problems rather than their abstract logical consistency. This approach reflects:",
+      "choices": [
+        "Idealism",
+        "Pragmatism",
+        "Empiricism",
+        "Rationalism"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t27"
+    },
+    {
+      "id": 392,
+      "question": "A social worker argues that the best social programs are those that work effectively in practice, regardless of their theoretical foundations or political appeal. Her approach embodies:",
+      "choices": [
+        "Pragmatism",
+        "Idealism",
+        "Professionalism",
+        "Realism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t27"
+    },
+    {
+      "id": 393,
+      "question": "A city planner evaluates proposed public transportation systems based on whether they actually improve residents' daily lives rather than whether they conform to urban planning theories. This decision-making approach represents:",
+      "choices": [
+        "Evidence-based policy",
+        "Pragmatism",
+        "Practical management",
+        "Cost-benefit analysis"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch01_t27"
+    },
+    {
+      "id": 813,
+      "question": "Which of the following best describes the sociological perspective?",
+      "choices": [
+        "Understanding how social forces and institutions influence behavior.",
+        "Focusing on individual motivations and cognitive processes.",
+        "Examining historical development of institutions and practices.",
+        "Using biological principles to explain social behavior origins."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t04"
+    },
+    {
+      "id": 814,
+      "question": "How does sociological research influence the way we understand human behavior in society?",
+      "choices": [
+        "By revealing how social structures and cultural norms shape individual choices and actions.",
+        "By focusing primarily on innate biological drives and instincts that guide human behavior.",
+        "By emphasizing the unique personality traits and psychological profiles of individuals.",
+        "By tracing the historical evolution of human behavior patterns across different societies."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t02"
+    },
+    {
+      "id": 815,
+      "question": "What is the primary focus of sociological interpretation of human societies?",
+      "choices": [
+        "The ways in which social institutions interact and influence individuals and social outcomes.",
+        "The cultural variations and unique historical trajectories of different societies.",
+        "The psychological development and individual experiences within a society.",
+        "The biological basis of social behavior and the role of genetics."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t02"
+    },
+    {
+      "id": 816,
+      "question": "How does the sociological lens allow for a deeper understanding of societies?",
+      "choices": [
+        "By examining the interplay of social forces and their influence on individual and group behavior.",
+        "By concentrating on the individual's conscious choices and motivations as the primary drivers of social change.",
+        "By applying universal psychological principles to explain behavior across all cultures.",
+        "By studying the physical environment and its impact on the development of societies."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 817,
+      "question": "What is the focal point of sociological analysis?",
+      "choices": [
+        "The patterns of social interaction and the organization of social life.",
+        "The individual's internal thoughts, feelings, and motivations.",
+        "The geographical and environmental factors that shape societies.",
+        "The biological and genetic basis of human social behavior."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 818,
+      "question": "What is the primary emphasis of many conflict sociologists when studying society?",
+      "choices": [
+        "Analyzing how economic power relations shape social class and inequality.",
+        "Examining the role of cultural values and beliefs in maintaining social order.",
+        "Understanding how individual agency and choice shape social outcomes.",
+        "Investigating the impact of technological innovations on social change."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t02"
+    },
+    {
+      "id": 819,
+      "question": "According to conflict sociologists, what plays a pivotal role in shaping society?",
+      "choices": [
+        "The mode of production and the distribution of economic resources.",
+        "The shared values and norms that create social cohesion.",
+        "The psychological needs and motivations of individuals.",
+        "The level of technological development within a society."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t02"
+    },
+    {
+      "id": 820,
+      "question": "How do conflict sociologists interpret the interaction among societal structures?",
+      "choices": [
+        "As a struggle between different economic classes for control of resources.",
+        "As a process of negotiation and compromise between competing interest groups.",
+        "As a reflection of the underlying psychological dynamics of individuals.",
+        "As a system of interconnected parts that function to maintain equilibrium."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 821,
+      "question": "From a conflict perspective, what is the primary function of societal norms?",
+      "choices": [
+        "Reinforcing existing economic inequalities.",
+        "Creating consensus through social interaction.",
+        "Reflecting universal human needs and values.",
+        "Adapting to changing environmental conditions."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 822,
+      "question": "Which perspective most aligns with the macro-level view of conflict sociologists?",
+      "choices": [
+        "Social change is driven by economic forces and class conflict.",
+        "Social order is maintained through shared cultural values and norms.",
+        "Individual actions and choices are the primary determinants of social outcomes.",
+        "Technological innovation is the key to societal progress and development."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 823,
+      "question": "A significant increase in crime was recently reported in a city. Applying your sociological imagination, which of the following would be the MOST relevant factor to consider initially?",
+      "choices": [
+        "the societal norms, economic conditions, and opportunities available in the city",
+        "the individual moral failings of those committing the crimes",
+        "the differences in average intelligence levels between criminals and non-criminals",
+        "the effectiveness of the city's police force and criminal justice system"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t06"
+    },
+    {
+      "id": 824,
+      "question": "A rural village is suddenly experiencing a high turnover in teachers. To apply sociological imagination to this situation, what's the primary aspect you would focus on?",
+      "choices": [
+        "the availability of resources, working conditions, and community support",
+        "the individual commitment and personal characteristics of each teacher",
+        "the academic performance and behavior patterns of the students",
+        "the cultural differences between the teachers and village residents."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t06"
+    },
+    {
+      "id": 825,
+      "question": "High levels of pollution have been reported in a city of 30 million people. If you are to apply sociological imagination, what would be the primary aspect you'd examine?",
+      "choices": [
+        "the relationship between industrial development and regulations",
+        "the individual choices of citizens regarding consumption patterns",
+        "the level of scientific understanding among city officials",
+        "the effectiveness of public awareness campaigns about pollution."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t06"
+    },
+    {
+      "id": 826,
+      "question": "A country has seen a consistent decrease in voter turnout over the last ten years. Applying your sociological imagination, which factor would you consider first?",
+      "choices": [
+        "the accessibility of voting, public trust, and party influence",
+        "the apathy and lack of civic responsibility among citizens",
+        "the level of education and political knowledge in the population",
+        "the influence of social media and spread of misinformation."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t06"
+    },
+    {
+      "id": 827,
+      "question": "In a small town, a rise in the number of homeless people has been noticed. When applying sociological imagination, which element would be your first point of investigation?",
+      "choices": [
+        "the availability of housing, employment, and social services",
+        "the personal circumstances and individual choices of each person",
+        "the prevalence of mental illness and substance abuse issues",
+        "the effectiveness of local charities and shelters available."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t06"
+    },
+    {
+      "id": 828,
+      "question": "A key critique of structural functionalism is its assumption that:",
+      "choices": [
+        "Social inequality is a necessary component of a functioning society",
+        "Individual agency is the primary force shaping social structures",
+        "Cultural values and beliefs play little role in maintaining social order",
+        "Micro-level interactions matter more than macro-level structures"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t13"
+    },
+    {
+      "id": 829,
+      "question": "Critics argue that structural functionalism struggles to explain:",
+      "choices": [
+        "Rapid social change and revolutionary movements.",
+        "The stability and persistence of social institutions over time.",
+        "The functions of various social roles and norms.",
+        "The interconnectedness of different parts of society."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t13"
+    },
+    {
+      "id": 830,
+      "question": "Which of the following is a common critique of structural functionalism's concept of social equilibrium?",
+      "choices": [
+        "It underestimates the potential for conflict and competition in society.",
+        "It overstates the importance of individual agency in disrupting social order.",
+        "It fails to account for the role of power and inequality in maintaining equilibrium.",
+        "It neglects the influence of external factors, such as environmental changes, on social systems."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t13"
+    },
+    {
+      "id": 831,
+      "question": "How might a conflict theorist critique the structural functionalist perspective on social institutions?",
+      "choices": [
+        "By arguing that institutions often serve the interests of powerful groups at the expense of others.",
+        "By suggesting that institutions primarily function to promote social harmony and consensus.",
+        "By emphasizing the role of individual agency in shaping the structure of institutions.",
+        "By focusing on the unintended consequences of institutional actions."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t19"
+    },
+    {
+      "id": 832,
+      "question": "Structural functionalism has been criticized for its lack of attention to:",
+      "choices": [
+        "The role of power, inequality and social conflict in shaping society.",
+        "The importance of social cohesion and shared values in maintaining stability.",
+        "The functions of various social institutions in meeting societal needs.",
+        "The interconnectedness of different parts of the social system."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t13"
+    },
+    {
+      "id": 833,
+      "question": "According to symbolic interactionism, how are societal norms primarily constructed?",
+      "choices": [
+        "Through ongoing social interactions and the shared meanings individuals assign to symbols.",
+        "Through the inherent biological predispositions of individuals within a society.",
+        "Through top-down directives imposed by powerful institutions and authorities.",
+        "Through the objective observation and scientific analysis of social behavior."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t26"
+    },
+    {
+      "id": 834,
+      "question": "In the framework of symbolic interactionism, how are religious beliefs often established and reinforced?",
+      "choices": [
+        "Through rituals, shared symbols, and interactions within religious communities.",
+        "Through innate spiritual instincts and a universal human desire for transcendence.",
+        "Through individual contemplation and personal experiences of the divine.",
+        "Through the rational evaluation of theological arguments and evidence."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t26"
+    },
+    {
+      "id": 835,
+      "question": "According to symbolic interactionism, our understanding of objects in everyday life is primarily derived from:",
+      "choices": [
+        "The meanings attributed to those objects through social interaction and cultural context.",
+        "The inherent physical properties and objective characteristics of the objects themselves.",
+        "The universal archetypes and symbols embedded in the collective unconscious.",
+        "The scientific classification and analysis of objects based on their composition and function."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t26"
+    },
+    {
+      "id": 836,
+      "question": "How does symbolic interactionism explain the process of learning a language?",
+      "choices": [
+        "As a process of symbolic interaction where meaning is co-created through communication with others.",
+        "As an innate biological process determined by genetic factors and brain development.",
+        "As a primarily cognitive process of individual learning and information processing.",
+        "As a process of cultural transmission where language is passed down unchanged through generations."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t26"
+    },
+    {
+      "id": 837,
+      "question": "Symbolic interactionism posits that our perception of reality is primarily:",
+      "choices": [
+        "Socially constructed through interaction and the interpretation of shared symbols.",
+        "Determined by objective facts and universal truths independent of human interpretation.",
+        "Shaped by individual psychological factors and personal experiences.",
+        "A product of evolutionary adaptation and biological hardwiring of the brain."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t26"
+    },
+    {
+      "id": 838,
+      "question": "Which sociological perspective emphasizes the interconnectedness of social institutions and their contribution to societal stability and order?",
+      "choices": [
+        "Functionalism",
+        "Conflict theory",
+        "Symbolic interactionism",
+        "Postmodernism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t04"
+    },
+    {
+      "id": 839,
+      "question": "Which sociological perspective views social institutions as primarily functioning to maintain societal equilibrium and meet basic societal needs?",
+      "choices": [
+        "Functionalism",
+        "Conflict theory",
+        "Exchange theory",
+        "Phenomenology"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t04"
+    },
+    {
+      "id": 840,
+      "question": "The concept of organic solidarity, where societal cohesion arises from interdependence and specialized roles, is central to which sociological theory?",
+      "choices": [
+        "Functionalism",
+        "Conflict theory",
+        "Symbolic interactionism",
+        "Postmodernism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t16"
+    },
+    {
+      "id": 841,
+      "question": "Which theoretical perspective would analyze a school as a social institution that reproduces existing social inequalities through tracking, differential access to resources, and hidden curriculum?",
+      "choices": [
+        "Conflict theory",
+        "Structural functionalism",
+        "Symbolic interactionism",
+        "Feminist theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t13"
+    },
+    {
+      "id": 842,
+      "question": "A researcher studying how religious institutions reinforce social hierarchies and power dynamics is likely applying which sociological perspective?",
+      "choices": [
+        "Conflict theory",
+        "Structural functionalism",
+        "Symbolic interactionism",
+        "Phenomenology"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t04"
+    },
+    {
+      "id": 843,
+      "question": "Which scenario best exemplifies a latent function of a high school football team?",
+      "choices": [
+        "Creating social networking opportunities that lead to future business connections among parents",
+        "Fielding a competitive team to win games against rival schools",
+        "Developing physical fitness and athletic skills in players",
+        "Teaching strategic thinking and teamwork to players and coaches"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t21"
+    },
+    {
+      "id": 844,
+      "question": "Which of the following BEST illustrates a latent function of frequenting a local coffee shop?",
+      "choices": [
+        "Providing a space for informal social interaction and community building",
+        "Offering a convenient location to purchase caffeinated beverages",
+        "Displaying the menu of available drinks and food items",
+        "Generating revenue for the business owner"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t21"
+    },
+    {
+      "id": 845,
+      "question": "Which of the following is a latent function of online social media platforms?",
+      "choices": [
+        "Facilitating the spread of social movements and political mobilization",
+        "Allowing individuals to connect with friends and family members",
+        "Enabling businesses to advertise products and services to consumers",
+        "Providing a platform for sharing personal updates and experiences"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t21"
+    },
+    {
+      "id": 846,
+      "question": "What latent function might be served by participating in a community garden?",
+      "choices": [
+        "Strengthening social bonds and fostering a sense of community belonging.",
+        "Providing fresh produce and promoting healthy eating habits.",
+        "Learning about gardening techniques and sustainable agriculture.",
+        "Beautifying the neighborhood and increasing property values."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 847,
+      "question": "Durkheim argues that societies characterized by complex divisions of labor and interdependence are held together by:",
+      "choices": [
+        "Organic solidarity",
+        "Mechanical solidarity",
+        "Collective effervescence",
+        "Anomie"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t15"
+    },
+    {
+      "id": 848,
+      "question": "Durkheim used the term mechanical solidarity to describe social cohesion based on:",
+      "choices": [
+        "Shared experiences, values, and traditions.",
+        "Interdependence and specialized roles.",
+        "Formal laws and regulations enforced by the state.",
+        "Individual self-interest and rational calculation."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t15"
+    },
+    {
+      "id": 849,
+      "question": "According to Durkheim, a society characterized by organic solidarity exhibits which of the following features?",
+      "choices": [
+        "High levels of specialization and differentiation of labor.",
+        "A strong collective conscience and shared moral values.",
+        "Limited social mobility and rigid social hierarchies.",
+        "Homogeneity in beliefs and practices among its members."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t16"
+    },
+    {
+      "id": 850,
+      "question": "Durkheim argued that the increasing complexity of modern societies leads to a shift from:",
+      "choices": [
+        "Mechanical solidarity to organic solidarity.",
+        "Organic solidarity to mechanical solidarity.",
+        "Anomie to social integration.",
+        "Collective effervescence to individualism."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t15"
+    },
+    {
+      "id": 851,
+      "question": "If individuals in a society are primarily bound together by shared traditions, beliefs, and experiences, Durkheim would characterize this as:",
+      "choices": [
+        "Mechanical solidarity.",
+        "Organic solidarity.",
+        "Anomie and normlessness.",
+        "Social alienation."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t15"
+    },
+    {
+      "id": 852,
+      "question": "A sociologist studying the impact of globalization on national identity is most likely a:",
+      "choices": [
+        "Macrosociologist",
+        "Microsociologist",
+        "Symbolic interactionist",
+        "Conflict theorist"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 853,
+      "question": "A researcher analyzing the power dynamics within a small community organization is likely employing a:",
+      "choices": [
+        "Microsociological perspective",
+        "Macrosociological perspective",
+        "Structural functionalist perspective",
+        "Postmodernist perspective"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t19"
+    },
+    {
+      "id": 854,
+      "question": "Which of the following research topics best exemplifies a microsociological approach?",
+      "choices": [
+        "The nonverbal communication patterns during doctor-patient interactions.",
+        "The historical evolution of the healthcare system in the United States.",
+        "The impact of social class on access to healthcare resources.",
+        "The role of the pharmaceutical industry in shaping healthcare policy."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 855,
+      "question": "A sociologist studying how national media industries shape cultural standards of beauty across society is likely using which level of analysis?",
+      "choices": [
+        "Macrosociological",
+        "Microsociological",
+        "Cultural analysis",
+        "Psychological analysis"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t02"
+    },
+    {
+      "id": 856,
+      "question": "If a researcher is examining how changes in economic policy affect national unemployment rates, they are likely a:",
+      "choices": [
+        "Macrosociologist",
+        "Microsociologist",
+        "Symbolic interactionist",
+        "Feminist theorist"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 857,
+      "question": "Sociologists argue that personal troubles, such as unemployment or divorce, should be understood in relation to broader social issues.  This perspective emphasizes the importance of:",
+      "choices": [
+        "The sociological imagination.",
+        "Individual responsibility.",
+        "Psychological factors.",
+        "Biological determinism."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch01_t06"
+    },
+    {
+      "id": 858,
+      "question": "Analyzing the historical development of beauty standards across different cultures demonstrates how:",
+      "choices": [
+        "Societal factors shape seemingly personal preferences.",
+        "Individual choices are independent of cultural influences.",
+        "Beauty is a universal and objective concept.",
+        "Biological factors solely determine perceptions of attractiveness."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 859,
+      "question": "Examining how access to quality education varies by social class illustrates that:",
+      "choices": [
+        "Opportunities are often shaped by social structures and inequalities.",
+        "Educational attainment is solely determined by individual merit and effort.",
+        "Social class is irrelevant in achieving academic success.",
+        "Educational institutions are inherently meritocratic."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 860,
+      "question": "A sociological analysis of the rising rates of obesity would likely focus on:",
+      "choices": [
+        "The interplay of cultural norms, economics, and food systems.",
+        "Individual choices regarding diet, exercise, and lifestyle habits.",
+        "The natural evolution of human dietary preferences over time.",
+        "The psychological motivations underlying eating behaviors."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    }
+  ]
+}

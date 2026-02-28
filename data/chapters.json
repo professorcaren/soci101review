@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ch01",
+    "name": "Sociological Perspective",
+    "order": 1
+  },
+  {
+    "id": "ch02",
+    "name": "Research Methods",
+    "order": 2
+  },
+  {
+    "id": "ch03",
+    "name": "Culture",
+    "order": 3
+  },
+  {
+    "id": "ch04",
+    "name": "Socialization",
+    "order": 4
+  },
+  {
+    "id": "ch05",
+    "name": "Groups",
+    "order": 5
+  },
+  {
+    "id": "ch06",
+    "name": "Deviance",
+    "order": 6
+  },
+  {
+    "id": "ch07",
+    "name": "Social Stratification",
+    "order": 7
+  },
+  {
+    "id": "ch08",
+    "name": "Race and Ethnicity",
+    "order": 8
+  },
+  {
+    "id": "ch09",
+    "name": "Gender",
+    "order": 9
+  },
+  {
+    "id": "ch10",
+    "name": "Religion",
+    "order": 10
+  },
+  {
+    "id": "ch11",
+    "name": "Social Institutions",
+    "order": 11
+  },
+  {
+    "id": "ch12",
+    "name": "Economy and Work",
+    "order": 12
+  },
+  {
+    "id": "ch13",
+    "name": "Family",
+    "order": 13
+  },
+  {
+    "id": "ch14",
+    "name": "Media",
+    "order": 14
+  },
+  {
+    "id": "ch15",
+    "name": "Health",
+    "order": 15
+  },
+  {
+    "id": "ch16",
+    "name": "Population",
+    "order": 16
+  }
+]

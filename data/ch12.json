@@ -1,0 +1,871 @@
+{
+  "id": "ch12",
+  "name": "Economy and Work",
+  "order": 12,
+  "concepts": [
+    {
+      "id": "ch12_t01",
+      "term": "Agricultural Revolution",
+      "definition": "Social and economic changes following the domestication of plants and animals and increased food production efficiency",
+      "level3_question_ids": [
+        861,
+        862,
+        863
+      ],
+      "confusable_ids": [
+        "ch12_t03",
+        "ch12_t02",
+        "ch12_t14",
+        "ch12_t15",
+        "ch12_t08"
+      ]
+    },
+    {
+      "id": "ch12_t02",
+      "term": "Industrial Revolution",
+      "definition": "Social transformation resulting from technological developments including assembly lines, steam power, and urbanization",
+      "level3_question_ids": [
+        861,
+        862,
+        863
+      ],
+      "confusable_ids": [
+        "ch12_t03",
+        "ch12_t01",
+        "ch12_t11"
+      ]
+    },
+    {
+      "id": "ch12_t03",
+      "term": "Information Revolution",
+      "definition": "Social change from microchip development in the 1970s, shifting from goods production to knowledge and services",
+      "level3_question_ids": [
+        861,
+        862,
+        863
+      ],
+      "confusable_ids": [
+        "ch12_t01",
+        "ch12_t02",
+        "ch12_t05",
+        "ch12_t06"
+      ]
+    },
+    {
+      "id": "ch12_t04",
+      "term": "Knowledge Work",
+      "definition": "Work producing economic value through ideas, analyses, designs, or innovations rather than physical labor",
+      "level3_question_ids": [
+        563,
+        864
+      ],
+      "confusable_ids": [
+        "ch12_t05",
+        "ch12_t15",
+        "ch12_t06",
+        "ch12_t14",
+        "ch12_t09"
+      ]
+    },
+    {
+      "id": "ch12_t05",
+      "term": "Service Work",
+      "definition": "Work providing services to businesses or consumers rather than manufacturing goods",
+      "level3_question_ids": [
+        864
+      ],
+      "confusable_ids": [
+        "ch12_t04",
+        "ch12_t03",
+        "ch12_t15",
+        "ch12_t06"
+      ]
+    },
+    {
+      "id": "ch12_t06",
+      "term": "Alienation",
+      "definition": "Marx's concept of worker dissatisfaction from producing goods owned and controlled by others",
+      "level3_question_ids": [
+        568,
+        569,
+        570,
+        571,
+        572,
+        573,
+        574,
+        575
+      ],
+      "confusable_ids": [
+        "ch12_t05",
+        "ch12_t10",
+        "ch12_t03",
+        "ch12_t04",
+        "ch12_t07"
+      ]
+    },
+    {
+      "id": "ch12_t07",
+      "term": "Rationalization",
+      "definition": "Weber's concept of replacing traditional motivations with calculated ones, creating efficient but depersonalized systems",
+      "level3_question_ids": [
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587
+      ],
+      "confusable_ids": [
+        "ch12_t06"
+      ]
+    },
+    {
+      "id": "ch12_t08",
+      "term": "McDonaldization",
+      "definition": "Ritzer's theory of how fast-food principles (efficiency, calculability, predictability, control) dominate society",
+      "level3_question_ids": [
+        576,
+        577,
+        578,
+        579,
+        580
+      ],
+      "confusable_ids": [
+        "ch12_t09",
+        "ch12_t01"
+      ]
+    },
+    {
+      "id": "ch12_t09",
+      "term": "Resistance Strategies",
+      "definition": "Methods workers use to express job discontent and reclaim control over their labor conditions",
+      "level3_question_ids": [
+        865
+      ],
+      "confusable_ids": [
+        "ch12_t13",
+        "ch12_t15",
+        "ch12_t10",
+        "ch12_t08",
+        "ch12_t04"
+      ]
+    },
+    {
+      "id": "ch12_t10",
+      "term": "Union",
+      "definition": "Worker association that collectively bargains for wages, benefits, and improved working conditions",
+      "level3_question_ids": [
+        556,
+        557,
+        558,
+        559,
+        560,
+        865,
+        866
+      ],
+      "confusable_ids": [
+        "ch12_t11",
+        "ch12_t06",
+        "ch12_t09"
+      ]
+    },
+    {
+      "id": "ch12_t11",
+      "term": "Sweatshop",
+      "definition": "Workplace with extreme worker exploitation including substandard wages, excessive hours, and hazardous conditions",
+      "level3_question_ids": [
+        594
+      ],
+      "confusable_ids": [
+        "ch12_t10",
+        "ch12_t06",
+        "ch12_t09",
+        "ch12_t02"
+      ]
+    },
+    {
+      "id": "ch12_t12",
+      "term": "Outsourcing",
+      "definition": "Transferring labor to another country that a company might otherwise have performed in-house, typically for cost savings",
+      "level3_question_ids": [
+        596,
+        597,
+        598,
+        599
+      ],
+      "confusable_ids": [
+        "ch12_t09",
+        "ch12_t04"
+      ]
+    },
+    {
+      "id": "ch12_t13",
+      "term": "Contingent Workforce",
+      "definition": "Workers in temporary or freelance positions without long-term employment contracts",
+      "level3_question_ids": [
+        866,
+        588
+      ],
+      "confusable_ids": [
+        "ch12_t15",
+        "ch12_t09"
+      ]
+    },
+    {
+      "id": "ch12_t14",
+      "term": "Globalization",
+      "definition": "Cultural and economic changes from increased international trade and exchange in recent decades",
+      "level3_question_ids": [
+        599,
+        867
+      ],
+      "confusable_ids": [
+        "ch12_t01",
+        "ch12_t15",
+        "ch12_t04"
+      ]
+    },
+    {
+      "id": "ch12_t15",
+      "term": "Third Sector",
+      "definition": "Economic segment of nonprofit organizations with mission-driven rather than profit-driven workers",
+      "level3_question_ids": [
+        868
+      ],
+      "confusable_ids": [
+        "ch12_t04",
+        "ch12_t05",
+        "ch12_t13",
+        "ch12_t14",
+        "ch12_t09"
+      ]
+    }
+  ],
+  "chapter_questions": [
+    {
+      "id": 556,
+      "question": "The primary organization through which employees negotiate with their employer collectively is known as:",
+      "choices": [
+        "a labor union.",
+        "an employee association.",
+        "a collective bargaining unit.",
+        "a professional guild."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t10"
+    },
+    {
+      "id": 557,
+      "question": "An organization established to improve working conditions and wages through collective efforts is often referred to as:",
+      "choices": [
+        "a union.",
+        "a labor advocacy group.",
+        "a workers' rights coalition.",
+        "an industry standards council."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t10"
+    },
+    {
+      "id": 558,
+      "question": "Which of the following terms refers to an organization where employees come together to protect their collective interests, particularly with regards to working conditions?",
+      "choices": [
+        "a trade union.",
+        "a labor assembly.",
+        "a workers' cooperative.",
+        "an occupational alliance."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t10"
+    },
+    {
+      "id": 559,
+      "question": "Workers who are seeking impactful changes to their economic status and job conditions typically form:",
+      "choices": [
+        "a union.",
+        "a labor caucus.",
+        "a workplace coalition.",
+        "an employee council."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t10"
+    },
+    {
+      "id": 560,
+      "question": "In order to empower workers and give them a voice in their working conditions and pay, they might align themselves with a/an:",
+      "choices": [
+        "union.",
+        "worker advocacy committee.",
+        "labor relations council.",
+        "employee representative body."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t10"
+    },
+    {
+      "id": 561,
+      "question": "The Digital Revolution has had a profound effect on the global economy mainly due to its ability to",
+      "choices": [
+        "shift economies from manufacturing to services and information.",
+        "accelerate the development of automated industrial production systems.",
+        "enable greater efficiency in traditional manufacturing supply chains.",
+        "create new markets for physical technological hardware and devices."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 562,
+      "question": "One of the major impacts of the Internet Era on the economic landscape is that it has",
+      "choices": [
+        "fostered information-centered and service-based industries.",
+        "standardized business operations across different economic sectors.",
+        "prioritized the development of digital infrastructure over other economic investments.",
+        "equalized market access between large corporations and small businesses."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 563,
+      "question": "The era of digital technology has transformed the job market by",
+      "choices": [
+        "driving a shift from industrial production to knowledge work and services.",
+        "creating specialized technical roles while eliminating most entry-level positions.",
+        "increasing demand for traditional craftsmanship and manual skills.",
+        "establishing rigid career paths with clearly defined progression opportunities."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t04"
+    },
+    {
+      "id": 564,
+      "question": "The advent of modern information technology has affected economic structures by",
+      "choices": [
+        "accelerating knowledge-based and service-oriented industries.",
+        "decentralizing financial systems while maintaining traditional banking dominance.",
+        "redistributing economic power from urban centers to rural communities.",
+        "balancing trade deficits through increased efficiency in domestic production."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 565,
+      "question": "A significant impact of the Digital Age on the economy is its role in",
+      "choices": [
+        "promoting services and information-based economies.",
+        "establishing new natural resource economies based on rare earth elements.",
+        "revitalizing traditional industries through incremental efficiency improvements.",
+        "stabilizing economic cycles by reducing market volatility and speculation."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 566,
+      "question": "Digital technologies have transformed business competition primarily by",
+      "choices": [
+        "enabling global competition for small companies.",
+        "establishing more predictable market conditions for all participants.",
+        "reducing the importance of intellectual property in company valuations.",
+        "eliminating the advantages previously held by large corporations."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 567,
+      "question": "The Digital Revolution has changed employment patterns most significantly by",
+      "choices": [
+        "increasing freelance, contract, and gig economy work.",
+        "strengthening traditional employer-employee relationships and job security.",
+        "eliminating wage differences between technical and non-technical positions.",
+        "standardizing work hours and practices across different industries."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 568,
+      "question": "Software engineers at a large tech firm often face the challenge of meeting project deadlines, which often pits them against their colleagues. Marx would likely describe this as a manifestation of",
+      "choices": [
+        "alienation from fellow workers due to competitive labor relations",
+        "class antagonism within the proletarian strata of technical workers",
+        "commodity fetishism where project deadlines replace human relationships",
+        "contradictions of capital that force workers to undermine collective interests"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t06"
+    },
+    {
+      "id": 569,
+      "question": "According to Marx's theory of alienation, which of the following best exemplifies workers being alienated from the product of their labor in contemporary society?",
+      "choices": [
+        "Factory workers who assemble smartphones but cannot afford to purchase the devices they make",
+        "Office workers who feel disconnected from their coworkers due to isolated cubicle layouts",
+        "A teacher who finds deep personal meaning and satisfaction in educating students",
+        "An employee who feels that work leaves no time to pursue creative hobbies or personal growth"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t06"
+    },
+    {
+      "id": 570,
+      "question": "Which of the following contemporary work situations best exemplifies Marx's concept of alienation from the act of production itself?",
+      "choices": [
+        "Data entry clerks who perform repetitive tasks with no creative input or decision-making authority",
+        "Software engineers who cannot afford the products their company sells",
+        "Nurses who form close bonds with their coworkers during long shifts",
+        "Artists who freely choose their own projects and set their own schedules"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t06"
+    },
+    {
+      "id": 571,
+      "question": "In Marx's theory, humans become alienated from their \"species-being\" when they cannot express their full human potential. Which contemporary situation best exemplifies this form of alienation?",
+      "choices": [
+        "Creative professionals who must abandon their artistic vision to produce commercially viable content",
+        "Gig economy workers who compete against each other for limited opportunities rather than cooperating for collective benefit",
+        "Remote employees who interact with colleagues solely through digital interfaces rather than forming genuine human connections",
+        "Specialized technicians who develop expertise in narrow tasks rather than engaging with the full production process"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t06"
+    },
+    {
+      "id": 572,
+      "question": "According to Marx, a sales executive whose salary largely depends on the sales performance, often leading them to compete against their coworkers, likely feels",
+      "choices": [
+        "alienation",
+        "exploitation",
+        "proletarianization",
+        "reification"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t06"
+    },
+    {
+      "id": 573,
+      "question": "Per Karl Marx's theories, workers in a production factory where every employee's efficiency directly affects their individual pay may encounter",
+      "choices": [
+        "alienation",
+        "primitive accumulation",
+        "species-being",
+        "dialectical materialism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t06"
+    },
+    {
+      "id": 574,
+      "question": "Agent workers in a large call center who are measured and compensated based on the number of calls they handle, potentially causing competition with colleagues, can undergo what Marx described as",
+      "choices": [
+        "alienation",
+        "class struggle",
+        "immiseration",
+        "labor power commodification"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t06"
+    },
+    {
+      "id": 575,
+      "question": "Franchise owners who tend to be the direct competitors of their fellow franchisees within the same brand might undergo what Marx termed",
+      "choices": [
+        "alienation",
+        "petit bourgeois competition",
+        "contradictory class location",
+        "organic composition of capital"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t06"
+    },
+    {
+      "id": 576,
+      "question": "Identify the scenario that exemplifies the phenomenon of McDonaldization, as articulated by sociologist George Ritzer.",
+      "choices": [
+        "A factory employee notes, 'My role feels automated. I simply push a lever and execute identical actions. It's like operating in a machine-driven cycle.'",
+        "A retail store manager states, 'We've introduced a personalized customer service approach where employees are encouraged to use their judgment and creativity to solve customer problems.'",
+        "A restaurant chef explains, 'Our kitchen follows strict food safety protocols and timing standards, but each dish is still prepared individually with the chef's unique interpretation.'",
+        "A hospital administrator describes, 'We've implemented standardized intake procedures, but our doctors maintain complete autonomy in how they diagnose and treat patients.'"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t08"
+    },
+    {
+      "id": 577,
+      "question": "Which occurrence below mirrors Ritzer's concept of McDonaldization?",
+      "choices": [
+        "A call center employee states, 'It's repetitive and predictable. I handle hundreds of calls using the same script every day. I feel like a programmed machine.'",
+        "A teacher explains, 'We follow a standardized curriculum, but I adapt my teaching methods daily based on how students are responding and their individual learning needs.'",
+        "A software developer says, 'Our team uses agile methodology with structured sprints and metrics, but each of us solves coding problems with our own creative approaches.'",
+        "A nurse describes, 'We document everything in electronic records and follow protocols, but patient care still requires personal judgment and individualized attention at every step.'"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t08"
+    },
+    {
+      "id": 578,
+      "question": "Which statement best aligns with George Ritzer's McDonaldization theory?",
+      "choices": [
+        "A bank teller observes, 'My responsibilities seem routinized. I perform the same transactions with an identical procedure every day. I often feel part of an industrial assembly line.'",
+        "A healthcare provider states, 'Our clinic uses standardized initial assessments, but we pride ourselves on taking whatever time is necessary to understand each patient's unique situation.'",
+        "A university professor notes, 'We've adopted digital learning platforms and standardized tests, but I still design my own curriculum and adapt my teaching style to engage students differently in every class.'",
+        "A project manager explains, 'We track all our metrics and follow established workflows, but each client project requires creative problem-solving and customized solutions.'"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t08"
+    },
+    {
+      "id": 579,
+      "question": "Which of following represents an instance of McDonaldization as put forth by George Ritzer?",
+      "choices": [
+        "An assembly-line worker says, 'The work is monotonous. All day, I perform the same movements in manufacturing machines. It feels like an endless cycle.'",
+        "A financial advisor explains, 'We use standardized risk assessment tools, but the investment strategy I create for each client is uniquely tailored to their financial goals and personal values.'",
+        "A physical therapist describes, 'I follow evidence-based protocols for different conditions, but I modify exercises based on each patient's progress and feedback during our sessions.'",
+        "A marketing specialist states, 'Our campaigns are data-driven and follow a structured timeline, but the creative concepts we develop are unique to each client's brand and audience.'"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t08"
+    },
+    {
+      "id": 580,
+      "question": "According to Ritzer's theory of McDonaldization, which statement typifies the concept?",
+      "choices": [
+        "A cashier at a mega-market says, 'I swipe items and process payments the whole day. My actions feel like they are on autopilot.'",
+        "A quality control specialist explains, 'We follow strict inspection procedures for every product, but I still rely on my expertise and judgment to identify subtle defects that automated systems might miss.'",
+        "A customer service representative notes, 'We have response templates for common issues, but I'm encouraged to listen carefully and craft personalized solutions when standard answers don't address the customer's specific situation.'",
+        "A hotel manager describes, 'Our chain has brand standards for cleanliness and service, but each location has flexibility to incorporate local culture and create unique guest experiences.'"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t08"
+    },
+    {
+      "id": 581,
+      "question": "The self-checkout kiosks at the grocery store are typically faster and more convenient, but they lack the personal touch and social interaction found in traditional checkout lanes. Which sociological concept from Weber's work best describes this transformation of grocery shopping?",
+      "choices": [
+        "rationalization",
+        "commodification",
+        "mechanical solidarity",
+        "social capital erosion"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t07"
+    },
+    {
+      "id": 582,
+      "question": "Streaming platforms offer on-demand, personalized entertainment experiences vs. traditional cable TV's scheduled programming. Yet, they don't offer the feeling of shared collective experience often tied to traditional TV watching. Which Weberian concept best describes this shift in the experience of watching TV?",
+      "choices": [
+        "rationalization",
+        "disenchantment",
+        "organic solidarity",
+        "cultural capital redistribution"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t07"
+    },
+    {
+      "id": 583,
+      "question": "Fast food restaurants often provide quickly available, uniform meals across locations, but these meals rarely capture the intrinsic value and authenticity of homemade recipes. Which sociological concept from Max Weber's work could be used to describe this phenomenon?",
+      "choices": [
+        "rationalization",
+        "bureaucratization",
+        "formal rationality",
+        "cultural homogenization"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t07"
+    },
+    {
+      "id": 584,
+      "question": "Online shopping provides the convenience of purchasing without leaving your home. However, it lacks the personal interaction and sense of community found in local stores. According to Weber, which concept best characterizes this shift from local shopping to e-commerce?",
+      "choices": [
+        "rationalization",
+        "instrumentalization",
+        "social differentiation",
+        "ideal type transformation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t07"
+    },
+    {
+      "id": 585,
+      "question": "E-ticketing for concerts and events has led to efficient, immediate ticket acquisition, replacing the traditional physical tickets. However, the digital tickets can't replicate the tangible memento quality of physical tickets. Which Weberian concept best describes this transition in event attendance?",
+      "choices": [
+        "rationalization",
+        "dematerialization",
+        "value-neutral efficiency",
+        "institutional isomorphism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t07"
+    },
+    {
+      "id": 586,
+      "question": "Automated customer service systems with AI chatbots provide 24/7 assistance and standardized responses but lack the empathy and nuanced understanding of human customer service representatives. From Weber's perspective, which concept most accurately characterizes this transformation of customer service?",
+      "choices": [
+        "rationalization",
+        "calculability",
+        "status crystallization",
+        "social constructionism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t07"
+    },
+    {
+      "id": 587,
+      "question": "Dating apps use algorithms to match potential partners based on preferences and compatibility metrics, replacing traditional in-person courtship rituals. Which of Weber's concepts best explains this technological approach to forming relationships?",
+      "choices": [
+        "rationalization",
+        "charismatic authority",
+        "life-ordering principle",
+        "reflexive monitoring"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t07"
+    },
+    {
+      "id": 588,
+      "question": "Who among the following would most likely be considered a contingent worker?",
+      "choices": [
+        "A freelance web developer hired on a project-by-project basis",
+        "A tenured university professor with a permanent appointment",
+        "A corporate attorney on long-term retainer with guaranteed salary",
+        "A full-time salaried employee with health benefits and a pension"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t13"
+    },
+    {
+      "id": 589,
+      "question": "What type of job does contingent work commonly refer to?",
+      "choices": [
+        "Jobs based on short-term or contractual basis",
+        "Jobs with guaranteed annual salary reviews",
+        "Jobs regulated by collective bargaining agreements",
+        "Jobs with established career advancement ladders"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 590,
+      "question": "Which profession is least associated with the concept of contingent work?",
+      "choices": [
+        "tenured professor",
+        "rideshare driver with preferred status",
+        "graphic designer working through a creative agency",
+        "management consultant with a regional client base"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 591,
+      "question": "Which of the following is a common characteristic of a contingent worker?",
+      "choices": [
+        "Working on a project-by-project basis",
+        "Negotiating compensation for each engagement separately",
+        "Maintaining professional liability insurance at personal expense",
+        "Operating within organizational reporting structures"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 592,
+      "question": "In the labor market, what does contingent employment represent?",
+      "choices": [
+        "Temporary or contractual work relationships",
+        "Long-term and full-time employment with career stability",
+        "Employment structured around specialized project deadlines",
+        "Work arrangements with negotiated performance incentives"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 593,
+      "question": "Manufacturing facilities characterized by extremely low wages, long hours, and unsafe working conditions are commonly referred to as:",
+      "choices": [
+        "sweatshops",
+        "high-efficiency manufacturing zones",
+        "developing economy manufacturing hubs",
+        "cost-optimized production facilities"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 594,
+      "question": "Which of the following is a defining characteristic of a sweatshop?",
+      "choices": [
+        "Workers often face hazardous conditions with little to no health and safety protections",
+        "Workers are paid according to regional minimum wage standards with limited overtime requirements",
+        "Facilities operate on tight production schedules with efficiency-focused management practices",
+        "Workers are assigned specialized tasks to maximize productivity and output metrics"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t11"
+    },
+    {
+      "id": 595,
+      "question": "Sweatshops most commonly operate in industries that are:",
+      "choices": [
+        "labor-intensive with low skill requirements, such as garment manufacturing",
+        "material-processing industries requiring specialized equipment operators, such as steel manufacturing",
+        "consumer goods industries with moderate technical requirements, such as electronics assembly",
+        "product finishing industries with quality control focus, such as furniture production"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 596,
+      "question": "The practice of contracting out business functions or processes to third-party providers, often in other countries, is known as:",
+      "choices": [
+        "outsourcing",
+        "insourcing",
+        "strategic alliance partnering",
+        "global resource utilization"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t12"
+    },
+    {
+      "id": 597,
+      "question": "In introductory sociology, the most commonly cited motivation for companies to engage in outsourcing is to:",
+      "choices": [
+        "Reduce labor and operational costs",
+        "Improve employee morale and workplace culture",
+        "Increase the number of permanent full-time positions",
+        "Strengthen labor union representation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t12"
+    },
+    {
+      "id": 598,
+      "question": "From the perspective of domestic workers and their communities, which of the following is the most common criticism of outsourcing practices?",
+      "choices": [
+        "It contributes to job losses in the company's home country",
+        "It often results in lower product quality and customer satisfaction",
+        "It makes companies more innovative and competitive",
+        "It increases dependency on external vendors, creating business continuity risks"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t12"
+    },
+    {
+      "id": 599,
+      "question": "When a tech company moves its customer service operations from the United States to a country with lower labor costs, this practice is an example of:",
+      "choices": [
+        "outsourcing",
+        "operational globalization",
+        "labor arbitrage",
+        "business process relocation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch12_t14"
+    },
+    {
+      "id": 861,
+      "question": "A social researcher is investigating how work has changed over several centuries. She discovers that 10,000 years ago most people hunted and gathered food for survival, while after the 1700s innovations like new plows and crop rotation techniques increased food production dramatically. This transformation primarily represents which of the following?",
+      "choices": [
+        "Industrial Revolution",
+        "Information Revolution",
+        "Agricultural Revolution",
+        "Service Revolution"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch12_t01"
+    },
+    {
+      "id": 862,
+      "question": "An economic historian studying the 1800s notes that new steam-powered machinery led to mass production in factories, urbanization as people moved to cities for work, and the development of assembly lines. These changes are examples of what major transformation?",
+      "choices": [
+        "Agricultural Revolution",
+        "Industrial Revolution",
+        "Information Revolution",
+        "Digital Revolution"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch12_t01"
+    },
+    {
+      "id": 863,
+      "question": "A technology analyst observes that since the 1970s, the economy has shifted from producing goods to producing knowledge and services, with microchip development enabling this transformation. This shift illustrates which concept?",
+      "choices": [
+        "Agricultural Revolution",
+        "Industrial Revolution",
+        "Information Revolution",
+        "Service Integration"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch12_t01"
+    },
+    {
+      "id": 864,
+      "question": "Maria works as a massage therapist, providing therapeutic services directly to individual clients rather than manufacturing any physical products. Her occupation is best classified as which type of work?",
+      "choices": [
+        "Agricultural work",
+        "Industrial work",
+        "Knowledge work",
+        "Service work"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch12_t04"
+    },
+    {
+      "id": 865,
+      "question": "Factory workers at an automobile plant have started taking longer lunch breaks, personalizing their workstations with family photos, and occasionally slowing down the assembly line pace when supervisors aren't watching. These behaviors are examples of what concept?",
+      "choices": [
+        "Professional socialization",
+        "Resistance strategies",
+        "Collective bargaining",
+        "Union organizing"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch12_t09"
+    },
+    {
+      "id": 866,
+      "question": "A company hires freelance graphic designers for specific projects lasting 2-3 months each, without offering health insurance or long-term contracts. These workers represent which category?",
+      "choices": [
+        "Traditional workforce",
+        "Union membership",
+        "Contingent workforce",
+        "Management staff"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch12_t13"
+    },
+    {
+      "id": 867,
+      "question": "A business researcher studying international trade patterns notices that since the 1970s, companies have expanded across national borders, creating complex global production networks and international trade agreements. This phenomenon best represents which concept?",
+      "choices": [
+        "Nationalism",
+        "Isolationism",
+        "Regionalization",
+        "Globalization"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch12_t14"
+    },
+    {
+      "id": 868,
+      "question": "The local Red Cross chapter employs both paid staff and volunteers to deliver disaster relief services to the community. This organization is part of which economic sector?",
+      "choices": [
+        "Private for-profit sector",
+        "Government sector",
+        "Third Sector",
+        "Industrial sector"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch12_t15"
+    }
+  ]
+}

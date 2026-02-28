@@ -1,0 +1,1659 @@
+{
+  "id": "ch02",
+  "name": "Research Methods",
+  "order": 2,
+  "concepts": [
+    {
+      "id": "ch02_t01",
+      "term": "Quantitative Research",
+      "definition": "Research using numerical data and statistical analysis",
+      "level3_question_ids": [
+        677,
+        679,
+        680,
+        744
+      ],
+      "confusable_ids": [
+        "ch02_t02",
+        "ch02_t04",
+        "ch02_t32",
+        "ch02_t22",
+        "ch02_t24"
+      ]
+    },
+    {
+      "id": "ch02_t02",
+      "term": "Qualitative Research",
+      "definition": "Research focusing on detailed descriptions and interpretations",
+      "level3_question_ids": [
+        677,
+        679,
+        680,
+        681
+      ],
+      "confusable_ids": [
+        "ch02_t32",
+        "ch02_t01",
+        "ch02_t04",
+        "ch02_t22",
+        "ch02_t29"
+      ]
+    },
+    {
+      "id": "ch02_t03",
+      "term": "Scientific Method",
+      "definition": "Systematic approach to investigating phenomena and acquiring knowledge",
+      "level3_question_ids": [
+        660,
+        669,
+        675
+      ],
+      "confusable_ids": [
+        "ch02_t24",
+        "ch02_t21"
+      ]
+    },
+    {
+      "id": "ch02_t04",
+      "term": "Literature Review",
+      "definition": "Analysis of existing research on a topic",
+      "level3_question_ids": [
+        660,
+        661,
+        669
+      ],
+      "confusable_ids": [
+        "ch02_t01",
+        "ch02_t22",
+        "ch02_t24",
+        "ch02_t29",
+        "ch02_t02"
+      ]
+    },
+    {
+      "id": "ch02_t05",
+      "term": "Hypothesis",
+      "definition": "A testable prediction about the relationship between variables",
+      "level3_question_ids": [
+        660,
+        701,
+        731,
+        732,
+        733,
+        734,
+        735,
+        737,
+        738,
+        739,
+        740
+      ],
+      "confusable_ids": [
+        "ch02_t10",
+        "ch02_t08",
+        "ch02_t11"
+      ]
+    },
+    {
+      "id": "ch02_t06",
+      "term": "Variables",
+      "definition": "Characteristics or attributes that can be measured",
+      "level3_question_ids": [
+        662,
+        663,
+        689,
+        698,
+        711,
+        712,
+        714,
+        726,
+        738
+      ],
+      "confusable_ids": [
+        "ch02_t07",
+        "ch02_t27",
+        "ch02_t20"
+      ]
+    },
+    {
+      "id": "ch02_t07",
+      "term": "Operational Definition",
+      "definition": "Specific way a concept will be measured in research",
+      "level3_question_ids": [
+        701,
+        703,
+        704
+      ],
+      "confusable_ids": [
+        "ch02_t06",
+        "ch02_t04",
+        "ch02_t22",
+        "ch02_t29",
+        "ch02_t02"
+      ]
+    },
+    {
+      "id": "ch02_t08",
+      "term": "Correlation",
+      "definition": "A relationship or connection between variables that change together",
+      "level3_question_ids": [
+        662,
+        664,
+        682,
+        683,
+        684,
+        685,
+        686,
+        695,
+        696,
+        697,
+        698,
+        727,
+        728,
+        729,
+        730
+      ],
+      "confusable_ids": [
+        "ch02_t11",
+        "ch02_t05",
+        "ch02_t10"
+      ]
+    },
+    {
+      "id": "ch02_t09",
+      "term": "Causation",
+      "definition": "When changes in one variable directly cause changes in another variable",
+      "level3_question_ids": [
+        660,
+        664,
+        669,
+        695,
+        696,
+        697,
+        698
+      ],
+      "confusable_ids": [
+        "ch02_t27",
+        "ch02_t31",
+        "ch02_t30"
+      ]
+    },
+    {
+      "id": "ch02_t10",
+      "term": "Intervening Variable",
+      "definition": "A factor that explains the relationship between other variables",
+      "level3_question_ids": [
+        663,
+        664,
+        727,
+        728,
+        729,
+        730
+      ],
+      "confusable_ids": [
+        "ch02_t11",
+        "ch02_t05",
+        "ch02_t26",
+        "ch02_t08",
+        "ch02_t27"
+      ]
+    },
+    {
+      "id": "ch02_t11",
+      "term": "Spurious Correlation",
+      "definition": "False relationship between variables due to an unknown factor",
+      "level3_question_ids": [
+        662,
+        664,
+        682,
+        683,
+        684,
+        686,
+        695,
+        727,
+        728,
+        729,
+        730
+      ],
+      "confusable_ids": [
+        "ch02_t10",
+        "ch02_t08",
+        "ch02_t05",
+        "ch02_t26",
+        "ch02_t31"
+      ]
+    },
+    {
+      "id": "ch02_t12",
+      "term": "Ethnography",
+      "definition": "In-depth study of a culture or community through fieldwork",
+      "level3_question_ids": [
+        660,
+        665,
+        672,
+        676,
+        714,
+        690,
+        742
+      ],
+      "confusable_ids": [
+        "ch02_t23",
+        "ch02_t14",
+        "ch02_t28"
+      ]
+    },
+    {
+      "id": "ch02_t13",
+      "term": "Participant Observation",
+      "definition": "Research method involving participating in and observing a group",
+      "level3_question_ids": [
+        678,
+        688,
+        713
+      ],
+      "confusable_ids": [
+        "ch02_t22",
+        "ch02_t25",
+        "ch02_t04",
+        "ch02_t29",
+        "ch02_t02"
+      ]
+    },
+    {
+      "id": "ch02_t14",
+      "term": "Reflexivity",
+      "definition": "Awareness of how researcher's presence affects what they study",
+      "level3_question_ids": [
+        662,
+        666,
+        673
+      ],
+      "confusable_ids": [
+        "ch02_t23",
+        "ch02_t12",
+        "ch02_t21",
+        "ch02_t28"
+      ]
+    },
+    {
+      "id": "ch02_t15",
+      "term": "Interviews",
+      "definition": "Guided conversations to gather detailed information from participants",
+      "level3_question_ids": [
+        675,
+        677,
+        681,
+        694,
+        713,
+        716,
+        741
+      ],
+      "confusable_ids": [
+        "ch02_t02"
+      ]
+    },
+    {
+      "id": "ch02_t16",
+      "term": "Closed Questions",
+      "definition": "Questions with predetermined response options",
+      "level3_question_ids": [
+        667,
+        668
+      ],
+      "confusable_ids": [
+        "ch02_t17",
+        "ch02_t27",
+        "ch02_t33"
+      ]
+    },
+    {
+      "id": "ch02_t17",
+      "term": "Open-ended Questions",
+      "definition": "Questions allowing respondents to answer in their own words",
+      "level3_question_ids": [
+        667,
+        668
+      ],
+      "confusable_ids": [
+        "ch02_t16",
+        "ch02_t33"
+      ]
+    },
+    {
+      "id": "ch02_t18",
+      "term": "Replicability",
+      "definition": "The ability to reproduce research findings in different settings",
+      "level3_question_ids": [
+        661,
+        669,
+        670,
+        675
+      ],
+      "confusable_ids": [
+        "ch02_t19",
+        "ch02_t04",
+        "ch02_t22",
+        "ch02_t29",
+        "ch02_t02"
+      ]
+    },
+    {
+      "id": "ch02_t19",
+      "term": "Validity",
+      "definition": "The accuracy and trustworthiness of research methods and findings",
+      "level3_question_ids": [
+        723
+      ],
+      "confusable_ids": [
+        "ch02_t21",
+        "ch02_t18",
+        "ch02_t04",
+        "ch02_t22",
+        "ch02_t29"
+      ]
+    },
+    {
+      "id": "ch02_t20",
+      "term": "Representativeness",
+      "definition": "How well a sample reflects the characteristics of the larger population",
+      "level3_question_ids": [
+        664,
+        670,
+        675
+      ],
+      "confusable_ids": [
+        "ch02_t06",
+        "ch02_t23"
+      ]
+    },
+    {
+      "id": "ch02_t21",
+      "term": "Bias",
+      "definition": "Systematic error in research that affects its accuracy",
+      "level3_question_ids": [
+        685,
+        690,
+        717
+      ],
+      "confusable_ids": [
+        "ch02_t19",
+        "ch02_t04",
+        "ch02_t22",
+        "ch02_t24",
+        "ch02_t29"
+      ]
+    },
+    {
+      "id": "ch02_t22",
+      "term": "Population",
+      "definition": "The entire group being studied in research",
+      "level3_question_ids": [
+        670,
+        679,
+        689,
+        693,
+        694,
+        702,
+        707,
+        708,
+        709,
+        710,
+        715,
+        722
+      ],
+      "confusable_ids": [
+        "ch02_t13",
+        "ch02_t04",
+        "ch02_t29",
+        "ch02_t02",
+        "ch02_t07"
+      ]
+    },
+    {
+      "id": "ch02_t23",
+      "term": "Sample",
+      "definition": "A subset of the population selected for study",
+      "level3_question_ids": [
+        687,
+        692,
+        693,
+        707,
+        709,
+        713,
+        719
+      ],
+      "confusable_ids": [
+        "ch02_t12",
+        "ch02_t14",
+        "ch02_t28",
+        "ch02_t20"
+      ]
+    },
+    {
+      "id": "ch02_t24",
+      "term": "Content Analysis",
+      "definition": "Systematic analysis of communication content",
+      "level3_question_ids": [
+        677,
+        678,
+        720,
+        741,
+        706
+      ],
+      "confusable_ids": [
+        "ch02_t04",
+        "ch02_t21",
+        "ch02_t01",
+        "ch02_t03",
+        "ch02_t28"
+      ]
+    },
+    {
+      "id": "ch02_t25",
+      "term": "Experiment",
+      "definition": "Research method testing cause-and-effect relationships",
+      "level3_question_ids": [
+        660,
+        671,
+        688,
+        699,
+        720,
+        741,
+        742,
+        743,
+        744
+      ],
+      "confusable_ids": [
+        "ch02_t13",
+        "ch02_t04",
+        "ch02_t22",
+        "ch02_t29",
+        "ch02_t02"
+      ]
+    },
+    {
+      "id": "ch02_t26",
+      "term": "Independent Variable",
+      "definition": "The factor manipulated by the researcher in an experiment",
+      "level3_question_ids": [
+        662,
+        663,
+        671,
+        727,
+        729,
+        732,
+        734,
+        737
+      ],
+      "confusable_ids": [
+        "ch02_t10",
+        "ch02_t27",
+        "ch02_t11"
+      ]
+    },
+    {
+      "id": "ch02_t27",
+      "term": "Dependent Variable",
+      "definition": "The outcome measured in response to the independent variable",
+      "level3_question_ids": [
+        663,
+        671,
+        728,
+        729,
+        730,
+        733,
+        736,
+        739
+      ],
+      "confusable_ids": [
+        "ch02_t10",
+        "ch02_t26",
+        "ch02_t06",
+        "ch02_t16",
+        "ch02_t07"
+      ]
+    },
+    {
+      "id": "ch02_t28",
+      "term": "Social Network Analysis",
+      "definition": "Study of social relationships and connections between people",
+      "level3_question_ids": [
+        661,
+        665,
+        672,
+        676
+      ],
+      "confusable_ids": [
+        "ch02_t23",
+        "ch02_t12",
+        "ch02_t14",
+        "ch02_t25",
+        "ch02_t30"
+      ]
+    },
+    {
+      "id": "ch02_t29",
+      "term": "Objectivity",
+      "definition": "Freedom from personal bias in research",
+      "level3_question_ids": [
+        721,
+        723
+      ],
+      "confusable_ids": [
+        "ch02_t04",
+        "ch02_t22",
+        "ch02_t02",
+        "ch02_t07",
+        "ch02_t19"
+      ]
+    },
+    {
+      "id": "ch02_t30",
+      "term": "Reactivity",
+      "definition": "Changes in behavior when people know they're being studied",
+      "level3_question_ids": [
+        666,
+        673,
+        674
+      ],
+      "confusable_ids": [
+        "ch02_t31",
+        "ch02_t22",
+        "ch02_t28",
+        "ch02_t09"
+      ]
+    },
+    {
+      "id": "ch02_t31",
+      "term": "Hawthorne Effect",
+      "definition": "Changes in behavior due to being observed in research",
+      "level3_question_ids": [
+        666,
+        674
+      ],
+      "confusable_ids": [
+        "ch02_t30",
+        "ch02_t04",
+        "ch02_t22",
+        "ch02_t29",
+        "ch02_t02"
+      ]
+    },
+    {
+      "id": "ch02_t32",
+      "term": "Research Ethics",
+      "definition": "Moral principles guiding research conduct",
+      "level3_question_ids": [
+        662,
+        666,
+        668,
+        673,
+        674,
+        675
+      ],
+      "confusable_ids": [
+        "ch02_t02",
+        "ch02_t01",
+        "ch02_t04",
+        "ch02_t22",
+        "ch02_t29"
+      ]
+    },
+    {
+      "id": "ch02_t33",
+      "term": "Surveys",
+      "definition": "Method of collecting data through standardized questions",
+      "level3_question_ids": [
+        661,
+        665,
+        670,
+        672,
+        676,
+        694,
+        707,
+        717,
+        743
+      ],
+      "confusable_ids": [
+        "ch02_t16",
+        "ch02_t25",
+        "ch02_t01",
+        "ch02_t13",
+        "ch02_t17"
+      ]
+    }
+  ],
+  "chapter_questions": [
+    {
+      "id": 660,
+      "question": "A team of researchers wants to investigate the relationship between social media usage and sleep quality among college students. They develop a hypothesis, review existing literature, design an experiment, collect data, analyze results, and publish their findings. Which concept does this approach best exemplify?",
+      "choices": [
+        "Literature Review",
+        "Causation",
+        "Ethnography",
+        "Scientific Method"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch02_t03"
+    },
+    {
+      "id": 661,
+      "question": "Dr. Martinez is preparing to study teenage drug use and discovers that over 200 articles have already been published on this topic in the past five years. She spends two months reading and analyzing these studies before designing her own research. This process represents which methodological approach?",
+      "choices": [
+        "Surveys",
+        "Literature Review",
+        "Replicability",
+        "Social Network Analysis"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch02_t28"
+    },
+    {
+      "id": 662,
+      "question": "A researcher finds that ice cream sales and violent crime rates both increase during summer months. However, the actual relationship between these variables is explained by temperature - hot weather leads to both more ice cream consumption and more time spent outdoors where crimes occur. This scenario illustrates which research concept?",
+      "choices": [
+        "Independent Variable",
+        "Reflexivity",
+        "Spurious Correlation",
+        "Research Ethics"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch02_t11"
+    },
+    {
+      "id": 663,
+      "question": "Researchers studying the link between education and income discover that job training programs actually explain much of the relationship between these two variables. The job training programs would be classified as which type of variable?",
+      "choices": [
+        "Dependent Variable",
+        "Independent Variable",
+        "Intervening Variable",
+        "Control Group"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch02_t10"
+    },
+    {
+      "id": 664,
+      "question": "A researcher observes that students who eat breakfast score higher on tests. She concludes that eating breakfast directly improves test performance. This researcher is claiming to have established what type of relationship?",
+      "choices": [
+        "Spurious Correlation",
+        "Intervening Variable",
+        "Causation",
+        "Representativeness"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch02_t10"
+    },
+    {
+      "id": 665,
+      "question": "An anthropologist moves to a remote village for eighteen months, learning the local language, participating in daily activities, and documenting cultural practices through detailed field notes. This research approach is best described as what method?",
+      "choices": [
+        "Ethnography",
+        "Surveys",
+        "Experimental Methods",
+        "Social Network Analysis"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t28"
+    },
+    {
+      "id": 666,
+      "question": "While conducting participant observation research in a gang, Dr. Johnson keeps a journal critically examining how his identity as a middle-class academic shapes his interpretations of gang members' behavior and what questions he chooses to ask. This practice reflects which methodological concept?",
+      "choices": [
+        "Hawthorne Effect",
+        "Research Ethics",
+        "Reflexivity",
+        "Reactivity"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch02_t14"
+    },
+    {
+      "id": 667,
+      "question": "A survey about voting preferences includes the question: \"Do you support the candidate's position: Yes or No?\" This is an example of what type of question format?",
+      "choices": [
+        "Open-ended Questions",
+        "Leading Questions",
+        "Closed Questions",
+        "Double-barreled Questions"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch02_t17"
+    },
+    {
+      "id": 668,
+      "question": "A researcher studying workplace satisfaction asks: \"How do you feel about your job and what changes would you suggest?\" This question format allows respondents to answer in their own words and represents which approach?",
+      "choices": [
+        "Open-ended Questions",
+        "Closed Questions",
+        "Leading Questions",
+        "Research Ethics"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t17"
+    },
+    {
+      "id": 669,
+      "question": "Scientists attempt to reproduce a landmark study on stereotype threat using identical procedures and measures. Their ability to repeat this research demonstrates which scientific principle?",
+      "choices": [
+        "Causation",
+        "Replicability",
+        "Literature Review",
+        "Scientific Method"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch02_t03"
+    },
+    {
+      "id": 670,
+      "question": "A political science professor surveys 500 randomly selected registered voters to understand the voting patterns of all Americans. The degree to which these 500 voters reflect the characteristics of the entire U.S. electorate relates to which concept?",
+      "choices": [
+        "Surveys",
+        "Target Population",
+        "Replicability",
+        "Representativeness"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch02_t20"
+    },
+    {
+      "id": 671,
+      "question": "In an experiment testing the effects of violent video games on aggressive behavior, the researcher manipulates exposure to violent games while measuring participants' subsequent aggression levels. The violent video game exposure represents which element?",
+      "choices": [
+        "Dependent Variable",
+        "Control Group",
+        "Independent Variable",
+        "Experimental Group"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch02_t26"
+    },
+    {
+      "id": 672,
+      "question": "Dr. Lopez maps the friendship connections among 200 high school students, analyzing who talks to whom and how information spreads through these relationships. This research method is best classified as:",
+      "choices": [
+        "Ethnography",
+        "Experimental Methods",
+        "Surveys",
+        "Social Network Analysis"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch02_t28"
+    },
+    {
+      "id": 673,
+      "question": "A researcher notices that students in a classroom study begin answering survey questions more carefully after learning that a professor is observing the session. This change in behavior because participants know they are being watched illustrates:",
+      "choices": [
+        "Research Ethics",
+        "Reactivity",
+        "Reflexivity",
+        "Scientific Method"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch02_t30"
+    },
+    {
+      "id": 674,
+      "question": "In the classic Western Electric studies, factory workers increased their productivity whenever any change was made to their working conditions \u2014 whether lighting was increased or decreased, or even when conditions were returned to their original state. This specific historical finding is known as:",
+      "choices": [
+        "Hawthorne Effect",
+        "Reactivity",
+        "Research Ethics",
+        "Independent Variable"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t31"
+    },
+    {
+      "id": 675,
+      "question": "A researcher studying online dating must ensure participants understand the study's purpose and agree to participate before beginning interviews. Additionally, she must protect participants' identities when publishing results. These practices reflect which research consideration?",
+      "choices": [
+        "Replicability",
+        "Research Ethics",
+        "Scientific Method",
+        "Representativeness"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch02_t20"
+    },
+    {
+      "id": 676,
+      "question": "A team of sociologists distributes standardized questionnaires to 1,000 randomly selected households to gather data about family structures and income levels across different regions. This data collection method represents:",
+      "choices": [
+        "Ethnography",
+        "Social Network Analysis",
+        "Surveys",
+        "Experimental Methods"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch02_t28"
+    },
+    {
+      "id": 677,
+      "question": "A sociologist conducts in-depth interviews with residents of a low-income neighborhood to understand their experiences with poverty. This research method is an example of:",
+      "choices": [
+        "Qualitative research",
+        "Quantitative research",
+        "Experimental research",
+        "Content analysis"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t01"
+    },
+    {
+      "id": 678,
+      "question": "Which of the following research methods is MOST likely to be employed by a symbolic interactionist?",
+      "choices": [
+        "Participant observation",
+        "Statistical analysis of survey data",
+        "Laboratory experiments",
+        "Content analysis of historical documents"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t13"
+    },
+    {
+      "id": 679,
+      "question": "A researcher analyzing census data to study population trends is primarily using:",
+      "choices": [
+        "Quantitative research methods",
+        "Qualitative research methods",
+        "Ethnographic methods",
+        "Comparative historical methods"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t01"
+    },
+    {
+      "id": 680,
+      "question": "A study that relies on numerical data and statistical analysis to test hypotheses is best described as:",
+      "choices": [
+        "Quantitative research",
+        "Qualitative research",
+        "Mixed-methods research",
+        "Action research"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t01"
+    },
+    {
+      "id": 681,
+      "question": "Which of the following is NOT a characteristic of qualitative research?",
+      "choices": [
+        "Primarily focused on numerical data and statistical analysis.",
+        "Often involves in-depth interviews and observations.",
+        "Aims to understand the meaning and interpretations of social phenomena.",
+        "Generates rich, descriptive data."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t02"
+    },
+    {
+      "id": 682,
+      "question": "A study finds a strong correlation between ice cream sales and crime rates.  Which of the following is the MOST likely explanation for this relationship?",
+      "choices": [
+        "A third variable like temperature influences both; spurious correlation.",
+        "Eating ice cream causes people to commit crimes.",
+        "Criminal activity leads to an increased desire for ice cream.",
+        "There is no relationship; the correlation is a statistical error."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t11"
+    },
+    {
+      "id": 683,
+      "question": "Researchers observe a correlation between ice cream sales and drowning rates. Which statement best explains this correlation?",
+      "choices": [
+        "Spurious correlation; warm weather influences both ice cream sales and swimming activity.",
+        "Eating ice cream causes people to be more reckless while swimming.",
+        "Drowning incidents cause people to buy comfort foods like ice cream.",
+        "The observed correlation is likely due to random chance alone."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t11"
+    },
+    {
+      "id": 684,
+      "question": "A study reveals a positive correlation between coffee consumption and higher scores on standardized tests.  Which of the following is the MOST plausible interpretation?",
+      "choices": [
+        "Spurious correlation; study habits could influence both.",
+        "Drinking coffee directly enhances cognitive abilities.",
+        "High test performers drink coffee to celebrate their success.",
+        "The correlation is likely due to a sampling error."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t11"
+    },
+    {
+      "id": 685,
+      "question": "Researchers find a correlation between shoe size and reading ability in elementary school children. This correlation is most likely:",
+      "choices": [
+        "Spurious, as both shoe size and reading ability are related to age.",
+        "Causal, indicating that larger feet directly enhance reading skills.",
+        "Causal, suggesting that reading more improves foot growth.",
+        "A result of researcher bias, favoring students with larger shoe sizes."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t08"
+    },
+    {
+      "id": 686,
+      "question": "A study shows a correlation between television viewing and lower grades in school.  Which conclusion is MOST justified?",
+      "choices": [
+        "Spurious correlation; parental involvement or SES may influence both.",
+        "Watching television inherently causes lower academic grades.",
+        "Lower grades cause students to watch more TV as escapism.",
+        "No plausible explanation exists; likely a statistical anomaly."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t11"
+    },
+    {
+      "id": 687,
+      "question": "What is a key strength of ethnographic research compared to survey research?",
+      "choices": [
+        "Provides richer, in-depth understanding in natural contexts.",
+        "Allows for larger sample sizes and greater generalizability.",
+        "Less time-consuming and requires less researcher involvement.",
+        "Better suited for studying large-scale social structures."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t23"
+    },
+    {
+      "id": 688,
+      "question": "A researcher wants to study the culture of a motorcycle club. Which research method would be MOST appropriate?",
+      "choices": [
+        "Ethnographic participant observation.",
+        "Administering a large-scale survey.",
+        "Conducting a laboratory experiment.",
+        "Analyzing crime statistics related to motorcycle gangs."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t13"
+    },
+    {
+      "id": 689,
+      "question": "Ethnographic research is particularly useful for studying:",
+      "choices": [
+        "The nuances of social interaction and cultural practices within a specific group.",
+        "Broad demographic trends and public opinion across a large population.",
+        "The causal relationship between two variables in a controlled setting.",
+        "The historical evolution of social institutions."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t22"
+    },
+    {
+      "id": 690,
+      "question": "Which of the following is NOT a characteristic of ethnographic research?",
+      "choices": [
+        "Researcher bias and the difficulty of maintaining objectivity.",
+        "The limited generalizability of findings to larger populations.",
+        "The inability to gather in-depth information about a specific group.",
+        "The reliance on statistical analysis and quantitative data."
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch02_t12"
+    },
+    {
+      "id": 691,
+      "question": "Which of the following research questions is BEST suited for an ethnographic study?",
+      "choices": [
+        "How do homeless individuals navigate the challenges of daily life on the streets?",
+        "What is the national unemployment rate among recent college graduates?",
+        "What is the relationship between income level and voting behavior?",
+        "How does exposure to violent media affect aggression levels in adolescents?"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 692,
+      "question": "In survey research, using clear and concise language is crucial to ensure:",
+      "choices": [
+        "Respondent comprehension and accurate responses.",
+        "A high response rate and a representative sample.",
+        "The researcher's personal biases are not reflected in the questions.",
+        "The survey instrument is visually appealing and engaging."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t23"
+    },
+    {
+      "id": 693,
+      "question": "Pilot testing a survey instrument is important because it helps:",
+      "choices": [
+        "Identify and correct potential problems with question wording or clarity.",
+        "Ensure the survey will yield statistically significant results.",
+        "Guarantee a high response rate from the target population.",
+        "Determine the appropriate sample size for the study."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t22"
+    },
+    {
+      "id": 694,
+      "question": "A major advantage of online surveys compared to traditional mail surveys is:",
+      "choices": [
+        "Lower cost and faster data collection.",
+        "Higher response rates and better representation of the population.",
+        "Greater control over the survey environment and respondent behavior.",
+        "The ability to conduct in-depth interviews and follow-up questions."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t15"
+    },
+    {
+      "id": 695,
+      "question": "A researcher observes that cities with higher unemployment rates also tend to have higher crime rates. This observation demonstrates:",
+      "choices": [
+        "Correlation, but does not necessarily prove causation.",
+        "Causation, definitively proving that unemployment causes crime.",
+        "A spurious correlation, indicating a third variable is influencing both.",
+        "A negative correlation, suggesting that as unemployment decreases, crime increases."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t11"
+    },
+    {
+      "id": 696,
+      "question": "A study finds that students who participate in extracurricular activities tend to have higher GPAs.  Which statement best reflects this finding?",
+      "choices": [
+        "Correlation with GPAs exists, but causation cannot be assumed.",
+        "Participating in extracurricular activities directly causes higher GPAs.",
+        "Higher GPAs cause students to participate in more activities.",
+        "There is no relationship between activities and GPA."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t08"
+    },
+    {
+      "id": 697,
+      "question": "Which of the following statements about correlation and causation is TRUE?",
+      "choices": [
+        "Correlation always implies causation.",
+        "Correlation and causation are interchangeable terms.",
+        "Correlation does not necessarily imply causation.",
+        "If two variables are correlated, one must be causing the other."
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch02_t08"
+    },
+    {
+      "id": 698,
+      "question": "To establish a causal relationship between two variables, researchers must demonstrate:",
+      "choices": [
+        "Correlation, time order, and nonspuriousness.",
+        "Correlation alone is sufficient to establish causation.",
+        "That the two variables occur together in time.",
+        "That a third variable is influencing both variables."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t08"
+    },
+    {
+      "id": 699,
+      "question": "A researcher wants to determine if playing violent video games causes aggression. Which research method would be MOST appropriate for establishing causality?",
+      "choices": [
+        "A controlled experiment.",
+        "A survey asking about video game habits and aggressive behavior.",
+        "Observing children playing video games in an arcade.",
+        "Analyzing sales data for violent video games."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t25"
+    },
+    {
+      "id": 700,
+      "question": "Defining \"social class\" in terms of income, education, and occupational prestige is an example of:",
+      "choices": [
+        "Operationalization.",
+        "Hypothesizing.",
+        "Generalization.",
+        "Interpretation."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 701,
+      "question": "A researcher defines \"political participation\" as voting in elections, attending political rallies, and donating to political campaigns. This is an example of:",
+      "choices": [
+        "An operational definition.",
+        "A theoretical hypothesis.",
+        "A sociological theory.",
+        "A research question."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t07"
+    },
+    {
+      "id": 702,
+      "question": "Why are operational definitions important in social science research?",
+      "choices": [
+        "They provide clear and measurable definitions of key concepts, allowing for empirical testing.",
+        "They ensure that researchers' personal biases do not influence the study's findings.",
+        "They guarantee that the research will be ethically sound.",
+        "They allow researchers to generalize their findings to the entire population."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t22"
+    },
+    {
+      "id": 703,
+      "question": "Which of the following is an operational definition of \"academic success\"?",
+      "choices": [
+        "A student's GPA.",
+        "A student's intelligence.",
+        "A student's motivation to learn.",
+        "A student's enjoyment of school."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t07"
+    },
+    {
+      "id": 704,
+      "question": "A researcher is studying the effects of social media use on self-esteem. Which of the following is the BEST operational definition of \"social media use\"?",
+      "choices": [
+        "The number of hours per day spent on social media platforms.",
+        "Whether or not a person has a social media account.",
+        "A person's subjective feeling about social media.",
+        "The number of friends or followers a person has on social media."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t07"
+    },
+    {
+      "id": 705,
+      "question": "Using historical job postings to study societal changes assumes that:",
+      "choices": [
+        "Job postings accurately reflect broader societal values and norms.",
+        "The language used in job postings remains consistent over time.",
+        "All available job postings have been preserved and are accessible to researchers.",
+        "Job postings are created solely to attract qualified candidates."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 706,
+      "question": "Which of the following is NOT a potential limitation of using historical job postings to study social change?",
+      "choices": [
+        "Job postings perfectly capture actual hiring outcomes and workplace discrimination.",
+        "Job postings reflect the idealized image that employers want to project.",
+        "Job postings may not capture the full range of employment opportunities available.",
+        "The language used in job postings can be influenced by social and cultural norms."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t24"
+    },
+    {
+      "id": 707,
+      "question": "A research team surveys a randomly selected sample of 1,000 registered voters in a city to gauge public opinion on a proposed new law. The target population is:",
+      "choices": [
+        "All registered voters in the city.",
+        "The 1,000 registered voters surveyed.",
+        "All residents of the city.",
+        "All eligible voters in the city, regardless of registration status."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t22"
+    },
+    {
+      "id": 708,
+      "question": "A study aims to understand the experiences of female entrepreneurs in the tech industry. Researchers conduct interviews with 50 women who founded tech startups across the United States. What is the target population?",
+      "choices": [
+        "All female entrepreneurs in the tech industry.",
+        "All entrepreneurs in the tech industry.",
+        "Female entrepreneurs in Silicon Valley.",
+        "The 50 women interviewed in the study."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t22"
+    },
+    {
+      "id": 709,
+      "question": "A survey is conducted among a random sample of high school students in a state to assess their attitudes towards drug use. The target population is:",
+      "choices": [
+        "All high school students in the state.",
+        "All teenagers in the state.",
+        "All students in the state, including elementary and middle school.",
+        "The students who participated in the survey."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t22"
+    },
+    {
+      "id": 710,
+      "question": "Researchers are interested in the health outcomes of individuals living in rural communities. They collect data from residents of five randomly selected rural towns. The target population is:",
+      "choices": [
+        "Individuals living in rural communities.",
+        "Residents of the five selected rural towns.",
+        "All individuals living in small towns.",
+        "All individuals living outside of major cities."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t22"
+    },
+    {
+      "id": 711,
+      "question": "The primary goal of ethnographic research is to:",
+      "choices": [
+        "Understand meanings people attach to actions within cultural contexts.",
+        "Test hypotheses and establish causal relationships between variables.",
+        "Gather large-scale quantitative data on social trends and patterns.",
+        "Develop and refine social theories based on existing literature."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t06"
+    },
+    {
+      "id": 712,
+      "question": "Which of the following is a characteristic of ethnographic research?",
+      "choices": [
+        "Immersive, long-term fieldwork in a natural setting.",
+        "Reliance on statistical analysis of survey data.",
+        "Manipulation of variables in a controlled laboratory environment.",
+        "Focus on historical analysis of social documents."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t06"
+    },
+    {
+      "id": 713,
+      "question": "Ethnographic research often involves:",
+      "choices": [
+        "Participant observation, interviews, and field notes.",
+        "Administering standardized questionnaires to a large sample.",
+        "Conducting experiments to test cause-and-effect relationships.",
+        "Analyzing existing datasets from government or organizational sources."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t13"
+    },
+    {
+      "id": 714,
+      "question": "A key strength of ethnography is its ability to:",
+      "choices": [
+        "Provide rich, detailed descriptions of social life.",
+        "Generate statistically generalizable findings.",
+        "Establish causal relationships between variables.",
+        "Replicate findings in controlled settings."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t12"
+    },
+    {
+      "id": 715,
+      "question": "Which research question is BEST suited for an ethnographic study?",
+      "choices": [
+        "How do members of a particular subculture create and maintain their identity?",
+        "What is the relationship between income and educational attainment?",
+        "Does exposure to violent media increase aggression in children?",
+        "What percentage of the population supports a particular political candidate?"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t22"
+    },
+    {
+      "id": 716,
+      "question": "A researcher studying workplace bullying might prefer confidential interviews over open group discussions because:",
+      "choices": [
+        "Victims of bullying may be more likely to disclose sensitive information in a private setting.",
+        "Group discussions are more time-consuming and difficult to moderate.",
+        "Confidential interviews allow for greater control over the research environment.",
+        "Group discussions often lead to conformity and suppress dissenting opinions."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t15"
+    },
+    {
+      "id": 717,
+      "question": "A researcher studying attitudes towards immigration might choose to use a survey rather than in-depth interviews because:",
+      "choices": [
+        "Surveys allow collection from larger, more representative samples.",
+        "Surveys provide more nuanced and detailed individual information.",
+        "Surveys eliminate the potential for researcher bias completely.",
+        "Surveys always produce more accurate data than interviews."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t33"
+    },
+    {
+      "id": 718,
+      "question": "Focus groups are a useful research method for:",
+      "choices": [
+        "Exploring a topic in depth and generating new ideas.",
+        "Testing hypotheses and establishing causal relationships.",
+        "Quantifying the prevalence of a particular attitude or behavior.",
+        "Ensuring the anonymity of participants."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 719,
+      "question": "When studying a sensitive topic like sexual behavior, researchers might prioritize:",
+      "choices": [
+        "Ensuring the anonymity and confidentiality of participants.",
+        "Using a large and representative sample to generalize findings.",
+        "Conducting the research in a public setting to maximize transparency.",
+        "Using leading questions to elicit desired responses."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t23"
+    },
+    {
+      "id": 720,
+      "question": "A researcher wants to study the impact of a new government policy on a specific community. Which method would be MOST appropriate for assessing the long-term effects of the policy?",
+      "choices": [
+        "Longitudinal study",
+        "Cross-sectional survey",
+        "Experiment",
+        "Content analysis"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t24"
+    },
+    {
+      "id": 721,
+      "question": "Reliability in research refers to:",
+      "choices": [
+        "The consistency of a measure.",
+        "The accuracy of a measure.",
+        "The generalizability of findings.",
+        "The objectivity of the researcher."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t29"
+    },
+    {
+      "id": 722,
+      "question": "Which of the following best describes reliability in sociological research?",
+      "choices": [
+        "A measure produces consistent results over time and across different observers.",
+        "A measure accurately reflects the concept it is intended to measure.",
+        "The findings of a study can be applied to a larger population.",
+        "The researcher's personal biases do not influence the results."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t22"
+    },
+    {
+      "id": 723,
+      "question": "A researcher administers the same survey to the same group of people at two different points in time.  If the results are very similar, this suggests the survey has high:",
+      "choices": [
+        "Reliability.",
+        "Validity.",
+        "Generalizability.",
+        "Objectivity."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t29"
+    },
+    {
+      "id": 724,
+      "question": "Which of the following would NOT be a threat to the reliability of a research study?",
+      "choices": [
+        "Using a standardized questionnaire with clear instructions.",
+        "Using different researchers to collect data who have not been trained consistently.",
+        "Using a measure that has been shown to be consistent in previous studies.",
+        "Conducting the study in a controlled environment."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 725,
+      "question": "A measure can be reliable but not valid. This means:",
+      "choices": [
+        "Consistent but does not accurately measure the concept.",
+        "The measure is accurate but not consistent over time.",
+        "The measure is both accurate and consistent.",
+        "The measure is neither accurate nor consistent."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 726,
+      "question": "A researcher finds that higher education levels are associated with higher income. However, further analysis reveals that job opportunities and professional experience play a role in linking education and income. In this case, job opportunities and professional experience are examples of:",
+      "choices": [
+        "Intervening variables*",
+        "Independent variables",
+        "Spurious correlations",
+        "Dependent variables"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t06"
+    },
+    {
+      "id": 727,
+      "question": "A study shows that children who read more books tend to score higher on standardized tests. However, further analysis suggests that parental education level influences both reading habits and test performance. In this case, parental education level is:",
+      "choices": [
+        "A confounding variable",
+        "An independent variable",
+        "An intervening variable",
+        "A spurious correlation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t10"
+    },
+    {
+      "id": 728,
+      "question": "Research indicates that students who participate in extracurricular activities tend to have higher GPAs. However, further analysis finds that time management skills contribute to both participation in activities and academic success. In this case, time management skills are:",
+      "choices": [
+        "An intervening variable*",
+        "A dependent variable",
+        "A confounding variable",
+        "A spurious correlation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t10"
+    },
+    {
+      "id": 729,
+      "question": "A sociologist observes that wealthier neighborhoods tend to have lower crime rates. Further analysis shows that access to well-funded schools plays a key role in reducing crime. In this scenario, access to well-funded schools functions as:",
+      "choices": [
+        "An intervening variable*",
+        "An independent variable",
+        "A dependent variable",
+        "A spurious correlation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t10"
+    },
+    {
+      "id": 730,
+      "question": "Studies show that individuals who exercise regularly report higher levels of happiness. However, researchers find that better physical health is a key factor linking exercise and happiness. In this case, physical health is best described as:",
+      "choices": [
+        "An intervening variable",
+        "A confounding variable",
+        "A dependent variable",
+        "A spurious correlation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t10"
+    },
+    {
+      "id": 731,
+      "question": "Which of the following BEST represents a sociological hypothesis?",
+      "choices": [
+        "Increased social media use is associated with higher loneliness.",
+        "Social media is bad for society and harmful to people.",
+        "Loneliness is a complex emotion with multiple causes.",
+        "More people use social media today than ever before."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t05"
+    },
+    {
+      "id": 732,
+      "question": "A researcher hypothesizes that students who attend smaller classes will have higher grades than students who attend larger classes.  What is the independent variable in this hypothesis?",
+      "choices": [
+        "Class size",
+        "Grades",
+        "Type of school",
+        "Student motivation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t26"
+    },
+    {
+      "id": 733,
+      "question": "A sociologist predicts that individuals with stronger social support networks will experience lower levels of stress. What is the dependent variable in this hypothesis?",
+      "choices": [
+        "Levels of stress",
+        "Strength of social support networks",
+        "Individual personality type",
+        "Age of the individuals"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t27"
+    },
+    {
+      "id": 734,
+      "question": "\"Exposure to diverse perspectives leads to increased tolerance.\" In this hypothesis, what is the independent variable?",
+      "choices": [
+        "Exposure to diverse perspectives",
+        "Increased tolerance levels",
+        "Level of formal education",
+        "Pre-existing biases"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t26"
+    },
+    {
+      "id": 735,
+      "question": "Which of the following is a well-formed hypothesis?",
+      "choices": [
+        "Higher poverty rates correlate with higher crime rates.",
+        "Crime is a problem in many communities across America.",
+        "Poverty is a complex social issue with many causes.",
+        "More police should patrol high-crime neighborhoods."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t05"
+    },
+    {
+      "id": 736,
+      "question": "A researcher hypothesizes that watching violent television shows increases aggression in children. What is the dependent variable?",
+      "choices": [
+        "Aggression in children",
+        "Watching violent television shows",
+        "Parental supervision",
+        "Type of television program"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t27"
+    },
+    {
+      "id": 737,
+      "question": "\"Higher levels of education are associated with increased political participation.\" What is the independent variable in this hypothesis?",
+      "choices": [
+        "Levels of education",
+        "Political participation",
+        "Political affiliation",
+        "Age"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t26"
+    },
+    {
+      "id": 738,
+      "question": "Which of the following is NOT a characteristic of a good hypothesis?",
+      "choices": [
+        "It is testable.",
+        "It is based on opinion.",
+        "It is specific.",
+        "It proposes a relationship between variables."
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch02_t05"
+    },
+    {
+      "id": 739,
+      "question": "\"Individuals who experience economic hardship are more likely to support populist political candidates.\" In this hypothesis, what is the dependent variable?",
+      "choices": [
+        "Support for populist candidates",
+        "Economic hardship levels",
+        "Political ideology orientation",
+        "Geographic location"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t27"
+    },
+    {
+      "id": 740,
+      "question": "A researcher wants to study the relationship between social class and access to healthcare.  Which of the following is a testable hypothesis?",
+      "choices": [
+        "Lower social class correlates with less healthcare access.",
+        "Healthcare is a human right that should be protected.",
+        "Social class is a complex and multifaceted concept.",
+        "The healthcare system is unfair and needs reform."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t05"
+    },
+    {
+      "id": 741,
+      "question": "A researcher wants to study how political polarization is reflected in the language used on social media by systematically analyzing thousands of existing posts and comments. Which research method would be MOST appropriate?",
+      "choices": [
+        "Content analysis of social media posts and online discussions.",
+        "In-depth interviews with political activists.",
+        "A laboratory experiment manipulating exposure to social media.",
+        "A survey measuring political attitudes and social media use."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t24"
+    },
+    {
+      "id": 742,
+      "question": "To study the daily lives and interactions of homeless individuals in a particular city, a researcher would most likely use:",
+      "choices": [
+        "Ethnographic observation.",
+        "Content analysis of news articles about homelessness.",
+        "A survey administered to residents of the city.",
+        "An experiment testing the effectiveness of different interventions for homelessness."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t12"
+    },
+    {
+      "id": 743,
+      "question": "A researcher wants to understand how attitudes towards same-sex marriage have changed over time. Which research method would be BEST suited for this purpose?",
+      "choices": [
+        "Analysis of historical public opinion polls and survey data.",
+        "In-depth interviews with individuals who support and oppose same-sex marriage.",
+        "A case study of a specific legal challenge to same-sex marriage bans.",
+        "An experiment manipulating exposure to information about same-sex marriage."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t33"
+    },
+    {
+      "id": 744,
+      "question": "To investigate the relationship between poverty and crime rates in different neighborhoods, a researcher would likely use:",
+      "choices": [
+        "Quantitative analysis of crime statistics and census data.",
+        "Ethnographic observation of neighborhood life.",
+        "In-depth interviews with residents of high-crime neighborhoods.",
+        "A controlled experiment manipulating poverty levels."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch02_t01"
+    },
+    {
+      "id": 745,
+      "question": "A researcher wants to study the effectiveness of a new teaching method. Which research method would be MOST appropriate for determining if the new method *causes* improved student learning?",
+      "choices": [
+        "A randomized controlled trial.",
+        "A survey of student opinions about the new teaching method.",
+        "Observation of classroom interactions using the new teaching method.",
+        "A qualitative study of student experiences with the new teaching method."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    }
+  ]
+}

@@ -1,0 +1,1006 @@
+{
+  "id": "ch13",
+  "name": "Family",
+  "order": 13,
+  "concepts": [
+    {
+      "id": "ch13_t01",
+      "term": "Marriage",
+      "definition": "A legally or socially sanctioned union, typically between two individuals, regulating sexual and economic rights and obligations.",
+      "level3_question_ids": [
+        114,
+        118,
+        120,
+        142,
+        144,
+        152,
+        155,
+        160,
+        420,
+        422
+      ],
+      "confusable_ids": [
+        "ch13_t16",
+        "ch13_t07",
+        "ch13_t08"
+      ]
+    },
+    {
+      "id": "ch13_t02",
+      "term": "Family",
+      "definition": "A social group, often related by kinship or marriage, who cooperate economically and share responsibility for upbringing children.",
+      "level3_question_ids": [
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        121,
+        128,
+        129,
+        130,
+        131,
+        135,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        158,
+        159,
+        418,
+        419,
+        420,
+        421,
+        422,
+        425,
+        426,
+        427,
+        127
+      ],
+      "confusable_ids": [
+        "ch13_t04",
+        "ch13_t03",
+        "ch13_t05",
+        "ch13_t06",
+        "ch13_t07"
+      ]
+    },
+    {
+      "id": "ch13_t03",
+      "term": "Extended Family",
+      "definition": "A family unit including relatives beyond parents and children (e.g., grandparents, aunts, uncles), often living together or nearby.",
+      "level3_question_ids": [
+        113,
+        115,
+        116,
+        117,
+        121,
+        128,
+        129,
+        147,
+        153,
+        418,
+        419,
+        420,
+        421,
+        422,
+        425,
+        426,
+        427,
+        114
+      ],
+      "confusable_ids": [
+        "ch13_t04",
+        "ch13_t05",
+        "ch13_t06",
+        "ch13_t02",
+        "ch13_t13"
+      ]
+    },
+    {
+      "id": "ch13_t04",
+      "term": "Nuclear Family",
+      "definition": "A family unit consisting of parent(s) and their dependent children.",
+      "level3_question_ids": [
+        114,
+        121,
+        128,
+        129,
+        147,
+        153,
+        418,
+        419,
+        420,
+        421,
+        422,
+        425,
+        427
+      ],
+      "confusable_ids": [
+        "ch13_t03",
+        "ch13_t05",
+        "ch13_t06",
+        "ch13_t02",
+        "ch13_t08"
+      ]
+    },
+    {
+      "id": "ch13_t05",
+      "term": "Patriarchal Family",
+      "definition": "Family structure where authority is predominantly held by the eldest male or father.",
+      "level3_question_ids": [
+        419,
+        420,
+        427,
+        132,
+        121,
+        128,
+        129
+      ],
+      "confusable_ids": [
+        "ch13_t06",
+        "ch13_t04",
+        "ch13_t03",
+        "ch13_t02",
+        "ch13_t08"
+      ]
+    },
+    {
+      "id": "ch13_t06",
+      "term": "Companionship Family",
+      "definition": "Family structure based on mutual affection, shared decision-making, and emotional bonds between spouses.",
+      "level3_question_ids": [
+        419,
+        420,
+        427
+      ],
+      "confusable_ids": [
+        "ch13_t05",
+        "ch13_t04",
+        "ch13_t03",
+        "ch13_t02",
+        "ch13_t15"
+      ]
+    },
+    {
+      "id": "ch13_t07",
+      "term": "Kin",
+      "definition": "One's relatives; individuals related by blood (consanguineal) or marriage (affinal).",
+      "level3_question_ids": [
+        116,
+        418,
+        421,
+        422,
+        425
+      ],
+      "confusable_ids": [
+        "ch13_t08",
+        "ch13_t02",
+        "ch13_t11",
+        "ch13_t16",
+        "ch13_t01"
+      ]
+    },
+    {
+      "id": "ch13_t08",
+      "term": "Fictive Kin",
+      "definition": "Individuals unrelated by birth or marriage who are regarded and function as family members.",
+      "level3_question_ids": [
+        116,
+        418,
+        421,
+        422,
+        425
+      ],
+      "confusable_ids": [
+        "ch13_t07",
+        "ch13_t04",
+        "ch13_t05",
+        "ch13_t15",
+        "ch13_t06"
+      ]
+    },
+    {
+      "id": "ch13_t09",
+      "term": "Homogamy",
+      "definition": "The tendency to marry or partner with someone possessing similar social characteristics (e.g., race, class, religion).",
+      "level3_question_ids": [
+        117,
+        156,
+        423,
+        424
+      ],
+      "confusable_ids": [
+        "ch13_t12",
+        "ch13_t02",
+        "ch13_t14",
+        "ch13_t03"
+      ]
+    },
+    {
+      "id": "ch13_t10",
+      "term": "Endogamy",
+      "definition": "The custom or practice of marrying only within the limits of a specific local community, clan, or tribe.",
+      "level3_question_ids": [
+        120,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        423,
+        424
+      ],
+      "confusable_ids": [
+        "ch13_t11",
+        "ch13_t15",
+        "ch13_t12"
+      ]
+    },
+    {
+      "id": "ch13_t11",
+      "term": "Exogamy",
+      "definition": "The custom or practice of marrying outside of one's own specific group or tribe.",
+      "level3_question_ids": [
+        120,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        423,
+        424
+      ],
+      "confusable_ids": [
+        "ch13_t10",
+        "ch13_t07",
+        "ch13_t12",
+        "ch13_t02"
+      ]
+    },
+    {
+      "id": "ch13_t12",
+      "term": "Propinquity",
+      "definition": "Nearness in physical space; a factor influencing relationship formation (marrying someone nearby).",
+      "level3_question_ids": [
+        423,
+        424
+      ],
+      "confusable_ids": [
+        "ch13_t13",
+        "ch13_t11",
+        "ch13_t10",
+        "ch13_t09",
+        "ch13_t03"
+      ]
+    },
+    {
+      "id": "ch13_t13",
+      "term": "Cohabitation",
+      "definition": "Living together as a couple in an intimate relationship without being formally married.",
+      "level3_question_ids": [
+        155,
+        425
+      ],
+      "confusable_ids": [
+        "ch13_t03",
+        "ch13_t12"
+      ]
+    },
+    {
+      "id": "ch13_t14",
+      "term": "Instrumental Tasks",
+      "definition": "Practical, goal-oriented tasks needed for family maintenance (e.g., earning income, fixing things).",
+      "level3_question_ids": [
+        131,
+        154,
+        161,
+        426,
+        157
+      ],
+      "confusable_ids": [
+        "ch13_t15",
+        "ch13_t03",
+        "ch13_t04",
+        "ch13_t05",
+        "ch13_t08"
+      ]
+    },
+    {
+      "id": "ch13_t15",
+      "term": "Expressive Tasks",
+      "definition": "Tasks focused on maintaining emotional relationships, socialization, and support within the family.",
+      "level3_question_ids": [
+        114,
+        131,
+        134,
+        154,
+        426
+      ],
+      "confusable_ids": [
+        "ch13_t14",
+        "ch13_t06",
+        "ch13_t04",
+        "ch13_t05",
+        "ch13_t08"
+      ]
+    },
+    {
+      "id": "ch13_t16",
+      "term": "Second Shift",
+      "definition": "The unpaid housework and childcare performed by individuals (typically women) after finishing their paid workday.",
+      "level3_question_ids": [
+        426
+      ],
+      "confusable_ids": [
+        "ch13_t01",
+        "ch13_t07",
+        "ch13_t08"
+      ]
+    }
+  ],
+  "chapter_questions": [
+    {
+      "id": 113,
+      "question": "Which of the following factors contribute to the declining relevance of the extended family in modern society?",
+      "choices": [
+        "a) Increased mobility and geographical distance",
+        "b) Changes in religious beliefs",
+        "c) Declining birth rates",
+        "d) Shifting gender roles"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t03"
+    },
+    {
+      "id": 114,
+      "question": "In what way does the extended family differ from the nuclear family?",
+      "choices": [
+        "b) The extended family includes relatives beyond the immediate family, while the nuclear family consists of only parents and children.",
+        "a) The extended family is based on marriage, while the nuclear family is based on blood relations.",
+        "c) The extended family is common in collectivist cultures, while the nuclear family is common in individualistic cultures.",
+        "d) The extended family primarily performs instrumental tasks, while the nuclear family primarily performs expressive tasks."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t03"
+    },
+    {
+      "id": 115,
+      "question": "How does the extended family contribute to social support?",
+      "choices": [
+        "c) They provide emotional support, financial assistance, and caregiving.",
+        "a) They offer advice and guidance on life decisions.",
+        "b) They share leisure and recreational activities.",
+        "d) They enforce social norms and maintain social order."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t03"
+    },
+    {
+      "id": 116,
+      "question": "What is an example of a fictive kin relationship within the extended family?",
+      "choices": [
+        "d) A close family friend who is referred to as 'Aunt' or 'Uncle'",
+        "a) A sibling",
+        "b) A grandparent",
+        "c) A first cousin"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t03"
+    },
+    {
+      "id": 117,
+      "question": "What is the significance of homogamy in the formation of extended family ties?",
+      "choices": [
+        "b) Homogamy increases the likelihood of shared values and interests among extended family members.",
+        "a) Homogamy promotes genetic diversity within the extended family.",
+        "c) Homogamy reduces conflict and tension within the extended family.",
+        "d) Homogamy strengthens the patriarchal structure of the extended family."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t03"
+    },
+    {
+      "id": 118,
+      "question": "What is the term used to describe the social unit composed of two or more people related by blood, marriage, or adoption?",
+      "choices": [
+        "Family",
+        "Marriage",
+        "Household",
+        "Community"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t01"
+    },
+    {
+      "id": 119,
+      "question": "Which sociological perspective emphasizes the role of the family in socializing children and maintaining social order?",
+      "choices": [
+        "Structural functionalist",
+        "Symbolic interactionist",
+        "Conflict theorist",
+        "Feminist"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t02"
+    },
+    {
+      "id": 120,
+      "question": "What term refers to the practice of marrying within one's own social group, such as race, ethnicity, or social class?",
+      "choices": [
+        "Endogamy",
+        "Exogamy",
+        "Arranged marriage",
+        "Polygamy"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t01"
+    },
+    {
+      "id": 121,
+      "question": "Which type of family is characterized by a hierarchical structure in which the father has authority and control over other family members?",
+      "choices": [
+        "Patriarchal family",
+        "Companionship family",
+        "Extended family",
+        "Nuclear family"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t05"
+    },
+    {
+      "id": 127,
+      "question": "How would a symbolic interactionist analyze the process of identity formation within families?",
+      "choices": [
+        "By examining how family members interpret and negotiate societal expectations and roles through everyday interaction.",
+        "By studying the genetic and biological factors that influence identity.",
+        "By analyzing how large-scale social institutions shape identity formation.",
+        "By focusing on the psychological processes involved in self-concept development."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t02"
+    },
+    {
+      "id": 128,
+      "question": "In which type of family can mistreatment be facilitated through a sex-based division of labor?",
+      "choices": [
+        "Patriarchal family",
+        "Companionship family",
+        "Extended family",
+        "Nuclear family"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t05"
+    },
+    {
+      "id": 129,
+      "question": "Which of the following types of families is characterized by a traditional division of labor based on gender roles?",
+      "choices": [
+        "Patriarchal family",
+        "Companionship family",
+        "Extended family",
+        "Nuclear family"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t05"
+    },
+    {
+      "id": 130,
+      "question": "How can a sex-based division of labor in the family contribute to mistreatment?",
+      "choices": [
+        "By assigning women to primarily perform unpaid domestic tasks and caregiving",
+        "By promoting gender equality and shared responsibilities",
+        "By encouraging open communication and mutual understanding",
+        "By allowing individuals to pursue their own interests and aspirations"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t02"
+    },
+    {
+      "id": 131,
+      "question": "What is the term for a family structure where men are assigned instrumental tasks and women are assigned expressive tasks?",
+      "choices": [
+        "Sex-based division of labor",
+        "Marital division of labor",
+        "Gendered division of tasks",
+        "Familial role allocation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t14"
+    },
+    {
+      "id": 132,
+      "question": "Which of the following scenarios best illustrates gender inequality reinforced by a sex-based division of labor in the family?",
+      "choices": [
+        "A husband refuses to help with household chores because he believes it is a woman's responsibility.",
+        "A family where both partners have equal responsibilities in household chores.",
+        "A family where partners take turns performing various tasks.",
+        "A husband who takes on caregiving responsibilities while the wife focuses on paid work."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t05"
+    },
+    {
+      "id": 133,
+      "question": "Which of the following scenarios best exemplifies an instrumental task?",
+      "choices": [
+        "a) Alex mows the lawn every Saturday for his elderly neighbor.",
+        "b) Lisa spends her weekends gardening for relaxation.",
+        "c) Sam volunteers at a local shelter to help homeless individuals.",
+        "d) Emily takes care of her younger siblings while her parents are at work."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 134,
+      "question": "In which of the following situations can expressive tasks be observed?",
+      "choices": [
+        "c) A group of friends sharing their feelings and providing emotional support during a difficult time.",
+        "a) A doctor performing surgery on a patient.",
+        "b) A teacher giving a lecture to a classroom of students.",
+        "d) A police officer arresting a suspect."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t15"
+    },
+    {
+      "id": 135,
+      "question": "Which of the following scenarios illustrates an instrumental task within a family?",
+      "choices": [
+        "b) John pays the bills and manages the finances for his household.",
+        "a) Sarah reads bedtime stories to her children.",
+        "c) Robert prepares meals for his family.",
+        "d) Michelle helps her siblings with their homework."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t02"
+    },
+    {
+      "id": 136,
+      "question": "Identify the example that represents an expressive task in a workplace setting.",
+      "choices": [
+        "d) Colleagues celebrate a coworker's promotion and express their joy and support.",
+        "a) An employee completes a work assignment ahead of schedule.",
+        "b) A manager gives instructions to subordinates.",
+        "c) Team members collaborate on a project to meet a deadline."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 137,
+      "question": "Which of the following scenarios best represents an instrumental task within a friendship?",
+      "choices": [
+        "c) Rachel helps her friend move to a new apartment.",
+        "a) James listens attentively to his friend's problems.",
+        "b) Julia gives her friend a thoughtful gift on their birthday.",
+        "d) Mark and his friend have a deep conversation about their dreams and aspirations."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 138,
+      "question": "In many cultures, it is common for individuals to seek romantic partners outside of their own community or social group. This practice is known as:",
+      "choices": [
+        "Exogamy",
+        "Endogamy",
+        "Polygyny",
+        "Polyandry"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t10"
+    },
+    {
+      "id": 139,
+      "question": "Which of the following terms describes the practice of marrying or forming a romantic relationship with someone from outside one's own community or social group?",
+      "choices": [
+        "Exogamy",
+        "Endogamy",
+        "Polygyny",
+        "Polyandry"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t10"
+    },
+    {
+      "id": 140,
+      "question": "Imagine a society where individuals are only allowed to marry within their own community or social group. What sociological term can be used to describe this practice?",
+      "choices": [
+        "Endogamy",
+        "Exogamy",
+        "Polygyny",
+        "Polyandry"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t10"
+    },
+    {
+      "id": 141,
+      "question": "In a society where individuals are encouraged to marry within their own community or social group, what term can be used to describe this preference?",
+      "choices": [
+        "Endogamy",
+        "Exogamy",
+        "Polygyny",
+        "Polyandry"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t10"
+    },
+    {
+      "id": 142,
+      "question": "In some traditional societies, individuals are required to marry someone from outside of their own social group. This practice is known as:",
+      "choices": [
+        "Exogamy",
+        "Polyandry",
+        "Endogamy",
+        "Arranged marriage"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t01"
+    },
+    {
+      "id": 143,
+      "question": "Which of the following terms refers to the practice of marrying someone from a different racial or ethnic group?",
+      "choices": [
+        "Exogamy",
+        "Polyandry",
+        "Endogamy",
+        "Heterogamy"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t10"
+    },
+    {
+      "id": 144,
+      "question": "In a society where marriage between individuals from the same clan is prohibited, they are practicing:",
+      "choices": [
+        "Exogamy",
+        "Polyandry",
+        "Endogamy",
+        "Arranged marriage"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t01"
+    },
+    {
+      "id": 145,
+      "question": "A cultural norm that encourages individuals to marry outside of their own religious group is an example of:",
+      "choices": [
+        "Exogamy",
+        "Polyandry",
+        "Endogamy",
+        "Heterogamy"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t10"
+    },
+    {
+      "id": 146,
+      "question": "In a society where individuals are expected to marry someone from outside their own clan or tribal group, they are practicing:",
+      "choices": [
+        "Exogamy",
+        "Polyandry",
+        "Endogamy",
+        "Arranged marriage"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t11"
+    },
+    {
+      "id": 147,
+      "question": "How does the concept of family vary across cultures?",
+      "choices": [
+        "The concept of family varies across cultures, with some cultures emphasizing extended family structures while others focus on nuclear family units.",
+        "The concept of family is the same in all cultures.",
+        "The concept of family is based solely on legal and economic structures.",
+        "The concept of family is the unit that raises children."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t03"
+    },
+    {
+      "id": 148,
+      "question": "How does the family structure influence the socialization of children?",
+      "choices": [
+        "The family structure plays a significant role in the socialization of children, as it provides the primary environment for learning social norms, values, and behaviors.",
+        "Family structure has no impact on the socialization of children.",
+        "Socialization of children is solely influenced by schools and peer groups.",
+        "Socialization of children is primarily influenced by media and technology."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t02"
+    },
+    {
+      "id": 149,
+      "question": "In what ways does the family contribute to the reproduction of social inequalities?",
+      "choices": [
+        "The family can contribute to the reproduction of social inequalities by passing down social advantages or disadvantages based on factors such as socioeconomic status, education, and cultural capital.",
+        "The family has no role in the reproduction of social inequalities.",
+        "Social inequalities are solely determined by individual effort and talent.",
+        "Social inequalities are primarily influenced by government policies."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t02"
+    },
+    {
+      "id": 150,
+      "question": "How does the concept of family change over time?",
+      "choices": [
+        "The concept of family has evolved over time, with shifts in societal norms and values influencing changes in family structures and dynamics.",
+        "The concept of family has remained unchanged throughout history.",
+        "Changes in family structures have no connection to societal changes.",
+        "The concept of family is determined solely by biological relationships."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t02"
+    },
+    {
+      "id": 151,
+      "question": "How does the family impact individuals' well-being?",
+      "choices": [
+        "The family can have a significant impact on individuals' well-being, providing emotional support, social connections, and a sense of belonging.",
+        "The family has no influence on individuals' well-being.",
+        "Individual well-being is solely determined by economic factors.",
+        "Social connections and belonging are only formed outside the family context."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t02"
+    },
+    {
+      "id": 152,
+      "question": "In American society, how does the emphasis on marriage and family values impact people's choices regarding raising children?",
+      "choices": [
+        "Many individuals choose to have children within the context of marriage and prioritize the importance of family values.",
+        "The emphasis on marriage and family values has little influence on people's decisions to have children.",
+        "Marriage and family values are often disregarded when it comes to decisions about raising children.",
+        "Most people choose not to have children within the context of marriage and prioritize individual freedom over family values."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t01"
+    },
+    {
+      "id": 153,
+      "question": "To what extent does American ideology reflect the notion of a nuclear family as the ideal family structure?",
+      "choices": [
+        "American ideology largely promotes the nuclear family as the ideal family structure.",
+        "American ideology is mostly indifferent towards the idea of a nuclear family as the ideal family structure.",
+        "American ideology emphasizes the importance of extended family structures instead of the nuclear family.",
+        "American ideology rejects the concept of the nuclear family and promotes alternative family structures."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t03"
+    },
+    {
+      "id": 154,
+      "question": "How does American ideology influence the division of labor within a family?",
+      "choices": [
+        "American ideology often assigns instrumental tasks to men and expressive tasks to women within a family.",
+        "American ideology promotes an equal division of labor between men and women within a family.",
+        "American ideology does not influence the division of labor within a family.",
+        "American ideology typically assigns expressive tasks to men and instrumental tasks to women within a family."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t14"
+    },
+    {
+      "id": 155,
+      "question": "Which statement best describes the trend regarding cohabitation before marriage in American society?",
+      "choices": [
+        "Cohabitation before marriage has become increasingly accepted in American society.",
+        "American society strongly discourages cohabitation before marriage.",
+        "American society is largely indifferent toward the issue of cohabitation before marriage.",
+        "American society has always encouraged cohabitation before marriage."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t13"
+    },
+    {
+      "id": 156,
+      "question": "How does American ideology influence the concept of homogamy in partner selection?",
+      "choices": [
+        "American ideology promotes the idea that individuals are more likely to form relationships with others who are similar to them in terms of social characteristics.",
+        "American ideology discourages individuals from forming relationships with others who are similar to them in terms of social characteristics.",
+        "American ideology does not influence the concept of homogamy in partner selection.",
+        "American ideology promotes the idea that individuals are more likely to form relationships with others who are different from them in terms of social characteristics."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t09"
+    },
+    {
+      "id": 157,
+      "question": "What is an example of an instrumental task in a household?",
+      "choices": [
+        "Taking out the trash",
+        "Offering emotional comfort to a family member",
+        "Listening to a family member's problems",
+        "Planning a surprise birthday celebration to lift someone's spirits"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t14"
+    },
+    {
+      "id": 158,
+      "question": "Which of the following best represents an expressive task within a family?",
+      "choices": [
+        "Providing emotional support",
+        "Managing finances",
+        "Preparing meals",
+        "Repairing household appliances"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t02"
+    },
+    {
+      "id": 159,
+      "question": "In the context of family dynamics, what does an instrumental role typically involve?",
+      "choices": [
+        "Taking responsibility for practical tasks",
+        "Providing emotional support",
+        "Engaging in hobbies together",
+        "Resolving conflicts"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t02"
+    },
+    {
+      "id": 160,
+      "question": "Which of the following is an example of an instrumental task in a marriage?",
+      "choices": [
+        "Paying the bills",
+        "Planning date nights",
+        "Expressing affection",
+        "Sharing household responsibilities"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t01"
+    },
+    {
+      "id": 161,
+      "question": "What is the primary role of an individual performing instrumental tasks at work?",
+      "choices": [
+        "To accomplish specific job-related goals",
+        "To build positive relationships with coworkers",
+        "To support colleagues' emotional well-being",
+        "To enhance teamwork and collaboration"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t14"
+    },
+    {
+      "id": 418,
+      "question": "Marcus comes from a three-generation household where he lives with his parents, grandparents, aunts, and cousins all under one roof. His living arrangement is an example of what type of family structure?",
+      "choices": [
+        "Nuclear family",
+        "Blended family",
+        "Fictive kin network",
+        "Extended family"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch13_t03"
+    },
+    {
+      "id": 419,
+      "question": "Dr. Chen is studying family structures where the oldest male makes all major decisions about finances, children's education, and household rules. This represents which type of family organization?",
+      "choices": [
+        "Companionship family",
+        "Patriarchal family",
+        "Nuclear family",
+        "Extended family"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch13_t06"
+    },
+    {
+      "id": 420,
+      "question": "Sarah and David's marriage is based on mutual affection, shared decision-making about household matters, and emotional intimacy rather than strict traditional roles. Their relationship exemplifies what type of family structure?",
+      "choices": [
+        "Companionship family",
+        "Patriarchal family",
+        "Nuclear family",
+        "Extended family"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t06"
+    },
+    {
+      "id": 421,
+      "question": "When Maria calls her husband's sister, parents, and her own blood relatives together for a family reunion, she is gathering which group?",
+      "choices": [
+        "Extended family",
+        "Fictive kin",
+        "Nuclear family",
+        "Kin"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch13_t03"
+    },
+    {
+      "id": 422,
+      "question": "Although Carlos and Elena are not related by blood or marriage, they consider each other siblings and their children call each other's parents \"aunt\" and \"uncle.\" This relationship represents what concept?",
+      "choices": [
+        "Extended family",
+        "Kin",
+        "Fictive kin",
+        "Nuclear family"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch13_t03"
+    },
+    {
+      "id": 423,
+      "question": "The university's international student program encourages students to marry outside their home country's ethnic communities to promote cultural exchange. This practice represents which concept?",
+      "choices": [
+        "Exogamy",
+        "Endogamy",
+        "Propinquity",
+        "Homogamy"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch13_t12"
+    },
+    {
+      "id": 424,
+      "question": "Jake and Emma met at their neighborhood coffee shop, started dating, and eventually married. Their relationship formation demonstrates which sociological principle?",
+      "choices": [
+        "Exogamy",
+        "Homogamy",
+        "Endogamy",
+        "Propinquity"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch13_t12"
+    },
+    {
+      "id": 425,
+      "question": "Lisa and Tom have been living together as a couple for three years, sharing expenses and household responsibilities, but have chosen not to get married. Their arrangement exemplifies which relationship form?",
+      "choices": [
+        "Extended family",
+        "Nuclear family",
+        "Cohabitation",
+        "Fictive kin"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch13_t03"
+    },
+    {
+      "id": 426,
+      "question": "After working an eight-hour shift at the hospital, Jennifer comes home to cook dinner, help her children with homework, and do laundry while her husband watches television. Jennifer's situation illustrates what concept?",
+      "choices": [
+        "Instrumental tasks",
+        "Expressive tasks",
+        "Extended family responsibilities",
+        "Second shift"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch13_t14"
+    },
+    {
+      "id": 427,
+      "question": "Dr. Martinez is studying a family where the father works outside the home while the mother stays home to care for their two biological children, with no other relatives living in the household. This family structure represents what type?",
+      "choices": [
+        "Extended family",
+        "Patriarchal family",
+        "Nuclear family",
+        "Companionship family"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch13_t06"
+    }
+  ]
+}

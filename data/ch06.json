@@ -1,0 +1,1702 @@
+{
+  "id": "ch06",
+  "name": "Deviance",
+  "order": 6,
+  "concepts": [
+    {
+      "id": "ch06_t01",
+      "term": "Deviance",
+      "definition": "Behavior that violates social norms or expectations within a society",
+      "level3_question_ids": [
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        179,
+        180,
+        187,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        198,
+        202,
+        203,
+        204,
+        205,
+        206,
+        212,
+        213,
+        214,
+        215,
+        216,
+        307,
+        308,
+        309,
+        310,
+        311,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        320,
+        321,
+        322,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333
+      ],
+      "confusable_ids": [
+        "ch06_t21",
+        "ch06_t07",
+        "ch06_t15",
+        "ch06_t06",
+        "ch06_t08"
+      ]
+    },
+    {
+      "id": "ch06_t02",
+      "term": "Merton's Typology of Deviance",
+      "definition": "Theory identifying five modes of adaptation to strain: conformity, innovation, ritualism, retreatism, and rebellion",
+      "level3_question_ids": [
+        307,
+        308,
+        309,
+        208
+      ],
+      "confusable_ids": [
+        "ch06_t01",
+        "ch06_t06",
+        "ch06_t07",
+        "ch06_t08",
+        "ch06_t14"
+      ]
+    },
+    {
+      "id": "ch06_t03",
+      "term": "Social Control Theory",
+      "definition": "Theory suggesting people avoid deviance due to bonds with conventional society",
+      "level3_question_ids": [
+        190,
+        310,
+        312
+      ],
+      "confusable_ids": [
+        "ch06_t04",
+        "ch06_t05",
+        "ch06_t01",
+        "ch06_t21",
+        "ch06_t02"
+      ]
+    },
+    {
+      "id": "ch06_t04",
+      "term": "Differential Association Theory",
+      "definition": "Theory that criminal behavior is learned through interaction with others",
+      "level3_question_ids": [
+        310,
+        311,
+        312,
+        187,
+        188,
+        191
+      ],
+      "confusable_ids": [
+        "ch06_t16",
+        "ch06_t19",
+        "ch06_t03",
+        "ch06_t05",
+        "ch06_t15"
+      ]
+    },
+    {
+      "id": "ch06_t05",
+      "term": "Labeling Theory",
+      "definition": "Perspective focusing on how society's reaction to deviance can lead to further deviant behavior",
+      "level3_question_ids": [
+        189,
+        310,
+        312,
+        315,
+        319,
+        323
+      ],
+      "confusable_ids": [
+        "ch06_t07",
+        "ch06_t04",
+        "ch06_t03",
+        "ch06_t14",
+        "ch06_t16"
+      ]
+    },
+    {
+      "id": "ch06_t06",
+      "term": "Primary Deviance",
+      "definition": "Initial acts of rule-breaking before a person is publicly labeled as deviant",
+      "level3_question_ids": [
+        193,
+        195,
+        311,
+        313,
+        314,
+        315,
+        316,
+        318,
+        320,
+        322,
+        330,
+        332
+      ],
+      "confusable_ids": [
+        "ch06_t07",
+        "ch06_t14",
+        "ch06_t08",
+        "ch06_t01",
+        "ch06_t21"
+      ]
+    },
+    {
+      "id": "ch06_t07",
+      "term": "Secondary Deviance",
+      "definition": "Deviant behavior that results from being labeled as deviant",
+      "level3_question_ids": [
+        192,
+        194,
+        311,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        326,
+        328,
+        331,
+        332,
+        333
+      ],
+      "confusable_ids": [
+        "ch06_t06",
+        "ch06_t14",
+        "ch06_t01",
+        "ch06_t08",
+        "ch06_t05"
+      ]
+    },
+    {
+      "id": "ch06_t08",
+      "term": "Tertiary Deviance",
+      "definition": "Process of rejecting or transforming a deviant identity into a positive one",
+      "level3_question_ids": [
+        311,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        321,
+        322,
+        325,
+        327,
+        329,
+        331,
+        333
+      ],
+      "confusable_ids": [
+        "ch06_t14",
+        "ch06_t07",
+        "ch06_t06",
+        "ch06_t21",
+        "ch06_t01"
+      ]
+    },
+    {
+      "id": "ch06_t09",
+      "term": "Stereotype Threat",
+      "definition": "Anxiety or concern about confirming negative stereotypes about one's social group",
+      "level3_question_ids": [
+        322,
+        323,
+        324,
+        329,
+        333,
+        319,
+        320,
+        321
+      ],
+      "confusable_ids": [
+        "ch06_t10",
+        "ch06_t11",
+        "ch06_t12",
+        "ch06_t01",
+        "ch06_t21"
+      ]
+    },
+    {
+      "id": "ch06_t10",
+      "term": "Stereotype Promise",
+      "definition": "Positive performance resulting from awareness of favorable stereotypes about one's group",
+      "level3_question_ids": [
+        322,
+        323,
+        324
+      ],
+      "confusable_ids": [
+        "ch06_t09",
+        "ch06_t12",
+        "ch06_t08",
+        "ch06_t11",
+        "ch06_t21"
+      ]
+    },
+    {
+      "id": "ch06_t11",
+      "term": "Stigma",
+      "definition": "Social disapproval attached to a person or group based on perceived differences",
+      "level3_question_ids": [
+        167,
+        168,
+        169,
+        170,
+        171,
+        182,
+        183,
+        184,
+        185,
+        186,
+        194,
+        195,
+        200,
+        325,
+        326
+      ],
+      "confusable_ids": [
+        "ch06_t09",
+        "ch06_t01",
+        "ch06_t06",
+        "ch06_t18",
+        "ch06_t10"
+      ]
+    },
+    {
+      "id": "ch06_t12",
+      "term": "Passing",
+      "definition": "Concealing one's stigmatized identity to be accepted as part of the dominant group",
+      "level3_question_ids": [
+        317,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331
+      ],
+      "confusable_ids": [
+        "ch06_t09",
+        "ch06_t10",
+        "ch06_t14",
+        "ch06_t08",
+        "ch06_t13"
+      ]
+    },
+    {
+      "id": "ch06_t13",
+      "term": "In-group Orientation",
+      "definition": "Preference for associating with others who share similar stigmatized characteristics",
+      "level3_question_ids": [
+        318,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        332
+      ],
+      "confusable_ids": [
+        "ch06_t04",
+        "ch06_t12"
+      ]
+    },
+    {
+      "id": "ch06_t14",
+      "term": "Deviance Avowal",
+      "definition": "Process of openly acknowledging and accepting a deviant identity",
+      "level3_question_ids": [
+        212,
+        213,
+        214,
+        215,
+        216,
+        317,
+        325,
+        326,
+        328,
+        331,
+        332,
+        333
+      ],
+      "confusable_ids": [
+        "ch06_t08",
+        "ch06_t07",
+        "ch06_t06",
+        "ch06_t01",
+        "ch06_t21"
+      ]
+    },
+    {
+      "id": "ch06_t15",
+      "term": "Crime",
+      "definition": "Behavior that violates formal criminal law and is subject to legal punishment",
+      "level3_question_ids": [
+        11,
+        12,
+        14,
+        15,
+        16
+      ],
+      "confusable_ids": [
+        "ch06_t19",
+        "ch06_t04",
+        "ch06_t16",
+        "ch06_t01",
+        "ch06_t20"
+      ]
+    },
+    {
+      "id": "ch06_t16",
+      "term": "Criminology",
+      "definition": "Scientific study of crime, criminals, and criminal behavior",
+      "level3_question_ids": [
+        13,
+        14
+      ],
+      "confusable_ids": [
+        "ch06_t04",
+        "ch06_t19",
+        "ch06_t15",
+        "ch06_t20",
+        "ch06_t07"
+      ]
+    },
+    {
+      "id": "ch06_t17",
+      "term": "Uniform Crime Report",
+      "definition": "FBI's annual compilation of reported crimes and arrests in the United States",
+      "level3_question_ids": [
+        15,
+        16
+      ],
+      "confusable_ids": [
+        "ch06_t15",
+        "ch06_t18"
+      ]
+    },
+    {
+      "id": "ch06_t18",
+      "term": "Retribution",
+      "definition": "Punishment based on the principle that offenders deserve to suffer for their crimes",
+      "level3_question_ids": [
+        17,
+        18
+      ],
+      "confusable_ids": [
+        "ch06_t19",
+        "ch06_t11",
+        "ch06_t15",
+        "ch06_t17",
+        "ch06_t20"
+      ]
+    },
+    {
+      "id": "ch06_t19",
+      "term": "Deterrence",
+      "definition": "Use of punishment to prevent future criminal behavior",
+      "level3_question_ids": [],
+      "confusable_ids": [
+        "ch06_t20",
+        "ch06_t15",
+        "ch06_t04",
+        "ch06_t16",
+        "ch06_t07"
+      ]
+    },
+    {
+      "id": "ch06_t20",
+      "term": "Rehabilitation",
+      "definition": "Efforts to reform offenders and prevent future criminal behavior through treatment",
+      "level3_question_ids": [
+        11,
+        19,
+        20
+      ],
+      "confusable_ids": [
+        "ch06_t19",
+        "ch06_t04",
+        "ch06_t16",
+        "ch06_t15",
+        "ch06_t07"
+      ]
+    },
+    {
+      "id": "ch06_t21",
+      "term": "Positive Deviance",
+      "definition": "Departure from norms that benefits society or leads to positive social change",
+      "level3_question_ids": [
+        313,
+        315,
+        316,
+        321,
+        327
+      ],
+      "confusable_ids": [
+        "ch06_t01",
+        "ch06_t08",
+        "ch06_t06",
+        "ch06_t07",
+        "ch06_t14"
+      ]
+    }
+  ],
+  "chapter_questions": [
+    {
+      "id": 11,
+      "question": "A company CEO embezzles millions of dollars but receives only probation and community service, while a person stealing food for their family receives jail time. This scenario best illustrates what challenge in defining crime within the criminal justice system?",
+      "choices": [
+        "The social construction of crime varies based on class and power dynamics",
+        "Different crimes require different levels of evidence to prosecute",
+        "White-collar crimes are inherently less harmful than street crimes",
+        "The legal system prioritizes rehabilitation over punishment"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t20"
+    },
+    {
+      "id": 12,
+      "question": "When marijuana was legalized in several states but remained federally illegal, many dispensary owners found themselves in a legal gray area. This situation demonstrates that crime is best understood as:",
+      "choices": [
+        "A socially constructed concept that varies across jurisdictions and time periods",
+        "An objective violation of universal moral principles",
+        "Behavior that is inherently harmful regardless of legal status",
+        "Actions that threaten the economic stability of society"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t15"
+    },
+    {
+      "id": 13,
+      "question": "A researcher studying gang violence notices that traditional criminology theories developed primarily from studies of male offenders don't adequately explain female gang members' motivations and behaviors. This observation suggests that criminology as a field needs to:",
+      "choices": [
+        "Expand its theoretical frameworks to include diverse perspectives and experiences",
+        "Focus exclusively on quantitative data rather than qualitative observations",
+        "Abandon existing theories in favor of completely new approaches",
+        "Concentrate on biological rather than social explanations of criminal behavior"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t16"
+    },
+    {
+      "id": 14,
+      "question": "A criminology professor assigns students to analyze why burglary rates increased in their city after a major factory closure. This assignment best demonstrates how criminology:",
+      "choices": [
+        "Connects individual criminal behavior to broader social and economic conditions",
+        "Focuses primarily on the psychological profiles of individual offenders",
+        "Relies mainly on law enforcement statistics to understand crime patterns",
+        "Prioritizes punishment strategies over prevention methods"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t16"
+    },
+    {
+      "id": 15,
+      "question": "A police chief notices that the Uniform Crime Report shows a significant decrease in reported domestic violence cases in her jurisdiction, but local shelters report increased demand for services. This discrepancy most likely indicates:",
+      "choices": [
+        "The limitations of the UCR in capturing crimes that victims may not report to police",
+        "Police officers are becoming more effective at preventing domestic violence",
+        "Domestic violence shelters are exaggerating their statistics to secure more funding",
+        "The UCR data collection methods have become less reliable over time"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t17"
+    },
+    {
+      "id": 16,
+      "question": "A criminologist comparing crime statistics across different cities finds that areas with community policing programs show higher reported crime rates in their Uniform Crime Report data than areas with traditional policing. The most sociologically informed explanation for this pattern would be:",
+      "choices": [
+        "Community policing may increase citizen trust, leading to more crime reporting",
+        "Community policing programs attract criminals to those neighborhoods",
+        "Traditional policing is more effective at preventing crime than community policing",
+        "The UCR systematically undercounts crimes in areas with traditional policing"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t17"
+    },
+    {
+      "id": 17,
+      "question": "A judge sentences two defendants convicted of similar assault charges very differently: one receives a harsh prison sentence because \"he needs to pay for what he did,\" while the other receives probation. The first sentence primarily reflects a philosophy of retribution because it:",
+      "choices": [
+        "Focuses on making the offender suffer in proportion to the harm caused",
+        "Attempts to prevent the defendant from committing future crimes",
+        "Considers the victim's need for financial compensation",
+        "Emphasizes the defendant's potential for behavioral change"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t18"
+    },
+    {
+      "id": 18,
+      "question": "A victim's family argues in court that the defendant should receive the maximum sentence regardless of his circumstances because \"he took our daughter's life and should lose his freedom.\" This statement most clearly represents the principle of retribution because it:",
+      "choices": [
+        "Emphasizes moral desert and proportional punishment rather than future outcomes",
+        "Focuses on compensating the family for their emotional suffering",
+        "Prioritizes community safety over individual justice",
+        "Seeks to reform the offender's character and behavior"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t18"
+    },
+    {
+      "id": 19,
+      "question": "A prison system implements job training, education programs, and counseling services for inmates, but faces criticism from taxpayers who argue these programs are \"too soft on criminals.\" The conflict between these approaches reflects a fundamental tension between rehabilitation and:",
+      "choices": [
+        "Retributive justice philosophies that prioritize punishment over treatment",
+        "Legal requirements that mandate harsh sentences for all offenders",
+        "Budget constraints that limit funding for correctional programs",
+        "Public safety concerns about releasing trained inmates"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t20"
+    },
+    {
+      "id": 20,
+      "question": "A study finds that offenders who participate in drug treatment programs during incarceration have significantly lower recidivism rates than those who do not. However, many jurisdictions continue to focus primarily on punishment rather than treatment. This suggests that rehabilitation efforts are often limited by:",
+      "choices": [
+        "Political and public attitudes that favor punishment over evidence-based practices",
+        "Scientific evidence showing treatment programs are generally ineffective",
+        "Constitutional restrictions on the types of programs prisons can offer",
+        "Inmates' unwillingness to participate in therapeutic interventions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t20"
+    },
+    {
+      "id": 162,
+      "question": "Using the example of how society punishes corporate environmental damage versus crimes of necessity by the homeless, James advocates for universal access to basic needs. Which sociological perspective does this reflect?",
+      "choices": [
+        "Conflict theory",
+        "Structural functionalist",
+        "Social disorganization theory",
+        "Symbolic interactionist"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 163,
+      "question": "Liam argues for more equitable resource distribution, noting how differently society treats corporate versus individual wrongdoing. Which sociological perspective best matches this view?",
+      "choices": [
+        "Conflict theory",
+        "Symbolic interactionist",
+        "Rational choice theory",
+        "Structural functionalist"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 164,
+      "question": "Emma notes how differently society penalizes corporate harm versus survival crimes, arguing for universal basic needs. Which sociological perspective does this represent?",
+      "choices": [
+        "Conflict theory",
+        "Structural functionalist",
+        "Symbolic interactionist",
+        "Social exchange theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 165,
+      "question": "Noah critiques how society treats corporate versus poverty-related crimes, advocating for universal access to basic needs. Which sociological perspective is this?",
+      "choices": [
+        "Conflict theory",
+        "Structural functionalist",
+        "Symbolic interactionist",
+        "Ethnomethodology"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 166,
+      "question": "Observing how society responds differently to corporate versus poverty-driven crimes, Olivia advocates for universal basic needs. Which sociological perspective does this reflect?",
+      "choices": [
+        "Conflict theory",
+        "Symbolic interactionist",
+        "Structural functionalist",
+        "Labeling theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 167,
+      "question": "How do symbolic interactionists primarily study stigma?",
+      "choices": [
+        "The ways individuals navigate their stigmatized identities daily",
+        "Determining fair and unjust applications of stigmas",
+        "Understanding how stigma invariably results in positive transformations",
+        "Exploring the correlation between stigma and enhancement of self-worth"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t11"
+    },
+    {
+      "id": 168,
+      "question": "What is the symbolic interactionist approach to studying stigma?",
+      "choices": [
+        "By examining how people manage and represent their stigmatized identities",
+        "By analyzing fairness in stigma attribution",
+        "By investigating positive impacts of stigma",
+        "By studying stigma's effect on self-esteem"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t11"
+    },
+    {
+      "id": 169,
+      "question": "What do symbolic interactionists primarily examine regarding stigma?",
+      "choices": [
+        "The daily coping strategies of individuals with stigmatized identities",
+        "Whether stigmas are fairly or unfairly applied",
+        "How stigma leads to positive outcomes",
+        "How stigma affects self-esteem"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t11"
+    },
+    {
+      "id": 170,
+      "question": "What most interests symbolic interactionists about stigma?",
+      "choices": [
+        "How individuals with stigmatized identities navigate daily life",
+        "Which stigmas are appropriately applied",
+        "When stigma leads to positive change",
+        "How stigma affects confidence"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t11"
+    },
+    {
+      "id": 171,
+      "question": "What is the main focus of symbolic interactionists regarding stigma?",
+      "choices": [
+        "How stigmatized individuals manage their identities in daily interactions",
+        "The fairness of stigma assignment",
+        "Positive outcomes of stigmatization",
+        "Stigma's role in self-esteem"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t11"
+    },
+    {
+      "id": 172,
+      "question": "How does sociology define deviance?",
+      "choices": [
+        "Transgressions against socially established norms",
+        "Actions harming societal structures",
+        "Illegal activities",
+        "Unethical behaviors"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t01"
+    },
+    {
+      "id": 173,
+      "question": "What is the sociological definition of deviance?",
+      "choices": [
+        "Breaches of societal norms",
+        "Offensive behavior toward social values",
+        "Criminal acts",
+        "Unethical conduct"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t01"
+    },
+    {
+      "id": 174,
+      "question": "How does sociology categorize deviance?",
+      "choices": [
+        "Non-conformance to established social norms",
+        "Behavior damaging society",
+        "Law-breaking activities",
+        "Dishonest behaviors"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t01"
+    },
+    {
+      "id": 175,
+      "question": "What constitutes deviance in sociology?",
+      "choices": [
+        "Disobedience of accepted social norms",
+        "Actions harming society",
+        "Criminal offenses",
+        "Immoral behaviors"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t01"
+    },
+    {
+      "id": 176,
+      "question": "How does sociology understand deviance?",
+      "choices": [
+        "Defiance against social norms",
+        "Harm to society",
+        "Criminal behavior",
+        "Unethical conduct"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t01"
+    },
+    {
+      "id": 177,
+      "question": "What key limitation does the individualistic approach to studying deviance have?",
+      "choices": [
+        "It doesn't account for the variability in actions among people with similar backgrounds",
+        "It relies heavily on statistical analysis",
+        "It overemphasizes emotional aspects of crimes",
+        "It requires psychiatric evaluations"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t01"
+    },
+    {
+      "id": 178,
+      "question": "What's the main problem with using personal history to explain deviant behavior?",
+      "choices": [
+        "It doesn't explain why individuals with similar backgrounds behave differently",
+        "It requires extensive statistical analysis",
+        "It focuses too much on emotional impacts",
+        "It demands psychiatric evaluation"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 179,
+      "question": "Why is focusing solely on individual background insufficient for understanding deviance?",
+      "choices": [
+        "It fails to explain different behaviors among people with similar backgrounds",
+        "It requires complex statistical analysis",
+        "It overemphasizes emotional factors",
+        "It needs psychiatric assessment"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t01"
+    },
+    {
+      "id": 180,
+      "question": "What limits the effectiveness of studying deviance through individual history alone?",
+      "choices": [
+        "It doesn't explain why similar histories produce different behaviors",
+        "It requires statistical studies",
+        "It emphasizes emotional aspects too much",
+        "It requires mental health evaluation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t01"
+    },
+    {
+      "id": 181,
+      "question": "Why is personal background insufficient for understanding deviant behavior?",
+      "choices": [
+        "It can't explain why similar backgrounds lead to different choices",
+        "It depends on statistical analysis",
+        "It overemphasizes emotional impact",
+        "It requires psychiatric screening"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 182,
+      "question": "When a restaurant in 1960 began serving all races, reversing its discriminatory policy, what did this show about stigma?",
+      "choices": [
+        "Stigmatized identities can evolve over time",
+        "Stigma only affects disadvantaged areas",
+        "Stigma permanently marks its targets",
+        "Stigmatized identities never change"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t11"
+    },
+    {
+      "id": 183,
+      "question": "What does a university's 1970 decision to admit students regardless of gender or class reveal about stigma?",
+      "choices": [
+        "Stigmatized identities can transform over time",
+        "Stigma only affects wealthy institutions",
+        "Stigma has permanent effects",
+        "Stigma can be hidden through discretion"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t11"
+    },
+    {
+      "id": 184,
+      "question": "A firm revised its hiring policy to include employees of all sexual orientations. What inference can we draw about social stigma from this change?",
+      "choices": [
+        "Stigmatized identities can change across time",
+        "Stigma only matters in financial contexts",
+        "Stigma causes permanent harm",
+        "Stigma requires concealment"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t11"
+    },
+    {
+      "id": 185,
+      "question": "When a town removed its religious restrictions on housing, what did this show about stigma?",
+      "choices": [
+        "Stigmatized identities can alter over time",
+        "Stigma only affects financial matters",
+        "Stigma leaves permanent scars",
+        "Stigma requires hiding"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t11"
+    },
+    {
+      "id": 186,
+      "question": "A company that previously refused to hire people with visible tattoos reverses its policy and begins welcoming tattooed employees. What does this change reveal about stigma?",
+      "choices": [
+        "Stigmatized identities can transition over time",
+        "Stigma only exists in financial contexts",
+        "Stigma creates permanent barriers",
+        "Stigma requires secrecy"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t11"
+    },
+    {
+      "id": 187,
+      "question": "Sarah begins defacing property after seeing her friends do it. Which theory best explains this?",
+      "choices": [
+        "Differential Association",
+        "Deterrence Theory",
+        "Deviance Theory",
+        "Functional Theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t04"
+    },
+    {
+      "id": 188,
+      "question": "After joining a group that skips school, Liam starts doing the same. Which theory explains this?",
+      "choices": [
+        "Differential Association",
+        "Strain Theory",
+        "Deterrence Theory",
+        "Conformity Theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t04"
+    },
+    {
+      "id": 189,
+      "question": "Which theory explains how people learn deviant behavior through social interaction?",
+      "choices": [
+        "Differential Association",
+        "Symbolic Interactionism",
+        "Conflict Theory",
+        "Labeling Theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t05"
+    },
+    {
+      "id": 190,
+      "question": "Amy begins cheating after joining a study group known for dishonesty. Which theory fits this case?",
+      "choices": [
+        "Differential Association",
+        "Social Control Theory",
+        "Structural Strain Theory",
+        "Anomie Theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t03"
+    },
+    {
+      "id": 191,
+      "question": "Barry starts illegally downloading music after joining a band that does the same. Which theory applies?",
+      "choices": [
+        "Differential Association",
+        "In-group Theory",
+        "Deviance Theory",
+        "Deterrence Theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t04"
+    },
+    {
+      "id": 192,
+      "question": "When a manager accused Shawn of being slow and lazy, he began working less productively to match this label. Shawn's changed behavior after being labeled is an example of:",
+      "choices": [
+        "primary deviance",
+        "an ascribed status",
+        "leading by example",
+        "secondary deviance"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch06_t07"
+    },
+    {
+      "id": 193,
+      "question": "After being suspended once for a misunderstanding, Naomi's teacher began treating her as a troublemaker. When Naomi started misbehaving in response, her initial suspension represented:",
+      "choices": [
+        "primary deviance",
+        "a stereotype",
+        "tertiary deviation",
+        "positive reinforcement"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t06"
+    },
+    {
+      "id": 194,
+      "question": "When readers labeled Matt as a romance author after his first novel, he embraced this identity and wrote more romance. This label acted as:",
+      "choices": [
+        "a self-fulfilling prophecy",
+        "stereotype confirmation",
+        "secondary deviance",
+        "a stigma"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t07"
+    },
+    {
+      "id": 195,
+      "question": "After Amelia was caught cheating once, teachers expected her to cheat again, and she began doing so more often. Her initial cheating incident is an example of:",
+      "choices": [
+        "primary deviance",
+        "a self-fulfilling prophecy",
+        "a stigma",
+        "tertiary deviation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t06"
+    },
+    {
+      "id": 196,
+      "question": "When Lance's friends called him a health fanatic, he intensified his healthy lifestyle to match their perception. This illustrates:",
+      "choices": [
+        "a self-fulfilling prophecy",
+        "an ascribed status",
+        "primary deviance",
+        "tertiary deviation"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 197,
+      "question": "Which condition can lead to social stigmatization?",
+      "choices": [
+        "deviation from societal standards",
+        "compliant behavior",
+        "social governance",
+        "hierarchical pattern"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 198,
+      "question": "What can trigger social stigmatization?",
+      "choices": [
+        "deviance from the expected conduct",
+        "social structure",
+        "tertiary contravention",
+        "assimilation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t01"
+    },
+    {
+      "id": 199,
+      "question": "Which factor commonly results in social stigmatization?",
+      "choices": [
+        "divergence from social norms",
+        "consistency with societal conventions",
+        "social regulation",
+        "secondary compliance"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 200,
+      "question": "Which characteristic can result in social stigma?",
+      "choices": [
+        "variance from standard practices",
+        "societal order",
+        "repeated misdemeanor",
+        "conformal behavior"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t11"
+    },
+    {
+      "id": 201,
+      "question": "What type of characteristic often leads to stigmatization?",
+      "choices": [
+        "discrepancy from societal expectations",
+        "social governance",
+        "repeated contravention",
+        "conformity"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 202,
+      "question": "How does Merton's structural strain theory explain deviant behavior in the US?",
+      "choices": [
+        "Societal pressure for success leads to deviance when legitimate means are unavailable",
+        "Antisocial traits cause deviant behavior",
+        "Weak law enforcement enables deviance",
+        "Media glorification promotes deviance"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t01"
+    },
+    {
+      "id": 203,
+      "question": "According to Merton's strain theory, why do people engage in deviant behavior?",
+      "choices": [
+        "They seek success through unconventional means when legitimate routes are blocked",
+        "They have inherent antisocial tendencies",
+        "Law enforcement is inadequate",
+        "Media influences encourage deviance"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t01"
+    },
+    {
+      "id": 204,
+      "question": "What does Merton's strain theory identify as the root cause of deviance?",
+      "choices": [
+        "The gap between cultural goals and available legitimate means to achieve them",
+        "Individual antisocial tendencies",
+        "Ineffective law enforcement",
+        "Media influence on behavior"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t01"
+    },
+    {
+      "id": 205,
+      "question": "How does structural strain theory explain deviant behavior?",
+      "choices": [
+        "Deviance emerges when people lack legitimate means to achieve social success",
+        "Antisocial tendencies drive deviant behavior",
+        "Weak enforcement systems allow deviance",
+        "Media glorification encourages deviance"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t01"
+    },
+    {
+      "id": 206,
+      "question": "What is the core argument of Merton's structural strain theory?",
+      "choices": [
+        "People turn to deviance when they lack legitimate means to achieve social goals",
+        "Antisocial traits cause deviant behavior",
+        "Poor law enforcement leads to deviance",
+        "Media promotion increases deviance"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t01"
+    },
+    {
+      "id": 207,
+      "question": "Which sociologist would focus most on how group members interpret each other's actions?",
+      "choices": [
+        "symbolic interactionist",
+        "functionalist",
+        "conflict theorist",
+        "follower of \u00c9mile Durkheim"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 208,
+      "question": "Which sociologist specifically distinguished between the intended (manifest) and unintended (latent) consequences of social policies and institutions?",
+      "choices": [
+        "Robert Merton",
+        "Karl Marx",
+        "Max Weber",
+        "Emile Durkheim"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t02"
+    },
+    {
+      "id": 209,
+      "question": "Which perspective sees cultural norms and values as maintaining social order?",
+      "choices": [
+        "functionalist",
+        "conflict theorist",
+        "symbolic interactionist",
+        "follower of Robert Merton"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 210,
+      "question": "Which perspective views educational inequalities as resulting from power imbalances?",
+      "choices": [
+        "conflict theorist",
+        "symbolic interactionist",
+        "functionalist",
+        "follower of Robert Merton"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 211,
+      "question": "Which theorist would link juvenile deviancy to societal roles and expectations?",
+      "choices": [
+        "follower of Robert Merton",
+        "conflict theorist",
+        "functionalist",
+        "symbolic interactionist"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 212,
+      "question": "Which scenario shows deviance avowal?",
+      "choices": [
+        "A reformed criminal insists on being labeled a criminal, believing his past defines him",
+        "Someone with many sweets refuses the label \"sweet-tooth\"",
+        "An overweight person rejects being called obese",
+        "A yoga practitioner avoids being called a yogi"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t14"
+    },
+    {
+      "id": 213,
+      "question": "Which example shows deviance avowal?",
+      "choices": [
+        "A former shoplifter wants to maintain that identity as part of their life story",
+        "A frequent gamer rejects being called addicted",
+        "Someone who stutters denies their condition",
+        "A wine expert refuses the connoisseur label"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t14"
+    },
+    {
+      "id": 214,
+      "question": "Which case demonstrates deviance avowal?",
+      "choices": [
+        "A recovering gambling addict embraces the \"gambler\" label for recovery",
+        "A pianist rejects being called a \"music nerd\"",
+        "A banker refuses the \"workaholic\" label",
+        "A gym-goer avoids the \"fitness enthusiast\" title"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t14"
+    },
+    {
+      "id": 215,
+      "question": "Which situation represents deviance avowal?",
+      "choices": [
+        "A former compulsive liar wants others to acknowledge this past identity",
+        "An avid reader dislikes being called a bookworm",
+        "A director rejects being labeled a perfectionist",
+        "A traveler avoids being called a globetrotter"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t14"
+    },
+    {
+      "id": 216,
+      "question": "Which example illustrates deviance avowal?",
+      "choices": [
+        "A former street racer embraces that identity as part of their personal history",
+        "A philanthropist avoids recognition",
+        "A mathematician rejects their label",
+        "A gardener dismisses their designation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t14"
+    },
+    {
+      "id": 217,
+      "question": "How would a structural functionalist analyze increasing workforce diversity in a town?",
+      "choices": [
+        "As potentially affecting social cohesion through changes in group dynamics",
+        "As primarily an online social issue",
+        "As purely an economic challenge",
+        "As mainly a class inequality issue"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 218,
+      "question": "How might a structural functionalist view changing urban demographics?",
+      "choices": [
+        "As creating new patterns of social integration and community adaptation",
+        "As primarily causing social inequality",
+        "As mainly an economic issue",
+        "As primarily a digital media concern"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 219,
+      "question": "How would structural functionalism analyze rapid community demographic changes?",
+      "choices": [
+        "As requiring adjustment in social systems and community integration",
+        "As mainly causing online conflict",
+        "As primarily affecting poor communities",
+        "As purely an economic development issue"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 220,
+      "question": "How would a structural functionalist interpret community responses to demographic change?",
+      "choices": [
+        "As part of society's process of adapting to maintain social integration",
+        "As primarily causing social inequality",
+        "As mainly affecting economic stability",
+        "As primarily an online phenomenon"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 221,
+      "question": "How would structural functionalism view urban demographic shifts?",
+      "choices": [
+        "As requiring adaptation in social structures and community integration",
+        "As primarily a digital media issue",
+        "As mainly affecting economic growth",
+        "As primarily causing social inequality"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 222,
+      "question": "According to Merton's strain theory, how would you categorize a student who cheats on an exam to pass?",
+      "choices": [
+        "innovation",
+        "conformity",
+        "ritualism",
+        "retreatism"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 223,
+      "question": "In Merton's strain theory, what category describes people who follow rules but have given up on achieving success?",
+      "choices": [
+        "ritualism",
+        "innovation",
+        "conformity",
+        "retreatism"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 224,
+      "question": "Which of Merton's categories describes someone who rejects both society's goals and means, turning to substance abuse?",
+      "choices": [
+        "retreatism",
+        "innovation",
+        "conformity",
+        "ritualism"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 225,
+      "question": "How does Merton's theory categorize people who achieve success through legitimate means?",
+      "choices": [
+        "conformity",
+        "innovation",
+        "ritualism",
+        "retreatism"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 226,
+      "question": "In Merton's theory, how would you categorize business leaders who achieve success through unethical means?",
+      "choices": [
+        "innovation",
+        "conformity",
+        "ritualism",
+        "retreatism"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 307,
+      "question": "A college student copies several paragraphs from Wikipedia for a research paper without citing the source. According to Merton's typology of deviance, this student would most likely be classified as which type?",
+      "choices": [
+        "Conformist",
+        "Innovator",
+        "Ritualist",
+        "Retreatist"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch06_t02"
+    },
+    {
+      "id": 308,
+      "question": "Maria grows up in a wealthy family but consistently gets poor grades and drops out of college, despite having access to tutors and resources. Her response represents which category in Merton's typology of deviance?",
+      "choices": [
+        "Innovation",
+        "Rebellion",
+        "Retreatism",
+        "Ritualism"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch06_t02"
+    },
+    {
+      "id": 309,
+      "question": "A community organizer rejects the traditional goal of individual wealth accumulation and instead works to create a cooperative economic system. This behavior exemplifies which aspect of Merton's typology of deviance?",
+      "choices": [
+        "Innovation",
+        "Ritualism",
+        "Retreatism",
+        "Rebellion"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch06_t02"
+    },
+    {
+      "id": 310,
+      "question": "Jake learns to steal cars by watching his older brother and neighborhood friends demonstrate techniques and share stories about successful thefts. This scenario best illustrates which theory of deviance?",
+      "choices": [
+        "Labeling theory",
+        "Differential association theory",
+        "Social control theory",
+        "Strain theory"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch06_t04"
+    },
+    {
+      "id": 311,
+      "question": "A teenager begins using drugs after joining a friend group where substance use is normalized and even celebrated. Which concept best explains this teenager's behavior?",
+      "choices": [
+        "Differential association theory",
+        "Primary deviance",
+        "Secondary deviance",
+        "Tertiary deviance"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t04"
+    },
+    {
+      "id": 312,
+      "question": "Sarah grows up in a family of successful bank robbers who teach her that \"banks steal from ordinary people, so we're just taking back what's ours.\" This rationalization process demonstrates which theoretical approach?",
+      "choices": [
+        "Differential association theory",
+        "Labeling theory",
+        "Social control theory",
+        "Conflict theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t04"
+    },
+    {
+      "id": 313,
+      "question": "Tommy is caught shoplifting for the first time and receives a warning from store security. This initial rule-breaking incident represents what type of deviance?",
+      "choices": [
+        "Primary deviance",
+        "Secondary deviance",
+        "Tertiary deviance",
+        "Positive deviance"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t07"
+    },
+    {
+      "id": 314,
+      "question": "After being arrested for vandalism, Lisa begins to see herself as a \"troublemaker\" and starts skipping school regularly. Lisa's new pattern of behavior illustrates which concept?",
+      "choices": [
+        "Primary deviance",
+        "Secondary deviance",
+        "Tertiary deviance",
+        "Differential association"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch06_t07"
+    },
+    {
+      "id": 315,
+      "question": "A student is caught cheating once on a test but maintains good grades and never cheats again. According to labeling theory, this would be considered which type of deviance?",
+      "choices": [
+        "Primary deviance",
+        "Secondary deviance",
+        "Tertiary deviance",
+        "Positive deviance"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t07"
+    },
+    {
+      "id": 316,
+      "question": "Marcus was labeled as a \"criminal\" after a drug arrest, but he later becomes a successful counselor helping other former addicts. He now argues that his past experiences are actually valuable assets. This transformation exemplifies which concept?",
+      "choices": [
+        "Primary deviance",
+        "Secondary deviance",
+        "Tertiary deviance",
+        "Positive deviance"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch06_t07"
+    },
+    {
+      "id": 317,
+      "question": "The disability rights movement has worked to redefine conditions like autism from \"disorders\" to \"neurological differences.\" This effort represents which process?",
+      "choices": [
+        "Secondary deviance",
+        "Tertiary deviance",
+        "Deviance avowal",
+        "Passing"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch06_t07"
+    },
+    {
+      "id": 318,
+      "question": "A former gang member becomes a youth minister and tells congregations that his criminal background gives him special insight into reaching troubled teens. This represents which concept?",
+      "choices": [
+        "Primary deviance",
+        "Secondary deviance",
+        "Tertiary deviance",
+        "In-group orientation"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch06_t13"
+    },
+    {
+      "id": 319,
+      "question": "An African American student performs poorly on a standardized test after being reminded to fill in their race on the form. This scenario best illustrates which concept?",
+      "choices": [
+        "Stereotype threat",
+        "Stereotype promise",
+        "Self-fulfilling prophecy",
+        "Labeling theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t09"
+    },
+    {
+      "id": 320,
+      "question": "Before taking a math test, female students are asked to indicate their gender on the form. Compared to a control group, these students score significantly lower. This demonstrates which phenomenon?",
+      "choices": [
+        "Stereotype threat",
+        "Primary deviance",
+        "Secondary deviance",
+        "Differential association"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t09"
+    },
+    {
+      "id": 321,
+      "question": "A Latino student worries about confirming stereotypes regarding academic performance, causing him to become so anxious during exams that his grades suffer. This illustrates which concept?",
+      "choices": [
+        "Stereotype threat",
+        "Stereotype promise",
+        "Tertiary deviance",
+        "Positive deviance"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t09"
+    },
+    {
+      "id": 322,
+      "question": "Asian American students are often assumed to excel in mathematics, leading teachers to place them in advanced classes and provide extra encouragement. This illustrates which concept?",
+      "choices": [
+        "Stereotype threat",
+        "Stereotype promise",
+        "Primary deviance",
+        "Tertiary deviance"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch06_t10"
+    },
+    {
+      "id": 323,
+      "question": "A Korean American student receives extra help and encouragement from teachers who assume she will be good at science. As a result, she develops more confidence and performs better than she might have otherwise. This demonstrates which phenomenon?",
+      "choices": [
+        "Differential association",
+        "Stereotype promise",
+        "Stereotype threat",
+        "Labeling theory"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch06_t10"
+    },
+    {
+      "id": 324,
+      "question": "Teachers automatically enroll Asian American students in honors courses based on assumptions about their academic abilities, leading these students to achieve at higher levels. This scenario illustrates which concept?",
+      "choices": [
+        "Stereotype threat",
+        "Stereotype promise",
+        "Secondary deviance",
+        "Self-fulfilling prophecy"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch06_t10"
+    },
+    {
+      "id": 325,
+      "question": "Maria, who has a facial birthmark, applies heavy makeup and wears her hair to cover the mark before going to job interviews. Maria's behavior exemplifies which strategy for managing stigma?",
+      "choices": [
+        "Passing",
+        "In-group orientation",
+        "Deviance avowal",
+        "Tertiary deviance"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t13"
+    },
+    {
+      "id": 326,
+      "question": "A person with a criminal record removes all references to their conviction from their resume and rehearses explanations for gaps in employment history. This behavior represents which stigma management strategy?",
+      "choices": [
+        "Passing",
+        "In-group orientation",
+        "Deviance avowal",
+        "Secondary deviance"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t13"
+    },
+    {
+      "id": 327,
+      "question": "An employee covers their tattoos with long sleeves and makeup while at work to avoid negative reactions from colleagues and supervisors. This demonstrates which concept?",
+      "choices": [
+        "Passing",
+        "In-group orientation",
+        "Positive deviance",
+        "Tertiary deviance"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch06_t13"
+    },
+    {
+      "id": 328,
+      "question": "Members of the National Association to Advance Fat Acceptance reject society's beauty standards and promote the idea that all body sizes should be valued equally. This approach represents which concept?",
+      "choices": [
+        "Passing",
+        "In-group orientation",
+        "Deviance avowal",
+        "Secondary deviance"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch06_t13"
+    },
+    {
+      "id": 329,
+      "question": "Deaf individuals who embrace Deaf culture, use sign language proudly, and view deafness as a cultural difference rather than a disability demonstrate which approach?",
+      "choices": [
+        "Passing",
+        "In-group orientation",
+        "Tertiary deviance",
+        "Stereotype threat"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch06_t13"
+    },
+    {
+      "id": 330,
+      "question": "LGBTQ+ activists organize Pride parades to celebrate sexual and gender diversity, directly challenging societal norms that label their identities as deviant. This exemplifies which concept?",
+      "choices": [
+        "Passing",
+        "In-group orientation",
+        "Primary deviance",
+        "Differential association"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch06_t13"
+    },
+    {
+      "id": 331,
+      "question": "At an Alcoholics Anonymous meeting, Jennifer stands up and says, \"Hi, I'm Jennifer, and I'm an alcoholic,\" even though she has been sober for three years. This behavior illustrates which concept?",
+      "choices": [
+        "Secondary deviance",
+        "Tertiary deviance",
+        "Passing",
+        "Deviance avowal"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch06_t07"
+    },
+    {
+      "id": 332,
+      "question": "Despite being clean for two years, Marcus continues to attend Narcotics Anonymous meetings and introduces himself as \"Marcus, an addict.\" This represents which process?",
+      "choices": [
+        "Primary deviance",
+        "Secondary deviance",
+        "Deviance avowal",
+        "In-group orientation"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch06_t13"
+    },
+    {
+      "id": 333,
+      "question": "A recovering gambling addict chooses to keep identifying as a \"compulsive gambler\" because it helps her stay committed to avoiding casinos and betting. This illustrates which concept?",
+      "choices": [
+        "Tertiary deviance",
+        "Secondary deviance",
+        "Deviance avowal",
+        "Stereotype threat"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch06_t07"
+    }
+  ]
+}

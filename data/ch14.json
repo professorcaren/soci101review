@@ -1,0 +1,1692 @@
+{
+  "id": "ch14",
+  "name": "Media",
+  "order": 14,
+  "concepts": [
+    {
+      "id": "ch14_t01",
+      "term": "Leisure",
+      "definition": "Time free for relaxing, recreation, or other freely chosen activities.",
+      "level3_question_ids": [
+        1131,
+        1132,
+        1133,
+        1134,
+        1135,
+        1136,
+        1137,
+        1138,
+        1139,
+        1140,
+        1146,
+        1147,
+        1148,
+        1149,
+        1150,
+        1151,
+        1152,
+        1153,
+        1154,
+        1155,
+        1156,
+        1157,
+        1158,
+        1159,
+        1160,
+        1161,
+        1162,
+        1163,
+        1164,
+        1165,
+        1166,
+        1168,
+        1169,
+        1171,
+        1172,
+        1173,
+        1174,
+        1175,
+        1179,
+        1180,
+        1181,
+        1182,
+        1183,
+        1184,
+        1185,
+        1186,
+        1187,
+        1188,
+        1199,
+        1200,
+        1201,
+        1202,
+        1203,
+        1209,
+        1210,
+        1211,
+        1212,
+        1213
+      ],
+      "confusable_ids": [
+        "ch14_t24"
+      ]
+    },
+    {
+      "id": "ch14_t02",
+      "term": "Recreation",
+      "definition": "Pleasurable activity that is refreshing and renewing for body, mind, and spirit.",
+      "level3_question_ids": [
+        406,
+        1172
+      ],
+      "confusable_ids": []
+    },
+    {
+      "id": "ch14_t03",
+      "term": "Consumption",
+      "definition": "The process of selecting, acquiring, using, and disposing of goods and services.",
+      "level3_question_ids": [
+        412,
+        413,
+        1142,
+        1143,
+        1166,
+        1169,
+        1179,
+        1196
+      ],
+      "confusable_ids": []
+    },
+    {
+      "id": "ch14_t04",
+      "term": "Commodification",
+      "definition": "Treating something (e.g., an idea, good, service) as a marketable item to be bought and sold.",
+      "level3_question_ids": [
+        1159,
+        1166,
+        1167,
+        1168,
+        1169,
+        1170,
+        1178,
+        1179,
+        1204,
+        1205,
+        1206,
+        1207,
+        1208
+      ],
+      "confusable_ids": [
+        "ch14_t06"
+      ]
+    },
+    {
+      "id": "ch14_t05",
+      "term": "Conglomeration",
+      "definition": "A large corporation composed of numerous smaller, often unrelated companies.",
+      "level3_question_ids": [
+        416,
+        1177
+      ],
+      "confusable_ids": [
+        "ch14_t06"
+      ]
+    },
+    {
+      "id": "ch14_t06",
+      "term": "Concentration",
+      "definition": "The state where a small number of corporations control a large share of an industry (e.g., media).",
+      "level3_question_ids": [
+        407,
+        416,
+        1178
+      ],
+      "confusable_ids": [
+        "ch14_t05",
+        "ch14_t15",
+        "ch14_t16",
+        "ch14_t18",
+        "ch14_t12"
+      ]
+    },
+    {
+      "id": "ch14_t07",
+      "term": "Popular Culture",
+      "definition": "Cultural patterns, products, and tastes widely shared and consumed by the general population.",
+      "level3_question_ids": [
+        408,
+        417,
+        1167,
+        1170,
+        1179,
+        1192
+      ],
+      "confusable_ids": [
+        "ch14_t08",
+        "ch14_t10",
+        "ch14_t24",
+        "ch14_t11",
+        "ch14_t20"
+      ]
+    },
+    {
+      "id": "ch14_t08",
+      "term": "High Culture",
+      "definition": "Cultural patterns, products, and tastes associated with societal elites or aesthetic standards.",
+      "level3_question_ids": [
+        408,
+        417,
+        1166,
+        1177,
+        1192,
+        1204
+      ],
+      "confusable_ids": [
+        "ch14_t07",
+        "ch14_t10",
+        "ch14_t11",
+        "ch14_t20",
+        "ch14_t24"
+      ]
+    },
+    {
+      "id": "ch14_t09",
+      "term": "Third Place",
+      "definition": "Social settings distinct from home (first) and work (second) that foster community interaction.",
+      "level3_question_ids": [
+        413,
+        1214,
+        1216,
+        1217
+      ],
+      "confusable_ids": [
+        "ch14_t24",
+        "ch14_t11"
+      ]
+    },
+    {
+      "id": "ch14_t10",
+      "term": "Production of Culture Perspective",
+      "definition": "Focuses on how cultural products are shaped by the systems and contexts of their creation.",
+      "level3_question_ids": [
+        985,
+        986
+      ],
+      "confusable_ids": [
+        "ch14_t07",
+        "ch14_t08",
+        "ch14_t16",
+        "ch14_t20",
+        "ch14_t11"
+      ]
+    },
+    {
+      "id": "ch14_t11",
+      "term": "Taste Publics and Cultures",
+      "definition": "Groups sharing similar aesthetic preferences (publics) forming distinct cultural patterns (cultures).",
+      "level3_question_ids": [
+        1178,
+        1204
+      ],
+      "confusable_ids": [
+        "ch14_t08",
+        "ch14_t21",
+        "ch14_t07",
+        "ch14_t16",
+        "ch14_t10"
+      ]
+    },
+    {
+      "id": "ch14_t12",
+      "term": "Hypodermic Needle Theory",
+      "definition": "Outdated theory that media directly 'injects' messages into a passive audience.",
+      "level3_question_ids": [
+        409,
+        412,
+        1167,
+        1176,
+        1189,
+        1197,
+        1204
+      ],
+      "confusable_ids": [
+        "ch14_t15",
+        "ch14_t14",
+        "ch14_t13",
+        "ch14_t17",
+        "ch14_t16"
+      ]
+    },
+    {
+      "id": "ch14_t13",
+      "term": "Active Audience",
+      "definition": "View that audiences actively interpret, engage with, and use media messages.",
+      "level3_question_ids": [
+        1141,
+        1142,
+        1143,
+        1144,
+        1145,
+        1167,
+        1170,
+        1176,
+        1194,
+        1195,
+        1196,
+        1197,
+        1198
+      ],
+      "confusable_ids": [
+        "ch14_t16",
+        "ch14_t15",
+        "ch14_t18",
+        "ch14_t12",
+        "ch14_t20"
+      ]
+    },
+    {
+      "id": "ch14_t14",
+      "term": "Reinforcement Theory",
+      "definition": "Theory that media primarily strengthens pre-existing beliefs rather than changing them.",
+      "level3_question_ids": [
+        409,
+        412,
+        1169,
+        1189
+      ],
+      "confusable_ids": [
+        "ch14_t15",
+        "ch14_t12",
+        "ch14_t17",
+        "ch14_t16",
+        "ch14_t18"
+      ]
+    },
+    {
+      "id": "ch14_t15",
+      "term": "Agenda-Setting Theory",
+      "definition": "Theory that media influences *what* topics audiences consider important.",
+      "level3_question_ids": [
+        411,
+        412,
+        1190
+      ],
+      "confusable_ids": [
+        "ch14_t14",
+        "ch14_t12",
+        "ch14_t16",
+        "ch14_t18",
+        "ch14_t13"
+      ]
+    },
+    {
+      "id": "ch14_t16",
+      "term": "Uses and Gratifications Paradigm",
+      "definition": "Focuses on how audiences use media to fulfill their needs and desires.",
+      "level3_question_ids": [
+        409,
+        411,
+        412,
+        1144
+      ],
+      "confusable_ids": [
+        "ch14_t13",
+        "ch14_t15",
+        "ch14_t18",
+        "ch14_t10",
+        "ch14_t11"
+      ]
+    },
+    {
+      "id": "ch14_t17",
+      "term": "Two-Step Flow Model",
+      "definition": "Theory that media influence flows from media to opinion leaders, then to the wider public.",
+      "level3_question_ids": [
+        410,
+        411,
+        1170,
+        1190
+      ],
+      "confusable_ids": [
+        "ch14_t15",
+        "ch14_t12",
+        "ch14_t14",
+        "ch14_t19",
+        "ch14_t23"
+      ]
+    },
+    {
+      "id": "ch14_t18",
+      "term": "Interpretive Strategies",
+      "definition": "Frameworks or methods audiences employ to understand media texts.",
+      "level3_question_ids": [
+        1190
+      ],
+      "confusable_ids": [
+        "ch14_t21",
+        "ch14_t15",
+        "ch14_t16",
+        "ch14_t13",
+        "ch14_t20"
+      ]
+    },
+    {
+      "id": "ch14_t19",
+      "term": "Encoding/Decoding Model",
+      "definition": "Model where producers encode meanings and audiences decode them, possibly differently.",
+      "level3_question_ids": [
+        409,
+        411,
+        415,
+        1190,
+        1145
+      ],
+      "confusable_ids": [
+        "ch14_t23",
+        "ch14_t17",
+        "ch14_t22",
+        "ch14_t15",
+        "ch14_t16"
+      ]
+    },
+    {
+      "id": "ch14_t20",
+      "term": "Textual Poaching",
+      "definition": "Audiences actively reinterpreting and reusing elements from cultural texts for their own purposes.",
+      "level3_question_ids": [
+        410,
+        414,
+        417,
+        1141,
+        1143,
+        1144,
+        1145,
+        1192
+      ],
+      "confusable_ids": [
+        "ch14_t18",
+        "ch14_t13",
+        "ch14_t10",
+        "ch14_t15",
+        "ch14_t16"
+      ]
+    },
+    {
+      "id": "ch14_t21",
+      "term": "Interpretive Community",
+      "definition": "Groups sharing specific strategies for reading and understanding texts.",
+      "level3_question_ids": [
+        410,
+        413,
+        1142
+      ],
+      "confusable_ids": [
+        "ch14_t18",
+        "ch14_t11",
+        "ch14_t20",
+        "ch14_t24"
+      ]
+    },
+    {
+      "id": "ch14_t22",
+      "term": "Polysemy",
+      "definition": "The capacity for a sign or text to have multiple meanings or interpretations.",
+      "level3_question_ids": [
+        415,
+        1177,
+        1189,
+        1190,
+        1191,
+        1192,
+        1193
+      ],
+      "confusable_ids": [
+        "ch14_t19"
+      ]
+    },
+    {
+      "id": "ch14_t23",
+      "term": "Role Model",
+      "definition": "A person whose behavior or success serves as an example for others to follow.",
+      "level3_question_ids": [
+        1178
+      ],
+      "confusable_ids": [
+        "ch14_t19",
+        "ch14_t17"
+      ]
+    },
+    {
+      "id": "ch14_t24",
+      "term": "Lifestyle Enclaves",
+      "definition": "Social groups primarily united by shared leisure activities, consumption, and tastes.",
+      "level3_question_ids": [
+        415,
+        417,
+        1176,
+        1189
+      ],
+      "confusable_ids": [
+        "ch14_t07",
+        "ch14_t01",
+        "ch14_t21",
+        "ch14_t14",
+        "ch14_t08"
+      ]
+    }
+  ],
+  "chapter_questions": [
+    {
+      "id": 406,
+      "question": "Twelve-year-old Maya watches her older sister practice violin daily for several hours, but Maya experiences these music sessions differently than her sister. According to the concept of recreation, what distinguishes Maya's experience of the music from her sister's experience?",
+      "choices": [
+        "Maya is learning music theory while her sister only plays",
+        "Maya finds the music boring while her sister enjoys it",
+        "Maya experiences the music as refreshing and renewing while her sister experiences it as obligatory practice",
+        "Maya has more natural musical talent than her sister"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch14_t02"
+    },
+    {
+      "id": 407,
+      "question": "A media researcher discovers that six major corporations now control 80% of all television networks, radio stations, and streaming services in a particular country, compared to fifteen companies controlling the same share just ten years ago. This situation best illustrates which concept?",
+      "choices": [
+        "Synergy within media conglomerates",
+        "Deregulation of broadcasting standards",
+        "Concentration in the media industry",
+        "Vertical integration of production companies"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch14_t06"
+    },
+    {
+      "id": 408,
+      "question": "Dr. Rodriguez observes that opera audiences and heavy metal concert audiences have completely different demographics, preferences, and social circles, yet both groups show intense loyalty to their preferred musical form. According to sociological theory, how should Dr. Rodriguez categorize these musical preferences?",
+      "choices": [
+        "Opera represents high culture while heavy metal represents popular culture, making them fundamentally incompatible",
+        "Both represent different taste cultures with their own aesthetic standards and social communities",
+        "Heavy metal fans are simply opera fans who haven't been properly educated about classical music",
+        "These musical preferences reflect individual psychology rather than social patterns"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch14_t07"
+    },
+    {
+      "id": 409,
+      "question": "A film studio deliberately includes coded messages promoting consumerism in a blockbuster movie, but different audience groups interpret these messages in completely different ways - some accepting them, others rejecting them, and still others creating entirely new meanings. This scenario best demonstrates which theoretical model?",
+      "choices": [
+        "Hypodermic needle theory",
+        "Encoding/decoding model",
+        "Uses and gratifications paradigm",
+        "Reinforcement theory"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch14_t16"
+    },
+    {
+      "id": 410,
+      "question": "Jennifer loves science fiction novels and initially joined an online book club to discuss her favorite authors. Over time, the group expanded beyond book discussions to organize charity drives for literacy programs and volunteer at local libraries. According to Bellah's framework, what transformation has occurred in this group?",
+      "choices": [
+        "It has evolved from a primary group into a secondary group",
+        "It has demonstrated the two-step flow model of communication",
+        "It has moved beyond being just a lifestyle enclave toward genuine community engagement",
+        "It has become an interpretive community focused on textual poaching"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch14_t21"
+    },
+    {
+      "id": 411,
+      "question": "A communication researcher analyzes how local news stations decide which stories receive the most airtime and prominent placement. The researcher argues that while these decisions may not tell viewers exactly what to think, they significantly influence what issues viewers consider most important. This research approach reflects which theoretical perspective?",
+      "choices": [
+        "Encoding/decoding model",
+        "Agenda-setting theory",
+        "Uses and gratifications paradigm",
+        "Two-step flow model"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch14_t16"
+    },
+    {
+      "id": 412,
+      "question": "Marcus reads celebrity gossip magazines not because he believes the stories are true, but because they help him escape from work stress and provide conversation topics with his coworkers. This behavior best exemplifies which theoretical approach to media consumption?",
+      "choices": [
+        "Reinforcement theory",
+        "Uses and gratifications paradigm",
+        "Hypodermic needle theory",
+        "Agenda-setting theory"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch14_t16"
+    },
+    {
+      "id": 413,
+      "question": "A small town's main coffee shop serves as a regular meeting place where residents gather daily to discuss local politics, share news about community members, and organize informal neighborhood projects. In sociological terms, this coffee shop functions as what type of social space?",
+      "choices": [
+        "A third place that supports civil society and community engagement",
+        "A lifestyle enclave focused on coffee consumption preferences",
+        "An interpretive community centered around caf\u00e9 culture",
+        "A primary group that provides intimate personal relationships"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t21"
+    },
+    {
+      "id": 414,
+      "question": "Sarah and her friends regularly rewrite scenes from their favorite TV show to explore different character relationships and storylines, then share these new versions on social media. According to media theory, this activity represents which concept?",
+      "choices": [
+        "Formation of taste publics around television preferences",
+        "Textual poaching that allows audiences to create new meanings",
+        "Reinforcement of the show's original encoded messages",
+        "Development of a lifestyle enclave based on shared viewing habits"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch14_t20"
+    },
+    {
+      "id": 415,
+      "question": "A sociology student notices that fans of the same science fiction movie have completely different interpretations of its meaning - some see it as a cautionary tale about technology, others view it as a celebration of human innovation, and still others focus on its environmental themes. This phenomenon illustrates which concept?",
+      "choices": [
+        "The failure of the encoding/decoding model",
+        "The effectiveness of agenda-setting by film studios",
+        "Polysemy in cultural products allowing multiple interpretations",
+        "The formation of different lifestyle enclaves around the film"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch14_t19"
+    },
+    {
+      "id": 416,
+      "question": "A media executive explains to investors that their company can maximize profits from a superhero movie by releasing it in their theaters, selling the soundtrack through their record label, featuring characters in their theme parks, and broadcasting it later on their television network. This strategy best demonstrates which business concept?",
+      "choices": [
+        "Synergy created through media conglomeration",
+        "Concentration reducing industry competition",
+        "Vertical integration of production processes",
+        "Deregulation allowing cross-media ownership"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t05"
+    },
+    {
+      "id": 417,
+      "question": "Dr. Chen studies how people who share similar educational backgrounds, income levels, and cultural experiences tend to prefer the same types of art, music, and entertainment. Her research focuses on identifying these groups and the cultural patterns they create. Which concepts is Dr. Chen most likely investigating?",
+      "choices": [
+        "High culture versus popular culture distinctions",
+        "Taste publics and taste cultures",
+        "Interpretive communities and textual poaching",
+        "Lifestyle enclaves and third places"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch14_t24"
+    },
+    {
+      "id": 985,
+      "question": "A streaming platform's algorithm promotes certain types of music based on advertising revenue potential rather than artistic merit. How does the Production of Culture Perspective best explain this phenomenon?",
+      "choices": [
+        "Cultural products like music are shaped by the economic systems and technological contexts of their creation and distribution",
+        "Popular music naturally rises to the top because it reflects universal human values",
+        "Algorithms are neutral tools that simply respond to user preferences without bias",
+        "The music industry operates independently from broader social and economic forces"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t10"
+    },
+    {
+      "id": 986,
+      "question": "When analyzing why Hollywood films from the 1950s often portrayed women in domestic roles, a sociologist using the Production of Culture Perspective would most likely focus on:",
+      "choices": [
+        "The male-dominated studio system, societal expectations, and economic incentives that shaped film production during that era",
+        "The inherent preferences of audiences for traditional gender role representations",
+        "The natural tendency of storytellers to reflect biological differences between men and women",
+        "The individual creative choices of screenwriters and directors working in isolation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t10"
+    },
+    {
+      "id": 1131,
+      "question": "Which of the following activities is an example of leisure?",
+      "choices": [
+        "Going for a hike in the mountains",
+        "Going to work",
+        "Doing household chores",
+        "Attending a business meeting"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1132,
+      "question": "According to sociological theory, why is leisure important?",
+      "choices": [
+        "It provides opportunities for relaxation, personal development, and social interaction",
+        "It is a waste of time and resources",
+        "It reinforces social hierarchies",
+        "It distracts individuals from their responsibilities"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1133,
+      "question": "Which of the following is an example of intrapersonal leisure?",
+      "choices": [
+        "Reading a book alone",
+        "Playing sports with friends",
+        "Going to a party",
+        "Attending a concert"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1134,
+      "question": "How does leisure differ from work?",
+      "choices": [
+        "Leisure is voluntary and done for enjoyment, while work is usually obligatory and done for economic purposes",
+        "Leisure is always unproductive, while work is productive",
+        "Leisure is solitary, while work involves cooperation",
+        "Leisure is intellectual, while work is physical"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1135,
+      "question": "How does the sociological concept of leisure intersect with social inequality?",
+      "choices": [
+        "Leisure opportunities and experiences are shaped by social factors such as class, race, and gender",
+        "Leisure is a universal experience and is not affected by social factors",
+        "Social inequality has no impact on leisure",
+        "Leisure activities are solely determined by individual preferences"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1136,
+      "question": "How has leisure evolved over time?",
+      "choices": [
+        "Leisure has evolved from being solely associated with elite classes to becoming more accessible and inclusive across different social classes.",
+        "Leisure has always been equally accessible to all social classes.",
+        "Leisure has become less popular due to technological advances.",
+        "Leisure activities have shifted more towards indoor activities."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1137,
+      "question": "How does leisure contribute to individual well-being?",
+      "choices": [
+        "Leisure provides individuals with opportunities for rest, relaxation, and personal growth, which contribute to their overall well-being.",
+        "Leisure has no impact on individual well-being.",
+        "Leisure is solely for entertainment purposes and does not contribute to personal growth.",
+        "Leisure activities can be detrimental to one's mental health."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1138,
+      "question": "How does the concept of leisure differ across cultures?",
+      "choices": [
+        "The concept of leisure varies across cultures, influenced by factors such as values, traditions, and societal norms.",
+        "The concept of leisure is universally understood and practiced in the same way across all cultures.",
+        "Leisure activities are primarily determined by economic factors and are the same in all cultures.",
+        "The concept of leisure is only relevant in Western societies."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1139,
+      "question": "How does the availability of leisure opportunities affect social inequality?",
+      "choices": [
+        "Inequitable access to leisure opportunities can perpetuate social inequality, as certain groups may have limited resources or face systemic barriers in participating in recreational activities.",
+        "The availability of leisure opportunities has no impact on social inequality.",
+        "Leisure opportunities are equally accessible to all social groups.",
+        "Leisure activities contribute to social inequality by promoting exclusivity and elitism."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1140,
+      "question": "How has technology impacted leisure activities?",
+      "choices": [
+        "Technology has transformed leisure activities by providing new forms of entertainment, enhancing convenience, and enabling virtual social interactions.",
+        "Technology has had no impact on leisure activities.",
+        "Technology has made leisure activities less enjoyable and less social.",
+        "Technology has led to a decline in leisure activities."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1141,
+      "question": "Which concept contrasts with the 'passive audience' view by arguing that viewers interpret, engage with, and make their own meaning from media messages?",
+      "choices": [
+        "Active audience",
+        "Interpretive community",
+        "Textual poaching",
+        "Hypodermic needle theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t13"
+    },
+    {
+      "id": 1142,
+      "question": "A group of feminist scholars all interpret a popular TV show through the lens of gender politics, reading the same scenes as critiques of patriarchy. Their shared way of reading the text makes them an example of which concept?",
+      "choices": [
+        "Interpretive community",
+        "Active audience",
+        "Textual poaching",
+        "Taste publics and cultures"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t21"
+    },
+    {
+      "id": 1143,
+      "question": "When fans of a TV show write alternative storylines using the show's characters to explore themes the original creators never intended, this is an example of which concept?",
+      "choices": [
+        "Textual poaching",
+        "Polysemy",
+        "Encoding/decoding model",
+        "Reinforcement theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t20"
+    },
+    {
+      "id": 1144,
+      "question": "According to the uses and gratifications paradigm, which of the following best describes how audiences relate to media?",
+      "choices": [
+        "Audiences actively select and use media to fulfill specific personal needs and desires",
+        "Media messages are directly injected into passive viewers",
+        "Media primarily reinforces beliefs people already hold",
+        "Opinion leaders filter media messages before they reach the general public"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t16"
+    },
+    {
+      "id": 1145,
+      "question": "Stuart Hall's encoding/decoding model suggests that the meaning a viewer takes from a TV program may differ from what the producers intended. This model highlights the idea that:",
+      "choices": [
+        "Producers encode meanings into media texts and audiences may decode them differently",
+        "Media directly injects messages into a passive audience",
+        "Media only reinforces pre-existing beliefs",
+        "Audiences have no role in shaping the meaning of media content"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t19"
+    },
+    {
+      "id": 1146,
+      "question": "Which of the following activities is considered leisure?",
+      "choices": [
+        "Reading a book in a park",
+        "Attending a business meeting",
+        "Doing laundry",
+        "Cooking dinner"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1147,
+      "question": "In what ways does leisure contribute to individual well-being?",
+      "choices": [
+        "It reduces stress and increases life satisfaction",
+        "It leads to boredom and decreased productivity",
+        "It is a waste of time and resources",
+        "It creates dependency on external sources of entertainment"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1148,
+      "question": "What are the social consequences of unequal access to leisure opportunities?",
+      "choices": [
+        "It reinforces existing social inequalities",
+        "It promotes social mobility",
+        "It encourages social cohesion",
+        "It leads to a more equitable society"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1149,
+      "question": "How has technology influenced leisure activities?",
+      "choices": [
+        "It has expanded the range of leisure options available",
+        "It has decreased leisure time for individuals",
+        "It has eliminated the need for leisure activities",
+        "It has made leisure activities less enjoyable"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1150,
+      "question": "What role does leisure play in shaping cultural identities?",
+      "choices": [
+        "It can reflect and reinforce cultural values and norms",
+        "It has no impact on cultural identities",
+        "It leads to the erosion of cultural traditions",
+        "It creates conflicts between different cultural groups"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1151,
+      "question": "What is defined as activities or experiences that people engage in during their free time?",
+      "choices": [
+        "Leisure",
+        "Labor",
+        "Education",
+        "Family"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1152,
+      "question": "Which of the following is NOT an example of leisure activity?",
+      "choices": [
+        "Labor",
+        "Reading a book",
+        "Watching a movie",
+        "Playing a sport"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1153,
+      "question": "How does leisure contribute to individuals' well-being?",
+      "choices": [
+        "Leisure provides opportunities for rest, relaxation, and personal fulfillment, which can positively impact individuals' physical and mental health.",
+        "Leisure leads to increased stress and exhaustion",
+        "Leisure is a waste of time and unproductive",
+        "Leisure has no impact on individuals' well-being."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1154,
+      "question": "Which of the following best describes the relationship between work and leisure?",
+      "choices": [
+        "Work and leisure are complementary. Work provides individuals with the means to engage in leisure activities, while leisure provides individuals with the opportunity to rest and recharge.",
+        "Work and leisure are mutually exclusive. Individuals can only engage in one at a time.",
+        "Work and leisure are interchangeable. Individuals can choose to either work or engage in leisure activities.",
+        "Work and leisure are irrelevant. Individuals can derive equal fulfillment from both."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1155,
+      "question": "Which of the following statements is true regarding leisure?",
+      "choices": [
+        "Leisure preferences and activities vary across individuals and cultures.",
+        "Leisure activities are universally the same across all individuals and cultures.",
+        "Leisure activities have no impact on individuals' well-being.",
+        "Leisure activities are solely determined by socio-economic status."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1156,
+      "question": "How has the concept of leisure evolved over time?",
+      "choices": [
+        "From a luxury reserved for the elite to a more egalitarian activity accessible to a wider population.",
+        "From an activity primarily focused on physical exercise to one centered around mental well-being.",
+        "From a solitary pursuit to a communal experience.",
+        "From a form of escapism to a means of personal development."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1157,
+      "question": "What role does leisure play in maintaining work-life balance?",
+      "choices": [
+        "Leisure activities provide individuals with a break from work-related stress and help contribute to their overall well-being.",
+        "Leisure activities are a luxury that only a few can afford.",
+        "Leisure activities are a waste of time and should be minimized to prioritize work commitments.",
+        "Leisure activities have no impact on an individual's work-life balance."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1158,
+      "question": "How does the availability of free time impact individuals' engagement in leisure activities?",
+      "choices": [
+        "The availability of free time plays a crucial role in individuals' ability to participate in leisure activities.",
+        "Individuals engage in leisure activities regardless of the availability of free time.",
+        "Free time has no influence on individuals' leisure choices.",
+        "Leisure activities are only pursued by those with limited free time."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1159,
+      "question": "How does the commodification of leisure activities impact society?",
+      "choices": [
+        "The commodification of leisure can lead to inequalities in access and reinforce social hierarchies.",
+        "The commodification of leisure ensures equal access for all individuals.",
+        "Commodified leisure activities foster social cohesion and inclusivity.",
+        "The commodification of leisure has no impact on society."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t04"
+    },
+    {
+      "id": 1160,
+      "question": "What is the relationship between technology and leisure?",
+      "choices": [
+        "Technology has both expanded and transformed the range of leisure activities available to individuals.",
+        "Technology has decreased individuals' engagement in leisure activities.",
+        "Technology has no influence on leisure choices.",
+        "Technology has made leisure activities less accessible."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1161,
+      "question": "The concept of leisure refers to:",
+      "choices": [
+        "Non-work and non-school activities that individuals engage in voluntarily for the purpose of relaxation, enjoyment, and personal development.",
+        "Activities that individuals engage in only on weekends.",
+        "Activities that individuals engage in to earn money.",
+        "Activities that individuals engage in to gain academic knowledge."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1162,
+      "question": "Which of the following is an example of leisure activity?",
+      "choices": [
+        "Going to the movies with friends.",
+        "Studying for an exam.",
+        "Attending a work meeting.",
+        "Doing household chores."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1163,
+      "question": "Leisure is important for:",
+      "choices": [
+        "Enhancing overall well-being and quality of life.",
+        "Increasing academic achievement.",
+        "Earning additional income.",
+        "Achieving career success."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1164,
+      "question": "Which of the following statements about leisure is true?",
+      "choices": [
+        "Leisure activities can vary based on personal preferences and cultural influences.",
+        "Leisure activities are the same for everyone.",
+        "Leisure activities are limited to physical exercise.",
+        "Leisure activities are solely focused on intellectual pursuits."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1165,
+      "question": "The sociological study of leisure focuses on:",
+      "choices": [
+        "Understanding the social factors that shape leisure participation and experiences.",
+        "Analyzing the economic impact of leisure activities.",
+        "Examining the psychological benefits of leisure.",
+        "Promoting specific leisure activities."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1166,
+      "question": "__________ refers to the process by which goods, services, or ideas are transformed into commodities that can be bought and sold in the marketplace.",
+      "choices": [
+        "Commodification",
+        "Leisure",
+        "Consumption",
+        "High culture"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t04"
+    },
+    {
+      "id": 1167,
+      "question": "__________ is a sociological concept that involves the transformation of something into a commodity that can be bought and sold.",
+      "choices": [
+        "Commodification",
+        "Popular culture",
+        "Active audience",
+        "Hypodermic needle theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t12"
+    },
+    {
+      "id": 1168,
+      "question": "Which of the following best defines the term 'commodification'?",
+      "choices": [
+        "The transformation of goods, services, or ideas into commodities that can be bought and sold",
+        "The leisure activities pursued by individuals",
+        "The process of consuming products and services",
+        "The cultural products consumed by the masses"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t04"
+    },
+    {
+      "id": 1169,
+      "question": "__________ refers to the commercialization and commodification of cultural products.",
+      "choices": [
+        "Commodification",
+        "Leisure",
+        "Consumption",
+        "Reinforcement theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t14"
+    },
+    {
+      "id": 1170,
+      "question": "Which of the following terms is used to describe the process of turning something into a commodity that can be bought and sold?",
+      "choices": [
+        "Commodification",
+        "Popular culture",
+        "Active audience",
+        "Two-step flow model"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t17"
+    },
+    {
+      "id": 1171,
+      "question": "Which of the following best defines leisure?",
+      "choices": [
+        "Free time or time that is not occupied with work or other mandatory tasks",
+        "Engaging in activities that require physical exertion",
+        "The act of spending money on recreational activities",
+        "A period of time when one is not engaged in any activity"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1172,
+      "question": "According to the definitions used in your textbook, how does recreation differ from leisure?",
+      "choices": [
+        "Recreation refers to specific pleasurable activities that are refreshing for body, mind, and spirit, while leisure is the free time in which such activities may occur",
+        "Recreation requires financial resources, whereas leisure does not",
+        "Recreation is a passive process, while leisure is an active engagement",
+        "Recreation can only occur outdoors, while leisure can happen anywhere"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t02"
+    },
+    {
+      "id": 1173,
+      "question": "Which of the following is the best example of leisure activity?",
+      "choices": [
+        "Reading a book for pleasure",
+        "Attending a mandatory work-related conference",
+        "Completing household chores",
+        "Exercising at the gym for health benefits"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1174,
+      "question": "Why is leisure important for individuals?",
+      "choices": [
+        "It allows individuals to recharge, reduce stress, and enhance overall well-being",
+        "It helps individuals escape from reality and avoid responsibilities",
+        "It promotes social isolation and withdrawal from society",
+        "It is a waste of time and has no tangible benefits"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1175,
+      "question": "How does leisure contribute to society?",
+      "choices": [
+        "It fosters creativity, innovation, and cultural enrichment",
+        "It leads to laziness and unproductivity",
+        "It results in a decline in societal values and norms",
+        "It promotes inequality and social stratification"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1176,
+      "question": "A research study found that people who watch violent movies are more likely to display aggressive behavior. This finding supports which sociological concept?",
+      "choices": [
+        "media effects",
+        "active audience",
+        "hypodermic needle theory",
+        "lifestyle enclaves"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch14_t12"
+    },
+    {
+      "id": 1177,
+      "question": "A single media corporation owns a movie studio, a television network, a publishing house, and a theme park. This business structure is an example of which sociological concept?",
+      "choices": [
+        "Conglomeration",
+        "Concentration",
+        "Commodification",
+        "Popular culture"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t05"
+    },
+    {
+      "id": 1178,
+      "question": "A group of fans who all prefer indie folk music form an online community where they share playlists, attend the same festivals, and develop similar fashion styles. This illustrates which sociological concept?",
+      "choices": [
+        "Taste publics and cultures",
+        "Textual poaching",
+        "Hypodermic needle theory",
+        "Encoding/decoding model"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t11"
+    },
+    {
+      "id": 1179,
+      "question": "What is the sociological concept that refers to non-work activities that individuals engage in for relaxation, enjoyment, and personal development?",
+      "choices": [
+        "Leisure",
+        "Consumption",
+        "Commodification",
+        "Popular culture"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t04"
+    },
+    {
+      "id": 1180,
+      "question": "Which of the following is an example of modern leisure activity?",
+      "choices": [
+        "Playing basketball in a community sports league",
+        "Grocery shopping",
+        "Attending a work meeting",
+        "Doing household chores"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1181,
+      "question": "What distinguishes leisure activities from work activities?",
+      "choices": [
+        "Leisure activities are done voluntarily and for personal reasons, while work activities are done for compensation and to fulfill job responsibilities.",
+        "Leisure activities are less important than work activities.",
+        "Leisure activities involve physical exertion, while work activities are mentally challenging.",
+        "Leisure activities are always recreational in nature, while work activities are always stressful."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1182,
+      "question": "How do sociologists study leisure?",
+      "choices": [
+        "Sociologists study leisure by examining how it is shaped by social factors such as class, gender, race, and culture.",
+        "Sociologists study leisure by participating in leisure activities themselves.",
+        "Sociologists study leisure by analyzing its economic impact on industries.",
+        "Sociologists do not study leisure as it is considered trivial in the field."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1183,
+      "question": "What is the relationship between leisure and well-being?",
+      "choices": [
+        "Engaging in leisure activities is associated with improved physical and mental well-being.",
+        "Leisure activities have no impact on well-being.",
+        "Engaging in leisure activities is associated with decreased well-being.",
+        "The relationship between leisure and well-being depends on the type of leisure activity."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1184,
+      "question": "The term 'leisure' refers to:",
+      "choices": [
+        "activities that individuals engage in during their free time, away from work or other responsibilities",
+        "activities that individuals engage in for financial gain",
+        "activities that are mandated by social norms and expectations",
+        "activities that individuals engage in to fulfill their basic needs for survival"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1185,
+      "question": "Which of the following is an example of a leisure activity?",
+      "choices": [
+        "Reading a book for pleasure",
+        "Attending a work meeting",
+        "Cleaning the house",
+        "Preparing meals for the family"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1186,
+      "question": "How can leisure contribute to individual well-being?",
+      "choices": [
+        "Leisure provides opportunities for relaxation, stress reduction, and personal satisfaction.",
+        "Leisure promotes competitiveness and achievement.",
+        "Leisure facilitates social interaction and networking.",
+        "Leisure enhances physical fitness and health."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1187,
+      "question": "Which of the following is NOT a characteristic of leisure activities?",
+      "choices": [
+        "Leisure activities must be goal-oriented and externally required.",
+        "Leisure activities are voluntary and chosen by individuals.",
+        "Leisure activities provide a break from work or other responsibilities.",
+        "Leisure activities are typically enjoyable and pleasurable."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1188,
+      "question": "In modern society, leisure has become increasingly important because:",
+      "choices": [
+        "It provides individuals with opportunities for self-expression, personal development, and the pursuit of happiness.",
+        "It allows people to escape from the realities of everyday life.",
+        "It serves as a form of social control to keep individuals occupied and prevent social unrest.",
+        "It generates economic growth and consumer demand."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1189,
+      "question": "What is the sociological concept that refers to the idea that any given text may have multiple meanings?",
+      "choices": [
+        "Polysemy",
+        "Hypodermic needle theory",
+        "Reinforcement theory",
+        "Lifestyle enclaves"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t12"
+    },
+    {
+      "id": 1190,
+      "question": "Which theory of media effects is closely related to the concept of polysemy?",
+      "choices": [
+        "Encoding/decoding model",
+        "Agenda-setting theory",
+        "Two-step flow model",
+        "Interpretive strategies"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t18"
+    },
+    {
+      "id": 1191,
+      "question": "How does polysemy challenge the notion of a single, fixed meaning in texts?",
+      "choices": [
+        "Polysemy suggests that texts can be open to multiple interpretations and meanings.",
+        "Polysemy suggests that texts have a single, fixed meaning that cannot be altered.",
+        "Polysemy suggests that texts can only have one interpretation that is universally agreed upon.",
+        "Polysemy suggests that texts have hidden meanings that can only be decoded by experts."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t22"
+    },
+    {
+      "id": 1192,
+      "question": "Which concept describes fans actively reinterpreting and reusing elements from media texts to create their own meanings, closely related to the idea that texts have multiple possible interpretations (polysemy)?",
+      "choices": [
+        "Textual poaching",
+        "Popular culture",
+        "High culture",
+        "Taste publics and cultures"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t20"
+    },
+    {
+      "id": 1193,
+      "question": "Why is polysemy important in the analysis of media texts?",
+      "choices": [
+        "Polysemy highlights the role of audience interpretation and the potential for multiple meanings in media texts.",
+        "Polysemy eliminates the need for audience interpretation in media texts.",
+        "Polysemy restricts the analysis of media texts to a single, fixed meaning.",
+        "Polysemy diminishes the impact of media texts on audience perception."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t22"
+    },
+    {
+      "id": 1194,
+      "question": "What is a key assumption underlying the concept of the active audience in media studies?",
+      "choices": [
+        "Audiences actively interpret and engage with media texts",
+        "Audiences passively consume media texts without interpretation",
+        "Audiences have no influence or agency in shaping media content",
+        "Audiences are easily manipulated by media producers"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t13"
+    },
+    {
+      "id": 1195,
+      "question": "Which of the following best describes the role of audiences in the active audience model?",
+      "choices": [
+        "Audiences are actively involved in interpreting and constructing meaning from media texts.",
+        "Audiences are passive recipients of media messages.",
+        "Audiences have no influence over media content.",
+        "Audiences are easily manipulated by media producers."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t13"
+    },
+    {
+      "id": 1196,
+      "question": "What is the main difference between the active audience model and the passive audience model?",
+      "choices": [
+        "The active audience model emphasizes the agency and interpretation of audiences, while the passive audience model sees audiences as passive recipients of media messages.",
+        "The active audience model assumes audiences are easily influenced by media producers, while the passive audience model recognizes the autonomy of audiences.",
+        "The active audience model focuses on the economic aspects of media consumption, while the passive audience model emphasizes cultural preferences.",
+        "The active audience model suggests that media texts have fixed meanings, while the passive audience model acknowledges multiple interpretations."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t13"
+    },
+    {
+      "id": 1197,
+      "question": "How does the concept of the active audience challenge the hypodermic needle theory of media effects?",
+      "choices": [
+        "The active audience concept suggests that audiences are not easily influenced or manipulated by media, contrary to the hypodermic needle theory.",
+        "The active audience concept supports the hypodermic needle theory by acknowledging the power of media messages.",
+        "The active audience concept proposes that media messages have a direct and immediate impact on audience behavior.",
+        "The active audience concept argues that media effects are solely determined by individual psychological factors."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t12"
+    },
+    {
+      "id": 1198,
+      "question": "Which of the following is an example of active audience engagement with media texts?",
+      "choices": [
+        "Audiences critically analyze and challenge the messages and ideologies presented in media texts.",
+        "Audiences mindlessly consume media texts without reflection or interpretation.",
+        "Audiences blindly accept and internalize the messages and ideologies presented in media texts.",
+        "Audiences passively watch and enjoy media texts without engaging with the content."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t13"
+    },
+    {
+      "id": 1199,
+      "question": "Which of the following activities is NOT typically considered a form of leisure?",
+      "choices": [
+        "Working",
+        "Reading a book",
+        "Going to the movies",
+        "Taking a walk in the park"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1200,
+      "question": "How does the concept of leisure vary across cultures?",
+      "choices": [
+        "Different cultures have different norms and values regarding what activities are considered leisure.",
+        "Leisure activities are the same across all cultures.",
+        "The concept of leisure does not exist in some cultures.",
+        "Leisure activities are determined solely by individual preferences and not influenced by culture."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1201,
+      "question": "In the context of leisure, what is the difference between active and passive forms of engagement?",
+      "choices": [
+        "Active engagement involves active participation or involvement in an activity, while passive engagement involves observing or consuming without actively participating.",
+        "Active engagement is more enjoyable than passive engagement.",
+        "Passive engagement requires more physical effort than active engagement.",
+        "Active engagement is only possible in group activities."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1202,
+      "question": "What are some factors that can influence an individual's leisure choices?",
+      "choices": [
+        "Personal preferences, cultural norms, social influences, and availability of leisure resources.",
+        "Leisure choices are completely random and unpredictable.",
+        "Only personal preferences can influence leisure choices.",
+        "Leisure choices are solely determined by economic factors."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1203,
+      "question": "How has modern technology impacted leisure activities?",
+      "choices": [
+        "Technology has provided new forms of leisure activities and transformed how traditional leisure activities are enjoyed.",
+        "Technology has eliminated the need for leisure activities.",
+        "Technology has made leisure activities more expensive.",
+        "Technology has made leisure activities less accessible to the general population."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1204,
+      "question": "The process of transforming goods, services, or ideas into commodities that can be bought and sold in a capitalist market is known as:",
+      "choices": [
+        "Commodification",
+        "High culture",
+        "Taste publics and cultures",
+        "Hypodermic needle theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t11"
+    },
+    {
+      "id": 1205,
+      "question": "Which of the following is an example of commodification?",
+      "choices": [
+        "Turning personal experiences into a branded memoir and selling it as a book",
+        "Attending a free community concert",
+        "Sharing homemade meals with friends",
+        "Creating art for personal enjoyment"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t04"
+    },
+    {
+      "id": 1206,
+      "question": "What is the main consequence of commodification?",
+      "choices": [
+        "Transforming social relations into economic transactions",
+        "Promoting cultural diversity",
+        "Encouraging self-expression",
+        "Strengthening community bonds"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t04"
+    },
+    {
+      "id": 1207,
+      "question": "Which of the following is NOT an example of commodification?",
+      "choices": [
+        "Participating in a community garden",
+        "Buying a branded t-shirt",
+        "Purchasing a ticket to a concert",
+        "Using a ride-sharing app"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t04"
+    },
+    {
+      "id": 1208,
+      "question": "What is a potential criticism of commodification?",
+      "choices": [
+        "It can lead to the degradation of cultural and social values",
+        "It promotes economic growth and innovation",
+        "It provides consumers with more choices",
+        "It encourages competition among producers"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t04"
+    },
+    {
+      "id": 1209,
+      "question": "What is the sociological concept that refers to activities or experiences that individuals engage in during their free time?",
+      "choices": [
+        "Leisure",
+        "Work",
+        "Education",
+        "Religion"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1210,
+      "question": "Which of the following activities would be considered a form of leisure?",
+      "choices": [
+        "Playing a musical instrument",
+        "Attending a business meeting",
+        "Doing household chores",
+        "Studying for exams"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1211,
+      "question": "Why is the study of leisure important in sociology?",
+      "choices": [
+        "It provides insights into social inequalities and cultural norms.",
+        "It helps individuals find productive ways to use their free time.",
+        "It promotes physical and mental well-being.",
+        "It contributes to economic growth and development."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1212,
+      "question": "Which of the following statements best describes the relationship between work and leisure?",
+      "choices": [
+        "Work and leisure are interconnected and influence each other.",
+        "Work and leisure are completely separate and unrelated.",
+        "Work is more important than leisure.",
+        "Leisure is more important than work."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1213,
+      "question": "What is a characteristic of third places?",
+      "choices": [
+        "They provide a neutral ground for people from different backgrounds to interact.",
+        "They are exclusively reserved for leisure activities.",
+        "They are owned and controlled by the government.",
+        "They are primarily focused on economic transactions."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t01"
+    },
+    {
+      "id": 1214,
+      "question": "Which of the following is not considered a third place?",
+      "choices": [
+        "A private home",
+        "A community park",
+        "A coffee shop",
+        "A community center"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t09"
+    },
+    {
+      "id": 1215,
+      "question": "Why are third places important for social cohesion?",
+      "choices": [
+        "They facilitate social interactions and foster a sense of community.",
+        "They provide a platform for political activism.",
+        "They promote individualism and personal freedom.",
+        "They contribute to economic development."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1216,
+      "question": "What is an example of a third place in modern society?",
+      "choices": [
+        "A local pub",
+        "A corporate office",
+        "A private bedroom",
+        "An airport"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t09"
+    },
+    {
+      "id": 1217,
+      "question": "How do third places contribute to societal well-being?",
+      "choices": [
+        "They create opportunities for social support and reduce social isolation.",
+        "They promote materialistic values and consumerism.",
+        "They facilitate social stratification and exclusion.",
+        "They disrupt traditional family structures."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t09"
+    }
+  ]
+}

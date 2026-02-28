@@ -1,0 +1,1182 @@
+{
+  "id": "ch03",
+  "name": "Culture",
+  "order": 3,
+  "concepts": [
+    {
+      "id": "ch03_t01",
+      "term": "Ethnocentrism",
+      "definition": "Judging other cultures by the standards of one's own culture",
+      "level3_question_ids": [
+        784,
+        785,
+        786
+      ],
+      "confusable_ids": [
+        "ch03_t02",
+        "ch03_t17",
+        "ch03_t20",
+        "ch03_t06",
+        "ch03_t10"
+      ]
+    },
+    {
+      "id": "ch03_t02",
+      "term": "Cultural Relativism",
+      "definition": "Understanding and evaluating a culture by its own standards",
+      "level3_question_ids": [
+        786,
+        1088
+      ],
+      "confusable_ids": [
+        "ch03_t01",
+        "ch03_t23",
+        "ch03_t22",
+        "ch03_t17",
+        "ch03_t20"
+      ]
+    },
+    {
+      "id": "ch03_t03",
+      "term": "Material Culture",
+      "definition": "Physical objects and artifacts created by a society",
+      "level3_question_ids": [
+        1104
+      ],
+      "confusable_ids": [
+        "ch03_t17",
+        "ch03_t21",
+        "ch03_t20",
+        "ch03_t04",
+        "ch03_t07"
+      ]
+    },
+    {
+      "id": "ch03_t04",
+      "term": "Symbolic Culture",
+      "definition": "Non-material aspects of culture including ideas, values, and beliefs",
+      "level3_question_ids": [
+        785,
+        787,
+        790
+      ],
+      "confusable_ids": [
+        "ch03_t17",
+        "ch03_t03",
+        "ch03_t20",
+        "ch03_t21",
+        "ch03_t02"
+      ]
+    },
+    {
+      "id": "ch03_t05",
+      "term": "Sapir-Whorf Hypothesis",
+      "definition": "Theory that language shapes how people think and perceive reality",
+      "level3_question_ids": [
+        1102
+      ],
+      "confusable_ids": [
+        "ch03_t12"
+      ]
+    },
+    {
+      "id": "ch03_t06",
+      "term": "Values",
+      "definition": "Culturally defined standards of what is desirable, good, and proper",
+      "level3_question_ids": [
+        786,
+        787,
+        791,
+        1079,
+        1082,
+        1085,
+        1088,
+        1094,
+        1098,
+        1099,
+        1101,
+        1104,
+        1105,
+        1106,
+        1107,
+        1108,
+        1109,
+        1114,
+        1116,
+        1123,
+        1126,
+        1128,
+        1130
+      ],
+      "confusable_ids": [
+        "ch03_t02",
+        "ch03_t20",
+        "ch03_t01"
+      ]
+    },
+    {
+      "id": "ch03_t07",
+      "term": "Norms",
+      "definition": "Rules and expectations by which a society guides behavior",
+      "level3_question_ids": [
+        1083,
+        1084,
+        1090,
+        1092,
+        1094,
+        1095,
+        1098,
+        1105,
+        1108,
+        1109,
+        1128,
+        789
+      ],
+      "confusable_ids": [
+        "ch03_t21",
+        "ch03_t09",
+        "ch03_t16",
+        "ch03_t20",
+        "ch03_t17"
+      ]
+    },
+    {
+      "id": "ch03_t08",
+      "term": "Laws",
+      "definition": "Formal rules enacted and enforced by political authority",
+      "level3_question_ids": [
+        788,
+        1090,
+        1091,
+        1108,
+        1112,
+        1125,
+        1128
+      ],
+      "confusable_ids": [
+        "ch03_t07",
+        "ch03_t09",
+        "ch03_t20"
+      ]
+    },
+    {
+      "id": "ch03_t09",
+      "term": "Folkways",
+      "definition": "Informal rules and customs for everyday behavior",
+      "level3_question_ids": [
+        785,
+        787,
+        788,
+        1112
+      ],
+      "confusable_ids": [
+        "ch03_t07",
+        "ch03_t21",
+        "ch03_t16",
+        "ch03_t20",
+        "ch03_t08"
+      ]
+    },
+    {
+      "id": "ch03_t10",
+      "term": "Signs",
+      "definition": "Objects or gestures that carry a particular meaning in a culture",
+      "level3_question_ids": [
+        787
+      ],
+      "confusable_ids": [
+        "ch03_t11",
+        "ch03_t17",
+        "ch03_t02",
+        "ch03_t03",
+        "ch03_t01"
+      ]
+    },
+    {
+      "id": "ch03_t11",
+      "term": "Gestures",
+      "definition": "Body movements that communicate meaning",
+      "level3_question_ids": [
+        787
+      ],
+      "confusable_ids": [
+        "ch03_t10",
+        "ch03_t12"
+      ]
+    },
+    {
+      "id": "ch03_t12",
+      "term": "Language",
+      "definition": "System of symbols that allows people to communicate with one another",
+      "level3_question_ids": [
+        787,
+        1086,
+        1103,
+        1115,
+        1118,
+        1121
+      ],
+      "confusable_ids": [
+        "ch03_t22",
+        "ch03_t11",
+        "ch03_t05",
+        "ch03_t23"
+      ]
+    },
+    {
+      "id": "ch03_t13",
+      "term": "Mores",
+      "definition": "Strongly held moral norms or customs in a society",
+      "level3_question_ids": [
+        785,
+        788,
+        1090,
+        1109,
+        1112,
+        1113,
+        1128
+      ],
+      "confusable_ids": [
+        "ch03_t17",
+        "ch03_t21",
+        "ch03_t03",
+        "ch03_t07",
+        "ch03_t09"
+      ]
+    },
+    {
+      "id": "ch03_t14",
+      "term": "Taboo",
+      "definition": "Actions that are strictly forbidden by cultural norms",
+      "level3_question_ids": [
+        1111
+      ],
+      "confusable_ids": [
+        "ch03_t19",
+        "ch03_t13",
+        "ch03_t15",
+        "ch03_t22",
+        "ch03_t18"
+      ]
+    },
+    {
+      "id": "ch03_t15",
+      "term": "Sanction",
+      "definition": "Reward or punishment used to enforce social norms",
+      "level3_question_ids": [
+        1092,
+        1093
+      ],
+      "confusable_ids": [
+        "ch03_t14",
+        "ch03_t16",
+        "ch03_t13"
+      ]
+    },
+    {
+      "id": "ch03_t16",
+      "term": "Social Control",
+      "definition": "Methods used by society to regulate behavior",
+      "level3_question_ids": [
+        1094,
+        1096,
+        1113,
+        1130
+      ],
+      "confusable_ids": [
+        "ch03_t21",
+        "ch03_t07",
+        "ch03_t17",
+        "ch03_t03",
+        "ch03_t09"
+      ]
+    },
+    {
+      "id": "ch03_t17",
+      "term": "Dominant Culture",
+      "definition": "Culture of the most powerful group in a society",
+      "level3_question_ids": [
+        790,
+        1100,
+        1101,
+        1116
+      ],
+      "confusable_ids": [
+        "ch03_t21",
+        "ch03_t03",
+        "ch03_t20",
+        "ch03_t18",
+        "ch03_t04"
+      ]
+    },
+    {
+      "id": "ch03_t18",
+      "term": "Subculture",
+      "definition": "Group within a society that has distinct cultural patterns while still sharing main culture",
+      "level3_question_ids": [
+        1100,
+        1114,
+        1115,
+        1117
+      ],
+      "confusable_ids": [
+        "ch03_t17",
+        "ch03_t21",
+        "ch03_t19",
+        "ch03_t22",
+        "ch03_t02"
+      ]
+    },
+    {
+      "id": "ch03_t19",
+      "term": "Counterculture",
+      "definition": "Cultural group that opposes mainstream cultural values",
+      "level3_question_ids": [
+        1097,
+        1100,
+        1101,
+        1116,
+        1117
+      ],
+      "confusable_ids": [
+        "ch03_t18",
+        "ch03_t17",
+        "ch03_t14",
+        "ch03_t22",
+        "ch03_t04"
+      ]
+    },
+    {
+      "id": "ch03_t20",
+      "term": "Ideal Culture",
+      "definition": "Standards or rules that a society claims to believe",
+      "level3_question_ids": [
+        789,
+        1104,
+        1105,
+        1107,
+        790
+      ],
+      "confusable_ids": [
+        "ch03_t17",
+        "ch03_t21",
+        "ch03_t03",
+        "ch03_t07",
+        "ch03_t04"
+      ]
+    },
+    {
+      "id": "ch03_t21",
+      "term": "Real Culture",
+      "definition": "Actual patterns of behavior in a society",
+      "level3_question_ids": [
+        789,
+        790,
+        1104,
+        1106,
+        1107,
+        1108
+      ],
+      "confusable_ids": [
+        "ch03_t17",
+        "ch03_t07",
+        "ch03_t16",
+        "ch03_t03",
+        "ch03_t20"
+      ]
+    },
+    {
+      "id": "ch03_t22",
+      "term": "Cultural Diffusion",
+      "definition": "Spread of cultural elements from one society to another",
+      "level3_question_ids": [
+        791,
+        1104,
+        1118,
+        1119,
+        1120,
+        1121
+      ],
+      "confusable_ids": [
+        "ch03_t23",
+        "ch03_t12",
+        "ch03_t02",
+        "ch03_t18",
+        "ch03_t17"
+      ]
+    },
+    {
+      "id": "ch03_t23",
+      "term": "Cultural Imperialism",
+      "definition": "Domination of one culture over others through media, economics, or politics",
+      "level3_question_ids": [
+        791
+      ],
+      "confusable_ids": [
+        "ch03_t02",
+        "ch03_t22",
+        "ch03_t17",
+        "ch03_t01",
+        "ch03_t10"
+      ]
+    }
+  ],
+  "chapter_questions": [
+    {
+      "id": 784,
+      "question": "A researcher finds that when young adults from traditional families study abroad in Western countries, they begin questioning arranged marriage practices that they previously accepted without question. Which scenario best illustrates ethnocentrism?",
+      "choices": [
+        "The researcher remaining neutral about both marriage systems",
+        "The young adults appreciating both cultural approaches to marriage",
+        "Study abroad students concluding that Western dating practices are superior and arranged marriages are backward",
+        "The researcher documenting both systems without making value judgments"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch03_t01"
+    },
+    {
+      "id": 785,
+      "question": "A sociology professor asks students to strip away cultural meaning from everyday routines and describe them in purely physical terms. Students write about brushing teeth as \"inserting plant fibers into mouth cavity with cleansing powder.\" By making the familiar seem strange, this exercise primarily demonstrates the importance of:",
+      "choices": [
+        "Understanding symbolic culture through familiar examples",
+        "Recognizing how cultural relativism applies to foreign societies only",
+        "Identifying the difference between folkways and mores",
+        "Appreciating how deeply symbolic culture shapes our perception of everyday activities"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t04"
+    },
+    {
+      "id": 786,
+      "question": "How would an ethnocentric approach differ from a culturally relativistic approach when studying a culture that practices polygamy?",
+      "choices": [
+        "Ethnocentrism would judge polygamy as wrong based on Western monogamous values, while cultural relativism would seek to understand it within its own cultural context",
+        "Both approaches would condemn polygamy as a violation of women's rights",
+        "Cultural relativism would promote polygamy as superior to monogamy",
+        "Ethnocentrism would ignore polygamy while cultural relativism would overemphasize it"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t02"
+    },
+    {
+      "id": 787,
+      "question": "An anthropologist studying a remote village notices that community members express concepts through intricate hand movements that have no equivalent words in any spoken language. The gestures convey complex ideas about social relationships that cannot be translated directly. These hand movements represent which component of symbolic culture?",
+      "choices": [
+        "Folkways governing everyday etiquette",
+        "Gestures that communicate culturally specific meanings",
+        "Signs that have universal significance",
+        "Values expressed through nonmaterial culture"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch03_t04"
+    },
+    {
+      "id": 788,
+      "question": "A tech company's employee handbook states that workers should \"dress appropriately for client meetings.\" Most employees interpret this as business formal attire, but it's not explicitly stated. This unwritten expectation is an example of:",
+      "choices": [
+        "Laws that govern workplace behavior",
+        "Mores that carry moral significance",
+        "Folkways that guide everyday social interactions",
+        "Taboos that are strictly forbidden"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch03_t09"
+    },
+    {
+      "id": 789,
+      "question": "During Mardi Gras in New Orleans, tourists engage in behavior that would be considered inappropriate and potentially face sanctions in their home communities. This temporary suspension of normal behavioral expectations illustrates:",
+      "choices": [
+        "The breakdown of all social norms during festivals",
+        "A moral holiday when certain norm violations are tolerated",
+        "The difference between ideal culture and real culture",
+        "Cultural imperialism spreading through tourism"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch03_t07"
+    },
+    {
+      "id": 790,
+      "question": "A country's constitution guarantees equality for all citizens, but statistical data reveals significant disparities in education, employment, and criminal justice outcomes based on race and ethnicity. This scenario best demonstrates the distinction between:",
+      "choices": [
+        "Subcultures and countercultures",
+        "Dominant culture and multiculturalism",
+        "Ideal culture and real culture",
+        "Material culture and symbolic culture"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch03_t20"
+    },
+    {
+      "id": 791,
+      "question": "A social media platform decides to expand globally by partnering with local entertainment companies to produce content reflecting each country's values, while also promoting American lifestyle brands through product placement. This strategy primarily represents:",
+      "choices": [
+        "Cultural diffusion occurring in multiple directions",
+        "Cultural leveling creating hybrid entertainment forms",
+        "Cultural imperialism spreading through media and consumer products",
+        "Technological change driving cultural transformation"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch03_t23"
+    },
+    {
+      "id": 1076,
+      "question": "How would a structural functionalist explain the societal emphasis on the nuclear family structure?",
+      "choices": [
+        "It provides a stable and efficient unit for socialization and economic cooperation.",
+        "It reflects inherent biological drives and natural instincts.",
+        "It reinforces patriarchal power structures and limits individual autonomy.",
+        "It is a social construct that varies across cultures and historical periods."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1077,
+      "question": "From a structural functionalist perspective, the role of religion in society is primarily to:",
+      "choices": [
+        "Provide a shared moral code and sense of community, contributing to social cohesion.",
+        "Offer comfort and solace to individuals in times of crisis.",
+        "Reinforce existing power structures and inequalities.",
+        "Create a sense of awe and wonder through ritual and symbolism."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1078,
+      "question": "A structural functionalist would likely argue that social inequality:",
+      "choices": [
+        "Serves a function by motivating individuals to strive for higher status positions.",
+        "Is a natural outcome of individual differences in talent and ability.",
+        "Results from the exploitation of the working class by the capitalist class.",
+        "Is socially constructed and maintained through everyday interactions."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1079,
+      "question": "How might a structural functionalist interpret the role of the media in society?",
+      "choices": [
+        "It disseminates information and shared values, contributing to social order.",
+        "It manipulates public opinion and reinforces dominant ideologies.",
+        "It provides a platform for individuals to construct and share their identities.",
+        "It reflects the economic interests of powerful corporations."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t06"
+    },
+    {
+      "id": 1080,
+      "question": "Structural functionalism has been criticized for:",
+      "choices": [
+        "Overemphasizing social stability and downplaying conflict and change.",
+        "Focusing too heavily on individual-level interactions rather than social structures.",
+        "Placing too much emphasis on economic inequality as the driver of social organization.",
+        "Rejecting the idea that social institutions serve important purposes."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1081,
+      "question": "Which of the following scenarios BEST illustrates the structural functionalist concept of social dysfunction?",
+      "choices": [
+        "Widespread unemployment leading to increased crime rates and social unrest.",
+        "A successful social movement advocating for greater equality.",
+        "Individuals challenging traditional gender roles.",
+        "The development of new technologies that transform social interaction."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1082,
+      "question": "According to structural functionalism, a successful society requires:",
+      "choices": [
+        "A high degree of social cohesion and shared values.",
+        "Constant conflict between social classes to drive progress.",
+        "Individuals freely interpreting and negotiating meaning in every interaction.",
+        "The elimination of all forms of social inequality."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t06"
+    },
+    {
+      "id": 1083,
+      "question": "A conflict theorist would likely critique the structural functionalist perspective on deviance by arguing that:",
+      "choices": [
+        "Definitions of deviance are often used to control and marginalize disadvantaged groups.",
+        "Deviance serves a function by clarifying social norms and boundaries.",
+        "Deviance is a natural and inevitable part of any society.",
+        "Deviance is a result of individual pathology and psychological factors."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t07"
+    },
+    {
+      "id": 1084,
+      "question": "How might a symbolic interactionist critique the structural functionalist view of social institutions?",
+      "choices": [
+        "Institutions are not fixed entities but are constantly being created and negotiated through interaction.",
+        "Institutions serve the interests of the powerful and perpetuate social inequality.",
+        "Institutions are essential for maintaining social order and stability.",
+        "Institutions function to socialize individuals into dominant cultural norms."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t07"
+    },
+    {
+      "id": 1085,
+      "question": "Which statement best challenges the idea that culture is primarily determined by a single factor?",
+      "choices": [
+        "Cultural values are constantly evolving and are influenced by a complex interplay of factors, including individual agency, technological innovations, and global events.",
+        "Individuals are passive recipients of culture and simply internalize the values transmitted by institutions.",
+        "Institutional socialization is the most powerful force shaping individual values and beliefs.",
+        "Cultural values are primarily determined by biological and genetic factors."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t06"
+    },
+    {
+      "id": 1086,
+      "question": "A researcher argues that globalization has led to cultural homogenization. Which finding would challenge this argument?",
+      "choices": [
+        "The persistence of local traditions and cultural practices despite exposure to global media.",
+        "The increasing popularity of American fast food restaurants around the world.",
+        "The spread of English as a global language.",
+        "The adoption of similar fashion trends in different countries."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t12"
+    },
+    {
+      "id": 1087,
+      "question": "Which of the following examples illustrates cultural hybridization?",
+      "choices": [
+        "The fusion of traditional Japanese music with Western pop music to create a new genre.",
+        "The replacement of traditional clothing with Western-style clothing in a developing country.",
+        "The preservation of traditional cultural practices in isolated communities.",
+        "The global dominance of American popular culture."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1088,
+      "question": "The concept of cultural relativism suggests that:",
+      "choices": [
+        "Cultural practices should be understood and evaluated within their own context.",
+        "Western cultures are superior to non-Western cultures.",
+        "All cultures share the same fundamental values and beliefs.",
+        "Cultural differences should be minimized through globalization."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t02"
+    },
+    {
+      "id": 1089,
+      "question": "Which of the following is an example of a folkway?",
+      "choices": [
+        "Shaking hands when greeting someone.",
+        "Committing murder.",
+        "Paying taxes.",
+        "Wearing clothing in public."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1090,
+      "question": "Laws are:",
+      "choices": [
+        "Formally codified norms enforced by the state.",
+        "Informal norms enforced through social pressure.",
+        "Universally recognized principles of right and wrong.",
+        "Always consistent with societal mores."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t07"
+    },
+    {
+      "id": 1091,
+      "question": "Informal sanctions differ from formal sanctions in that they:",
+      "choices": [
+        "Are not codified in written rules or laws and are enforced through social pressure.",
+        "Are enforced by official authorities, such as governments or schools.",
+        "Involve the use of physical force or violence.",
+        "Are always negative and involve punishment."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t08"
+    },
+    {
+      "id": 1092,
+      "question": "Which of the following is an example of a positive formal sanction?",
+      "choices": [
+        "Receiving a promotion at work for outstanding performance.",
+        "Receiving a compliment from a friend on a new outfit.",
+        "Being grounded by parents for breaking curfew.",
+        "Being ostracized by a social group for violating norms."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t15"
+    },
+    {
+      "id": 1093,
+      "question": "A student cheats on an exam and receives a failing grade. This is an example of:",
+      "choices": [
+        "A negative formal sanction.",
+        "A positive formal sanction.",
+        "A negative informal sanction.",
+        "A positive informal sanction."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t15"
+    },
+    {
+      "id": 1094,
+      "question": "Social control is primarily maintained through:",
+      "choices": [
+        "A combination of formal and informal sanctions.",
+        "The threat of physical violence.",
+        "The internalization of societal norms and values.",
+        "The actions of the police and criminal justice system."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t16"
+    },
+    {
+      "id": 1095,
+      "question": "Which of the following is NOT a function of sanctions?",
+      "choices": [
+        "To define and reinforce social norms.",
+        "To encourage conformity to societal expectations.",
+        "To promote social change and challenge existing norms.",
+        "To punish those who violate social norms."
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch03_t07"
+    },
+    {
+      "id": 1096,
+      "question": "The concept of \"shaming\" as a form of social control is most closely associated with:",
+      "choices": [
+        "Informal negative sanctions.",
+        "Formal negative sanctions.",
+        "Positive sanctions.",
+        "Restorative justice practices."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t16"
+    },
+    {
+      "id": 1097,
+      "question": "Which of the following groups BEST exemplifies the characteristics of a counterculture?",
+      "choices": [
+        "A community living off-grid, practicing sustainable agriculture, and advocating for radical environmentalism.",
+        "A group of friends who enjoy playing video games together.",
+        "A book club that meets monthly to discuss classic literature.",
+        "A local chapter of a national political party."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t19"
+    },
+    {
+      "id": 1098,
+      "question": "Countercultures often:",
+      "choices": [
+        "Challenge dominant societal values and norms.",
+        "Seek to create alternative ways of life.",
+        "Engage in acts of civil disobedience or protest.",
+        "All of the above."
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch03_t06"
+    },
+    {
+      "id": 1099,
+      "question": "Which of the following is NOT a characteristic typically associated with countercultures?",
+      "choices": [
+        "Conformity to mainstream values and beliefs.",
+        "A desire for social change.",
+        "A critique of existing power structures.",
+        "The development of unique cultural practices and styles."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t06"
+    },
+    {
+      "id": 1100,
+      "question": "The historical \"hippie\" movement of the 1960s is often cited as an example of:",
+      "choices": [
+        "A counterculture.",
+        "A subculture.",
+        "A dominant culture.",
+        "Cultural lag."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t17"
+    },
+    {
+      "id": 1101,
+      "question": "The relationship between a counterculture and the dominant culture is often characterized by:",
+      "choices": [
+        "Tension, conflict, and attempts at social change.",
+        "Harmony, cooperation, and shared values.",
+        "Indifference and a lack of interaction.",
+        "Assimilation of the counterculture into the dominant culture."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t17"
+    },
+    {
+      "id": 1102,
+      "question": "Which scenario best illustrates the Sapir-Whorf hypothesis?",
+      "choices": [
+        "Speakers of languages with different color terms may show slight variations in how quickly they recognize color boundaries.",
+        "Bilingual individuals score higher on cognitive tests than monolingual individuals.",
+        "A society with no words for numbers cannot perform basic arithmetic.",
+        "Children learn languages faster than adults."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t05"
+    },
+    {
+      "id": 1103,
+      "question": "Research supporting linguistic relativity has found that:",
+      "choices": [
+        "Different languages can affect how speakers attend to and remember certain aspects of their experience.",
+        "Some languages are more cognitively advanced than others.",
+        "Cultures with complex grammar systems are more intellectually sophisticated.",
+        "Language completely determines a culture's worldview."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t12"
+    },
+    {
+      "id": 1104,
+      "question": "A society values environmental sustainability but continues to consume resources at an unsustainable rate. This illustrates:",
+      "choices": [
+        "The difference between ideal culture and real culture.",
+        "Cultural lag, where material culture changes faster than nonmaterial culture.",
+        "Cultural diffusion, the spread of cultural traits from one society to another.",
+        "Cultural leveling, the process by which cultures become more similar."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t22"
+    },
+    {
+      "id": 1105,
+      "question": "\"Ideal culture\" refers to:",
+      "choices": [
+        "The values, norms, and beliefs a society claims to hold.",
+        "The actual practices and behaviors of people in a society.",
+        "The most popular cultural trends in a society.",
+        "The cultural traditions of the elite in a society."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t20"
+    },
+    {
+      "id": 1106,
+      "question": "Which examples show tensions between ideal and real culture?",
+      "choices": [
+        "A nation promoting environmental protection while being a leading polluter, and a university emphasizing academic integrity while experiencing widespread cheating.",
+        "A society valuing education while providing equal access to schools.",
+        "A culture emphasizing both individual achievement and community support.",
+        "A nation practicing the democratic values it promotes."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t21"
+    },
+    {
+      "id": 1107,
+      "question": "The gap between ideal culture and real culture often results in:",
+      "choices": [
+        "Social tensions and efforts for reform.",
+        "Immediate cultural transformation.",
+        "Increased social unity.",
+        "Elimination of cultural values."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t20"
+    },
+    {
+      "id": 1108,
+      "question": "A society's divorce rate rises despite strong cultural values promoting marriage represents:",
+      "choices": [
+        "A growing gap between ideal and real culture that may lead to social change.",
+        "Evidence that the cultural value is wrong.",
+        "A complete failure of social norms.",
+        "The need to enforce stricter marriage laws."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t21"
+    },
+    {
+      "id": 1109,
+      "question": "Mores are best defined as:",
+      "choices": [
+        "Strongly held norms that are essential to a society's core values and moral beliefs.",
+        "Casual customs that guide everyday social interactions.",
+        "Formal rules and regulations enforced by the government.",
+        "Personal preferences that vary by individual."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t06"
+    },
+    {
+      "id": 1110,
+      "question": "Violating a more is likely to result in:",
+      "choices": [
+        "Strong social disapproval and potentially serious consequences.",
+        "Mild disapproval or teasing.",
+        "A formal legal penalty, such as a fine or imprisonment.",
+        "No reaction from others."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1111,
+      "question": "Which of the following is the clearest example of a more?",
+      "choices": [
+        "The taboo against intentionally harming children.",
+        "Saying \"excuse me\" after sneezing.",
+        "Taking off shoes before entering someone's house.",
+        "Using proper table manners at dinner."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t14"
+    },
+    {
+      "id": 1112,
+      "question": "Mores differ from folkways in that:",
+      "choices": [
+        "Mores are moral imperatives essential to social order, while folkways are everyday customs and conventions.",
+        "Folkways are more important to society than mores.",
+        "Mores are only written laws, while folkways are unwritten.",
+        "Folkways have stronger punishments than mores."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t09"
+    },
+    {
+      "id": 1113,
+      "question": "How are mores related to social control?",
+      "choices": [
+        "They maintain social order by defining and enforcing fundamental moral boundaries.",
+        "They primarily regulate casual social interactions.",
+        "They have minimal impact on behavior.",
+        "They only affect formal legal systems."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t16"
+    },
+    {
+      "id": 1114,
+      "question": "A subculture is best defined as:",
+      "choices": [
+        "A group that develops distinct practices while largely accepting society's basic values and institutions.",
+        "A group that completely rejects and actively opposes mainstream society.",
+        "Any small social group with shared interests.",
+        "A temporary gathering of people with similar hobbies."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t18"
+    },
+    {
+      "id": 1115,
+      "question": "Which best exemplifies a subculture?",
+      "choices": [
+        "Skateboarders who have their own style, language, and meeting places, but still participate in school and work.",
+        "A book club that meets monthly.",
+        "Coworkers who socialize after work.",
+        "Fans attending a sports event."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t18"
+    },
+    {
+      "id": 1116,
+      "question": "A counterculture is:",
+      "choices": [
+        "A group that actively opposes and seeks to change fundamental societal values and institutions.",
+        "A group with slightly different fashion choices or hobbies.",
+        "The dominant culture in a society.",
+        "Any group that's different from the mainstream."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t17"
+    },
+    {
+      "id": 1117,
+      "question": "Which best illustrates the difference between a subculture and a counterculture?",
+      "choices": [
+        "Environmental activists who live in mainstream society but promote recycling (subculture) vs. eco-warriors who reject modern society and live off-grid (counterculture).",
+        "Different sports teams in the same league.",
+        "Different neighborhoods in the same city.",
+        "Different departments in the same company."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t19"
+    },
+    {
+      "id": 1118,
+      "question": "Which of the following is NOT an example of cultural diffusion?",
+      "choices": [
+        "The development of a unique language dialect within an isolated community.",
+        "The spread of sushi restaurants around the world.",
+        "The widespread adoption of Western-style clothing and fashion trends in non-Western countries.",
+        "The celebration of St. Patrick's Day in countries outside of Ireland."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t22"
+    },
+    {
+      "id": 1119,
+      "question": "Cultural diffusion often leads to:",
+      "choices": [
+        "Cultural hybridization, the blending of different cultural elements.",
+        "Cultural isolation, where cultures remain distinct and separate.",
+        "Cultural stagnation, which prevents meaningful innovation and societal change over time.",
+        "The disappearance of local traditions."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t22"
+    },
+    {
+      "id": 1120,
+      "question": "The spread of democratic ideals from one country to another is an example of:",
+      "choices": [
+        "Cultural diffusion.",
+        "Political socialization.",
+        "The complex process of globalization and international development.",
+        "Social movements."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t22"
+    },
+    {
+      "id": 1121,
+      "question": "Which factor can hinder cultural diffusion?",
+      "choices": [
+        "Geographic isolation.",
+        "Strong cultural identity and resistance to outside influences.",
+        "Language barriers and significant communication challenges between groups.",
+        "All of the above."
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch03_t22"
+    },
+    {
+      "id": 1122,
+      "question": "A structural functionalist would likely view social institutions as:",
+      "choices": [
+        "Interdependent parts that contribute to societal stability.",
+        "Mechanisms for maintaining social inequality.",
+        "Powerful sources of conflict and competition between diverse social groups.",
+        "Constantly evolving and changing through social interaction."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1123,
+      "question": "A conflict theorist would most likely argue that education systems:",
+      "choices": [
+        "Reproduce existing social inequalities.",
+        "Transmit shared values and knowledge essential for societal functioning.",
+        "Promote social mobility and equal opportunity through systematic institutional changes.",
+        "Are neutral institutions that benefit all members of society equally."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t06"
+    },
+    {
+      "id": 1124,
+      "question": "How might a structural functionalist explain the persistence of poverty in a wealthy society?",
+      "choices": [
+        "Poverty serves a function by providing a pool of low-wage workers for undesirable jobs.",
+        "Poverty is a dysfunction that results from a failure of social institutions.",
+        "Poverty naturally emerges from individual differences in talent, motivation, and sustained effort.",
+        "Poverty is a consequence of the exploitation of the poor by the rich."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1125,
+      "question": "According to conflict theory, laws:",
+      "choices": [
+        "Primarily benefit the powerful and wealthy in society.",
+        "Are neutral and applied equally to all members of society.",
+        "Reflect the complex consensus of society regarding acceptable behavior and moral standards.",
+        "Are primarily concerned with protecting the rights of the poor."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t08"
+    },
+    {
+      "id": 1126,
+      "question": "From a conflict theory perspective, social change is often driven by:",
+      "choices": [
+        "Competition and struggle between different groups for resources and power.",
+        "Gradual evolution and adaptation to changing societal needs.",
+        "Shared values and collective desires for progress in modern democratic societies.",
+        "The actions of great individuals or leaders."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t06"
+    },
+    {
+      "id": 1127,
+      "question": "How does the concept of cultural capital challenge the idea of a meritocratic society?",
+      "choices": [
+        "It demonstrates that access to certain cultural knowledge and experiences can advantage individuals in achieving higher social status.",
+        "It proves that individual talent and hard work are the sole determinants of success.",
+        "It highlights the critical importance of formal education and academic credentials in modern society.",
+        "It emphasizes the role of economic capital in shaping cultural preferences."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1128,
+      "question": "How might changing attitudes toward marijuana use illustrate dynamic mores?",
+      "choices": [
+        "The shift from criminalization to legalization reflects changing core social values regarding drug use and personal freedom.",
+        "Marijuana use has always been considered a serious violation of societal norms.",
+        "Laws regarding marijuana use and social attitudes remain remarkably consistent across diverse cultures.",
+        "Marijuana use is purely a matter of individual choice."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t06"
+    },
+    {
+      "id": 1129,
+      "question": "A teenager receives disapproving looks for unconventional clothing. This illustrates:",
+      "choices": [
+        "Informal negative sanctions reinforcing conformity to societal expectations.",
+        "Formal positive sanctions rewarding individuality.",
+        "Formal negative sanctions enforcing strict compliance with established social dress codes.",
+        "Informal positive sanctions encouraging youth subcultures."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1130,
+      "question": "Why might definitions of deviance vary across societies and time periods?",
+      "choices": [
+        "Definitions of deviance are often influenced by those in power to maintain social control and reinforce existing inequalities.",
+        "Deviance is a universal concept with a fixed definition.",
+        "All societies share fundamentally similar values about acceptable and unacceptable social behavior.",
+        "Deviance is solely determined by individual psychology."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch03_t16"
+    }
+  ]
+}
