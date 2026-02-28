@@ -64,14 +64,7 @@
         <div class="container">
             <header class="top-bar">
                 <button id="btn-back-chapters" class="btn btn-back">&larr; Chapters</button>
-                <div class="top-bar-right">
-                    <select id="session-size-select" class="session-size-select">
-                        <option value="5">5 Qs</option>
-                        <option value="10" selected>10 Qs</option>
-                        <option value="20">20 Qs</option>
-                    </select>
-                    <button id="btn-study-chapter" class="btn btn-primary btn-small">Study</button>
-                </div>
+                <span></span>
             </header>
             <div id="chapter-header" class="chapter-header">
                 <h2 id="chapter-title"></h2>
@@ -80,7 +73,24 @@
                 </div>
                 <p id="chapter-stats" class="chapter-stats"></p>
             </div>
-            <div id="concept-list" class="concept-list"></div>
+            <div class="chapter-study-section">
+                <button id="btn-study-chapter" class="btn btn-primary btn-study-chapter">Study This Chapter</button>
+                <div class="session-size-wrapper">
+                    <label for="session-size-select" class="session-size-label">Questions per session</label>
+                    <div class="session-size-options" id="session-size-options">
+                        <button class="session-size-btn" data-value="5">5</button>
+                        <button class="session-size-btn active" data-value="10">10</button>
+                        <button class="session-size-btn" data-value="20">20</button>
+                    </div>
+                </div>
+            </div>
+            <div class="chapter-concepts-section">
+                <button id="btn-toggle-concepts" class="btn-toggle-concepts">
+                    <span id="toggle-concepts-label">Show all concepts</span>
+                    <span id="toggle-concepts-arrow" class="toggle-arrow">&#9662;</span>
+                </button>
+                <div id="concept-list" class="concept-list hidden"></div>
+            </div>
         </div>
     </div>
 

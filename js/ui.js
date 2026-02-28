@@ -113,6 +113,10 @@ const UI = (() => {
             : stats.learned + ' of ' + stats.total + ' concepts learned';
         document.getElementById('chapter-stats').textContent = statsText;
 
+        // Update toggle label
+        document.getElementById('toggle-concepts-label').textContent =
+            'Show all ' + chapter.concepts.length + ' concepts';
+
         const list = document.getElementById('concept-list');
         list.innerHTML = '';
 
@@ -134,7 +138,20 @@ const UI = (() => {
             list.appendChild(skippedLabel);
         }
 
-        for (const concept of chapter.concepts) {
+        // Sort concepts: in-progress first, then not started, then learned, skipped last
+        const sorted = [...chapter.concepts].sort((a, b) => {
+            const order = (c) => {
+                if (Progress.isConceptSkipped(c.id)) return 3;
+                const hasL3 = c.level3_question_ids.length > 0;
+                const level = Progress.getCurrentLevel(c.id, hasL3);
+                if (level === 0) return 2; // learned
+                if (Progress.isConceptStarted(c.id)) return 0; // in-progress
+                return 1; // not started
+            };
+            return order(a) - order(b);
+        });
+
+        for (const concept of sorted) {
             const hasL3 = concept.level3_question_ids.length > 0;
             const maxLevel = hasL3 ? 3 : 2;
             const currentLevel = Progress.getCurrentLevel(concept.id, hasL3);
@@ -167,7 +184,7 @@ const UI = (() => {
             });
             row.appendChild(skipBtn);
 
-            // Term container with confusable hints and trouble spot
+            // Term container
             const termContainer = document.createElement('div');
             termContainer.className = 'concept-term-container';
 
@@ -181,17 +198,6 @@ const UI = (() => {
                 termHtml += ' <span class="trouble-dot" title="Trouble spot">\u25cf</span>';
             }
             termHtml += '</span>';
-
-            if (!isSkipped && concept.confusable_ids && concept.confusable_ids.length > 0) {
-                const confusableNames = concept.confusable_ids
-                    .slice(0, 3)
-                    .map(id => chapter.concepts.find(c => c.id === id))
-                    .filter(Boolean)
-                    .map(c => c.term);
-                if (confusableNames.length > 0) {
-                    termHtml += '<div class="confusable-hint">Often confused with: ' + confusableNames.map(escapeHtml).join(', ') + '</div>';
-                }
-            }
 
             termContainer.innerHTML = termHtml;
             row.appendChild(termContainer);

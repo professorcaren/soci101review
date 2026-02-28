@@ -117,8 +117,21 @@ const App = (() => {
             }
         });
 
-        document.getElementById('session-size-select').addEventListener('change', (e) => {
-            QuizEngine.setSessionSize(parseInt(e.target.value));
+        // Session size buttons
+        document.getElementById('session-size-options').addEventListener('click', (e) => {
+            const btn = e.target.closest('.session-size-btn');
+            if (!btn) return;
+            document.querySelectorAll('.session-size-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            QuizEngine.setSessionSize(parseInt(btn.dataset.value));
+        });
+
+        // Toggle concepts list
+        document.getElementById('btn-toggle-concepts').addEventListener('click', () => {
+            const list = document.getElementById('concept-list');
+            const arrow = document.getElementById('toggle-concepts-arrow');
+            list.classList.toggle('hidden');
+            arrow.classList.toggle('open');
         });
 
         // --- Exam Prep ---

@@ -322,17 +322,88 @@
     background: rgba(176, 94, 58, 0.12);
 }
 
-/* Session Size Select */
-.session-size-select {
+/* Chapter Study Section */
+.chapter-study-section {
     background: var(--color-surface);
-    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: 20px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.btn-study-chapter {
+    width: 100%;
+    padding: 16px 24px;
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+}
+.session-size-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.session-size-label {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+}
+.session-size-options {
+    display: flex;
+    gap: 0;
     border: 2px solid var(--color-border);
     border-radius: var(--radius-sm);
-    padding: 6px 10px;
-    font-size: 0.8rem;
+    overflow: hidden;
+}
+.session-size-btn {
+    background: var(--color-surface);
+    color: var(--color-text-secondary);
+    border: none;
+    border-right: 1px solid var(--color-border);
+    padding: 6px 14px;
+    font-size: 0.85rem;
     font-weight: 600;
     cursor: pointer;
-    min-height: 40px;
+    transition: background var(--transition), color var(--transition);
+    min-height: 36px;
+}
+.session-size-btn:last-child {
+    border-right: none;
+}
+.session-size-btn:hover {
+    background: var(--color-surface-hover);
+}
+.session-size-btn.active {
+    background: var(--color-primary);
+    color: #fff;
+}
+
+/* Concepts Toggle */
+.chapter-concepts-section {
+    margin-top: 8px;
+}
+.btn-toggle-concepts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: none;
+    border: none;
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: color var(--transition);
+}
+.btn-toggle-concepts:hover {
+    color: var(--color-text);
+}
+.toggle-arrow {
+    transition: transform var(--transition);
+    font-size: 0.8rem;
+}
+.toggle-arrow.open {
+    transform: rotate(180deg);
 }
 
 /* Skip Button */
@@ -371,16 +442,10 @@
     padding: 6px 14px;
 }
 
-/* Confusable hints */
+/* Concept term container */
 .concept-term-container {
     flex: 1;
     min-width: 0;
-}
-.confusable-hint {
-    font-size: 0.7rem;
-    color: var(--color-text-secondary);
-    margin-top: 2px;
-    font-style: italic;
 }
 
 /* Trouble spot indicator */
