@@ -1,75 +1,91 @@
 #!/usr/bin/env python3
-"""
-Generate confusable_ids for each concept in content.json.
+"""Generate confusable concept IDs based on definition similarity.
 
-For each concept, finds the most semantically similar concepts within
-the same chapter using TF-IDF cosine similarity on term + definition text.
+For each concept, computes Jaccard similarity of definition words against
+all other concepts in the same chapter. Also boosts similarity for terms
+that share words. Stores top 5 confusable concept IDs on each concept
+in content.json.
 """
 
 import json
-import math
+import os
 import re
-from collections import Counter
-from pathlib import Path
+import string
 
-CONTENT_PATH = Path(__file__).parent.parent / "data" / "content.json"
-MAX_CONFUSABLES = 4
-MIN_SCORE = 0.05  # minimum similarity to be considered confusable
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
+CONTENT_PATH = os.path.join(PROJECT_ROOT, "data/content.json")
 
 STOP_WORDS = {
-    "a", "an", "the", "is", "are", "was", "were", "be", "been", "being",
-    "have", "has", "had", "do", "does", "did", "will", "would", "could",
-    "should", "may", "might", "shall", "can", "to", "of", "in", "for",
-    "on", "with", "at", "by", "from", "as", "into", "through", "during",
-    "before", "after", "above", "below", "between", "out", "off", "over",
-    "under", "again", "further", "then", "once", "and", "but", "or", "nor",
-    "not", "so", "yet", "both", "either", "neither", "each", "every", "all",
-    "any", "few", "more", "most", "other", "some", "such", "no", "only",
-    "own", "same", "than", "too", "very", "just", "because", "if", "when",
-    "while", "that", "which", "who", "whom", "this", "these", "those",
-    "it", "its", "he", "she", "they", "them", "their", "we", "us", "our",
-    "you", "your", "what", "how", "about", "up", "also", "one", "two",
+    "a", "an", "the", "and", "or", "but", "in", "on", "at", "to", "for",
+    "of", "with", "by", "from", "is", "are", "was", "were", "be", "been",
+    "being", "have", "has", "had", "do", "does", "did", "will", "would",
+    "could", "should", "may", "might", "shall", "can", "that", "which",
+    "who", "whom", "this", "these", "those", "it", "its", "as", "if",
+    "when", "than", "because", "while", "where", "how", "not", "no",
+    "so", "up", "out", "about", "into", "over", "after", "between",
+    "through", "during", "before", "above", "below", "each", "every",
+    "both", "few", "more", "most", "other", "some", "such", "only",
+    "same", "also", "then", "just", "any", "all", "very", "often",
+    "their", "they", "them", "what",
 }
 
 
 def tokenize(text):
-    words = re.findall(r"[a-z]+", text.lower())
-    return [w for w in words if w not in STOP_WORDS and len(w) > 2]
+    """Lowercase, remove punctuation, split into word set minus stop words."""
+    text = text.lower()
+    text = text.translate(str.maketrans("", "", string.punctuation))
+    words = set(text.split()) - STOP_WORDS
+    return words
 
 
-def build_tfidf(docs):
-    """Build TF-IDF vectors for a list of token lists."""
-    # Document frequency
-    df = Counter()
-    for doc in docs:
-        df.update(set(doc))
-    n = len(docs)
-
-    vectors = []
-    for doc in docs:
-        tf = Counter(doc)
-        total = len(doc) if doc else 1
-        vec = {}
-        for word, count in tf.items():
-            idf = math.log((n + 1) / (df[word] + 1)) + 1
-            vec[word] = (count / total) * idf
-        vectors.append(vec)
-    return vectors
-
-
-def cosine_sim(a, b):
-    keys = set(a) & set(b)
-    if not keys:
+def jaccard(set_a, set_b):
+    """Jaccard similarity between two sets."""
+    if not set_a and not set_b:
         return 0.0
-    dot = sum(a[k] * b[k] for k in keys)
-    mag_a = math.sqrt(sum(v * v for v in a.values()))
-    mag_b = math.sqrt(sum(v * v for v in b.values()))
-    if mag_a == 0 or mag_b == 0:
+    intersection = set_a & set_b
+    union = set_a | set_b
+    return len(intersection) / len(union) if union else 0.0
+
+
+def term_word_overlap(term_a, term_b):
+    """Bonus for terms sharing words (e.g., 'Primary Deviance' / 'Secondary Deviance')."""
+    words_a = set(term_a.lower().split())
+    words_b = set(term_b.lower().split())
+    shared = words_a & words_b
+    if not shared:
         return 0.0
-    return dot / (mag_a * mag_b)
+    # Bonus proportional to overlap
+    return len(shared) / max(len(words_a), len(words_b))
 
 
-def generate_confusables(content):
+def compute_confusables(concepts, top_n=5):
+    """For each concept, find the top_n most confusable other concepts."""
+    # Pre-tokenize definitions
+    def_tokens = {c["id"]: tokenize(c["definition"]) for c in concepts}
+
+    confusable_map = {}
+    for concept in concepts:
+        scores = []
+        for other in concepts:
+            if other["id"] == concept["id"]:
+                continue
+            def_sim = jaccard(def_tokens[concept["id"]], def_tokens[other["id"]])
+            term_bonus = term_word_overlap(concept["term"], other["term"]) * 0.3
+            score = def_sim + term_bonus
+            scores.append((other["id"], score))
+
+        scores.sort(key=lambda x: x[1], reverse=True)
+        confusable_map[concept["id"]] = [cid for cid, s in scores[:top_n] if s > 0]
+
+    return confusable_map
+
+
+def main():
+    with open(CONTENT_PATH) as f:
+        content = json.load(f)
+
+    total_added = 0
     for chapter in content["chapters"]:
         concepts = chapter["concepts"]
         if len(concepts) < 2:
@@ -77,46 +93,38 @@ def generate_confusables(content):
                 c["confusable_ids"] = []
             continue
 
-        # Build text corpus from term + definition
-        docs = []
-        for c in concepts:
-            text = c["term"] + " " + c["definition"]
-            docs.append(tokenize(text))
-
-        vectors = build_tfidf(docs)
-
-        for i, concept in enumerate(concepts):
-            scores = []
-            for j, other in enumerate(concepts):
-                if i == j:
-                    continue
-                sim = cosine_sim(vectors[i], vectors[j])
-                if sim >= MIN_SCORE:
-                    scores.append((sim, other["id"]))
-
-            scores.sort(reverse=True)
-            concept["confusable_ids"] = [cid for _, cid in scores[:MAX_CONFUSABLES]]
-
-
-def main():
-    with open(CONTENT_PATH) as f:
-        content = json.load(f)
-
-    generate_confusables(content)
-
-    # Count results
-    total = 0
-    with_conf = 0
-    for ch in content["chapters"]:
-        for c in ch["concepts"]:
-            total += 1
-            if c.get("confusable_ids"):
-                with_conf += 1
+        confusable_map = compute_confusables(concepts)
+        for concept in concepts:
+            concept["confusable_ids"] = confusable_map.get(concept["id"], [])
+            total_added += len(concept["confusable_ids"])
 
     with open(CONTENT_PATH, "w") as f:
         json.dump(content, f, indent=2)
 
-    print(f"Generated confusables: {with_conf}/{total} concepts have confusable_ids")
+    # Update per-chapter files
+    data_dir = os.path.dirname(CONTENT_PATH)
+    for chapter in content["chapters"]:
+        ch_path = os.path.join(data_dir, f"{chapter['id']}.json")
+        with open(ch_path, "w") as f:
+            json.dump(chapter, f, indent=2)
+
+    # Summary
+    total_concepts = sum(len(ch["concepts"]) for ch in content["chapters"])
+    with_confusables = sum(
+        1 for ch in content["chapters"]
+        for c in ch["concepts"]
+        if c.get("confusable_ids")
+    )
+    print(f"Generated confusables for {total_concepts} concepts:")
+    print(f"  {with_confusables} concepts have confusable terms")
+    print(f"  {total_added} total confusable links")
+    for ch in content["chapters"]:
+        avg = (
+            sum(len(c["confusable_ids"]) for c in ch["concepts"]) / len(ch["concepts"])
+            if ch["concepts"]
+            else 0
+        )
+        print(f"  {ch['id']} {ch['name']}: avg {avg:.1f} confusables per concept")
 
 
 if __name__ == "__main__":
