@@ -15,6 +15,9 @@
  * Sheet "Progress" columns:
  *   ONYEN | Name | Last Sync | Ch01% | Ch02% | ... | Ch16% | Overall% | Full JSON
  *
+ * Sheet "Student Concepts" columns (one row per student per concept attempted):
+ *   ONYEN | Name | Chapter | Term | Learned? | Current Level | L1 | L2 | L3
+ *
  * Sheet "Analytics" columns (auto-generated from student data):
  *   Concept ID | Term | Chapter | Total Students Attempted | Avg Error Rate | Most Common Wrong Level
  */
@@ -27,6 +30,9 @@ function doPost(e) {
     const data = JSON.parse(e.postData.contents);
     const sheet = getOrCreateSheet();
     upsertStudent(sheet, data);
+    if (data.concepts && data.concepts.length > 0) {
+      updateStudentConcepts(data);
+    }
     if (data.analytics && data.analytics.length > 0) {
       updateAnalytics(data.analytics);
     }
@@ -118,6 +124,67 @@ function upsertStudent(sheet, data) {
   values.push(JSON.stringify(data.fullData));
 
   sheet.getRange(row, 1, 1, values.length).setValues([values]);
+}
+
+// --- Student Concepts ---
+
+var CONCEPTS_SHEET_NAME = 'Student Concepts';
+
+function getOrCreateConceptsSheet() {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = ss.getSheetByName(CONCEPTS_SHEET_NAME);
+  if (!sheet) {
+    sheet = ss.insertSheet(CONCEPTS_SHEET_NAME);
+    var headers = ['ONYEN', 'Name', 'Chapter', 'Term', 'Learned?', 'Current Level', 'L1', 'L2', 'L3'];
+    sheet.getRange(1, 1, 1, headers.length).setValues([headers]);
+    sheet.setFrozenRows(1);
+    sheet.getRange(1, 1, 1, headers.length).setFontWeight('bold');
+  }
+  return sheet;
+}
+
+function updateStudentConcepts(data) {
+  var onyen = data.onyen;
+  if (!onyen || !data.concepts) return;
+  var sheet = getOrCreateConceptsSheet();
+
+  // Delete existing rows for this student
+  var lastRow = sheet.getLastRow();
+  if (lastRow > 1) {
+    var onyens = sheet.getRange(2, 1, lastRow - 1, 1).getValues();
+    // Collect row indices to delete (bottom-up to avoid shifting)
+    var rowsToDelete = [];
+    for (var i = 0; i < onyens.length; i++) {
+      if (String(onyens[i][0]).trim() === String(onyen).trim()) {
+        rowsToDelete.push(i + 2);
+      }
+    }
+    for (var j = rowsToDelete.length - 1; j >= 0; j--) {
+      sheet.deleteRow(rowsToDelete[j]);
+    }
+  }
+
+  // Write new rows
+  var levelNames = { 0: 'Learned', 1: 'L1: Term → Def', 2: 'L2: Def → Term', 3: 'L3: Application' };
+  var rows = [];
+  for (var k = 0; k < data.concepts.length; k++) {
+    var c = data.concepts[k];
+    rows.push([
+      onyen,
+      data.studentName || '',
+      c.chapter,
+      c.term,
+      c.learned ? 'Yes' : 'No',
+      levelNames[c.currentLevel] || 'L' + c.currentLevel,
+      c.l1,
+      c.l2,
+      c.l3,
+    ]);
+  }
+  if (rows.length > 0) {
+    var startRow = sheet.getLastRow() + 1;
+    sheet.getRange(startRow, 1, rows.length, 9).setValues(rows);
+  }
 }
 
 // --- Analytics ---

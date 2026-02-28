@@ -206,8 +206,32 @@ const Progress = (() => {
             onyen: getOnyen(),
             studentName: getStudentName(),
             chapterProgress,
+            concepts: getConceptDetails(chapters),
             fullData: getData(),
         };
+    }
+
+    function getConceptDetails(chapters) {
+        const details = [];
+        for (const ch of chapters) {
+            for (const concept of ch.concepts) {
+                const cp = getConceptProgress(concept.id);
+                const attempts = cp.level1.attempts + cp.level2.attempts + cp.level3.attempts;
+                if (attempts === 0) continue;
+                const hasL3 = concept.level3_question_ids.length > 0;
+                const currentLevel = getCurrentLevel(concept.id, hasL3);
+                details.push({
+                    term: concept.term,
+                    chapter: ch.name,
+                    learned: currentLevel === 0,
+                    currentLevel: currentLevel,
+                    l1: cp.level1.correct + '/' + cp.level1.attempts,
+                    l2: cp.level2.correct + '/' + cp.level2.attempts,
+                    l3: cp.level3.correct + '/' + cp.level3.attempts,
+                });
+            }
+        }
+        return details;
     }
 
     function getAnalyticsPayload(chapters) {
