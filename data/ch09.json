@@ -1,0 +1,2069 @@
+{
+  "id": "ch09",
+  "name": "Gender",
+  "order": 9,
+  "concepts": [
+    {
+      "id": "ch09_t01",
+      "term": "Sex",
+      "definition": "An individual's membership in one of two biological categories\u2014male or female\u2014based on chromosomes, hormones, and reproductive organs",
+      "level3_question_ids": [
+        27,
+        28,
+        29,
+        45,
+        59,
+        643,
+        926,
+        935,
+        938,
+        939,
+        944,
+        954,
+        955,
+        968,
+        969,
+        970,
+        971
+      ],
+      "confusable_ids": [
+        "ch09_t03",
+        "ch09_t22",
+        "ch09_t05",
+        "ch09_t06",
+        "ch09_t10"
+      ]
+    },
+    {
+      "id": "ch09_t02",
+      "term": "Gender",
+      "definition": "The physical, behavioral, and personality traits that a group considers normal, natural, right, and good for its male and female members",
+      "level3_question_ids": [
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        43,
+        44,
+        45,
+        46,
+        47,
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        59,
+        640,
+        643,
+        647,
+        926,
+        927,
+        928,
+        929,
+        930,
+        931,
+        932,
+        933,
+        934,
+        935,
+        936,
+        937,
+        938,
+        939,
+        940,
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        947,
+        948,
+        949,
+        950,
+        951,
+        952,
+        953,
+        954,
+        955,
+        956,
+        957,
+        958,
+        959,
+        960,
+        961,
+        962,
+        963,
+        964,
+        965,
+        966,
+        967,
+        968,
+        969,
+        970,
+        971,
+        972,
+        973,
+        974,
+        975,
+        976,
+        977,
+        978,
+        979,
+        980
+      ],
+      "confusable_ids": [
+        "ch09_t08",
+        "ch09_t03",
+        "ch09_t04",
+        "ch09_t05",
+        "ch09_t06"
+      ]
+    },
+    {
+      "id": "ch09_t03",
+      "term": "Gender Essentialism",
+      "definition": "The view that gender is immutable and biological, with clear binary categories determined by chromosomes, hormones, and genitalia",
+      "level3_question_ids": [
+        926,
+        927,
+        928,
+        930,
+        931,
+        934,
+        953
+      ],
+      "confusable_ids": [
+        "ch09_t05",
+        "ch09_t06",
+        "ch09_t18",
+        "ch09_t04",
+        "ch09_t08"
+      ]
+    },
+    {
+      "id": "ch09_t04",
+      "term": "Gender Constructionist",
+      "definition": "The perspective that gender is socially constructed and shaped by culture and historical time period rather than biology",
+      "level3_question_ids": [
+        926,
+        927,
+        928,
+        929,
+        930,
+        931,
+        933
+      ],
+      "confusable_ids": [
+        "ch09_t27",
+        "ch09_t05",
+        "ch09_t06",
+        "ch09_t18",
+        "ch09_t03"
+      ]
+    },
+    {
+      "id": "ch09_t05",
+      "term": "Gender Binary",
+      "definition": "A system of classification with only two distinct and opposite gender categories",
+      "level3_question_ids": [
+        49,
+        927,
+        929,
+        932,
+        933,
+        934,
+        935,
+        936,
+        937,
+        938,
+        939,
+        940,
+        941,
+        942,
+        943,
+        950,
+        951,
+        952,
+        953,
+        955,
+        956,
+        958,
+        959,
+        961,
+        962,
+        965,
+        967,
+        968,
+        969,
+        970,
+        971,
+        972,
+        973,
+        975,
+        976,
+        977,
+        979
+      ],
+      "confusable_ids": [
+        "ch09_t03",
+        "ch09_t06",
+        "ch09_t18",
+        "ch09_t04",
+        "ch09_t08"
+      ]
+    },
+    {
+      "id": "ch09_t06",
+      "term": "Gender Identity",
+      "definition": "An individual's self-definition or sense of gender, which may or may not correspond with the sex they were assigned at birth",
+      "level3_question_ids": [
+        22,
+        30,
+        33,
+        34,
+        40,
+        56,
+        928,
+        930,
+        931,
+        932,
+        934,
+        935,
+        936,
+        937,
+        940,
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        948,
+        949,
+        950,
+        951,
+        952,
+        954,
+        955,
+        956,
+        959,
+        960,
+        961,
+        963,
+        964,
+        965,
+        966,
+        967,
+        968,
+        971,
+        978,
+        980
+      ],
+      "confusable_ids": [
+        "ch09_t07",
+        "ch09_t17",
+        "ch09_t08",
+        "ch09_t05",
+        "ch09_t18"
+      ]
+    },
+    {
+      "id": "ch09_t07",
+      "term": "Transgender",
+      "definition": "Term used when gender identity and/or expression is different from the sex assigned at birth",
+      "level3_question_ids": [
+        927,
+        937,
+        938,
+        939,
+        940,
+        964,
+        968,
+        969,
+        970,
+        971,
+        972,
+        973,
+        974
+      ],
+      "confusable_ids": [
+        "ch09_t17",
+        "ch09_t18",
+        "ch09_t06",
+        "ch09_t22",
+        "ch09_t05"
+      ]
+    },
+    {
+      "id": "ch09_t08",
+      "term": "Gender Expression",
+      "definition": "An individual's behavioral manifestations of gender through clothing, grooming, behavior, body language, and other external presentations",
+      "level3_question_ids": [
+        35,
+        39,
+        40,
+        928,
+        930,
+        932,
+        934,
+        935,
+        936,
+        937,
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        950,
+        951,
+        952,
+        957,
+        959,
+        960,
+        961,
+        963,
+        964,
+        966
+      ],
+      "confusable_ids": [
+        "ch09_t06",
+        "ch09_t05",
+        "ch09_t18",
+        "ch09_t03",
+        "ch09_t04"
+      ]
+    },
+    {
+      "id": "ch09_t09",
+      "term": "Sexual Orientation",
+      "definition": "The inclination to feel sexual desire toward people of a particular gender",
+      "level3_question_ids": [
+        33,
+        944,
+        945,
+        946
+      ],
+      "confusable_ids": [
+        "ch09_t10",
+        "ch09_t27",
+        "ch09_t05",
+        "ch09_t06",
+        "ch09_t13"
+      ]
+    },
+    {
+      "id": "ch09_t10",
+      "term": "Sexual Identity",
+      "definition": "How one identifies in terms of whom they are sexually attracted to, whether heterosexual, homosexual, bisexual, or other orientations",
+      "level3_question_ids": [
+        947,
+        948,
+        949
+      ],
+      "confusable_ids": [
+        "ch09_t06",
+        "ch09_t09",
+        "ch09_t22",
+        "ch09_t01"
+      ]
+    },
+    {
+      "id": "ch09_t11",
+      "term": "Gender Role Socialization",
+      "definition": "The lifelong process of learning to be masculine or feminine, primarily through agents of socialization",
+      "level3_question_ids": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38,
+        46,
+        59,
+        933,
+        935,
+        942,
+        943,
+        950,
+        951,
+        952,
+        962,
+        964,
+        965,
+        966,
+        975,
+        977,
+        978,
+        979,
+        980
+      ],
+      "confusable_ids": [
+        "ch09_t14",
+        "ch09_t02",
+        "ch09_t03",
+        "ch09_t04",
+        "ch09_t05"
+      ]
+    },
+    {
+      "id": "ch09_t12",
+      "term": "Heteronormativity",
+      "definition": "The belief that heterosexuality is and should be the norm",
+      "level3_question_ids": [
+        33,
+        955,
+        957,
+        958,
+        962,
+        953,
+        954
+      ],
+      "confusable_ids": [
+        "ch09_t22"
+      ]
+    },
+    {
+      "id": "ch09_t13",
+      "term": "Rape Culture",
+      "definition": "A set of beliefs, norms, and values that normalizes sexual violence against women",
+      "level3_question_ids": [
+        958,
+        956,
+        957
+      ],
+      "confusable_ids": [
+        "ch09_t23",
+        "ch09_t25",
+        "ch09_t09",
+        "ch09_t24",
+        "ch09_t14"
+      ]
+    },
+    {
+      "id": "ch09_t14",
+      "term": "Institutions for Gender Socialization",
+      "definition": "Major social structures like family, schools, peers, and media that teach gender norms and expectations",
+      "level3_question_ids": [
+        39,
+        40,
+        41,
+        959,
+        960,
+        961,
+        42
+      ],
+      "confusable_ids": [
+        "ch09_t18",
+        "ch09_t27",
+        "ch09_t28",
+        "ch09_t11",
+        "ch09_t05"
+      ]
+    },
+    {
+      "id": "ch09_t15",
+      "term": "Microaggression",
+      "definition": "Everyday uses of subtle verbal and nonverbal communications that convey denigrating or dismissive messages to members of certain social groups",
+      "level3_question_ids": [
+        962,
+        963,
+        964
+      ],
+      "confusable_ids": [
+        "ch09_t27",
+        "ch09_t14",
+        "ch09_t02",
+        "ch09_t28"
+      ]
+    },
+    {
+      "id": "ch09_t16",
+      "term": "Feminization of Poverty",
+      "definition": "The economic trend showing that women are more likely than men to live in poverty, due to gender wage gaps and family responsibilities",
+      "level3_question_ids": [
+        965,
+        966,
+        967
+      ],
+      "confusable_ids": [
+        "ch09_t28",
+        "ch09_t25",
+        "ch09_t14",
+        "ch09_t20",
+        "ch09_t26"
+      ]
+    },
+    {
+      "id": "ch09_t17",
+      "term": "Cisgender",
+      "definition": "Term used when gender identity and/or expression aligns with the sex assigned at birth",
+      "level3_question_ids": [
+        926,
+        938,
+        939,
+        940,
+        968,
+        969,
+        970,
+        971,
+        972,
+        973,
+        974
+      ],
+      "confusable_ids": [
+        "ch09_t07",
+        "ch09_t18",
+        "ch09_t06",
+        "ch09_t22",
+        "ch09_t05"
+      ]
+    },
+    {
+      "id": "ch09_t18",
+      "term": "Gender Nonconforming",
+      "definition": "Term used when gender identity and/or expression differs from societal expectations about gender roles",
+      "level3_question_ids": [
+        926,
+        929,
+        931,
+        933,
+        938,
+        940,
+        969,
+        970,
+        971,
+        972,
+        973,
+        974
+      ],
+      "confusable_ids": [
+        "ch09_t07",
+        "ch09_t17",
+        "ch09_t05",
+        "ch09_t06",
+        "ch09_t03"
+      ]
+    },
+    {
+      "id": "ch09_t19",
+      "term": "Hegemonic Masculinity",
+      "definition": "A masculine ideal that promotes characteristics such as independence, aggression, and toughness, and rejects any alternate qualities in men",
+      "level3_question_ids": [
+        975,
+        976,
+        977,
+        978,
+        979,
+        980
+      ],
+      "confusable_ids": [
+        "ch09_t20",
+        "ch09_t25",
+        "ch09_t11",
+        "ch09_t26",
+        "ch09_t28"
+      ]
+    },
+    {
+      "id": "ch09_t20",
+      "term": "Toxic Masculinity",
+      "definition": "A masculine ideal that espouses extreme and harmful attitudes and behaviors and may lead to various negative effects for women and men",
+      "level3_question_ids": [
+        975,
+        976,
+        977,
+        978,
+        979,
+        980
+      ],
+      "confusable_ids": [
+        "ch09_t19",
+        "ch09_t25",
+        "ch09_t26",
+        "ch09_t28",
+        "ch09_t16"
+      ]
+    },
+    {
+      "id": "ch09_t21",
+      "term": "Patriarchy",
+      "definition": "Literally meaning 'rule of the father'; a male-dominated society",
+      "level3_question_ids": [
+        640,
+        641
+      ],
+      "confusable_ids": []
+    },
+    {
+      "id": "ch09_t22",
+      "term": "Sexism",
+      "definition": "The belief that one sex, usually male, is superior to the other",
+      "level3_question_ids": [
+        642,
+        643
+      ],
+      "confusable_ids": [
+        "ch09_t12",
+        "ch09_t06",
+        "ch09_t07",
+        "ch09_t10",
+        "ch09_t17"
+      ]
+    },
+    {
+      "id": "ch09_t23",
+      "term": "Misogyny",
+      "definition": "An ingrained prejudice against women; dislike, contempt, or hatred of women",
+      "level3_question_ids": [
+        644,
+        645
+      ],
+      "confusable_ids": [
+        "ch09_t13",
+        "ch09_t25",
+        "ch09_t24",
+        "ch09_t20",
+        "ch09_t26"
+      ]
+    },
+    {
+      "id": "ch09_t24",
+      "term": "Second Shift",
+      "definition": "The unpaid housework and child care often expected of women after they complete their day's paid labor",
+      "level3_question_ids": [
+        646,
+        647
+      ],
+      "confusable_ids": [
+        "ch09_t23",
+        "ch09_t25",
+        "ch09_t13",
+        "ch09_t20",
+        "ch09_t26"
+      ]
+    },
+    {
+      "id": "ch09_t25",
+      "term": "Gender Stratification",
+      "definition": "The unequal distribution of wealth, power, and privilege between men and women",
+      "level3_question_ids": [
+        1223,
+        1224
+      ],
+      "confusable_ids": [
+        "ch09_t28",
+        "ch09_t02",
+        "ch09_t03",
+        "ch09_t04",
+        "ch09_t05"
+      ]
+    },
+    {
+      "id": "ch09_t26",
+      "term": "Instrumental and Expressive Roles",
+      "definition": "In structural functionalism, instrumental roles are task-oriented roles traditionally assigned to men (breadwinner), while expressive roles are emotion-oriented roles traditionally assigned to women (caregiver)",
+      "level3_question_ids": [
+        1221,
+        1222
+      ],
+      "confusable_ids": [
+        "ch09_t25",
+        "ch09_t20",
+        "ch09_t28",
+        "ch09_t16",
+        "ch09_t23"
+      ]
+    },
+    {
+      "id": "ch09_t27",
+      "term": "Symbolic Interactionism on Gender",
+      "definition": "The perspective that gender is something people 'do' through everyday interactions; gender identities are continually constructed and reinforced through social encounters",
+      "level3_question_ids": [
+        1225,
+        1226,
+        1227
+      ],
+      "confusable_ids": [
+        "ch09_t04",
+        "ch09_t28",
+        "ch09_t14",
+        "ch09_t05",
+        "ch09_t06"
+      ]
+    },
+    {
+      "id": "ch09_t28",
+      "term": "Conflict Theory of Gender",
+      "definition": "The perspective that gender is a system of inequality in which men maintain dominance over women by controlling economic resources and social power",
+      "level3_question_ids": [
+        1228,
+        1229
+      ],
+      "confusable_ids": [
+        "ch09_t25",
+        "ch09_t16",
+        "ch09_t27",
+        "ch09_t05",
+        "ch09_t04"
+      ]
+    }
+  ],
+  "chapter_questions": [
+    {
+      "id": 21,
+      "question": "Which theoretical perspective views gender as innate, biological, and falling into two distinct categories?",
+      "choices": [
+        "Essentialism",
+        "Social constructionism",
+        "Symbolic interactionism",
+        "Gender performativity theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 22,
+      "question": "Which of the following best exemplifies a constructionist approach to gender?",
+      "choices": [
+        "Recognizing that masculinity may be defined differently across different cultures and time periods",
+        "Acknowledging that while biological factors exist, society interprets them through a binary framework",
+        "Observing that gender identity develops through complex interactions between biology and social experience",
+        "Noting that gender expressions vary individually while maintaining essential masculine and feminine traits"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t06"
+    },
+    {
+      "id": 23,
+      "question": "The view that gender is shaped by culture and historical context rather than biology is known as:",
+      "choices": [
+        "Constructionism",
+        "Essentialism",
+        "Sociobiology",
+        "Gender schema theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 24,
+      "question": "A researcher studying how different cultures throughout history have had varying concepts of masculinity is most likely working from which perspective?",
+      "choices": [
+        "Constructionist",
+        "Evolutionary psychology",
+        "Functional perspective",
+        "Comparative endocrinology"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 25,
+      "question": "Which of the following statements best reflects an essentialist view of gender?",
+      "choices": [
+        "\"Your chromosomes, hormones, and genitalia determine your identity and daily activities.\"",
+        "\"While biology provides a foundation, culture shapes how we express masculine and feminine traits.\"",
+        "\"Men and women have evolved different psychological adaptations to serve reproductive functions.\"",
+        "\"Gender differences exist universally but are expressed through culturally specific behaviors.\""
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 26,
+      "question": "Which sociological theory emphasizes that gender is maintained and reinforced through our everyday interactions?",
+      "choices": [
+        "Symbolic interactionism",
+        "Feminist conflict theory",
+        "Gender role theory",
+        "Social exchange theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 27,
+      "question": "According to the textbook, which of the following statements best describes the difference between sex and gender?",
+      "choices": [
+        "Sex refers to biological categories while gender refers to socially defined traits",
+        "Sex refers to innate physical characteristics while gender refers to the psychological interpretation of those characteristics",
+        "Sex is determined at birth and remains fixed while gender is determined through socialization but becomes equally fixed",
+        "Sex establishes the biological framework upon which gender expression naturally develops in alignment"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 28,
+      "question": "According to the textbook, which of the following would be considered an example of sex rather than gender?",
+      "choices": [
+        "Having XX or XY chromosomes",
+        "Displaying physical strength differences typical of males and females in a particular culture",
+        "Exhibiting emotional expressiveness considered characteristic of one's biological category",
+        "Developing secondary physical characteristics that align with cultural beauty standards"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 29,
+      "question": "A researcher studying how different societies throughout history have had varying expectations for men and women is most likely studying:",
+      "choices": [
+        "Gender rather than sex",
+        "The biological basis for universal sex differences in social behavior",
+        "How sexed bodies are interpreted differently across cultural contexts",
+        "The interrelationship between hormonal differences and cultural role assignment"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 30,
+      "question": "Which of the following best describes gender role socialization?",
+      "choices": [
+        "The process of learning what constitutes masculinity and femininity in a society",
+        "The expression of gender identity through clothing, grooming, and behavior",
+        "The development of a deeply held sense of oneself as male, female, or another gender",
+        "The classification of gender into two distinct, opposite, and separate categories"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 31,
+      "question": "According to the textbook, gender role socialization is primarily accomplished by:",
+      "choices": [
+        "Families, schools, peers, and the media",
+        "Government policies, laws, economic systems, and healthcare",
+        "Religious institutions, extended family, sports teams, and literature",
+        "Workplace interactions, entertainment, social media, and community groups"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 32,
+      "question": "Which of the following is the best example of gender role socialization?",
+      "choices": [
+        "A parent encouraging a girl to play with dolls instead of trucks",
+        "A teenager independently choosing to wear clothing typically associated with their gender",
+        "A workplace requiring different uniforms for male and female employees based on safety regulations",
+        "A person discovering they feel more comfortable with friends of the same gender"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 33,
+      "question": "How does gender role socialization contribute to heteronormativity according to the textbook?",
+      "choices": [
+        "It reinforces the assumption that heterosexuality is the only acceptable orientation",
+        "It creates awareness of diverse sexual orientations across the gender spectrum",
+        "It separates gender identity development from sexual orientation formation",
+        "It encourages questioning of traditional male-female attraction patterns"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 34,
+      "question": "The textbook describes gender role socialization as:",
+      "choices": [
+        "A subtle, pervasive process that begins early and continues throughout our lives",
+        "An explicit training process managed primarily by parents until adulthood",
+        "A developmental stage that concludes once gender identity is firmly established",
+        "A cultural ritual that varies significantly between different socioeconomic classes"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 35,
+      "question": "In the context of gender role socialization, what role do families play according to the textbook?",
+      "choices": [
+        "They are usually the primary source of socialization",
+        "They provide a secondary reinforcement after initial socialization by peers",
+        "They specialize in teaching gender expression rather than gender roles",
+        "They focus primarily on eliminating gender stereotypes from other sources"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 36,
+      "question": "From a sociological perspective, which theoretical approach most emphasizes how gender is socially constructed and maintained in everyday life?",
+      "choices": [
+        "Symbolic interactionism, which focuses on everyday interactions that construct gender",
+        "Conflict theory, which examines how men maintain dominant status through gender roles",
+        "Structural functionalism, which views gender roles as complementary for social stability",
+        "Feminist theory, which analyzes patriarchal structures and advocates for gender equality"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 37,
+      "question": "Which of the following best illustrates the impact of gender role socialization in media?",
+      "choices": [
+        "Children's movies portraying female characters as princesses waiting to be rescued",
+        "A documentary objectively comparing wage disparities between men and women",
+        "A news report covering the increasing number of women entering STEM fields",
+        "A medical drama accurately depicting the symptoms of heart disease in both sexes"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 38,
+      "question": "According to the textbook, which of the following is the primary way in which gender role socialization is accomplished?",
+      "choices": [
+        "Institutions such as families, schools, peers, and the media",
+        "Religious teachings and spiritual practices",
+        "Workplace environments and professional interactions",
+        "Cultural traditions and community customs"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 39,
+      "question": "Which of the following best represents the textbook's description of institutions for gender socialization?",
+      "choices": [
+        "The four major agents: families, schools, peers, and the media",
+        "The workplace environment where gender roles are reinforced through division of labor",
+        "Government policies that regulate gender expression in public institutions",
+        "Religious organizations that teach traditional gender-based moral values"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t14"
+    },
+    {
+      "id": 40,
+      "question": "In a sociology class, students are studying the primary agents through which children learn gender-appropriate behaviors. These agents are collectively known as:",
+      "choices": [
+        "Institutions for Gender Socialization",
+        "Gender Expression Mechanisms",
+        "Sexual Development Frameworks",
+        "Gender Identity Structures"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t14"
+    },
+    {
+      "id": 41,
+      "question": "According to the textbook, which of the following is considered one of the four major institutions for gender socialization?",
+      "choices": [
+        "Peer groups",
+        "Government agencies",
+        "Healthcare systems",
+        "Economic institutions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t14"
+    },
+    {
+      "id": 42,
+      "question": "When analyzing the role of institutions in gender socialization, which theoretical perspective is most likely to focus on how gender is socially constructed and maintained in everyday interactions?",
+      "choices": [
+        "Symbolic Interaction Theory",
+        "Conflict Theory",
+        "Structural Functionalist Theory",
+        "Gender Essentialism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t14"
+    },
+    {
+      "id": 43,
+      "question": "Which of the following best illustrates how the media functions as an institution for gender socialization according to the textbook?",
+      "choices": [
+        "Movies, comic books, and popular music teaching \"how gender fits into society\"",
+        "News broadcasts reporting objectively on gender inequality statistics",
+        "Documentary films analyzing historical changes in gender roles",
+        "Academic journals publishing research findings on gender differences"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 44,
+      "question": "Which sociological perspective would likely argue that gender socialization through institutions primarily serves to maintain male dominance and privilege?",
+      "choices": [
+        "Conflict Theory",
+        "Symbolic Interaction Theory",
+        "Structural Functionalist Theory",
+        "Sociobiological Theory"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 45,
+      "question": "According to the textbook, if a researcher wanted to study how peer groups influence gender socialization, which of the following questions would be most relevant to their research?",
+      "choices": [
+        "How do peer groups reinforce or challenge traditional gender norms?",
+        "How do peer group interactions vary between single-sex and mixed-gender educational settings?",
+        "How do peer relationships affect academic achievement differently for boys and girls?",
+        "How do digital social networks change the nature of peer influence among adolescents?"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 46,
+      "question": "Which theory views gender as a system where men try to maintain dominance over women by controlling resources?",
+      "choices": [
+        "Conflict Theory of Gender",
+        "Structural Functionalist Theory of Gender",
+        "Gender Role Socialization Theory",
+        "Symbolic Interaction Theory of Gender"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 47,
+      "question": "Friedrich Engels, a conflict theorist, argued that gender inequality originated with:",
+      "choices": [
+        "Private property",
+        "Patriarchal family structures",
+        "Capitalist exploitation of women's labor",
+        "Division between public and private spheres"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 48,
+      "question": "According to conflict theory, what is a key benefit capitalists receive from maintaining patriarchal families?",
+      "choices": [
+        "Women provide unpaid domestic labor",
+        "Men can be paid lower wages when women are economically dependent",
+        "The separation of work and home increases worker productivity",
+        "The family unit reproduces the labor force at minimal cost to employers"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 49,
+      "question": "An example of the Structural Functionalist view of gender would be:",
+      "choices": [
+        "Women are better suited for nurturing roles because it creates stability in society",
+        "Men maintain access to resources and privileges to preserve their dominant status",
+        "Gender norms are learned and reinforced through daily social interactions",
+        "The gender binary developed to support capitalist economic systems"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t05"
+    },
+    {
+      "id": 50,
+      "question": "In Structural Functionalist theory, which of the following concepts describes men's traditional roles?",
+      "choices": [
+        "Instrumental roles",
+        "Expressive roles",
+        "Communal roles",
+        "Nurturing roles"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 51,
+      "question": "From a functionalist perspective, gender roles are:",
+      "choices": [
+        "Necessary for optimal family and social stability",
+        "Socially constructed and maintained through daily interactions",
+        "Created to ensure male control over economic resources",
+        "Arbitrary distinctions that serve no societal purpose"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 52,
+      "question": "From a symbolic interactionist perspective, gender is:",
+      "choices": [
+        "Constructed and maintained through everyday interactions",
+        "Biologically determined and expressed through natural behaviors",
+        "A system of stratification that preserves male power and privilege",
+        "A functional division of complementary roles that promotes social order"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 53,
+      "question": "According to symbolic interactionists, why is gender categorization important in social interaction?",
+      "choices": [
+        "We need to categorize others in order to know how to interact with them",
+        "We construct our identities through how others perceive our gender performance",
+        "We use gender as a framework for interpreting others' behaviors and motives",
+        "We rely on gender categories to establish predictable patterns of social behavior"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 54,
+      "question": "According to the textbook, which statement best represents the Symbolic Interaction perspective on gender?",
+      "choices": [
+        "Gender is something that we \"do\" in our interactions with others",
+        "Gender is an expression of innate biological characteristics and tendencies",
+        "Gender is a system of stratification that maintains male economic privilege",
+        "Gender is a set of complementary roles that contribute to family cohesion"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 55,
+      "question": "Which of the following is the best example of the Structural Functionalist theory of gender?",
+      "choices": [
+        "Men and women have different but complementary roles in the family",
+        "A person adjusts their speech patterns when interacting with different genders",
+        "Women receive lower wages to maintain male economic advantage",
+        "Schools socialize boys and girls differently based on presumed natural abilities"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 56,
+      "question": "Which of the following is the best example of the Conflict theory of gender?",
+      "choices": [
+        "Women earn less than men for the same work",
+        "Children learn gender-appropriate behavior through family reinforcement",
+        "The division of labor in families allows for more efficient social functioning",
+        "Individuals actively construct their gender identity through social interactions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t06"
+    },
+    {
+      "id": 57,
+      "question": "According to the symbolic interactionist perspective, what is the most crucial aspect of how schools foster the development of gender identities in children?",
+      "choices": [
+        "It's mainly through interactions that occur between educators and pupils",
+        "It's mainly through the institutional structures that organize classroom activities",
+        "It's mainly through peer group dynamics that establish gender-based hierarchies",
+        "It's mainly through symbolic representations in educational materials and environments"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 58,
+      "question": "In the context of conflict theory, why are women's contributions to family life often devalued?",
+      "choices": [
+        "As a social group, men benefit from maintaining their dominant status",
+        "The expressive functions in families are inherently less essential than instrumental roles",
+        "Cultural traditions have established that domestic labor has lower social significance",
+        "Economic systems fail to quantify the market value of household management skills"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 59,
+      "question": "When does the process of gender role socialization typically begin?",
+      "choices": [
+        "Before birth, when parents select gender-specific names, colors, and nursery themes",
+        "At birth, when healthcare providers assign sex categories based on physical characteristics",
+        "During early childhood, when children first recognize gender as a social category",
+        "Upon entering formal education, when peer group influences strengthen gender norms"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 640,
+      "question": "A company's board of directors consists of 12 men and 1 woman, despite women making up 60% of the company's workforce. When analyzing this situation through the lens of patriarchy, what does this organizational structure most likely demonstrate?",
+      "choices": [
+        "Institutional power structures that maintain male dominance regardless of workforce composition",
+        "A natural result of women's lack of interest in leadership positions",
+        "Evidence that the company values merit over gender representation",
+        "A temporary imbalance that will correct itself over time"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t21"
+    },
+    {
+      "id": 641,
+      "question": "In many traditional societies, property inheritance laws favor male heirs, women cannot vote, and religious leadership positions are reserved for men. How does patriarchy function as a system in this context?",
+      "choices": [
+        "It operates through multiple interconnected institutions to systematically exclude women from power",
+        "It only affects the economic sphere while leaving other areas of social life unchanged",
+        "It represents individual prejudices rather than systematic social organization",
+        "It primarily influences family relationships without extending to broader social structures"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t21"
+    },
+    {
+      "id": 642,
+      "question": "A hiring manager consistently rates male candidates higher on \"leadership potential\" even when their qualifications are identical to female candidates. This manager genuinely believes men are naturally better leaders. This scenario best illustrates how sexism operates as:",
+      "choices": [
+        "An ideological belief system that shapes seemingly objective evaluations",
+        "A conscious strategy to discriminate against women in the workplace",
+        "A reflection of actual differences in leadership abilities between genders",
+        "An isolated individual bias that doesn't affect organizational outcomes"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t22"
+    },
+    {
+      "id": 643,
+      "question": "During a classroom debate, several students argue that women are naturally more nurturing and therefore better suited for teaching and nursing, while men are naturally more logical and better suited for engineering and law. This discussion demonstrates sexism through:",
+      "choices": [
+        "The assumption that biological sex determines cognitive and emotional capabilities",
+        "Recognition of legitimate statistical differences in career preferences",
+        "An accurate assessment of how socialization affects career choices",
+        "A neutral observation about current gender distributions in various professions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t02"
+    },
+    {
+      "id": 644,
+      "question": "Online comments on articles about female politicians frequently focus on their appearance, question their competence, and include threats of violence, while similar articles about male politicians generate policy-focused discussions. This pattern most clearly demonstrates misogyny through:",
+      "choices": [
+        "The systematic devaluation and hostility directed specifically at women in public roles",
+        "General political polarization that affects all politicians equally",
+        "Legitimate criticism of specific policy positions and qualifications",
+        "Cultural differences in how appearance and competence are evaluated"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t23"
+    },
+    {
+      "id": 645,
+      "question": "A study finds that when women speak the same amount of time as men in meetings, they are perceived as \"talking too much\" and described as \"bossy\" or \"aggressive,\" while men displaying identical behavior are seen as \"assertive leaders.\" This research reveals how misogyny manifests as:",
+      "choices": [
+        "Deeply embedded cultural attitudes that penalize women for displaying the same behaviors valued in men",
+        "Accurate perceptions of different communication styles between genders",
+        "Individual preferences for certain personality types in leadership",
+        "Biological responses to natural differences in vocal patterns and body language"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t23"
+    },
+    {
+      "id": 646,
+      "question": "Maria works full-time as a nurse, then comes home to cook dinner, help with homework, and do laundry while her husband watches TV after his full-time job. A sociologist analyzing Maria's situation would identify the second shift as evidence of:",
+      "choices": [
+        "Gendered expectations that create an unequal distribution of total work burden",
+        "Maria's personal choice to take on additional responsibilities at home",
+        "The natural division of labor based on different skill sets",
+        "A temporary arrangement that will balance out over time"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t24"
+    },
+    {
+      "id": 647,
+      "question": "Research shows that in dual-career couples, women spend an average of 25 hours per week on housework and childcare compared to men's 10 hours, even when both partners work equal hours outside the home. This data most clearly illustrates how the second shift:",
+      "choices": [
+        "Creates systematic gender inequality in leisure time and career advancement opportunities",
+        "Reflects women's greater efficiency at managing household tasks",
+        "Results from men's longer commute times and work-related stress",
+        "Demonstrates couples' rational decisions about who should handle domestic duties"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t24"
+    },
+    {
+      "id": 926,
+      "question": "Sarah observes that parents in her community consistently dress their newborn babies in pink or blue clothing and choose different types of toys based on the baby's sex. This observation best illustrates which perspective?",
+      "choices": [
+        "Gender constructionist approach showing how gender roles are learned early",
+        "Gender essentialism demonstrated through biological determinism of preferences",
+        "Gender nonconforming behavior challenging traditional norms",
+        "Cisgender identity alignment with assigned sex at birth"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t04"
+    },
+    {
+      "id": 927,
+      "question": "Dr. Martinez argues in her sociology class that masculine and feminine behaviors vary dramatically across different cultures and historical periods. Her perspective reflects which theoretical approach to understanding gender?",
+      "choices": [
+        "Gender essentialism based on biological differences",
+        "Gender constructionist view emphasizing social and cultural influences",
+        "Gender binary classification system",
+        "Transgender identity development theory"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t04"
+    },
+    {
+      "id": 928,
+      "question": "A researcher studies a society where men are expected to be nurturing caregivers while women are expected to be aggressive warriors. This finding would most strongly challenge which viewpoint?",
+      "choices": [
+        "Gender essentialism claiming universal biological gender differences",
+        "Gender constructionist theories about cultural variation",
+        "Gender identity formation processes",
+        "Gender expression through clothing choices"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t04"
+    },
+    {
+      "id": 929,
+      "question": "When Maria explains that her culture shapes what behaviors are considered appropriate for men and women rather than biology determining these roles, she is expressing which perspective?",
+      "choices": [
+        "Gender constructionist approach to understanding gender roles",
+        "Gender essentialist view of biological determinism",
+        "Gender binary classification system",
+        "Gender nonconforming identity expression"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t04"
+    },
+    {
+      "id": 930,
+      "question": "A sociologist studying gender differences notes that while some physical differences exist between males and females, the meanings attached to masculinity and femininity vary greatly across time and place. This analysis reflects which theoretical framework?",
+      "choices": [
+        "Gender essentialism focused on biological differences",
+        "Gender constructionist emphasis on social interpretation",
+        "Gender identity personal development theory",
+        "Gender expression individual choice model"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t04"
+    },
+    {
+      "id": 931,
+      "question": "In a debate about gender roles, one participant argues that men and women naturally have different abilities and temperaments that make them suited for different social roles. This argument reflects which perspective?",
+      "choices": [
+        "Gender essentialism viewing gender differences as biologically determined",
+        "Gender constructionist approach to cultural variation",
+        "Gender nonconforming challenge to traditional roles",
+        "Gender identity individual self-definition"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t04"
+    },
+    {
+      "id": 932,
+      "question": "The classification system that divides people into only two distinct gender categories, male and female, with no overlap or alternatives, is known as what concept?",
+      "choices": [
+        "Gender identity formation process",
+        "Gender binary system of classification",
+        "Gender expression through behavior",
+        "Gender socialization agents"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t08"
+    },
+    {
+      "id": 933,
+      "question": "When Alex explains that society only recognizes \"man\" or \"woman\" as valid gender identities and doesn't acknowledge other possibilities, Alex is describing which system?",
+      "choices": [
+        "Gender constructionist theory",
+        "Gender binary classification approach",
+        "Gender nonconforming identity expression",
+        "Gender role socialization process"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 934,
+      "question": "A researcher notices that most forms and applications only provide \"Male\" and \"Female\" as options, forcing people to choose one of two categories. This practice reflects which concept?",
+      "choices": [
+        "Gender essentialism in institutional policies",
+        "Gender identity individual choice",
+        "Gender binary classification system",
+        "Gender expression behavioral manifestations"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t03"
+    },
+    {
+      "id": 935,
+      "question": "Maya has always felt like a woman despite being assigned male at birth, and she lives her life as a woman. Maya's inner sense of being female represents which concept?",
+      "choices": [
+        "Gender identity as self-definition regardless of assigned sex",
+        "Gender expression through clothing and behavior",
+        "Gender binary classification system",
+        "Gender role socialization process"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 936,
+      "question": "When discussing their inner sense of self, Jordan explains feeling neither entirely male nor entirely female but somewhere in between. Jordan is describing which aspect of gender?",
+      "choices": [
+        "Gender expression through external presentation",
+        "Gender identity as personal self-definition",
+        "Gender binary traditional categories",
+        "Gender socialization cultural learning"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t08"
+    },
+    {
+      "id": 937,
+      "question": "A counselor working with transgender youth emphasizes helping them understand and articulate their own sense of who they are in terms of gender. The counselor is focusing on which concept?",
+      "choices": [
+        "Gender expression behavioral changes",
+        "Gender role expectations from society",
+        "Gender identity self-awareness and definition",
+        "Gender binary system compliance"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t08"
+    },
+    {
+      "id": 938,
+      "question": "Marcus was assigned female at birth but has always identified as male. At age sixteen, Marcus began using male pronouns and presenting himself as male. Marcus would be classified as which term?",
+      "choices": [
+        "Cisgender individual with matching identity",
+        "Gender nonconforming in expression only",
+        "Transgender person with identity different from assigned sex",
+        "Gender binary conforming individual"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t18"
+    },
+    {
+      "id": 939,
+      "question": "In a support group discussion, several participants share experiences of having gender identities that don't match their birth-assigned sex. These individuals would be described as what?",
+      "choices": [
+        "Transgender persons whose identity differs from assigned sex",
+        "Cisgender individuals with matching identities",
+        "Gender binary conforming people",
+        "Gender essentialist believers in biological determinism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t05"
+    },
+    {
+      "id": 940,
+      "question": "A documentary filmmaker interviews adults who transitioned from their birth-assigned gender to live as their true gender identity. The documentary focuses on which population?",
+      "choices": [
+        "Cisgender individuals exploring gender roles",
+        "Gender nonconforming expression styles",
+        "Transgender persons living authentically",
+        "Gender binary system supporters"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t18"
+    },
+    {
+      "id": 941,
+      "question": "Sam presents as masculine through clothing, hairstyle, and mannerisms, though Sam was assigned female at birth. Sam's outward presentation represents which concept?",
+      "choices": [
+        "Gender identity internal sense of self",
+        "Gender expression external manifestation of gender",
+        "Gender binary traditional classification",
+        "Gender socialization learned behaviors"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t08"
+    },
+    {
+      "id": 942,
+      "question": "Taylor uses neutral pronouns, wears androgynous clothing, and adopts mannerisms that don't clearly signal \"masculine\" or \"feminine.\" Taylor's choices reflect which aspect of gender?",
+      "choices": [
+        "Gender expression through external presentation choices",
+        "Gender identity internal psychological sense",
+        "Gender role socialization from family",
+        "Gender binary system adherence"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 943,
+      "question": "In studying how people communicate their gender to others, a sociologist focuses on clothing, voice patterns, and body language. The sociologist is examining which concept?",
+      "choices": [
+        "Gender identity formation processes",
+        "Gender role socialization influences",
+        "Gender expression behavioral manifestations",
+        "Gender binary classification methods"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 944,
+      "question": "Which statement best distinguishes sexual orientation from other related concepts?",
+      "choices": [
+        "Sexual orientation describes internal gender identity feelings",
+        "Sexual orientation indicates attraction toward people of particular genders",
+        "Sexual orientation determines gender expression through behavior",
+        "Sexual orientation reflects biological sex characteristics"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t09"
+    },
+    {
+      "id": 945,
+      "question": "Dr. Chen's research examines how people's romantic and sexual attractions influence their relationship choices and community connections. Dr. Chen is studying which concept?",
+      "choices": [
+        "Gender identity development over time",
+        "Gender expression in social situations",
+        "Sexual orientation patterns of attraction",
+        "Gender role expectations from society"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t09"
+    },
+    {
+      "id": 946,
+      "question": "When Maria describes being attracted to people regardless of their gender, she is discussing which aspect of her identity?",
+      "choices": [
+        "Gender identity as self-definition",
+        "Gender expression through presentation",
+        "Sexual orientation pattern of attraction",
+        "Gender role conformity or resistance"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t09"
+    },
+    {
+      "id": 947,
+      "question": "A person who identifies as attracted to people of their own gender would be described using which term related to sexual identity?",
+      "choices": [
+        "Sexual identity as homosexual or gay/lesbian orientation",
+        "Sexual identity as heterosexual or straight orientation",
+        "Sexual identity as asexual with no attraction",
+        "Sexual identity as questioning or uncertain orientation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t10"
+    },
+    {
+      "id": 948,
+      "question": "Jake has always been attracted to women, identifies as heterosexual, and this attraction influences how he thinks about relationships and dating. This describes which aspect of Jake's identity?",
+      "choices": [
+        "Gender identity formation and development",
+        "Gender expression choices and presentation",
+        "Sexual identity orientation and self-concept",
+        "Gender role performance and conformity"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t10"
+    },
+    {
+      "id": 949,
+      "question": "In a research study on LGBTQ+ youth, participants discuss how they came to understand and label their own attractions and desires. The study focuses on which concept?",
+      "choices": [
+        "Gender identity development processes",
+        "Gender expression exploration and choices",
+        "Sexual identity formation and self-awareness",
+        "Gender role acceptance or rejection"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t10"
+    },
+    {
+      "id": 950,
+      "question": "The process by which children learn culturally appropriate masculine and feminine behaviors throughout their lives is called what?",
+      "choices": [
+        "Gender identity formation in individuals",
+        "Gender role socialization through social agents",
+        "Gender expression personal choice development",
+        "Gender binary system enforcement"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 951,
+      "question": "A study finds that parents interact differently with sons and daughters, teachers call on boys more often than girls, and peer groups enforce different behavioral expectations. This research examines which process?",
+      "choices": [
+        "Gender identity individual development",
+        "Gender expression personal exploration",
+        "Gender role socialization through multiple agents",
+        "Gender binary biological determination"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 952,
+      "question": "Maria notices that her five-year-old daughter has learned to play differently with dolls versus trucks, even though Maria tried to offer both types of toys equally. This observation best illustrates which concept?",
+      "choices": [
+        "Gender identity natural development",
+        "Gender expression individual choice",
+        "Gender role socialization from multiple sources",
+        "Gender binary biological influence"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 953,
+      "question": "The belief that heterosexuality should be the standard and norm for all relationships and attractions is termed what?",
+      "choices": [
+        "Heteronormativity as the assumption of heterosexual normalcy",
+        "Gender essentialism as biological determinism",
+        "Gender binary as two-category classification",
+        "Gender role socialization as cultural learning"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t12"
+    },
+    {
+      "id": 954,
+      "question": "When a school curriculum only includes examples of opposite-sex married couples and ignores same-sex relationships, this practice reflects which concept?",
+      "choices": [
+        "Gender identity discrimination in education",
+        "Gender expression limitation in schools",
+        "Heteronormativity assuming heterosexual normalcy",
+        "Gender role traditional expectations"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t12"
+    },
+    {
+      "id": 955,
+      "question": "A researcher studying workplace policies finds that employee benefits assume all workers have opposite-sex spouses and don't accommodate same-sex partners. This finding illustrates which concept?",
+      "choices": [
+        "Gender binary enforcement in employment",
+        "Gender role expectations at work",
+        "Heteronormativity embedded in institutional policies",
+        "Gender identity discrimination in benefits"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t12"
+    },
+    {
+      "id": 956,
+      "question": "A cultural environment where sexual violence against women is normalized through jokes, victim-blaming attitudes, and lenient treatment of perpetrators represents which concept?",
+      "choices": [
+        "Gender role socialization through media",
+        "Gender binary enforcement through violence",
+        "Rape culture normalizing sexual violence",
+        "Gender identity formation through trauma"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t13"
+    },
+    {
+      "id": 957,
+      "question": "On a college campus, students regularly make jokes about sexual assault, blame victims for their clothing choices, and dismiss reports of harassment. This campus climate reflects which concept?",
+      "choices": [
+        "Gender expression limitation through peer pressure",
+        "Rape culture normalizing sexual violence",
+        "Gender role socialization in higher education",
+        "Heteronormativity in campus social life"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t13"
+    },
+    {
+      "id": 958,
+      "question": "A sociology student notices that when news media report sexual assault cases, they often focus on what the victim was wearing or drinking rather than the perpetrator's actions. This media pattern illustrates which concept?",
+      "choices": [
+        "Rape culture shifting blame from perpetrators to victims",
+        "Gender role expectations for women's behavior",
+        "Gender binary assumptions about male and female behavior",
+        "Heteronormativity in media representation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t12"
+    },
+    {
+      "id": 959,
+      "question": "In analyzing how families, schools, peer groups, and media all teach children about appropriate gender behavior, a sociologist is studying which concept?",
+      "choices": [
+        "Institutions for gender socialization teaching gender norms",
+        "Gender identity development through personal exploration",
+        "Gender expression choices in different contexts",
+        "Gender binary enforcement through social pressure"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t14"
+    },
+    {
+      "id": 960,
+      "question": "A researcher examines how children's books, school curricula, sports programs, and family expectations all reinforce similar messages about masculinity and femininity. This research focuses on which concept?",
+      "choices": [
+        "Gender role individual choice and agency",
+        "Gender identity formation through experience",
+        "Institutions for gender socialization coordinating messages",
+        "Gender expression variation across contexts"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t14"
+    },
+    {
+      "id": 961,
+      "question": "Maria's study finds that religious organizations, educational systems, and family structures all work together to teach children that boys should be assertive and girls should be nurturing. Maria is analyzing which concept?",
+      "choices": [
+        "Gender binary biological determination",
+        "Gender identity natural development",
+        "Institutions for gender socialization reinforcing norms",
+        "Gender expression personal experimentation"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t14"
+    },
+    {
+      "id": 962,
+      "question": "When a professor consistently interrupts female students while allowing male students to finish their comments, and then asks a female student \"Why aren't you smiling?\", these behaviors represent which concept?",
+      "choices": [
+        "Gender role socialization in educational settings",
+        "Microaggression through subtle discriminatory communication",
+        "Gender binary enforcement through obvious discrimination",
+        "Heteronormativity in classroom interactions"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 963,
+      "question": "Carlos, who is Latino, notices that people often assume he's the janitor rather than the professor when he's on campus, and women colleagues report being told to \"smile more\" and being interrupted in meetings. These experiences illustrate which concept?",
+      "choices": [
+        "Gender role expectations in professional settings",
+        "Gender identity challenges in the workplace",
+        "Microaggression subtle discrimination against marginalized groups",
+        "Gender expression limitations in formal contexts"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t08"
+    },
+    {
+      "id": 964,
+      "question": "A study documents how transgender individuals frequently experience people using incorrect pronouns, asking invasive personal questions, and making comments about their appearance. These interactions represent which concept?",
+      "choices": [
+        "Gender identity formation challenges",
+        "Gender expression social consequences",
+        "Microaggression everyday discriminatory communication",
+        "Gender role socialization through peer interaction"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 965,
+      "question": "The economic trend showing women are more likely than men to experience poverty due to wage gaps and family responsibilities is called what?",
+      "choices": [
+        "Gender role socialization economic consequences",
+        "Feminization of poverty showing gendered economic patterns",
+        "Gender binary impact on employment opportunities",
+        "Gender identity workplace discrimination effects"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 966,
+      "question": "A policy analyst studies data showing that single mothers are more likely to live below the poverty line than single fathers, and that women's caregiving responsibilities limit their earning potential. This research examines which concept?",
+      "choices": [
+        "Gender expression economic limitations",
+        "Gender identity employment discrimination",
+        "Feminization of poverty through gendered economic disadvantage",
+        "Gender role socialization workplace outcomes"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 967,
+      "question": "When examining economic statistics, a researcher finds that the gender wage gap and women's disproportionate responsibility for unpaid care work contribute to higher rates of female poverty. This pattern reflects which concept?",
+      "choices": [
+        "Feminization of poverty showing economic gender inequality",
+        "Gender binary employment category limitations",
+        "Gender role traditional expectations consequences",
+        "Gender identity workplace identity challenges"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t16"
+    },
+    {
+      "id": 968,
+      "question": "When Lisa was assigned male at birth but has always identified as female and now lives as a woman, Lisa's experience aligns with which concept?",
+      "choices": [
+        "Gender nonconforming identity challenging norms",
+        "Cisgender identity matching assigned sex",
+        "Transgender identity differing from assigned sex",
+        "Gender binary conforming to traditional categories"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t07"
+    },
+    {
+      "id": 969,
+      "question": "When Lisa was assigned male at birth but has always identified as female and now lives as a woman, Lisa represents which concept?",
+      "choices": [
+        "Gender nonconforming identity challenging norms",
+        "Cisgender identity matching assigned sex",
+        "Transgender identity differing from assigned sex",
+        "Gender binary conforming to traditional categories"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t18"
+    },
+    {
+      "id": 970,
+      "question": "David was assigned male at birth, identifies as a man, and expresses his gender in traditionally masculine ways. David's experience reflects which concept?",
+      "choices": [
+        "Cisgender identity where gender aligns with assigned sex",
+        "Transgender identity differing from assigned sex",
+        "Gender nonconforming challenging traditional expectations",
+        "Gender binary rejection of traditional categories"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t18"
+    },
+    {
+      "id": 971,
+      "question": "A support group includes both people whose gender identity matches their birth assignment and people whose gender identity differs from their birth assignment. The first group represents which concept?",
+      "choices": [
+        "Transgender identity development",
+        "Cisgender identity alignment with assigned sex",
+        "Gender nonconforming expression choices",
+        "Gender binary traditional category acceptance"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t18"
+    },
+    {
+      "id": 972,
+      "question": "Alex dresses in ways that combine traditionally masculine and feminine elements, uses they/them pronouns, and challenges others' expectations about how someone should look and behave. Alex represents which concept?",
+      "choices": [
+        "Transgender identity with medical transition",
+        "Cisgender identity with creative expression",
+        "Gender nonconforming identity differing from expectations",
+        "Gender binary traditional category compliance"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t18"
+    },
+    {
+      "id": 973,
+      "question": "A study examines people whose gender presentation, behavior, and identity don't fit neatly into traditional masculine or feminine categories. The study focuses on which population?",
+      "choices": [
+        "Transgender individuals seeking medical transition",
+        "Gender nonconforming persons challenging traditional roles",
+        "Cisgender people exploring different expressions",
+        "Gender binary conforming individuals"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t18"
+    },
+    {
+      "id": 974,
+      "question": "Jordan identifies as neither fully male nor fully female, presents androgynously, and rejects binary gender categories. Jordan's identity reflects which concept?",
+      "choices": [
+        "Transgender identity with clear male-to-female transition",
+        "Cisgender identity with non-traditional expression",
+        "Gender nonconforming identity outside traditional expectations",
+        "Gender role temporary experimentation phase"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t18"
+    },
+    {
+      "id": 975,
+      "question": "The masculine ideal that promotes aggression, emotional suppression, and rejection of feminine qualities while elevating these traits above other forms of masculinity represents which concept?",
+      "choices": [
+        "Hegemonic masculinity promoting specific masculine ideals",
+        "Toxic masculinity causing harm to individuals",
+        "Gender role socialization teaching traditional behaviors",
+        "Gender binary enforcement through social pressure"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 976,
+      "question": "In a workplace culture where men are expected to be competitive, never show vulnerability, and dominate in all situations, with these traits being seen as the \"right way\" to be masculine, this environment reflects which concept?",
+      "choices": [
+        "Toxic masculinity harmful effects",
+        "Hegemonic masculinity as the dominant masculine ideal",
+        "Gender role traditional expectations",
+        "Gender binary male category requirements"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t19"
+    },
+    {
+      "id": 977,
+      "question": "A study finds that in corporate environments, men who display emotional intelligence or collaborative leadership styles are often viewed as less capable leaders than men who display aggressive, competitive behaviors. This pattern illustrates which concept?",
+      "choices": [
+        "Gender role socialization in professional contexts",
+        "Toxic masculinity individual psychological effects",
+        "Hegemonic masculinity privileging specific masculine traits",
+        "Gender binary enforcement through workplace policies"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 978,
+      "question": "Marcus feels pressure to suppress his emotions, avoid asking for help when struggling with depression, and prove his dominance over other men, which leads to significant mental health problems. Marcus is experiencing which concept?",
+      "choices": [
+        "Gender role socialization normal development",
+        "Toxic masculinity causing harmful effects",
+        "Hegemonic masculinity ideal achievement",
+        "Gender identity formation challenges"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 979,
+      "question": "A counselor notices that many of her male clients struggle with relationship problems, emotional expression, and stress-related health issues due to trying to meet impossible masculine standards. The counselor is observing effects of which concept?",
+      "choices": [
+        "Hegemonic masculinity ideal promotion",
+        "Toxic masculinity harmful masculine expectations",
+        "Gender role socialization typical outcomes",
+        "Gender binary classification pressure"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 980,
+      "question": "Research shows that men who strongly adhere to traditional masculine norms have higher rates of depression, substance abuse, and relationship problems. This research documents effects of which concept?",
+      "choices": [
+        "Toxic masculinity leading to negative outcomes for men",
+        "Hegemonic masculinity successful ideal achievement",
+        "Gender role socialization effective cultural transmission",
+        "Gender identity formation natural development"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch09_t11"
+    },
+    {
+      "id": 1221,
+      "question": "According to structural functionalism, a family where the father works full-time while the mother stays home to nurture the children and manage household emotions is an example of:",
+      "choices": [
+        "Gender stratification creating unequal opportunities",
+        "Conflict theory's view of male economic control",
+        "Complementary instrumental and expressive roles",
+        "Symbolic interactionist 'doing gender' in the household"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t26"
+    },
+    {
+      "id": 1222,
+      "question": "A structural functionalist would argue that the traditional division of labor in families\u2014where men serve as breadwinners and women as caregivers\u2014exists because:",
+      "choices": [
+        "Men have used economic power to maintain dominance over women",
+        "These complementary roles contribute to family stability and social order",
+        "Gender is performed through everyday interactions between partners",
+        "Cultural norms are imposed through institutional discrimination"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t26"
+    },
+    {
+      "id": 1223,
+      "question": "A study finds that women hold only 8% of Fortune 500 CEO positions, earn 82 cents for every dollar men earn, and are underrepresented in national legislatures. These patterns collectively illustrate:",
+      "choices": [
+        "Gender role socialization in corporate settings",
+        "The feminization of poverty across institutions",
+        "Gender stratification\u2014the unequal distribution of power and resources between genders",
+        "Hegemonic masculinity in the workplace"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t25"
+    },
+    {
+      "id": 1224,
+      "question": "Which scenario best illustrates gender stratification?",
+      "choices": [
+        "A child learning that boys should be tough and girls should be nurturing",
+        "Women systematically earning less, holding fewer leadership positions, and having less political power than men",
+        "A person expressing their gender through clothing choices",
+        "A couple sharing household responsibilities equally"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t25"
+    },
+    {
+      "id": 1225,
+      "question": "A researcher observes that when a male student speaks assertively in class, the teacher nods approvingly, but when a female student does the same, the teacher describes her as 'aggressive.' From a symbolic interactionist perspective, these micro-level interactions:",
+      "choices": [
+        "Reflect biological differences in communication styles",
+        "Demonstrate how gender is constructed and reinforced through everyday social encounters",
+        "Show that schools intentionally create gender inequality",
+        "Illustrate the complementary roles men and women play in education"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t27"
+    },
+    {
+      "id": 1226,
+      "question": "According to the symbolic interactionist perspective, which statement about gender is most accurate?",
+      "choices": [
+        "Gender is a fixed trait determined by biology and expressed consistently across all situations",
+        "Gender is a system of stratification that maintains male privilege over women",
+        "Gender is something that we actively 'do' in our interactions with others",
+        "Gender roles exist because they serve complementary functions in society"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t27"
+    },
+    {
+      "id": 1227,
+      "question": "In a workplace meeting, colleagues unconsciously defer to male speakers, make more eye contact with men, and interrupt women more frequently. A symbolic interactionist would explain this by saying:",
+      "choices": [
+        "These patterns reflect natural communication differences between the sexes",
+        "This is evidence of institutional discrimination against women",
+        "Gender norms are being reproduced through these everyday micro-interactions",
+        "Men are deliberately using power to silence women's voices"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch09_t27"
+    },
+    {
+      "id": 1228,
+      "question": "A conflict theorist examining gender inequality would most likely argue that:",
+      "choices": [
+        "Men and women have complementary roles that contribute to social stability",
+        "Gender differences emerge naturally from biological predispositions",
+        "Gender is something people construct through everyday interaction",
+        "Men maintain dominance over women by controlling economic resources and institutional power"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch09_t28"
+    },
+    {
+      "id": 1229,
+      "question": "When examining why women are paid less than men for comparable work, a conflict theorist would emphasize that:",
+      "choices": [
+        "The wage gap results from women choosing lower-paying fields due to gender socialization",
+        "Pay differences reflect men's efforts to maintain economic advantage and control over women",
+        "Women perform expressive roles that are inherently valued differently by society",
+        "Wage differences emerge from everyday negotiations and interactions in the workplace"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch09_t28"
+    }
+  ]
+}

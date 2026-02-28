@@ -1,0 +1,1024 @@
+{
+  "id": "ch11",
+  "name": "Social Institutions",
+  "order": 11,
+  "concepts": [
+    {
+      "id": "ch11_t01",
+      "term": "social institutions",
+      "definition": "Systems and structures within society that shape the activities of groups and individuals, providing stability and meeting essential societal needs",
+      "level3_question_ids": [
+        503
+      ],
+      "confusable_ids": [
+        "ch11_t02",
+        "ch11_t11",
+        "ch11_t10",
+        "ch11_t05"
+      ]
+    },
+    {
+      "id": "ch11_t02",
+      "term": "education",
+      "definition": "The process by which a society transmits its knowledge, values, and expectations to its members so they can function effectively",
+      "level3_question_ids": [
+        479,
+        489
+      ],
+      "confusable_ids": [
+        "ch11_t11",
+        "ch11_t05",
+        "ch11_t01"
+      ]
+    },
+    {
+      "id": "ch11_t03",
+      "term": "credentialism",
+      "definition": "The emphasis placed on degrees and certificates as determinants of social status and readiness for the job market, leading to credential inflation",
+      "level3_question_ids": [
+        1007,
+        1237,
+        1238
+      ],
+      "confusable_ids": [
+        "ch11_t11",
+        "ch11_t05",
+        "ch11_t16",
+        "ch11_t15"
+      ]
+    },
+    {
+      "id": "ch11_t04",
+      "term": "tracking",
+      "definition": "The placement of students in educational 'tracks' or programs of study (e.g., college prep, remedial) that determine the types of classes they take",
+      "level3_question_ids": [
+        1008
+      ],
+      "confusable_ids": [
+        "ch11_t05"
+      ]
+    },
+    {
+      "id": "ch11_t05",
+      "term": "hidden curriculum",
+      "definition": "Values or behaviors that students learn indirectly over the course of their schooling, often reinforcing social norms and power structures",
+      "level3_question_ids": [
+        1009
+      ],
+      "confusable_ids": [
+        "ch11_t15",
+        "ch11_t02",
+        "ch11_t11",
+        "ch11_t12",
+        "ch11_t13"
+      ]
+    },
+    {
+      "id": "ch11_t06",
+      "term": "religion",
+      "definition": "Any institutionalized system of shared beliefs and rituals that identify a relationship between the sacred and the profane",
+      "level3_question_ids": [
+        470,
+        472,
+        473,
+        474,
+        477,
+        483,
+        490,
+        491,
+        494,
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        507,
+        509
+      ],
+      "confusable_ids": [
+        "ch11_t08",
+        "ch11_t09",
+        "ch11_t12",
+        "ch11_t15"
+      ]
+    },
+    {
+      "id": "ch11_t07",
+      "term": "sacred",
+      "definition": "The holy, divine, or supernatural elements that are set apart and treated with special reverence in religious traditions",
+      "level3_question_ids": [
+        470,
+        471,
+        474,
+        487,
+        496,
+        514,
+        518,
+        1010
+      ],
+      "confusable_ids": [
+        "ch11_t08",
+        "ch11_t14",
+        "ch11_t09",
+        "ch11_t13",
+        "ch11_t11"
+      ]
+    },
+    {
+      "id": "ch11_t08",
+      "term": "profane",
+      "definition": "The ordinary, mundane, or everyday aspects of life that are distinguished from sacred elements in religious contexts",
+      "level3_question_ids": [
+        470,
+        472,
+        474,
+        1010
+      ],
+      "confusable_ids": [
+        "ch11_t14",
+        "ch11_t07",
+        "ch11_t09",
+        "ch11_t12",
+        "ch11_t06"
+      ]
+    },
+    {
+      "id": "ch11_t09",
+      "term": "intrinsic religiosity",
+      "definition": "A person's inner religious life or personal relationship to the divine, reflecting internal spiritual motivation",
+      "level3_question_ids": [
+        476
+      ],
+      "confusable_ids": [
+        "ch11_t10",
+        "ch11_t08",
+        "ch11_t14",
+        "ch11_t07",
+        "ch11_t13"
+      ]
+    },
+    {
+      "id": "ch11_t10",
+      "term": "extrinsic religiosity",
+      "definition": "A person's public display of commitment to a religious faith, often measured through attendance at services and participation in religious activities",
+      "level3_question_ids": [
+        475,
+        477,
+        478,
+        479
+      ],
+      "confusable_ids": [
+        "ch11_t09",
+        "ch11_t11",
+        "ch11_t08",
+        "ch11_t14",
+        "ch11_t07"
+      ]
+    },
+    {
+      "id": "ch11_t11",
+      "term": "secularization",
+      "definition": "The process by which religious institutions, practices, and consciousness lose their social significance in society",
+      "level3_question_ids": [
+        481,
+        484,
+        489
+      ],
+      "confusable_ids": [
+        "ch11_t15",
+        "ch11_t02",
+        "ch11_t12",
+        "ch11_t16",
+        "ch11_t08"
+      ]
+    },
+    {
+      "id": "ch11_t12",
+      "term": "traditional authority",
+      "definition": "Power that is legitimized through long-established customs, practices, and beliefs, often passed down through generations in religious contexts",
+      "level3_question_ids": [
+        514,
+        515,
+        518
+      ],
+      "confusable_ids": [
+        "ch11_t13",
+        "ch11_t15",
+        "ch11_t11",
+        "ch11_t08",
+        "ch11_t06"
+      ]
+    },
+    {
+      "id": "ch11_t13",
+      "term": "charismatic authority",
+      "definition": "Power based on the perception that a leader possesses extraordinary, possibly divine qualities, often found in religious movements",
+      "level3_question_ids": [
+        519,
+        520,
+        521,
+        522,
+        523
+      ],
+      "confusable_ids": [
+        "ch11_t12",
+        "ch11_t07",
+        "ch11_t09",
+        "ch11_t15",
+        "ch11_t11"
+      ]
+    },
+    {
+      "id": "ch11_t14",
+      "term": "unchurched",
+      "definition": "A term describing those who consider themselves spiritual but not religious and who often adopt aspects of various religious traditions",
+      "level3_question_ids": [
+        490,
+        491,
+        494,
+        1011,
+        493
+      ],
+      "confusable_ids": [
+        "ch11_t08",
+        "ch11_t07",
+        "ch11_t09",
+        "ch11_t11",
+        "ch11_t10"
+      ]
+    },
+    {
+      "id": "ch11_t15",
+      "term": "ritual",
+      "definition": "Formal, patterned behaviors or practices based on religious beliefs that create social cohesion and reinforce group identity",
+      "level3_question_ids": [
+        488,
+        489,
+        499,
+        501,
+        521
+      ],
+      "confusable_ids": [
+        "ch11_t11",
+        "ch11_t12",
+        "ch11_t05",
+        "ch11_t13",
+        "ch11_t16"
+      ]
+    },
+    {
+      "id": "ch11_t16",
+      "term": "collective effervescence",
+      "definition": "The heightened sense of energy, unity, and emotional intensity experienced in religious gatherings that strengthens social bonds",
+      "level3_question_ids": [
+        495,
+        496,
+        497,
+        498,
+        499
+      ],
+      "confusable_ids": [
+        "ch11_t11",
+        "ch11_t15",
+        "ch11_t08",
+        "ch11_t14",
+        "ch11_t07"
+      ]
+    }
+  ],
+  "chapter_questions": [
+    {
+      "id": 470,
+      "question": "According to the sociological definition in the textbook, what is religion?",
+      "choices": [
+        "An institutionalized system of shared beliefs and rituals that identify a relationship between the sacred and the profane",
+        "A collective system of moral teachings that guide individual behavior and community ethics",
+        "A formalized structure of worship practices centered around supernatural beings or forces",
+        "A cultural framework that provides explanations for existential questions and life's meaning"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t06"
+    },
+    {
+      "id": 471,
+      "question": "In sociological terms, what does \"sacred\" refer to?",
+      "choices": [
+        "The holy, divine, or supernatural",
+        "The set of values and beliefs that a society holds as most important and beyond question",
+        "The boundaries that separate acceptable religious practices from taboo behaviors",
+        "The collective emotional experiences generated during religious ceremonies and gatherings"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t07"
+    },
+    {
+      "id": 472,
+      "question": "How do sociologists define the \"profane\" in relation to religion?",
+      "choices": [
+        "The ordinary, mundane, or everyday aspects of life",
+        "The aspects of religious life that are considered impure or polluting within a tradition",
+        "The secular institutions that exist separately from religious authority and control",
+        "The elements of worship that are accessible to all members rather than only clergy"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t06"
+    },
+    {
+      "id": 473,
+      "question": "What distinguishes a sociological approach to studying religion from a theological approach?",
+      "choices": [
+        "Sociologists study how religions shape and are shaped by society without evaluating the truth of belief systems",
+        "Sociologists analyze religious institutions as power structures without considering their spiritual dimensions",
+        "Sociologists examine how individuals interpret religious teachings without studying institutional religious structures",
+        "Sociologists focus on measuring levels of religious participation while theologians interpret the meaning of these practices"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t06"
+    },
+    {
+      "id": 474,
+      "question": "What characteristic is common to all religion according to the sociological definition?",
+      "choices": [
+        "The distinction between sacred and profane realms of experience",
+        "The regular performance of communal rituals that reinforce group identity and cohesion",
+        "The existence of moral codes that regulate behavior and establish cultural norms",
+        "The development of explanatory frameworks for understanding suffering and meaning in life"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t06"
+    },
+    {
+      "id": 475,
+      "question": "What does extrinsic religiosity primarily refer to in sociology?",
+      "choices": [
+        "A person's public display of commitment to a religious faith",
+        "An individual's internal motivation to connect with the divine through private devotional practices",
+        "The cultural heritage and family traditions that shape one's religious identity from childhood",
+        "The measurable behaviors that demonstrate authentic religious conviction within a community"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t10"
+    },
+    {
+      "id": 476,
+      "question": "Which of the following best exemplifies intrinsic religiosity?",
+      "choices": [
+        "An individual's personal relationship with the divine and internal spiritual life",
+        "Participating in religious rituals because they provide meaningful structure to one's week",
+        "Studying religious texts to gain knowledge and understanding of theological principles",
+        "Adhering to religious moral codes because they align with one's personal ethical values"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t09"
+    },
+    {
+      "id": 477,
+      "question": "How do sociologists typically measure extrinsic religiosity?",
+      "choices": [
+        "By examining frequency of attendance at worship services and participation in religious activities",
+        "By analyzing self-reported surveys about the importance of religion in decision-making",
+        "By documenting financial contributions to religious organizations as a percentage of income",
+        "By recording the frequency of religious symbols and artifacts displayed in homes and workplaces"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t10"
+    },
+    {
+      "id": 478,
+      "question": "What factor most distinguishes intrinsic from extrinsic religiosity?",
+      "choices": [
+        "Whether religious practice is motivated by internal spiritual needs versus external social benefits",
+        "Whether religious participation occurs in private settings versus public gatherings",
+        "The degree to which religious beliefs influence daily behaviors and life choices",
+        "Whether religious knowledge is based on scripture study versus oral traditions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t10"
+    },
+    {
+      "id": 479,
+      "question": "Which of the following best illustrates extrinsic religiosity?",
+      "choices": [
+        "A person who attends church every Sunday primarily because it helps them network with business contacts",
+        "A person who prays daily in private as part of their deep spiritual practice",
+        "A person who feels a profound personal connection to God during meditation",
+        "A person who reads sacred texts to deepen their understanding of divine purpose"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t10"
+    },
+    {
+      "id": 480,
+      "question": "What does the term \"secular\" mean in sociological contexts?",
+      "choices": [
+        "Nonreligious; separating religious institutions from political and civic institutions",
+        "The gradual decline of religious influence on public institutions and social norms",
+        "The coexistence of multiple religious perspectives within a pluralistic society",
+        "The restriction of religious expression to private spaces rather than public domains"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 481,
+      "question": "Which trend represents a key example of secularization in American society?",
+      "choices": [
+        "The increasing percentage of Americans who identify as religiously unaffiliated",
+        "The reinterpretation of religious doctrines to accommodate scientific discoveries",
+        "The shift from institutional religious practice to private, individualized spirituality",
+        "The growing separation between ethnic identity and religious affiliation in immigrant communities"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t11"
+    },
+    {
+      "id": 482,
+      "question": "According to the text, what evidence suggests that the United States is not fully secular?",
+      "choices": [
+        "Religious phrases appear on currency and Christian holidays shape the national calendar",
+        "Federal laws require businesses to accommodate only Christian religious practices in the workplace",
+        "Political candidates are formally required to affirm religious beliefs to hold office",
+        "Supreme Court decisions consistently favor religious organizations in legal disputes"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 483,
+      "question": "What challenge does the separation of church and state present in American society?",
+      "choices": [
+        "Balancing religious freedom with ensuring no religion receives government endorsement",
+        "Defining what constitutes 'religion' when new spiritual movements seek legal recognition and protection",
+        "Determining whether religious exemptions to laws should be granted to individuals or only to organizations",
+        "Establishing whether public funding can support secular activities within religious organizations"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t06"
+    },
+    {
+      "id": 484,
+      "question": "What demographic trend is associated with secularization in the United States?",
+      "choices": [
+        "Young adults are more likely to identify as religiously unaffiliated than older adults",
+        "College-educated adults show similar rates of religious affiliation regardless of political orientation",
+        "Religious affiliation remains stable across all age groups but religious participation is declining",
+        "Men and women show identical patterns of religious disaffiliation across all generational cohorts"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t11"
+    },
+    {
+      "id": 485,
+      "question": "From a sociological perspective, what primary function do religious rituals serve?",
+      "choices": [
+        "They create social cohesion and reinforce group identity among participants",
+        "They transmit cultural knowledge and ethical systems from one generation to the next",
+        "They provide psychological comfort by creating a sense of certainty in an unpredictable world",
+        "They establish clear boundaries between members of the religious community and outsiders"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 486,
+      "question": "How do religious rituals contribute to the maintenance of religious institutions?",
+      "choices": [
+        "They provide regular opportunities for collective participation and reinforce shared beliefs",
+        "They standardize religious interpretations, preventing doctrinal disagreements that could divide communities",
+        "They create specialized roles that establish hierarchical structures necessary for institutional stability",
+        "They formalize the process of membership, clearly distinguishing between insiders and outsiders"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 487,
+      "question": "What characteristic distinguishes religious rituals from secular routines?",
+      "choices": [
+        "Religious rituals connect ordinary actions to sacred meanings and purposes",
+        "Religious rituals follow precise, unchanging formats while secular routines allow for personal variation",
+        "Religious rituals require specialized knowledge that is accessible only to trained practitioners",
+        "Religious rituals exclusively occur in designated sacred spaces while secular routines happen anywhere"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t07"
+    },
+    {
+      "id": 488,
+      "question": "How do sociologists view the relationship between rituals and religious belief?",
+      "choices": [
+        "Rituals can strengthen beliefs by providing embodied experiences of religious concepts",
+        "Rituals and beliefs develop independently and only coincidentally overlap in religious systems",
+        "Beliefs determine which rituals develop, with ritual always being secondary to theological concepts",
+        "Rituals primarily function to test individual commitment to beliefs rather than strengthening them"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t15"
+    },
+    {
+      "id": 489,
+      "question": "According to sociological research, which aspect of religious participation has remained most stable despite secularization?",
+      "choices": [
+        "Ritual participation during major life transitions (births, marriages, deaths)",
+        "Regular participation in religious education programs for children and youth",
+        "Adherence to religious dietary restrictions and consumption practices",
+        "Observance of weekly sabbath or holy day practices across generations"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t11"
+    },
+    {
+      "id": 490,
+      "question": "What does the term \"unchurched\" refer to in sociological studies of religion?",
+      "choices": [
+        "People who consider themselves spiritual but not religious and may adopt aspects of various traditions",
+        "People who were raised in religious traditions but have completely abandoned all spiritual practices",
+        "People who maintain private religious beliefs while refusing to participate in organized religious communities",
+        "People who frequently switch between established religious denominations without maintaining commitment"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t14"
+    },
+    {
+      "id": 491,
+      "question": "What trend in American religion is associated with the growth of the \"unchurched\" population?",
+      "choices": [
+        "The increasing tendency to create personalized spiritual practices drawing from multiple traditions",
+        "The complete rejection of supernatural explanations in favor of scientific materialism",
+        "The revival of ancient indigenous religious practices in their original, unchanged forms",
+        "The development of new religious movements with formal membership and institutional structures"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t14"
+    },
+    {
+      "id": 492,
+      "question": "How has the percentage of religiously unaffiliated Americans changed since the 1990s?",
+      "choices": [
+        "It has approximately tripled, representing a significant shift in American religious identity",
+        "It has increased gradually by about 5 percentage points, showing modest but not dramatic change",
+        "It has doubled among young adults but remained stable in other age groups",
+        "It has fluctuated repeatedly in response to political and economic cycles without clear direction"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 493,
+      "question": "Which demographic group is most likely to identify as \"spiritual but not religious\" in the United States?",
+      "choices": [
+        "Young, white adults living in western and northeastern states",
+        "Middle-aged professionals with advanced degrees living in urban areas",
+        "Young women attending liberal arts colleges in progressive communities",
+        "Ethnically diverse millennials raised in interfaith or mixed-religion households"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t14"
+    },
+    {
+      "id": 494,
+      "question": "According to the textbook, what is a common reason people adopt \"unchurched spirituality\"?",
+      "choices": [
+        "They reject elements of organized religion like sexism or conformity while seeking spiritual fulfillment",
+        "They seek spiritual practices that can be scientifically verified through empirical evidence",
+        "They were raised without religious traditions and are exploring spirituality for the first time",
+        "They find traditional religious communities too diverse and are seeking more homogeneous groups"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t14"
+    },
+    {
+      "id": 495,
+      "question": "What does Durkheim's concept of \"collective effervescence\" describe?",
+      "choices": [
+        "The heightened sense of energy and unity experienced in religious gatherings",
+        "The systematic classification of religious phenomena according to their social functions",
+        "The moral solidarity that emerges from shared religious symbols and totemic representations",
+        "The evolutionary progression of religious beliefs from simple animism to complex monotheism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t16"
+    },
+    {
+      "id": 496,
+      "question": "According to sociological theory, how does collective effervescence contribute to religious community?",
+      "choices": [
+        "It creates powerful shared emotional experiences that reinforce group solidarity",
+        "It establishes hierarchical structures that determine who can access sacred knowledge and power",
+        "It transfers emotional energy from individuals to religious leaders, legitimizing their authority",
+        "It provides therapeutic release for psychological tensions that might otherwise disrupt social stability"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t16"
+    },
+    {
+      "id": 497,
+      "question": "In which religious context would collective effervescence be most likely to occur?",
+      "choices": [
+        "An emotionally intense worship service with music, movement, and shared expressions",
+        "A theological debate between religious scholars exploring doctrinal differences",
+        "A silent prayer gathering where participants maintain physical distance from one another",
+        "An online religious service where participants view the same content from separate locations"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t16"
+    },
+    {
+      "id": 498,
+      "question": "How might collective effervescence relate to religious conversion experiences?",
+      "choices": [
+        "The intense social-emotional experience can create powerful commitments to a religious group",
+        "It provides intellectual clarity about theological doctrines that leads to rational conversion decisions",
+        "It temporarily suspends critical thinking, allowing conversion only until rational thought returns",
+        "It creates social pressure that forces individuals to convert against their will for community acceptance"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t16"
+    },
+    {
+      "id": 499,
+      "question": "How does collective effervescence connect to the sociological understanding of ritual?",
+      "choices": [
+        "Rituals create the conditions for collective effervescence, which strengthens social bonds",
+        "Collective effervescence occurs spontaneously and transforms ordinary activities into rituals afterward",
+        "Rituals channel collective effervescence exclusively toward supernatural beings rather than social bonds",
+        "Collective effervescence primarily serves to compensate for the declining significance of religious rituals"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t16"
+    },
+    {
+      "id": 500,
+      "question": "According to structural functionalism, what is the primary function of religion in society?",
+      "choices": [
+        "It provides social cohesion, meaning, and moral guidance that helps maintain social order",
+        "It creates a framework for rational understanding of the natural world through systematic inquiry",
+        "It emerges spontaneously from collective consciousness without serving specific social needs",
+        "It provides economic benefits by creating markets for religious goods and services"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t06"
+    },
+    {
+      "id": 501,
+      "question": "From a functionalist perspective, how does religion help individuals cope with uncertainty?",
+      "choices": [
+        "By providing explanations for otherwise inexplicable events and experiences",
+        "By establishing clear hierarchies of authority that eliminate ambiguity in decision-making",
+        "By creating predictable ritual calendars that give structure to individual and community life",
+        "By transferring responsibility for outcomes from individuals to divine or supernatural forces"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t06"
+    },
+    {
+      "id": 502,
+      "question": "Which function of religion focuses on bringing people together for shared experiences?",
+      "choices": [
+        "Creating opportunities for community and collective identity",
+        "Providing explanations for suffering and inequality that make social conditions tolerable",
+        "Establishing moral codes that regulate behavior and maintain social control",
+        "Offering psychological comfort and certainty in an unpredictable world"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t06"
+    },
+    {
+      "id": 503,
+      "question": "According to the structural functionalist perspective, what happens when religious institutions weaken in a society?",
+      "choices": [
+        "Other social institutions must fulfill the functions previously provided by religion",
+        "Social anomie increases as individuals lose their moral compass and sense of meaning",
+        "Scientific institutions naturally expand to provide alternative explanations for existential questions",
+        "Family structures become more important as the primary source of values and social control"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t01"
+    },
+    {
+      "id": 504,
+      "question": "According to the conflict perspective, how can religion function in society?",
+      "choices": [
+        "It can both reinforce inequality and serve as an agent for social justice and change",
+        "It inevitably evolves from traditional hierarchical forms toward more egalitarian structures over time",
+        "It facilitates class consciousness among the oppressed while pacifying them with promises of rewards after death",
+        "It creates cultural divisions that prevent unified class action while promoting universal ethical principles"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t06"
+    },
+    {
+      "id": 505,
+      "question": "Which religious movement exemplifies the conflict perspective's view of religion as a force for social change?",
+      "choices": [
+        "Liberation theology, which combines Marxist analysis with Christian teachings to fight oppression",
+        "The Social Gospel movement, which applies Christian ethics to address poverty through charity and good works",
+        "Engaged Buddhism, which promotes meditation and compassion as paths to gradually transform society",
+        "Progressive Judaism, which reinterprets traditional teachings to support contemporary social justice causes"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t06"
+    },
+    {
+      "id": 506,
+      "question": "From a conflict perspective, how might religious organizations perpetuate gender inequality?",
+      "choices": [
+        "By restricting leadership roles for women and enforcing gender-specific behavioral codes",
+        "By creating separate but equal spheres of influence that honor women's unique spiritual gifts",
+        "By emphasizing women's central role in family religious socialization while preserving male public authority",
+        "By offering women special recognition in limited domains while maintaining overall patriarchal structures"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 507,
+      "question": "Which theorist is most associated with the view that religion serves as \"the opiate of the masses\"?",
+      "choices": [
+        "Karl Marx",
+        "Friedrich Engels",
+        "Auguste Comte",
+        "Antonio Gramsci"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t06"
+    },
+    {
+      "id": 508,
+      "question": "According to the conflict perspective, what role did religious institutions play in the civil rights movement?",
+      "choices": [
+        "They provided organizational resources, leadership, and moral legitimacy for social change",
+        "They initially resisted racial integration but gradually adopted more progressive positions due to external pressure",
+        "They supported incremental legal reforms while discouraging direct action tactics and civil disobedience",
+        "They emphasized individual spiritual transformation as a prerequisite to social change rather than structural reforms"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 509,
+      "question": "How does symbolic interactionism approach the study of religion?",
+      "choices": [
+        "By examining how religious meaning is constructed through interaction and incorporated into everyday life",
+        "By identifying the universal symbolic structures that appear across all religious traditions",
+        "By analyzing how religious symbols evolve to maintain their relevance in changing social contexts",
+        "By examining the cognitive processes through which individuals interpret religious teachings"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t06"
+    },
+    {
+      "id": 510,
+      "question": "According to symbolic interactionist studies cited in the textbook, how do women in conservative religions often relate to seemingly restrictive religious doctrines?",
+      "choices": [
+        "They reinterpret doctrines to construct agency and empowerment within their religious framework",
+        "They outwardly conform to expectations while privately maintaining feminist views separate from their religious identity",
+        "They focus exclusively on aspects of doctrine that recognize women's spiritual equality while ignoring restrictions",
+        "They gradually modify their religious beliefs to align with secular feminist values over time"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 511,
+      "question": "From a symbolic interactionist perspective, what is the significance of religious symbols?",
+      "choices": [
+        "They acquire meaning through social interaction and come to represent significant religious concepts",
+        "They transmit fixed theological meanings established by religious authorities to passive recipients",
+        "They emerge spontaneously from collective consciousness to represent shared spiritual experiences",
+        "They function primarily as cognitive shortcuts that simplify complex theological concepts"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 512,
+      "question": "How would a symbolic interactionist analyze religious conversion?",
+      "choices": [
+        "As a process involving changes in an individual's interpretive framework and social relationships",
+        "As the adoption of new religious symbols without meaningful changes to the individual's core identity",
+        "As a predetermined developmental stage that occurs naturally in the human lifecycle",
+        "As the unconscious internalization of religious norms through repeated exposure to religious messages"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 513,
+      "question": "According to symbolic interactionism, how does religious identity develop?",
+      "choices": [
+        "Through ongoing interactions and negotiations with others in religious and secular contexts",
+        "Through a one-time commitment decision that permanently establishes religious affiliation",
+        "Through passive absorption of religious values during primary socialization in childhood",
+        "Through private spiritual experiences that occur independently of social interaction"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 514,
+      "question": "According to Weber's typology, what defines traditional authority in religious contexts?",
+      "choices": [
+        "It is based on established customs and practices accepted as legitimate due to their historical continuity",
+        "It is grounded in sacred texts that provide explicit instructions for religious governance",
+        "It develops naturally from the biological family structures that organize religious communities",
+        "It emerges from the collective consensus of the religious community about effective leadership"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t12"
+    },
+    {
+      "id": 515,
+      "question": "Which religious leadership position best exemplifies traditional authority?",
+      "choices": [
+        "A pope or high priest whose authority derives from established succession practices",
+        "A democratically elected church council representative chosen by congregation members",
+        "A religious administrator selected based on demonstrated management skills and efficiency",
+        "A revolutionary religious leader who challenges established religious hierarchies and traditions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t12"
+    },
+    {
+      "id": 516,
+      "question": "How does traditional religious authority typically respond to social change?",
+      "choices": [
+        "By emphasizing continuity with the past and resisting innovations that threaten established practices",
+        "By reinterpreting ancient traditions to demonstrate their compatibility with modern developments",
+        "By incorporating elements of competing religious traditions to maintain relevance and appeal",
+        "By separating religious communities from mainstream society to preserve traditional practices"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 517,
+      "question": "What typically happens to traditional religious authority during periods of rapid social change?",
+      "choices": [
+        "It may be challenged by charismatic leaders offering new religious interpretations",
+        "It typically accommodates change by gradually incorporating new elements into existing frameworks",
+        "It bifurcates into competing traditional authorities claiming to represent authentic tradition",
+        "It becomes more rigidly enforced through increased emphasis on conformity and discipline"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 518,
+      "question": "In Weber's analysis, what is the relationship between traditional religious authority and written texts?",
+      "choices": [
+        "Traditional authorities often control the interpretation of sacred texts to maintain their position",
+        "Sacred texts function independently of traditional authority, providing direct access to divine guidance",
+        "Traditional authorities typically discourage engagement with sacred texts, preferring oral transmission of teachings",
+        "Written texts automatically transform traditional authority into rational-legal authority through standardization"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t12"
+    },
+    {
+      "id": 519,
+      "question": "According to Weber, what is the basis of charismatic authority in religious contexts?",
+      "choices": [
+        "The perception that a leader possesses extraordinary, possibly divine, qualities",
+        "The validation of the leader's claims through established theological criteria and tests",
+        "The democratic selection of a leader based on popular appeal and communication skills",
+        "The leader's familial connection to previously recognized religious authorities"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t13"
+    },
+    {
+      "id": 520,
+      "question": "What typically happens to charismatic authority over time in religious movements?",
+      "choices": [
+        "It undergoes routinization as the movement establishes ongoing traditions and institutions",
+        "It is intentionally maintained in its original form through carefully controlled succession processes",
+        "It naturally evolves into more democratic forms of authority as movements mature and expand",
+        "It disappears completely after the death of the original charismatic leader unless new revelations occur"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t13"
+    },
+    {
+      "id": 521,
+      "question": "Which figure would most clearly exemplify charismatic authority in a religious context?",
+      "choices": [
+        "A prophet who attracts followers based on claims of direct divine communication",
+        "A monastic leader who maintains strict adherence to ancient spiritual disciplines and practices",
+        "A religious reformer who systematically applies textual analysis to identify doctrinal inconsistencies",
+        "A ceremonial officiant who precisely follows established ritual procedures for religious transitions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t13"
+    },
+    {
+      "id": 522,
+      "question": "What challenge do religions based on charismatic authority typically face after the leader's death?",
+      "choices": [
+        "The succession crisis of transferring authority to new leadership without the original charisma",
+        "The challenge of documenting and standardizing the leader's teachings without distorting their original meaning",
+        "The difficulty of distinguishing between authentic followers and opportunistic individuals seeking power",
+        "The problem of maintaining the emotional intensity that characterized the movement during the leader's lifetime"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t13"
+    },
+    {
+      "id": 523,
+      "question": "How might charismatic religious authority relate to social change movements?",
+      "choices": [
+        "Charismatic leaders can mobilize followers to challenge established social and religious norms",
+        "Charismatic authority emerges only after social changes have already been institutionalized in secular contexts",
+        "Charismatic leaders primarily address spiritual needs while their followers independently apply teachings to social causes",
+        "Charismatic religious movements focus exclusively on otherworldly salvation rather than transforming existing social conditions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t13"
+    },
+    {
+      "id": 1007,
+      "question": "Maria's college has recently announced a new policy stating that all graduation candidates must obtain a professional certification in addition to their degree. This development can be best understood as an example of credentialism because:",
+      "choices": [
+        "The certification ensures students have practical job skills",
+        "Students must pay additional fees to graduate",
+        "The policy reflects increasing emphasis on degrees and certificates as determinants of social status and job market readiness",
+        "The certification directly improves educational quality"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch11_t03"
+    },
+    {
+      "id": 1008,
+      "question": "A high school principal is implementing changes to course offerings and notices that tracking has resulted in AP classes being predominantly filled with white and Asian students, while remedial classes are disproportionately filled with Black and Hispanic students. This situation demonstrates tracking because:",
+      "choices": [
+        "Students are grouped by age and grade level",
+        "Students are placed in educational programs that determine the types of classes they take, affecting their academic opportunities",
+        "The school offers both advanced and remedial courses",
+        "Class sizes are kept small for individualized attention"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch11_t04"
+    },
+    {
+      "id": 1009,
+      "question": "During Sarah's elementary school years, she learned to raise her hand before speaking, wait in line quietly, and follow the bell schedule without question. These behaviors were never explicitly taught in any subject but became second nature through her school experience. This illustrates the hidden curriculum because:",
+      "choices": [
+        "These are essential academic skills for success",
+        "The teacher deliberately planned these lessons",
+        "Students must learn school rules to function properly",
+        "Students learn values and behaviors indirectly that often reinforce social norms and power structures"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch11_t05"
+    },
+    {
+      "id": 1010,
+      "question": "When James visits his grandmother's house for Sunday dinner, he experiences warmth, family traditions, and everyday conversation about work and daily life. In religious terms, this family gathering represents the profane because:",
+      "choices": [
+        "It involves ordinary, mundane aspects of life that are distinguished from sacred elements",
+        "It lacks any spiritual or religious significance",
+        "It occurs outside of a religious building",
+        "It focuses on material rather than spiritual matters"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch11_t08"
+    },
+    {
+      "id": 1011,
+      "question": "Jessica considers herself deeply spiritual and regularly practices meditation, reads various religious texts from different traditions, and incorporates elements of Buddhism, Christianity, and Native American spirituality into her personal belief system. However, she does not belong to any organized religious congregation. Jessica can best be described as unchurched because:",
+      "choices": [
+        "She practices multiple religions simultaneously",
+        "She doesn't attend religious services regularly",
+        "She creates her own spiritual practices",
+        "She considers herself spiritual but not religious and adopts aspects of various religious traditions without formal affiliation"
+      ],
+      "correct": 3,
+      "linked_concept_id": "ch11_t14"
+    },
+    {
+      "id": 1237,
+      "question": "Conflict theorist Randall Collins compared the American educational system to a 'tribal initiation rite,' suggesting that credentials function primarily as:",
+      "choices": [
+        "Tools for transmitting practical knowledge needed in the workforce",
+        "Mechanisms for reproducing the existing class structure by gatekeeping access to elite positions",
+        "Fair measures of individual merit and intellectual achievement",
+        "Ways to socialize students into democratic values"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch11_t03"
+    },
+    {
+      "id": 1238,
+      "question": "A student from a wealthy family attends an elite university and networks with other privileged students, while an equally talented student from a working-class background attends community college. Both earn degrees, but the elite graduate lands a higher-paying job through alumni connections. Collins would argue this illustrates:",
+      "choices": [
+        "The hidden curriculum teaching different values to different social classes",
+        "Tracking systems sorting students by academic ability",
+        "Credentialism functioning as a mechanism for class reproduction rather than merit-based sorting",
+        "Education successfully providing equal opportunity through formal qualifications"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch11_t03"
+    }
+  ]
+}

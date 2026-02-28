@@ -1,0 +1,1170 @@
+{
+  "id": "ch08",
+  "name": "Race and Ethnicity",
+  "order": 8,
+  "concepts": [
+    {
+      "id": "ch08_t01",
+      "term": "Race",
+      "definition": "A socially constructed category based on real or perceived biological differences between groups of people",
+      "level3_question_ids": [
+        759,
+        767,
+        993
+      ],
+      "confusable_ids": [
+        "ch08_t15",
+        "ch08_t19",
+        "ch08_t13",
+        "ch08_t02",
+        "ch08_t21"
+      ]
+    },
+    {
+      "id": "ch08_t02",
+      "term": "Ethnicity",
+      "definition": "A social category applied to a group with a shared ancestry or cultural heritage",
+      "level3_question_ids": [
+        769,
+        773,
+        774,
+        775,
+        776,
+        777,
+        778,
+        782,
+        987,
+        988,
+        991,
+        992,
+        994,
+        995,
+        1001,
+        1230
+      ],
+      "confusable_ids": [
+        "ch08_t03",
+        "ch08_t04",
+        "ch08_t07",
+        "ch08_t08",
+        "ch08_t17"
+      ]
+    },
+    {
+      "id": "ch08_t03",
+      "term": "Symbolic Ethnicity",
+      "definition": "An ethnic identity that is relevant only on specific occasions and does not significantly affect everyday life",
+      "level3_question_ids": [
+        769,
+        773,
+        774,
+        775,
+        777,
+        778,
+        782,
+        987,
+        991,
+        994,
+        995,
+        1001
+      ],
+      "confusable_ids": [
+        "ch08_t04",
+        "ch08_t02",
+        "ch08_t22",
+        "ch08_t20",
+        "ch08_t06"
+      ]
+    },
+    {
+      "id": "ch08_t04",
+      "term": "Situational Ethnicity",
+      "definition": "An ethnic identity that can be either displayed or concealed depending on its usefulness in a given situation",
+      "level3_question_ids": [
+        775,
+        776,
+        777,
+        782,
+        987,
+        988,
+        992
+      ],
+      "confusable_ids": [
+        "ch08_t03",
+        "ch08_t02",
+        "ch08_t22",
+        "ch08_t20",
+        "ch08_t06"
+      ]
+    },
+    {
+      "id": "ch08_t05",
+      "term": "Minority Group",
+      "definition": "A social group that is systematically denied the same access to power and resources available to society's dominant groups",
+      "level3_question_ids": [
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        752,
+        753
+      ],
+      "confusable_ids": [
+        "ch08_t13",
+        "ch08_t21",
+        "ch08_t22",
+        "ch08_t20",
+        "ch08_t02"
+      ]
+    },
+    {
+      "id": "ch08_t06",
+      "term": "Racism",
+      "definition": "A set of beliefs about the claimed superiority of one racial or ethnic group; used to justify inequality",
+      "level3_question_ids": [
+        754,
+        755,
+        756,
+        757,
+        758,
+        764,
+        988,
+        989,
+        990,
+        993,
+        996,
+        1002,
+        1231,
+        1232
+      ],
+      "confusable_ids": [
+        "ch08_t22",
+        "ch08_t20",
+        "ch08_t14",
+        "ch08_t18",
+        "ch08_t21"
+      ]
+    },
+    {
+      "id": "ch08_t07",
+      "term": "Prejudice",
+      "definition": "An idea about the characteristics of a group that is applied to all members of that group and is unlikely to change regardless of evidence",
+      "level3_question_ids": [
+        755,
+        759,
+        760,
+        761,
+        762,
+        763,
+        764,
+        768,
+        770,
+        771
+      ],
+      "confusable_ids": [
+        "ch08_t02",
+        "ch08_t11",
+        "ch08_t17",
+        "ch08_t13",
+        "ch08_t21"
+      ]
+    },
+    {
+      "id": "ch08_t08",
+      "term": "Discrimination",
+      "definition": "Unequal treatment of individuals based on their membership in a social group; usually motivated by prejudice",
+      "level3_question_ids": [
+        758,
+        762,
+        765,
+        766,
+        767,
+        768,
+        769,
+        770,
+        771,
+        772,
+        777,
+        778,
+        779,
+        989,
+        990,
+        992,
+        995,
+        1002
+      ],
+      "confusable_ids": [
+        "ch08_t11",
+        "ch08_t10",
+        "ch08_t14",
+        "ch08_t02",
+        "ch08_t18"
+      ]
+    },
+    {
+      "id": "ch08_t09",
+      "term": "Implicit Bias",
+      "definition": "Unrecognized or unconscious prejudices and stereotypes that shape our interactions with others",
+      "level3_question_ids": [
+        989,
+        1002
+      ],
+      "confusable_ids": [
+        "ch08_t15"
+      ]
+    },
+    {
+      "id": "ch08_t10",
+      "term": "Individual Discrimination",
+      "definition": "Discrimination carried out by one person against another",
+      "level3_question_ids": [
+        767,
+        769,
+        779,
+        989,
+        990
+      ],
+      "confusable_ids": [
+        "ch08_t11",
+        "ch08_t08",
+        "ch08_t18",
+        "ch08_t06"
+      ]
+    },
+    {
+      "id": "ch08_t11",
+      "term": "Institutional Discrimination",
+      "definition": "Discrimination carried out systematically by institutions that affects all members of a group who come into contact with it",
+      "level3_question_ids": [
+        768,
+        769,
+        772,
+        989,
+        990,
+        992,
+        1002,
+        995
+      ],
+      "confusable_ids": [
+        "ch08_t10",
+        "ch08_t08",
+        "ch08_t07",
+        "ch08_t17",
+        "ch08_t05"
+      ]
+    },
+    {
+      "id": "ch08_t12",
+      "term": "White Nationalism",
+      "definition": "The belief that the nation should be built around a white identity that is reflected in religion, politics, economics, and culture",
+      "level3_question_ids": [
+        991,
+        993,
+        995,
+        1002
+      ],
+      "confusable_ids": [
+        "ch08_t03",
+        "ch08_t04",
+        "ch08_t22"
+      ]
+    },
+    {
+      "id": "ch08_t13",
+      "term": "Privilege",
+      "definition": "Unearned advantage accorded to members of dominant social groups",
+      "level3_question_ids": [
+        749,
+        988,
+        992,
+        996
+      ],
+      "confusable_ids": [
+        "ch08_t05",
+        "ch08_t16",
+        "ch08_t21",
+        "ch08_t22",
+        "ch08_t17"
+      ]
+    },
+    {
+      "id": "ch08_t14",
+      "term": "Color-Blind Racism",
+      "definition": "An ideology that removes race as an explanation for any form of unequal treatment",
+      "level3_question_ids": [
+        989,
+        993,
+        996
+      ],
+      "confusable_ids": [
+        "ch08_t18",
+        "ch08_t06",
+        "ch08_t08",
+        "ch08_t15",
+        "ch08_t19"
+      ]
+    },
+    {
+      "id": "ch08_t15",
+      "term": "Race Consciousness",
+      "definition": "An ideology that acknowledges race as a powerful social construct that shapes our individual and social experiences",
+      "level3_question_ids": [
+        993
+      ],
+      "confusable_ids": [
+        "ch08_t01",
+        "ch08_t14",
+        "ch08_t18",
+        "ch08_t19",
+        "ch08_t13"
+      ]
+    },
+    {
+      "id": "ch08_t16",
+      "term": "Microaggressions",
+      "definition": "Everyday uses of subtle verbal and nonverbal communications that convey denigrating messages to members of certain social groups",
+      "level3_question_ids": [
+        758,
+        990,
+        994,
+        996,
+        1001
+      ],
+      "confusable_ids": [
+        "ch08_t13",
+        "ch08_t05",
+        "ch08_t19",
+        "ch08_t02",
+        "ch08_t21"
+      ]
+    },
+    {
+      "id": "ch08_t17",
+      "term": "Cultural Appropriation",
+      "definition": "The adoption of cultural elements belonging to an oppressed group by members of the dominant group, without permission",
+      "level3_question_ids": [
+        988,
+        992,
+        994,
+        996
+      ],
+      "confusable_ids": [
+        "ch08_t22",
+        "ch08_t13",
+        "ch08_t02",
+        "ch08_t21",
+        "ch08_t07"
+      ]
+    },
+    {
+      "id": "ch08_t18",
+      "term": "Reverse Racism",
+      "definition": "The claim by whites that they suffer discrimination based upon their race and experience social disadvantages",
+      "level3_question_ids": [
+        988,
+        990,
+        993,
+        1002
+      ],
+      "confusable_ids": [
+        "ch08_t14",
+        "ch08_t06",
+        "ch08_t08",
+        "ch08_t15",
+        "ch08_t10"
+      ]
+    },
+    {
+      "id": "ch08_t19",
+      "term": "Segregation",
+      "definition": "The physical and legal separation of groups by race or ethnicity",
+      "level3_question_ids": [
+        997,
+        998,
+        999,
+        1000,
+        1001
+      ],
+      "confusable_ids": [
+        "ch08_t13",
+        "ch08_t14",
+        "ch08_t21",
+        "ch08_t22",
+        "ch08_t01"
+      ]
+    },
+    {
+      "id": "ch08_t20",
+      "term": "Assimilation",
+      "definition": "A pattern of relations between ethnic or racial groups in which the minority group is absorbed into the mainstream or dominant group",
+      "level3_question_ids": [
+        778,
+        780,
+        781,
+        783,
+        987,
+        991,
+        997,
+        998,
+        999,
+        1000,
+        1001
+      ],
+      "confusable_ids": [
+        "ch08_t21",
+        "ch08_t22",
+        "ch08_t23",
+        "ch08_t05",
+        "ch08_t06"
+      ]
+    },
+    {
+      "id": "ch08_t21",
+      "term": "Racial Assimilation",
+      "definition": "The process by which racial minority groups are absorbed into the dominant group through intermarriage",
+      "level3_question_ids": [
+        780,
+        998
+      ],
+      "confusable_ids": [
+        "ch08_t22",
+        "ch08_t20",
+        "ch08_t05",
+        "ch08_t13",
+        "ch08_t17"
+      ]
+    },
+    {
+      "id": "ch08_t22",
+      "term": "Cultural Assimilation",
+      "definition": "The process by which racial or ethnic groups are absorbed into the dominant group by adopting the dominant group's culture",
+      "level3_question_ids": [
+        778,
+        780,
+        781,
+        783,
+        987,
+        991,
+        997,
+        999,
+        1000,
+        1001
+      ],
+      "confusable_ids": [
+        "ch08_t21",
+        "ch08_t20",
+        "ch08_t17",
+        "ch08_t05",
+        "ch08_t06"
+      ]
+    },
+    {
+      "id": "ch08_t23",
+      "term": "Pluralism",
+      "definition": "A cultural pattern of intergroup relations that encourages racial and ethnic variation and acceptance within a society",
+      "level3_question_ids": [
+        991,
+        994,
+        995,
+        997,
+        999,
+        1000
+      ],
+      "confusable_ids": [
+        "ch08_t20",
+        "ch08_t22",
+        "ch08_t06",
+        "ch08_t02",
+        "ch08_t21"
+      ]
+    }
+  ],
+  "chapter_questions": [
+    {
+      "id": 746,
+      "question": "What sociological concept refers to a social group whose members are denied equal access to power and resources available to dominant groups in society?",
+      "choices": [
+        "Minority Group",
+        "Subordinate Group",
+        "Marginalized Population",
+        "Disadvantaged Collective"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t05"
+    },
+    {
+      "id": 747,
+      "question": "Which of the following is the key characteristic of a minority group?",
+      "choices": [
+        "Limited access to power and resources",
+        "Numerical inferiority within the population",
+        "Distinct cultural or ethnic heritage",
+        "Historical experience of migration"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t05"
+    },
+    {
+      "id": 748,
+      "question": "According to the sociological definition, which of the following statements about minority groups is TRUE?",
+      "choices": [
+        "A minority group can be a numerical majority in a society",
+        "Minority groups inherently constitute less than 50% of a population",
+        "Demographic proportions are the primary determinant of minority status",
+        "Minority groups must be recognized as distinct racial or ethnic categories"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t05"
+    },
+    {
+      "id": 749,
+      "question": "In South Africa during the apartheid era, Black South Africans constituted a numerical majority but had limited political rights and access to resources. This is an example of:",
+      "choices": [
+        "A minority group that was a numerical majority",
+        "A subordinate group with demographic dominance",
+        "A marginalized majority with restricted privilege",
+        "A disadvantaged population with numerical superiority"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t05"
+    },
+    {
+      "id": 750,
+      "question": "Which of the following is NOT a requirement for a group to be considered a \"minority group\" in the sociological sense?",
+      "choices": [
+        "Having fewer members than the dominant group",
+        "Having restricted access to societal power and resources",
+        "Being socially categorized as a distinct group",
+        "Experiencing systematic differential treatment"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t05"
+    },
+    {
+      "id": 751,
+      "question": "How does the sociological concept of a \"minority group\" differ from the everyday usage of the term \"minority\"?",
+      "choices": [
+        "Sociologically, minority groups are defined by power differentials, not necessarily by size",
+        "Sociologically, minority groups must be formally recognized by governmental institutions",
+        "Sociologically, minority groups are statistically smaller segments of the population",
+        "Sociologically, minority groups are defined by their cultural distinctiveness rather than power relations"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t05"
+    },
+    {
+      "id": 752,
+      "question": "Women in the United States constitute approximately 51% of the population but have historically had less access to economic and political power than men. From a sociological perspective, this would make women:",
+      "choices": [
+        "A minority group despite being a numerical majority",
+        "A demographic majority with incomplete dominance status",
+        "A statistical majority without minority classification",
+        "A subordinate demographic category but not a minority group"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t05"
+    },
+    {
+      "id": 753,
+      "question": "When analyzing minority group status, sociologists primarily focus on:",
+      "choices": [
+        "Differential access to power and resources",
+        "Demographic representation and population distribution",
+        "Cultural markers and identity formation processes",
+        "Social recognition and categorical classification"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t05"
+    },
+    {
+      "id": 754,
+      "question": "Which of the following accurately defines racism?",
+      "choices": [
+        "An ideology or set of beliefs about the claimed superiority of one racial or ethnic group over another",
+        "Actions or behaviors resulting in unequal treatment of individuals based on their racial or ethnic group membership",
+        "An inflexible attitude about a particular racial group rooted in stereotypes and generalizations",
+        "A set of institutional policies that have discriminatory outcomes against certain racial groups"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t06"
+    },
+    {
+      "id": 755,
+      "question": "How is racism different from prejudice?",
+      "choices": [
+        "Racism involves beliefs about racial superiority, while prejudice involves generalized attitudes about any group",
+        "Racism is only found in democratic societies, while prejudice is universal",
+        "Racism is primarily a system of oppression, while prejudice is primarily individual attitudes",
+        "Racism is always acted upon through discrimination, while prejudice remains at the level of thought"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t06"
+    },
+    {
+      "id": 756,
+      "question": "According to our textbook, which statement about racism is true?",
+      "choices": [
+        "Racism can be based on assumptions about biological differences or negative views of cultural characteristics",
+        "Racism exists only when people are consciously aware of their beliefs about racial superiority",
+        "Racism is primarily manifested through overt discriminatory actions rather than subtle belief systems",
+        "Racism is always rooted in historical systems of oppression rather than individual beliefs"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t06"
+    },
+    {
+      "id": 757,
+      "question": "Which of the following most directly results from racism?",
+      "choices": [
+        "Justification for unequal social arrangements between dominant and non-dominant groups",
+        "Establishment of discriminatory practices in educational and employment institutions",
+        "Development of prejudicial attitudes toward members of racial minority groups",
+        "Formation of racially segregated communities through historical housing policies"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t06"
+    },
+    {
+      "id": 758,
+      "question": "Which concept is most closely related to racism but focuses on actions rather than beliefs?",
+      "choices": [
+        "Discrimination",
+        "Microaggressions",
+        "Institutional racism",
+        "Individual racism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t16"
+    },
+    {
+      "id": 759,
+      "question": "Which of the following is the definition of prejudice?",
+      "choices": [
+        "An inflexible attitude about a particular group of people that is rooted in generalizations or stereotypes.",
+        "An action or behavior that results in the unequal treatment of individuals because of their membership in a certain social group.",
+        "The unearned advantage accorded to members of dominant social groups that often blinds them to challenges faced by others.",
+        "A set of beliefs that removes race as an explanation for any form of unequal treatment in society."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t07"
+    },
+    {
+      "id": 760,
+      "question": "Which of the following is the best example of prejudice?",
+      "choices": [
+        "A person believing that all Asian Americans are naturally good at math.",
+        "A person making a racially insensitive joke without intending to offend anyone.",
+        "A landlord consistently charging higher security deposits to residents from certain backgrounds.",
+        "A teacher unconsciously calling on male students more frequently than female students during class discussions."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t07"
+    },
+    {
+      "id": 761,
+      "question": "Which statement about prejudice is false?",
+      "choices": [
+        "Prejudice is always negative.",
+        "Prejudice involves forming opinions about groups before having adequate information.",
+        "People can develop prejudiced attitudes unknowingly through cultural messages and social learning.",
+        "Prejudice consists of rigid generalizations that resist change even when contradictory evidence is presented."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t07"
+    },
+    {
+      "id": 762,
+      "question": "How is prejudice different from discrimination?",
+      "choices": [
+        "Prejudice is an attitude, while discrimination is an action.",
+        "Prejudice affects only minority groups, while discrimination can affect both minority and majority groups.",
+        "Prejudice is primarily based on cultural factors, while discrimination is primarily based on economic factors.",
+        "Prejudice can be eliminated through education alone, while discrimination requires policy changes."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t08"
+    },
+    {
+      "id": 763,
+      "question": "According to the textbook, why is prejudice difficult to avoid?",
+      "choices": [
+        "Prejudiced ideas circulate through culture, making them hard to avoid even for those who wish not to have them.",
+        "Socialization processes unconsciously transmit prejudiced attitudes across generations as part of normal development.",
+        "Social institutions historically developed prejudiced frameworks that continue to shape how we perceive different groups.",
+        "Media representations and everyday discourse normalize prejudiced viewpoints, making them seem objective rather than biased."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t07"
+    },
+    {
+      "id": 764,
+      "question": "What is the relationship between prejudice and racism according to the textbook?",
+      "choices": [
+        "Racism is an ideology or set of beliefs, while prejudice is an inflexible attitude rooted in generalizations.",
+        "Racism specifically claims superiority of one racial or ethnic group, while prejudice can be directed at any social group, not just racial ones.",
+        "Racism is always negative, while prejudice can sometimes be positive according to the textbook's definition.",
+        "Racism primarily involves biological or cultural arguments for group differences, while prejudice primarily involves stereotypes about group behavior."
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t07"
+    },
+    {
+      "id": 765,
+      "question": "What is discrimination?",
+      "choices": [
+        "Unequal treatment of individuals based on their membership in a social group",
+        "A predisposed judgment that influences how one perceives and acts toward certain groups",
+        "A system of advantage based on social group membership",
+        "Actions that enforce dominant cultural norms within society's institutions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t08"
+    },
+    {
+      "id": 766,
+      "question": "Which of the following is the most important characteristic of discrimination?",
+      "choices": [
+        "It is behavior that results in unequal treatment",
+        "It is always motivated by explicit prejudicial attitudes",
+        "It can only be perpetuated by those with institutional authority",
+        "It requires awareness of one's biases to be considered discrimination"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t08"
+    },
+    {
+      "id": 767,
+      "question": "Which of the following is the best example of individual discrimination?",
+      "choices": [
+        "A store owner refuses to serve a customer because of their race",
+        "A mortgage company implements a policy requiring higher credit scores for applicants from certain zip codes",
+        "A school district allocates fewer resources to schools in predominantly minority neighborhoods",
+        "A corporation establishes hiring criteria that inadvertently exclude qualified candidates from specific cultural backgrounds"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t10"
+    },
+    {
+      "id": 768,
+      "question": "Which statement about institutional discrimination is FALSE?",
+      "choices": [
+        "It is always intentional",
+        "It can be perpetuated by individuals who actively oppose prejudice but follow established protocols",
+        "It frequently stems from organizational practices designed to be fair but that produce unequal outcomes",
+        "It affects larger numbers of people and persists across time more than individual discriminatory acts"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t11"
+    },
+    {
+      "id": 769,
+      "question": "A bank refuses to give loans to people who live in certain neighborhoods, regardless of their credit score. This is an example of:",
+      "choices": [
+        "Institutional discrimination",
+        "Individual discrimination based on a loan officer's personal biases",
+        "Prejudicial attitudes translated into bank guidelines",
+        "Symbolic ethnicity expressed through financial policies"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t11"
+    },
+    {
+      "id": 770,
+      "question": "What is the key difference between prejudice and discrimination?",
+      "choices": [
+        "Prejudice is an attitude, while discrimination is an action",
+        "Prejudice occurs at the individual level, while discrimination occurs at the institutional level",
+        "Prejudice is developed through personal experience, while discrimination is learned through socialization",
+        "Prejudice reflects cultural biases, while discrimination reflects structural inequalities"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t08"
+    },
+    {
+      "id": 771,
+      "question": "Which of the following statements best describes the relationship between prejudice and discrimination?",
+      "choices": [
+        "One can be prejudiced without discriminating, and one can discriminate without being prejudiced",
+        "Prejudice represents the cognitive dimension while discrimination represents the behavioral outcome of the same psychological process",
+        "Prejudice exists primarily at the individual level while discrimination occurs exclusively at the institutional level",
+        "Prejudice requires conscious awareness while discrimination can operate unconsciously through institutional structures"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t08"
+    },
+    {
+      "id": 772,
+      "question": "Which of the following scenarios illustrates institutional discrimination?",
+      "choices": [
+        "A standardized test that consistently produces lower scores for certain ethnic groups",
+        "A restaurant owner who provides inferior service to customers of certain ethnicities",
+        "A police officer who disproportionately stops drivers of color based on personal biases",
+        "A healthcare provider who dismisses symptoms reported by patients from specific backgrounds"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t11"
+    },
+    {
+      "id": 773,
+      "question": "Which of the following best describes symbolic ethnicity?",
+      "choices": [
+        "The enactment of ethnic identity that occurs only on special occasions",
+        "When individuals deliberately assert or downplay their ethnicity depending on social context",
+        "The preservation of ethnic traditions primarily for cultural tourism and consumption",
+        "The unconscious expression of ethnic identity through daily habits and preferences"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t03"
+    },
+    {
+      "id": 774,
+      "question": "Which of the following is the best example of symbolic ethnicity?",
+      "choices": [
+        "An Italian-American who only prepares traditional Italian dishes for holiday gatherings",
+        "A Korean-American who speaks Korean fluently but only uses it when visiting relatives in Korea",
+        "A Jewish-American who displays a menorah during Hanukkah but doesn't observe other Jewish traditions",
+        "A Greek-American who maintains daily cooking practices from their cultural heritage"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t03"
+    },
+    {
+      "id": 775,
+      "question": "Which concept refers to when individuals deliberately assert or downplay their ethnicity depending on the social context?",
+      "choices": [
+        "Situational ethnicity",
+        "Symbolic ethnicity",
+        "Code switching",
+        "Passing"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t04"
+    },
+    {
+      "id": 776,
+      "question": "Which of the following best exemplifies situational ethnicity?",
+      "choices": [
+        "A bilingual person who speaks their native language at home but uses English in professional settings",
+        "A person who only prepares traditional cultural dishes during holiday celebrations",
+        "A professional who emphasizes their ethnic background when applying for a diversity scholarship but minimizes it in job interviews",
+        "A second-generation immigrant who legally changes their name to better reflect their cultural heritage"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch08_t04"
+    },
+    {
+      "id": 777,
+      "question": "Which statement correctly differentiates between symbolic ethnicity and situational ethnicity?",
+      "choices": [
+        "Symbolic ethnicity occurs  on special occasions, while situational ethnicity involves strategic choices based on social context",
+        "Symbolic ethnicity involves public displays of cultural identity, while situational ethnicity occurs primarily in private settings",
+        "Symbolic ethnicity is associated with minority groups seeking visibility, while situational ethnicity is typically practiced by majority groups",
+        "Symbolic ethnicity represents authentic cultural practices, while situational ethnicity involves strategic adaptation to avoid discrimination"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t04"
+    },
+    {
+      "id": 778,
+      "question": "Why is symbolic ethnicity primarily associated with majority groups rather than minority groups?",
+      "choices": [
+        "Because majority groups can express their ethnicity without fear of stigmatization or discrimination",
+        "Because minority groups must constantly navigate their ethnic identity rather than expressing it occasionally",
+        "Because majority groups tend to have more resources to organize cultural celebrations and events",
+        "Because symbolic ethnicity represents the final stage in the process of cultural assimilation"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t22"
+    },
+    {
+      "id": 779,
+      "question": "How is systemic discrimination different from individual discrimination?",
+      "choices": [
+        "It operates through organizational structures and policies rather than personal actions",
+        "It occurs through formal policies while individual discrimination is always informal",
+        "It requires group consensus while individual discrimination stems from personal bias",
+        "It only affects public institutions while individual discrimination affects private interactions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t10"
+    },
+    {
+      "id": 780,
+      "question": "The process by which racial minority groups are absorbed into the dominant group through intermarriage is known as:",
+      "choices": [
+        "Racial Assimilation",
+        "Cultural Assimilation",
+        "Embodied Identity",
+        "Double Consciousness"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t22"
+    },
+    {
+      "id": 781,
+      "question": "Which of the following is an example of cultural assimilation?",
+      "choices": [
+        "Immigrants learning to speak English and adopting American customs",
+        "Immigrants maintaining their native language while adopting American dress and food habits",
+        "Second-generation immigrants participating in traditional cultural festivals while following mainstream American lifestyles",
+        "Immigrant communities establishing cultural centers to preserve their heritage while integrating into American society"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t22"
+    },
+    {
+      "id": 782,
+      "question": "Which sociological concept describes a person of Lebanese ancestry moving to a city with a large Lebanese population and finding their ethnicity to be an advantage?",
+      "choices": [
+        "Situational Ethnicity",
+        "Symbolic Ethnicity",
+        "Passing",
+        "Double Consciousness"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t04"
+    },
+    {
+      "id": 783,
+      "question": "How might cultural assimilation affect an individual's sense of identity?",
+      "choices": [
+        "It may create tension between maintaining one's cultural heritage and adapting to the dominant culture",
+        "It typically results in a strengthened bicultural identity where both original and new cultural elements are equally valued",
+        "It leads to a gradual evolution of identity where original cultural elements are preserved but reinterpreted through the lens of the dominant culture",
+        "It creates a compartmentalized identity where individuals maintain separate cultural identities for different social contexts without psychological conflict"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t22"
+    },
+    {
+      "id": 987,
+      "question": "A college student named Sarah, whose grandparents immigrated from Ireland, only thinks about her Irish heritage when she attends the annual St. Patrick's Day parade in her city. For the other 364 days of the year, her Irish background is irrelevant to her daily life. What concept best describes Sarah's ethnic identity?",
+      "choices": [
+        "Situational ethnicity",
+        "Symbolic ethnicity",
+        "Cultural assimilation",
+        "Racial passing"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch08_t04"
+    },
+    {
+      "id": 988,
+      "question": "Maria, a fourth-generation Mexican American, can \"turn on\" her ethnic identity when it helps her connect with clients at her job in a predominantly Latino neighborhood, but she downplays it when networking at corporate events in more mainstream settings. This represents an example of:",
+      "choices": [
+        "Reverse racism",
+        "Cultural appropriation",
+        "Situational ethnicity",
+        "White privilege"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch08_t17"
+    },
+    {
+      "id": 989,
+      "question": "Dr. Chen notices that during standardized testing, she sometimes catches herself making assumptions about students' academic abilities before even seeing their work. She realizes these unconscious judgments are influencing her expectations, even though she considers herself unprejudiced. This phenomenon is best described as:",
+      "choices": [
+        "Individual discrimination",
+        "Institutional discrimination",
+        "Implicit bias",
+        "Color-blind racism"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch08_t11"
+    },
+    {
+      "id": 990,
+      "question": "When the city's police department systematically targets certain neighborhoods for drug searches, resulting in disproportionate arrest rates for residents of color despite similar drug use rates across all communities, this exemplifies:",
+      "choices": [
+        "Individual discrimination",
+        "Institutional discrimination",
+        "Reverse racism",
+        "Microaggressions"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch08_t11"
+    },
+    {
+      "id": 991,
+      "question": "A movement promoting the idea that American culture, politics, and economics should center around white identity and Christian values represents:",
+      "choices": [
+        "White nationalism",
+        "Cultural assimilation",
+        "Pluralism",
+        "Symbolic ethnicity"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t22"
+    },
+    {
+      "id": 992,
+      "question": "When white students can assume that most of their teachers will be white and that classroom discussions will generally reflect their cultural perspectives, this demonstrates:",
+      "choices": [
+        "Cultural appropriation",
+        "Institutional discrimination",
+        "Privilege",
+        "Situational ethnicity"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch08_t11"
+    },
+    {
+      "id": 993,
+      "question": "Marcus, a sociology professor, argues that claiming \"I don't see color\" actually perpetuates racial inequality because it ignores the ongoing impact of race in society. The ideology he is critiquing is known as:",
+      "choices": [
+        "Color-blind racism",
+        "Race consciousness",
+        "White nationalism",
+        "Reverse racism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t14"
+    },
+    {
+      "id": 994,
+      "question": "When a popular fashion designer incorporates sacred Native American symbols into a clothing line for profit, without permission or understanding of their cultural significance, this represents:",
+      "choices": [
+        "Symbolic ethnicity",
+        "Microaggressions",
+        "Cultural appropriation",
+        "Pluralism"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch08_t17"
+    },
+    {
+      "id": 995,
+      "question": "A study finds that job applicants with \"white-sounding\" names receive significantly more callbacks than those with identical qualifications but \"Black-sounding\" names. This research demonstrates:",
+      "choices": [
+        "Institutional discrimination",
+        "Symbolic ethnicity",
+        "White nationalism",
+        "Pluralism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t11"
+    },
+    {
+      "id": 996,
+      "question": "When a white person asks an Asian American colleague \"Where are you really from?\" after being told they're from California, this exemplifies:",
+      "choices": [
+        "Cultural appropriation",
+        "Microaggressions",
+        "Privilege",
+        "Color-blind racism"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch08_t17"
+    },
+    {
+      "id": 997,
+      "question": "A company implements policies requiring separate living quarters for workers of different racial backgrounds, claiming this will reduce workplace conflicts. This practice represents:",
+      "choices": [
+        "Pluralism",
+        "Cultural assimilation",
+        "Segregation",
+        "Population transfer"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch08_t22"
+    },
+    {
+      "id": 998,
+      "question": "When newer immigrants from Mexico gradually adopt American cultural practices while their children become bilingual and eventually marry outside their ethnic group, this process illustrates:",
+      "choices": [
+        "Population transfer",
+        "Internal colonialism",
+        "Racial assimilation",
+        "Segregation"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch08_t21"
+    },
+    {
+      "id": 999,
+      "question": "A community college creates programs celebrating different cultural heritages through festivals, courses, and student organizations while encouraging interaction among all ethnic groups. This approach exemplifies:",
+      "choices": [
+        "Cultural assimilation",
+        "Segregation",
+        "Pluralism",
+        "Population transfer"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch08_t22"
+    },
+    {
+      "id": 1000,
+      "question": "In a society where the government forces a minority religious group to relocate to a designated territory far from their ancestral lands, this represents:",
+      "choices": [
+        "Population transfer",
+        "Cultural assimilation",
+        "Segregation",
+        "Pluralism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch08_t22"
+    },
+    {
+      "id": 1001,
+      "question": "When immigrants from various European countries in the early 1900s gradually lost their distinct national identities and became simply \"white Americans,\" this demonstrated:",
+      "choices": [
+        "Symbolic ethnicity",
+        "Segregation",
+        "Cultural assimilation",
+        "Microaggressions"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch08_t22"
+    },
+    {
+      "id": 1002,
+      "question": "The claim that programs designed to help underrepresented minorities actually discriminate against white people represents the concept of:",
+      "choices": [
+        "White nationalism",
+        "Institutional discrimination",
+        "Reverse racism",
+        "Implicit bias"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch08_t11"
+    },
+    {
+      "id": 1230,
+      "question": "Maria, a second-generation Mexican American, proudly celebrates D\u00eda de los Muertos with her family but feels pressure at work to downplay her heritage to fit in with colleagues. This tension best illustrates which sociological insight about ethnic identity?",
+      "choices": [
+        "Ethnic identity is entirely a matter of individual choice and personal preference",
+        "Structural constraints completely determine how individuals express their ethnicity",
+        "While individuals can make choices about expressing ethnicity, these choices occur within broader structural and historical constraints",
+        "Ethnic identity only becomes relevant in situations involving discrimination"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch08_t02"
+    },
+    {
+      "id": 1231,
+      "question": "From a conflict theory perspective, why does racial inequality persist in modern societies even after legal reforms have outlawed discrimination?",
+      "choices": [
+        "Because cultural attitudes lag behind institutional changes",
+        "Because psychological biases are resistant to structural improvements",
+        "Because racial stratification serves the economic interests of dominant groups who benefit from maintaining systems of inequality",
+        "Because meritocratic systems unintentionally produce unequal outcomes"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch08_t06"
+    },
+    {
+      "id": 1232,
+      "question": "A conflict theorist studying race would argue that immigration restrictions historically targeted certain racial groups primarily because:",
+      "choices": [
+        "Cultural differences made assimilation genuinely difficult",
+        "Dominant groups used racial categories to protect their economic privileges and labor market advantages",
+        "Immigrant communities preferred to maintain separation from the dominant culture",
+        "Individual prejudices of lawmakers reflected widespread public opinion"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch08_t06"
+    }
+  ]
+}

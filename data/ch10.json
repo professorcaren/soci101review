@@ -1,0 +1,508 @@
+{
+  "id": "ch10",
+  "name": "Religion",
+  "order": 10,
+  "concepts": [
+    {
+      "id": "ch10_t01",
+      "term": "Religion",
+      "definition": "Any institutionalized system of shared beliefs and rituals that identify a relationship between the sacred and the profane",
+      "level3_question_ids": [
+        295,
+        297,
+        302,
+        304,
+        1233,
+        1234,
+        1235,
+        1236
+      ],
+      "confusable_ids": [
+        "ch10_t04",
+        "ch10_t11",
+        "ch10_t12",
+        "ch10_t13",
+        "ch10_t14"
+      ]
+    },
+    {
+      "id": "ch10_t02",
+      "term": "Sacred",
+      "definition": "The holy, divine, or supernatural",
+      "level3_question_ids": [
+        294,
+        295,
+        296,
+        299,
+        301,
+        302,
+        303,
+        305
+      ],
+      "confusable_ids": [
+        "ch10_t04"
+      ]
+    },
+    {
+      "id": "ch10_t03",
+      "term": "Profane",
+      "definition": "The ordinary, mundane, or everyday",
+      "level3_question_ids": [
+        294,
+        295,
+        296,
+        302,
+        305
+      ],
+      "confusable_ids": []
+    },
+    {
+      "id": "ch10_t04",
+      "term": "Intrinsic Religiosity",
+      "definition": "A person's inner religious life or personal relationship to the divine",
+      "level3_question_ids": [
+        294,
+        295,
+        296,
+        297,
+        300,
+        303
+      ],
+      "confusable_ids": [
+        "ch10_t05",
+        "ch10_t13",
+        "ch10_t09",
+        "ch10_t02",
+        "ch10_t01"
+      ]
+    },
+    {
+      "id": "ch10_t05",
+      "term": "Extrinsic Religiosity",
+      "definition": "A person's public display of commitment to a religious faith",
+      "level3_question_ids": [
+        295,
+        297,
+        298,
+        302,
+        304,
+        305,
+        306
+      ],
+      "confusable_ids": [
+        "ch10_t04",
+        "ch10_t13",
+        "ch10_t08",
+        "ch10_t07",
+        "ch10_t10"
+      ]
+    },
+    {
+      "id": "ch10_t06",
+      "term": "Secular",
+      "definition": "Nonreligious; a secular society separates church and state and does not endorse any religion",
+      "level3_question_ids": [
+        294,
+        295,
+        296,
+        297,
+        300,
+        303,
+        306
+      ],
+      "confusable_ids": [
+        "ch10_t07",
+        "ch10_t14"
+      ]
+    },
+    {
+      "id": "ch10_t07",
+      "term": "Secularization",
+      "definition": "The process by which religious influence declines in a society and religious institutions lose social and political power",
+      "level3_question_ids": [
+        298,
+        302,
+        304,
+        305
+      ],
+      "confusable_ids": [
+        "ch10_t08",
+        "ch10_t09",
+        "ch10_t14",
+        "ch10_t05",
+        "ch10_t04"
+      ]
+    },
+    {
+      "id": "ch10_t08",
+      "term": "Traditional Authority",
+      "definition": "Power legitimized through respect for long-established cultural patterns, often found in religious institutions",
+      "level3_question_ids": [
+        294,
+        295,
+        299,
+        301,
+        306
+      ],
+      "confusable_ids": [
+        "ch10_t09",
+        "ch10_t07",
+        "ch10_t05",
+        "ch10_t04",
+        "ch10_t10"
+      ]
+    },
+    {
+      "id": "ch10_t09",
+      "term": "Charismatic Authority",
+      "definition": "Power legitimized through exceptional personal qualities or the ability to inspire followers, often seen in religious leaders",
+      "level3_question_ids": [
+        295,
+        298,
+        299,
+        301,
+        305,
+        306
+      ],
+      "confusable_ids": [
+        "ch10_t08",
+        "ch10_t04",
+        "ch10_t07",
+        "ch10_t05",
+        "ch10_t10"
+      ]
+    },
+    {
+      "id": "ch10_t10",
+      "term": "Unchurched",
+      "definition": "A term describing those who consider themselves spiritual but not religious and who often adopt aspects of various religious traditions",
+      "level3_question_ids": [
+        300,
+        303
+      ],
+      "confusable_ids": [
+        "ch10_t12",
+        "ch10_t05",
+        "ch10_t04",
+        "ch10_t08",
+        "ch10_t07"
+      ]
+    },
+    {
+      "id": "ch10_t11",
+      "term": "Ritual",
+      "definition": "Formal, ceremonial behaviors or practices based on religious beliefs that are regularly performed by believers",
+      "level3_question_ids": [
+        296,
+        302,
+        305
+      ],
+      "confusable_ids": [
+        "ch10_t13",
+        "ch10_t05",
+        "ch10_t04",
+        "ch10_t01",
+        "ch10_t08"
+      ]
+    },
+    {
+      "id": "ch10_t12",
+      "term": "Collective Effervescence",
+      "definition": "Durkheim's term for the heightened sense of shared energy and community that people experience during religious gatherings",
+      "level3_question_ids": [
+        296
+      ],
+      "confusable_ids": [
+        "ch10_t10",
+        "ch10_t05",
+        "ch10_t04",
+        "ch10_t01",
+        "ch10_t08"
+      ]
+    },
+    {
+      "id": "ch10_t13",
+      "term": "Religiosity",
+      "definition": "The regular practice of religious beliefs, often measured in terms of frequency of attendance at worship services and the importance of religious beliefs to an individual",
+      "level3_question_ids": [
+        294,
+        295,
+        296,
+        297,
+        298,
+        300,
+        302,
+        303,
+        304,
+        305,
+        306
+      ],
+      "confusable_ids": [
+        "ch10_t05",
+        "ch10_t04",
+        "ch10_t11",
+        "ch10_t01",
+        "ch10_t08"
+      ]
+    },
+    {
+      "id": "ch10_t14",
+      "term": "Cult",
+      "definition": "A small religious group that exists in tension with the dominant society, typically organized around a charismatic leader who demands complete obedience, and may involve strict rituals and isolation from mainstream culture",
+      "level3_question_ids": [
+        1218,
+        1219,
+        1220
+      ],
+      "confusable_ids": [
+        "ch10_t07",
+        "ch10_t05",
+        "ch10_t04",
+        "ch10_t06",
+        "ch10_t01"
+      ]
+    }
+  ],
+  "chapter_questions": [
+    {
+      "id": 294,
+      "question": "A researcher studying a religious community observes that members always remove their shoes before entering the main worship hall, never eat certain foods during specific months, and gather weekly to perform ritualized chanting together. When asked, members explain these behaviors as \"things we do because our tradition requires it to honor the divine.\" This scenario best illustrates which concept?",
+      "choices": [
+        "Sacred practices reflecting intrinsic religiosity",
+        "Secular behaviors with spiritual meaning",
+        "Ritualized behaviors that distinguish sacred from profane",
+        "Traditional authority within religious institutions"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch10_t04"
+    },
+    {
+      "id": 295,
+      "question": "Maya grew up attending weekly services and participating in all major religious holidays with her family, but privately she questions many core teachings and rarely prays or meditates on her own. Her friend Sarah rarely attends services but spends time daily in personal prayer and feels her faith deeply guides her life decisions. This scenario demonstrates the difference between which two concepts?",
+      "choices": [
+        "Sacred and profane religiosity",
+        "Extrinsic religiosity and intrinsic religiosity",
+        "Traditional authority and charismatic authority",
+        "Religion and secular spirituality"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch10_t04"
+    },
+    {
+      "id": 296,
+      "question": "During a large music festival, thousands of attendees simultaneously sing, dance, and cheer together, creating an electric atmosphere where individual boundaries seem to dissolve and people report feeling \"connected to something larger than themselves.\" According to Durkheim, this experience exemplifies which religious concept?",
+      "choices": [
+        "Intrinsic religiosity among secular individuals",
+        "Collective effervescence in a non-religious setting",
+        "Ritual behavior outside traditional institutions",
+        "The distinction between sacred and profane experiences"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch10_t12"
+    },
+    {
+      "id": 297,
+      "question": "Dr. Williams regularly attends church services, serves on the board of trustees, and chairs the annual fundraising committee. However, when interviewed privately, she admits she has serious doubts about core religious doctrines and mainly participates because \"it's expected in my community and good for my medical practice.\" Her approach to religion primarily demonstrates which concept?",
+      "choices": [
+        "Extrinsic religiosity",
+        "Intrinsic religiosity",
+        "Secular spirituality",
+        "Religious fundamentalism"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch10_t04"
+    },
+    {
+      "id": 298,
+      "question": "A country's government removes religious symbols from public buildings, eliminates religious instruction from state schools, stops recognizing religious holidays as national holidays, and prohibits government officials from referencing religious texts in official proceedings. This represents which process?",
+      "choices": [
+        "The rise of fundamentalism in response to modernity",
+        "The separation of intrinsic and extrinsic religiosity",
+        "Secularization as religious influence declines in public institutions",
+        "The transformation from traditional to charismatic authority"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch10_t05"
+    },
+    {
+      "id": 299,
+      "question": "A spiritual teacher attracts thousands of followers through her charismatic personality and claims of direct divine revelations. Followers obey her commands without question, donate their possessions to her organization, and believe she has supernatural powers to heal and predict the future. This leader's influence is based on which type of authority?",
+      "choices": [
+        "Traditional authority rooted in religious custom",
+        "Charismatic authority based on exceptional personal qualities",
+        "Legal-rational authority through institutional position",
+        "Sacred authority derived from religious texts"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch10_t08"
+    },
+    {
+      "id": 300,
+      "question": "Marcus describes himself as \"spiritual but not religious.\" He practices meditation techniques from Buddhism, celebrates some Christian holidays with family, uses Native American smudging ceremonies for cleansing, and reads New Age books about crystal healing. His approach to spirituality would be categorized as which concept?",
+      "choices": [
+        "Intrinsic religiosity within multiple traditions",
+        "Secular rejection of all religious influence",
+        "Unchurched spirituality adopting various religious elements",
+        "Religious fundamentalism across different faith traditions"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch10_t04"
+    },
+    {
+      "id": 301,
+      "question": "A government official explains policy decisions by stating \"This is how we've always governed in our nation - following the traditions passed down through generations of leaders before us.\" This official is appealing to which type of authority?",
+      "choices": [
+        "Traditional authority legitimized through long-established cultural patterns",
+        "Charismatic authority based on personal leadership qualities",
+        "Religious authority derived from sacred texts",
+        "Legal-rational authority based on formal procedures"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch10_t08"
+    },
+    {
+      "id": 302,
+      "question": "A sociologist studying different religious communities finds that while Community A emphasizes strict adherence to ancient scriptures and Community B focuses on personal spiritual experiences, both groups regularly engage in ceremonial practices that members perform collectively at designated times and places based on their shared beliefs. What aspect of religion does this research most directly examine?",
+      "choices": [
+        "The distinction between sacred and profane realms",
+        "Different levels of intrinsic versus extrinsic religiosity",
+        "Ritual as formal, ceremonial religious behavior",
+        "The process of secularization in modern communities"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch10_t05"
+    },
+    {
+      "id": 303,
+      "question": "A college student raised in a deeply religious family finds that their personal prayer life and sense of divine connection have actually grown stronger while their attendance at formal worship services has decreased significantly since starting university. This change primarily reflects a shift in which aspect of religiosity?",
+      "choices": [
+        "From sacred to secular orientation",
+        "From religious to unchurched spirituality",
+        "From extrinsic to intrinsic religiosity emphasis",
+        "From traditional to charismatic religious authority"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch10_t04"
+    },
+    {
+      "id": 304,
+      "question": "A religious studies scholar argues that modern society increasingly treats religious institutions the same way it treats any other voluntary associations - without special deference or authority in public matters. This observation most directly describes which concept?",
+      "choices": [
+        "The growth of fundamentalism as a response to change",
+        "The difference between intrinsic and extrinsic religiosity",
+        "Secularization reducing religion's social influence",
+        "The transformation of traditional religious authority"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch10_t05"
+    },
+    {
+      "id": 305,
+      "question": "An anthropologist studying a remote community observes that certain objects, locations, and times are treated as \"set apart\" and approached with special reverence, awe, and ritual care, while other aspects of daily life are treated as ordinary and routine. This distinction most clearly illustrates which religious concepts?",
+      "choices": [
+        "The differentiation between sacred and profane realms",
+        "The difference between intrinsic and extrinsic religiosity",
+        "The presence of traditional versus charismatic authority",
+        "The process of secularization in traditional societies"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch10_t05"
+    },
+    {
+      "id": 306,
+      "question": "A pastor builds a massive following through inspiring sermons, faith healing services, and claims of prophetic visions, leading congregation members to donate millions and follow his guidance on major life decisions. However, after the pastor's death, the religious organization struggles to maintain unity and many members leave. This scenario best illustrates the challenges associated with which type of religious authority?",
+      "choices": [
+        "Traditional authority's resistance to social change",
+        "Charismatic authority's dependence on individual leadership",
+        "Secular authority's conflict with religious values",
+        "The tension between intrinsic and extrinsic religiosity"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch10_t05"
+    },
+    {
+      "id": 1218,
+      "question": "A new religious group forms around a leader who claims divine visions. Members must cut ties with non-member family, surrender personal finances, and follow a strict daily schedule set by the leader. Sociologists would most likely classify this group as:",
+      "choices": [
+        "A sect breaking away from a mainstream denomination",
+        "A cult organized around a charismatic leader",
+        "A new form of unchurched spirituality",
+        "An example of collective effervescence"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch10_t14"
+    },
+    {
+      "id": 1219,
+      "question": "Which characteristic most clearly distinguishes a cult from other religious organizations?",
+      "choices": [
+        "Regular performance of sacred rituals by members",
+        "Beliefs that separate the sacred from the profane",
+        "Isolation from society and complete obedience to a charismatic leader",
+        "Emphasis on intrinsic religiosity over extrinsic practice"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch10_t14"
+    },
+    {
+      "id": 1220,
+      "question": "Researchers studying a group find that members live in a gated compound, refer to their founder as 'the Prophet,' and are forbidden from consuming outside media. Which sociological concept best describes this organization?",
+      "choices": [
+        "A ritualistic religious denomination",
+        "A sect with traditional authority",
+        "A cult with characteristics of isolation and leader devotion",
+        "A secularized spiritual community"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch10_t14"
+    },
+    {
+      "id": 1233,
+      "question": "A theology professor argues that prayer heals because God answers the faithful, while a sociology professor studying the same phenomenon examines how prayer circles strengthen social bonds and provide emotional support. This contrast illustrates that:",
+      "choices": [
+        "Sociology focuses only on the negative effects of religious practice",
+        "Sociologists study how religion shapes and is shaped by society without evaluating the truth of beliefs",
+        "Theological approaches are more comprehensive than sociological ones",
+        "Sociology cannot study religion because it deals with the supernatural"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch10_t01"
+    },
+    {
+      "id": 1234,
+      "question": "What distinguishes a sociological study of religion from a theological study?",
+      "choices": [
+        "Sociology focuses on individual belief while theology focuses on institutions",
+        "Sociology examines religion's social functions and effects without judging whether beliefs are true or false",
+        "Theology studies the sacred while sociology only studies the profane",
+        "Sociology only uses quantitative methods to study religion"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch10_t01"
+    },
+    {
+      "id": 1235,
+      "question": "The same religious tradition was used by slaveholders to justify slavery and by enslaved people to inspire resistance movements. From a conflict perspective, this demonstrates that religion:",
+      "choices": [
+        "Functions solely to maintain social order and stability",
+        "Is always a tool of the powerful to oppress the weak",
+        "Can both reinforce inequality and serve as a force for social justice and change",
+        "Is irrelevant to understanding power dynamics in society"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch10_t01"
+    },
+    {
+      "id": 1236,
+      "question": "A sociologist studying religion includes not only Christianity and Islam but also indigenous spiritual practices, meditation movements, and secular rituals in their research. This approach reflects the principle that:",
+      "choices": [
+        "All religions are essentially the same in structure and function",
+        "A sociological definition of religion must be broad enough to encompass all forms of religious experience",
+        "Non-Western practices are more authentically religious than organized religions",
+        "Sociologists should only study religions with formal institutional structures"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch10_t01"
+    }
+  ]
+}
