@@ -48,12 +48,14 @@ const App = (() => {
         nameInput.addEventListener('input', () => UI.updateIdentityButton());
         onyenInput.addEventListener('input', () => UI.updateIdentityButton());
 
-        identityBtn.addEventListener('click', () => {
+        identityBtn.addEventListener('click', async () => {
             const name = nameInput.value.trim();
             const onyen = onyenInput.value.trim();
             if (name && onyen) {
                 Progress.setStudent(name, onyen);
                 UI.hideIdentityModal();
+                // Try to restore progress from cloud
+                await Sync.pullProgress();
                 showHome();
             }
         });

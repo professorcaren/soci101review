@@ -203,6 +203,7 @@ const Progress = (() => {
             chapterProgress[ch.id] = stats.pct;
         }
         return {
+            onyen: getOnyen(),
             studentName: getStudentName(),
             chapterProgress,
             fullData: getData(),

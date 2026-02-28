@@ -347,6 +347,8 @@ const UI = (() => {
             });
         }
 
+        Sync.onAnswer();
+
         if (_examTestMode) {
             // Neutral highlight, auto-advance
             const btns = document.querySelectorAll('#choices .choice-btn');
@@ -391,7 +393,6 @@ const UI = (() => {
         }
 
         document.getElementById('btn-next').classList.remove('hidden');
-        Sync.onAnswer();
     }
 
     function nextQuestion() {
