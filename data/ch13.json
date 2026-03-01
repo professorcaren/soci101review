@@ -13,6 +13,7 @@
         120,
         142,
         144,
+        146,
         152,
         155,
         160,
@@ -38,10 +39,12 @@
         118,
         119,
         121,
+        127,
         128,
         129,
         130,
         131,
+        132,
         135,
         147,
         148,
@@ -51,6 +54,7 @@
         152,
         153,
         154,
+        157,
         158,
         159,
         418,
@@ -60,8 +64,7 @@
         422,
         425,
         426,
-        427,
-        127
+        427
       ],
       "confusable_ids": [
         "ch13_t04",
@@ -77,6 +80,7 @@
       "definition": "A family unit including relatives beyond parents and children (e.g., grandparents, aunts, uncles), often living together or nearby.",
       "level3_question_ids": [
         113,
+        114,
         115,
         116,
         117,
@@ -92,8 +96,7 @@
         422,
         425,
         426,
-        427,
-        114
+        427
       ],
       "confusable_ids": [
         "ch13_t04",
@@ -135,13 +138,12 @@
       "term": "Patriarchal Family",
       "definition": "Family structure where authority is predominantly held by the eldest male or father.",
       "level3_question_ids": [
-        419,
-        420,
-        427,
-        132,
         121,
         128,
-        129
+        129,
+        419,
+        420,
+        427
       ],
       "confusable_ids": [
         "ch13_t06",
@@ -156,6 +158,9 @@
       "term": "Companionship Family",
       "definition": "Family structure based on mutual affection, shared decision-making, and emotional bonds between spouses.",
       "level3_question_ids": [
+        121,
+        128,
+        129,
         419,
         420,
         427
@@ -306,11 +311,11 @@
       "term": "Instrumental Tasks",
       "definition": "Practical, goal-oriented tasks needed for family maintenance (e.g., earning income, fixing things).",
       "level3_question_ids": [
+        114,
         131,
         154,
         161,
-        426,
-        157
+        426
       ],
       "confusable_ids": [
         "ch13_t15",
@@ -400,7 +405,7 @@
         "c) A first cousin"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t03"
+      "linked_concept_id": "ch13_t08"
     },
     {
       "id": 117,
@@ -412,7 +417,7 @@
         "d) Homogamy strengthens the patriarchal structure of the extended family."
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t03"
+      "linked_concept_id": "ch13_t09"
     },
     {
       "id": 118,
@@ -424,7 +429,7 @@
         "Community"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t01"
+      "linked_concept_id": "ch13_t02"
     },
     {
       "id": 119,
@@ -448,7 +453,7 @@
         "Polygamy"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t01"
+      "linked_concept_id": "ch13_t10"
     },
     {
       "id": 121,
@@ -508,7 +513,7 @@
         "By allowing individuals to pursue their own interests and aspirations"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t02"
+      "linked_concept_id": "ch13_t16"
     },
     {
       "id": 131,
@@ -568,7 +573,7 @@
         "d) Michelle helps her siblings with their homework."
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t02"
+      "linked_concept_id": "ch13_t14"
     },
     {
       "id": 136,
@@ -604,7 +609,7 @@
         "Polyandry"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t10"
+      "linked_concept_id": "ch13_t11"
     },
     {
       "id": 139,
@@ -616,7 +621,7 @@
         "Polyandry"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t10"
+      "linked_concept_id": "ch13_t11"
     },
     {
       "id": 140,
@@ -652,7 +657,7 @@
         "Arranged marriage"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t01"
+      "linked_concept_id": "ch13_t11"
     },
     {
       "id": 143,
@@ -664,7 +669,7 @@
         "Heterogamy"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t10"
+      "linked_concept_id": "ch13_t11"
     },
     {
       "id": 144,
@@ -676,7 +681,7 @@
         "Arranged marriage"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t01"
+      "linked_concept_id": "ch13_t11"
     },
     {
       "id": 145,
@@ -688,7 +693,7 @@
         "Heterogamy"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t10"
+      "linked_concept_id": "ch13_t11"
     },
     {
       "id": 146,
@@ -712,7 +717,7 @@
         "The concept of family is the unit that raises children."
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t03"
+      "linked_concept_id": "ch13_t02"
     },
     {
       "id": 148,
@@ -784,7 +789,7 @@
         "American ideology rejects the concept of the nuclear family and promotes alternative family structures."
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t03"
+      "linked_concept_id": "ch13_t04"
     },
     {
       "id": 154,
@@ -844,7 +849,7 @@
         "Repairing household appliances"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t02"
+      "linked_concept_id": "ch13_t15"
     },
     {
       "id": 159,
@@ -856,7 +861,7 @@
         "Resolving conflicts"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t02"
+      "linked_concept_id": "ch13_t14"
     },
     {
       "id": 160,
@@ -868,7 +873,7 @@
         "Sharing household responsibilities"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t01"
+      "linked_concept_id": "ch13_t14"
     },
     {
       "id": 161,
@@ -904,7 +909,7 @@
         "Extended family"
       ],
       "correct": 1,
-      "linked_concept_id": "ch13_t06"
+      "linked_concept_id": "ch13_t05"
     },
     {
       "id": 420,
@@ -928,7 +933,7 @@
         "Kin"
       ],
       "correct": 3,
-      "linked_concept_id": "ch13_t03"
+      "linked_concept_id": "ch13_t07"
     },
     {
       "id": 422,
@@ -940,7 +945,7 @@
         "Nuclear family"
       ],
       "correct": 2,
-      "linked_concept_id": "ch13_t03"
+      "linked_concept_id": "ch13_t08"
     },
     {
       "id": 423,
@@ -952,7 +957,7 @@
         "Homogamy"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t12"
+      "linked_concept_id": "ch13_t11"
     },
     {
       "id": 424,
@@ -976,7 +981,7 @@
         "Fictive kin"
       ],
       "correct": 2,
-      "linked_concept_id": "ch13_t03"
+      "linked_concept_id": "ch13_t13"
     },
     {
       "id": 426,
@@ -988,7 +993,7 @@
         "Second shift"
       ],
       "correct": 3,
-      "linked_concept_id": "ch13_t14"
+      "linked_concept_id": "ch13_t16"
     },
     {
       "id": 427,
@@ -1000,7 +1005,7 @@
         "Companionship family"
       ],
       "correct": 2,
-      "linked_concept_id": "ch13_t06"
+      "linked_concept_id": "ch13_t04"
     }
   ]
 }

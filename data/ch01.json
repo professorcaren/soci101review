@@ -83,11 +83,11 @@
       "term": "Sociological Perspective",
       "definition": "Understanding human behavior by placing it within its broader social context",
       "level3_question_ids": [
+        342,
         813,
         838,
         839,
-        842,
-        342
+        842
       ],
       "confusable_ids": [
         "ch01_t06",
@@ -136,7 +136,9 @@
       "level3_question_ids": [
         343,
         344,
-        345
+        345,
+        346,
+        347
       ],
       "confusable_ids": [
         "ch01_t01",
@@ -203,8 +205,8 @@
       "term": "Positivism",
       "definition": "The belief that society operates according to general laws like natural sciences",
       "level3_question_ids": [
-        356,
         355,
+        356,
         357
       ],
       "confusable_ids": [
@@ -238,6 +240,7 @@
       "definition": "Theory viewing society as a complex system of parts working together",
       "level3_question_ids": [
         381,
+        382,
         828,
         829,
         830,
@@ -288,6 +291,7 @@
         362,
         363,
         364,
+        365,
         366,
         847,
         848,
@@ -313,11 +317,11 @@
         364,
         365,
         366,
+        840,
         847,
         849,
         850,
-        851,
-        840
+        851
       ],
       "confusable_ids": [
         "ch01_t15",
@@ -333,6 +337,7 @@
       "definition": "A state of normlessness or lack of social norms in society",
       "level3_question_ids": [
         362,
+        365,
         367,
         368,
         369,
@@ -371,6 +376,7 @@
       "definition": "Relating to the enduring patterns and organized relationships that shape society",
       "level3_question_ids": [
         381,
+        382,
         828,
         829,
         830,
@@ -418,10 +424,7 @@
         375,
         376,
         377,
-        378,
-        843,
-        844,
-        845
+        378
       ],
       "confusable_ids": [
         "ch01_t20",
@@ -438,14 +441,15 @@
       "level3_question_ids": [
         227,
         358,
+        379,
         380,
         381,
+        388,
         838,
         839,
         840,
         841,
-        842,
-        379
+        842
       ],
       "confusable_ids": [
         "ch01_t25",
@@ -463,6 +467,7 @@
         382,
         383,
         384,
+        389,
         828
       ],
       "confusable_ids": [
@@ -496,9 +501,10 @@
       "term": "Critical Theory",
       "definition": "Approach combining social theory and criticism to promote social change",
       "level3_question_ids": [
-        390,
+        355,
         388,
-        389
+        389,
+        390
       ],
       "confusable_ids": [
         "ch01_t22",
@@ -513,7 +519,9 @@
       "term": "Symbolic Interactionism",
       "definition": "Theory focusing on meaning and interaction in social life",
       "level3_question_ids": [
+        357,
         358,
+        379,
         381,
         833,
         834,
@@ -521,6 +529,7 @@
         836,
         837,
         838,
+        840,
         841,
         842
       ],
@@ -607,7 +616,7 @@
         "Researching historical causes of wars"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t03"
+      "linked_concept_id": "ch01_t01"
     },
     {
       "id": 337,
@@ -631,7 +640,7 @@
         "Sociology uses only qualitative research methods"
       ],
       "correct": 2,
-      "linked_concept_id": "ch01_t03"
+      "linked_concept_id": "ch01_t01"
     },
     {
       "id": 339,
@@ -667,7 +676,7 @@
         "Cultural relativism"
       ],
       "correct": 3,
-      "linked_concept_id": "ch01_t05"
+      "linked_concept_id": null
     },
     {
       "id": 342,
@@ -775,7 +784,7 @@
         "Academic disciplines"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t09"
+      "linked_concept_id": "ch01_t10"
     },
     {
       "id": 351,
@@ -799,7 +808,7 @@
         "Data sources"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t01"
+      "linked_concept_id": "ch01_t10"
     },
     {
       "id": 353,
@@ -823,7 +832,7 @@
         "Geographic locations"
       ],
       "correct": 2,
-      "linked_concept_id": "ch01_t01"
+      "linked_concept_id": "ch01_t10"
     },
     {
       "id": 355,
@@ -871,7 +880,7 @@
         "Symbolic interactionism"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t26"
+      "linked_concept_id": "ch01_t12"
     },
     {
       "id": 359,
@@ -943,7 +952,7 @@
         "Urban interdependence"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t15"
+      "linked_concept_id": "ch01_t16"
     },
     {
       "id": 365,
@@ -967,7 +976,7 @@
         "Economic relationships"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t15"
+      "linked_concept_id": "ch01_t16"
     },
     {
       "id": 367,
@@ -979,7 +988,7 @@
         "Identity crisis"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t02"
+      "linked_concept_id": "ch01_t17"
     },
     {
       "id": 368,
@@ -1015,7 +1024,7 @@
         "Interpretive sociology"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t01"
+      "linked_concept_id": "ch01_t18"
     },
     {
       "id": 371,
@@ -1051,7 +1060,7 @@
         "Implementation problems"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t20"
+      "linked_concept_id": "ch01_t21"
     },
     {
       "id": 374,
@@ -1063,7 +1072,7 @@
         "Social benefits"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t20"
+      "linked_concept_id": "ch01_t21"
     },
     {
       "id": 375,
@@ -1075,7 +1084,7 @@
         "Social services"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t20"
+      "linked_concept_id": "ch01_t21"
     },
     {
       "id": 376,
@@ -1147,7 +1156,7 @@
         "Social exchange theory"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t13"
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 382,
@@ -1315,7 +1324,7 @@
         "By tracing the historical evolution of human behavior patterns across different societies."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t02"
+      "linked_concept_id": "ch01_t04"
     },
     {
       "id": 815,
@@ -1327,7 +1336,7 @@
         "The biological basis of social behavior and the role of genetics."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t02"
+      "linked_concept_id": "ch01_t01"
     },
     {
       "id": 816,
@@ -1363,7 +1372,7 @@
         "Investigating the impact of technological innovations on social change."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t02"
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 819,
@@ -1375,7 +1384,7 @@
         "The level of technological development within a society."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t02"
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 820,
@@ -1519,7 +1528,7 @@
         "By focusing on the unintended consequences of institutional actions."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t19"
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 832,
@@ -1603,7 +1612,7 @@
         "Postmodernism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t04"
+      "linked_concept_id": "ch01_t13"
     },
     {
       "id": 839,
@@ -1615,7 +1624,7 @@
         "Phenomenology"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t04"
+      "linked_concept_id": "ch01_t13"
     },
     {
       "id": 840,
@@ -1639,7 +1648,7 @@
         "Feminist theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t13"
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 842,
@@ -1651,7 +1660,7 @@
         "Phenomenology"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t04"
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 843,
@@ -1711,7 +1720,7 @@
         "Anomie"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t15"
+      "linked_concept_id": "ch01_t16"
     },
     {
       "id": 848,
@@ -1747,7 +1756,7 @@
         "Collective effervescence to individualism."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t15"
+      "linked_concept_id": "ch01_t16"
     },
     {
       "id": 851,
@@ -1783,7 +1792,7 @@
         "Postmodernist perspective"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t19"
+      "linked_concept_id": "ch01_t07"
     },
     {
       "id": 854,
@@ -1807,7 +1816,7 @@
         "Psychological analysis"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t02"
+      "linked_concept_id": "ch01_t08"
     },
     {
       "id": 856,

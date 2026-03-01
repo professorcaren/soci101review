@@ -22,8 +22,8 @@
       "term": "education",
       "definition": "The process by which a society transmits its knowledge, values, and expectations to its members so they can function effectively",
       "level3_question_ids": [
-        479,
-        489
+        489,
+        1238
       ],
       "confusable_ids": [
         "ch11_t11",
@@ -37,7 +37,6 @@
       "definition": "The emphasis placed on degrees and certificates as determinants of social status and readiness for the job market, leading to credential inflation",
       "level3_question_ids": [
         1007,
-        1237,
         1238
       ],
       "confusable_ids": [
@@ -52,7 +51,8 @@
       "term": "tracking",
       "definition": "The placement of students in educational 'tracks' or programs of study (e.g., college prep, remedial) that determine the types of classes they take",
       "level3_question_ids": [
-        1008
+        1008,
+        1238
       ],
       "confusable_ids": [
         "ch11_t05"
@@ -63,7 +63,8 @@
       "term": "hidden curriculum",
       "definition": "Values or behaviors that students learn indirectly over the course of their schooling, often reinforcing social norms and power structures",
       "level3_question_ids": [
-        1009
+        1009,
+        1238
       ],
       "confusable_ids": [
         "ch11_t15",
@@ -86,6 +87,7 @@
         483,
         490,
         491,
+        493,
         494,
         500,
         501,
@@ -111,6 +113,7 @@
         470,
         471,
         474,
+        479,
         487,
         496,
         514,
@@ -237,8 +240,7 @@
         490,
         491,
         494,
-        1011,
-        493
+        1011
       ],
       "confusable_ids": [
         "ch11_t08",
@@ -322,7 +324,7 @@
         "The elements of worship that are accessible to all members rather than only clergy"
       ],
       "correct": 0,
-      "linked_concept_id": "ch11_t06"
+      "linked_concept_id": "ch11_t08"
     },
     {
       "id": 473,
@@ -394,7 +396,7 @@
         "Whether religious knowledge is based on scripture study versus oral traditions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch11_t10"
+      "linked_concept_id": "ch11_t09"
     },
     {
       "id": 479,
@@ -502,7 +504,7 @@
         "Religious rituals exclusively occur in designated sacred spaces while secular routines happen anywhere"
       ],
       "correct": 0,
-      "linked_concept_id": "ch11_t07"
+      "linked_concept_id": "ch11_t15"
     },
     {
       "id": 488,

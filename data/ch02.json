@@ -10,8 +10,7 @@
       "level3_question_ids": [
         677,
         679,
-        680,
-        744
+        680
       ],
       "confusable_ids": [
         "ch02_t02",
@@ -46,6 +45,7 @@
       "level3_question_ids": [
         660,
         669,
+        673,
         675
       ],
       "confusable_ids": [
@@ -101,6 +101,7 @@
         662,
         663,
         689,
+        697,
         698,
         711,
         712,
@@ -231,9 +232,7 @@
         665,
         672,
         676,
-        714,
-        690,
-        742
+        714
       ],
       "confusable_ids": [
         "ch02_t23",
@@ -246,6 +245,7 @@
       "term": "Participant Observation",
       "definition": "Research method involving participating in and observing a group",
       "level3_question_ids": [
+        666,
         678,
         688,
         713
@@ -283,9 +283,13 @@
         677,
         681,
         694,
+        708,
         713,
         716,
-        741
+        717,
+        741,
+        743,
+        744
       ],
       "confusable_ids": [
         "ch02_t02"
@@ -437,7 +441,7 @@
         678,
         720,
         741,
-        706
+        742
       ],
       "confusable_ids": [
         "ch02_t04",
@@ -478,6 +482,7 @@
         662,
         663,
         671,
+        674,
         727,
         729,
         732,
@@ -535,6 +540,7 @@
       "term": "Objectivity",
       "definition": "Freedom from personal bias in research",
       "level3_question_ids": [
+        690,
         721,
         723
       ],
@@ -610,8 +616,7 @@
         676,
         694,
         707,
-        717,
-        743
+        717
       ],
       "confusable_ids": [
         "ch02_t16",
@@ -645,7 +650,7 @@
         "Social Network Analysis"
       ],
       "correct": 1,
-      "linked_concept_id": "ch02_t28"
+      "linked_concept_id": "ch02_t04"
     },
     {
       "id": 662,
@@ -681,7 +686,7 @@
         "Representativeness"
       ],
       "correct": 2,
-      "linked_concept_id": "ch02_t10"
+      "linked_concept_id": "ch02_t09"
     },
     {
       "id": 665,
@@ -693,7 +698,7 @@
         "Social Network Analysis"
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t28"
+      "linked_concept_id": "ch02_t12"
     },
     {
       "id": 666,
@@ -717,7 +722,7 @@
         "Double-barreled Questions"
       ],
       "correct": 2,
-      "linked_concept_id": "ch02_t17"
+      "linked_concept_id": "ch02_t16"
     },
     {
       "id": 668,
@@ -741,7 +746,7 @@
         "Scientific Method"
       ],
       "correct": 1,
-      "linked_concept_id": "ch02_t03"
+      "linked_concept_id": "ch02_t18"
     },
     {
       "id": 670,
@@ -813,7 +818,7 @@
         "Representativeness"
       ],
       "correct": 1,
-      "linked_concept_id": "ch02_t20"
+      "linked_concept_id": "ch02_t32"
     },
     {
       "id": 676,
@@ -825,7 +830,7 @@
         "Experimental Methods"
       ],
       "correct": 2,
-      "linked_concept_id": "ch02_t28"
+      "linked_concept_id": "ch02_t33"
     },
     {
       "id": 677,
@@ -837,7 +842,7 @@
         "Content analysis"
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t01"
+      "linked_concept_id": "ch02_t02"
     },
     {
       "id": 678,
@@ -933,7 +938,7 @@
         "A result of researcher bias, favoring students with larger shoe sizes."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t08"
+      "linked_concept_id": "ch02_t11"
     },
     {
       "id": 686,
@@ -957,7 +962,7 @@
         "Better suited for studying large-scale social structures."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t23"
+      "linked_concept_id": "ch02_t12"
     },
     {
       "id": 688,
@@ -969,7 +974,7 @@
         "Analyzing crime statistics related to motorcycle gangs."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t13"
+      "linked_concept_id": "ch02_t12"
     },
     {
       "id": 689,
@@ -981,7 +986,7 @@
         "The historical evolution of social institutions."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t22"
+      "linked_concept_id": "ch02_t12"
     },
     {
       "id": 690,
@@ -1017,7 +1022,7 @@
         "The survey instrument is visually appealing and engaging."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t23"
+      "linked_concept_id": "ch02_t33"
     },
     {
       "id": 693,
@@ -1029,7 +1034,7 @@
         "Determine the appropriate sample size for the study."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t22"
+      "linked_concept_id": "ch02_t33"
     },
     {
       "id": 694,
@@ -1041,7 +1046,7 @@
         "The ability to conduct in-depth interviews and follow-up questions."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t15"
+      "linked_concept_id": "ch02_t33"
     },
     {
       "id": 695,
@@ -1053,7 +1058,7 @@
         "A negative correlation, suggesting that as unemployment decreases, crime increases."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t11"
+      "linked_concept_id": "ch02_t08"
     },
     {
       "id": 696,
@@ -1089,7 +1094,7 @@
         "That a third variable is influencing both variables."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t08"
+      "linked_concept_id": "ch02_t09"
     },
     {
       "id": 699,
@@ -1137,7 +1142,7 @@
         "They allow researchers to generalize their findings to the entire population."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t22"
+      "linked_concept_id": "ch02_t07"
     },
     {
       "id": 703,
@@ -1245,7 +1250,7 @@
         "Develop and refine social theories based on existing literature."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t06"
+      "linked_concept_id": "ch02_t12"
     },
     {
       "id": 712,
@@ -1257,7 +1262,7 @@
         "Focus on historical analysis of social documents."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t06"
+      "linked_concept_id": "ch02_t12"
     },
     {
       "id": 713,
@@ -1269,7 +1274,7 @@
         "Analyzing existing datasets from government or organizational sources."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t13"
+      "linked_concept_id": "ch02_t12"
     },
     {
       "id": 714,
@@ -1293,7 +1298,7 @@
         "What percentage of the population supports a particular political candidate?"
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t22"
+      "linked_concept_id": "ch02_t12"
     },
     {
       "id": 716,
@@ -1341,7 +1346,7 @@
         "Using leading questions to elicit desired responses."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t23"
+      "linked_concept_id": "ch02_t32"
     },
     {
       "id": 720,
@@ -1353,7 +1358,7 @@
         "Content analysis"
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t24"
+      "linked_concept_id": null
     },
     {
       "id": 721,
@@ -1365,7 +1370,7 @@
         "The objectivity of the researcher."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t29"
+      "linked_concept_id": null
     },
     {
       "id": 722,
@@ -1377,7 +1382,7 @@
         "The researcher's personal biases do not influence the results."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t22"
+      "linked_concept_id": null
     },
     {
       "id": 723,
@@ -1389,7 +1394,7 @@
         "Objectivity."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t29"
+      "linked_concept_id": null
     },
     {
       "id": 724,
@@ -1425,7 +1430,7 @@
         "Dependent variables"
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t06"
+      "linked_concept_id": "ch02_t10"
     },
     {
       "id": 727,
@@ -1437,7 +1442,7 @@
         "A spurious correlation"
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t10"
+      "linked_concept_id": "ch02_t11"
     },
     {
       "id": 728,

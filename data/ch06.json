@@ -74,8 +74,7 @@
       "level3_question_ids": [
         307,
         308,
-        309,
-        208
+        309
       ],
       "confusable_ids": [
         "ch06_t01",
@@ -109,10 +108,7 @@
       "level3_question_ids": [
         310,
         311,
-        312,
-        187,
-        188,
-        191
+        312
       ],
       "confusable_ids": [
         "ch06_t16",
@@ -127,6 +123,7 @@
       "term": "Labeling Theory",
       "definition": "Perspective focusing on how society's reaction to deviance can lead to further deviant behavior",
       "level3_question_ids": [
+        166,
         189,
         310,
         312,
@@ -147,8 +144,10 @@
       "term": "Primary Deviance",
       "definition": "Initial acts of rule-breaking before a person is publicly labeled as deviant",
       "level3_question_ids": [
+        192,
         193,
         195,
+        196,
         311,
         313,
         314,
@@ -182,6 +181,8 @@
         316,
         317,
         318,
+        320,
+        324,
         326,
         328,
         331,
@@ -229,14 +230,14 @@
       "term": "Stereotype Threat",
       "definition": "Anxiety or concern about confirming negative stereotypes about one's social group",
       "level3_question_ids": [
+        319,
+        320,
+        321,
         322,
         323,
         324,
         329,
-        333,
-        319,
-        320,
-        321
+        333
       ],
       "confusable_ids": [
         "ch06_t10",
@@ -251,6 +252,8 @@
       "term": "Stereotype Promise",
       "definition": "Positive performance resulting from awareness of favorable stereotypes about one's group",
       "level3_question_ids": [
+        319,
+        321,
         322,
         323,
         324
@@ -427,7 +430,11 @@
       "id": "ch06_t19",
       "term": "Deterrence",
       "definition": "Use of punishment to prevent future criminal behavior",
-      "level3_question_ids": [],
+      "level3_question_ids": [
+        187,
+        188,
+        191
+      ],
       "confusable_ids": [
         "ch06_t20",
         "ch06_t15",
@@ -484,7 +491,7 @@
         "The legal system prioritizes rehabilitation over punishment"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t20"
+      "linked_concept_id": "ch06_t01"
     },
     {
       "id": 12,
@@ -496,7 +503,7 @@
         "Actions that threaten the economic stability of society"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t15"
+      "linked_concept_id": "ch06_t01"
     },
     {
       "id": 13,
@@ -928,7 +935,7 @@
         "Labeling Theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t05"
+      "linked_concept_id": "ch06_t04"
     },
     {
       "id": 190,
@@ -940,7 +947,7 @@
         "Anomie Theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t03"
+      "linked_concept_id": "ch06_t04"
     },
     {
       "id": 191,
@@ -988,7 +995,7 @@
         "a stigma"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t05"
     },
     {
       "id": 195,
@@ -1036,7 +1043,7 @@
         "assimilation"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t01"
+      "linked_concept_id": "ch06_t11"
     },
     {
       "id": 199,
@@ -1084,7 +1091,7 @@
         "Media glorification promotes deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t01"
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 203,
@@ -1096,7 +1103,7 @@
         "Media influences encourage deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t01"
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 204,
@@ -1108,7 +1115,7 @@
         "Media influence on behavior"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t01"
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 205,
@@ -1120,7 +1127,7 @@
         "Media glorification encourages deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t01"
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 206,
@@ -1132,7 +1139,7 @@
         "Media promotion increases deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t01"
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 207,
@@ -1456,7 +1463,7 @@
         "Positive deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t06"
     },
     {
       "id": 314,
@@ -1480,7 +1487,7 @@
         "Positive deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t06"
     },
     {
       "id": 316,
@@ -1492,7 +1499,7 @@
         "Positive deviance"
       ],
       "correct": 2,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t08"
     },
     {
       "id": 317,
@@ -1504,7 +1511,7 @@
         "Passing"
       ],
       "correct": 1,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t08"
     },
     {
       "id": 318,
@@ -1516,7 +1523,7 @@
         "In-group orientation"
       ],
       "correct": 2,
-      "linked_concept_id": "ch06_t13"
+      "linked_concept_id": "ch06_t08"
     },
     {
       "id": 319,
@@ -1600,7 +1607,7 @@
         "Tertiary deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t13"
+      "linked_concept_id": "ch06_t12"
     },
     {
       "id": 326,
@@ -1612,7 +1619,7 @@
         "Secondary deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t13"
+      "linked_concept_id": "ch06_t12"
     },
     {
       "id": 327,
@@ -1624,7 +1631,7 @@
         "Tertiary deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t13"
+      "linked_concept_id": "ch06_t12"
     },
     {
       "id": 328,
@@ -1672,7 +1679,7 @@
         "Deviance avowal"
       ],
       "correct": 3,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t14"
     },
     {
       "id": 332,
@@ -1684,7 +1691,7 @@
         "In-group orientation"
       ],
       "correct": 2,
-      "linked_concept_id": "ch06_t13"
+      "linked_concept_id": "ch06_t14"
     },
     {
       "id": 333,
@@ -1696,7 +1703,7 @@
         "Stereotype threat"
       ],
       "correct": 2,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t14"
     }
   ]
 }

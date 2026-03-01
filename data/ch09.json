@@ -59,6 +59,7 @@
         39,
         40,
         41,
+        42,
         43,
         44,
         45,
@@ -130,7 +131,16 @@
         977,
         978,
         979,
-        980
+        980,
+        1221,
+        1222,
+        1223,
+        1224,
+        1225,
+        1226,
+        1227,
+        1228,
+        1229
       ],
       "confusable_ids": [
         "ch09_t08",
@@ -145,6 +155,7 @@
       "term": "Gender Essentialism",
       "definition": "The view that gender is immutable and biological, with clear binary categories determined by chromosomes, hormones, and genitalia",
       "level3_question_ids": [
+        42,
         926,
         927,
         928,
@@ -275,7 +286,6 @@
         965,
         966,
         967,
-        968,
         971,
         978,
         980
@@ -320,6 +330,7 @@
       "term": "Gender Expression",
       "definition": "An individual's behavioral manifestations of gender through clothing, grooming, behavior, body language, and other external presentations",
       "level3_question_ids": [
+        27,
         35,
         39,
         40,
@@ -336,9 +347,12 @@
         944,
         945,
         946,
+        948,
+        949,
         950,
         951,
         952,
+        954,
         957,
         959,
         960,
@@ -411,6 +425,9 @@
         950,
         951,
         952,
+        953,
+        956,
+        957,
         962,
         964,
         965,
@@ -419,7 +436,8 @@
         977,
         978,
         979,
-        980
+        980,
+        1223
       ],
       "confusable_ids": [
         "ch09_t14",
@@ -435,12 +453,12 @@
       "definition": "The belief that heterosexuality is and should be the norm",
       "level3_question_ids": [
         33,
+        953,
+        954,
         955,
         957,
         958,
-        962,
-        953,
-        954
+        962
       ],
       "confusable_ids": [
         "ch09_t22"
@@ -451,9 +469,9 @@
       "term": "Rape Culture",
       "definition": "A set of beliefs, norms, and values that normalizes sexual violence against women",
       "level3_question_ids": [
-        958,
         956,
-        957
+        957,
+        958
       ],
       "confusable_ids": [
         "ch09_t23",
@@ -473,8 +491,7 @@
         41,
         959,
         960,
-        961,
-        42
+        961
       ],
       "confusable_ids": [
         "ch09_t18",
@@ -507,7 +524,8 @@
       "level3_question_ids": [
         965,
         966,
-        967
+        967,
+        1223
       ],
       "confusable_ids": [
         "ch09_t28",
@@ -553,6 +571,7 @@
         933,
         938,
         940,
+        968,
         969,
         970,
         971,
@@ -578,7 +597,8 @@
         977,
         978,
         979,
-        980
+        980,
+        1223
       ],
       "confusable_ids": [
         "ch09_t20",
@@ -671,6 +691,7 @@
       "term": "Gender Stratification",
       "definition": "The unequal distribution of wealth, power, and privilege between men and women",
       "level3_question_ids": [
+        1221,
         1223,
         1224
       ],
@@ -687,8 +708,7 @@
       "term": "Instrumental and Expressive Roles",
       "definition": "In structural functionalism, instrumental roles are task-oriented roles traditionally assigned to men (breadwinner), while expressive roles are emotion-oriented roles traditionally assigned to women (caregiver)",
       "level3_question_ids": [
-        1221,
-        1222
+        1221
       ],
       "confusable_ids": [
         "ch09_t25",
@@ -702,11 +722,7 @@
       "id": "ch09_t27",
       "term": "Symbolic Interactionism on Gender",
       "definition": "The perspective that gender is something people 'do' through everyday interactions; gender identities are continually constructed and reinforced through social encounters",
-      "level3_question_ids": [
-        1225,
-        1226,
-        1227
-      ],
+      "level3_question_ids": [],
       "confusable_ids": [
         "ch09_t04",
         "ch09_t28",
@@ -720,8 +736,8 @@
       "term": "Conflict Theory of Gender",
       "definition": "The perspective that gender is a system of inequality in which men maintain dominance over women by controlling economic resources and social power",
       "level3_question_ids": [
-        1228,
-        1229
+        46,
+        56
       ],
       "confusable_ids": [
         "ch09_t25",
@@ -743,7 +759,7 @@
         "Gender performativity theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t03"
     },
     {
       "id": 22,
@@ -755,7 +771,7 @@
         "Noting that gender expressions vary individually while maintaining essential masculine and feminine traits"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t06"
+      "linked_concept_id": "ch09_t04"
     },
     {
       "id": 23,
@@ -767,7 +783,7 @@
         "Gender schema theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t04"
     },
     {
       "id": 24,
@@ -791,7 +807,7 @@
         "\"Gender differences exist universally but are expressed through culturally specific behaviors.\""
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t03"
     },
     {
       "id": 26,
@@ -803,7 +819,7 @@
         "Social exchange theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t27"
     },
     {
       "id": 27,
@@ -815,7 +831,7 @@
         "Sex establishes the biological framework upon which gender expression naturally develops in alignment"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t01"
     },
     {
       "id": 28,
@@ -827,7 +843,7 @@
         "Developing secondary physical characteristics that align with cultural beauty standards"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t01"
     },
     {
       "id": 29,
@@ -863,7 +879,7 @@
         "Workplace interactions, entertainment, social media, and community groups"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t14"
     },
     {
       "id": 32,
@@ -887,7 +903,7 @@
         "It encourages questioning of traditional male-female attraction patterns"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t12"
     },
     {
       "id": 34,
@@ -911,7 +927,7 @@
         "They focus primarily on eliminating gender stereotypes from other sources"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t14"
     },
     {
       "id": 36,
@@ -923,7 +939,7 @@
         "Feminist theory, which analyzes patriarchal structures and advocates for gender equality"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t27"
     },
     {
       "id": 37,
@@ -995,7 +1011,7 @@
         "Gender Essentialism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t14"
+      "linked_concept_id": "ch09_t27"
     },
     {
       "id": 43,
@@ -1007,7 +1023,7 @@
         "Academic journals publishing research findings on gender differences"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t14"
     },
     {
       "id": 44,
@@ -1019,7 +1035,7 @@
         "Sociobiological Theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t28"
     },
     {
       "id": 45,
@@ -1031,7 +1047,7 @@
         "How do digital social networks change the nature of peer influence among adolescents?"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t14"
     },
     {
       "id": 46,
@@ -1043,7 +1059,7 @@
         "Symbolic Interaction Theory of Gender"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t28"
     },
     {
       "id": 47,
@@ -1055,7 +1071,7 @@
         "Division between public and private spheres"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t28"
     },
     {
       "id": 48,
@@ -1079,7 +1095,7 @@
         "The gender binary developed to support capitalist economic systems"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t05"
+      "linked_concept_id": "ch09_t26"
     },
     {
       "id": 50,
@@ -1103,7 +1119,7 @@
         "Arbitrary distinctions that serve no societal purpose"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t26"
     },
     {
       "id": 52,
@@ -1115,7 +1131,7 @@
         "A functional division of complementary roles that promotes social order"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t27"
     },
     {
       "id": 53,
@@ -1127,7 +1143,7 @@
         "We rely on gender categories to establish predictable patterns of social behavior"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t27"
     },
     {
       "id": 54,
@@ -1139,7 +1155,7 @@
         "Gender is a set of complementary roles that contribute to family cohesion"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t27"
     },
     {
       "id": 55,
@@ -1151,7 +1167,7 @@
         "Schools socialize boys and girls differently based on presumed natural abilities"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t26"
     },
     {
       "id": 56,
@@ -1163,7 +1179,7 @@
         "Individuals actively construct their gender identity through social interactions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t06"
+      "linked_concept_id": "ch09_t28"
     },
     {
       "id": 57,
@@ -1175,7 +1191,7 @@
         "It's mainly through symbolic representations in educational materials and environments"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t27"
     },
     {
       "id": 58,
@@ -1247,7 +1263,7 @@
         "A neutral observation about current gender distributions in various professions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t02"
+      "linked_concept_id": "ch09_t22"
     },
     {
       "id": 644,
@@ -1331,7 +1347,7 @@
         "Gender expression through clothing choices"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t04"
+      "linked_concept_id": "ch09_t03"
     },
     {
       "id": 929,
@@ -1367,7 +1383,7 @@
         "Gender identity individual self-definition"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t04"
+      "linked_concept_id": "ch09_t03"
     },
     {
       "id": 932,
@@ -1379,7 +1395,7 @@
         "Gender socialization agents"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t08"
+      "linked_concept_id": "ch09_t05"
     },
     {
       "id": 933,
@@ -1391,7 +1407,7 @@
         "Gender role socialization process"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t05"
     },
     {
       "id": 934,
@@ -1403,7 +1419,7 @@
         "Gender expression behavioral manifestations"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t03"
+      "linked_concept_id": "ch09_t05"
     },
     {
       "id": 935,
@@ -1415,7 +1431,7 @@
         "Gender role socialization process"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t06"
     },
     {
       "id": 936,
@@ -1427,7 +1443,7 @@
         "Gender socialization cultural learning"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t08"
+      "linked_concept_id": "ch09_t06"
     },
     {
       "id": 937,
@@ -1439,7 +1455,7 @@
         "Gender binary system compliance"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t08"
+      "linked_concept_id": "ch09_t06"
     },
     {
       "id": 938,
@@ -1451,7 +1467,7 @@
         "Gender binary conforming individual"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t18"
+      "linked_concept_id": "ch09_t07"
     },
     {
       "id": 939,
@@ -1463,7 +1479,7 @@
         "Gender essentialist believers in biological determinism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t05"
+      "linked_concept_id": "ch09_t07"
     },
     {
       "id": 940,
@@ -1475,7 +1491,7 @@
         "Gender binary system supporters"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t18"
+      "linked_concept_id": "ch09_t07"
     },
     {
       "id": 941,
@@ -1499,7 +1515,7 @@
         "Gender binary system adherence"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t08"
     },
     {
       "id": 943,
@@ -1511,7 +1527,7 @@
         "Gender binary classification methods"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t08"
     },
     {
       "id": 944,
@@ -1691,7 +1707,7 @@
         "Heteronormativity in media representation"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t12"
+      "linked_concept_id": "ch09_t13"
     },
     {
       "id": 959,
@@ -1739,7 +1755,7 @@
         "Heteronormativity in classroom interactions"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t15"
     },
     {
       "id": 963,
@@ -1751,7 +1767,7 @@
         "Gender expression limitations in formal contexts"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t08"
+      "linked_concept_id": "ch09_t15"
     },
     {
       "id": 964,
@@ -1763,7 +1779,7 @@
         "Gender role socialization through peer interaction"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t15"
     },
     {
       "id": 965,
@@ -1775,7 +1791,7 @@
         "Gender identity workplace discrimination effects"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t16"
     },
     {
       "id": 966,
@@ -1787,7 +1803,7 @@
         "Gender role socialization workplace outcomes"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t16"
     },
     {
       "id": 967,
@@ -1823,7 +1839,7 @@
         "Gender binary conforming to traditional categories"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t18"
+      "linked_concept_id": "ch09_t07"
     },
     {
       "id": 970,
@@ -1835,7 +1851,7 @@
         "Gender binary rejection of traditional categories"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t18"
+      "linked_concept_id": "ch09_t17"
     },
     {
       "id": 971,
@@ -1847,7 +1863,7 @@
         "Gender binary traditional category acceptance"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t18"
+      "linked_concept_id": "ch09_t17"
     },
     {
       "id": 972,
@@ -1895,7 +1911,7 @@
         "Gender binary enforcement through social pressure"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t19"
     },
     {
       "id": 976,
@@ -1919,7 +1935,7 @@
         "Gender binary enforcement through workplace policies"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t19"
     },
     {
       "id": 978,
@@ -1931,7 +1947,7 @@
         "Gender identity formation challenges"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t20"
     },
     {
       "id": 979,
@@ -1943,7 +1959,7 @@
         "Gender binary classification pressure"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t20"
     },
     {
       "id": 980,
@@ -1955,7 +1971,7 @@
         "Gender identity formation natural development"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t11"
+      "linked_concept_id": "ch09_t20"
     },
     {
       "id": 1221,

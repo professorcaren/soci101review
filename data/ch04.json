@@ -134,8 +134,8 @@
       "term": "Thomas Theorem",
       "definition": "If people define situations as real, they are real in their consequences",
       "level3_question_ids": [
-        803,
-        794
+        794,
+        803
       ],
       "confusable_ids": [
         "ch04_t07",
@@ -146,7 +146,9 @@
       "id": "ch04_t07",
       "term": "Definition of the Situation",
       "definition": "How people understand and interpret social situations",
-      "level3_question_ids": [],
+      "level3_question_ids": [
+        798
+      ],
       "confusable_ids": [
         "ch04_t13",
         "ch04_t06",
@@ -182,6 +184,7 @@
         240,
         241,
         244,
+        794,
         798,
         803
       ],
@@ -198,6 +201,8 @@
       "level3_question_ids": [
         238,
         797,
+        804,
+        806,
         811,
         981,
         982
@@ -231,8 +236,8 @@
       "term": "Cooling the Mark Out",
       "definition": "Process of helping someone adjust to a failure or loss of status",
       "level3_question_ids": [
-        807,
-        798
+        798,
+        807
       ],
       "confusable_ids": [
         "ch04_t22",
@@ -299,6 +304,7 @@
       "level3_question_ids": [
         801,
         807,
+        808,
         810,
         812
       ],
@@ -328,12 +334,13 @@
         263,
         264,
         267,
+        270,
+        273,
         275,
         795,
         802,
         806,
         807,
-        808,
         809
       ],
       "confusable_ids": [
@@ -364,7 +371,7 @@
       "term": "Embodied Status",
       "definition": "Status characteristics physically manifested in appearance or behavior",
       "level3_question_ids": [
-        808
+        802
       ],
       "confusable_ids": [
         "ch04_t21",
@@ -423,8 +430,10 @@
         264,
         268,
         269,
+        270,
         271,
         272,
+        273,
         277,
         792,
         793,
@@ -436,9 +445,7 @@
         807,
         808,
         811,
-        981,
-        270,
-        273
+        981
       ],
       "confusable_ids": [
         "ch04_t19",
@@ -458,10 +465,10 @@
         277,
         795,
         797,
+        802,
         805,
         807,
-        811,
-        802
+        811
       ],
       "confusable_ids": [
         "ch04_t22",
@@ -514,8 +521,8 @@
       "term": "Agency",
       "definition": "Capacity of individuals to act independently and make choices",
       "level3_question_ids": [
-        808,
-        806
+        806,
+        808
       ],
       "confusable_ids": []
     },
@@ -704,7 +711,7 @@
         "It requires conscious effort to maintain."
       ],
       "correct": 0,
-      "linked_concept_id": "ch04_t09"
+      "linked_concept_id": "ch04_t05"
     },
     {
       "id": 242,
@@ -740,7 +747,7 @@
         "Looking-glass self operates only in childhood, while impression management continues throughout life."
       ],
       "correct": 0,
-      "linked_concept_id": "ch04_t09"
+      "linked_concept_id": "ch04_t03"
     },
     {
       "id": 245,
@@ -944,7 +951,7 @@
         "Sanctions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch04_t17"
+      "linked_concept_id": "ch04_t22"
     },
     {
       "id": 262,
@@ -980,7 +987,7 @@
         "Subculture"
       ],
       "correct": 0,
-      "linked_concept_id": "ch04_t17"
+      "linked_concept_id": "ch04_t22"
     },
     {
       "id": 265,
@@ -1364,7 +1371,7 @@
         "Agency in choosing their social identity"
       ],
       "correct": 2,
-      "linked_concept_id": "ch04_t19"
+      "linked_concept_id": "ch04_t01"
     },
     {
       "id": 809,
@@ -1376,7 +1383,7 @@
         "A person moves from being single to married"
       ],
       "correct": 1,
-      "linked_concept_id": "ch04_t18"
+      "linked_concept_id": "ch04_t21"
     },
     {
       "id": 810,
@@ -1388,7 +1395,7 @@
         "Secondary socialization through new agents and experiences"
       ],
       "correct": 3,
-      "linked_concept_id": "ch04_t14"
+      "linked_concept_id": "ch04_t01"
     },
     {
       "id": 811,
@@ -1412,7 +1419,7 @@
         "Agents of the hidden curriculum"
       ],
       "correct": 1,
-      "linked_concept_id": "ch04_t13"
+      "linked_concept_id": "ch04_t16"
     },
     {
       "id": 981,

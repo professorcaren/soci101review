@@ -10,7 +10,8 @@
       "level3_question_ids": [
         759,
         767,
-        993
+        993,
+        1232
       ],
       "confusable_ids": [
         "ch08_t15",
@@ -135,9 +136,7 @@
         990,
         993,
         996,
-        1002,
-        1231,
-        1232
+        1002
       ],
       "confusable_ids": [
         "ch08_t22",
@@ -176,6 +175,7 @@
       "term": "Discrimination",
       "definition": "Unequal treatment of individuals based on their membership in a social group; usually motivated by prejudice",
       "level3_question_ids": [
+        755,
         758,
         762,
         765,
@@ -193,7 +193,9 @@
         990,
         992,
         995,
-        1002
+        1002,
+        1230,
+        1231
       ],
       "confusable_ids": [
         "ch08_t11",
@@ -244,8 +246,8 @@
         989,
         990,
         992,
-        1002,
-        995
+        995,
+        1002
       ],
       "confusable_ids": [
         "ch08_t10",
@@ -410,7 +412,8 @@
         998,
         999,
         1000,
-        1001
+        1001,
+        1232
       ],
       "confusable_ids": [
         "ch08_t21",
@@ -636,7 +639,7 @@
         "Individual racism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t16"
+      "linked_concept_id": "ch08_t08"
     },
     {
       "id": 759,
@@ -708,7 +711,7 @@
         "Racism primarily involves biological or cultural arguments for group differences, while prejudice primarily involves stereotypes about group behavior."
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t07"
+      "linked_concept_id": "ch08_t06"
     },
     {
       "id": 765,
@@ -864,7 +867,7 @@
         "Symbolic ethnicity represents authentic cultural practices, while situational ethnicity involves strategic adaptation to avoid discrimination"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t04"
+      "linked_concept_id": "ch08_t03"
     },
     {
       "id": 778,
@@ -876,7 +879,7 @@
         "Because symbolic ethnicity represents the final stage in the process of cultural assimilation"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t22"
+      "linked_concept_id": "ch08_t03"
     },
     {
       "id": 779,
@@ -888,7 +891,7 @@
         "It only affects public institutions while individual discrimination affects private interactions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t10"
+      "linked_concept_id": "ch08_t11"
     },
     {
       "id": 780,
@@ -900,7 +903,7 @@
         "Double Consciousness"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t22"
+      "linked_concept_id": "ch08_t21"
     },
     {
       "id": 781,
@@ -948,7 +951,7 @@
         "Racial passing"
       ],
       "correct": 1,
-      "linked_concept_id": "ch08_t04"
+      "linked_concept_id": "ch08_t03"
     },
     {
       "id": 988,
@@ -960,7 +963,7 @@
         "White privilege"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t17"
+      "linked_concept_id": "ch08_t04"
     },
     {
       "id": 989,
@@ -972,7 +975,7 @@
         "Color-blind racism"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t11"
+      "linked_concept_id": "ch08_t09"
     },
     {
       "id": 990,
@@ -996,7 +999,7 @@
         "Symbolic ethnicity"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t22"
+      "linked_concept_id": "ch08_t12"
     },
     {
       "id": 992,
@@ -1008,7 +1011,7 @@
         "Situational ethnicity"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t11"
+      "linked_concept_id": "ch08_t13"
     },
     {
       "id": 993,
@@ -1056,7 +1059,7 @@
         "Color-blind racism"
       ],
       "correct": 1,
-      "linked_concept_id": "ch08_t17"
+      "linked_concept_id": "ch08_t16"
     },
     {
       "id": 997,
@@ -1068,7 +1071,7 @@
         "Population transfer"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t22"
+      "linked_concept_id": "ch08_t19"
     },
     {
       "id": 998,
@@ -1092,7 +1095,7 @@
         "Population transfer"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t22"
+      "linked_concept_id": "ch08_t23"
     },
     {
       "id": 1000,
@@ -1104,7 +1107,7 @@
         "Pluralism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t22"
+      "linked_concept_id": null
     },
     {
       "id": 1001,
@@ -1128,7 +1131,7 @@
         "Implicit bias"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t11"
+      "linked_concept_id": "ch08_t18"
     },
     {
       "id": 1230,

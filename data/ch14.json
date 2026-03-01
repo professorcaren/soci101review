@@ -88,8 +88,6 @@
       "level3_question_ids": [
         412,
         413,
-        1142,
-        1143,
         1166,
         1169,
         1179,
@@ -108,7 +106,7 @@
         1168,
         1169,
         1170,
-        1178,
+        1177,
         1179,
         1204,
         1205,
@@ -139,7 +137,7 @@
       "level3_question_ids": [
         407,
         416,
-        1178
+        1177
       ],
       "confusable_ids": [
         "ch14_t05",
@@ -158,6 +156,7 @@
         417,
         1167,
         1170,
+        1177,
         1179,
         1192
       ],
@@ -177,7 +176,6 @@
         408,
         417,
         1166,
-        1177,
         1192,
         1204
       ],
@@ -196,8 +194,7 @@
       "level3_question_ids": [
         413,
         1214,
-        1216,
-        1217
+        1216
       ],
       "confusable_ids": [
         "ch14_t24",
@@ -225,7 +222,9 @@
       "term": "Taste Publics and Cultures",
       "definition": "Groups sharing similar aesthetic preferences (publics) forming distinct cultural patterns (cultures).",
       "level3_question_ids": [
+        1142,
         1178,
+        1192,
         1204
       ],
       "confusable_ids": [
@@ -243,8 +242,10 @@
       "level3_question_ids": [
         409,
         412,
+        1141,
         1167,
         1176,
+        1178,
         1189,
         1197,
         1204
@@ -264,9 +265,6 @@
       "level3_question_ids": [
         1141,
         1142,
-        1143,
-        1144,
-        1145,
         1167,
         1170,
         1176,
@@ -291,6 +289,7 @@
       "level3_question_ids": [
         409,
         412,
+        1143,
         1169,
         1189
       ],
@@ -378,8 +377,10 @@
         409,
         411,
         415,
-        1190,
-        1145
+        1143,
+        1145,
+        1178,
+        1190
       ],
       "confusable_ids": [
         "ch14_t23",
@@ -398,9 +399,9 @@
         414,
         417,
         1141,
+        1142,
         1143,
-        1144,
-        1145,
+        1178,
         1192
       ],
       "confusable_ids": [
@@ -418,6 +419,7 @@
       "level3_question_ids": [
         410,
         413,
+        1141,
         1142
       ],
       "confusable_ids": [
@@ -433,7 +435,7 @@
       "definition": "The capacity for a sign or text to have multiple meanings or interpretations.",
       "level3_question_ids": [
         415,
-        1177,
+        1143,
         1189,
         1190,
         1191,
@@ -448,9 +450,7 @@
       "id": "ch14_t23",
       "term": "Role Model",
       "definition": "A person whose behavior or success serves as an example for others to follow.",
-      "level3_question_ids": [
-        1178
-      ],
+      "level3_question_ids": [],
       "confusable_ids": [
         "ch14_t19",
         "ch14_t17"
@@ -510,7 +510,7 @@
         "These musical preferences reflect individual psychology rather than social patterns"
       ],
       "correct": 1,
-      "linked_concept_id": "ch14_t07"
+      "linked_concept_id": "ch14_t11"
     },
     {
       "id": 409,
@@ -522,7 +522,7 @@
         "Reinforcement theory"
       ],
       "correct": 1,
-      "linked_concept_id": "ch14_t16"
+      "linked_concept_id": "ch14_t19"
     },
     {
       "id": 410,
@@ -534,7 +534,7 @@
         "It has become an interpretive community focused on textual poaching"
       ],
       "correct": 2,
-      "linked_concept_id": "ch14_t21"
+      "linked_concept_id": "ch14_t24"
     },
     {
       "id": 411,
@@ -546,7 +546,7 @@
         "Two-step flow model"
       ],
       "correct": 1,
-      "linked_concept_id": "ch14_t16"
+      "linked_concept_id": "ch14_t15"
     },
     {
       "id": 412,
@@ -570,7 +570,7 @@
         "A primary group that provides intimate personal relationships"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t21"
+      "linked_concept_id": "ch14_t09"
     },
     {
       "id": 414,
@@ -594,7 +594,7 @@
         "The formation of different lifestyle enclaves around the film"
       ],
       "correct": 2,
-      "linked_concept_id": "ch14_t19"
+      "linked_concept_id": "ch14_t22"
     },
     {
       "id": 416,
@@ -618,7 +618,7 @@
         "Lifestyle enclaves and third places"
       ],
       "correct": 1,
-      "linked_concept_id": "ch14_t24"
+      "linked_concept_id": "ch14_t11"
     },
     {
       "id": 985,
@@ -1086,7 +1086,7 @@
         "Hypodermic needle theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t12"
+      "linked_concept_id": "ch14_t04"
     },
     {
       "id": 1168,
@@ -1110,7 +1110,7 @@
         "Reinforcement theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t14"
+      "linked_concept_id": "ch14_t04"
     },
     {
       "id": 1170,
@@ -1122,7 +1122,7 @@
         "Two-step flow model"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t17"
+      "linked_concept_id": "ch14_t04"
     },
     {
       "id": 1171,
@@ -1230,7 +1230,7 @@
         "Popular culture"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t04"
+      "linked_concept_id": "ch14_t01"
     },
     {
       "id": 1180,
@@ -1350,7 +1350,7 @@
         "Lifestyle enclaves"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t12"
+      "linked_concept_id": "ch14_t22"
     },
     {
       "id": 1190,
@@ -1362,7 +1362,7 @@
         "Interpretive strategies"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t18"
+      "linked_concept_id": "ch14_t19"
     },
     {
       "id": 1191,
@@ -1446,7 +1446,7 @@
         "The active audience concept argues that media effects are solely determined by individual psychological factors."
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t12"
+      "linked_concept_id": "ch14_t13"
     },
     {
       "id": 1198,
@@ -1530,7 +1530,7 @@
         "Hypodermic needle theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t11"
+      "linked_concept_id": "ch14_t04"
     },
     {
       "id": 1205,
@@ -1638,7 +1638,7 @@
         "They are primarily focused on economic transactions."
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t01"
+      "linked_concept_id": "ch14_t09"
     },
     {
       "id": 1214,

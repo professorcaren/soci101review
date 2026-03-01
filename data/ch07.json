@@ -101,6 +101,7 @@
         550,
         553,
         1023,
+        1025,
         1027,
         1054,
         1061,
@@ -186,6 +187,8 @@
         532,
         533,
         534,
+        535,
+        537,
         538,
         540,
         546,
@@ -225,12 +228,12 @@
       "definition": "A medieval European system of land ownership and hierarchy where lords controlled land and serfs worked it in exchange for protection",
       "level3_question_ids": [
         524,
+        535,
         536,
+        537,
         538,
         539,
-        1075,
-        535,
-        537
+        1075
       ],
       "confusable_ids": [
         "ch07_t03",
@@ -317,6 +320,7 @@
       "term": "Social Reproduction",
       "definition": "The transmission of social and economic inequalities from one generation to the next",
       "level3_question_ids": [
+        552,
         1003,
         1033
       ],
@@ -343,6 +347,7 @@
         548,
         550,
         551,
+        552,
         555
       ],
       "confusable_ids": [
@@ -428,6 +433,8 @@
         1034,
         1036,
         1037,
+        1039,
+        1040,
         1042
       ],
       "confusable_ids": [
@@ -447,8 +454,8 @@
         1034,
         1035,
         1037,
-        1042,
-        1039
+        1039,
+        1042
       ],
       "confusable_ids": [
         "ch07_t19",
@@ -500,8 +507,8 @@
         1036,
         1038,
         1039,
-        1042,
-        1040
+        1040,
+        1042
       ],
       "confusable_ids": [
         "ch07_t20",
@@ -646,8 +653,7 @@
       "definition": "The practice of selecting a mate with social characteristics different from one's own, such as different class or racial backgrounds.",
       "level3_question_ids": [
         550,
-        551,
-        552
+        551
       ],
       "confusable_ids": [
         "ch07_t15",
@@ -691,7 +697,7 @@
         "A caste system based on Hindu beliefs"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t10"
+      "linked_concept_id": "ch07_t04"
     },
     {
       "id": 525,
@@ -715,7 +721,7 @@
         "Cultural capital acquisition"
       ],
       "correct": 1,
-      "linked_concept_id": "ch07_t25"
+      "linked_concept_id": "ch07_t04"
     },
     {
       "id": 527,
@@ -751,7 +757,7 @@
         "Intersectionality of social identities"
       ],
       "correct": 3,
-      "linked_concept_id": "ch07_t08"
+      "linked_concept_id": "ch07_t07"
     },
     {
       "id": 530,
@@ -763,7 +769,7 @@
         "Cultural capital differences"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t25"
+      "linked_concept_id": "ch07_t07"
     },
     {
       "id": 531,
@@ -775,7 +781,7 @@
         "Horizontal mobility analysis"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t08"
+      "linked_concept_id": "ch07_t07"
     },
     {
       "id": 532,
@@ -815,7 +821,7 @@
     },
     {
       "id": 535,
-      "question": "A historian studying medieval Europe finds that nobles owned large estates worked by peasants who were bound to the land and could not leave without permission. The peasants provided military service and crops in exchange for protection. This system represents which concept?",
+      "question": "A historian studying medieval Europe finds that nobles owned large estates worked by peasants who were bound to the land and could not leave without permission. The peasants provided labor, rent, and a share of crops in exchange for protection. This system represents which concept?",
       "choices": [
         "Apartheid racial segregation",
         "The U.S. Social Class Ladder",
@@ -835,7 +841,7 @@
         "Apartheid legal structures"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t06"
+      "linked_concept_id": "ch07_t10"
     },
     {
       "id": 537,
@@ -859,7 +865,7 @@
         "The U.S. Social Class Ladder structure"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t08"
+      "linked_concept_id": "ch07_t15"
     },
     {
       "id": 539,
@@ -871,7 +877,7 @@
         "Residential segregation effects"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t06"
+      "linked_concept_id": "ch07_t15"
     },
     {
       "id": 540,
@@ -883,7 +889,7 @@
         "Absolute deprivation effects"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t08"
+      "linked_concept_id": "ch07_t15"
     },
     {
       "id": 541,
@@ -895,7 +901,7 @@
         "Intersectionality of economic factors"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t23"
+      "linked_concept_id": "ch07_t24"
     },
     {
       "id": 542,
@@ -907,7 +913,7 @@
         "Socioeconomic status categories"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t06"
+      "linked_concept_id": "ch07_t24"
     },
     {
       "id": 543,
@@ -919,7 +925,7 @@
         "Class consciousness measurement"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t23"
+      "linked_concept_id": "ch07_t24"
     },
     {
       "id": 544,
@@ -931,7 +937,7 @@
         "The federal poverty line threshold"
       ],
       "correct": 3,
-      "linked_concept_id": "ch07_t06"
+      "linked_concept_id": "ch07_t25"
     },
     {
       "id": 545,
@@ -943,7 +949,7 @@
         "Class consciousness effects"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t24"
+      "linked_concept_id": "ch07_t25"
     },
     {
       "id": 546,
@@ -955,7 +961,7 @@
         "The U.S. Social Class Ladder boundaries"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t08"
+      "linked_concept_id": "ch07_t25"
     },
     {
       "id": 547,
@@ -991,7 +997,7 @@
         "Absolute deprivation effects"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t08"
+      "linked_concept_id": "ch07_t27"
     },
     {
       "id": 550,
@@ -1003,7 +1009,7 @@
         "Heterogamy across social boundaries"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t15"
+      "linked_concept_id": "ch07_t28"
     },
     {
       "id": 551,
@@ -1015,7 +1021,7 @@
         "Class consciousness in relationships"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t27"
+      "linked_concept_id": "ch07_t29"
     },
     {
       "id": 552,
@@ -1039,7 +1045,7 @@
         "The U.S. Social Class Ladder climbing"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t08"
+      "linked_concept_id": "ch07_t30"
     },
     {
       "id": 554,
@@ -1051,7 +1057,7 @@
         "Intersectionality in career choices"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t25"
+      "linked_concept_id": "ch07_t30"
     },
     {
       "id": 555,
@@ -1063,7 +1069,7 @@
         "Class consciousness in career decisions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t15"
+      "linked_concept_id": "ch07_t30"
     },
     {
       "id": 1003,
@@ -1075,7 +1081,7 @@
         "Cultural assimilation - how groups adopt dominant cultural practices"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t06"
+      "linked_concept_id": "ch07_t14"
     },
     {
       "id": 1004,
@@ -1087,7 +1093,7 @@
         "It dictates which courses she is legally allowed to enroll in"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t06"
+      "linked_concept_id": "ch07_t13"
     },
     {
       "id": 1014,
@@ -1099,7 +1105,7 @@
         "Relative poverty measure"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t11"
+      "linked_concept_id": "ch07_t24"
     },
     {
       "id": 1015,
@@ -1111,7 +1117,7 @@
         "A person who cannot afford essential medication for a chronic illness in any economic context"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t11"
+      "linked_concept_id": "ch07_t23"
     },
     {
       "id": 1016,
@@ -1207,7 +1213,7 @@
         "A deeply religious individual marrying someone who does not share their faith"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t05"
+      "linked_concept_id": "ch07_t28"
     },
     {
       "id": 1024,
@@ -1243,7 +1249,7 @@
         "Greater political polarization as family units become more ideologically uniform"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t16"
+      "linked_concept_id": "ch07_t28"
     },
     {
       "id": 1027,
@@ -1255,7 +1261,7 @@
         "Taylor and Jordan, who were raised in the same neighborhood but differ in religious beliefs and family structures"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t05"
+      "linked_concept_id": "ch07_t28"
     },
     {
       "id": 1028,
@@ -1339,7 +1345,7 @@
         "collective mobility"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t19"
+      "linked_concept_id": "ch07_t22"
     },
     {
       "id": 1035,
@@ -1363,7 +1369,7 @@
         "vertical social mobility"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t19"
+      "linked_concept_id": "ch07_t30"
     },
     {
       "id": 1037,
@@ -1423,7 +1429,7 @@
         "A society experiencing upward mobility due to rapid technological advancement"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t16"
+      "linked_concept_id": "ch07_t30"
     },
     {
       "id": 1042,
@@ -1435,7 +1441,7 @@
         "horizontal mobility"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t19"
+      "linked_concept_id": "ch07_t22"
     },
     {
       "id": 1043,
@@ -1447,7 +1453,7 @@
         "cultural reproduction"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t01"
+      "linked_concept_id": "ch07_t13"
     },
     {
       "id": 1044,
@@ -1639,7 +1645,7 @@
         "A workplace where older employees receive preferential treatment"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t01"
+      "linked_concept_id": "ch07_t05"
     },
     {
       "id": 1060,
@@ -1651,7 +1657,7 @@
         "Legal systems that classify citizens according to their birthplace"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t06"
+      "linked_concept_id": "ch07_t02"
     },
     {
       "id": 1061,
@@ -1663,7 +1669,7 @@
         "A categorization method that divides society according to inherited status and family lineage"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t13"
+      "linked_concept_id": "ch07_t05"
     },
     {
       "id": 1062,
@@ -1735,7 +1741,7 @@
         "Status differences motivate individuals to develop specialized skills beneficial to society"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t11"
+      "linked_concept_id": "ch07_t02"
     },
     {
       "id": 1068,
@@ -1771,7 +1777,7 @@
         "A system where social stratification is acknowledged but not rigidly maintained"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t01"
+      "linked_concept_id": "ch07_t17"
     },
     {
       "id": 1071,
@@ -1807,7 +1813,7 @@
         "Feudal estate system with hereditary social positions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t16"
+      "linked_concept_id": "ch07_t18"
     },
     {
       "id": 1074,
@@ -1831,7 +1837,7 @@
         "Feudal system with legally enforced class boundaries"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t16"
+      "linked_concept_id": "ch07_t18"
     }
   ]
 }

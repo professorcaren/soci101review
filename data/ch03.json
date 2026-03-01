@@ -9,7 +9,6 @@
       "definition": "Judging other cultures by the standards of one's own culture",
       "level3_question_ids": [
         784,
-        785,
         786
       ],
       "confusable_ids": [
@@ -25,6 +24,7 @@
       "term": "Cultural Relativism",
       "definition": "Understanding and evaluating a culture by its own standards",
       "level3_question_ids": [
+        785,
         786,
         1088
       ],
@@ -41,6 +41,7 @@
       "term": "Material Culture",
       "definition": "Physical objects and artifacts created by a society",
       "level3_question_ids": [
+        790,
         1104
       ],
       "confusable_ids": [
@@ -119,6 +120,7 @@
       "term": "Norms",
       "definition": "Rules and expectations by which a society guides behavior",
       "level3_question_ids": [
+        789,
         1083,
         1084,
         1090,
@@ -129,8 +131,7 @@
         1105,
         1108,
         1109,
-        1128,
-        789
+        1128
       ],
       "confusable_ids": [
         "ch03_t21",
@@ -352,10 +353,10 @@
       "definition": "Standards or rules that a society claims to believe",
       "level3_question_ids": [
         789,
+        790,
         1104,
         1105,
-        1107,
-        790
+        1107
       ],
       "confusable_ids": [
         "ch03_t17",
@@ -410,6 +411,7 @@
       "term": "Cultural Imperialism",
       "definition": "Domination of one culture over others through media, economics, or politics",
       "level3_question_ids": [
+        789,
         791
       ],
       "confusable_ids": [
@@ -468,7 +470,7 @@
         "Values expressed through nonmaterial culture"
       ],
       "correct": 1,
-      "linked_concept_id": "ch03_t04"
+      "linked_concept_id": "ch03_t11"
     },
     {
       "id": 788,
@@ -564,7 +566,7 @@
         "It reflects the economic interests of powerful corporations."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": null
     },
     {
       "id": 1080,
@@ -600,7 +602,7 @@
         "The elimination of all forms of social inequality."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": null
     },
     {
       "id": 1083,
@@ -612,7 +614,7 @@
         "Deviance is a result of individual pathology and psychological factors."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t07"
+      "linked_concept_id": null
     },
     {
       "id": 1084,
@@ -624,7 +626,7 @@
         "Institutions function to socialize individuals into dominant cultural norms."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t07"
+      "linked_concept_id": null
     },
     {
       "id": 1085,
@@ -648,7 +650,7 @@
         "The adoption of similar fashion trends in different countries."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t12"
+      "linked_concept_id": "ch03_t22"
     },
     {
       "id": 1087,
@@ -696,7 +698,7 @@
         "Always consistent with societal mores."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t07"
+      "linked_concept_id": "ch03_t08"
     },
     {
       "id": 1091,
@@ -708,7 +710,7 @@
         "Are always negative and involve punishment."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t08"
+      "linked_concept_id": "ch03_t15"
     },
     {
       "id": 1092,
@@ -756,7 +758,7 @@
         "To punish those who violate social norms."
       ],
       "correct": 2,
-      "linked_concept_id": "ch03_t07"
+      "linked_concept_id": "ch03_t15"
     },
     {
       "id": 1096,
@@ -768,7 +770,7 @@
         "Restorative justice practices."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t16"
+      "linked_concept_id": "ch03_t15"
     },
     {
       "id": 1097,
@@ -792,7 +794,7 @@
         "All of the above."
       ],
       "correct": 3,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": "ch03_t19"
     },
     {
       "id": 1099,
@@ -804,7 +806,7 @@
         "The development of unique cultural practices and styles."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": "ch03_t19"
     },
     {
       "id": 1100,
@@ -816,7 +818,7 @@
         "Cultural lag."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t17"
+      "linked_concept_id": "ch03_t19"
     },
     {
       "id": 1101,
@@ -828,7 +830,7 @@
         "Assimilation of the counterculture into the dominant culture."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t17"
+      "linked_concept_id": "ch03_t19"
     },
     {
       "id": 1102,
@@ -852,7 +854,7 @@
         "Language completely determines a culture's worldview."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t12"
+      "linked_concept_id": "ch03_t05"
     },
     {
       "id": 1104,
@@ -864,7 +866,7 @@
         "Cultural leveling, the process by which cultures become more similar."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t22"
+      "linked_concept_id": "ch03_t21"
     },
     {
       "id": 1105,
@@ -924,7 +926,7 @@
         "Personal preferences that vary by individual."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": "ch03_t13"
     },
     {
       "id": 1110,
@@ -948,7 +950,7 @@
         "Using proper table manners at dinner."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t14"
+      "linked_concept_id": "ch03_t13"
     },
     {
       "id": 1112,
@@ -960,7 +962,7 @@
         "Folkways have stronger punishments than mores."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t09"
+      "linked_concept_id": "ch03_t13"
     },
     {
       "id": 1113,
@@ -972,7 +974,7 @@
         "They only affect formal legal systems."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t16"
+      "linked_concept_id": "ch03_t13"
     },
     {
       "id": 1114,
@@ -1008,7 +1010,7 @@
         "Any group that's different from the mainstream."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t17"
+      "linked_concept_id": "ch03_t19"
     },
     {
       "id": 1117,
@@ -1092,7 +1094,7 @@
         "Are neutral institutions that benefit all members of society equally."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": null
     },
     {
       "id": 1124,
@@ -1128,7 +1130,7 @@
         "The actions of great individuals or leaders."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": null
     },
     {
       "id": 1127,
@@ -1152,7 +1154,7 @@
         "Marijuana use is purely a matter of individual choice."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": "ch03_t13"
     },
     {
       "id": 1129,

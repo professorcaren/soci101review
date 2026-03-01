@@ -37,7 +37,9 @@
         301,
         302,
         303,
-        305
+        305,
+        1219,
+        1234
       ],
       "confusable_ids": [
         "ch10_t04"
@@ -52,7 +54,9 @@
         295,
         296,
         302,
-        305
+        305,
+        1219,
+        1234
       ],
       "confusable_ids": []
     },
@@ -66,7 +70,8 @@
         296,
         297,
         300,
-        303
+        303,
+        1219
       ],
       "confusable_ids": [
         "ch10_t05",
@@ -108,7 +113,8 @@
         297,
         300,
         303,
-        306
+        306,
+        1236
       ],
       "confusable_ids": [
         "ch10_t07",
@@ -142,7 +148,8 @@
         295,
         299,
         301,
-        306
+        306,
+        1220
       ],
       "confusable_ids": [
         "ch10_t09",
@@ -178,7 +185,8 @@
       "definition": "A term describing those who consider themselves spiritual but not religious and who often adopt aspects of various religious traditions",
       "level3_question_ids": [
         300,
-        303
+        303,
+        1218
       ],
       "confusable_ids": [
         "ch10_t12",
@@ -210,7 +218,8 @@
       "term": "Collective Effervescence",
       "definition": "Durkheim's term for the heightened sense of shared energy and community that people experience during religious gatherings",
       "level3_question_ids": [
-        296
+        296,
+        1218
       ],
       "confusable_ids": [
         "ch10_t10",
@@ -235,7 +244,8 @@
         303,
         304,
         305,
-        306
+        306,
+        1219
       ],
       "confusable_ids": [
         "ch10_t05",
@@ -274,7 +284,7 @@
         "Traditional authority within religious institutions"
       ],
       "correct": 2,
-      "linked_concept_id": "ch10_t04"
+      "linked_concept_id": "ch10_t11"
     },
     {
       "id": 295,
@@ -286,7 +296,7 @@
         "Religion and secular spirituality"
       ],
       "correct": 1,
-      "linked_concept_id": "ch10_t04"
+      "linked_concept_id": "ch10_t05"
     },
     {
       "id": 296,
@@ -310,7 +320,7 @@
         "Religious fundamentalism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch10_t04"
+      "linked_concept_id": "ch10_t05"
     },
     {
       "id": 298,
@@ -322,7 +332,7 @@
         "The transformation from traditional to charismatic authority"
       ],
       "correct": 2,
-      "linked_concept_id": "ch10_t05"
+      "linked_concept_id": "ch10_t07"
     },
     {
       "id": 299,
@@ -334,7 +344,7 @@
         "Sacred authority derived from religious texts"
       ],
       "correct": 1,
-      "linked_concept_id": "ch10_t08"
+      "linked_concept_id": "ch10_t09"
     },
     {
       "id": 300,
@@ -346,7 +356,7 @@
         "Religious fundamentalism across different faith traditions"
       ],
       "correct": 2,
-      "linked_concept_id": "ch10_t04"
+      "linked_concept_id": "ch10_t10"
     },
     {
       "id": 301,
@@ -370,7 +380,7 @@
         "The process of secularization in modern communities"
       ],
       "correct": 2,
-      "linked_concept_id": "ch10_t05"
+      "linked_concept_id": "ch10_t11"
     },
     {
       "id": 303,
@@ -394,7 +404,7 @@
         "The transformation of traditional religious authority"
       ],
       "correct": 2,
-      "linked_concept_id": "ch10_t05"
+      "linked_concept_id": "ch10_t07"
     },
     {
       "id": 305,
@@ -406,7 +416,7 @@
         "The process of secularization in traditional societies"
       ],
       "correct": 0,
-      "linked_concept_id": "ch10_t05"
+      "linked_concept_id": "ch10_t02"
     },
     {
       "id": 306,
@@ -418,7 +428,7 @@
         "The tension between intrinsic and extrinsic religiosity"
       ],
       "correct": 1,
-      "linked_concept_id": "ch10_t05"
+      "linked_concept_id": "ch10_t09"
     },
     {
       "id": 1218,

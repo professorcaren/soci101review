@@ -72,8 +72,7 @@
       "definition": "Collection of people who happen to be in the same place but have no social connection",
       "level3_question_ids": [
         280,
-        281,
-        648
+        281
       ],
       "confusable_ids": [
         "ch05_t08",
@@ -170,8 +169,7 @@
       "term": "Social Ties",
       "definition": "Connections between people in a social network",
       "level3_question_ids": [
-        86,
-        65
+        86
       ],
       "confusable_ids": [
         "ch05_t03",
@@ -186,9 +184,10 @@
       "term": "Strong Ties",
       "definition": "Close relationships characterized by frequent interaction and emotional intensity",
       "level3_question_ids": [
+        65,
+        649,
         650,
-        656,
-        649
+        656
       ],
       "confusable_ids": [
         "ch05_t10",
@@ -227,12 +226,12 @@
       "term": "Anomie",
       "definition": "State of normlessness or social instability resulting from breakdown of standards",
       "level3_question_ids": [
-        107,
         80,
         81,
         82,
         83,
-        84
+        84,
+        107
       ],
       "confusable_ids": [
         "ch05_t08",
@@ -304,6 +303,9 @@
         103,
         104,
         105,
+        648,
+        649,
+        652,
         658
       ],
       "confusable_ids": [
@@ -319,8 +321,13 @@
       "term": "Groupthink",
       "definition": "Pattern of thought characterized by self-deception, forced manufacture of consent, and conformity",
       "level3_question_ids": [
-        654,
-        652
+        80,
+        81,
+        82,
+        83,
+        84,
+        652,
+        654
       ],
       "confusable_ids": [
         "ch05_t09",
@@ -335,11 +342,7 @@
       "term": "Social Influence",
       "definition": "Ways in which people affect the thoughts, feelings, and behaviors of others",
       "level3_question_ids": [
-        91,
-        66,
-        67,
-        68,
-        69
+        91
       ],
       "confusable_ids": [
         "ch05_t08",
@@ -582,7 +585,7 @@
         "way secondary groups uphold impersonal relationships."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t05"
     },
     {
       "id": 61,
@@ -594,7 +597,7 @@
         "way secondary groups facilitate impersonal relationships."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t05"
     },
     {
       "id": 62,
@@ -606,7 +609,7 @@
         "way membership in a primary group can result in joining secondary groups."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t05"
     },
     {
       "id": 63,
@@ -618,7 +621,7 @@
         "way primary groups can generate secondary group memberships."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t05"
     },
     {
       "id": 64,
@@ -630,7 +633,7 @@
         "way primary groups can lead to participation in secondary groups."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t05"
     },
     {
       "id": 65,
@@ -654,7 +657,7 @@
         "Rapid worldwide changes lead to standardized work cultures."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t17"
+      "linked_concept_id": "ch05_t08"
     },
     {
       "id": 67,
@@ -666,7 +669,7 @@
         "Globalization encourages uniformity in community programs."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t17"
+      "linked_concept_id": "ch05_t08"
     },
     {
       "id": 68,
@@ -678,7 +681,7 @@
         "Global connectivity fosters a universal culture of physical fitness."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t17"
+      "linked_concept_id": "ch05_t08"
     },
     {
       "id": 69,
@@ -690,7 +693,7 @@
         "Globalization tends to uniform eating habits across societies."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t17"
+      "linked_concept_id": "ch05_t08"
     },
     {
       "id": 70,
@@ -738,7 +741,7 @@
         "the importance of group dynamics"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t12"
+      "linked_concept_id": "ch05_t10"
     },
     {
       "id": 74,
@@ -762,7 +765,7 @@
         "social conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t20"
+      "linked_concept_id": null
     },
     {
       "id": 76,
@@ -774,7 +777,7 @@
         "social conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t20"
+      "linked_concept_id": null
     },
     {
       "id": 77,
@@ -786,7 +789,7 @@
         "conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t20"
+      "linked_concept_id": null
     },
     {
       "id": 78,
@@ -798,7 +801,7 @@
         "conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t01"
+      "linked_concept_id": null
     },
     {
       "id": 79,
@@ -810,7 +813,7 @@
         "conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t20"
+      "linked_concept_id": null
     },
     {
       "id": 80,
@@ -894,7 +897,7 @@
         "It assists in understanding the degree to which societal norms impose restrictions on individuals."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t08"
+      "linked_concept_id": "ch05_t19"
     },
     {
       "id": 87,
@@ -906,7 +909,7 @@
         "It gauges the extent of influence that societal norms have on individual actions."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t05"
+      "linked_concept_id": "ch05_t19"
     },
     {
       "id": 88,
@@ -918,7 +921,7 @@
         "It helps to study the individual adherence to the rules of their primary groups."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t05"
+      "linked_concept_id": "ch05_t19"
     },
     {
       "id": 89,
@@ -930,7 +933,7 @@
         "It studies the individual's compliance with societal norms."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t01"
+      "linked_concept_id": "ch05_t19"
     },
     {
       "id": 90,
@@ -942,7 +945,7 @@
         "They illustrate that only people with weak moral compasses tend to conform to questionable group norms."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t01"
+      "linked_concept_id": "ch05_t17"
     },
     {
       "id": 91,
@@ -954,7 +957,7 @@
         "It indicates the diminished impact of social influence on people's decisions in recent times."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t17"
+      "linked_concept_id": "ch05_t22"
     },
     {
       "id": 92,
@@ -966,7 +969,7 @@
         "It shows how people's fear of authority has declined over years due to societal evolution."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t20"
+      "linked_concept_id": "ch05_t22"
     },
     {
       "id": 93,
@@ -978,7 +981,7 @@
         "It stresses the innate resilience of individuals in resisting socio-cultural influences."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t20"
+      "linked_concept_id": "ch05_t22"
     },
     {
       "id": 94,
@@ -1002,7 +1005,7 @@
         "conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t21"
+      "linked_concept_id": null
     },
     {
       "id": 96,
@@ -1026,7 +1029,7 @@
         "Categories"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t05"
     },
     {
       "id": 98,
@@ -1038,7 +1041,7 @@
         "Bureaucratic structures"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t05"
     },
     {
       "id": 99,
@@ -1062,7 +1065,7 @@
         "Secondary groups"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t05"
     },
     {
       "id": 101,
@@ -1146,7 +1149,7 @@
         "anomie"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t11"
+      "linked_concept_id": "ch05_t07"
     },
     {
       "id": 108,
@@ -1170,7 +1173,7 @@
         "The participants didn't understand the experiment's guidelines."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t01"
+      "linked_concept_id": "ch05_t17"
     },
     {
       "id": 110,
@@ -1182,7 +1185,7 @@
         "People in larger groups are often more courageous."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t01"
+      "linked_concept_id": "ch05_t12"
     },
     {
       "id": 111,
@@ -1194,7 +1197,7 @@
         "Individual engineers lack personal opinions."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t01"
+      "linked_concept_id": "ch05_t17"
     },
     {
       "id": 112,
@@ -1206,7 +1209,7 @@
         "Book club recommendations don't affect individual reading choices."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t01"
+      "linked_concept_id": "ch05_t17"
     },
     {
       "id": 280,
@@ -1410,7 +1413,7 @@
         "Social networks and the flow of information through weak ties"
       ],
       "correct": 3,
-      "linked_concept_id": "ch05_t07"
+      "linked_concept_id": "ch05_t10"
     },
     {
       "id": 651,
@@ -1422,7 +1425,7 @@
         "Charismatic authority in leadership"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t30"
+      "linked_concept_id": "ch05_t28"
     },
     {
       "id": 652,
@@ -1458,7 +1461,7 @@
         "The formation of in-groups and out-groups"
       ],
       "correct": 2,
-      "linked_concept_id": "ch05_t27"
+      "linked_concept_id": null
     },
     {
       "id": 655,
@@ -1470,7 +1473,7 @@
         "Coercive power backed by threats"
       ],
       "correct": 2,
-      "linked_concept_id": "ch05_t21"
+      "linked_concept_id": null
     },
     {
       "id": 656,
@@ -1482,7 +1485,7 @@
         "Strong ties versus weak ties in social networks"
       ],
       "correct": 1,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t13"
     },
     {
       "id": 657,
@@ -1494,7 +1497,7 @@
         "Rationalization through expert power"
       ],
       "correct": 1,
-      "linked_concept_id": "ch05_t29"
+      "linked_concept_id": "ch05_t30"
     },
     {
       "id": 658,

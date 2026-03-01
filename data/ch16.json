@@ -63,8 +63,7 @@
         445,
         466,
         614,
-        636,
-        616
+        636
       ],
       "confusable_ids": [
         "ch16_t02",
@@ -96,9 +95,7 @@
       "definition": "Death rates fall while birth rates remain high, causing rapid population growth.",
       "level3_question_ids": [
         446,
-        458,
-        627,
-        449
+        458
       ],
       "confusable_ids": [
         "ch16_t04",
@@ -114,8 +111,7 @@
       "definition": "Birth rates decline and death rates remain low, slowing population growth.",
       "level3_question_ids": [
         433,
-        446,
-        628
+        446
       ],
       "confusable_ids": [
         "ch16_t05",
@@ -147,8 +143,7 @@
       "level3_question_ids": [
         435,
         451,
-        462,
-        619
+        462
       ],
       "confusable_ids": [
         "ch16_t11"
@@ -173,8 +168,7 @@
         621,
         622,
         623,
-        624,
-        465
+        624
       ],
       "confusable_ids": [
         "ch16_t15",
@@ -205,9 +199,7 @@
       "term": "Age Structure Diagrams",
       "definition": "Graphs (population pyramids) showing the distribution of a population by age and sex.",
       "level3_question_ids": [
-        639,
-        613,
-        618
+        639
       ],
       "confusable_ids": [
         "ch16_t02",
@@ -247,8 +239,7 @@
         622,
         623,
         624,
-        636,
-        637
+        636
       ],
       "confusable_ids": [
         "ch16_t02",
@@ -269,6 +260,7 @@
         444,
         448,
         450,
+        454,
         621,
         622,
         623,
@@ -290,6 +282,7 @@
       "level3_question_ids": [
         4,
         6,
+        611,
         612,
         614,
         636
@@ -360,12 +353,14 @@
         449,
         450,
         451,
+        454,
         455,
         456,
         457,
         458,
         459,
         464,
+        465,
         466,
         467,
         468,
@@ -383,8 +378,7 @@
         635,
         636,
         637,
-        638,
-        454
+        638
       ],
       "confusable_ids": [
         "ch16_t16",
@@ -423,6 +417,7 @@
       "level3_question_ids": [
         440,
         444,
+        449,
         606,
         607,
         608,
@@ -486,7 +481,7 @@
         "The demographic dividend with economic prosperity"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t01"
+      "linked_concept_id": "ch16_t05"
     },
     {
       "id": 2,
@@ -498,7 +493,7 @@
         "The age structure difference will have no impact on future birth rates"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t01"
+      "linked_concept_id": "ch16_t11"
     },
     {
       "id": 3,
@@ -510,7 +505,7 @@
         "The dominant religious beliefs in each country"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t02"
+      "linked_concept_id": "ch16_t11"
     },
     {
       "id": 4,
@@ -522,7 +517,7 @@
         "Higher rates of accidents and violence among young people"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t02"
+      "linked_concept_id": "ch16_t11"
     },
     {
       "id": 5,
@@ -534,7 +529,7 @@
         "Statistical errors in calculating the birth and death rates"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t03"
+      "linked_concept_id": "ch16_t20"
     },
     {
       "id": 6,
@@ -546,7 +541,7 @@
         "Increasing urbanization concentrating population growth"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t03"
+      "linked_concept_id": "ch16_t16"
     },
     {
       "id": 7,
@@ -798,7 +793,7 @@
         "Population Doubling Formula"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t14"
+      "linked_concept_id": "ch16_t13"
     },
     {
       "id": 445,
@@ -822,7 +817,7 @@
         "Population doubling acceleration"
       ],
       "correct": 2,
-      "linked_concept_id": "ch16_t04"
+      "linked_concept_id": "ch16_t06"
     },
     {
       "id": 447,
@@ -858,7 +853,7 @@
         "Population Doubling calculations"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t05"
+      "linked_concept_id": "ch16_t04"
     },
     {
       "id": 450,
@@ -942,7 +937,7 @@
         "Different calculation methods for population growth"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t18"
+      "linked_concept_id": "ch16_t11"
     },
     {
       "id": 457,
@@ -978,7 +973,7 @@
         "Geographic mapping of migration flows"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t18"
+      "linked_concept_id": "ch16_t09"
     },
     {
       "id": 460,
@@ -990,7 +985,7 @@
         "CBR is more accurate than TFR for all demographic analysis"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t09"
+      "linked_concept_id": "ch16_t01"
     },
     {
       "id": 461,
@@ -1002,7 +997,7 @@
         "High rates of international emigration"
       ],
       "correct": 2,
-      "linked_concept_id": "ch16_t17"
+      "linked_concept_id": "ch16_t07"
     },
     {
       "id": 462,
@@ -1074,7 +1069,7 @@
         "Stable population doubling times"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t19"
+      "linked_concept_id": "ch16_t09"
     },
     {
       "id": 468,
@@ -1086,7 +1081,7 @@
         "Population doubling acceleration in developed countries"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t18"
+      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 469,
@@ -1098,7 +1093,7 @@
         "Migration policies vary significantly between countries"
       ],
       "correct": 2,
-      "linked_concept_id": "ch16_t18"
+      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 600,
@@ -1110,7 +1105,7 @@
         "nongovernmental organization"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t21"
+      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 601,
@@ -1134,7 +1129,7 @@
         "nongovernmental organization"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t16"
+      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 603,
@@ -1170,7 +1165,7 @@
         "the Malthusian theorem"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t22"
+      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 606,
@@ -1254,7 +1249,7 @@
         "Decline in immigration rates"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t15"
+      "linked_concept_id": "ch16_t09"
     },
     {
       "id": 613,
@@ -1326,7 +1321,7 @@
         "About 40%"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t11"
+      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 619,
@@ -1362,7 +1357,7 @@
         "Infant mortality rate"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t14"
+      "linked_concept_id": "ch16_t01"
     },
     {
       "id": 622,
@@ -1374,7 +1369,7 @@
         "Infant mortality rate"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t14"
+      "linked_concept_id": "ch16_t09"
     },
     {
       "id": 623,
@@ -1386,7 +1381,7 @@
         "Infant mortality rate"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t14"
+      "linked_concept_id": "ch16_t02"
     },
     {
       "id": 624,
@@ -1422,7 +1417,7 @@
         "A model that explains the impact of social factors on population growth and distribution."
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t16"
+      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 627,
@@ -1578,7 +1573,7 @@
         "Age structure diagrams"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t11"
+      "linked_concept_id": "ch16_t05"
     }
   ]
 }

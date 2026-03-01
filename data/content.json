@@ -85,11 +85,11 @@
           "term": "Sociological Perspective",
           "definition": "Understanding human behavior by placing it within its broader social context",
           "level3_question_ids": [
+            342,
             813,
             838,
             839,
-            842,
-            342
+            842
           ],
           "confusable_ids": [
             "ch01_t06",
@@ -138,7 +138,9 @@
           "level3_question_ids": [
             343,
             344,
-            345
+            345,
+            346,
+            347
           ],
           "confusable_ids": [
             "ch01_t01",
@@ -205,8 +207,8 @@
           "term": "Positivism",
           "definition": "The belief that society operates according to general laws like natural sciences",
           "level3_question_ids": [
-            356,
             355,
+            356,
             357
           ],
           "confusable_ids": [
@@ -240,6 +242,7 @@
           "definition": "Theory viewing society as a complex system of parts working together",
           "level3_question_ids": [
             381,
+            382,
             828,
             829,
             830,
@@ -290,6 +293,7 @@
             362,
             363,
             364,
+            365,
             366,
             847,
             848,
@@ -315,11 +319,11 @@
             364,
             365,
             366,
+            840,
             847,
             849,
             850,
-            851,
-            840
+            851
           ],
           "confusable_ids": [
             "ch01_t15",
@@ -335,6 +339,7 @@
           "definition": "A state of normlessness or lack of social norms in society",
           "level3_question_ids": [
             362,
+            365,
             367,
             368,
             369,
@@ -373,6 +378,7 @@
           "definition": "Relating to the enduring patterns and organized relationships that shape society",
           "level3_question_ids": [
             381,
+            382,
             828,
             829,
             830,
@@ -420,10 +426,7 @@
             375,
             376,
             377,
-            378,
-            843,
-            844,
-            845
+            378
           ],
           "confusable_ids": [
             "ch01_t20",
@@ -440,14 +443,15 @@
           "level3_question_ids": [
             227,
             358,
+            379,
             380,
             381,
+            388,
             838,
             839,
             840,
             841,
-            842,
-            379
+            842
           ],
           "confusable_ids": [
             "ch01_t25",
@@ -465,6 +469,7 @@
             382,
             383,
             384,
+            389,
             828
           ],
           "confusable_ids": [
@@ -498,9 +503,10 @@
           "term": "Critical Theory",
           "definition": "Approach combining social theory and criticism to promote social change",
           "level3_question_ids": [
-            390,
+            355,
             388,
-            389
+            389,
+            390
           ],
           "confusable_ids": [
             "ch01_t22",
@@ -515,7 +521,9 @@
           "term": "Symbolic Interactionism",
           "definition": "Theory focusing on meaning and interaction in social life",
           "level3_question_ids": [
+            357,
             358,
+            379,
             381,
             833,
             834,
@@ -523,6 +531,7 @@
             836,
             837,
             838,
+            840,
             841,
             842
           ],
@@ -609,7 +618,7 @@
             "Researching historical causes of wars"
           ],
           "correct": 1,
-          "linked_concept_id": "ch01_t03"
+          "linked_concept_id": "ch01_t01"
         },
         {
           "id": 337,
@@ -633,7 +642,7 @@
             "Sociology uses only qualitative research methods"
           ],
           "correct": 2,
-          "linked_concept_id": "ch01_t03"
+          "linked_concept_id": "ch01_t01"
         },
         {
           "id": 339,
@@ -669,7 +678,7 @@
             "Cultural relativism"
           ],
           "correct": 3,
-          "linked_concept_id": "ch01_t05"
+          "linked_concept_id": null
         },
         {
           "id": 342,
@@ -777,7 +786,7 @@
             "Academic disciplines"
           ],
           "correct": 1,
-          "linked_concept_id": "ch01_t09"
+          "linked_concept_id": "ch01_t10"
         },
         {
           "id": 351,
@@ -801,7 +810,7 @@
             "Data sources"
           ],
           "correct": 1,
-          "linked_concept_id": "ch01_t01"
+          "linked_concept_id": "ch01_t10"
         },
         {
           "id": 353,
@@ -825,7 +834,7 @@
             "Geographic locations"
           ],
           "correct": 2,
-          "linked_concept_id": "ch01_t01"
+          "linked_concept_id": "ch01_t10"
         },
         {
           "id": 355,
@@ -873,7 +882,7 @@
             "Symbolic interactionism"
           ],
           "correct": 1,
-          "linked_concept_id": "ch01_t26"
+          "linked_concept_id": "ch01_t12"
         },
         {
           "id": 359,
@@ -945,7 +954,7 @@
             "Urban interdependence"
           ],
           "correct": 1,
-          "linked_concept_id": "ch01_t15"
+          "linked_concept_id": "ch01_t16"
         },
         {
           "id": 365,
@@ -969,7 +978,7 @@
             "Economic relationships"
           ],
           "correct": 0,
-          "linked_concept_id": "ch01_t15"
+          "linked_concept_id": "ch01_t16"
         },
         {
           "id": 367,
@@ -981,7 +990,7 @@
             "Identity crisis"
           ],
           "correct": 1,
-          "linked_concept_id": "ch01_t02"
+          "linked_concept_id": "ch01_t17"
         },
         {
           "id": 368,
@@ -1017,7 +1026,7 @@
             "Interpretive sociology"
           ],
           "correct": 1,
-          "linked_concept_id": "ch01_t01"
+          "linked_concept_id": "ch01_t18"
         },
         {
           "id": 371,
@@ -1053,7 +1062,7 @@
             "Implementation problems"
           ],
           "correct": 1,
-          "linked_concept_id": "ch01_t20"
+          "linked_concept_id": "ch01_t21"
         },
         {
           "id": 374,
@@ -1065,7 +1074,7 @@
             "Social benefits"
           ],
           "correct": 0,
-          "linked_concept_id": "ch01_t20"
+          "linked_concept_id": "ch01_t21"
         },
         {
           "id": 375,
@@ -1077,7 +1086,7 @@
             "Social services"
           ],
           "correct": 1,
-          "linked_concept_id": "ch01_t20"
+          "linked_concept_id": "ch01_t21"
         },
         {
           "id": 376,
@@ -1149,7 +1158,7 @@
             "Social exchange theory"
           ],
           "correct": 1,
-          "linked_concept_id": "ch01_t13"
+          "linked_concept_id": "ch01_t22"
         },
         {
           "id": 382,
@@ -1317,7 +1326,7 @@
             "By tracing the historical evolution of human behavior patterns across different societies."
           ],
           "correct": 0,
-          "linked_concept_id": "ch01_t02"
+          "linked_concept_id": "ch01_t04"
         },
         {
           "id": 815,
@@ -1329,7 +1338,7 @@
             "The biological basis of social behavior and the role of genetics."
           ],
           "correct": 0,
-          "linked_concept_id": "ch01_t02"
+          "linked_concept_id": "ch01_t01"
         },
         {
           "id": 816,
@@ -1365,7 +1374,7 @@
             "Investigating the impact of technological innovations on social change."
           ],
           "correct": 0,
-          "linked_concept_id": "ch01_t02"
+          "linked_concept_id": "ch01_t22"
         },
         {
           "id": 819,
@@ -1377,7 +1386,7 @@
             "The level of technological development within a society."
           ],
           "correct": 0,
-          "linked_concept_id": "ch01_t02"
+          "linked_concept_id": "ch01_t22"
         },
         {
           "id": 820,
@@ -1521,7 +1530,7 @@
             "By focusing on the unintended consequences of institutional actions."
           ],
           "correct": 0,
-          "linked_concept_id": "ch01_t19"
+          "linked_concept_id": "ch01_t22"
         },
         {
           "id": 832,
@@ -1605,7 +1614,7 @@
             "Postmodernism"
           ],
           "correct": 0,
-          "linked_concept_id": "ch01_t04"
+          "linked_concept_id": "ch01_t13"
         },
         {
           "id": 839,
@@ -1617,7 +1626,7 @@
             "Phenomenology"
           ],
           "correct": 0,
-          "linked_concept_id": "ch01_t04"
+          "linked_concept_id": "ch01_t13"
         },
         {
           "id": 840,
@@ -1641,7 +1650,7 @@
             "Feminist theory"
           ],
           "correct": 0,
-          "linked_concept_id": "ch01_t13"
+          "linked_concept_id": "ch01_t22"
         },
         {
           "id": 842,
@@ -1653,7 +1662,7 @@
             "Phenomenology"
           ],
           "correct": 0,
-          "linked_concept_id": "ch01_t04"
+          "linked_concept_id": "ch01_t22"
         },
         {
           "id": 843,
@@ -1713,7 +1722,7 @@
             "Anomie"
           ],
           "correct": 0,
-          "linked_concept_id": "ch01_t15"
+          "linked_concept_id": "ch01_t16"
         },
         {
           "id": 848,
@@ -1749,7 +1758,7 @@
             "Collective effervescence to individualism."
           ],
           "correct": 0,
-          "linked_concept_id": "ch01_t15"
+          "linked_concept_id": "ch01_t16"
         },
         {
           "id": 851,
@@ -1785,7 +1794,7 @@
             "Postmodernist perspective"
           ],
           "correct": 0,
-          "linked_concept_id": "ch01_t19"
+          "linked_concept_id": "ch01_t07"
         },
         {
           "id": 854,
@@ -1809,7 +1818,7 @@
             "Psychological analysis"
           ],
           "correct": 0,
-          "linked_concept_id": "ch01_t02"
+          "linked_concept_id": "ch01_t08"
         },
         {
           "id": 856,
@@ -1885,8 +1894,7 @@
           "level3_question_ids": [
             677,
             679,
-            680,
-            744
+            680
           ],
           "confusable_ids": [
             "ch02_t02",
@@ -1921,6 +1929,7 @@
           "level3_question_ids": [
             660,
             669,
+            673,
             675
           ],
           "confusable_ids": [
@@ -1976,6 +1985,7 @@
             662,
             663,
             689,
+            697,
             698,
             711,
             712,
@@ -2106,9 +2116,7 @@
             665,
             672,
             676,
-            714,
-            690,
-            742
+            714
           ],
           "confusable_ids": [
             "ch02_t23",
@@ -2121,6 +2129,7 @@
           "term": "Participant Observation",
           "definition": "Research method involving participating in and observing a group",
           "level3_question_ids": [
+            666,
             678,
             688,
             713
@@ -2158,9 +2167,13 @@
             677,
             681,
             694,
+            708,
             713,
             716,
-            741
+            717,
+            741,
+            743,
+            744
           ],
           "confusable_ids": [
             "ch02_t02"
@@ -2312,7 +2325,7 @@
             678,
             720,
             741,
-            706
+            742
           ],
           "confusable_ids": [
             "ch02_t04",
@@ -2353,6 +2366,7 @@
             662,
             663,
             671,
+            674,
             727,
             729,
             732,
@@ -2410,6 +2424,7 @@
           "term": "Objectivity",
           "definition": "Freedom from personal bias in research",
           "level3_question_ids": [
+            690,
             721,
             723
           ],
@@ -2485,8 +2500,7 @@
             676,
             694,
             707,
-            717,
-            743
+            717
           ],
           "confusable_ids": [
             "ch02_t16",
@@ -2520,7 +2534,7 @@
             "Social Network Analysis"
           ],
           "correct": 1,
-          "linked_concept_id": "ch02_t28"
+          "linked_concept_id": "ch02_t04"
         },
         {
           "id": 662,
@@ -2556,7 +2570,7 @@
             "Representativeness"
           ],
           "correct": 2,
-          "linked_concept_id": "ch02_t10"
+          "linked_concept_id": "ch02_t09"
         },
         {
           "id": 665,
@@ -2568,7 +2582,7 @@
             "Social Network Analysis"
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t28"
+          "linked_concept_id": "ch02_t12"
         },
         {
           "id": 666,
@@ -2592,7 +2606,7 @@
             "Double-barreled Questions"
           ],
           "correct": 2,
-          "linked_concept_id": "ch02_t17"
+          "linked_concept_id": "ch02_t16"
         },
         {
           "id": 668,
@@ -2616,7 +2630,7 @@
             "Scientific Method"
           ],
           "correct": 1,
-          "linked_concept_id": "ch02_t03"
+          "linked_concept_id": "ch02_t18"
         },
         {
           "id": 670,
@@ -2688,7 +2702,7 @@
             "Representativeness"
           ],
           "correct": 1,
-          "linked_concept_id": "ch02_t20"
+          "linked_concept_id": "ch02_t32"
         },
         {
           "id": 676,
@@ -2700,7 +2714,7 @@
             "Experimental Methods"
           ],
           "correct": 2,
-          "linked_concept_id": "ch02_t28"
+          "linked_concept_id": "ch02_t33"
         },
         {
           "id": 677,
@@ -2712,7 +2726,7 @@
             "Content analysis"
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t01"
+          "linked_concept_id": "ch02_t02"
         },
         {
           "id": 678,
@@ -2808,7 +2822,7 @@
             "A result of researcher bias, favoring students with larger shoe sizes."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t08"
+          "linked_concept_id": "ch02_t11"
         },
         {
           "id": 686,
@@ -2832,7 +2846,7 @@
             "Better suited for studying large-scale social structures."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t23"
+          "linked_concept_id": "ch02_t12"
         },
         {
           "id": 688,
@@ -2844,7 +2858,7 @@
             "Analyzing crime statistics related to motorcycle gangs."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t13"
+          "linked_concept_id": "ch02_t12"
         },
         {
           "id": 689,
@@ -2856,7 +2870,7 @@
             "The historical evolution of social institutions."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t22"
+          "linked_concept_id": "ch02_t12"
         },
         {
           "id": 690,
@@ -2892,7 +2906,7 @@
             "The survey instrument is visually appealing and engaging."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t23"
+          "linked_concept_id": "ch02_t33"
         },
         {
           "id": 693,
@@ -2904,7 +2918,7 @@
             "Determine the appropriate sample size for the study."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t22"
+          "linked_concept_id": "ch02_t33"
         },
         {
           "id": 694,
@@ -2916,7 +2930,7 @@
             "The ability to conduct in-depth interviews and follow-up questions."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t15"
+          "linked_concept_id": "ch02_t33"
         },
         {
           "id": 695,
@@ -2928,7 +2942,7 @@
             "A negative correlation, suggesting that as unemployment decreases, crime increases."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t11"
+          "linked_concept_id": "ch02_t08"
         },
         {
           "id": 696,
@@ -2964,7 +2978,7 @@
             "That a third variable is influencing both variables."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t08"
+          "linked_concept_id": "ch02_t09"
         },
         {
           "id": 699,
@@ -3012,7 +3026,7 @@
             "They allow researchers to generalize their findings to the entire population."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t22"
+          "linked_concept_id": "ch02_t07"
         },
         {
           "id": 703,
@@ -3120,7 +3134,7 @@
             "Develop and refine social theories based on existing literature."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t06"
+          "linked_concept_id": "ch02_t12"
         },
         {
           "id": 712,
@@ -3132,7 +3146,7 @@
             "Focus on historical analysis of social documents."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t06"
+          "linked_concept_id": "ch02_t12"
         },
         {
           "id": 713,
@@ -3144,7 +3158,7 @@
             "Analyzing existing datasets from government or organizational sources."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t13"
+          "linked_concept_id": "ch02_t12"
         },
         {
           "id": 714,
@@ -3168,7 +3182,7 @@
             "What percentage of the population supports a particular political candidate?"
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t22"
+          "linked_concept_id": "ch02_t12"
         },
         {
           "id": 716,
@@ -3216,7 +3230,7 @@
             "Using leading questions to elicit desired responses."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t23"
+          "linked_concept_id": "ch02_t32"
         },
         {
           "id": 720,
@@ -3228,7 +3242,7 @@
             "Content analysis"
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t24"
+          "linked_concept_id": null
         },
         {
           "id": 721,
@@ -3240,7 +3254,7 @@
             "The objectivity of the researcher."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t29"
+          "linked_concept_id": null
         },
         {
           "id": 722,
@@ -3252,7 +3266,7 @@
             "The researcher's personal biases do not influence the results."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t22"
+          "linked_concept_id": null
         },
         {
           "id": 723,
@@ -3264,7 +3278,7 @@
             "Objectivity."
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t29"
+          "linked_concept_id": null
         },
         {
           "id": 724,
@@ -3300,7 +3314,7 @@
             "Dependent variables"
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t06"
+          "linked_concept_id": "ch02_t10"
         },
         {
           "id": 727,
@@ -3312,7 +3326,7 @@
             "A spurious correlation"
           ],
           "correct": 0,
-          "linked_concept_id": "ch02_t10"
+          "linked_concept_id": "ch02_t11"
         },
         {
           "id": 728,
@@ -3543,7 +3557,6 @@
           "definition": "Judging other cultures by the standards of one's own culture",
           "level3_question_ids": [
             784,
-            785,
             786
           ],
           "confusable_ids": [
@@ -3559,6 +3572,7 @@
           "term": "Cultural Relativism",
           "definition": "Understanding and evaluating a culture by its own standards",
           "level3_question_ids": [
+            785,
             786,
             1088
           ],
@@ -3575,6 +3589,7 @@
           "term": "Material Culture",
           "definition": "Physical objects and artifacts created by a society",
           "level3_question_ids": [
+            790,
             1104
           ],
           "confusable_ids": [
@@ -3653,6 +3668,7 @@
           "term": "Norms",
           "definition": "Rules and expectations by which a society guides behavior",
           "level3_question_ids": [
+            789,
             1083,
             1084,
             1090,
@@ -3663,8 +3679,7 @@
             1105,
             1108,
             1109,
-            1128,
-            789
+            1128
           ],
           "confusable_ids": [
             "ch03_t21",
@@ -3886,10 +3901,10 @@
           "definition": "Standards or rules that a society claims to believe",
           "level3_question_ids": [
             789,
+            790,
             1104,
             1105,
-            1107,
-            790
+            1107
           ],
           "confusable_ids": [
             "ch03_t17",
@@ -3944,6 +3959,7 @@
           "term": "Cultural Imperialism",
           "definition": "Domination of one culture over others through media, economics, or politics",
           "level3_question_ids": [
+            789,
             791
           ],
           "confusable_ids": [
@@ -4002,7 +4018,7 @@
             "Values expressed through nonmaterial culture"
           ],
           "correct": 1,
-          "linked_concept_id": "ch03_t04"
+          "linked_concept_id": "ch03_t11"
         },
         {
           "id": 788,
@@ -4098,7 +4114,7 @@
             "It reflects the economic interests of powerful corporations."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t06"
+          "linked_concept_id": null
         },
         {
           "id": 1080,
@@ -4134,7 +4150,7 @@
             "The elimination of all forms of social inequality."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t06"
+          "linked_concept_id": null
         },
         {
           "id": 1083,
@@ -4146,7 +4162,7 @@
             "Deviance is a result of individual pathology and psychological factors."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t07"
+          "linked_concept_id": null
         },
         {
           "id": 1084,
@@ -4158,7 +4174,7 @@
             "Institutions function to socialize individuals into dominant cultural norms."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t07"
+          "linked_concept_id": null
         },
         {
           "id": 1085,
@@ -4182,7 +4198,7 @@
             "The adoption of similar fashion trends in different countries."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t12"
+          "linked_concept_id": "ch03_t22"
         },
         {
           "id": 1087,
@@ -4230,7 +4246,7 @@
             "Always consistent with societal mores."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t07"
+          "linked_concept_id": "ch03_t08"
         },
         {
           "id": 1091,
@@ -4242,7 +4258,7 @@
             "Are always negative and involve punishment."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t08"
+          "linked_concept_id": "ch03_t15"
         },
         {
           "id": 1092,
@@ -4290,7 +4306,7 @@
             "To punish those who violate social norms."
           ],
           "correct": 2,
-          "linked_concept_id": "ch03_t07"
+          "linked_concept_id": "ch03_t15"
         },
         {
           "id": 1096,
@@ -4302,7 +4318,7 @@
             "Restorative justice practices."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t16"
+          "linked_concept_id": "ch03_t15"
         },
         {
           "id": 1097,
@@ -4326,7 +4342,7 @@
             "All of the above."
           ],
           "correct": 3,
-          "linked_concept_id": "ch03_t06"
+          "linked_concept_id": "ch03_t19"
         },
         {
           "id": 1099,
@@ -4338,7 +4354,7 @@
             "The development of unique cultural practices and styles."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t06"
+          "linked_concept_id": "ch03_t19"
         },
         {
           "id": 1100,
@@ -4350,7 +4366,7 @@
             "Cultural lag."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t17"
+          "linked_concept_id": "ch03_t19"
         },
         {
           "id": 1101,
@@ -4362,7 +4378,7 @@
             "Assimilation of the counterculture into the dominant culture."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t17"
+          "linked_concept_id": "ch03_t19"
         },
         {
           "id": 1102,
@@ -4386,7 +4402,7 @@
             "Language completely determines a culture's worldview."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t12"
+          "linked_concept_id": "ch03_t05"
         },
         {
           "id": 1104,
@@ -4398,7 +4414,7 @@
             "Cultural leveling, the process by which cultures become more similar."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t22"
+          "linked_concept_id": "ch03_t21"
         },
         {
           "id": 1105,
@@ -4458,7 +4474,7 @@
             "Personal preferences that vary by individual."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t06"
+          "linked_concept_id": "ch03_t13"
         },
         {
           "id": 1110,
@@ -4482,7 +4498,7 @@
             "Using proper table manners at dinner."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t14"
+          "linked_concept_id": "ch03_t13"
         },
         {
           "id": 1112,
@@ -4494,7 +4510,7 @@
             "Folkways have stronger punishments than mores."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t09"
+          "linked_concept_id": "ch03_t13"
         },
         {
           "id": 1113,
@@ -4506,7 +4522,7 @@
             "They only affect formal legal systems."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t16"
+          "linked_concept_id": "ch03_t13"
         },
         {
           "id": 1114,
@@ -4542,7 +4558,7 @@
             "Any group that's different from the mainstream."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t17"
+          "linked_concept_id": "ch03_t19"
         },
         {
           "id": 1117,
@@ -4626,7 +4642,7 @@
             "Are neutral institutions that benefit all members of society equally."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t06"
+          "linked_concept_id": null
         },
         {
           "id": 1124,
@@ -4662,7 +4678,7 @@
             "The actions of great individuals or leaders."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t06"
+          "linked_concept_id": null
         },
         {
           "id": 1127,
@@ -4686,7 +4702,7 @@
             "Marijuana use is purely a matter of individual choice."
           ],
           "correct": 0,
-          "linked_concept_id": "ch03_t06"
+          "linked_concept_id": "ch03_t13"
         },
         {
           "id": 1129,
@@ -4850,8 +4866,8 @@
           "term": "Thomas Theorem",
           "definition": "If people define situations as real, they are real in their consequences",
           "level3_question_ids": [
-            803,
-            794
+            794,
+            803
           ],
           "confusable_ids": [
             "ch04_t07",
@@ -4862,7 +4878,9 @@
           "id": "ch04_t07",
           "term": "Definition of the Situation",
           "definition": "How people understand and interpret social situations",
-          "level3_question_ids": [],
+          "level3_question_ids": [
+            798
+          ],
           "confusable_ids": [
             "ch04_t13",
             "ch04_t06",
@@ -4898,6 +4916,7 @@
             240,
             241,
             244,
+            794,
             798,
             803
           ],
@@ -4914,6 +4933,8 @@
           "level3_question_ids": [
             238,
             797,
+            804,
+            806,
             811,
             981,
             982
@@ -4947,8 +4968,8 @@
           "term": "Cooling the Mark Out",
           "definition": "Process of helping someone adjust to a failure or loss of status",
           "level3_question_ids": [
-            807,
-            798
+            798,
+            807
           ],
           "confusable_ids": [
             "ch04_t22",
@@ -5015,6 +5036,7 @@
           "level3_question_ids": [
             801,
             807,
+            808,
             810,
             812
           ],
@@ -5044,12 +5066,13 @@
             263,
             264,
             267,
+            270,
+            273,
             275,
             795,
             802,
             806,
             807,
-            808,
             809
           ],
           "confusable_ids": [
@@ -5080,7 +5103,7 @@
           "term": "Embodied Status",
           "definition": "Status characteristics physically manifested in appearance or behavior",
           "level3_question_ids": [
-            808
+            802
           ],
           "confusable_ids": [
             "ch04_t21",
@@ -5139,8 +5162,10 @@
             264,
             268,
             269,
+            270,
             271,
             272,
+            273,
             277,
             792,
             793,
@@ -5152,9 +5177,7 @@
             807,
             808,
             811,
-            981,
-            270,
-            273
+            981
           ],
           "confusable_ids": [
             "ch04_t19",
@@ -5174,10 +5197,10 @@
             277,
             795,
             797,
+            802,
             805,
             807,
-            811,
-            802
+            811
           ],
           "confusable_ids": [
             "ch04_t22",
@@ -5230,8 +5253,8 @@
           "term": "Agency",
           "definition": "Capacity of individuals to act independently and make choices",
           "level3_question_ids": [
-            808,
-            806
+            806,
+            808
           ],
           "confusable_ids": []
         },
@@ -5420,7 +5443,7 @@
             "It requires conscious effort to maintain."
           ],
           "correct": 0,
-          "linked_concept_id": "ch04_t09"
+          "linked_concept_id": "ch04_t05"
         },
         {
           "id": 242,
@@ -5456,7 +5479,7 @@
             "Looking-glass self operates only in childhood, while impression management continues throughout life."
           ],
           "correct": 0,
-          "linked_concept_id": "ch04_t09"
+          "linked_concept_id": "ch04_t03"
         },
         {
           "id": 245,
@@ -5660,7 +5683,7 @@
             "Sanctions"
           ],
           "correct": 0,
-          "linked_concept_id": "ch04_t17"
+          "linked_concept_id": "ch04_t22"
         },
         {
           "id": 262,
@@ -5696,7 +5719,7 @@
             "Subculture"
           ],
           "correct": 0,
-          "linked_concept_id": "ch04_t17"
+          "linked_concept_id": "ch04_t22"
         },
         {
           "id": 265,
@@ -6080,7 +6103,7 @@
             "Agency in choosing their social identity"
           ],
           "correct": 2,
-          "linked_concept_id": "ch04_t19"
+          "linked_concept_id": "ch04_t01"
         },
         {
           "id": 809,
@@ -6092,7 +6115,7 @@
             "A person moves from being single to married"
           ],
           "correct": 1,
-          "linked_concept_id": "ch04_t18"
+          "linked_concept_id": "ch04_t21"
         },
         {
           "id": 810,
@@ -6104,7 +6127,7 @@
             "Secondary socialization through new agents and experiences"
           ],
           "correct": 3,
-          "linked_concept_id": "ch04_t14"
+          "linked_concept_id": "ch04_t01"
         },
         {
           "id": 811,
@@ -6128,7 +6151,7 @@
             "Agents of the hidden curriculum"
           ],
           "correct": 1,
-          "linked_concept_id": "ch04_t13"
+          "linked_concept_id": "ch04_t16"
         },
         {
           "id": 981,
@@ -6254,8 +6277,7 @@
           "definition": "Collection of people who happen to be in the same place but have no social connection",
           "level3_question_ids": [
             280,
-            281,
-            648
+            281
           ],
           "confusable_ids": [
             "ch05_t08",
@@ -6352,8 +6374,7 @@
           "term": "Social Ties",
           "definition": "Connections between people in a social network",
           "level3_question_ids": [
-            86,
-            65
+            86
           ],
           "confusable_ids": [
             "ch05_t03",
@@ -6368,9 +6389,10 @@
           "term": "Strong Ties",
           "definition": "Close relationships characterized by frequent interaction and emotional intensity",
           "level3_question_ids": [
+            65,
+            649,
             650,
-            656,
-            649
+            656
           ],
           "confusable_ids": [
             "ch05_t10",
@@ -6409,12 +6431,12 @@
           "term": "Anomie",
           "definition": "State of normlessness or social instability resulting from breakdown of standards",
           "level3_question_ids": [
-            107,
             80,
             81,
             82,
             83,
-            84
+            84,
+            107
           ],
           "confusable_ids": [
             "ch05_t08",
@@ -6486,6 +6508,9 @@
             103,
             104,
             105,
+            648,
+            649,
+            652,
             658
           ],
           "confusable_ids": [
@@ -6501,8 +6526,13 @@
           "term": "Groupthink",
           "definition": "Pattern of thought characterized by self-deception, forced manufacture of consent, and conformity",
           "level3_question_ids": [
-            654,
-            652
+            80,
+            81,
+            82,
+            83,
+            84,
+            652,
+            654
           ],
           "confusable_ids": [
             "ch05_t09",
@@ -6517,11 +6547,7 @@
           "term": "Social Influence",
           "definition": "Ways in which people affect the thoughts, feelings, and behaviors of others",
           "level3_question_ids": [
-            91,
-            66,
-            67,
-            68,
-            69
+            91
           ],
           "confusable_ids": [
             "ch05_t08",
@@ -6764,7 +6790,7 @@
             "way secondary groups uphold impersonal relationships."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t06"
+          "linked_concept_id": "ch05_t05"
         },
         {
           "id": 61,
@@ -6776,7 +6802,7 @@
             "way secondary groups facilitate impersonal relationships."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t06"
+          "linked_concept_id": "ch05_t05"
         },
         {
           "id": 62,
@@ -6788,7 +6814,7 @@
             "way membership in a primary group can result in joining secondary groups."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t06"
+          "linked_concept_id": "ch05_t05"
         },
         {
           "id": 63,
@@ -6800,7 +6826,7 @@
             "way primary groups can generate secondary group memberships."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t06"
+          "linked_concept_id": "ch05_t05"
         },
         {
           "id": 64,
@@ -6812,7 +6838,7 @@
             "way primary groups can lead to participation in secondary groups."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t06"
+          "linked_concept_id": "ch05_t05"
         },
         {
           "id": 65,
@@ -6836,7 +6862,7 @@
             "Rapid worldwide changes lead to standardized work cultures."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t17"
+          "linked_concept_id": "ch05_t08"
         },
         {
           "id": 67,
@@ -6848,7 +6874,7 @@
             "Globalization encourages uniformity in community programs."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t17"
+          "linked_concept_id": "ch05_t08"
         },
         {
           "id": 68,
@@ -6860,7 +6886,7 @@
             "Global connectivity fosters a universal culture of physical fitness."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t17"
+          "linked_concept_id": "ch05_t08"
         },
         {
           "id": 69,
@@ -6872,7 +6898,7 @@
             "Globalization tends to uniform eating habits across societies."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t17"
+          "linked_concept_id": "ch05_t08"
         },
         {
           "id": 70,
@@ -6920,7 +6946,7 @@
             "the importance of group dynamics"
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t12"
+          "linked_concept_id": "ch05_t10"
         },
         {
           "id": 74,
@@ -6944,7 +6970,7 @@
             "social conflict theory"
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t20"
+          "linked_concept_id": null
         },
         {
           "id": 76,
@@ -6956,7 +6982,7 @@
             "social conflict theory"
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t20"
+          "linked_concept_id": null
         },
         {
           "id": 77,
@@ -6968,7 +6994,7 @@
             "conflict theory"
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t20"
+          "linked_concept_id": null
         },
         {
           "id": 78,
@@ -6980,7 +7006,7 @@
             "conflict theory"
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t01"
+          "linked_concept_id": null
         },
         {
           "id": 79,
@@ -6992,7 +7018,7 @@
             "conflict theory"
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t20"
+          "linked_concept_id": null
         },
         {
           "id": 80,
@@ -7076,7 +7102,7 @@
             "It assists in understanding the degree to which societal norms impose restrictions on individuals."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t08"
+          "linked_concept_id": "ch05_t19"
         },
         {
           "id": 87,
@@ -7088,7 +7114,7 @@
             "It gauges the extent of influence that societal norms have on individual actions."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t05"
+          "linked_concept_id": "ch05_t19"
         },
         {
           "id": 88,
@@ -7100,7 +7126,7 @@
             "It helps to study the individual adherence to the rules of their primary groups."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t05"
+          "linked_concept_id": "ch05_t19"
         },
         {
           "id": 89,
@@ -7112,7 +7138,7 @@
             "It studies the individual's compliance with societal norms."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t01"
+          "linked_concept_id": "ch05_t19"
         },
         {
           "id": 90,
@@ -7124,7 +7150,7 @@
             "They illustrate that only people with weak moral compasses tend to conform to questionable group norms."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t01"
+          "linked_concept_id": "ch05_t17"
         },
         {
           "id": 91,
@@ -7136,7 +7162,7 @@
             "It indicates the diminished impact of social influence on people's decisions in recent times."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t17"
+          "linked_concept_id": "ch05_t22"
         },
         {
           "id": 92,
@@ -7148,7 +7174,7 @@
             "It shows how people's fear of authority has declined over years due to societal evolution."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t20"
+          "linked_concept_id": "ch05_t22"
         },
         {
           "id": 93,
@@ -7160,7 +7186,7 @@
             "It stresses the innate resilience of individuals in resisting socio-cultural influences."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t20"
+          "linked_concept_id": "ch05_t22"
         },
         {
           "id": 94,
@@ -7184,7 +7210,7 @@
             "conflict theory"
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t21"
+          "linked_concept_id": null
         },
         {
           "id": 96,
@@ -7208,7 +7234,7 @@
             "Categories"
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t06"
+          "linked_concept_id": "ch05_t05"
         },
         {
           "id": 98,
@@ -7220,7 +7246,7 @@
             "Bureaucratic structures"
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t06"
+          "linked_concept_id": "ch05_t05"
         },
         {
           "id": 99,
@@ -7244,7 +7270,7 @@
             "Secondary groups"
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t06"
+          "linked_concept_id": "ch05_t05"
         },
         {
           "id": 101,
@@ -7328,7 +7354,7 @@
             "anomie"
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t11"
+          "linked_concept_id": "ch05_t07"
         },
         {
           "id": 108,
@@ -7352,7 +7378,7 @@
             "The participants didn't understand the experiment's guidelines."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t01"
+          "linked_concept_id": "ch05_t17"
         },
         {
           "id": 110,
@@ -7364,7 +7390,7 @@
             "People in larger groups are often more courageous."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t01"
+          "linked_concept_id": "ch05_t12"
         },
         {
           "id": 111,
@@ -7376,7 +7402,7 @@
             "Individual engineers lack personal opinions."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t01"
+          "linked_concept_id": "ch05_t17"
         },
         {
           "id": 112,
@@ -7388,7 +7414,7 @@
             "Book club recommendations don't affect individual reading choices."
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t01"
+          "linked_concept_id": "ch05_t17"
         },
         {
           "id": 280,
@@ -7592,7 +7618,7 @@
             "Social networks and the flow of information through weak ties"
           ],
           "correct": 3,
-          "linked_concept_id": "ch05_t07"
+          "linked_concept_id": "ch05_t10"
         },
         {
           "id": 651,
@@ -7604,7 +7630,7 @@
             "Charismatic authority in leadership"
           ],
           "correct": 0,
-          "linked_concept_id": "ch05_t30"
+          "linked_concept_id": "ch05_t28"
         },
         {
           "id": 652,
@@ -7640,7 +7666,7 @@
             "The formation of in-groups and out-groups"
           ],
           "correct": 2,
-          "linked_concept_id": "ch05_t27"
+          "linked_concept_id": null
         },
         {
           "id": 655,
@@ -7652,7 +7678,7 @@
             "Coercive power backed by threats"
           ],
           "correct": 2,
-          "linked_concept_id": "ch05_t21"
+          "linked_concept_id": null
         },
         {
           "id": 656,
@@ -7664,7 +7690,7 @@
             "Strong ties versus weak ties in social networks"
           ],
           "correct": 1,
-          "linked_concept_id": "ch05_t06"
+          "linked_concept_id": "ch05_t13"
         },
         {
           "id": 657,
@@ -7676,7 +7702,7 @@
             "Rationalization through expert power"
           ],
           "correct": 1,
-          "linked_concept_id": "ch05_t29"
+          "linked_concept_id": "ch05_t30"
         },
         {
           "id": 658,
@@ -7780,8 +7806,7 @@
           "level3_question_ids": [
             307,
             308,
-            309,
-            208
+            309
           ],
           "confusable_ids": [
             "ch06_t01",
@@ -7815,10 +7840,7 @@
           "level3_question_ids": [
             310,
             311,
-            312,
-            187,
-            188,
-            191
+            312
           ],
           "confusable_ids": [
             "ch06_t16",
@@ -7833,6 +7855,7 @@
           "term": "Labeling Theory",
           "definition": "Perspective focusing on how society's reaction to deviance can lead to further deviant behavior",
           "level3_question_ids": [
+            166,
             189,
             310,
             312,
@@ -7853,8 +7876,10 @@
           "term": "Primary Deviance",
           "definition": "Initial acts of rule-breaking before a person is publicly labeled as deviant",
           "level3_question_ids": [
+            192,
             193,
             195,
+            196,
             311,
             313,
             314,
@@ -7888,6 +7913,8 @@
             316,
             317,
             318,
+            320,
+            324,
             326,
             328,
             331,
@@ -7935,14 +7962,14 @@
           "term": "Stereotype Threat",
           "definition": "Anxiety or concern about confirming negative stereotypes about one's social group",
           "level3_question_ids": [
+            319,
+            320,
+            321,
             322,
             323,
             324,
             329,
-            333,
-            319,
-            320,
-            321
+            333
           ],
           "confusable_ids": [
             "ch06_t10",
@@ -7957,6 +7984,8 @@
           "term": "Stereotype Promise",
           "definition": "Positive performance resulting from awareness of favorable stereotypes about one's group",
           "level3_question_ids": [
+            319,
+            321,
             322,
             323,
             324
@@ -8133,7 +8162,11 @@
           "id": "ch06_t19",
           "term": "Deterrence",
           "definition": "Use of punishment to prevent future criminal behavior",
-          "level3_question_ids": [],
+          "level3_question_ids": [
+            187,
+            188,
+            191
+          ],
           "confusable_ids": [
             "ch06_t20",
             "ch06_t15",
@@ -8190,7 +8223,7 @@
             "The legal system prioritizes rehabilitation over punishment"
           ],
           "correct": 0,
-          "linked_concept_id": "ch06_t20"
+          "linked_concept_id": "ch06_t01"
         },
         {
           "id": 12,
@@ -8202,7 +8235,7 @@
             "Actions that threaten the economic stability of society"
           ],
           "correct": 0,
-          "linked_concept_id": "ch06_t15"
+          "linked_concept_id": "ch06_t01"
         },
         {
           "id": 13,
@@ -8634,7 +8667,7 @@
             "Labeling Theory"
           ],
           "correct": 0,
-          "linked_concept_id": "ch06_t05"
+          "linked_concept_id": "ch06_t04"
         },
         {
           "id": 190,
@@ -8646,7 +8679,7 @@
             "Anomie Theory"
           ],
           "correct": 0,
-          "linked_concept_id": "ch06_t03"
+          "linked_concept_id": "ch06_t04"
         },
         {
           "id": 191,
@@ -8694,7 +8727,7 @@
             "a stigma"
           ],
           "correct": 0,
-          "linked_concept_id": "ch06_t07"
+          "linked_concept_id": "ch06_t05"
         },
         {
           "id": 195,
@@ -8742,7 +8775,7 @@
             "assimilation"
           ],
           "correct": 0,
-          "linked_concept_id": "ch06_t01"
+          "linked_concept_id": "ch06_t11"
         },
         {
           "id": 199,
@@ -8790,7 +8823,7 @@
             "Media glorification promotes deviance"
           ],
           "correct": 0,
-          "linked_concept_id": "ch06_t01"
+          "linked_concept_id": "ch06_t02"
         },
         {
           "id": 203,
@@ -8802,7 +8835,7 @@
             "Media influences encourage deviance"
           ],
           "correct": 0,
-          "linked_concept_id": "ch06_t01"
+          "linked_concept_id": "ch06_t02"
         },
         {
           "id": 204,
@@ -8814,7 +8847,7 @@
             "Media influence on behavior"
           ],
           "correct": 0,
-          "linked_concept_id": "ch06_t01"
+          "linked_concept_id": "ch06_t02"
         },
         {
           "id": 205,
@@ -8826,7 +8859,7 @@
             "Media glorification encourages deviance"
           ],
           "correct": 0,
-          "linked_concept_id": "ch06_t01"
+          "linked_concept_id": "ch06_t02"
         },
         {
           "id": 206,
@@ -8838,7 +8871,7 @@
             "Media promotion increases deviance"
           ],
           "correct": 0,
-          "linked_concept_id": "ch06_t01"
+          "linked_concept_id": "ch06_t02"
         },
         {
           "id": 207,
@@ -9162,7 +9195,7 @@
             "Positive deviance"
           ],
           "correct": 0,
-          "linked_concept_id": "ch06_t07"
+          "linked_concept_id": "ch06_t06"
         },
         {
           "id": 314,
@@ -9186,7 +9219,7 @@
             "Positive deviance"
           ],
           "correct": 0,
-          "linked_concept_id": "ch06_t07"
+          "linked_concept_id": "ch06_t06"
         },
         {
           "id": 316,
@@ -9198,7 +9231,7 @@
             "Positive deviance"
           ],
           "correct": 2,
-          "linked_concept_id": "ch06_t07"
+          "linked_concept_id": "ch06_t08"
         },
         {
           "id": 317,
@@ -9210,7 +9243,7 @@
             "Passing"
           ],
           "correct": 1,
-          "linked_concept_id": "ch06_t07"
+          "linked_concept_id": "ch06_t08"
         },
         {
           "id": 318,
@@ -9222,7 +9255,7 @@
             "In-group orientation"
           ],
           "correct": 2,
-          "linked_concept_id": "ch06_t13"
+          "linked_concept_id": "ch06_t08"
         },
         {
           "id": 319,
@@ -9306,7 +9339,7 @@
             "Tertiary deviance"
           ],
           "correct": 0,
-          "linked_concept_id": "ch06_t13"
+          "linked_concept_id": "ch06_t12"
         },
         {
           "id": 326,
@@ -9318,7 +9351,7 @@
             "Secondary deviance"
           ],
           "correct": 0,
-          "linked_concept_id": "ch06_t13"
+          "linked_concept_id": "ch06_t12"
         },
         {
           "id": 327,
@@ -9330,7 +9363,7 @@
             "Tertiary deviance"
           ],
           "correct": 0,
-          "linked_concept_id": "ch06_t13"
+          "linked_concept_id": "ch06_t12"
         },
         {
           "id": 328,
@@ -9378,7 +9411,7 @@
             "Deviance avowal"
           ],
           "correct": 3,
-          "linked_concept_id": "ch06_t07"
+          "linked_concept_id": "ch06_t14"
         },
         {
           "id": 332,
@@ -9390,7 +9423,7 @@
             "In-group orientation"
           ],
           "correct": 2,
-          "linked_concept_id": "ch06_t13"
+          "linked_concept_id": "ch06_t14"
         },
         {
           "id": 333,
@@ -9402,7 +9435,7 @@
             "Stereotype threat"
           ],
           "correct": 2,
-          "linked_concept_id": "ch06_t07"
+          "linked_concept_id": "ch06_t14"
         }
       ]
     },
@@ -9509,6 +9542,7 @@
             550,
             553,
             1023,
+            1025,
             1027,
             1054,
             1061,
@@ -9594,6 +9628,8 @@
             532,
             533,
             534,
+            535,
+            537,
             538,
             540,
             546,
@@ -9633,12 +9669,12 @@
           "definition": "A medieval European system of land ownership and hierarchy where lords controlled land and serfs worked it in exchange for protection",
           "level3_question_ids": [
             524,
+            535,
             536,
+            537,
             538,
             539,
-            1075,
-            535,
-            537
+            1075
           ],
           "confusable_ids": [
             "ch07_t03",
@@ -9725,6 +9761,7 @@
           "term": "Social Reproduction",
           "definition": "The transmission of social and economic inequalities from one generation to the next",
           "level3_question_ids": [
+            552,
             1003,
             1033
           ],
@@ -9751,6 +9788,7 @@
             548,
             550,
             551,
+            552,
             555
           ],
           "confusable_ids": [
@@ -9836,6 +9874,8 @@
             1034,
             1036,
             1037,
+            1039,
+            1040,
             1042
           ],
           "confusable_ids": [
@@ -9855,8 +9895,8 @@
             1034,
             1035,
             1037,
-            1042,
-            1039
+            1039,
+            1042
           ],
           "confusable_ids": [
             "ch07_t19",
@@ -9908,8 +9948,8 @@
             1036,
             1038,
             1039,
-            1042,
-            1040
+            1040,
+            1042
           ],
           "confusable_ids": [
             "ch07_t20",
@@ -10054,8 +10094,7 @@
           "definition": "The practice of selecting a mate with social characteristics different from one's own, such as different class or racial backgrounds.",
           "level3_question_ids": [
             550,
-            551,
-            552
+            551
           ],
           "confusable_ids": [
             "ch07_t15",
@@ -10099,7 +10138,7 @@
             "A caste system based on Hindu beliefs"
           ],
           "correct": 2,
-          "linked_concept_id": "ch07_t10"
+          "linked_concept_id": "ch07_t04"
         },
         {
           "id": 525,
@@ -10123,7 +10162,7 @@
             "Cultural capital acquisition"
           ],
           "correct": 1,
-          "linked_concept_id": "ch07_t25"
+          "linked_concept_id": "ch07_t04"
         },
         {
           "id": 527,
@@ -10159,7 +10198,7 @@
             "Intersectionality of social identities"
           ],
           "correct": 3,
-          "linked_concept_id": "ch07_t08"
+          "linked_concept_id": "ch07_t07"
         },
         {
           "id": 530,
@@ -10171,7 +10210,7 @@
             "Cultural capital differences"
           ],
           "correct": 2,
-          "linked_concept_id": "ch07_t25"
+          "linked_concept_id": "ch07_t07"
         },
         {
           "id": 531,
@@ -10183,7 +10222,7 @@
             "Horizontal mobility analysis"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t08"
+          "linked_concept_id": "ch07_t07"
         },
         {
           "id": 532,
@@ -10223,7 +10262,7 @@
         },
         {
           "id": 535,
-          "question": "A historian studying medieval Europe finds that nobles owned large estates worked by peasants who were bound to the land and could not leave without permission. The peasants provided military service and crops in exchange for protection. This system represents which concept?",
+          "question": "A historian studying medieval Europe finds that nobles owned large estates worked by peasants who were bound to the land and could not leave without permission. The peasants provided labor, rent, and a share of crops in exchange for protection. This system represents which concept?",
           "choices": [
             "Apartheid racial segregation",
             "The U.S. Social Class Ladder",
@@ -10243,7 +10282,7 @@
             "Apartheid legal structures"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t06"
+          "linked_concept_id": "ch07_t10"
         },
         {
           "id": 537,
@@ -10267,7 +10306,7 @@
             "The U.S. Social Class Ladder structure"
           ],
           "correct": 2,
-          "linked_concept_id": "ch07_t08"
+          "linked_concept_id": "ch07_t15"
         },
         {
           "id": 539,
@@ -10279,7 +10318,7 @@
             "Residential segregation effects"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t06"
+          "linked_concept_id": "ch07_t15"
         },
         {
           "id": 540,
@@ -10291,7 +10330,7 @@
             "Absolute deprivation effects"
           ],
           "correct": 2,
-          "linked_concept_id": "ch07_t08"
+          "linked_concept_id": "ch07_t15"
         },
         {
           "id": 541,
@@ -10303,7 +10342,7 @@
             "Intersectionality of economic factors"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t23"
+          "linked_concept_id": "ch07_t24"
         },
         {
           "id": 542,
@@ -10315,7 +10354,7 @@
             "Socioeconomic status categories"
           ],
           "correct": 2,
-          "linked_concept_id": "ch07_t06"
+          "linked_concept_id": "ch07_t24"
         },
         {
           "id": 543,
@@ -10327,7 +10366,7 @@
             "Class consciousness measurement"
           ],
           "correct": 2,
-          "linked_concept_id": "ch07_t23"
+          "linked_concept_id": "ch07_t24"
         },
         {
           "id": 544,
@@ -10339,7 +10378,7 @@
             "The federal poverty line threshold"
           ],
           "correct": 3,
-          "linked_concept_id": "ch07_t06"
+          "linked_concept_id": "ch07_t25"
         },
         {
           "id": 545,
@@ -10351,7 +10390,7 @@
             "Class consciousness effects"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t24"
+          "linked_concept_id": "ch07_t25"
         },
         {
           "id": 546,
@@ -10363,7 +10402,7 @@
             "The U.S. Social Class Ladder boundaries"
           ],
           "correct": 2,
-          "linked_concept_id": "ch07_t08"
+          "linked_concept_id": "ch07_t25"
         },
         {
           "id": 547,
@@ -10399,7 +10438,7 @@
             "Absolute deprivation effects"
           ],
           "correct": 2,
-          "linked_concept_id": "ch07_t08"
+          "linked_concept_id": "ch07_t27"
         },
         {
           "id": 550,
@@ -10411,7 +10450,7 @@
             "Heterogamy across social boundaries"
           ],
           "correct": 2,
-          "linked_concept_id": "ch07_t15"
+          "linked_concept_id": "ch07_t28"
         },
         {
           "id": 551,
@@ -10423,7 +10462,7 @@
             "Class consciousness in relationships"
           ],
           "correct": 2,
-          "linked_concept_id": "ch07_t27"
+          "linked_concept_id": "ch07_t29"
         },
         {
           "id": 552,
@@ -10447,7 +10486,7 @@
             "The U.S. Social Class Ladder climbing"
           ],
           "correct": 2,
-          "linked_concept_id": "ch07_t08"
+          "linked_concept_id": "ch07_t30"
         },
         {
           "id": 554,
@@ -10459,7 +10498,7 @@
             "Intersectionality in career choices"
           ],
           "correct": 2,
-          "linked_concept_id": "ch07_t25"
+          "linked_concept_id": "ch07_t30"
         },
         {
           "id": 555,
@@ -10471,7 +10510,7 @@
             "Class consciousness in career decisions"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t15"
+          "linked_concept_id": "ch07_t30"
         },
         {
           "id": 1003,
@@ -10483,7 +10522,7 @@
             "Cultural assimilation - how groups adopt dominant cultural practices"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t06"
+          "linked_concept_id": "ch07_t14"
         },
         {
           "id": 1004,
@@ -10495,7 +10534,7 @@
             "It dictates which courses she is legally allowed to enroll in"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t06"
+          "linked_concept_id": "ch07_t13"
         },
         {
           "id": 1014,
@@ -10507,7 +10546,7 @@
             "Relative poverty measure"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t11"
+          "linked_concept_id": "ch07_t24"
         },
         {
           "id": 1015,
@@ -10519,7 +10558,7 @@
             "A person who cannot afford essential medication for a chronic illness in any economic context"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t11"
+          "linked_concept_id": "ch07_t23"
         },
         {
           "id": 1016,
@@ -10615,7 +10654,7 @@
             "A deeply religious individual marrying someone who does not share their faith"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t05"
+          "linked_concept_id": "ch07_t28"
         },
         {
           "id": 1024,
@@ -10651,7 +10690,7 @@
             "Greater political polarization as family units become more ideologically uniform"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t16"
+          "linked_concept_id": "ch07_t28"
         },
         {
           "id": 1027,
@@ -10663,7 +10702,7 @@
             "Taylor and Jordan, who were raised in the same neighborhood but differ in religious beliefs and family structures"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t05"
+          "linked_concept_id": "ch07_t28"
         },
         {
           "id": 1028,
@@ -10747,7 +10786,7 @@
             "collective mobility"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t19"
+          "linked_concept_id": "ch07_t22"
         },
         {
           "id": 1035,
@@ -10771,7 +10810,7 @@
             "vertical social mobility"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t19"
+          "linked_concept_id": "ch07_t30"
         },
         {
           "id": 1037,
@@ -10831,7 +10870,7 @@
             "A society experiencing upward mobility due to rapid technological advancement"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t16"
+          "linked_concept_id": "ch07_t30"
         },
         {
           "id": 1042,
@@ -10843,7 +10882,7 @@
             "horizontal mobility"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t19"
+          "linked_concept_id": "ch07_t22"
         },
         {
           "id": 1043,
@@ -10855,7 +10894,7 @@
             "cultural reproduction"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t01"
+          "linked_concept_id": "ch07_t13"
         },
         {
           "id": 1044,
@@ -11047,7 +11086,7 @@
             "A workplace where older employees receive preferential treatment"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t01"
+          "linked_concept_id": "ch07_t05"
         },
         {
           "id": 1060,
@@ -11059,7 +11098,7 @@
             "Legal systems that classify citizens according to their birthplace"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t06"
+          "linked_concept_id": "ch07_t02"
         },
         {
           "id": 1061,
@@ -11071,7 +11110,7 @@
             "A categorization method that divides society according to inherited status and family lineage"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t13"
+          "linked_concept_id": "ch07_t05"
         },
         {
           "id": 1062,
@@ -11143,7 +11182,7 @@
             "Status differences motivate individuals to develop specialized skills beneficial to society"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t11"
+          "linked_concept_id": "ch07_t02"
         },
         {
           "id": 1068,
@@ -11179,7 +11218,7 @@
             "A system where social stratification is acknowledged but not rigidly maintained"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t01"
+          "linked_concept_id": "ch07_t17"
         },
         {
           "id": 1071,
@@ -11215,7 +11254,7 @@
             "Feudal estate system with hereditary social positions"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t16"
+          "linked_concept_id": "ch07_t18"
         },
         {
           "id": 1074,
@@ -11239,7 +11278,7 @@
             "Feudal system with legally enforced class boundaries"
           ],
           "correct": 0,
-          "linked_concept_id": "ch07_t16"
+          "linked_concept_id": "ch07_t18"
         }
       ]
     },
@@ -11255,7 +11294,8 @@
           "level3_question_ids": [
             759,
             767,
-            993
+            993,
+            1232
           ],
           "confusable_ids": [
             "ch08_t15",
@@ -11380,9 +11420,7 @@
             990,
             993,
             996,
-            1002,
-            1231,
-            1232
+            1002
           ],
           "confusable_ids": [
             "ch08_t22",
@@ -11421,6 +11459,7 @@
           "term": "Discrimination",
           "definition": "Unequal treatment of individuals based on their membership in a social group; usually motivated by prejudice",
           "level3_question_ids": [
+            755,
             758,
             762,
             765,
@@ -11438,7 +11477,9 @@
             990,
             992,
             995,
-            1002
+            1002,
+            1230,
+            1231
           ],
           "confusable_ids": [
             "ch08_t11",
@@ -11489,8 +11530,8 @@
             989,
             990,
             992,
-            1002,
-            995
+            995,
+            1002
           ],
           "confusable_ids": [
             "ch08_t10",
@@ -11655,7 +11696,8 @@
             998,
             999,
             1000,
-            1001
+            1001,
+            1232
           ],
           "confusable_ids": [
             "ch08_t21",
@@ -11881,7 +11923,7 @@
             "Individual racism"
           ],
           "correct": 0,
-          "linked_concept_id": "ch08_t16"
+          "linked_concept_id": "ch08_t08"
         },
         {
           "id": 759,
@@ -11953,7 +11995,7 @@
             "Racism primarily involves biological or cultural arguments for group differences, while prejudice primarily involves stereotypes about group behavior."
           ],
           "correct": 0,
-          "linked_concept_id": "ch08_t07"
+          "linked_concept_id": "ch08_t06"
         },
         {
           "id": 765,
@@ -12109,7 +12151,7 @@
             "Symbolic ethnicity represents authentic cultural practices, while situational ethnicity involves strategic adaptation to avoid discrimination"
           ],
           "correct": 0,
-          "linked_concept_id": "ch08_t04"
+          "linked_concept_id": "ch08_t03"
         },
         {
           "id": 778,
@@ -12121,7 +12163,7 @@
             "Because symbolic ethnicity represents the final stage in the process of cultural assimilation"
           ],
           "correct": 0,
-          "linked_concept_id": "ch08_t22"
+          "linked_concept_id": "ch08_t03"
         },
         {
           "id": 779,
@@ -12133,7 +12175,7 @@
             "It only affects public institutions while individual discrimination affects private interactions"
           ],
           "correct": 0,
-          "linked_concept_id": "ch08_t10"
+          "linked_concept_id": "ch08_t11"
         },
         {
           "id": 780,
@@ -12145,7 +12187,7 @@
             "Double Consciousness"
           ],
           "correct": 0,
-          "linked_concept_id": "ch08_t22"
+          "linked_concept_id": "ch08_t21"
         },
         {
           "id": 781,
@@ -12193,7 +12235,7 @@
             "Racial passing"
           ],
           "correct": 1,
-          "linked_concept_id": "ch08_t04"
+          "linked_concept_id": "ch08_t03"
         },
         {
           "id": 988,
@@ -12205,7 +12247,7 @@
             "White privilege"
           ],
           "correct": 2,
-          "linked_concept_id": "ch08_t17"
+          "linked_concept_id": "ch08_t04"
         },
         {
           "id": 989,
@@ -12217,7 +12259,7 @@
             "Color-blind racism"
           ],
           "correct": 2,
-          "linked_concept_id": "ch08_t11"
+          "linked_concept_id": "ch08_t09"
         },
         {
           "id": 990,
@@ -12241,7 +12283,7 @@
             "Symbolic ethnicity"
           ],
           "correct": 0,
-          "linked_concept_id": "ch08_t22"
+          "linked_concept_id": "ch08_t12"
         },
         {
           "id": 992,
@@ -12253,7 +12295,7 @@
             "Situational ethnicity"
           ],
           "correct": 2,
-          "linked_concept_id": "ch08_t11"
+          "linked_concept_id": "ch08_t13"
         },
         {
           "id": 993,
@@ -12301,7 +12343,7 @@
             "Color-blind racism"
           ],
           "correct": 1,
-          "linked_concept_id": "ch08_t17"
+          "linked_concept_id": "ch08_t16"
         },
         {
           "id": 997,
@@ -12313,7 +12355,7 @@
             "Population transfer"
           ],
           "correct": 2,
-          "linked_concept_id": "ch08_t22"
+          "linked_concept_id": "ch08_t19"
         },
         {
           "id": 998,
@@ -12337,7 +12379,7 @@
             "Population transfer"
           ],
           "correct": 2,
-          "linked_concept_id": "ch08_t22"
+          "linked_concept_id": "ch08_t23"
         },
         {
           "id": 1000,
@@ -12349,7 +12391,7 @@
             "Pluralism"
           ],
           "correct": 0,
-          "linked_concept_id": "ch08_t22"
+          "linked_concept_id": null
         },
         {
           "id": 1001,
@@ -12373,7 +12415,7 @@
             "Implicit bias"
           ],
           "correct": 2,
-          "linked_concept_id": "ch08_t11"
+          "linked_concept_id": "ch08_t18"
         },
         {
           "id": 1230,
@@ -12474,6 +12516,7 @@
             39,
             40,
             41,
+            42,
             43,
             44,
             45,
@@ -12545,7 +12588,16 @@
             977,
             978,
             979,
-            980
+            980,
+            1221,
+            1222,
+            1223,
+            1224,
+            1225,
+            1226,
+            1227,
+            1228,
+            1229
           ],
           "confusable_ids": [
             "ch09_t08",
@@ -12560,6 +12612,7 @@
           "term": "Gender Essentialism",
           "definition": "The view that gender is immutable and biological, with clear binary categories determined by chromosomes, hormones, and genitalia",
           "level3_question_ids": [
+            42,
             926,
             927,
             928,
@@ -12690,7 +12743,6 @@
             965,
             966,
             967,
-            968,
             971,
             978,
             980
@@ -12735,6 +12787,7 @@
           "term": "Gender Expression",
           "definition": "An individual's behavioral manifestations of gender through clothing, grooming, behavior, body language, and other external presentations",
           "level3_question_ids": [
+            27,
             35,
             39,
             40,
@@ -12751,9 +12804,12 @@
             944,
             945,
             946,
+            948,
+            949,
             950,
             951,
             952,
+            954,
             957,
             959,
             960,
@@ -12826,6 +12882,9 @@
             950,
             951,
             952,
+            953,
+            956,
+            957,
             962,
             964,
             965,
@@ -12834,7 +12893,8 @@
             977,
             978,
             979,
-            980
+            980,
+            1223
           ],
           "confusable_ids": [
             "ch09_t14",
@@ -12850,12 +12910,12 @@
           "definition": "The belief that heterosexuality is and should be the norm",
           "level3_question_ids": [
             33,
+            953,
+            954,
             955,
             957,
             958,
-            962,
-            953,
-            954
+            962
           ],
           "confusable_ids": [
             "ch09_t22"
@@ -12866,9 +12926,9 @@
           "term": "Rape Culture",
           "definition": "A set of beliefs, norms, and values that normalizes sexual violence against women",
           "level3_question_ids": [
-            958,
             956,
-            957
+            957,
+            958
           ],
           "confusable_ids": [
             "ch09_t23",
@@ -12888,8 +12948,7 @@
             41,
             959,
             960,
-            961,
-            42
+            961
           ],
           "confusable_ids": [
             "ch09_t18",
@@ -12922,7 +12981,8 @@
           "level3_question_ids": [
             965,
             966,
-            967
+            967,
+            1223
           ],
           "confusable_ids": [
             "ch09_t28",
@@ -12968,6 +13028,7 @@
             933,
             938,
             940,
+            968,
             969,
             970,
             971,
@@ -12993,7 +13054,8 @@
             977,
             978,
             979,
-            980
+            980,
+            1223
           ],
           "confusable_ids": [
             "ch09_t20",
@@ -13086,6 +13148,7 @@
           "term": "Gender Stratification",
           "definition": "The unequal distribution of wealth, power, and privilege between men and women",
           "level3_question_ids": [
+            1221,
             1223,
             1224
           ],
@@ -13102,8 +13165,7 @@
           "term": "Instrumental and Expressive Roles",
           "definition": "In structural functionalism, instrumental roles are task-oriented roles traditionally assigned to men (breadwinner), while expressive roles are emotion-oriented roles traditionally assigned to women (caregiver)",
           "level3_question_ids": [
-            1221,
-            1222
+            1221
           ],
           "confusable_ids": [
             "ch09_t25",
@@ -13117,11 +13179,7 @@
           "id": "ch09_t27",
           "term": "Symbolic Interactionism on Gender",
           "definition": "The perspective that gender is something people 'do' through everyday interactions; gender identities are continually constructed and reinforced through social encounters",
-          "level3_question_ids": [
-            1225,
-            1226,
-            1227
-          ],
+          "level3_question_ids": [],
           "confusable_ids": [
             "ch09_t04",
             "ch09_t28",
@@ -13135,8 +13193,8 @@
           "term": "Conflict Theory of Gender",
           "definition": "The perspective that gender is a system of inequality in which men maintain dominance over women by controlling economic resources and social power",
           "level3_question_ids": [
-            1228,
-            1229
+            46,
+            56
           ],
           "confusable_ids": [
             "ch09_t25",
@@ -13158,7 +13216,7 @@
             "Gender performativity theory"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t03"
         },
         {
           "id": 22,
@@ -13170,7 +13228,7 @@
             "Noting that gender expressions vary individually while maintaining essential masculine and feminine traits"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t06"
+          "linked_concept_id": "ch09_t04"
         },
         {
           "id": 23,
@@ -13182,7 +13240,7 @@
             "Gender schema theory"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t04"
         },
         {
           "id": 24,
@@ -13206,7 +13264,7 @@
             "\"Gender differences exist universally but are expressed through culturally specific behaviors.\""
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t03"
         },
         {
           "id": 26,
@@ -13218,7 +13276,7 @@
             "Social exchange theory"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t27"
         },
         {
           "id": 27,
@@ -13230,7 +13288,7 @@
             "Sex establishes the biological framework upon which gender expression naturally develops in alignment"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t01"
         },
         {
           "id": 28,
@@ -13242,7 +13300,7 @@
             "Developing secondary physical characteristics that align with cultural beauty standards"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t01"
         },
         {
           "id": 29,
@@ -13278,7 +13336,7 @@
             "Workplace interactions, entertainment, social media, and community groups"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t14"
         },
         {
           "id": 32,
@@ -13302,7 +13360,7 @@
             "It encourages questioning of traditional male-female attraction patterns"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t12"
         },
         {
           "id": 34,
@@ -13326,7 +13384,7 @@
             "They focus primarily on eliminating gender stereotypes from other sources"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t14"
         },
         {
           "id": 36,
@@ -13338,7 +13396,7 @@
             "Feminist theory, which analyzes patriarchal structures and advocates for gender equality"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t27"
         },
         {
           "id": 37,
@@ -13410,7 +13468,7 @@
             "Gender Essentialism"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t14"
+          "linked_concept_id": "ch09_t27"
         },
         {
           "id": 43,
@@ -13422,7 +13480,7 @@
             "Academic journals publishing research findings on gender differences"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t14"
         },
         {
           "id": 44,
@@ -13434,7 +13492,7 @@
             "Sociobiological Theory"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t28"
         },
         {
           "id": 45,
@@ -13446,7 +13504,7 @@
             "How do digital social networks change the nature of peer influence among adolescents?"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t14"
         },
         {
           "id": 46,
@@ -13458,7 +13516,7 @@
             "Symbolic Interaction Theory of Gender"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t28"
         },
         {
           "id": 47,
@@ -13470,7 +13528,7 @@
             "Division between public and private spheres"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t28"
         },
         {
           "id": 48,
@@ -13494,7 +13552,7 @@
             "The gender binary developed to support capitalist economic systems"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t05"
+          "linked_concept_id": "ch09_t26"
         },
         {
           "id": 50,
@@ -13518,7 +13576,7 @@
             "Arbitrary distinctions that serve no societal purpose"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t26"
         },
         {
           "id": 52,
@@ -13530,7 +13588,7 @@
             "A functional division of complementary roles that promotes social order"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t27"
         },
         {
           "id": 53,
@@ -13542,7 +13600,7 @@
             "We rely on gender categories to establish predictable patterns of social behavior"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t27"
         },
         {
           "id": 54,
@@ -13554,7 +13612,7 @@
             "Gender is a set of complementary roles that contribute to family cohesion"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t27"
         },
         {
           "id": 55,
@@ -13566,7 +13624,7 @@
             "Schools socialize boys and girls differently based on presumed natural abilities"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t26"
         },
         {
           "id": 56,
@@ -13578,7 +13636,7 @@
             "Individuals actively construct their gender identity through social interactions"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t06"
+          "linked_concept_id": "ch09_t28"
         },
         {
           "id": 57,
@@ -13590,7 +13648,7 @@
             "It's mainly through symbolic representations in educational materials and environments"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t27"
         },
         {
           "id": 58,
@@ -13662,7 +13720,7 @@
             "A neutral observation about current gender distributions in various professions"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t02"
+          "linked_concept_id": "ch09_t22"
         },
         {
           "id": 644,
@@ -13746,7 +13804,7 @@
             "Gender expression through clothing choices"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t04"
+          "linked_concept_id": "ch09_t03"
         },
         {
           "id": 929,
@@ -13782,7 +13840,7 @@
             "Gender identity individual self-definition"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t04"
+          "linked_concept_id": "ch09_t03"
         },
         {
           "id": 932,
@@ -13794,7 +13852,7 @@
             "Gender socialization agents"
           ],
           "correct": 1,
-          "linked_concept_id": "ch09_t08"
+          "linked_concept_id": "ch09_t05"
         },
         {
           "id": 933,
@@ -13806,7 +13864,7 @@
             "Gender role socialization process"
           ],
           "correct": 1,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t05"
         },
         {
           "id": 934,
@@ -13818,7 +13876,7 @@
             "Gender expression behavioral manifestations"
           ],
           "correct": 2,
-          "linked_concept_id": "ch09_t03"
+          "linked_concept_id": "ch09_t05"
         },
         {
           "id": 935,
@@ -13830,7 +13888,7 @@
             "Gender role socialization process"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t06"
         },
         {
           "id": 936,
@@ -13842,7 +13900,7 @@
             "Gender socialization cultural learning"
           ],
           "correct": 1,
-          "linked_concept_id": "ch09_t08"
+          "linked_concept_id": "ch09_t06"
         },
         {
           "id": 937,
@@ -13854,7 +13912,7 @@
             "Gender binary system compliance"
           ],
           "correct": 2,
-          "linked_concept_id": "ch09_t08"
+          "linked_concept_id": "ch09_t06"
         },
         {
           "id": 938,
@@ -13866,7 +13924,7 @@
             "Gender binary conforming individual"
           ],
           "correct": 2,
-          "linked_concept_id": "ch09_t18"
+          "linked_concept_id": "ch09_t07"
         },
         {
           "id": 939,
@@ -13878,7 +13936,7 @@
             "Gender essentialist believers in biological determinism"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t05"
+          "linked_concept_id": "ch09_t07"
         },
         {
           "id": 940,
@@ -13890,7 +13948,7 @@
             "Gender binary system supporters"
           ],
           "correct": 2,
-          "linked_concept_id": "ch09_t18"
+          "linked_concept_id": "ch09_t07"
         },
         {
           "id": 941,
@@ -13914,7 +13972,7 @@
             "Gender binary system adherence"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t08"
         },
         {
           "id": 943,
@@ -13926,7 +13984,7 @@
             "Gender binary classification methods"
           ],
           "correct": 2,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t08"
         },
         {
           "id": 944,
@@ -14106,7 +14164,7 @@
             "Heteronormativity in media representation"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t12"
+          "linked_concept_id": "ch09_t13"
         },
         {
           "id": 959,
@@ -14154,7 +14212,7 @@
             "Heteronormativity in classroom interactions"
           ],
           "correct": 1,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t15"
         },
         {
           "id": 963,
@@ -14166,7 +14224,7 @@
             "Gender expression limitations in formal contexts"
           ],
           "correct": 2,
-          "linked_concept_id": "ch09_t08"
+          "linked_concept_id": "ch09_t15"
         },
         {
           "id": 964,
@@ -14178,7 +14236,7 @@
             "Gender role socialization through peer interaction"
           ],
           "correct": 2,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t15"
         },
         {
           "id": 965,
@@ -14190,7 +14248,7 @@
             "Gender identity workplace discrimination effects"
           ],
           "correct": 1,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t16"
         },
         {
           "id": 966,
@@ -14202,7 +14260,7 @@
             "Gender role socialization workplace outcomes"
           ],
           "correct": 2,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t16"
         },
         {
           "id": 967,
@@ -14238,7 +14296,7 @@
             "Gender binary conforming to traditional categories"
           ],
           "correct": 2,
-          "linked_concept_id": "ch09_t18"
+          "linked_concept_id": "ch09_t07"
         },
         {
           "id": 970,
@@ -14250,7 +14308,7 @@
             "Gender binary rejection of traditional categories"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t18"
+          "linked_concept_id": "ch09_t17"
         },
         {
           "id": 971,
@@ -14262,7 +14320,7 @@
             "Gender binary traditional category acceptance"
           ],
           "correct": 1,
-          "linked_concept_id": "ch09_t18"
+          "linked_concept_id": "ch09_t17"
         },
         {
           "id": 972,
@@ -14310,7 +14368,7 @@
             "Gender binary enforcement through social pressure"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t19"
         },
         {
           "id": 976,
@@ -14334,7 +14392,7 @@
             "Gender binary enforcement through workplace policies"
           ],
           "correct": 2,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t19"
         },
         {
           "id": 978,
@@ -14346,7 +14404,7 @@
             "Gender identity formation challenges"
           ],
           "correct": 1,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t20"
         },
         {
           "id": 979,
@@ -14358,7 +14416,7 @@
             "Gender binary classification pressure"
           ],
           "correct": 1,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t20"
         },
         {
           "id": 980,
@@ -14370,7 +14428,7 @@
             "Gender identity formation natural development"
           ],
           "correct": 0,
-          "linked_concept_id": "ch09_t11"
+          "linked_concept_id": "ch09_t20"
         },
         {
           "id": 1221,
@@ -14521,7 +14579,9 @@
             301,
             302,
             303,
-            305
+            305,
+            1219,
+            1234
           ],
           "confusable_ids": [
             "ch10_t04"
@@ -14536,7 +14596,9 @@
             295,
             296,
             302,
-            305
+            305,
+            1219,
+            1234
           ],
           "confusable_ids": []
         },
@@ -14550,7 +14612,8 @@
             296,
             297,
             300,
-            303
+            303,
+            1219
           ],
           "confusable_ids": [
             "ch10_t05",
@@ -14592,7 +14655,8 @@
             297,
             300,
             303,
-            306
+            306,
+            1236
           ],
           "confusable_ids": [
             "ch10_t07",
@@ -14626,7 +14690,8 @@
             295,
             299,
             301,
-            306
+            306,
+            1220
           ],
           "confusable_ids": [
             "ch10_t09",
@@ -14662,7 +14727,8 @@
           "definition": "A term describing those who consider themselves spiritual but not religious and who often adopt aspects of various religious traditions",
           "level3_question_ids": [
             300,
-            303
+            303,
+            1218
           ],
           "confusable_ids": [
             "ch10_t12",
@@ -14694,7 +14760,8 @@
           "term": "Collective Effervescence",
           "definition": "Durkheim's term for the heightened sense of shared energy and community that people experience during religious gatherings",
           "level3_question_ids": [
-            296
+            296,
+            1218
           ],
           "confusable_ids": [
             "ch10_t10",
@@ -14719,7 +14786,8 @@
             303,
             304,
             305,
-            306
+            306,
+            1219
           ],
           "confusable_ids": [
             "ch10_t05",
@@ -14758,7 +14826,7 @@
             "Traditional authority within religious institutions"
           ],
           "correct": 2,
-          "linked_concept_id": "ch10_t04"
+          "linked_concept_id": "ch10_t11"
         },
         {
           "id": 295,
@@ -14770,7 +14838,7 @@
             "Religion and secular spirituality"
           ],
           "correct": 1,
-          "linked_concept_id": "ch10_t04"
+          "linked_concept_id": "ch10_t05"
         },
         {
           "id": 296,
@@ -14794,7 +14862,7 @@
             "Religious fundamentalism"
           ],
           "correct": 0,
-          "linked_concept_id": "ch10_t04"
+          "linked_concept_id": "ch10_t05"
         },
         {
           "id": 298,
@@ -14806,7 +14874,7 @@
             "The transformation from traditional to charismatic authority"
           ],
           "correct": 2,
-          "linked_concept_id": "ch10_t05"
+          "linked_concept_id": "ch10_t07"
         },
         {
           "id": 299,
@@ -14818,7 +14886,7 @@
             "Sacred authority derived from religious texts"
           ],
           "correct": 1,
-          "linked_concept_id": "ch10_t08"
+          "linked_concept_id": "ch10_t09"
         },
         {
           "id": 300,
@@ -14830,7 +14898,7 @@
             "Religious fundamentalism across different faith traditions"
           ],
           "correct": 2,
-          "linked_concept_id": "ch10_t04"
+          "linked_concept_id": "ch10_t10"
         },
         {
           "id": 301,
@@ -14854,7 +14922,7 @@
             "The process of secularization in modern communities"
           ],
           "correct": 2,
-          "linked_concept_id": "ch10_t05"
+          "linked_concept_id": "ch10_t11"
         },
         {
           "id": 303,
@@ -14878,7 +14946,7 @@
             "The transformation of traditional religious authority"
           ],
           "correct": 2,
-          "linked_concept_id": "ch10_t05"
+          "linked_concept_id": "ch10_t07"
         },
         {
           "id": 305,
@@ -14890,7 +14958,7 @@
             "The process of secularization in traditional societies"
           ],
           "correct": 0,
-          "linked_concept_id": "ch10_t05"
+          "linked_concept_id": "ch10_t02"
         },
         {
           "id": 306,
@@ -14902,7 +14970,7 @@
             "The tension between intrinsic and extrinsic religiosity"
           ],
           "correct": 1,
-          "linked_concept_id": "ch10_t05"
+          "linked_concept_id": "ch10_t09"
         },
         {
           "id": 1218,
@@ -15014,8 +15082,8 @@
           "term": "education",
           "definition": "The process by which a society transmits its knowledge, values, and expectations to its members so they can function effectively",
           "level3_question_ids": [
-            479,
-            489
+            489,
+            1238
           ],
           "confusable_ids": [
             "ch11_t11",
@@ -15029,7 +15097,6 @@
           "definition": "The emphasis placed on degrees and certificates as determinants of social status and readiness for the job market, leading to credential inflation",
           "level3_question_ids": [
             1007,
-            1237,
             1238
           ],
           "confusable_ids": [
@@ -15044,7 +15111,8 @@
           "term": "tracking",
           "definition": "The placement of students in educational 'tracks' or programs of study (e.g., college prep, remedial) that determine the types of classes they take",
           "level3_question_ids": [
-            1008
+            1008,
+            1238
           ],
           "confusable_ids": [
             "ch11_t05"
@@ -15055,7 +15123,8 @@
           "term": "hidden curriculum",
           "definition": "Values or behaviors that students learn indirectly over the course of their schooling, often reinforcing social norms and power structures",
           "level3_question_ids": [
-            1009
+            1009,
+            1238
           ],
           "confusable_ids": [
             "ch11_t15",
@@ -15078,6 +15147,7 @@
             483,
             490,
             491,
+            493,
             494,
             500,
             501,
@@ -15103,6 +15173,7 @@
             470,
             471,
             474,
+            479,
             487,
             496,
             514,
@@ -15229,8 +15300,7 @@
             490,
             491,
             494,
-            1011,
-            493
+            1011
           ],
           "confusable_ids": [
             "ch11_t08",
@@ -15314,7 +15384,7 @@
             "The elements of worship that are accessible to all members rather than only clergy"
           ],
           "correct": 0,
-          "linked_concept_id": "ch11_t06"
+          "linked_concept_id": "ch11_t08"
         },
         {
           "id": 473,
@@ -15386,7 +15456,7 @@
             "Whether religious knowledge is based on scripture study versus oral traditions"
           ],
           "correct": 0,
-          "linked_concept_id": "ch11_t10"
+          "linked_concept_id": "ch11_t09"
         },
         {
           "id": 479,
@@ -15494,7 +15564,7 @@
             "Religious rituals exclusively occur in designated sacred spaces while secular routines happen anywhere"
           ],
           "correct": 0,
-          "linked_concept_id": "ch11_t07"
+          "linked_concept_id": "ch11_t15"
         },
         {
           "id": 488,
@@ -16177,6 +16247,7 @@
             558,
             559,
             560,
+            597,
             865,
             866
           ],
@@ -16220,8 +16291,7 @@
           "term": "Contingent Workforce",
           "definition": "Workers in temporary or freelance positions without long-term employment contracts",
           "level3_question_ids": [
-            866,
-            588
+            866
           ],
           "confusable_ids": [
             "ch12_t15",
@@ -16353,7 +16423,7 @@
             "establishing rigid career paths with clearly defined progression opportunities."
           ],
           "correct": 0,
-          "linked_concept_id": "ch12_t04"
+          "linked_concept_id": "ch12_t03"
         },
         {
           "id": 564,
@@ -16785,7 +16855,7 @@
             "business process relocation"
           ],
           "correct": 0,
-          "linked_concept_id": "ch12_t14"
+          "linked_concept_id": "ch12_t12"
         },
         {
           "id": 861,
@@ -16809,7 +16879,7 @@
             "Digital Revolution"
           ],
           "correct": 1,
-          "linked_concept_id": "ch12_t01"
+          "linked_concept_id": "ch12_t02"
         },
         {
           "id": 863,
@@ -16821,7 +16891,7 @@
             "Service Integration"
           ],
           "correct": 2,
-          "linked_concept_id": "ch12_t01"
+          "linked_concept_id": "ch12_t03"
         },
         {
           "id": 864,
@@ -16833,7 +16903,7 @@
             "Service work"
           ],
           "correct": 3,
-          "linked_concept_id": "ch12_t04"
+          "linked_concept_id": "ch12_t05"
         },
         {
           "id": 865,
@@ -16900,6 +16970,7 @@
             120,
             142,
             144,
+            146,
             152,
             155,
             160,
@@ -16925,10 +16996,12 @@
             118,
             119,
             121,
+            127,
             128,
             129,
             130,
             131,
+            132,
             135,
             147,
             148,
@@ -16938,6 +17011,7 @@
             152,
             153,
             154,
+            157,
             158,
             159,
             418,
@@ -16947,8 +17021,7 @@
             422,
             425,
             426,
-            427,
-            127
+            427
           ],
           "confusable_ids": [
             "ch13_t04",
@@ -16964,6 +17037,7 @@
           "definition": "A family unit including relatives beyond parents and children (e.g., grandparents, aunts, uncles), often living together or nearby.",
           "level3_question_ids": [
             113,
+            114,
             115,
             116,
             117,
@@ -16979,8 +17053,7 @@
             422,
             425,
             426,
-            427,
-            114
+            427
           ],
           "confusable_ids": [
             "ch13_t04",
@@ -17022,13 +17095,12 @@
           "term": "Patriarchal Family",
           "definition": "Family structure where authority is predominantly held by the eldest male or father.",
           "level3_question_ids": [
-            419,
-            420,
-            427,
-            132,
             121,
             128,
-            129
+            129,
+            419,
+            420,
+            427
           ],
           "confusable_ids": [
             "ch13_t06",
@@ -17043,6 +17115,9 @@
           "term": "Companionship Family",
           "definition": "Family structure based on mutual affection, shared decision-making, and emotional bonds between spouses.",
           "level3_question_ids": [
+            121,
+            128,
+            129,
             419,
             420,
             427
@@ -17193,11 +17268,11 @@
           "term": "Instrumental Tasks",
           "definition": "Practical, goal-oriented tasks needed for family maintenance (e.g., earning income, fixing things).",
           "level3_question_ids": [
+            114,
             131,
             154,
             161,
-            426,
-            157
+            426
           ],
           "confusable_ids": [
             "ch13_t15",
@@ -17287,7 +17362,7 @@
             "c) A first cousin"
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t03"
+          "linked_concept_id": "ch13_t08"
         },
         {
           "id": 117,
@@ -17299,7 +17374,7 @@
             "d) Homogamy strengthens the patriarchal structure of the extended family."
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t03"
+          "linked_concept_id": "ch13_t09"
         },
         {
           "id": 118,
@@ -17311,7 +17386,7 @@
             "Community"
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t01"
+          "linked_concept_id": "ch13_t02"
         },
         {
           "id": 119,
@@ -17335,7 +17410,7 @@
             "Polygamy"
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t01"
+          "linked_concept_id": "ch13_t10"
         },
         {
           "id": 121,
@@ -17395,7 +17470,7 @@
             "By allowing individuals to pursue their own interests and aspirations"
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t02"
+          "linked_concept_id": "ch13_t16"
         },
         {
           "id": 131,
@@ -17455,7 +17530,7 @@
             "d) Michelle helps her siblings with their homework."
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t02"
+          "linked_concept_id": "ch13_t14"
         },
         {
           "id": 136,
@@ -17491,7 +17566,7 @@
             "Polyandry"
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t10"
+          "linked_concept_id": "ch13_t11"
         },
         {
           "id": 139,
@@ -17503,7 +17578,7 @@
             "Polyandry"
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t10"
+          "linked_concept_id": "ch13_t11"
         },
         {
           "id": 140,
@@ -17539,7 +17614,7 @@
             "Arranged marriage"
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t01"
+          "linked_concept_id": "ch13_t11"
         },
         {
           "id": 143,
@@ -17551,7 +17626,7 @@
             "Heterogamy"
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t10"
+          "linked_concept_id": "ch13_t11"
         },
         {
           "id": 144,
@@ -17563,7 +17638,7 @@
             "Arranged marriage"
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t01"
+          "linked_concept_id": "ch13_t11"
         },
         {
           "id": 145,
@@ -17575,7 +17650,7 @@
             "Heterogamy"
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t10"
+          "linked_concept_id": "ch13_t11"
         },
         {
           "id": 146,
@@ -17599,7 +17674,7 @@
             "The concept of family is the unit that raises children."
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t03"
+          "linked_concept_id": "ch13_t02"
         },
         {
           "id": 148,
@@ -17671,7 +17746,7 @@
             "American ideology rejects the concept of the nuclear family and promotes alternative family structures."
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t03"
+          "linked_concept_id": "ch13_t04"
         },
         {
           "id": 154,
@@ -17731,7 +17806,7 @@
             "Repairing household appliances"
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t02"
+          "linked_concept_id": "ch13_t15"
         },
         {
           "id": 159,
@@ -17743,7 +17818,7 @@
             "Resolving conflicts"
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t02"
+          "linked_concept_id": "ch13_t14"
         },
         {
           "id": 160,
@@ -17755,7 +17830,7 @@
             "Sharing household responsibilities"
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t01"
+          "linked_concept_id": "ch13_t14"
         },
         {
           "id": 161,
@@ -17791,7 +17866,7 @@
             "Extended family"
           ],
           "correct": 1,
-          "linked_concept_id": "ch13_t06"
+          "linked_concept_id": "ch13_t05"
         },
         {
           "id": 420,
@@ -17815,7 +17890,7 @@
             "Kin"
           ],
           "correct": 3,
-          "linked_concept_id": "ch13_t03"
+          "linked_concept_id": "ch13_t07"
         },
         {
           "id": 422,
@@ -17827,7 +17902,7 @@
             "Nuclear family"
           ],
           "correct": 2,
-          "linked_concept_id": "ch13_t03"
+          "linked_concept_id": "ch13_t08"
         },
         {
           "id": 423,
@@ -17839,7 +17914,7 @@
             "Homogamy"
           ],
           "correct": 0,
-          "linked_concept_id": "ch13_t12"
+          "linked_concept_id": "ch13_t11"
         },
         {
           "id": 424,
@@ -17863,7 +17938,7 @@
             "Fictive kin"
           ],
           "correct": 2,
-          "linked_concept_id": "ch13_t03"
+          "linked_concept_id": "ch13_t13"
         },
         {
           "id": 426,
@@ -17875,7 +17950,7 @@
             "Second shift"
           ],
           "correct": 3,
-          "linked_concept_id": "ch13_t14"
+          "linked_concept_id": "ch13_t16"
         },
         {
           "id": 427,
@@ -17887,7 +17962,7 @@
             "Companionship family"
           ],
           "correct": 2,
-          "linked_concept_id": "ch13_t06"
+          "linked_concept_id": "ch13_t04"
         }
       ]
     },
@@ -17981,8 +18056,6 @@
           "level3_question_ids": [
             412,
             413,
-            1142,
-            1143,
             1166,
             1169,
             1179,
@@ -18001,7 +18074,7 @@
             1168,
             1169,
             1170,
-            1178,
+            1177,
             1179,
             1204,
             1205,
@@ -18032,7 +18105,7 @@
           "level3_question_ids": [
             407,
             416,
-            1178
+            1177
           ],
           "confusable_ids": [
             "ch14_t05",
@@ -18051,6 +18124,7 @@
             417,
             1167,
             1170,
+            1177,
             1179,
             1192
           ],
@@ -18070,7 +18144,6 @@
             408,
             417,
             1166,
-            1177,
             1192,
             1204
           ],
@@ -18089,8 +18162,7 @@
           "level3_question_ids": [
             413,
             1214,
-            1216,
-            1217
+            1216
           ],
           "confusable_ids": [
             "ch14_t24",
@@ -18118,7 +18190,9 @@
           "term": "Taste Publics and Cultures",
           "definition": "Groups sharing similar aesthetic preferences (publics) forming distinct cultural patterns (cultures).",
           "level3_question_ids": [
+            1142,
             1178,
+            1192,
             1204
           ],
           "confusable_ids": [
@@ -18136,8 +18210,10 @@
           "level3_question_ids": [
             409,
             412,
+            1141,
             1167,
             1176,
+            1178,
             1189,
             1197,
             1204
@@ -18157,9 +18233,6 @@
           "level3_question_ids": [
             1141,
             1142,
-            1143,
-            1144,
-            1145,
             1167,
             1170,
             1176,
@@ -18184,6 +18257,7 @@
           "level3_question_ids": [
             409,
             412,
+            1143,
             1169,
             1189
           ],
@@ -18271,8 +18345,10 @@
             409,
             411,
             415,
-            1190,
-            1145
+            1143,
+            1145,
+            1178,
+            1190
           ],
           "confusable_ids": [
             "ch14_t23",
@@ -18291,9 +18367,9 @@
             414,
             417,
             1141,
+            1142,
             1143,
-            1144,
-            1145,
+            1178,
             1192
           ],
           "confusable_ids": [
@@ -18311,6 +18387,7 @@
           "level3_question_ids": [
             410,
             413,
+            1141,
             1142
           ],
           "confusable_ids": [
@@ -18326,7 +18403,7 @@
           "definition": "The capacity for a sign or text to have multiple meanings or interpretations.",
           "level3_question_ids": [
             415,
-            1177,
+            1143,
             1189,
             1190,
             1191,
@@ -18341,9 +18418,7 @@
           "id": "ch14_t23",
           "term": "Role Model",
           "definition": "A person whose behavior or success serves as an example for others to follow.",
-          "level3_question_ids": [
-            1178
-          ],
+          "level3_question_ids": [],
           "confusable_ids": [
             "ch14_t19",
             "ch14_t17"
@@ -18403,7 +18478,7 @@
             "These musical preferences reflect individual psychology rather than social patterns"
           ],
           "correct": 1,
-          "linked_concept_id": "ch14_t07"
+          "linked_concept_id": "ch14_t11"
         },
         {
           "id": 409,
@@ -18415,7 +18490,7 @@
             "Reinforcement theory"
           ],
           "correct": 1,
-          "linked_concept_id": "ch14_t16"
+          "linked_concept_id": "ch14_t19"
         },
         {
           "id": 410,
@@ -18427,7 +18502,7 @@
             "It has become an interpretive community focused on textual poaching"
           ],
           "correct": 2,
-          "linked_concept_id": "ch14_t21"
+          "linked_concept_id": "ch14_t24"
         },
         {
           "id": 411,
@@ -18439,7 +18514,7 @@
             "Two-step flow model"
           ],
           "correct": 1,
-          "linked_concept_id": "ch14_t16"
+          "linked_concept_id": "ch14_t15"
         },
         {
           "id": 412,
@@ -18463,7 +18538,7 @@
             "A primary group that provides intimate personal relationships"
           ],
           "correct": 0,
-          "linked_concept_id": "ch14_t21"
+          "linked_concept_id": "ch14_t09"
         },
         {
           "id": 414,
@@ -18487,7 +18562,7 @@
             "The formation of different lifestyle enclaves around the film"
           ],
           "correct": 2,
-          "linked_concept_id": "ch14_t19"
+          "linked_concept_id": "ch14_t22"
         },
         {
           "id": 416,
@@ -18511,7 +18586,7 @@
             "Lifestyle enclaves and third places"
           ],
           "correct": 1,
-          "linked_concept_id": "ch14_t24"
+          "linked_concept_id": "ch14_t11"
         },
         {
           "id": 985,
@@ -18979,7 +19054,7 @@
             "Hypodermic needle theory"
           ],
           "correct": 0,
-          "linked_concept_id": "ch14_t12"
+          "linked_concept_id": "ch14_t04"
         },
         {
           "id": 1168,
@@ -19003,7 +19078,7 @@
             "Reinforcement theory"
           ],
           "correct": 0,
-          "linked_concept_id": "ch14_t14"
+          "linked_concept_id": "ch14_t04"
         },
         {
           "id": 1170,
@@ -19015,7 +19090,7 @@
             "Two-step flow model"
           ],
           "correct": 0,
-          "linked_concept_id": "ch14_t17"
+          "linked_concept_id": "ch14_t04"
         },
         {
           "id": 1171,
@@ -19123,7 +19198,7 @@
             "Popular culture"
           ],
           "correct": 0,
-          "linked_concept_id": "ch14_t04"
+          "linked_concept_id": "ch14_t01"
         },
         {
           "id": 1180,
@@ -19243,7 +19318,7 @@
             "Lifestyle enclaves"
           ],
           "correct": 0,
-          "linked_concept_id": "ch14_t12"
+          "linked_concept_id": "ch14_t22"
         },
         {
           "id": 1190,
@@ -19255,7 +19330,7 @@
             "Interpretive strategies"
           ],
           "correct": 0,
-          "linked_concept_id": "ch14_t18"
+          "linked_concept_id": "ch14_t19"
         },
         {
           "id": 1191,
@@ -19339,7 +19414,7 @@
             "The active audience concept argues that media effects are solely determined by individual psychological factors."
           ],
           "correct": 0,
-          "linked_concept_id": "ch14_t12"
+          "linked_concept_id": "ch14_t13"
         },
         {
           "id": 1198,
@@ -19423,7 +19498,7 @@
             "Hypodermic needle theory"
           ],
           "correct": 0,
-          "linked_concept_id": "ch14_t11"
+          "linked_concept_id": "ch14_t04"
         },
         {
           "id": 1205,
@@ -19531,7 +19606,7 @@
             "They are primarily focused on economic transactions."
           ],
           "correct": 0,
-          "linked_concept_id": "ch14_t01"
+          "linked_concept_id": "ch14_t09"
         },
         {
           "id": 1214,
@@ -19616,26 +19691,28 @@
             869,
             873,
             875,
+            876,
+            882,
+            889,
             891,
             892,
             893,
+            899,
+            900,
             901,
+            902,
             903,
             904,
             906,
+            907,
             909,
             913,
             917,
+            919,
             920,
             921,
             923,
-            925,
-            889,
-            899,
-            900,
-            902,
-            919,
-            907
+            925
           ],
           "confusable_ids": [
             "ch15_t03"
@@ -19650,7 +19727,10 @@
             873,
             890,
             893,
+            899,
+            900,
             901,
+            902,
             903,
             905,
             906,
@@ -19676,8 +19756,7 @@
             898,
             919,
             921,
-            924,
-            897
+            924
           ],
           "confusable_ids": [
             "ch15_t01"
@@ -19689,6 +19768,7 @@
           "definition": "An area with limited access to affordable, healthy food.",
           "level3_question_ids": [
             871,
+            875,
             884,
             885,
             910,
@@ -19696,8 +19776,7 @@
             919,
             921,
             923,
-            925,
-            875
+            925
           ],
           "confusable_ids": [
             "ch15_t07"
@@ -19719,6 +19798,8 @@
             871,
             872,
             873,
+            887,
+            907,
             909,
             913,
             915,
@@ -19728,9 +19809,7 @@
             924,
             925,
             1012,
-            1013,
-            878,
-            914
+            1013
           ],
           "confusable_ids": [
             "ch15_t01",
@@ -19746,11 +19825,14 @@
           "definition": "Exacerbated poor health in deprived areas due to combined individual and area factors.",
           "level3_question_ids": [
             870,
+            875,
+            887,
+            889,
             911,
             913,
+            919,
             922,
-            924,
-            887
+            924
           ],
           "confusable_ids": [
             "ch15_t01",
@@ -19784,10 +19866,14 @@
           "level3_question_ids": [
             869,
             873,
+            876,
+            879,
+            880,
+            881,
             882,
+            883,
             922,
-            925,
-            876
+            925
           ],
           "confusable_ids": [
             "ch15_t01",
@@ -19881,7 +19967,7 @@
             "Individual genetic factors"
           ],
           "correct": 0,
-          "linked_concept_id": "ch15_t10"
+          "linked_concept_id": "ch15_t11"
         },
         {
           "id": 398,
@@ -19941,7 +20027,7 @@
             "Medical care effectiveness"
           ],
           "correct": 2,
-          "linked_concept_id": "ch15_t06"
+          "linked_concept_id": "ch15_t11"
         },
         {
           "id": 403,
@@ -20001,7 +20087,7 @@
             "symbolic interactionism"
           ],
           "correct": 0,
-          "linked_concept_id": "ch15_t06"
+          "linked_concept_id": "ch15_t05"
         },
         {
           "id": 871,
@@ -20433,7 +20519,7 @@
             "Medicalization and demedicalization are only relevant in developed countries."
           ],
           "correct": 0,
-          "linked_concept_id": "ch15_t03"
+          "linked_concept_id": "ch15_t02"
         },
         {
           "id": 907,
@@ -20754,8 +20840,7 @@
             445,
             466,
             614,
-            636,
-            616
+            636
           ],
           "confusable_ids": [
             "ch16_t02",
@@ -20787,9 +20872,7 @@
           "definition": "Death rates fall while birth rates remain high, causing rapid population growth.",
           "level3_question_ids": [
             446,
-            458,
-            627,
-            449
+            458
           ],
           "confusable_ids": [
             "ch16_t04",
@@ -20805,8 +20888,7 @@
           "definition": "Birth rates decline and death rates remain low, slowing population growth.",
           "level3_question_ids": [
             433,
-            446,
-            628
+            446
           ],
           "confusable_ids": [
             "ch16_t05",
@@ -20838,8 +20920,7 @@
           "level3_question_ids": [
             435,
             451,
-            462,
-            619
+            462
           ],
           "confusable_ids": [
             "ch16_t11"
@@ -20864,8 +20945,7 @@
             621,
             622,
             623,
-            624,
-            465
+            624
           ],
           "confusable_ids": [
             "ch16_t15",
@@ -20896,9 +20976,7 @@
           "term": "Age Structure Diagrams",
           "definition": "Graphs (population pyramids) showing the distribution of a population by age and sex.",
           "level3_question_ids": [
-            639,
-            613,
-            618
+            639
           ],
           "confusable_ids": [
             "ch16_t02",
@@ -20938,8 +21016,7 @@
             622,
             623,
             624,
-            636,
-            637
+            636
           ],
           "confusable_ids": [
             "ch16_t02",
@@ -20960,6 +21037,7 @@
             444,
             448,
             450,
+            454,
             621,
             622,
             623,
@@ -20981,6 +21059,7 @@
           "level3_question_ids": [
             4,
             6,
+            611,
             612,
             614,
             636
@@ -21051,12 +21130,14 @@
             449,
             450,
             451,
+            454,
             455,
             456,
             457,
             458,
             459,
             464,
+            465,
             466,
             467,
             468,
@@ -21074,8 +21155,7 @@
             635,
             636,
             637,
-            638,
-            454
+            638
           ],
           "confusable_ids": [
             "ch16_t16",
@@ -21114,6 +21194,7 @@
           "level3_question_ids": [
             440,
             444,
+            449,
             606,
             607,
             608,
@@ -21177,7 +21258,7 @@
             "The demographic dividend with economic prosperity"
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t01"
+          "linked_concept_id": "ch16_t05"
         },
         {
           "id": 2,
@@ -21189,7 +21270,7 @@
             "The age structure difference will have no impact on future birth rates"
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t01"
+          "linked_concept_id": "ch16_t11"
         },
         {
           "id": 3,
@@ -21201,7 +21282,7 @@
             "The dominant religious beliefs in each country"
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t02"
+          "linked_concept_id": "ch16_t11"
         },
         {
           "id": 4,
@@ -21213,7 +21294,7 @@
             "Higher rates of accidents and violence among young people"
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t02"
+          "linked_concept_id": "ch16_t11"
         },
         {
           "id": 5,
@@ -21225,7 +21306,7 @@
             "Statistical errors in calculating the birth and death rates"
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t03"
+          "linked_concept_id": "ch16_t20"
         },
         {
           "id": 6,
@@ -21237,7 +21318,7 @@
             "Increasing urbanization concentrating population growth"
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t03"
+          "linked_concept_id": "ch16_t16"
         },
         {
           "id": 7,
@@ -21489,7 +21570,7 @@
             "Population Doubling Formula"
           ],
           "correct": 1,
-          "linked_concept_id": "ch16_t14"
+          "linked_concept_id": "ch16_t13"
         },
         {
           "id": 445,
@@ -21513,7 +21594,7 @@
             "Population doubling acceleration"
           ],
           "correct": 2,
-          "linked_concept_id": "ch16_t04"
+          "linked_concept_id": "ch16_t06"
         },
         {
           "id": 447,
@@ -21549,7 +21630,7 @@
             "Population Doubling calculations"
           ],
           "correct": 1,
-          "linked_concept_id": "ch16_t05"
+          "linked_concept_id": "ch16_t04"
         },
         {
           "id": 450,
@@ -21633,7 +21714,7 @@
             "Different calculation methods for population growth"
           ],
           "correct": 1,
-          "linked_concept_id": "ch16_t18"
+          "linked_concept_id": "ch16_t11"
         },
         {
           "id": 457,
@@ -21669,7 +21750,7 @@
             "Geographic mapping of migration flows"
           ],
           "correct": 1,
-          "linked_concept_id": "ch16_t18"
+          "linked_concept_id": "ch16_t09"
         },
         {
           "id": 460,
@@ -21681,7 +21762,7 @@
             "CBR is more accurate than TFR for all demographic analysis"
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t09"
+          "linked_concept_id": "ch16_t01"
         },
         {
           "id": 461,
@@ -21693,7 +21774,7 @@
             "High rates of international emigration"
           ],
           "correct": 2,
-          "linked_concept_id": "ch16_t17"
+          "linked_concept_id": "ch16_t07"
         },
         {
           "id": 462,
@@ -21765,7 +21846,7 @@
             "Stable population doubling times"
           ],
           "correct": 1,
-          "linked_concept_id": "ch16_t19"
+          "linked_concept_id": "ch16_t09"
         },
         {
           "id": 468,
@@ -21777,7 +21858,7 @@
             "Population doubling acceleration in developed countries"
           ],
           "correct": 1,
-          "linked_concept_id": "ch16_t18"
+          "linked_concept_id": "ch16_t08"
         },
         {
           "id": 469,
@@ -21789,7 +21870,7 @@
             "Migration policies vary significantly between countries"
           ],
           "correct": 2,
-          "linked_concept_id": "ch16_t18"
+          "linked_concept_id": "ch16_t08"
         },
         {
           "id": 600,
@@ -21801,7 +21882,7 @@
             "nongovernmental organization"
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t21"
+          "linked_concept_id": "ch16_t08"
         },
         {
           "id": 601,
@@ -21825,7 +21906,7 @@
             "nongovernmental organization"
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t16"
+          "linked_concept_id": "ch16_t08"
         },
         {
           "id": 603,
@@ -21861,7 +21942,7 @@
             "the Malthusian theorem"
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t22"
+          "linked_concept_id": "ch16_t08"
         },
         {
           "id": 606,
@@ -21945,7 +22026,7 @@
             "Decline in immigration rates"
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t15"
+          "linked_concept_id": "ch16_t09"
         },
         {
           "id": 613,
@@ -22017,7 +22098,7 @@
             "About 40%"
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t11"
+          "linked_concept_id": "ch16_t08"
         },
         {
           "id": 619,
@@ -22053,7 +22134,7 @@
             "Infant mortality rate"
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t14"
+          "linked_concept_id": "ch16_t01"
         },
         {
           "id": 622,
@@ -22065,7 +22146,7 @@
             "Infant mortality rate"
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t14"
+          "linked_concept_id": "ch16_t09"
         },
         {
           "id": 623,
@@ -22077,7 +22158,7 @@
             "Infant mortality rate"
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t14"
+          "linked_concept_id": "ch16_t02"
         },
         {
           "id": 624,
@@ -22113,7 +22194,7 @@
             "A model that explains the impact of social factors on population growth and distribution."
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t16"
+          "linked_concept_id": "ch16_t08"
         },
         {
           "id": 627,
@@ -22269,7 +22350,7 @@
             "Age structure diagrams"
           ],
           "correct": 0,
-          "linked_concept_id": "ch16_t11"
+          "linked_concept_id": "ch16_t05"
         }
       ]
     }
