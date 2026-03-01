@@ -536,10 +536,20 @@ const UI = (() => {
         btn.disabled = !(nameInput.value.trim() && onyenInput.value.trim());
     }
 
-    // --- Keyboard shortcut ---
+    // --- Keyboard shortcuts ---
     function handleKeydown(e) {
+        // Enter to advance after answering
         if (e.key === 'Enter' && _answered && !document.getElementById('btn-next').classList.contains('hidden')) {
             nextQuestion();
+            return;
+        }
+        // 1-4 keys to select answer choices
+        if (!_answered && e.key >= '1' && e.key <= '4') {
+            const choices = document.querySelectorAll('#choices .choice-btn');
+            const idx = parseInt(e.key) - 1;
+            if (idx < choices.length) {
+                choices[idx].click();
+            }
         }
     }
 

@@ -30,6 +30,13 @@ const App = (() => {
         const onyen = Progress.getOnyen();
         if (onyen) {
             showHome();
+            // Silently pull latest progress from cloud (non-blocking)
+            Sync.pullProgress().then(() => {
+                // Re-render home to reflect any merged remote data
+                if (document.getElementById('screen-home').classList.contains('active')) {
+                    UI.renderHome();
+                }
+            });
         } else {
             UI.showIdentityModal();
             showHome();
@@ -204,6 +211,18 @@ const App = (() => {
                 } else {
                     showHome();
                 }
+            }
+        });
+
+        // --- Theme Toggle ---
+        document.getElementById('btn-theme-toggle').addEventListener('click', () => {
+            const isDark = document.body.getAttribute('data-theme') === 'dark';
+            if (isDark) {
+                document.body.removeAttribute('data-theme');
+                localStorage.removeItem('soci101_theme');
+            } else {
+                document.body.setAttribute('data-theme', 'dark');
+                localStorage.setItem('soci101_theme', 'dark');
             }
         });
 

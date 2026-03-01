@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="css/components.css">
 </head>
 <body>
+    <script>
+        // Apply saved theme before paint to avoid flash
+        if (localStorage.getItem('soci101_theme') === 'dark') {
+            document.body.setAttribute('data-theme', 'dark');
+        }
+    </script>
+
+    <!-- Theme Toggle (persistent across screens) -->
+    <button id="btn-theme-toggle" class="btn-theme-toggle" aria-label="Toggle dark mode"></button>
 
     <!-- Identity Modal -->
     <div id="identity-modal" class="modal-overlay hidden">
@@ -131,7 +140,7 @@
                 <div id="question-level" class="question-level"></div>
                 <p id="question-text" class="question-text"></p>
                 <div id="choices" class="choices"></div>
-                <div id="feedback" class="feedback hidden">
+                <div id="feedback" class="feedback hidden" aria-live="polite">
                     <p id="feedback-text"></p>
                 </div>
                 <button id="btn-next" class="btn btn-primary btn-next hidden">Next</button>

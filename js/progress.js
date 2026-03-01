@@ -78,6 +78,7 @@ const Progress = (() => {
         const key = `level${level}`;
         cp[key].attempts++;
         if (wasCorrect) cp[key].correct++;
+        cp[key].lastModified = Date.now();
         save();
     }
 
@@ -132,6 +133,7 @@ const Progress = (() => {
             sr.easeFactor = Math.max(1.3, sr.easeFactor - 0.2);
         }
         sr.nextReview = Date.now() + (sr.interval * 24 * 60 * 60 * 1000);
+        sr.lastModified = Date.now();
         save();
     }
 
@@ -258,7 +260,9 @@ const Progress = (() => {
     }
 
     function mergeRemoteData(remote) {
-        // Merge remote progress - keep the higher correct count for each concept/question
+        // Timestamp-based merge: for each concept level and question,
+        // keep whichever was modified more recently. Falls back to
+        // "keep higher correct count" for data without timestamps.
         const local = getData();
         if (remote.concepts) {
             for (const [id, rc] of Object.entries(remote.concepts)) {
@@ -267,8 +271,19 @@ const Progress = (() => {
                     local.concepts[id] = rc;
                 } else {
                     for (const lvl of ['level1', 'level2', 'level3']) {
-                        if (rc[lvl] && rc[lvl].correct > (lc[lvl]?.correct || 0)) {
-                            lc[lvl] = rc[lvl];
+                        if (!rc[lvl]) continue;
+                        const rl = rc[lvl];
+                        const ll = lc[lvl] || { attempts: 0, correct: 0 };
+                        // If both have timestamps, use the newer one
+                        if (rl.lastModified && ll.lastModified) {
+                            if (rl.lastModified > ll.lastModified) {
+                                lc[lvl] = rl;
+                            }
+                        } else {
+                            // Fallback: keep higher correct count
+                            if (rl.correct > (ll.correct || 0)) {
+                                lc[lvl] = rl;
+                            }
                         }
                     }
                 }
@@ -277,7 +292,13 @@ const Progress = (() => {
         if (remote.questions) {
             for (const [key, rq] of Object.entries(remote.questions)) {
                 const lq = local.questions[key];
-                if (!lq || rq.timesAnswered > lq.timesAnswered) {
+                if (!lq) {
+                    local.questions[key] = rq;
+                } else if (rq.lastModified && lq.lastModified) {
+                    if (rq.lastModified > lq.lastModified) {
+                        local.questions[key] = rq;
+                    }
+                } else if (rq.timesAnswered > lq.timesAnswered) {
                     local.questions[key] = rq;
                 }
             }
