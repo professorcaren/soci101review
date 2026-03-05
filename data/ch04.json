@@ -304,7 +304,6 @@
       "level3_question_ids": [
         801,
         807,
-        808,
         810,
         812
       ],
@@ -341,6 +340,7 @@
         802,
         806,
         807,
+        808,
         809
       ],
       "confusable_ids": [
@@ -371,7 +371,8 @@
       "term": "Embodied Status",
       "definition": "Status characteristics physically manifested in appearance or behavior",
       "level3_question_ids": [
-        802
+        802,
+        808
       ],
       "confusable_ids": [
         "ch04_t21",
@@ -465,7 +466,6 @@
         277,
         795,
         797,
-        802,
         805,
         807,
         811
@@ -711,7 +711,7 @@
         "It requires conscious effort to maintain."
       ],
       "correct": 0,
-      "linked_concept_id": "ch04_t05"
+      "linked_concept_id": "ch04_t09"
     },
     {
       "id": 242,
@@ -747,7 +747,7 @@
         "Looking-glass self operates only in childhood, while impression management continues throughout life."
       ],
       "correct": 0,
-      "linked_concept_id": "ch04_t03"
+      "linked_concept_id": "ch04_t09"
     },
     {
       "id": 245,
@@ -871,10 +871,10 @@
     },
     {
       "id": 255,
-      "question": "According to Charles Cooley's looking-glass self theory, which of the following is a key step in how we develop our self-concept?",
+      "question": "Which stage of Charles Cooley's looking-glass self theory most directly influences self-concept development?",
       "choices": [
-        "Imagining how others perceive and judge us, then developing feelings about ourselves based on those imagined judgments",
-        "Developing personal goals and aspirations independently of others",
+        "Imagining how others evaluate our appearance, behavior, and personality",
+        "Developing personal goals and aspirations independently",
         "Comparing our achievements to societal standards",
         "Recording daily experiences in a reflective journal"
       ],
@@ -951,7 +951,7 @@
         "Sanctions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch04_t22"
+      "linked_concept_id": "ch04_t17"
     },
     {
       "id": 262,
@@ -987,7 +987,7 @@
         "Subculture"
       ],
       "correct": 0,
-      "linked_concept_id": "ch04_t22"
+      "linked_concept_id": "ch04_t17"
     },
     {
       "id": 265,
@@ -1059,7 +1059,7 @@
         "Social status"
       ],
       "correct": 0,
-      "linked_concept_id": "ch04_t22"
+      "linked_concept_id": "ch04_t17"
     },
     {
       "id": 271,
@@ -1095,7 +1095,7 @@
         "Cultural mandate"
       ],
       "correct": 0,
-      "linked_concept_id": "ch04_t22"
+      "linked_concept_id": "ch04_t17"
     },
     {
       "id": 274,
@@ -1115,7 +1115,7 @@
       "choices": [
         "Frequent social mobility and intense competition for high-status positions",
         "Fixed social hierarchies based on birth and family background",
-        "Strong traditions of inherited privilege and dynastic succession",
+        "Strong traditions of inherited privilege and \u0434\u0438\u043d\u0430\u0441\u0442ic succession",
         "Minimal status distinctions between social positions"
       ],
       "correct": 0,
@@ -1203,7 +1203,7 @@
         "The student is practicing anticipatory socialization"
       ],
       "correct": 2,
-      "linked_concept_id": "ch04_t06"
+      "linked_concept_id": "ch04_t09"
     },
     {
       "id": 795,
@@ -1251,7 +1251,7 @@
         "Cooling the mark out"
       ],
       "correct": 3,
-      "linked_concept_id": "ch04_t12"
+      "linked_concept_id": "ch04_t07"
     },
     {
       "id": 799,
@@ -1291,15 +1291,15 @@
     },
     {
       "id": 802,
-      "question": "Maria feels torn between her role as a successful businesswoman, which requires her to be assertive and competitive, and her role as a caring mother, which emphasizes nurturing and patience. Her struggle best illustrates:",
+      "question": "Maria feels torn between her identity as a successful businesswoman, which requires her to be assertive and competitive, and her identity as a caring mother, which emphasizes nurturing and patience. Her struggle best illustrates:",
       "choices": [
-        "Role conflict between incompatible social roles",
+        "The dual nature of the self",
         "Embodied status characteristics",
         "Role strain within a single role",
         "The saturated self in postmodern society"
       ],
-      "correct": 0,
-      "linked_concept_id": "ch04_t23"
+      "correct": 1,
+      "linked_concept_id": "ch04_t19"
     },
     {
       "id": 803,
@@ -1323,7 +1323,7 @@
         "The looking-glass self in anonymous settings"
       ],
       "correct": 2,
-      "linked_concept_id": "ch04_t28"
+      "linked_concept_id": "ch04_t10"
     },
     {
       "id": 805,
@@ -1347,7 +1347,7 @@
         "Frontstage and backstage behavior"
       ],
       "correct": 2,
-      "linked_concept_id": "ch04_t26"
+      "linked_concept_id": "ch04_t10"
     },
     {
       "id": 807,
@@ -1363,15 +1363,15 @@
     },
     {
       "id": 808,
-      "question": "A college student from a working-class family who hopes to enter the professional class after graduation begins adopting the speech patterns, clothing styles, and social activities of their wealthy classmates in preparation for their future career. This represents:",
+      "question": "A college student from a working-class family begins adopting the speech patterns, clothing styles, and social activities of their wealthy classmates. This represents:",
       "choices": [
         "Role strain within their student identity",
-        "Resocialization into a new social group",
+        "The development of embodied status",
         "Anticipatory socialization for a different class position",
         "Agency in choosing their social identity"
       ],
       "correct": 2,
-      "linked_concept_id": "ch04_t01"
+      "linked_concept_id": "ch04_t19"
     },
     {
       "id": 809,
@@ -1383,7 +1383,7 @@
         "A person moves from being single to married"
       ],
       "correct": 1,
-      "linked_concept_id": "ch04_t21"
+      "linked_concept_id": "ch04_t18"
     },
     {
       "id": 810,
@@ -1395,7 +1395,7 @@
         "Secondary socialization through new agents and experiences"
       ],
       "correct": 3,
-      "linked_concept_id": "ch04_t01"
+      "linked_concept_id": "ch04_t14"
     },
     {
       "id": 811,
@@ -1419,7 +1419,7 @@
         "Agents of the hidden curriculum"
       ],
       "correct": 1,
-      "linked_concept_id": "ch04_t16"
+      "linked_concept_id": "ch04_t13"
     },
     {
       "id": 981,

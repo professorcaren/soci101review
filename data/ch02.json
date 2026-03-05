@@ -101,7 +101,6 @@
         662,
         663,
         689,
-        697,
         698,
         711,
         712,
@@ -650,7 +649,7 @@
         "Social Network Analysis"
       ],
       "correct": 1,
-      "linked_concept_id": "ch02_t04"
+      "linked_concept_id": "ch02_t28"
     },
     {
       "id": 662,
@@ -686,7 +685,7 @@
         "Representativeness"
       ],
       "correct": 2,
-      "linked_concept_id": "ch02_t09"
+      "linked_concept_id": "ch02_t10"
     },
     {
       "id": 665,
@@ -698,11 +697,11 @@
         "Social Network Analysis"
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t12"
+      "linked_concept_id": "ch02_t28"
     },
     {
       "id": 666,
-      "question": "While conducting participant observation research in a gang, Dr. Johnson keeps a journal critically examining how his identity as a middle-class academic shapes his interpretations of gang members' behavior and what questions he chooses to ask. This practice reflects which methodological concept?",
+      "question": "While conducting participant observation research in a gang, Dr. Johnson realizes that his presence as a middle-class academic may be influencing how gang members behave and what they tell him. This concern reflects which methodological concept?",
       "choices": [
         "Hawthorne Effect",
         "Research Ethics",
@@ -710,7 +709,7 @@
         "Reactivity"
       ],
       "correct": 2,
-      "linked_concept_id": "ch02_t14"
+      "linked_concept_id": "ch02_t13"
     },
     {
       "id": 667,
@@ -722,7 +721,7 @@
         "Double-barreled Questions"
       ],
       "correct": 2,
-      "linked_concept_id": "ch02_t16"
+      "linked_concept_id": "ch02_t17"
     },
     {
       "id": 668,
@@ -746,7 +745,7 @@
         "Scientific Method"
       ],
       "correct": 1,
-      "linked_concept_id": "ch02_t18"
+      "linked_concept_id": "ch02_t03"
     },
     {
       "id": 670,
@@ -786,7 +785,7 @@
     },
     {
       "id": 673,
-      "question": "A researcher notices that students in a classroom study begin answering survey questions more carefully after learning that a professor is observing the session. This change in behavior because participants know they are being watched illustrates:",
+      "question": "Participants in a workplace productivity study began working harder simply because they knew researchers were observing them, regardless of what changes were made to their work environment. This phenomenon illustrates:",
       "choices": [
         "Research Ethics",
         "Reactivity",
@@ -794,11 +793,11 @@
         "Scientific Method"
       ],
       "correct": 1,
-      "linked_concept_id": "ch02_t30"
+      "linked_concept_id": "ch02_t03"
     },
     {
       "id": 674,
-      "question": "In the classic Western Electric studies, factory workers increased their productivity whenever any change was made to their working conditions \u2014 whether lighting was increased or decreased, or even when conditions were returned to their original state. This specific historical finding is known as:",
+      "question": "Factory workers increased their productivity whenever any change was made to their working conditions, including when conditions were returned to their original state. This occurred because the workers were responding to being observed rather than to the actual changes. This scenario demonstrates:",
       "choices": [
         "Hawthorne Effect",
         "Reactivity",
@@ -806,7 +805,7 @@
         "Independent Variable"
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t31"
+      "linked_concept_id": "ch02_t26"
     },
     {
       "id": 675,
@@ -818,7 +817,7 @@
         "Representativeness"
       ],
       "correct": 1,
-      "linked_concept_id": "ch02_t32"
+      "linked_concept_id": "ch02_t20"
     },
     {
       "id": 676,
@@ -830,7 +829,7 @@
         "Experimental Methods"
       ],
       "correct": 2,
-      "linked_concept_id": "ch02_t33"
+      "linked_concept_id": "ch02_t28"
     },
     {
       "id": 677,
@@ -842,7 +841,7 @@
         "Content analysis"
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t02"
+      "linked_concept_id": "ch02_t01"
     },
     {
       "id": 678,
@@ -906,11 +905,11 @@
     },
     {
       "id": 683,
-      "question": "Researchers observe a correlation between ice cream sales and drowning rates. Which statement best explains this correlation?",
+      "question": "Researchers observe a correlation between the number of firefighters sent to a fire and the amount of damage caused by the fire. Which statement best explains this correlation?",
       "choices": [
-        "Spurious correlation; warm weather influences both ice cream sales and swimming activity.",
-        "Eating ice cream causes people to be more reckless while swimming.",
-        "Drowning incidents cause people to buy comfort foods like ice cream.",
+        "Spurious correlation; fire size influences both firefighters and damage.",
+        "Sending more firefighters causes more damage to the property.",
+        "Greater damage necessitates more firefighters; direct causal link.",
         "The observed correlation is likely due to random chance alone."
       ],
       "correct": 0,
@@ -938,7 +937,7 @@
         "A result of researcher bias, favoring students with larger shoe sizes."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t11"
+      "linked_concept_id": "ch02_t08"
     },
     {
       "id": 686,
@@ -962,7 +961,7 @@
         "Better suited for studying large-scale social structures."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t12"
+      "linked_concept_id": "ch02_t23"
     },
     {
       "id": 688,
@@ -974,7 +973,7 @@
         "Analyzing crime statistics related to motorcycle gangs."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t12"
+      "linked_concept_id": "ch02_t13"
     },
     {
       "id": 689,
@@ -986,19 +985,19 @@
         "The historical evolution of social institutions."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t12"
+      "linked_concept_id": "ch02_t22"
     },
     {
       "id": 690,
-      "question": "Which of the following is NOT a characteristic of ethnographic research?",
+      "question": "A potential limitation of ethnographic research is:",
       "choices": [
         "Researcher bias and the difficulty of maintaining objectivity.",
         "The limited generalizability of findings to larger populations.",
         "The inability to gather in-depth information about a specific group.",
         "The reliance on statistical analysis and quantitative data."
       ],
-      "correct": 3,
-      "linked_concept_id": "ch02_t12"
+      "correct": 0,
+      "linked_concept_id": "ch02_t29"
     },
     {
       "id": 691,
@@ -1022,7 +1021,7 @@
         "The survey instrument is visually appealing and engaging."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t33"
+      "linked_concept_id": "ch02_t23"
     },
     {
       "id": 693,
@@ -1034,7 +1033,7 @@
         "Determine the appropriate sample size for the study."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t33"
+      "linked_concept_id": "ch02_t22"
     },
     {
       "id": 694,
@@ -1046,7 +1045,7 @@
         "The ability to conduct in-depth interviews and follow-up questions."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t33"
+      "linked_concept_id": "ch02_t15"
     },
     {
       "id": 695,
@@ -1058,7 +1057,7 @@
         "A negative correlation, suggesting that as unemployment decreases, crime increases."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t08"
+      "linked_concept_id": "ch02_t11"
     },
     {
       "id": 696,
@@ -1076,12 +1075,12 @@
       "id": 697,
       "question": "Which of the following statements about correlation and causation is TRUE?",
       "choices": [
-        "Correlation always implies causation.",
-        "Correlation and causation are interchangeable terms.",
+        "Correlation implies causation.",
+        "Causation implies correlation.",
         "Correlation does not necessarily imply causation.",
-        "If two variables are correlated, one must be causing the other."
+        "Correlation and causation are interchangeable terms."
       ],
-      "correct": 2,
+      "correct": 1,
       "linked_concept_id": "ch02_t08"
     },
     {
@@ -1094,7 +1093,7 @@
         "That a third variable is influencing both variables."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t09"
+      "linked_concept_id": "ch02_t08"
     },
     {
       "id": 699,
@@ -1142,7 +1141,7 @@
         "They allow researchers to generalize their findings to the entire population."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t07"
+      "linked_concept_id": "ch02_t22"
     },
     {
       "id": 703,
@@ -1184,13 +1183,13 @@
       "id": 706,
       "question": "Which of the following is NOT a potential limitation of using historical job postings to study social change?",
       "choices": [
-        "Job postings perfectly capture actual hiring outcomes and workplace discrimination.",
+        "Job postings provide direct evidence of actual hiring practices and discrimination.",
         "Job postings reflect the idealized image that employers want to project.",
         "Job postings may not capture the full range of employment opportunities available.",
         "The language used in job postings can be influenced by social and cultural norms."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t24"
+      "linked_concept_id": null
     },
     {
       "id": 707,
@@ -1206,7 +1205,7 @@
     },
     {
       "id": 708,
-      "question": "A study aims to understand the experiences of female entrepreneurs in the tech industry. Researchers conduct interviews with 50 women who founded tech startups across the United States. What is the target population?",
+      "question": "A study aims to understand the experiences of female entrepreneurs in the tech industry. Researchers conduct interviews with 50 women who founded tech startups in Silicon Valley. What is the target population?",
       "choices": [
         "All female entrepreneurs in the tech industry.",
         "All entrepreneurs in the tech industry.",
@@ -1214,7 +1213,7 @@
         "The 50 women interviewed in the study."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t22"
+      "linked_concept_id": "ch02_t15"
     },
     {
       "id": 709,
@@ -1250,7 +1249,7 @@
         "Develop and refine social theories based on existing literature."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t12"
+      "linked_concept_id": "ch02_t06"
     },
     {
       "id": 712,
@@ -1262,7 +1261,7 @@
         "Focus on historical analysis of social documents."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t12"
+      "linked_concept_id": "ch02_t06"
     },
     {
       "id": 713,
@@ -1274,7 +1273,7 @@
         "Analyzing existing datasets from government or organizational sources."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t12"
+      "linked_concept_id": "ch02_t13"
     },
     {
       "id": 714,
@@ -1298,7 +1297,7 @@
         "What percentage of the population supports a particular political candidate?"
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t12"
+      "linked_concept_id": "ch02_t22"
     },
     {
       "id": 716,
@@ -1319,10 +1318,10 @@
         "Surveys allow collection from larger, more representative samples.",
         "Surveys provide more nuanced and detailed individual information.",
         "Surveys eliminate the potential for researcher bias completely.",
-        "Surveys always produce more accurate data than interviews."
+        "Surveys are less time-consuming and expensive to conduct."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t33"
+      "linked_concept_id": "ch02_t15"
     },
     {
       "id": 718,
@@ -1346,7 +1345,7 @@
         "Using leading questions to elicit desired responses."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t32"
+      "linked_concept_id": "ch02_t23"
     },
     {
       "id": 720,
@@ -1358,7 +1357,7 @@
         "Content analysis"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch02_t24"
     },
     {
       "id": 721,
@@ -1370,7 +1369,7 @@
         "The objectivity of the researcher."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch02_t29"
     },
     {
       "id": 722,
@@ -1382,7 +1381,7 @@
         "The researcher's personal biases do not influence the results."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch02_t22"
     },
     {
       "id": 723,
@@ -1394,7 +1393,7 @@
         "Objectivity."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch02_t29"
     },
     {
       "id": 724,
@@ -1430,7 +1429,7 @@
         "Dependent variables"
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t10"
+      "linked_concept_id": "ch02_t06"
     },
     {
       "id": 727,
@@ -1442,7 +1441,7 @@
         "A spurious correlation"
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t11"
+      "linked_concept_id": "ch02_t10"
     },
     {
       "id": 728,
@@ -1573,7 +1572,7 @@
         "It is specific.",
         "It proposes a relationship between variables."
       ],
-      "correct": 1,
+      "correct": 0,
       "linked_concept_id": "ch02_t05"
     },
     {
@@ -1602,7 +1601,7 @@
     },
     {
       "id": 741,
-      "question": "A researcher wants to study how political polarization is reflected in the language used on social media by systematically analyzing thousands of existing posts and comments. Which research method would be MOST appropriate?",
+      "question": "A researcher wants to study the impact of social media on political polarization. Which research method would be MOST appropriate?",
       "choices": [
         "Content analysis of social media posts and online discussions.",
         "In-depth interviews with political activists.",
@@ -1622,7 +1621,7 @@
         "An experiment testing the effectiveness of different interventions for homelessness."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t12"
+      "linked_concept_id": "ch02_t24"
     },
     {
       "id": 743,
@@ -1634,7 +1633,7 @@
         "An experiment manipulating exposure to information about same-sex marriage."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t33"
+      "linked_concept_id": "ch02_t15"
     },
     {
       "id": 744,
@@ -1646,7 +1645,7 @@
         "A controlled experiment manipulating poverty levels."
       ],
       "correct": 0,
-      "linked_concept_id": "ch02_t01"
+      "linked_concept_id": "ch02_t15"
     },
     {
       "id": 745,

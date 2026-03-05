@@ -22,8 +22,8 @@
       "term": "education",
       "definition": "The process by which a society transmits its knowledge, values, and expectations to its members so they can function effectively",
       "level3_question_ids": [
-        489,
-        1238
+        479,
+        489
       ],
       "confusable_ids": [
         "ch11_t11",
@@ -36,8 +36,7 @@
       "term": "credentialism",
       "definition": "The emphasis placed on degrees and certificates as determinants of social status and readiness for the job market, leading to credential inflation",
       "level3_question_ids": [
-        1007,
-        1238
+        1007
       ],
       "confusable_ids": [
         "ch11_t11",
@@ -51,8 +50,7 @@
       "term": "tracking",
       "definition": "The placement of students in educational 'tracks' or programs of study (e.g., college prep, remedial) that determine the types of classes they take",
       "level3_question_ids": [
-        1008,
-        1238
+        1008
       ],
       "confusable_ids": [
         "ch11_t05"
@@ -63,8 +61,7 @@
       "term": "hidden curriculum",
       "definition": "Values or behaviors that students learn indirectly over the course of their schooling, often reinforcing social norms and power structures",
       "level3_question_ids": [
-        1009,
-        1238
+        1009
       ],
       "confusable_ids": [
         "ch11_t15",
@@ -113,7 +110,6 @@
         470,
         471,
         474,
-        479,
         487,
         496,
         514,
@@ -324,7 +320,7 @@
         "The elements of worship that are accessible to all members rather than only clergy"
       ],
       "correct": 0,
-      "linked_concept_id": "ch11_t08"
+      "linked_concept_id": "ch11_t06"
     },
     {
       "id": 473,
@@ -396,16 +392,16 @@
         "Whether religious knowledge is based on scripture study versus oral traditions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch11_t09"
+      "linked_concept_id": "ch11_t10"
     },
     {
       "id": 479,
-      "question": "Which of the following best illustrates extrinsic religiosity?",
+      "question": "According to sociological research, which demographic group in America shows the highest levels of extrinsic religiosity?",
       "choices": [
-        "A person who attends church every Sunday primarily because it helps them network with business contacts",
-        "A person who prays daily in private as part of their deep spiritual practice",
-        "A person who feels a profound personal connection to God during meditation",
-        "A person who reads sacred texts to deepen their understanding of divine purpose"
+        "Older adults who regularly attend traditional religious services",
+        "Middle-aged adults who participate in multiple religious communities simultaneously",
+        "Young parents who attend religious services primarily for their children's moral education",
+        "Recent converts who actively participate in evangelism and outreach activities"
       ],
       "correct": 0,
       "linked_concept_id": "ch11_t10"
@@ -504,7 +500,7 @@
         "Religious rituals exclusively occur in designated sacred spaces while secular routines happen anywhere"
       ],
       "correct": 0,
-      "linked_concept_id": "ch11_t15"
+      "linked_concept_id": "ch11_t07"
     },
     {
       "id": 488,
@@ -570,13 +566,13 @@
       "id": 493,
       "question": "Which demographic group is most likely to identify as \"spiritual but not religious\" in the United States?",
       "choices": [
-        "Young, white adults living in western and northeastern states",
+        "Young, white, male residents of western and northeastern states",
         "Middle-aged professionals with advanced degrees living in urban areas",
         "Young women attending liberal arts colleges in progressive communities",
         "Ethnically diverse millennials raised in interfaith or mixed-religion households"
       ],
       "correct": 0,
-      "linked_concept_id": "ch11_t14"
+      "linked_concept_id": "ch11_t06"
     },
     {
       "id": 494,
@@ -997,30 +993,6 @@
       ],
       "correct": 3,
       "linked_concept_id": "ch11_t14"
-    },
-    {
-      "id": 1237,
-      "question": "Conflict theorist Randall Collins compared the American educational system to a 'tribal initiation rite,' suggesting that credentials function primarily as:",
-      "choices": [
-        "Tools for transmitting practical knowledge needed in the workforce",
-        "Mechanisms for reproducing the existing class structure by gatekeeping access to elite positions",
-        "Fair measures of individual merit and intellectual achievement",
-        "Ways to socialize students into democratic values"
-      ],
-      "correct": 1,
-      "linked_concept_id": "ch11_t03"
-    },
-    {
-      "id": 1238,
-      "question": "A student from a wealthy family attends an elite university and networks with other privileged students, while an equally talented student from a working-class background attends community college. Both earn degrees, but the elite graduate lands a higher-paying job through alumni connections. Collins would argue this illustrates:",
-      "choices": [
-        "The hidden curriculum teaching different values to different social classes",
-        "Tracking systems sorting students by academic ability",
-        "Credentialism functioning as a mechanism for class reproduction rather than merit-based sorting",
-        "Education successfully providing equal opportunity through formal qualifications"
-      ],
-      "correct": 2,
-      "linked_concept_id": "ch11_t03"
     }
   ]
 }

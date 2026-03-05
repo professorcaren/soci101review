@@ -10,8 +10,7 @@
       "level3_question_ids": [
         759,
         767,
-        993,
-        1232
+        993
       ],
       "confusable_ids": [
         "ch08_t15",
@@ -41,7 +40,7 @@
         994,
         995,
         1001,
-        1230
+        1498
       ],
       "confusable_ids": [
         "ch08_t03",
@@ -67,7 +66,8 @@
         991,
         994,
         995,
-        1001
+        1001,
+        1499
       ],
       "confusable_ids": [
         "ch08_t04",
@@ -88,7 +88,9 @@
         782,
         987,
         988,
-        992
+        992,
+        1230,
+        1497
       ],
       "confusable_ids": [
         "ch08_t03",
@@ -136,7 +138,12 @@
         990,
         993,
         996,
-        1002
+        1002,
+        1231,
+        1232,
+        1494,
+        1495,
+        1496
       ],
       "confusable_ids": [
         "ch08_t22",
@@ -193,9 +200,7 @@
         990,
         992,
         995,
-        1002,
-        1230,
-        1231
+        1002
       ],
       "confusable_ids": [
         "ch08_t11",
@@ -226,7 +231,8 @@
         769,
         779,
         989,
-        990
+        990,
+        995
       ],
       "confusable_ids": [
         "ch08_t11",
@@ -246,7 +252,6 @@
         989,
         990,
         992,
-        995,
         1002
       ],
       "confusable_ids": [
@@ -412,8 +417,7 @@
         998,
         999,
         1000,
-        1001,
-        1232
+        1001
       ],
       "confusable_ids": [
         "ch08_t21",
@@ -598,12 +602,12 @@
       "question": "How is racism different from prejudice?",
       "choices": [
         "Racism involves beliefs about racial superiority, while prejudice involves generalized attitudes about any group",
-        "Racism is only found in democratic societies, while prejudice is universal",
+        "Racism is specifically about racial groups, while prejudice can be positive or negative judgments about any group",
         "Racism is primarily a system of oppression, while prejudice is primarily individual attitudes",
         "Racism is always acted upon through discrimination, while prejudice remains at the level of thought"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t06"
+      "linked_concept_id": "ch08_t08"
     },
     {
       "id": 756,
@@ -639,7 +643,7 @@
         "Individual racism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t08"
+      "linked_concept_id": "ch08_t16"
     },
     {
       "id": 759,
@@ -711,7 +715,7 @@
         "Racism primarily involves biological or cultural arguments for group differences, while prejudice primarily involves stereotypes about group behavior."
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t06"
+      "linked_concept_id": "ch08_t07"
     },
     {
       "id": 765,
@@ -854,7 +858,7 @@
         "A professional who emphasizes their ethnic background when applying for a diversity scholarship but minimizes it in job interviews",
         "A second-generation immigrant who legally changes their name to better reflect their cultural heritage"
       ],
-      "correct": 2,
+      "correct": 0,
       "linked_concept_id": "ch08_t04"
     },
     {
@@ -867,7 +871,7 @@
         "Symbolic ethnicity represents authentic cultural practices, while situational ethnicity involves strategic adaptation to avoid discrimination"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t03"
+      "linked_concept_id": "ch08_t04"
     },
     {
       "id": 778,
@@ -879,7 +883,7 @@
         "Because symbolic ethnicity represents the final stage in the process of cultural assimilation"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t03"
+      "linked_concept_id": "ch08_t22"
     },
     {
       "id": 779,
@@ -891,7 +895,7 @@
         "It only affects public institutions while individual discrimination affects private interactions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t11"
+      "linked_concept_id": "ch08_t10"
     },
     {
       "id": 780,
@@ -903,7 +907,7 @@
         "Double Consciousness"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t21"
+      "linked_concept_id": "ch08_t22"
     },
     {
       "id": 781,
@@ -951,7 +955,7 @@
         "Racial passing"
       ],
       "correct": 1,
-      "linked_concept_id": "ch08_t03"
+      "linked_concept_id": "ch08_t04"
     },
     {
       "id": 988,
@@ -963,7 +967,7 @@
         "White privilege"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t04"
+      "linked_concept_id": "ch08_t17"
     },
     {
       "id": 989,
@@ -975,7 +979,7 @@
         "Color-blind racism"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t09"
+      "linked_concept_id": "ch08_t11"
     },
     {
       "id": 990,
@@ -999,7 +1003,7 @@
         "Symbolic ethnicity"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t12"
+      "linked_concept_id": "ch08_t22"
     },
     {
       "id": 992,
@@ -1011,18 +1015,18 @@
         "Situational ethnicity"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t13"
+      "linked_concept_id": "ch08_t11"
     },
     {
       "id": 993,
-      "question": "Marcus, a sociology professor, argues that claiming \"I don't see color\" actually perpetuates racial inequality because it ignores the ongoing impact of race in society. The ideology he is critiquing is known as:",
+      "question": "Marcus, a sociology professor, argues that claiming \"I don't see color\" actually perpetuates racial inequality because it ignores the ongoing impact of race in society. His perspective reflects:",
       "choices": [
-        "Color-blind racism",
-        "Race consciousness",
         "White nationalism",
+        "Race consciousness",
+        "Color-blind racism",
         "Reverse racism"
       ],
-      "correct": 0,
+      "correct": 1,
       "linked_concept_id": "ch08_t14"
     },
     {
@@ -1041,13 +1045,13 @@
       "id": 995,
       "question": "A study finds that job applicants with \"white-sounding\" names receive significantly more callbacks than those with identical qualifications but \"Black-sounding\" names. This research demonstrates:",
       "choices": [
-        "Institutional discrimination",
+        "Individual discrimination",
         "Symbolic ethnicity",
         "White nationalism",
         "Pluralism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t11"
+      "linked_concept_id": "ch08_t10"
     },
     {
       "id": 996,
@@ -1059,7 +1063,7 @@
         "Color-blind racism"
       ],
       "correct": 1,
-      "linked_concept_id": "ch08_t16"
+      "linked_concept_id": "ch08_t17"
     },
     {
       "id": 997,
@@ -1071,7 +1075,7 @@
         "Population transfer"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t19"
+      "linked_concept_id": "ch08_t22"
     },
     {
       "id": 998,
@@ -1095,7 +1099,7 @@
         "Population transfer"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t23"
+      "linked_concept_id": "ch08_t22"
     },
     {
       "id": 1000,
@@ -1107,7 +1111,7 @@
         "Pluralism"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch08_t22"
     },
     {
       "id": 1001,
@@ -1131,43 +1135,79 @@
         "Implicit bias"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t18"
+      "linked_concept_id": "ch08_t11"
     },
     {
-      "id": 1230,
-      "question": "Maria, a second-generation Mexican American, proudly celebrates D\u00eda de los Muertos with her family but feels pressure at work to downplay her heritage to fit in with colleagues. This tension best illustrates which sociological insight about ethnic identity?",
+      "id": 1494,
+      "question": "A sociologist notes that after slavery was abolished, new systems like sharecropping and Jim Crow laws emerged that continued to benefit white landowners economically. A conflict theorist would argue this pattern demonstrates that:",
       "choices": [
-        "Ethnic identity is entirely a matter of individual choice and personal preference",
-        "Structural constraints completely determine how individuals express their ethnicity",
-        "While individuals can make choices about expressing ethnicity, these choices occur within broader structural and historical constraints",
-        "Ethnic identity only becomes relevant in situations involving discrimination"
-      ],
-      "correct": 2,
-      "linked_concept_id": "ch08_t02"
-    },
-    {
-      "id": 1231,
-      "question": "From a conflict theory perspective, why does racial inequality persist in modern societies even after legal reforms have outlawed discrimination?",
-      "choices": [
-        "Because cultural attitudes lag behind institutional changes",
-        "Because psychological biases are resistant to structural improvements",
-        "Because racial stratification serves the economic interests of dominant groups who benefit from maintaining systems of inequality",
-        "Because meritocratic systems unintentionally produce unequal outcomes"
-      ],
-      "correct": 2,
-      "linked_concept_id": "ch08_t06"
-    },
-    {
-      "id": 1232,
-      "question": "A conflict theorist studying race would argue that immigration restrictions historically targeted certain racial groups primarily because:",
-      "choices": [
-        "Cultural differences made assimilation genuinely difficult",
-        "Dominant groups used racial categories to protect their economic privileges and labor market advantages",
-        "Immigrant communities preferred to maintain separation from the dominant culture",
-        "Individual prejudices of lawmakers reflected widespread public opinion"
+        "Racial prejudice is a psychological trait that persists despite legal changes",
+        "Racial stratification serves the economic interests of dominant groups who create new systems to maintain inequality",
+        "Cultural differences between racial groups naturally lead to social hierarchies",
+        "Legal reforms are always sufficient to eliminate racial inequality"
       ],
       "correct": 1,
       "linked_concept_id": "ch08_t06"
+    },
+    {
+      "id": 1495,
+      "question": "From a conflict theory perspective, why might racial wage gaps persist even when workers have similar qualifications?",
+      "choices": [
+        "Because workers of different races have inherently different productivity levels",
+        "Because the education system fails to adequately prepare minority students",
+        "Because maintaining racial wage gaps benefits employers and dominant racial groups economically",
+        "Because prejudice is an individual attitude that cannot be addressed through policy"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch08_t06"
+    },
+    {
+      "id": 1496,
+      "question": "A conflict theorist would most likely explain the persistence of residential segregation by arguing that:",
+      "choices": [
+        "People naturally prefer to live near others who share their cultural background",
+        "Housing discrimination persists because it protects property values for dominant groups and maintains economic advantages",
+        "Government policies have successfully eliminated all forms of housing discrimination",
+        "Residential patterns reflect individual choices unrelated to racial power dynamics"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch08_t06"
+    },
+    {
+      "id": 1497,
+      "question": "A Korean American college student emphasizes her Korean heritage when applying for a diversity scholarship but downplays it at a job interview where she fears it might lead to discrimination. This example best illustrates:",
+      "choices": [
+        "That ethnic identity is entirely determined by structural forces beyond individual control",
+        "That individuals make strategic choices about ethnic expression, but these choices are shaped by structural realities like discrimination and opportunity",
+        "That ethnic identity is purely a matter of personal preference with no structural influences",
+        "That situational ethnicity only applies to immigrant populations"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch08_t04"
+    },
+    {
+      "id": 1498,
+      "question": "Research shows that multiracial individuals often identify differently on census forms than in everyday social interactions, and that these choices are influenced by how others perceive them and by social norms about race. This finding supports which sociological claim?",
+      "choices": [
+        "Racial identity is fixed at birth and cannot change across contexts",
+        "Individual choices about racial and ethnic identity are always made within structural and historical constraints",
+        "People have complete freedom to choose any racial identity regardless of social context",
+        "Ethnic identity is only meaningful in formal institutional settings"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch08_t02"
+    },
+    {
+      "id": 1499,
+      "question": "An Irish American man proudly wears green on St. Patrick's Day but faces no social consequences for his ethnicity in daily life, while his Latinx coworker must constantly navigate assumptions about her immigration status regardless of her choices. This contrast best demonstrates that:",
+      "choices": [
+        "Ethnic identity is equally optional for all groups in American society",
+        "Individual agency in expressing ethnicity is constrained differently depending on one's position in racial hierarchies",
+        "Symbolic ethnicity is available to all ethnic groups equally",
+        "Structural constraints on ethnic expression have been eliminated in modern society"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch08_t03"
     }
   ]
 }

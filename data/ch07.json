@@ -101,7 +101,6 @@
         550,
         553,
         1023,
-        1025,
         1027,
         1054,
         1061,
@@ -320,7 +319,6 @@
       "term": "Social Reproduction",
       "definition": "The transmission of social and economic inequalities from one generation to the next",
       "level3_question_ids": [
-        552,
         1003,
         1033
       ],
@@ -653,7 +651,8 @@
       "definition": "The practice of selecting a mate with social characteristics different from one's own, such as different class or racial backgrounds.",
       "level3_question_ids": [
         550,
-        551
+        551,
+        552
       ],
       "confusable_ids": [
         "ch07_t15",
@@ -697,7 +696,7 @@
         "A caste system based on Hindu beliefs"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t04"
+      "linked_concept_id": "ch07_t10"
     },
     {
       "id": 525,
@@ -721,7 +720,7 @@
         "Cultural capital acquisition"
       ],
       "correct": 1,
-      "linked_concept_id": "ch07_t04"
+      "linked_concept_id": "ch07_t25"
     },
     {
       "id": 527,
@@ -757,7 +756,7 @@
         "Intersectionality of social identities"
       ],
       "correct": 3,
-      "linked_concept_id": "ch07_t07"
+      "linked_concept_id": "ch07_t08"
     },
     {
       "id": 530,
@@ -769,7 +768,7 @@
         "Cultural capital differences"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t07"
+      "linked_concept_id": "ch07_t25"
     },
     {
       "id": 531,
@@ -781,7 +780,7 @@
         "Horizontal mobility analysis"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t07"
+      "linked_concept_id": "ch07_t08"
     },
     {
       "id": 532,
@@ -821,7 +820,7 @@
     },
     {
       "id": 535,
-      "question": "A historian studying medieval Europe finds that nobles owned large estates worked by peasants who were bound to the land and could not leave without permission. The peasants provided labor, rent, and a share of crops in exchange for protection. This system represents which concept?",
+      "question": "A historian studying medieval Europe finds that nobles owned large estates worked by peasants who were bound to the land and could not leave without permission. The peasants provided military service and crops in exchange for protection. This system represents which concept?",
       "choices": [
         "Apartheid racial segregation",
         "The U.S. Social Class Ladder",
@@ -829,7 +828,7 @@
         "Modern socioeconomic status"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t10"
+      "linked_concept_id": "ch07_t08"
     },
     {
       "id": 536,
@@ -841,7 +840,7 @@
         "Apartheid legal structures"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t10"
+      "linked_concept_id": "ch07_t06"
     },
     {
       "id": 537,
@@ -853,7 +852,7 @@
         "Intersectionality in historical context"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t10"
+      "linked_concept_id": "ch07_t08"
     },
     {
       "id": 538,
@@ -865,7 +864,7 @@
         "The U.S. Social Class Ladder structure"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t15"
+      "linked_concept_id": "ch07_t08"
     },
     {
       "id": 539,
@@ -877,7 +876,7 @@
         "Residential segregation effects"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t15"
+      "linked_concept_id": "ch07_t06"
     },
     {
       "id": 540,
@@ -889,7 +888,7 @@
         "Absolute deprivation effects"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t15"
+      "linked_concept_id": "ch07_t08"
     },
     {
       "id": 541,
@@ -901,7 +900,7 @@
         "Intersectionality of economic factors"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t24"
+      "linked_concept_id": "ch07_t23"
     },
     {
       "id": 542,
@@ -913,7 +912,7 @@
         "Socioeconomic status categories"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t24"
+      "linked_concept_id": "ch07_t06"
     },
     {
       "id": 543,
@@ -925,7 +924,7 @@
         "Class consciousness measurement"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t24"
+      "linked_concept_id": "ch07_t23"
     },
     {
       "id": 544,
@@ -937,7 +936,7 @@
         "The federal poverty line threshold"
       ],
       "correct": 3,
-      "linked_concept_id": "ch07_t25"
+      "linked_concept_id": "ch07_t06"
     },
     {
       "id": 545,
@@ -949,7 +948,7 @@
         "Class consciousness effects"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t25"
+      "linked_concept_id": "ch07_t24"
     },
     {
       "id": 546,
@@ -961,7 +960,7 @@
         "The U.S. Social Class Ladder boundaries"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t25"
+      "linked_concept_id": "ch07_t08"
     },
     {
       "id": 547,
@@ -997,7 +996,7 @@
         "Absolute deprivation effects"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t27"
+      "linked_concept_id": "ch07_t08"
     },
     {
       "id": 550,
@@ -1009,7 +1008,7 @@
         "Heterogamy across social boundaries"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t28"
+      "linked_concept_id": "ch07_t15"
     },
     {
       "id": 551,
@@ -1021,19 +1020,19 @@
         "Class consciousness in relationships"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t29"
+      "linked_concept_id": "ch07_t27"
     },
     {
       "id": 552,
       "question": "Research shows that dating apps and social activities tend to connect people with similar educational and income backgrounds, despite offering the potential to meet people from different social classes. This demonstrates which concept?",
       "choices": [
-        "Social reproduction through dating",
+        "Heterogamy being limited by social structures",
         "Intersectionality in relationship formation",
         "Homogamy patterns",
         "Class consciousness in dating"
       ],
-      "correct": 2,
-      "linked_concept_id": "ch07_t28"
+      "correct": 0,
+      "linked_concept_id": "ch07_t15"
     },
     {
       "id": 553,
@@ -1045,7 +1044,7 @@
         "The U.S. Social Class Ladder climbing"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t30"
+      "linked_concept_id": "ch07_t08"
     },
     {
       "id": 554,
@@ -1057,7 +1056,7 @@
         "Intersectionality in career choices"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t30"
+      "linked_concept_id": "ch07_t25"
     },
     {
       "id": 555,
@@ -1069,7 +1068,7 @@
         "Class consciousness in career decisions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t30"
+      "linked_concept_id": "ch07_t15"
     },
     {
       "id": 1003,
@@ -1081,7 +1080,7 @@
         "Cultural assimilation - how groups adopt dominant cultural practices"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t14"
+      "linked_concept_id": "ch07_t06"
     },
     {
       "id": 1004,
@@ -1093,7 +1092,31 @@
         "It dictates which courses she is legally allowed to enroll in"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t13"
+      "linked_concept_id": "ch07_t06"
+    },
+    {
+      "id": 1005,
+      "question": "When Dr. Johnson teaches her university classes, she maintains professional distance and speaks formally, but when hanging out with graduate students at a coffee shop, she uses casual language and shares personal stories. This shift in behavior best demonstrates the concept of Frontstage/Backstage because:",
+      "choices": [
+        "She performs different versions of her professional identity depending on her audience and setting",
+        "She has multiple personality disorders that cause inconsistent behavior patterns",
+        "She follows university policies that require different communication styles in different locations",
+        "She lacks authenticity and is being deliberately deceptive about her true personality"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 1006,
+      "question": "A restaurant server smiles warmly and appears enthusiastic while taking orders (Frontstage), but complains about difficult customers and expresses frustration while in the kitchen (Backstage). This example illustrates how:",
+      "choices": [
+        "Social roles require different performances depending on who is observing our behavior",
+        "Workers in service industries are typically dishonest about their true feelings",
+        "Emotional labor always leads to psychological stress and burnout",
+        "Professional training fails to prepare employees for real workplace challenges"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
     },
     {
       "id": 1014,
@@ -1105,7 +1128,7 @@
         "Relative poverty measure"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t24"
+      "linked_concept_id": "ch07_t11"
     },
     {
       "id": 1015,
@@ -1117,7 +1140,7 @@
         "A person who cannot afford essential medication for a chronic illness in any economic context"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t23"
+      "linked_concept_id": "ch07_t11"
     },
     {
       "id": 1016,
@@ -1196,8 +1219,8 @@
       "question": "What sociological term refers to the tendency to marry or form relationships with someone from a similar social background?",
       "choices": [
         "Homogamy",
-        "Exogamy",
-        "Hypergamy",
+        "Homophily",
+        "Assortative mating",
         "Social endogamy"
       ],
       "correct": 0,
@@ -1213,7 +1236,7 @@
         "A deeply religious individual marrying someone who does not share their faith"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t28"
+      "linked_concept_id": "ch07_t05"
     },
     {
       "id": 1024,
@@ -1229,12 +1252,12 @@
     },
     {
       "id": 1025,
-      "question": "Clyde and Tiana, both from middle-class backgrounds, married after meeting in college. This pattern of choosing a partner from a similar social background is called homogamy. What is a common reason sociologists give for this tendency?",
+      "question": "Clyde and Tiana, both from middle-class backgrounds, married after college, exemplifying homogamy, the tendency to select partners with similar characteristics. What is a common reason for this tendency?",
       "choices": [
-        "People tend to have more access to and interaction with others from similar social backgrounds.",
-        "Government policies require people to marry within their social class.",
-        "Biological factors drive people to seek genetically similar partners.",
-        "Religious institutions mandate same-class marriages in most societies."
+        "We tend to have more access to people like ourselves.",
+        "Similar social backgrounds create mutual understanding and shared values.",
+        "Family approval is typically higher for partners from similar backgrounds.",
+        "Social institutions like education and work naturally sort people by similarity."
       ],
       "correct": 0,
       "linked_concept_id": "ch07_t28"
@@ -1249,7 +1272,7 @@
         "Greater political polarization as family units become more ideologically uniform"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t28"
+      "linked_concept_id": "ch07_t16"
     },
     {
       "id": 1027,
@@ -1261,7 +1284,7 @@
         "Taylor and Jordan, who were raised in the same neighborhood but differ in religious beliefs and family structures"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t28"
+      "linked_concept_id": "ch07_t05"
     },
     {
       "id": 1028,
@@ -1279,7 +1302,7 @@
       "id": 1029,
       "question": "Which of the following is the best example of status inconsistency?",
       "choices": [
-        "A highly educated immigrant with an advanced degree working as a taxi driver due to non-recognition of foreign credentials",
+        "A highly educated immigrant with an advanced degree working as a taxi driver due",
         "A CEO of a major corporation who lives in an expensive home and belongs to exclusive social clubs",
         "A teacher who earns a modest income and lives in a middle-class neighborhood",
         "A skilled tradesperson who earns a good income and is respected in their working-class community"
@@ -1345,7 +1368,7 @@
         "collective mobility"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t22"
+      "linked_concept_id": "ch07_t19"
     },
     {
       "id": 1035,
@@ -1369,7 +1392,7 @@
         "vertical social mobility"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t30"
+      "linked_concept_id": "ch07_t19"
     },
     {
       "id": 1037,
@@ -1405,7 +1428,7 @@
         "structural mobility"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t20"
+      "linked_concept_id": "ch07_t19"
     },
     {
       "id": 1040,
@@ -1417,7 +1440,7 @@
         "horizontal mobility"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t22"
+      "linked_concept_id": "ch07_t19"
     },
     {
       "id": 1041,
@@ -1429,7 +1452,7 @@
         "A society experiencing upward mobility due to rapid technological advancement"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t30"
+      "linked_concept_id": "ch07_t16"
     },
     {
       "id": 1042,
@@ -1441,7 +1464,7 @@
         "horizontal mobility"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t22"
+      "linked_concept_id": "ch07_t19"
     },
     {
       "id": 1043,
@@ -1453,7 +1476,7 @@
         "cultural reproduction"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t13"
+      "linked_concept_id": "ch07_t01"
     },
     {
       "id": 1044,
@@ -1469,12 +1492,12 @@
     },
     {
       "id": 1045,
-      "question": "According to Bourdieu, non-financial assets such as education, knowledge of art, and refined cultural tastes that help individuals maintain or improve their social position are known as:",
+      "question": "According to Bourdieu, the process by which cultural tastes and preferences serve to maintain class boundaries is known as:",
       "choices": [
-        "Cultural capital",
-        "Socioeconomic determination",
-        "Stratification theory",
-        "Functionalist reproduction"
+        "cultural capital accumulation",
+        "socioeconomic determination",
+        "stratification theory",
+        "functionalist reproduction"
       ],
       "correct": 0,
       "linked_concept_id": "ch07_t13"
@@ -1645,7 +1668,7 @@
         "A workplace where older employees receive preferential treatment"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t05"
+      "linked_concept_id": "ch07_t01"
     },
     {
       "id": 1060,
@@ -1657,7 +1680,7 @@
         "Legal systems that classify citizens according to their birthplace"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t02"
+      "linked_concept_id": "ch07_t06"
     },
     {
       "id": 1061,
@@ -1669,7 +1692,7 @@
         "A categorization method that divides society according to inherited status and family lineage"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t05"
+      "linked_concept_id": "ch07_t13"
     },
     {
       "id": 1062,
@@ -1741,7 +1764,7 @@
         "Status differences motivate individuals to develop specialized skills beneficial to society"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t02"
+      "linked_concept_id": "ch07_t11"
     },
     {
       "id": 1068,
@@ -1777,7 +1800,7 @@
         "A system where social stratification is acknowledged but not rigidly maintained"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t17"
+      "linked_concept_id": "ch07_t01"
     },
     {
       "id": 1071,
@@ -1813,7 +1836,7 @@
         "Feudal estate system with hereditary social positions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t18"
+      "linked_concept_id": "ch07_t16"
     },
     {
       "id": 1074,
@@ -1837,7 +1860,7 @@
         "Feudal system with legally enforced class boundaries"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t18"
+      "linked_concept_id": "ch07_t16"
     }
   ]
 }

@@ -131,16 +131,7 @@
         977,
         978,
         979,
-        980,
-        1221,
-        1222,
-        1223,
-        1224,
-        1225,
-        1226,
-        1227,
-        1228,
-        1229
+        980
       ],
       "confusable_ids": [
         "ch09_t08",
@@ -155,7 +146,6 @@
       "term": "Gender Essentialism",
       "definition": "The view that gender is immutable and biological, with clear binary categories determined by chromosomes, hormones, and genitalia",
       "level3_question_ids": [
-        42,
         926,
         927,
         928,
@@ -186,11 +176,11 @@
         933
       ],
       "confusable_ids": [
-        "ch09_t27",
         "ch09_t05",
         "ch09_t06",
         "ch09_t18",
-        "ch09_t03"
+        "ch09_t03",
+        "ch09_t08"
       ]
     },
     {
@@ -286,6 +276,7 @@
         965,
         966,
         967,
+        968,
         971,
         978,
         980
@@ -381,10 +372,10 @@
       ],
       "confusable_ids": [
         "ch09_t10",
-        "ch09_t27",
         "ch09_t05",
         "ch09_t06",
-        "ch09_t13"
+        "ch09_t13",
+        "ch09_t07"
       ]
     },
     {
@@ -436,8 +427,7 @@
         977,
         978,
         979,
-        980,
-        1223
+        980
       ],
       "confusable_ids": [
         "ch09_t14",
@@ -475,10 +465,10 @@
       ],
       "confusable_ids": [
         "ch09_t23",
-        "ch09_t25",
         "ch09_t09",
         "ch09_t24",
-        "ch09_t14"
+        "ch09_t14",
+        "ch09_t20"
       ]
     },
     {
@@ -495,10 +485,10 @@
       ],
       "confusable_ids": [
         "ch09_t18",
-        "ch09_t27",
-        "ch09_t28",
         "ch09_t11",
-        "ch09_t05"
+        "ch09_t05",
+        "ch09_t06",
+        "ch09_t03"
       ]
     },
     {
@@ -511,10 +501,8 @@
         964
       ],
       "confusable_ids": [
-        "ch09_t27",
         "ch09_t14",
-        "ch09_t02",
-        "ch09_t28"
+        "ch09_t02"
       ]
     },
     {
@@ -524,15 +512,14 @@
       "level3_question_ids": [
         965,
         966,
-        967,
-        1223
+        967
       ],
       "confusable_ids": [
-        "ch09_t28",
-        "ch09_t25",
         "ch09_t14",
         "ch09_t20",
-        "ch09_t26"
+        "ch09_t05",
+        "ch09_t23",
+        "ch09_t06"
       ]
     },
     {
@@ -597,15 +584,12 @@
         977,
         978,
         979,
-        980,
-        1223
+        980
       ],
       "confusable_ids": [
         "ch09_t20",
-        "ch09_t25",
         "ch09_t11",
-        "ch09_t26",
-        "ch09_t28"
+        "ch09_t16"
       ]
     },
     {
@@ -622,10 +606,10 @@
       ],
       "confusable_ids": [
         "ch09_t19",
-        "ch09_t25",
-        "ch09_t26",
-        "ch09_t28",
-        "ch09_t16"
+        "ch09_t16",
+        "ch09_t23",
+        "ch09_t11",
+        "ch09_t13"
       ]
     },
     {
@@ -664,10 +648,9 @@
       ],
       "confusable_ids": [
         "ch09_t13",
-        "ch09_t25",
         "ch09_t24",
         "ch09_t20",
-        "ch09_t26"
+        "ch09_t16"
       ]
     },
     {
@@ -680,71 +663,9 @@
       ],
       "confusable_ids": [
         "ch09_t23",
-        "ch09_t25",
         "ch09_t13",
         "ch09_t20",
-        "ch09_t26"
-      ]
-    },
-    {
-      "id": "ch09_t25",
-      "term": "Gender Stratification",
-      "definition": "The unequal distribution of wealth, power, and privilege between men and women",
-      "level3_question_ids": [
-        1221,
-        1223,
-        1224
-      ],
-      "confusable_ids": [
-        "ch09_t28",
-        "ch09_t02",
-        "ch09_t03",
-        "ch09_t04",
-        "ch09_t05"
-      ]
-    },
-    {
-      "id": "ch09_t26",
-      "term": "Instrumental and Expressive Roles",
-      "definition": "In structural functionalism, instrumental roles are task-oriented roles traditionally assigned to men (breadwinner), while expressive roles are emotion-oriented roles traditionally assigned to women (caregiver)",
-      "level3_question_ids": [
-        1221
-      ],
-      "confusable_ids": [
-        "ch09_t25",
-        "ch09_t20",
-        "ch09_t28",
-        "ch09_t16",
-        "ch09_t23"
-      ]
-    },
-    {
-      "id": "ch09_t27",
-      "term": "Symbolic Interactionism on Gender",
-      "definition": "The perspective that gender is something people 'do' through everyday interactions; gender identities are continually constructed and reinforced through social encounters",
-      "level3_question_ids": [],
-      "confusable_ids": [
-        "ch09_t04",
-        "ch09_t28",
-        "ch09_t14",
-        "ch09_t05",
-        "ch09_t06"
-      ]
-    },
-    {
-      "id": "ch09_t28",
-      "term": "Conflict Theory of Gender",
-      "definition": "The perspective that gender is a system of inequality in which men maintain dominance over women by controlling economic resources and social power",
-      "level3_question_ids": [
-        46,
-        56
-      ],
-      "confusable_ids": [
-        "ch09_t25",
-        "ch09_t16",
-        "ch09_t27",
-        "ch09_t05",
-        "ch09_t04"
+        "ch09_t16"
       ]
     }
   ],
@@ -759,7 +680,7 @@
         "Gender performativity theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t03"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 22,
@@ -771,7 +692,7 @@
         "Noting that gender expressions vary individually while maintaining essential masculine and feminine traits"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t04"
+      "linked_concept_id": "ch09_t06"
     },
     {
       "id": 23,
@@ -783,7 +704,7 @@
         "Gender schema theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t04"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 24,
@@ -807,7 +728,7 @@
         "\"Gender differences exist universally but are expressed through culturally specific behaviors.\""
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t03"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 26,
@@ -819,11 +740,11 @@
         "Social exchange theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t27"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 27,
-      "question": "According to the textbook, which of the following statements best describes the difference between sex and gender?",
+      "question": "Accord to the texbook, which of the following statements best describes the difference between sex and gender?",
       "choices": [
         "Sex refers to biological categories while gender refers to socially defined traits",
         "Sex refers to innate physical characteristics while gender refers to the psychological interpretation of those characteristics",
@@ -831,7 +752,7 @@
         "Sex establishes the biological framework upon which gender expression naturally develops in alignment"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t01"
+      "linked_concept_id": "ch09_t08"
     },
     {
       "id": 28,
@@ -843,7 +764,7 @@
         "Developing secondary physical characteristics that align with cultural beauty standards"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t01"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 29,
@@ -879,7 +800,7 @@
         "Workplace interactions, entertainment, social media, and community groups"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t14"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 32,
@@ -903,7 +824,7 @@
         "It encourages questioning of traditional male-female attraction patterns"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t12"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 34,
@@ -927,7 +848,7 @@
         "They focus primarily on eliminating gender stereotypes from other sources"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t14"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 36,
@@ -936,10 +857,10 @@
         "Symbolic interactionism, which focuses on everyday interactions that construct gender",
         "Conflict theory, which examines how men maintain dominant status through gender roles",
         "Structural functionalism, which views gender roles as complementary for social stability",
-        "Feminist theory, which analyzes patriarchal structures and advocates for gender equality"
+        "Social constructionism, which analyzes historical variations in gender across cultures"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t27"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 37,
@@ -1008,10 +929,10 @@
         "Symbolic Interaction Theory",
         "Conflict Theory",
         "Structural Functionalist Theory",
-        "Gender Essentialism"
+        "Social Constructionist Theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t27"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 43,
@@ -1023,7 +944,7 @@
         "Academic journals publishing research findings on gender differences"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t14"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 44,
@@ -1035,7 +956,7 @@
         "Sociobiological Theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t28"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 45,
@@ -1047,7 +968,7 @@
         "How do digital social networks change the nature of peer influence among adolescents?"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t14"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 46,
@@ -1059,7 +980,7 @@
         "Symbolic Interaction Theory of Gender"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t28"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 47,
@@ -1071,7 +992,7 @@
         "Division between public and private spheres"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t28"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 48,
@@ -1095,7 +1016,7 @@
         "The gender binary developed to support capitalist economic systems"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t26"
+      "linked_concept_id": "ch09_t05"
     },
     {
       "id": 50,
@@ -1113,13 +1034,13 @@
       "id": 51,
       "question": "From a functionalist perspective, gender roles are:",
       "choices": [
-        "Necessary for optimal family and social stability",
+        "Complementary but unequal",
         "Socially constructed and maintained through daily interactions",
         "Created to ensure male control over economic resources",
-        "Arbitrary distinctions that serve no societal purpose"
+        "Necessary for optimal family and social stability"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t26"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 52,
@@ -1131,7 +1052,7 @@
         "A functional division of complementary roles that promotes social order"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t27"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 53,
@@ -1143,7 +1064,7 @@
         "We rely on gender categories to establish predictable patterns of social behavior"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t27"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 54,
@@ -1155,7 +1076,7 @@
         "Gender is a set of complementary roles that contribute to family cohesion"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t27"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 55,
@@ -1167,7 +1088,7 @@
         "Schools socialize boys and girls differently based on presumed natural abilities"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t26"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 56,
@@ -1179,7 +1100,7 @@
         "Individuals actively construct their gender identity through social interactions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t28"
+      "linked_concept_id": "ch09_t06"
     },
     {
       "id": 57,
@@ -1191,7 +1112,7 @@
         "It's mainly through symbolic representations in educational materials and environments"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t27"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 58,
@@ -1263,7 +1184,7 @@
         "A neutral observation about current gender distributions in various professions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t22"
+      "linked_concept_id": "ch09_t02"
     },
     {
       "id": 644,
@@ -1322,7 +1243,7 @@
         "Gender nonconforming behavior challenging traditional norms",
         "Cisgender identity alignment with assigned sex at birth"
       ],
-      "correct": 0,
+      "correct": 1,
       "linked_concept_id": "ch09_t04"
     },
     {
@@ -1347,7 +1268,7 @@
         "Gender expression through clothing choices"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t03"
+      "linked_concept_id": "ch09_t04"
     },
     {
       "id": 929,
@@ -1382,8 +1303,8 @@
         "Gender nonconforming challenge to traditional roles",
         "Gender identity individual self-definition"
       ],
-      "correct": 0,
-      "linked_concept_id": "ch09_t03"
+      "correct": 1,
+      "linked_concept_id": "ch09_t04"
     },
     {
       "id": 932,
@@ -1395,7 +1316,7 @@
         "Gender socialization agents"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t05"
+      "linked_concept_id": "ch09_t08"
     },
     {
       "id": 933,
@@ -1407,7 +1328,7 @@
         "Gender role socialization process"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t05"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 934,
@@ -1419,7 +1340,7 @@
         "Gender expression behavioral manifestations"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t05"
+      "linked_concept_id": "ch09_t03"
     },
     {
       "id": 935,
@@ -1431,7 +1352,7 @@
         "Gender role socialization process"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t06"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 936,
@@ -1443,7 +1364,7 @@
         "Gender socialization cultural learning"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t06"
+      "linked_concept_id": "ch09_t08"
     },
     {
       "id": 937,
@@ -1455,7 +1376,7 @@
         "Gender binary system compliance"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t06"
+      "linked_concept_id": "ch09_t08"
     },
     {
       "id": 938,
@@ -1467,7 +1388,7 @@
         "Gender binary conforming individual"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t07"
+      "linked_concept_id": "ch09_t18"
     },
     {
       "id": 939,
@@ -1479,7 +1400,7 @@
         "Gender essentialist believers in biological determinism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t07"
+      "linked_concept_id": "ch09_t05"
     },
     {
       "id": 940,
@@ -1491,7 +1412,7 @@
         "Gender binary system supporters"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t07"
+      "linked_concept_id": "ch09_t18"
     },
     {
       "id": 941,
@@ -1515,7 +1436,7 @@
         "Gender binary system adherence"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t08"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 943,
@@ -1527,7 +1448,7 @@
         "Gender binary classification methods"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t08"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 944,
@@ -1587,7 +1508,7 @@
         "Gender role performance and conformity"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t10"
+      "linked_concept_id": "ch09_t08"
     },
     {
       "id": 949,
@@ -1599,7 +1520,7 @@
         "Gender role acceptance or rejection"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t10"
+      "linked_concept_id": "ch09_t08"
     },
     {
       "id": 950,
@@ -1647,7 +1568,7 @@
         "Gender role socialization as cultural learning"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t12"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 954,
@@ -1659,7 +1580,7 @@
         "Gender role traditional expectations"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t12"
+      "linked_concept_id": "ch09_t08"
     },
     {
       "id": 955,
@@ -1683,7 +1604,7 @@
         "Gender identity formation through trauma"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t13"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 957,
@@ -1695,7 +1616,7 @@
         "Heteronormativity in campus social life"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t13"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 958,
@@ -1707,7 +1628,7 @@
         "Heteronormativity in media representation"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t13"
+      "linked_concept_id": "ch09_t12"
     },
     {
       "id": 959,
@@ -1755,7 +1676,7 @@
         "Heteronormativity in classroom interactions"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t15"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 963,
@@ -1767,7 +1688,7 @@
         "Gender expression limitations in formal contexts"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t15"
+      "linked_concept_id": "ch09_t08"
     },
     {
       "id": 964,
@@ -1779,7 +1700,7 @@
         "Gender role socialization through peer interaction"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t15"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 965,
@@ -1791,7 +1712,7 @@
         "Gender identity workplace discrimination effects"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t16"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 966,
@@ -1803,7 +1724,7 @@
         "Gender role socialization workplace outcomes"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t16"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 967,
@@ -1819,15 +1740,15 @@
     },
     {
       "id": 968,
-      "question": "When Lisa was assigned male at birth but has always identified as female and now lives as a woman, Lisa's experience aligns with which concept?",
+      "question": "When Lisa was assigned male at birth but has always identified as female and now lives as a woman, Lisa's gender identity aligns with which concept?",
       "choices": [
         "Gender nonconforming identity challenging norms",
-        "Cisgender identity matching assigned sex",
+        "Cisgender identity matching assigned sex (this is incorrect - Lisa is transgender)",
         "Transgender identity differing from assigned sex",
         "Gender binary conforming to traditional categories"
       ],
-      "correct": 2,
-      "linked_concept_id": "ch09_t07"
+      "correct": 1,
+      "linked_concept_id": "ch09_t18"
     },
     {
       "id": 969,
@@ -1839,7 +1760,7 @@
         "Gender binary conforming to traditional categories"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t07"
+      "linked_concept_id": "ch09_t18"
     },
     {
       "id": 970,
@@ -1851,7 +1772,7 @@
         "Gender binary rejection of traditional categories"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t17"
+      "linked_concept_id": "ch09_t18"
     },
     {
       "id": 971,
@@ -1863,7 +1784,7 @@
         "Gender binary traditional category acceptance"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t17"
+      "linked_concept_id": "ch09_t18"
     },
     {
       "id": 972,
@@ -1911,7 +1832,7 @@
         "Gender binary enforcement through social pressure"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t19"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 976,
@@ -1935,7 +1856,7 @@
         "Gender binary enforcement through workplace policies"
       ],
       "correct": 2,
-      "linked_concept_id": "ch09_t19"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 978,
@@ -1947,7 +1868,7 @@
         "Gender identity formation challenges"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t20"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 979,
@@ -1959,7 +1880,7 @@
         "Gender binary classification pressure"
       ],
       "correct": 1,
-      "linked_concept_id": "ch09_t20"
+      "linked_concept_id": "ch09_t11"
     },
     {
       "id": 980,
@@ -1971,115 +1892,7 @@
         "Gender identity formation natural development"
       ],
       "correct": 0,
-      "linked_concept_id": "ch09_t20"
-    },
-    {
-      "id": 1221,
-      "question": "According to structural functionalism, a family where the father works full-time while the mother stays home to nurture the children and manage household emotions is an example of:",
-      "choices": [
-        "Gender stratification creating unequal opportunities",
-        "Conflict theory's view of male economic control",
-        "Complementary instrumental and expressive roles",
-        "Symbolic interactionist 'doing gender' in the household"
-      ],
-      "correct": 2,
-      "linked_concept_id": "ch09_t26"
-    },
-    {
-      "id": 1222,
-      "question": "A structural functionalist would argue that the traditional division of labor in families\u2014where men serve as breadwinners and women as caregivers\u2014exists because:",
-      "choices": [
-        "Men have used economic power to maintain dominance over women",
-        "These complementary roles contribute to family stability and social order",
-        "Gender is performed through everyday interactions between partners",
-        "Cultural norms are imposed through institutional discrimination"
-      ],
-      "correct": 1,
-      "linked_concept_id": "ch09_t26"
-    },
-    {
-      "id": 1223,
-      "question": "A study finds that women hold only 8% of Fortune 500 CEO positions, earn 82 cents for every dollar men earn, and are underrepresented in national legislatures. These patterns collectively illustrate:",
-      "choices": [
-        "Gender role socialization in corporate settings",
-        "The feminization of poverty across institutions",
-        "Gender stratification\u2014the unequal distribution of power and resources between genders",
-        "Hegemonic masculinity in the workplace"
-      ],
-      "correct": 2,
-      "linked_concept_id": "ch09_t25"
-    },
-    {
-      "id": 1224,
-      "question": "Which scenario best illustrates gender stratification?",
-      "choices": [
-        "A child learning that boys should be tough and girls should be nurturing",
-        "Women systematically earning less, holding fewer leadership positions, and having less political power than men",
-        "A person expressing their gender through clothing choices",
-        "A couple sharing household responsibilities equally"
-      ],
-      "correct": 1,
-      "linked_concept_id": "ch09_t25"
-    },
-    {
-      "id": 1225,
-      "question": "A researcher observes that when a male student speaks assertively in class, the teacher nods approvingly, but when a female student does the same, the teacher describes her as 'aggressive.' From a symbolic interactionist perspective, these micro-level interactions:",
-      "choices": [
-        "Reflect biological differences in communication styles",
-        "Demonstrate how gender is constructed and reinforced through everyday social encounters",
-        "Show that schools intentionally create gender inequality",
-        "Illustrate the complementary roles men and women play in education"
-      ],
-      "correct": 1,
-      "linked_concept_id": "ch09_t27"
-    },
-    {
-      "id": 1226,
-      "question": "According to the symbolic interactionist perspective, which statement about gender is most accurate?",
-      "choices": [
-        "Gender is a fixed trait determined by biology and expressed consistently across all situations",
-        "Gender is a system of stratification that maintains male privilege over women",
-        "Gender is something that we actively 'do' in our interactions with others",
-        "Gender roles exist because they serve complementary functions in society"
-      ],
-      "correct": 2,
-      "linked_concept_id": "ch09_t27"
-    },
-    {
-      "id": 1227,
-      "question": "In a workplace meeting, colleagues unconsciously defer to male speakers, make more eye contact with men, and interrupt women more frequently. A symbolic interactionist would explain this by saying:",
-      "choices": [
-        "These patterns reflect natural communication differences between the sexes",
-        "This is evidence of institutional discrimination against women",
-        "Gender norms are being reproduced through these everyday micro-interactions",
-        "Men are deliberately using power to silence women's voices"
-      ],
-      "correct": 2,
-      "linked_concept_id": "ch09_t27"
-    },
-    {
-      "id": 1228,
-      "question": "A conflict theorist examining gender inequality would most likely argue that:",
-      "choices": [
-        "Men and women have complementary roles that contribute to social stability",
-        "Gender differences emerge naturally from biological predispositions",
-        "Gender is something people construct through everyday interaction",
-        "Men maintain dominance over women by controlling economic resources and institutional power"
-      ],
-      "correct": 3,
-      "linked_concept_id": "ch09_t28"
-    },
-    {
-      "id": 1229,
-      "question": "When examining why women are paid less than men for comparable work, a conflict theorist would emphasize that:",
-      "choices": [
-        "The wage gap results from women choosing lower-paying fields due to gender socialization",
-        "Pay differences reflect men's efforts to maintain economic advantage and control over women",
-        "Women perform expressive roles that are inherently valued differently by society",
-        "Wage differences emerge from everyday negotiations and interactions in the workplace"
-      ],
-      "correct": 1,
-      "linked_concept_id": "ch09_t28"
+      "linked_concept_id": "ch09_t11"
     }
   ]
 }

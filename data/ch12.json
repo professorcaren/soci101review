@@ -161,7 +161,6 @@
         558,
         559,
         560,
-        597,
         865,
         866
       ],
@@ -337,7 +336,7 @@
         "establishing rigid career paths with clearly defined progression opportunities."
       ],
       "correct": 0,
-      "linked_concept_id": "ch12_t03"
+      "linked_concept_id": "ch12_t04"
     },
     {
       "id": 564,
@@ -404,9 +403,9 @@
       "question": "According to Marx's theory of alienation, which of the following best exemplifies workers being alienated from the product of their labor in contemporary society?",
       "choices": [
         "Factory workers who assemble smartphones but cannot afford to purchase the devices they make",
-        "Office workers who feel disconnected from their coworkers due to isolated cubicle layouts",
-        "A teacher who finds deep personal meaning and satisfaction in educating students",
-        "An employee who feels that work leaves no time to pursue creative hobbies or personal growth"
+        "Warehouse employees who pack consumer goods that they never see being used or enjoyed by customers",
+        "Automotive workers who build cars but have no ownership stake in the vehicles they produce",
+        "Food service workers who prepare meals that are immediately consumed by others with no lasting value"
       ],
       "correct": 0,
       "linked_concept_id": "ch12_t06"
@@ -416,9 +415,9 @@
       "question": "Which of the following contemporary work situations best exemplifies Marx's concept of alienation from the act of production itself?",
       "choices": [
         "Data entry clerks who perform repetitive tasks with no creative input or decision-making authority",
-        "Software engineers who cannot afford the products their company sells",
-        "Nurses who form close bonds with their coworkers during long shifts",
-        "Artists who freely choose their own projects and set their own schedules"
+        "Assembly line workers who must maintain a predetermined pace regardless of their natural working rhythm",
+        "Call center employees who must follow strict scripts when solving customer problems rather than using their judgment",
+        "Retail associates who must arrange merchandise according to corporate planograms instead of their aesthetic sense"
       ],
       "correct": 0,
       "linked_concept_id": "ch12_t06"
@@ -631,13 +630,13 @@
       "id": 588,
       "question": "Who among the following would most likely be considered a contingent worker?",
       "choices": [
-        "A freelance web developer hired on a project-by-project basis",
-        "A tenured university professor with a permanent appointment",
-        "A corporate attorney on long-term retainer with guaranteed salary",
-        "A full-time salaried employee with health benefits and a pension"
+        "freelance web developer",
+        "corporate attorney on retainer",
+        "substitute school teacher",
+        "per diem hospital nurse"
       ],
       "correct": 0,
-      "linked_concept_id": "ch12_t13"
+      "linked_concept_id": null
     },
     {
       "id": 589,
@@ -737,23 +736,23 @@
     },
     {
       "id": 597,
-      "question": "In introductory sociology, the most commonly cited motivation for companies to engage in outsourcing is to:",
+      "question": "A primary motivation for companies to engage in outsourcing is to:",
       "choices": [
-        "Reduce labor and operational costs",
-        "Improve employee morale and workplace culture",
-        "Increase the number of permanent full-time positions",
-        "Strengthen labor union representation"
+        "reduce labor and operational costs",
+        "access specialized expertise not available internally",
+        "increase operational flexibility and scalability",
+        "focus on core business competencies while delegating peripheral functions"
       ],
       "correct": 0,
       "linked_concept_id": "ch12_t12"
     },
     {
       "id": 598,
-      "question": "From the perspective of domestic workers and their communities, which of the following is the most common criticism of outsourcing practices?",
+      "question": "Which of the following is a common criticism of outsourcing practices?",
       "choices": [
         "It contributes to job losses in the company's home country",
         "It often results in lower product quality and customer satisfaction",
-        "It makes companies more innovative and competitive",
+        "It creates ethical concerns regarding labor conditions in developing countries",
         "It increases dependency on external vendors, creating business continuity risks"
       ],
       "correct": 0,
@@ -769,7 +768,7 @@
         "business process relocation"
       ],
       "correct": 0,
-      "linked_concept_id": "ch12_t12"
+      "linked_concept_id": "ch12_t14"
     },
     {
       "id": 861,
@@ -793,7 +792,7 @@
         "Digital Revolution"
       ],
       "correct": 1,
-      "linked_concept_id": "ch12_t02"
+      "linked_concept_id": "ch12_t01"
     },
     {
       "id": 863,
@@ -805,7 +804,7 @@
         "Service Integration"
       ],
       "correct": 2,
-      "linked_concept_id": "ch12_t03"
+      "linked_concept_id": "ch12_t01"
     },
     {
       "id": 864,
@@ -817,7 +816,7 @@
         "Service work"
       ],
       "correct": 3,
-      "linked_concept_id": "ch12_t05"
+      "linked_concept_id": "ch12_t04"
     },
     {
       "id": 865,

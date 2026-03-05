@@ -9,6 +9,7 @@
       "definition": "Judging other cultures by the standards of one's own culture",
       "level3_question_ids": [
         784,
+        785,
         786
       ],
       "confusable_ids": [
@@ -433,20 +434,20 @@
         "Study abroad students concluding that Western dating practices are superior and arranged marriages are backward",
         "The researcher documenting both systems without making value judgments"
       ],
-      "correct": 2,
+      "correct": 3,
       "linked_concept_id": "ch03_t01"
     },
     {
       "id": 785,
-      "question": "A sociology professor asks students to strip away cultural meaning from everyday routines and describe them in purely physical terms. Students write about brushing teeth as \"inserting plant fibers into mouth cavity with cleansing powder.\" By making the familiar seem strange, this exercise primarily demonstrates the importance of:",
+      "question": "A sociology professor asks students to analyze their daily routines without using any taken-for-granted assumptions about what activities mean. Students write about brushing teeth as \"inserting plant fibers into mouth cavity with cleansing powder.\" This exercise primarily demonstrates the importance of:",
       "choices": [
         "Understanding symbolic culture through familiar examples",
-        "Recognizing how cultural relativism applies to foreign societies only",
-        "Identifying the difference between folkways and mores",
-        "Appreciating how deeply symbolic culture shapes our perception of everyday activities"
+        "Practicing cultural relativism when studying foreign societies",
+        "Recognizing ethnocentrism in our approach to our own culture",
+        "Identifying the difference between folkways and mores"
       ],
-      "correct": 0,
-      "linked_concept_id": "ch03_t04"
+      "correct": 2,
+      "linked_concept_id": "ch03_t02"
     },
     {
       "id": 786,
@@ -470,7 +471,7 @@
         "Values expressed through nonmaterial culture"
       ],
       "correct": 1,
-      "linked_concept_id": "ch03_t11"
+      "linked_concept_id": "ch03_t04"
     },
     {
       "id": 788,
@@ -494,7 +495,7 @@
         "Cultural imperialism spreading through tourism"
       ],
       "correct": 1,
-      "linked_concept_id": "ch03_t07"
+      "linked_concept_id": "ch03_t23"
     },
     {
       "id": 790,
@@ -506,7 +507,7 @@
         "Material culture and symbolic culture"
       ],
       "correct": 2,
-      "linked_concept_id": "ch03_t20"
+      "linked_concept_id": "ch03_t03"
     },
     {
       "id": 791,
@@ -566,16 +567,16 @@
         "It reflects the economic interests of powerful corporations."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t06"
     },
     {
       "id": 1080,
       "question": "Structural functionalism has been criticized for:",
       "choices": [
         "Overemphasizing social stability and downplaying conflict and change.",
-        "Focusing too heavily on individual-level interactions rather than social structures.",
-        "Placing too much emphasis on economic inequality as the driver of social organization.",
-        "Rejecting the idea that social institutions serve important purposes."
+        "Failing to account for the role of individual agency in shaping society.",
+        "Neglecting the importance of culture and meaning in social life.",
+        "All of the above."
       ],
       "correct": 0,
       "linked_concept_id": null
@@ -597,12 +598,12 @@
       "question": "According to structural functionalism, a successful society requires:",
       "choices": [
         "A high degree of social cohesion and shared values.",
-        "Constant conflict between social classes to drive progress.",
-        "Individuals freely interpreting and negotiating meaning in every interaction.",
-        "The elimination of all forms of social inequality."
+        "A balance between individual freedom and social order.",
+        "Mechanisms for resolving conflict and adapting to change.",
+        "All of the above."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t06"
     },
     {
       "id": 1083,
@@ -614,7 +615,7 @@
         "Deviance is a result of individual pathology and psychological factors."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t07"
     },
     {
       "id": 1084,
@@ -626,7 +627,7 @@
         "Institutions function to socialize individuals into dominant cultural norms."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t07"
     },
     {
       "id": 1085,
@@ -650,7 +651,7 @@
         "The adoption of similar fashion trends in different countries."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t22"
+      "linked_concept_id": "ch03_t12"
     },
     {
       "id": 1087,
@@ -698,7 +699,7 @@
         "Always consistent with societal mores."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t08"
+      "linked_concept_id": "ch03_t07"
     },
     {
       "id": 1091,
@@ -710,7 +711,7 @@
         "Are always negative and involve punishment."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t15"
+      "linked_concept_id": "ch03_t08"
     },
     {
       "id": 1092,
@@ -757,8 +758,8 @@
         "To promote social change and challenge existing norms.",
         "To punish those who violate social norms."
       ],
-      "correct": 2,
-      "linked_concept_id": "ch03_t15"
+      "correct": 0,
+      "linked_concept_id": "ch03_t07"
     },
     {
       "id": 1096,
@@ -770,7 +771,7 @@
         "Restorative justice practices."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t15"
+      "linked_concept_id": "ch03_t16"
     },
     {
       "id": 1097,
@@ -793,8 +794,8 @@
         "Engage in acts of civil disobedience or protest.",
         "All of the above."
       ],
-      "correct": 3,
-      "linked_concept_id": "ch03_t19"
+      "correct": 0,
+      "linked_concept_id": "ch03_t06"
     },
     {
       "id": 1099,
@@ -806,7 +807,7 @@
         "The development of unique cultural practices and styles."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t19"
+      "linked_concept_id": "ch03_t06"
     },
     {
       "id": 1100,
@@ -818,7 +819,7 @@
         "Cultural lag."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t19"
+      "linked_concept_id": "ch03_t17"
     },
     {
       "id": 1101,
@@ -830,7 +831,7 @@
         "Assimilation of the counterculture into the dominant culture."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t19"
+      "linked_concept_id": "ch03_t17"
     },
     {
       "id": 1102,
@@ -854,7 +855,7 @@
         "Language completely determines a culture's worldview."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t05"
+      "linked_concept_id": "ch03_t12"
     },
     {
       "id": 1104,
@@ -866,7 +867,7 @@
         "Cultural leveling, the process by which cultures become more similar."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t21"
+      "linked_concept_id": "ch03_t22"
     },
     {
       "id": 1105,
@@ -926,7 +927,7 @@
         "Personal preferences that vary by individual."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t13"
+      "linked_concept_id": "ch03_t06"
     },
     {
       "id": 1110,
@@ -950,7 +951,7 @@
         "Using proper table manners at dinner."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t13"
+      "linked_concept_id": "ch03_t14"
     },
     {
       "id": 1112,
@@ -962,7 +963,7 @@
         "Folkways have stronger punishments than mores."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t13"
+      "linked_concept_id": "ch03_t09"
     },
     {
       "id": 1113,
@@ -974,7 +975,7 @@
         "They only affect formal legal systems."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t13"
+      "linked_concept_id": "ch03_t16"
     },
     {
       "id": 1114,
@@ -1010,7 +1011,7 @@
         "Any group that's different from the mainstream."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t19"
+      "linked_concept_id": "ch03_t17"
     },
     {
       "id": 1117,
@@ -1069,7 +1070,7 @@
         "Language barriers and significant communication challenges between groups.",
         "All of the above."
       ],
-      "correct": 3,
+      "correct": 0,
       "linked_concept_id": "ch03_t22"
     },
     {
@@ -1094,7 +1095,7 @@
         "Are neutral institutions that benefit all members of society equally."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t06"
     },
     {
       "id": 1124,
@@ -1130,7 +1131,7 @@
         "The actions of great individuals or leaders."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t06"
     },
     {
       "id": 1127,
@@ -1154,7 +1155,7 @@
         "Marijuana use is purely a matter of individual choice."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t13"
+      "linked_concept_id": "ch03_t06"
     },
     {
       "id": 1129,

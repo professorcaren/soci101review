@@ -239,7 +239,8 @@
         622,
         623,
         624,
-        636
+        636,
+        637
       ],
       "confusable_ids": [
         "ch16_t02",
@@ -481,7 +482,7 @@
         "The demographic dividend with economic prosperity"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t05"
+      "linked_concept_id": "ch16_t01"
     },
     {
       "id": 2,
@@ -493,7 +494,7 @@
         "The age structure difference will have no impact on future birth rates"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t11"
+      "linked_concept_id": "ch16_t01"
     },
     {
       "id": 3,
@@ -505,7 +506,7 @@
         "The dominant religious beliefs in each country"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t11"
+      "linked_concept_id": "ch16_t02"
     },
     {
       "id": 4,
@@ -517,7 +518,7 @@
         "Higher rates of accidents and violence among young people"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t11"
+      "linked_concept_id": "ch16_t02"
     },
     {
       "id": 5,
@@ -529,7 +530,7 @@
         "Statistical errors in calculating the birth and death rates"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t20"
+      "linked_concept_id": "ch16_t03"
     },
     {
       "id": 6,
@@ -541,7 +542,7 @@
         "Increasing urbanization concentrating population growth"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t16"
+      "linked_concept_id": "ch16_t03"
     },
     {
       "id": 7,
@@ -621,7 +622,7 @@
       "choices": [
         "9 per 1,000",
         "27 per 1,000",
-        "18 per 1,000",
+        "0.9 percent",
         "1.8 percent"
       ],
       "correct": 0,
@@ -793,7 +794,7 @@
         "Population Doubling Formula"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t13"
+      "linked_concept_id": "ch16_t14"
     },
     {
       "id": 445,
@@ -817,7 +818,7 @@
         "Population doubling acceleration"
       ],
       "correct": 2,
-      "linked_concept_id": "ch16_t06"
+      "linked_concept_id": "ch16_t04"
     },
     {
       "id": 447,
@@ -853,7 +854,7 @@
         "Population Doubling calculations"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t04"
+      "linked_concept_id": "ch16_t20"
     },
     {
       "id": 450,
@@ -913,7 +914,7 @@
         "Infant Mortality Rate improvements"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t18"
+      "linked_concept_id": "ch16_t14"
     },
     {
       "id": 455,
@@ -937,7 +938,7 @@
         "Different calculation methods for population growth"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t11"
+      "linked_concept_id": "ch16_t18"
     },
     {
       "id": 457,
@@ -973,7 +974,7 @@
         "Geographic mapping of migration flows"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t09"
+      "linked_concept_id": "ch16_t18"
     },
     {
       "id": 460,
@@ -985,7 +986,7 @@
         "CBR is more accurate than TFR for all demographic analysis"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t01"
+      "linked_concept_id": "ch16_t09"
     },
     {
       "id": 461,
@@ -997,7 +998,7 @@
         "High rates of international emigration"
       ],
       "correct": 2,
-      "linked_concept_id": "ch16_t07"
+      "linked_concept_id": "ch16_t17"
     },
     {
       "id": 462,
@@ -1045,7 +1046,7 @@
         "Population doubling times in educated communities"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t09"
+      "linked_concept_id": "ch16_t18"
     },
     {
       "id": 466,
@@ -1069,7 +1070,7 @@
         "Stable population doubling times"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t09"
+      "linked_concept_id": "ch16_t19"
     },
     {
       "id": 468,
@@ -1081,7 +1082,7 @@
         "Population doubling acceleration in developed countries"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t08"
+      "linked_concept_id": "ch16_t18"
     },
     {
       "id": 469,
@@ -1093,7 +1094,7 @@
         "Migration policies vary significantly between countries"
       ],
       "correct": 2,
-      "linked_concept_id": "ch16_t08"
+      "linked_concept_id": "ch16_t18"
     },
     {
       "id": 600,
@@ -1105,7 +1106,7 @@
         "nongovernmental organization"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t08"
+      "linked_concept_id": "ch16_t21"
     },
     {
       "id": 601,
@@ -1129,7 +1130,7 @@
         "nongovernmental organization"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t08"
+      "linked_concept_id": "ch16_t16"
     },
     {
       "id": 603,
@@ -1165,7 +1166,7 @@
         "the Malthusian theorem"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t08"
+      "linked_concept_id": "ch16_t22"
     },
     {
       "id": 606,
@@ -1229,15 +1230,15 @@
     },
     {
       "id": 611,
-      "question": "Which of the following factors contributes to the growth of the population in the United States?",
+      "question": "Which of the following factors contribute to the growth of the population in the United States?",
       "choices": [
         "Increased immigration rates",
         "Decreased life expectancy",
         "Increasing mortality rate",
-        "Declining birth rates"
+        "Advances in modern medicine"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t16"
+      "linked_concept_id": "ch16_t15"
     },
     {
       "id": 612,
@@ -1249,19 +1250,19 @@
         "Decline in immigration rates"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t09"
+      "linked_concept_id": "ch16_t15"
     },
     {
       "id": 613,
-      "question": "According to U.S. Census data, which age group makes up a larger share of the population than those aged 65 and older?",
+      "question": "Which age group has the highest proportion of the population in the United States?",
       "choices": [
-        "People younger than 18",
         "People older than 65",
-        "Only immigrants",
-        "Only college students"
+        "People younger than 18",
+        "Non-Hispanic white people",
+        "Immigrants"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t11"
+      "linked_concept_id": null
     },
     {
       "id": 614,
@@ -1289,15 +1290,15 @@
     },
     {
       "id": 616,
-      "question": "Compared to many developing nations, the United States has a population growth rate that is:",
+      "question": "What is the current estimated population growth rate in the United States?",
       "choices": [
-        "Relatively low, under 1% per year",
-        "Moderate, around 2% per year",
-        "High, around 3% per year",
-        "Very high, above 4% per year"
+        "0.8%",
+        "1.5%",
+        "2.3%",
+        "3.7%"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t03"
+      "linked_concept_id": null
     },
     {
       "id": 617,
@@ -1313,19 +1314,19 @@
     },
     {
       "id": 618,
-      "question": "According to U.S. Census data, approximately what percentage of the U.S. population is younger than 18 years old?",
+      "question": "What is the current percentage of the population in the United States that is younger than 18 years old?",
       "choices": [
-        "About 22%",
-        "About 15%",
-        "About 32%",
-        "About 40%"
+        "22%",
+        "15%",
+        "28%",
+        "32%"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t08"
+      "linked_concept_id": null
     },
     {
       "id": 619,
-      "question": "According to the 2020 U.S. Census, the population of the United States was approximately:",
+      "question": "What is the current estimated population of the United States?",
       "choices": [
         "331 million",
         "290 million",
@@ -1333,7 +1334,7 @@
         "400 million"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t08"
+      "linked_concept_id": null
     },
     {
       "id": 620,
@@ -1357,7 +1358,7 @@
         "Infant mortality rate"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t01"
+      "linked_concept_id": "ch16_t14"
     },
     {
       "id": 622,
@@ -1369,7 +1370,7 @@
         "Infant mortality rate"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t09"
+      "linked_concept_id": "ch16_t14"
     },
     {
       "id": 623,
@@ -1381,7 +1382,7 @@
         "Infant mortality rate"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t02"
+      "linked_concept_id": "ch16_t14"
     },
     {
       "id": 624,
@@ -1417,11 +1418,11 @@
         "A model that explains the impact of social factors on population growth and distribution."
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t08"
+      "linked_concept_id": "ch16_t16"
     },
     {
       "id": 627,
-      "question": "In which stage of demographic transition theory does a country experience declining death rates while birth rates remain high, causing rapid population growth?",
+      "question": "In which stage of demographic transition theory does a country experience a decline in birth rates while death rates remain high?",
       "choices": [
         "Stage 2",
         "Stage 1",
@@ -1429,19 +1430,19 @@
         "Stage 4"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t05"
+      "linked_concept_id": null
     },
     {
       "id": 628,
-      "question": "Which of the following factors most directly reduces the number of births by giving individuals the means to control family size during the demographic transition?",
+      "question": "Which of the following factors is most likely to contribute to a decline in birth rates during the demographic transition?",
       "choices": [
-        "Increased access to contraception and family planning services",
-        "A decrease in infant mortality rates",
-        "Improved healthcare infrastructure",
-        "Higher levels of urbanization"
+        "Increased access to contraception and family planning services.",
+        "A decrease in infant mortality rates.",
+        "Improved healthcare infrastructure.",
+        "Higher levels of education for women."
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t06"
+      "linked_concept_id": null
     },
     {
       "id": 629,
@@ -1541,12 +1542,12 @@
     },
     {
       "id": 637,
-      "question": "The replacement level fertility in developed countries is approximately 2.1 children per woman rather than exactly 2.0. What factor accounts for this difference?",
+      "question": "In the context of population growth, which factor explains the difference between the replacement level fertility and the actual fertility rate?",
       "choices": [
-        "Some children do not survive to reproductive age, so slightly more than two births are needed to replace each generation",
-        "Contraceptive use reduces births below replacement",
-        "Migration rates offset the fertility calculation",
-        "Education levels raise the replacement threshold"
+        "Contraceptive use",
+        "Mortality rate",
+        "Migration rate",
+        "Education level"
       ],
       "correct": 0,
       "linked_concept_id": "ch16_t12"
@@ -1573,7 +1574,7 @@
         "Age structure diagrams"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t05"
+      "linked_concept_id": "ch16_t11"
     }
   ]
 }

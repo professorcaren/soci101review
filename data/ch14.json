@@ -88,6 +88,8 @@
       "level3_question_ids": [
         412,
         413,
+        1142,
+        1143,
         1166,
         1169,
         1179,
@@ -106,7 +108,7 @@
         1168,
         1169,
         1170,
-        1177,
+        1178,
         1179,
         1204,
         1205,
@@ -137,7 +139,7 @@
       "level3_question_ids": [
         407,
         416,
-        1177
+        1178
       ],
       "confusable_ids": [
         "ch14_t05",
@@ -156,7 +158,6 @@
         417,
         1167,
         1170,
-        1177,
         1179,
         1192
       ],
@@ -176,6 +177,7 @@
         408,
         417,
         1166,
+        1177,
         1192,
         1204
       ],
@@ -222,7 +224,6 @@
       "term": "Taste Publics and Cultures",
       "definition": "Groups sharing similar aesthetic preferences (publics) forming distinct cultural patterns (cultures).",
       "level3_question_ids": [
-        1142,
         1178,
         1192,
         1204
@@ -242,10 +243,8 @@
       "level3_question_ids": [
         409,
         412,
-        1141,
         1167,
         1176,
-        1178,
         1189,
         1197,
         1204
@@ -265,6 +264,9 @@
       "level3_question_ids": [
         1141,
         1142,
+        1143,
+        1144,
+        1145,
         1167,
         1170,
         1176,
@@ -289,7 +291,6 @@
       "level3_question_ids": [
         409,
         412,
-        1143,
         1169,
         1189
       ],
@@ -325,8 +326,7 @@
       "level3_question_ids": [
         409,
         411,
-        412,
-        1144
+        412
       ],
       "confusable_ids": [
         "ch14_t13",
@@ -377,9 +377,6 @@
         409,
         411,
         415,
-        1143,
-        1145,
-        1178,
         1190
       ],
       "confusable_ids": [
@@ -399,9 +396,9 @@
         414,
         417,
         1141,
-        1142,
         1143,
-        1178,
+        1144,
+        1145,
         1192
       ],
       "confusable_ids": [
@@ -420,7 +417,10 @@
         410,
         413,
         1141,
-        1142
+        1142,
+        1143,
+        1144,
+        1145
       ],
       "confusable_ids": [
         "ch14_t18",
@@ -435,7 +435,7 @@
       "definition": "The capacity for a sign or text to have multiple meanings or interpretations.",
       "level3_question_ids": [
         415,
-        1143,
+        1177,
         1189,
         1190,
         1191,
@@ -450,7 +450,9 @@
       "id": "ch14_t23",
       "term": "Role Model",
       "definition": "A person whose behavior or success serves as an example for others to follow.",
-      "level3_question_ids": [],
+      "level3_question_ids": [
+        1178
+      ],
       "confusable_ids": [
         "ch14_t19",
         "ch14_t17"
@@ -510,7 +512,7 @@
         "These musical preferences reflect individual psychology rather than social patterns"
       ],
       "correct": 1,
-      "linked_concept_id": "ch14_t11"
+      "linked_concept_id": "ch14_t07"
     },
     {
       "id": 409,
@@ -522,7 +524,7 @@
         "Reinforcement theory"
       ],
       "correct": 1,
-      "linked_concept_id": "ch14_t19"
+      "linked_concept_id": "ch14_t16"
     },
     {
       "id": 410,
@@ -534,7 +536,7 @@
         "It has become an interpretive community focused on textual poaching"
       ],
       "correct": 2,
-      "linked_concept_id": "ch14_t24"
+      "linked_concept_id": "ch14_t21"
     },
     {
       "id": 411,
@@ -546,7 +548,7 @@
         "Two-step flow model"
       ],
       "correct": 1,
-      "linked_concept_id": "ch14_t15"
+      "linked_concept_id": "ch14_t16"
     },
     {
       "id": 412,
@@ -570,7 +572,7 @@
         "A primary group that provides intimate personal relationships"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t09"
+      "linked_concept_id": "ch14_t21"
     },
     {
       "id": 414,
@@ -594,7 +596,7 @@
         "The formation of different lifestyle enclaves around the film"
       ],
       "correct": 2,
-      "linked_concept_id": "ch14_t22"
+      "linked_concept_id": "ch14_t19"
     },
     {
       "id": 416,
@@ -618,7 +620,7 @@
         "Lifestyle enclaves and third places"
       ],
       "correct": 1,
-      "linked_concept_id": "ch14_t11"
+      "linked_concept_id": "ch14_t24"
     },
     {
       "id": 985,
@@ -711,7 +713,8 @@
         "Leisure has evolved from being solely associated with elite classes to becoming more accessible and inclusive across different social classes.",
         "Leisure has always been equally accessible to all social classes.",
         "Leisure has become less popular due to technological advances.",
-        "Leisure activities have shifted more towards indoor activities."
+        "Leisure activities have shifted more towards indoor activities.",
+        "Leisure is limited to specific cultural and demographic groups."
       ],
       "correct": 0,
       "linked_concept_id": "ch14_t01"
@@ -723,7 +726,8 @@
         "Leisure provides individuals with opportunities for rest, relaxation, and personal growth, which contribute to their overall well-being.",
         "Leisure has no impact on individual well-being.",
         "Leisure is solely for entertainment purposes and does not contribute to personal growth.",
-        "Leisure activities can be detrimental to one's mental health."
+        "Leisure activities can be detrimental to one's mental health.",
+        "Leisure is a luxury that only a privileged few can afford."
       ],
       "correct": 0,
       "linked_concept_id": "ch14_t01"
@@ -735,7 +739,8 @@
         "The concept of leisure varies across cultures, influenced by factors such as values, traditions, and societal norms.",
         "The concept of leisure is universally understood and practiced in the same way across all cultures.",
         "Leisure activities are primarily determined by economic factors and are the same in all cultures.",
-        "The concept of leisure is only relevant in Western societies."
+        "The concept of leisure is only relevant in Western societies.",
+        "Leisure activities are dictated by government regulations and policies."
       ],
       "correct": 0,
       "linked_concept_id": "ch14_t01"
@@ -747,7 +752,8 @@
         "Inequitable access to leisure opportunities can perpetuate social inequality, as certain groups may have limited resources or face systemic barriers in participating in recreational activities.",
         "The availability of leisure opportunities has no impact on social inequality.",
         "Leisure opportunities are equally accessible to all social groups.",
-        "Leisure activities contribute to social inequality by promoting exclusivity and elitism."
+        "Leisure activities contribute to social inequality by promoting exclusivity and elitism.",
+        "Government interventions eliminate social inequality in leisure opportunities."
       ],
       "correct": 0,
       "linked_concept_id": "ch14_t01"
@@ -759,70 +765,71 @@
         "Technology has transformed leisure activities by providing new forms of entertainment, enhancing convenience, and enabling virtual social interactions.",
         "Technology has had no impact on leisure activities.",
         "Technology has made leisure activities less enjoyable and less social.",
-        "Technology has led to a decline in leisure activities."
+        "Technology has led to a decline in leisure activities.",
+        "Technology has restricted leisure activities to indoor settings."
       ],
       "correct": 0,
       "linked_concept_id": "ch14_t01"
     },
     {
       "id": 1141,
-      "question": "Which concept contrasts with the 'passive audience' view by arguing that viewers interpret, engage with, and make their own meaning from media messages?",
+      "question": "What is the term used to describe the phenomenon where audience members actively engage with media content by interpreting and making meaning from it?",
       "choices": [
         "Active audience",
         "Interpretive community",
         "Textual poaching",
-        "Hypodermic needle theory"
+        "Passive audience"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t13"
+      "linked_concept_id": "ch14_t21"
     },
     {
       "id": 1142,
-      "question": "A group of feminist scholars all interpret a popular TV show through the lens of gender politics, reading the same scenes as critiques of patriarchy. Their shared way of reading the text makes them an example of which concept?",
+      "question": "Which of the following best describes the role of the audience in media consumption?",
       "choices": [
-        "Interpretive community",
         "Active audience",
-        "Textual poaching",
-        "Taste publics and cultures"
+        "Passive audience",
+        "Interpretive community",
+        "Textual poachers"
       ],
       "correct": 0,
       "linked_concept_id": "ch14_t21"
     },
     {
       "id": 1143,
-      "question": "When fans of a TV show write alternative storylines using the show's characters to explore themes the original creators never intended, this is an example of which concept?",
+      "question": "What is the opposite of a passive audience in the context of media consumption?",
       "choices": [
+        "Active audience",
+        "Interpretive community",
         "Textual poaching",
-        "Polysemy",
-        "Encoding/decoding model",
-        "Reinforcement theory"
+        "Passive audience"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t20"
+      "linked_concept_id": "ch14_t21"
     },
     {
       "id": 1144,
-      "question": "According to the uses and gratifications paradigm, which of the following best describes how audiences relate to media?",
+      "question": "Which term describes the audience's role in interpreting and making meaning from media content?",
       "choices": [
-        "Audiences actively select and use media to fulfill specific personal needs and desires",
-        "Media messages are directly injected into passive viewers",
-        "Media primarily reinforces beliefs people already hold",
-        "Opinion leaders filter media messages before they reach the general public"
+        "Active audience",
+        "Interpretive community",
+        "Textual poaching",
+        "Passive audience"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t16"
+      "linked_concept_id": "ch14_t21"
     },
     {
       "id": 1145,
-      "question": "Stuart Hall's encoding/decoding model suggests that the meaning a viewer takes from a TV program may differ from what the producers intended. This model highlights the idea that:",
+      "question": "What is the term used to describe audience members who are actively engaged in interpreting and making meaning from media content?",
       "choices": [
-        "Producers encode meanings into media texts and audiences may decode them differently",
-        "Media directly injects messages into a passive audience",
-        "Media only reinforces pre-existing beliefs",
-        "Audiences have no role in shaping the meaning of media content"
+        "Active audience",
+        "Interpretive community",
+        "Textual poaching",
+        "Passive audience"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t19"
+      "linked_concept_id": "ch14_t21"
     },
     {
       "id": 1146,
@@ -1086,7 +1093,7 @@
         "Hypodermic needle theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t04"
+      "linked_concept_id": "ch14_t12"
     },
     {
       "id": 1168,
@@ -1110,7 +1117,7 @@
         "Reinforcement theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t04"
+      "linked_concept_id": "ch14_t14"
     },
     {
       "id": 1170,
@@ -1122,7 +1129,7 @@
         "Two-step flow model"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t04"
+      "linked_concept_id": "ch14_t17"
     },
     {
       "id": 1171,
@@ -1138,12 +1145,12 @@
     },
     {
       "id": 1172,
-      "question": "According to the definitions used in your textbook, how does recreation differ from leisure?",
+      "question": "What is the main difference between leisure and recreation?",
       "choices": [
-        "Recreation refers to specific pleasurable activities that are refreshing for body, mind, and spirit, while leisure is the free time in which such activities may occur",
-        "Recreation requires financial resources, whereas leisure does not",
-        "Recreation is a passive process, while leisure is an active engagement",
-        "Recreation can only occur outdoors, while leisure can happen anywhere"
+        "Leisure is a state of mind or attitude towards free time, while recreation refers to the specific activities undertaken during that free time",
+        "Leisure requires financial resources, whereas recreation does not",
+        "Leisure is a broader term that includes recreation",
+        "Recreation is a passive process, while leisure is an active engagement"
       ],
       "correct": 0,
       "linked_concept_id": "ch14_t02"
@@ -1193,29 +1200,29 @@
         "hypodermic needle theory",
         "lifestyle enclaves"
       ],
-      "correct": 2,
+      "correct": 0,
       "linked_concept_id": "ch14_t12"
     },
     {
       "id": 1177,
-      "question": "A single media corporation owns a movie studio, a television network, a publishing house, and a theme park. This business structure is an example of which sociological concept?",
+      "question": "A celebrity endorses a brand of sneakers, and sales of that brand increase significantly. This demonstrates the power of which sociological concept?",
       "choices": [
-        "Conglomeration",
-        "Concentration",
-        "Commodification",
-        "Popular culture"
+        "celebrity influence",
+        "conglomeration",
+        "high culture",
+        "polysemy"
       ],
       "correct": 0,
       "linked_concept_id": "ch14_t05"
     },
     {
       "id": 1178,
-      "question": "A group of fans who all prefer indie folk music form an online community where they share playlists, attend the same festivals, and develop similar fashion styles. This illustrates which sociological concept?",
+      "question": "A TV show portrays a fictional police officer as a role model, leading viewers to admire and emulate the character's behavior. This exemplifies which sociological concept?",
       "choices": [
-        "Taste publics and cultures",
-        "Textual poaching",
-        "Hypodermic needle theory",
-        "Encoding/decoding model"
+        "role model",
+        "commodification",
+        "taste publics and cultures",
+        "concentration"
       ],
       "correct": 0,
       "linked_concept_id": "ch14_t11"
@@ -1230,7 +1237,7 @@
         "Popular culture"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t01"
+      "linked_concept_id": "ch14_t04"
     },
     {
       "id": 1180,
@@ -1320,7 +1327,7 @@
       "id": 1187,
       "question": "Which of the following is NOT a characteristic of leisure activities?",
       "choices": [
-        "Leisure activities must be goal-oriented and externally required.",
+        "Leisure activities are always goal-oriented and require effort.",
         "Leisure activities are voluntary and chosen by individuals.",
         "Leisure activities provide a break from work or other responsibilities.",
         "Leisure activities are typically enjoyable and pleasurable."
@@ -1350,7 +1357,7 @@
         "Lifestyle enclaves"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t22"
+      "linked_concept_id": "ch14_t12"
     },
     {
       "id": 1190,
@@ -1362,7 +1369,7 @@
         "Interpretive strategies"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t19"
+      "linked_concept_id": "ch14_t18"
     },
     {
       "id": 1191,
@@ -1378,7 +1385,7 @@
     },
     {
       "id": 1192,
-      "question": "Which concept describes fans actively reinterpreting and reusing elements from media texts to create their own meanings, closely related to the idea that texts have multiple possible interpretations (polysemy)?",
+      "question": "Which concept is related to polysemy in the context of media studies?",
       "choices": [
         "Textual poaching",
         "Popular culture",
@@ -1386,7 +1393,7 @@
         "Taste publics and cultures"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t20"
+      "linked_concept_id": "ch14_t11"
     },
     {
       "id": 1193,
@@ -1446,7 +1453,7 @@
         "The active audience concept argues that media effects are solely determined by individual psychological factors."
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t13"
+      "linked_concept_id": "ch14_t12"
     },
     {
       "id": 1198,
@@ -1530,7 +1537,7 @@
         "Hypodermic needle theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t04"
+      "linked_concept_id": "ch14_t11"
     },
     {
       "id": 1205,
@@ -1638,7 +1645,7 @@
         "They are primarily focused on economic transactions."
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t09"
+      "linked_concept_id": "ch14_t01"
     },
     {
       "id": 1214,
@@ -1670,7 +1677,7 @@
       "choices": [
         "A local pub",
         "A corporate office",
-        "A private bedroom",
+        "A shopping mall",
         "An airport"
       ],
       "correct": 0,
@@ -1683,10 +1690,10 @@
         "They create opportunities for social support and reduce social isolation.",
         "They promote materialistic values and consumerism.",
         "They facilitate social stratification and exclusion.",
-        "They disrupt traditional family structures."
+        "They disrupt thaditional family structures."
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t09"
+      "linked_concept_id": null
     }
   ]
 }

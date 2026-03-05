@@ -39,7 +39,6 @@
         118,
         119,
         121,
-        127,
         128,
         129,
         130,
@@ -381,7 +380,7 @@
         "d) The extended family primarily performs instrumental tasks, while the nuclear family primarily performs expressive tasks."
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t03"
+      "linked_concept_id": "ch13_t14"
     },
     {
       "id": 115,
@@ -405,7 +404,7 @@
         "c) A first cousin"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t08"
+      "linked_concept_id": "ch13_t03"
     },
     {
       "id": 117,
@@ -417,7 +416,7 @@
         "d) Homogamy strengthens the patriarchal structure of the extended family."
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t09"
+      "linked_concept_id": "ch13_t03"
     },
     {
       "id": 118,
@@ -429,7 +428,7 @@
         "Community"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t02"
+      "linked_concept_id": "ch13_t01"
     },
     {
       "id": 119,
@@ -453,7 +452,7 @@
         "Polygamy"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t10"
+      "linked_concept_id": "ch13_t01"
     },
     {
       "id": 121,
@@ -465,19 +464,79 @@
         "Nuclear family"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t05"
+      "linked_concept_id": "ch13_t06"
+    },
+    {
+      "id": 122,
+      "question": "What is the term used to describe the social and psychological bond between parents and children?",
+      "choices": [
+        "Parent-child relationship",
+        "Sibling relationship",
+        "Friendship",
+        "Romantic relationship"
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 123,
+      "question": "How would a symbolic interactionist analyze the communication between two strangers meeting for the first time?",
+      "choices": [
+        "c) The use of nonverbal cues and gestures to establish rapport and understanding.",
+        "a) The impact of cultural norms on the conversation.",
+        "b) The way social media has changed the way strangers interact.",
+        "d) The potential for conflict and misunderstandings in the conversation."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 124,
+      "question": "Which of the following best represents a symbolic interactionist approach to studying education?",
+      "choices": [
+        "b) Examining the role of teacher expectations on student performance.",
+        "a) Analyzing the impact of government funding on school resources.",
+        "c) Investigating the historical trends in educational attainment.",
+        "d) Exploring the influence of parental involvement on student achievement."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 125,
+      "question": "What would a symbolic interactionist studying sports focus on?",
+      "choices": [
+        "d) The ways in which athletes negotiate and manage their identities.",
+        "a) The impact of sports on physical health and fitness.",
+        "b) The economic aspects of professional sports.",
+        "c) The role of competition in shaping sports culture."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
+    },
+    {
+      "id": 126,
+      "question": "Which of the following is an example of a symbolic interactionist perspective on crime?",
+      "choices": [
+        "a) Examining how labeling affects individuals' engagement in criminal behavior.",
+        "b) Analyzing the social and economic factors that contribute to crime rates.",
+        "c) Investigating the effectiveness of punishment in reducing crime.",
+        "d) Exploring the cultural and historical roots of criminal behavior."
+      ],
+      "correct": 0,
+      "linked_concept_id": null
     },
     {
       "id": 127,
-      "question": "How would a symbolic interactionist analyze the process of identity formation within families?",
+      "question": "How would a symbolic interactionist analyze the process of identity formation?",
       "choices": [
-        "By examining how family members interpret and negotiate societal expectations and roles through everyday interaction.",
-        "By studying the genetic and biological factors that influence identity.",
-        "By analyzing how large-scale social institutions shape identity formation.",
-        "By focusing on the psychological processes involved in self-concept development."
+        "c) How individuals interpret and negotiate societal expectations and norms.",
+        "a) The genetic and biological factors that influence identity.",
+        "b) The impact of cultural and social institutions on identity formation.",
+        "d) The psychological processes involved in self-concept development."
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t02"
+      "linked_concept_id": null
     },
     {
       "id": 128,
@@ -489,7 +548,7 @@
         "Nuclear family"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t05"
+      "linked_concept_id": "ch13_t06"
     },
     {
       "id": 129,
@@ -501,7 +560,7 @@
         "Nuclear family"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t05"
+      "linked_concept_id": "ch13_t06"
     },
     {
       "id": 130,
@@ -513,7 +572,7 @@
         "By allowing individuals to pursue their own interests and aspirations"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t16"
+      "linked_concept_id": "ch13_t02"
     },
     {
       "id": 131,
@@ -529,15 +588,15 @@
     },
     {
       "id": 132,
-      "question": "Which of the following scenarios best illustrates gender inequality reinforced by a sex-based division of labor in the family?",
+      "question": "Which of the following scenarios is an example of mistreatment facilitated by a sex-based division of labor in the family?",
       "choices": [
         "A husband refuses to help with household chores because he believes it is a woman's responsibility.",
         "A family where both partners have equal responsibilities in household chores.",
-        "A family where partners take turns performing various tasks.",
+        "A family where partners take turns in performing various tasks.",
         "A husband who takes on caregiving responsibilities while the wife focuses on paid work."
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t05"
+      "linked_concept_id": "ch13_t02"
     },
     {
       "id": 133,
@@ -573,7 +632,7 @@
         "d) Michelle helps her siblings with their homework."
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t14"
+      "linked_concept_id": "ch13_t02"
     },
     {
       "id": 136,
@@ -609,7 +668,7 @@
         "Polyandry"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t11"
+      "linked_concept_id": "ch13_t10"
     },
     {
       "id": 139,
@@ -621,7 +680,7 @@
         "Polyandry"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t11"
+      "linked_concept_id": "ch13_t10"
     },
     {
       "id": 140,
@@ -657,7 +716,7 @@
         "Arranged marriage"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t11"
+      "linked_concept_id": "ch13_t01"
     },
     {
       "id": 143,
@@ -669,7 +728,7 @@
         "Heterogamy"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t11"
+      "linked_concept_id": "ch13_t10"
     },
     {
       "id": 144,
@@ -681,7 +740,7 @@
         "Arranged marriage"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t11"
+      "linked_concept_id": "ch13_t01"
     },
     {
       "id": 145,
@@ -693,11 +752,11 @@
         "Heterogamy"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t11"
+      "linked_concept_id": "ch13_t10"
     },
     {
       "id": 146,
-      "question": "In a society where individuals are expected to marry someone from outside their own clan or tribal group, they are practicing:",
+      "question": "In a society where individuals are expected to marry someone from a different socioeconomic class, they are practicing:",
       "choices": [
         "Exogamy",
         "Polyandry",
@@ -705,7 +764,7 @@
         "Arranged marriage"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t11"
+      "linked_concept_id": "ch13_t01"
     },
     {
       "id": 147,
@@ -717,7 +776,7 @@
         "The concept of family is the unit that raises children."
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t02"
+      "linked_concept_id": "ch13_t03"
     },
     {
       "id": 148,
@@ -774,7 +833,8 @@
         "Many individuals choose to have children within the context of marriage and prioritize the importance of family values.",
         "The emphasis on marriage and family values has little influence on people's decisions to have children.",
         "Marriage and family values are often disregarded when it comes to decisions about raising children.",
-        "Most people choose not to have children within the context of marriage and prioritize individual freedom over family values."
+        "Most people choose not to have children within the context of marriage and prioritize individual freedom over family values.",
+        "The importance of marriage and family values in American society has decreased significantly, leading to a decline in the desire to have children."
       ],
       "correct": 0,
       "linked_concept_id": "ch13_t01"
@@ -786,10 +846,11 @@
         "American ideology largely promotes the nuclear family as the ideal family structure.",
         "American ideology is mostly indifferent towards the idea of a nuclear family as the ideal family structure.",
         "American ideology emphasizes the importance of extended family structures instead of the nuclear family.",
-        "American ideology rejects the concept of the nuclear family and promotes alternative family structures."
+        "American ideology rejects the concept of the nuclear family and promotes alternative family structures.",
+        "The importance of the nuclear family as the ideal family structure has declined in American ideology."
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t04"
+      "linked_concept_id": "ch13_t03"
     },
     {
       "id": 154,
@@ -798,18 +859,20 @@
         "American ideology often assigns instrumental tasks to men and expressive tasks to women within a family.",
         "American ideology promotes an equal division of labor between men and women within a family.",
         "American ideology does not influence the division of labor within a family.",
-        "American ideology typically assigns expressive tasks to men and instrumental tasks to women within a family."
+        "American ideology typically assigns expressive tasks to men and instrumental tasks to women within a family.",
+        "The division of labor within a family is not influenced by American ideology."
       ],
       "correct": 0,
       "linked_concept_id": "ch13_t14"
     },
     {
       "id": 155,
-      "question": "Which statement best describes the trend regarding cohabitation before marriage in American society?",
+      "question": "To what extent does American society encourage cohabitation before marriage?",
       "choices": [
-        "Cohabitation before marriage has become increasingly accepted in American society.",
+        "American society increasingly encourages cohabitation before marriage.",
         "American society strongly discourages cohabitation before marriage.",
-        "American society is largely indifferent toward the issue of cohabitation before marriage.",
+        "American society is largely indifferent towards the issue of cohabitation before marriage.",
+        "Cohabitation before marriage is not influenced by American society.",
         "American society has always encouraged cohabitation before marriage."
       ],
       "correct": 0,
@@ -822,7 +885,8 @@
         "American ideology promotes the idea that individuals are more likely to form relationships with others who are similar to them in terms of social characteristics.",
         "American ideology discourages individuals from forming relationships with others who are similar to them in terms of social characteristics.",
         "American ideology does not influence the concept of homogamy in partner selection.",
-        "American ideology promotes the idea that individuals are more likely to form relationships with others who are different from them in terms of social characteristics."
+        "American ideology promotes the idea that individuals are more likely to form relationships with others who are different from them in terms of social characteristics.",
+        "The concept of homogamy in partner selection is not influenced by American ideology."
       ],
       "correct": 0,
       "linked_concept_id": "ch13_t09"
@@ -832,12 +896,12 @@
       "question": "What is an example of an instrumental task in a household?",
       "choices": [
         "Taking out the trash",
-        "Offering emotional comfort to a family member",
+        "Cooking dinner",
         "Listening to a family member's problems",
-        "Planning a surprise birthday celebration to lift someone's spirits"
+        "Planning a family vacation"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t14"
+      "linked_concept_id": "ch13_t02"
     },
     {
       "id": 158,
@@ -849,7 +913,7 @@
         "Repairing household appliances"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t15"
+      "linked_concept_id": "ch13_t02"
     },
     {
       "id": 159,
@@ -861,7 +925,7 @@
         "Resolving conflicts"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t14"
+      "linked_concept_id": "ch13_t02"
     },
     {
       "id": 160,
@@ -873,7 +937,7 @@
         "Sharing household responsibilities"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t14"
+      "linked_concept_id": "ch13_t01"
     },
     {
       "id": 161,
@@ -909,7 +973,7 @@
         "Extended family"
       ],
       "correct": 1,
-      "linked_concept_id": "ch13_t05"
+      "linked_concept_id": "ch13_t06"
     },
     {
       "id": 420,
@@ -933,7 +997,7 @@
         "Kin"
       ],
       "correct": 3,
-      "linked_concept_id": "ch13_t07"
+      "linked_concept_id": "ch13_t03"
     },
     {
       "id": 422,
@@ -945,7 +1009,7 @@
         "Nuclear family"
       ],
       "correct": 2,
-      "linked_concept_id": "ch13_t08"
+      "linked_concept_id": "ch13_t03"
     },
     {
       "id": 423,
@@ -957,7 +1021,7 @@
         "Homogamy"
       ],
       "correct": 0,
-      "linked_concept_id": "ch13_t11"
+      "linked_concept_id": "ch13_t12"
     },
     {
       "id": 424,
@@ -981,7 +1045,7 @@
         "Fictive kin"
       ],
       "correct": 2,
-      "linked_concept_id": "ch13_t13"
+      "linked_concept_id": "ch13_t03"
     },
     {
       "id": 426,
@@ -993,7 +1057,7 @@
         "Second shift"
       ],
       "correct": 3,
-      "linked_concept_id": "ch13_t16"
+      "linked_concept_id": "ch13_t14"
     },
     {
       "id": 427,
@@ -1005,7 +1069,7 @@
         "Companionship family"
       ],
       "correct": 2,
-      "linked_concept_id": "ch13_t04"
+      "linked_concept_id": "ch13_t06"
     }
   ]
 }

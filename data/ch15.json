@@ -32,7 +32,6 @@
         873,
         875,
         876,
-        882,
         889,
         891,
         892,
@@ -307,7 +306,7 @@
         "Individual genetic factors"
       ],
       "correct": 0,
-      "linked_concept_id": "ch15_t11"
+      "linked_concept_id": "ch15_t10"
     },
     {
       "id": 398,
@@ -367,7 +366,7 @@
         "Medical care effectiveness"
       ],
       "correct": 2,
-      "linked_concept_id": "ch15_t11"
+      "linked_concept_id": "ch15_t06"
     },
     {
       "id": 403,
@@ -427,7 +426,7 @@
         "symbolic interactionism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch15_t05"
+      "linked_concept_id": "ch15_t06"
     },
     {
       "id": 871,
@@ -487,7 +486,7 @@
         "Cultural competence"
       ],
       "correct": 0,
-      "linked_concept_id": "ch15_t05"
+      "linked_concept_id": "ch15_t07"
     },
     {
       "id": 876,
@@ -499,7 +498,7 @@
         "The impact of socioeconomic status on health outcomes"
       ],
       "correct": 0,
-      "linked_concept_id": "ch15_t09"
+      "linked_concept_id": "ch15_t02"
     },
     {
       "id": 877,
@@ -515,15 +514,15 @@
     },
     {
       "id": 878,
-      "question": "From a sociological perspective, life expectancy at birth varies by race and gender primarily due to:",
+      "question": "Life expectancy at birth can vary based on race and gender due to:",
       "choices": [
-        "Social and environmental factors such as poverty, discrimination, and neighborhood conditions",
-        "Innate biological differences between racial groups",
-        "Individual lifestyle choices alone",
-        "Random chance and statistical error"
+        "Social and environmental factors",
+        "Genetic differences",
+        "Access to healthcare",
+        "Socioeconomic status"
       ],
       "correct": 0,
-      "linked_concept_id": "ch15_t06"
+      "linked_concept_id": null
     },
     {
       "id": 879,
@@ -535,7 +534,7 @@
         "sick role"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch15_t09"
     },
     {
       "id": 880,
@@ -547,7 +546,7 @@
         "sick role"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch15_t09"
     },
     {
       "id": 881,
@@ -559,16 +558,16 @@
         "sick role"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch15_t09"
     },
     {
       "id": 882,
-      "question": "According to Talcott Parsons, when a person is recognized as ill, they are temporarily exempt from normal social responsibilities but are also expected to seek competent help and work toward recovery. This set of expectations is known as the:",
+      "question": "According to the __________ perspective, addiction can be seen as a result of the societal expectations and norms associated with the 'sick role'.",
       "choices": [
         "sick role",
-        "medicalization process",
-        "illness behavior model",
-        "social determinants framework"
+        "structural functionalist",
+        "conflict theory",
+        "symbolic interactionist"
       ],
       "correct": 0,
       "linked_concept_id": "ch15_t09"
@@ -583,7 +582,7 @@
         "sick role"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch15_t09"
     },
     {
       "id": 884,
@@ -631,7 +630,7 @@
         "Social determinants of health"
       ],
       "correct": 0,
-      "linked_concept_id": "ch15_t07"
+      "linked_concept_id": "ch15_t06"
     },
     {
       "id": 888,
@@ -655,7 +654,7 @@
         "cultural competence"
       ],
       "correct": 0,
-      "linked_concept_id": "ch15_t02"
+      "linked_concept_id": "ch15_t07"
     },
     {
       "id": 890,
@@ -745,22 +744,22 @@
       "id": 897,
       "question": "Epidemiologists use various research methods to study the occurrence and spread of diseases. Which of the following is NOT commonly used in epidemiological research?",
       "choices": [
-        "Analyzing literary themes in fiction novels",
+        "Surveying animal behavior",
         "Collecting health data from surveys",
         "Analyzing medical records",
         "Conducting interviews"
       ],
       "correct": 0,
-      "linked_concept_id": "ch15_t04"
+      "linked_concept_id": null
     },
     {
       "id": 898,
-      "question": "A team of researchers is tracking how a new strain of influenza spreads across a metropolitan area by collecting data on infection rates, demographic patterns, and transmission routes. What field of study does this research belong to?",
+      "question": "A team of researchers is studying the relationship between a specific genetic mutation and the prevalence of a certain disease in a population. What field of study does this research belong to?",
       "choices": [
-        "Epidemiology",
-        "Clinical psychology",
-        "Pharmacology",
-        "Genetic counseling"
+        "Genetic epidemiology",
+        "Social epidemiology",
+        "Behavioral epidemiology",
+        "Environmental epidemiology"
       ],
       "correct": 0,
       "linked_concept_id": "ch15_t04"
@@ -775,7 +774,7 @@
         "normalization"
       ],
       "correct": 0,
-      "linked_concept_id": "ch15_t02"
+      "linked_concept_id": "ch15_t03"
     },
     {
       "id": 900,
@@ -787,11 +786,11 @@
         "normalization"
       ],
       "correct": 0,
-      "linked_concept_id": "ch15_t02"
+      "linked_concept_id": "ch15_t03"
     },
     {
       "id": 901,
-      "question": "In 1973, the American Psychiatric Association removed homosexuality from the Diagnostic and Statistical Manual of Mental Disorders (DSM), no longer classifying it as a mental illness. This shift is an example of:",
+      "question": "In the past, being left-handed was often seen as abnormal or undesirable. Today, it is generally accepted as a normal variation in human behavior. This shift in perception is an example of:",
       "choices": [
         "demedicalization",
         "medicalization",
@@ -811,11 +810,11 @@
         "normalization"
       ],
       "correct": 0,
-      "linked_concept_id": "ch15_t02"
+      "linked_concept_id": "ch15_t03"
     },
     {
       "id": 903,
-      "question": "In recent decades, childbirth has increasingly moved from hospitals back to home settings with midwives, and some conditions once treated with medication are now managed through lifestyle changes instead. This trend is an example of:",
+      "question": "In some countries, the use of traditional healing practices, such as herbal remedies and acupuncture, alongside or instead of conventional medicine, is an example of:",
       "choices": [
         "demedicalization",
         "medicalization",
@@ -859,7 +858,7 @@
         "Medicalization and demedicalization are only relevant in developed countries."
       ],
       "correct": 0,
-      "linked_concept_id": "ch15_t02"
+      "linked_concept_id": "ch15_t03"
     },
     {
       "id": 907,
@@ -871,7 +870,7 @@
         "Addressing social determinants of health to reduce health disparities."
       ],
       "correct": 0,
-      "linked_concept_id": "ch15_t02"
+      "linked_concept_id": "ch15_t06"
     },
     {
       "id": 908,
@@ -940,7 +939,8 @@
         "Social determinants of health",
         "Medicalization",
         "Deprivation amplification",
-        "A food desert"
+        "A food desert",
+        "Impression management"
       ],
       "correct": 0,
       "linked_concept_id": "ch15_t06"
@@ -951,11 +951,12 @@
       "choices": [
         "Neighborhood conditions",
         "Genetic factors",
-        "Blood type",
-        "Eye color"
+        "Individual behaviors",
+        "Access to healthcare",
+        "Personal beliefs"
       ],
       "correct": 0,
-      "linked_concept_id": "ch15_t06"
+      "linked_concept_id": null
     },
     {
       "id": 915,
@@ -964,7 +965,8 @@
         "They create unequal opportunities for good health",
         "They have no impact on health disparities",
         "They only affect individuals with certain genetic conditions",
-        "They lead to uniform health outcomes for everyone"
+        "They lead to uniform health outcomes for everyone",
+        "They are purely a result of personal choices"
       ],
       "correct": 0,
       "linked_concept_id": "ch15_t06"
@@ -976,7 +978,8 @@
         "Health insurance status",
         "Personal hygiene",
         "Genetic predisposition to illness",
-        "Individual lifestyle choices"
+        "Individual lifestyle choices",
+        "Availability of over-the-counter medications"
       ],
       "correct": 0,
       "linked_concept_id": null
@@ -1015,7 +1018,7 @@
         "Deprivation amplification"
       ],
       "correct": 0,
-      "linked_concept_id": "ch15_t02"
+      "linked_concept_id": "ch15_t07"
     },
     {
       "id": 920,

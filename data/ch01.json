@@ -83,7 +83,6 @@
       "term": "Sociological Perspective",
       "definition": "Understanding human behavior by placing it within its broader social context",
       "level3_question_ids": [
-        342,
         813,
         838,
         839,
@@ -103,7 +102,8 @@
       "definition": "Disorientation when experiencing an unfamiliar way of life",
       "level3_question_ids": [
         340,
-        341
+        341,
+        342
       ],
       "confusable_ids": [
         "ch01_t26"
@@ -240,7 +240,6 @@
       "definition": "Theory viewing society as a complex system of parts working together",
       "level3_question_ids": [
         381,
-        382,
         828,
         829,
         830,
@@ -337,7 +336,6 @@
       "definition": "A state of normlessness or lack of social norms in society",
       "level3_question_ids": [
         362,
-        365,
         367,
         368,
         369,
@@ -376,7 +374,6 @@
       "definition": "Relating to the enduring patterns and organized relationships that shape society",
       "level3_question_ids": [
         381,
-        382,
         828,
         829,
         830,
@@ -616,7 +613,7 @@
         "Researching historical causes of wars"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t01"
+      "linked_concept_id": "ch01_t03"
     },
     {
       "id": 337,
@@ -640,7 +637,7 @@
         "Sociology uses only qualitative research methods"
       ],
       "correct": 2,
-      "linked_concept_id": "ch01_t01"
+      "linked_concept_id": "ch01_t03"
     },
     {
       "id": 339,
@@ -675,20 +672,20 @@
         "Scientific objectivity",
         "Cultural relativism"
       ],
-      "correct": 3,
-      "linked_concept_id": null
+      "correct": 1,
+      "linked_concept_id": "ch01_t05"
     },
     {
       "id": 342,
       "question": "A sociology student decides to spend a day observing life in a nursing home to better understand aging in America. Despite having visited her grandmother in similar facilities, she finds herself surprised by the complex social hierarchies, informal rules, and daily rituals she hadn't noticed before. What concept does this illustrate?",
       "choices": [
         "Participant observation",
-        "The sociological perspective",
+        "Culture shock",
         "Scientific method",
         "Empathy development"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t04"
+      "linked_concept_id": "ch01_t05"
     },
     {
       "id": 343,
@@ -736,7 +733,7 @@
         "Technology studies"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t08"
+      "linked_concept_id": "ch01_t07"
     },
     {
       "id": 347,
@@ -748,7 +745,7 @@
         "Community psychology"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t08"
+      "linked_concept_id": "ch01_t07"
     },
     {
       "id": 348,
@@ -784,7 +781,7 @@
         "Academic disciplines"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t10"
+      "linked_concept_id": "ch01_t09"
     },
     {
       "id": 351,
@@ -808,7 +805,7 @@
         "Data sources"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t10"
+      "linked_concept_id": "ch01_t01"
     },
     {
       "id": 353,
@@ -832,7 +829,7 @@
         "Geographic locations"
       ],
       "correct": 2,
-      "linked_concept_id": "ch01_t10"
+      "linked_concept_id": "ch01_t01"
     },
     {
       "id": 355,
@@ -844,7 +841,7 @@
         "Postmodernism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t11"
+      "linked_concept_id": "ch01_t25"
     },
     {
       "id": 356,
@@ -868,7 +865,7 @@
         "Symbolic interactionism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t11"
+      "linked_concept_id": "ch01_t26"
     },
     {
       "id": 358,
@@ -880,7 +877,7 @@
         "Symbolic interactionism"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t12"
+      "linked_concept_id": "ch01_t26"
     },
     {
       "id": 359,
@@ -936,7 +933,7 @@
       "choices": [
         "Mechanical solidarity",
         "Organic solidarity",
-        "Cultural relativism",
+        "Collective consciousness",
         "Social integration"
       ],
       "correct": 0,
@@ -952,7 +949,7 @@
         "Urban interdependence"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t16"
+      "linked_concept_id": "ch01_t15"
     },
     {
       "id": 365,
@@ -960,11 +957,11 @@
       "choices": [
         "Organic solidarity",
         "Mechanical solidarity",
-        "Anomie",
+        "Division of labor",
         "Professional hierarchy"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t16"
+      "linked_concept_id": "ch01_t15"
     },
     {
       "id": 366,
@@ -976,7 +973,7 @@
         "Economic relationships"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t16"
+      "linked_concept_id": "ch01_t15"
     },
     {
       "id": 367,
@@ -988,7 +985,7 @@
         "Identity crisis"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t17"
+      "linked_concept_id": "ch01_t02"
     },
     {
       "id": 368,
@@ -1024,7 +1021,7 @@
         "Interpretive sociology"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t18"
+      "linked_concept_id": "ch01_t01"
     },
     {
       "id": 371,
@@ -1060,7 +1057,7 @@
         "Implementation problems"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t21"
+      "linked_concept_id": "ch01_t20"
     },
     {
       "id": 374,
@@ -1072,7 +1069,7 @@
         "Social benefits"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t21"
+      "linked_concept_id": "ch01_t20"
     },
     {
       "id": 375,
@@ -1084,7 +1081,7 @@
         "Social services"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t21"
+      "linked_concept_id": "ch01_t20"
     },
     {
       "id": 376,
@@ -1132,7 +1129,7 @@
         "Social psychology"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t22"
+      "linked_concept_id": "ch01_t26"
     },
     {
       "id": 380,
@@ -1156,13 +1153,13 @@
         "Social exchange theory"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t22"
+      "linked_concept_id": "ch01_t13"
     },
     {
       "id": 382,
       "question": "A study reveals significant disparities in educational funding between wealthy suburban districts and poor urban districts, with the wealthy districts consistently receiving more resources per student. This finding illustrates:",
       "choices": [
-        "Structural functionalism",
+        "Educational inequality",
         "Social inequality",
         "Resource allocation",
         "Policy differences"
@@ -1240,7 +1237,7 @@
         "Political sociology"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t25"
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 389,
@@ -1252,7 +1249,7 @@
         "Communication research"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t25"
+      "linked_concept_id": "ch01_t23"
     },
     {
       "id": 390,
@@ -1324,7 +1321,7 @@
         "By tracing the historical evolution of human behavior patterns across different societies."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t04"
+      "linked_concept_id": "ch01_t02"
     },
     {
       "id": 815,
@@ -1336,7 +1333,7 @@
         "The biological basis of social behavior and the role of genetics."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t01"
+      "linked_concept_id": "ch01_t02"
     },
     {
       "id": 816,
@@ -1372,7 +1369,7 @@
         "Investigating the impact of technological innovations on social change."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t22"
+      "linked_concept_id": "ch01_t02"
     },
     {
       "id": 819,
@@ -1384,7 +1381,7 @@
         "The level of technological development within a society."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t22"
+      "linked_concept_id": "ch01_t02"
     },
     {
       "id": 820,
@@ -1486,10 +1483,10 @@
       "id": 828,
       "question": "A key critique of structural functionalism is its assumption that:",
       "choices": [
-        "Social inequality is a necessary component of a functioning society",
-        "Individual agency is the primary force shaping social structures",
-        "Cultural values and beliefs play little role in maintaining social order",
-        "Micro-level interactions matter more than macro-level structures"
+        "View social inequality as a necessary component of a functioning society.",
+        "Overemphasize the role of individual agency in shaping social structures.",
+        "Neglect the importance of cultural values and beliefs in maintaining social order.",
+        "Focus too heavily on micro-level interactions rather than macro-level structures."
       ],
       "correct": 0,
       "linked_concept_id": "ch01_t13"
@@ -1528,7 +1525,7 @@
         "By focusing on the unintended consequences of institutional actions."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t22"
+      "linked_concept_id": "ch01_t19"
     },
     {
       "id": 832,
@@ -1612,7 +1609,7 @@
         "Postmodernism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t13"
+      "linked_concept_id": "ch01_t04"
     },
     {
       "id": 839,
@@ -1624,7 +1621,7 @@
         "Phenomenology"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t13"
+      "linked_concept_id": "ch01_t04"
     },
     {
       "id": 840,
@@ -1636,7 +1633,7 @@
         "Postmodernism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t16"
+      "linked_concept_id": "ch01_t26"
     },
     {
       "id": 841,
@@ -1648,7 +1645,7 @@
         "Feminist theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t22"
+      "linked_concept_id": "ch01_t13"
     },
     {
       "id": 842,
@@ -1660,43 +1657,43 @@
         "Phenomenology"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t22"
+      "linked_concept_id": "ch01_t04"
     },
     {
       "id": 843,
       "question": "Which scenario best exemplifies a latent function of a high school football team?",
       "choices": [
-        "Creating social networking opportunities that lead to future business connections among parents",
-        "Fielding a competitive team to win games against rival schools",
-        "Developing physical fitness and athletic skills in players",
-        "Teaching strategic thinking and teamwork to players and coaches"
+        "Fostering a sense of school unity and community spirit among students.",
+        "Providing entertainment and leisure for spectators at games.",
+        "Developing physical fitness and athletic skills in players.",
+        "Teaching strategic thinking and teamwork to players and coaches."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t21"
+      "linked_concept_id": null
     },
     {
       "id": 844,
       "question": "Which of the following BEST illustrates a latent function of frequenting a local coffee shop?",
       "choices": [
-        "Providing a space for informal social interaction and community building",
-        "Offering a convenient location to purchase caffeinated beverages",
-        "Displaying the menu of available drinks and food items",
-        "Generating revenue for the business owner"
+        "Providing a space for informal social interaction and community building.",
+        "Offering a convenient location to purchase caffeinated beverages.",
+        "Supporting local businesses and contributing to the economy.",
+        "Providing a comfortable environment for studying or working remotely."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t21"
+      "linked_concept_id": null
     },
     {
       "id": 845,
       "question": "Which of the following is a latent function of online social media platforms?",
       "choices": [
-        "Facilitating the spread of social movements and political mobilization",
-        "Allowing individuals to connect with friends and family members",
-        "Enabling businesses to advertise products and services to consumers",
-        "Providing a platform for sharing personal updates and experiences"
+        "Facilitating the spread of social movements and political mobilization.",
+        "Allowing individuals to connect with friends and family members.",
+        "Enabling businesses to advertise products and services to consumers.",
+        "Providing a platform for sharing personal updates and experiences."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t21"
+      "linked_concept_id": null
     },
     {
       "id": 846,
@@ -1720,7 +1717,7 @@
         "Anomie"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t16"
+      "linked_concept_id": "ch01_t15"
     },
     {
       "id": 848,
@@ -1756,7 +1753,7 @@
         "Collective effervescence to individualism."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t16"
+      "linked_concept_id": "ch01_t15"
     },
     {
       "id": 851,
@@ -1792,7 +1789,7 @@
         "Postmodernist perspective"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t07"
+      "linked_concept_id": "ch01_t19"
     },
     {
       "id": 854,
@@ -1816,7 +1813,7 @@
         "Psychological analysis"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t08"
+      "linked_concept_id": "ch01_t02"
     },
     {
       "id": 856,

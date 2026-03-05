@@ -144,7 +144,6 @@
       "term": "Primary Deviance",
       "definition": "Initial acts of rule-breaking before a person is publicly labeled as deviant",
       "level3_question_ids": [
-        192,
         193,
         195,
         196,
@@ -491,7 +490,7 @@
         "The legal system prioritizes rehabilitation over punishment"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t01"
+      "linked_concept_id": "ch06_t20"
     },
     {
       "id": 12,
@@ -503,7 +502,7 @@
         "Actions that threaten the economic stability of society"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t01"
+      "linked_concept_id": "ch06_t15"
     },
     {
       "id": 13,
@@ -659,7 +658,7 @@
         "Labeling theory"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch06_t05"
     },
     {
       "id": 167,
@@ -891,7 +890,7 @@
     },
     {
       "id": 186,
-      "question": "A company that previously refused to hire people with visible tattoos reverses its policy and begins welcoming tattooed employees. What does this change reveal about stigma?",
+      "question": "What does a nightclub's removal of age restrictions reveal about stigma?",
       "choices": [
         "Stigmatized identities can transition over time",
         "Stigma only exists in financial contexts",
@@ -911,7 +910,7 @@
         "Functional Theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t04"
+      "linked_concept_id": "ch06_t19"
     },
     {
       "id": 188,
@@ -923,7 +922,7 @@
         "Conformity Theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t04"
+      "linked_concept_id": "ch06_t19"
     },
     {
       "id": 189,
@@ -935,7 +934,7 @@
         "Labeling Theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t04"
+      "linked_concept_id": "ch06_t05"
     },
     {
       "id": 190,
@@ -947,7 +946,7 @@
         "Anomie Theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t04"
+      "linked_concept_id": "ch06_t03"
     },
     {
       "id": 191,
@@ -959,18 +958,18 @@
         "Deterrence Theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t04"
+      "linked_concept_id": "ch06_t19"
     },
     {
       "id": 192,
-      "question": "When a manager accused Shawn of being slow and lazy, he began working less productively to match this label. Shawn's changed behavior after being labeled is an example of:",
+      "question": "When a manager accused Shawn of being slow and lazy, he began working less productively to match this label. The manager's initial accusation is an example of:",
       "choices": [
-        "primary deviance",
+        "a self-fulfilling prophecy",
         "an ascribed status",
         "leading by example",
         "secondary deviance"
       ],
-      "correct": 3,
+      "correct": 0,
       "linked_concept_id": "ch06_t07"
     },
     {
@@ -995,7 +994,7 @@
         "a stigma"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t05"
+      "linked_concept_id": "ch06_t07"
     },
     {
       "id": 195,
@@ -1019,7 +1018,7 @@
         "tertiary deviation"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch06_t06"
     },
     {
       "id": 197,
@@ -1043,7 +1042,7 @@
         "assimilation"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t11"
+      "linked_concept_id": "ch06_t01"
     },
     {
       "id": 199,
@@ -1091,7 +1090,7 @@
         "Media glorification promotes deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t02"
+      "linked_concept_id": "ch06_t01"
     },
     {
       "id": 203,
@@ -1103,7 +1102,7 @@
         "Media influences encourage deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t02"
+      "linked_concept_id": "ch06_t01"
     },
     {
       "id": 204,
@@ -1115,7 +1114,7 @@
         "Media influence on behavior"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t02"
+      "linked_concept_id": "ch06_t01"
     },
     {
       "id": 205,
@@ -1127,7 +1126,7 @@
         "Media glorification encourages deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t02"
+      "linked_concept_id": "ch06_t01"
     },
     {
       "id": 206,
@@ -1139,7 +1138,7 @@
         "Media promotion increases deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t02"
+      "linked_concept_id": "ch06_t01"
     },
     {
       "id": 207,
@@ -1155,15 +1154,15 @@
     },
     {
       "id": 208,
-      "question": "Which sociologist specifically distinguished between the intended (manifest) and unintended (latent) consequences of social policies and institutions?",
+      "question": "Who would likely identify both intended and unintended consequences of a social policy?",
       "choices": [
-        "Robert Merton",
-        "Karl Marx",
-        "Max Weber",
-        "Emile Durkheim"
+        "follower of Robert Merton",
+        "conflict theorist",
+        "functionalist",
+        "symbolic interactionist"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t02"
+      "linked_concept_id": null
     },
     {
       "id": 209,
@@ -1463,7 +1462,7 @@
         "Positive deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t06"
+      "linked_concept_id": "ch06_t07"
     },
     {
       "id": 314,
@@ -1487,7 +1486,7 @@
         "Positive deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t06"
+      "linked_concept_id": "ch06_t07"
     },
     {
       "id": 316,
@@ -1499,7 +1498,7 @@
         "Positive deviance"
       ],
       "correct": 2,
-      "linked_concept_id": "ch06_t08"
+      "linked_concept_id": "ch06_t07"
     },
     {
       "id": 317,
@@ -1511,7 +1510,7 @@
         "Passing"
       ],
       "correct": 1,
-      "linked_concept_id": "ch06_t08"
+      "linked_concept_id": "ch06_t07"
     },
     {
       "id": 318,
@@ -1523,7 +1522,7 @@
         "In-group orientation"
       ],
       "correct": 2,
-      "linked_concept_id": "ch06_t08"
+      "linked_concept_id": "ch06_t13"
     },
     {
       "id": 319,
@@ -1535,7 +1534,7 @@
         "Labeling theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t09"
+      "linked_concept_id": "ch06_t10"
     },
     {
       "id": 320,
@@ -1547,7 +1546,7 @@
         "Differential association"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t09"
+      "linked_concept_id": "ch06_t07"
     },
     {
       "id": 321,
@@ -1559,7 +1558,7 @@
         "Positive deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t09"
+      "linked_concept_id": "ch06_t10"
     },
     {
       "id": 322,
@@ -1595,7 +1594,7 @@
         "Self-fulfilling prophecy"
       ],
       "correct": 1,
-      "linked_concept_id": "ch06_t10"
+      "linked_concept_id": "ch06_t07"
     },
     {
       "id": 325,
@@ -1607,7 +1606,7 @@
         "Tertiary deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t12"
+      "linked_concept_id": "ch06_t13"
     },
     {
       "id": 326,
@@ -1619,7 +1618,7 @@
         "Secondary deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t12"
+      "linked_concept_id": "ch06_t13"
     },
     {
       "id": 327,
@@ -1631,7 +1630,7 @@
         "Tertiary deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t12"
+      "linked_concept_id": "ch06_t13"
     },
     {
       "id": 328,
@@ -1679,7 +1678,7 @@
         "Deviance avowal"
       ],
       "correct": 3,
-      "linked_concept_id": "ch06_t14"
+      "linked_concept_id": "ch06_t07"
     },
     {
       "id": 332,
@@ -1691,7 +1690,7 @@
         "In-group orientation"
       ],
       "correct": 2,
-      "linked_concept_id": "ch06_t14"
+      "linked_concept_id": "ch06_t13"
     },
     {
       "id": 333,
@@ -1703,7 +1702,7 @@
         "Stereotype threat"
       ],
       "correct": 2,
-      "linked_concept_id": "ch06_t14"
+      "linked_concept_id": "ch06_t07"
     }
   ]
 }
