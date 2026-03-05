@@ -13,10 +13,8 @@
         77,
         78,
         79,
-        96,
-        97,
-        98,
-        99
+        95,
+        100
       ],
       "confusable_ids": [
         "ch05_t04",
@@ -109,8 +107,10 @@
         62,
         63,
         64,
-        100,
-        101
+        101,
+        102,
+        648,
+        1508
       ],
       "confusable_ids": [
         "ch05_t05",
@@ -123,15 +123,12 @@
       "term": "Social Network",
       "definition": "Web of social relationships that connect individuals to one another",
       "level3_question_ids": [
-        65,
-        66,
-        67,
-        68,
-        69,
         70,
         71,
+        72,
         73,
         74,
+        96,
         102,
         106,
         107,
@@ -155,9 +152,7 @@
         66,
         67,
         68,
-        69,
-        107,
-        108
+        69
       ],
       "confusable_ids": [
         "ch05_t03",
@@ -172,7 +167,6 @@
       "term": "Strong Ties",
       "definition": "Close relationships characterized by frequent interaction and emotional intensity",
       "level3_question_ids": [
-        72,
         649
       ],
       "confusable_ids": [
@@ -227,22 +221,22 @@
       "term": "Group Dynamics",
       "definition": "Patterns of interaction and relationships within a group",
       "level3_question_ids": [
-        70,
-        73,
+        75,
         76,
         77,
+        78,
         79,
         87,
-        95,
-        100,
-        106,
+        90,
         109,
         110,
         281,
         285,
+        650,
         652,
         654,
-        656
+        656,
+        1507
       ],
       "confusable_ids": [
         "ch05_t15",
@@ -257,9 +251,6 @@
       "term": "In-group",
       "definition": "Group to which a person belongs and feels loyal",
       "level3_question_ids": [
-        75,
-        78,
-        103,
         105,
         286,
         287,
@@ -316,6 +307,7 @@
       "term": "Groupthink",
       "definition": "Pattern of thought characterized by self-deception, forced manufacture of consent, and conformity",
       "level3_question_ids": [
+        109,
         111,
         285,
         291,
@@ -334,6 +326,11 @@
       "term": "Social Influence",
       "definition": "Ways in which people affect the thoughts, feelings, and behaviors of others",
       "level3_question_ids": [
+        65,
+        66,
+        67,
+        68,
+        69,
         90,
         91,
         92,
@@ -344,8 +341,10 @@
         111,
         112,
         284,
-        289,
-        653
+        293,
+        653,
+        654,
+        1507
       ],
       "confusable_ids": [
         "ch05_t08",
@@ -404,8 +403,10 @@
         92,
         93,
         94,
-        109,
-        289
+        289,
+        655,
+        1506,
+        1508
       ],
       "confusable_ids": [
         "ch05_t21",
@@ -419,9 +420,7 @@
       "id": "ch05_t21",
       "term": "Coercive Power",
       "definition": "Power based on the ability to punish or threaten others",
-      "level3_question_ids": [
-        109
-      ],
+      "level3_question_ids": [],
       "confusable_ids": [
         "ch05_t25",
         "ch05_t20",
@@ -455,7 +454,11 @@
       "id": "ch05_t23",
       "term": "Expert Power",
       "definition": "Power based on specialized knowledge or skills",
-      "level3_question_ids": [],
+      "level3_question_ids": [
+        1506,
+        1507,
+        1508
+      ],
       "confusable_ids": [
         "ch05_t24",
         "ch05_t21",
@@ -503,6 +506,7 @@
       "term": "Instrumental Leadership",
       "definition": "Leadership focused on accomplishing tasks and reaching goals",
       "level3_question_ids": [
+        289,
         659
       ],
       "confusable_ids": [
@@ -760,7 +764,7 @@
         "social conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t01"
     },
     {
       "id": 76,
@@ -772,7 +776,7 @@
         "social conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t01"
     },
     {
       "id": 77,
@@ -784,7 +788,7 @@
         "conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t01"
     },
     {
       "id": 78,
@@ -796,7 +800,7 @@
         "conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t01"
     },
     {
       "id": 79,
@@ -808,7 +812,7 @@
         "conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t06"
     },
     {
       "id": 80,
@@ -1000,7 +1004,7 @@
         "conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t19"
     },
     {
       "id": 96,
@@ -1456,7 +1460,7 @@
         "The formation of in-groups and out-groups"
       ],
       "correct": 2,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t12"
     },
     {
       "id": 655,
@@ -1468,7 +1472,7 @@
         "Coercive power backed by threats"
       ],
       "correct": 2,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t24"
     },
     {
       "id": 656,
@@ -1517,6 +1521,42 @@
       ],
       "correct": 0,
       "linked_concept_id": "ch05_t26"
+    },
+    {
+      "id": 1506,
+      "question": "A hospital implements a new electronic health records system. The IT director who designed and understands the system's architecture is able to influence hospital policy decisions even when other administrators disagree with her recommendations. Which type of power is the IT director exercising?",
+      "choices": [
+        "Coercive power, because she can prevent others from accessing patient data",
+        "Expert power, because her specialized knowledge of the system makes her recommendations valuable",
+        "Legitimate power, because she holds an official administrative position",
+        "Referent power, because other staff members want to be like her"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch05_t23"
+    },
+    {
+      "id": 1507,
+      "question": "A community group is debating whether to adopt new environmental practices. A member who has a PhD in environmental science and 15 years of field experience provides data-backed arguments. While she holds no official leadership position, the group consistently follows her suggestions. However, if the group later discovers her research contains serious flaws, they would likely stop following her recommendations. What does this scenario best illustrate about expert power?",
+      "choices": [
+        "Expert power is permanent and cannot be lost once established",
+        "Expert power depends on the credibility of the knowledge being demonstrated",
+        "Expert power is identical to legitimate authority in organizational settings",
+        "Expert power requires formal credentials and official titles to be effective"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch05_t23"
+    },
+    {
+      "id": 1508,
+      "question": "A software company is hiring a new team lead. Candidate A has worked there for five years and knows many employees personally. Candidate B is a renowned software architect with rare expertise in artificial intelligence systems that the company desperately needs to develop. If the company chooses Candidate B despite her being new to the organization, which power source is most likely influencing this decision?",
+      "choices": [
+        "Referent power, because Candidate B is more likeable",
+        "Reward power, because Candidate B can give bonuses to employees",
+        "Expert power, because Candidate B's specialized knowledge is valuable to organizational goals",
+        "Legitimate power, because Candidate B has the formal authority to make decisions"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch05_t23"
     }
   ]
 }

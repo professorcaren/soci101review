@@ -10,6 +10,7 @@
       "level3_question_ids": [
         524,
         525,
+        530,
         532,
         533,
         534,
@@ -22,9 +23,12 @@
         1054,
         1055,
         1056,
+        1057,
         1058,
         1059,
         1060,
+        1061,
+        1063,
         1064,
         1065,
         1066,
@@ -46,22 +50,22 @@
       "definition": "Unequal distribution of resources, opportunities, and privileges within a society",
       "level3_question_ids": [
         525,
+        526,
         527,
         529,
         530,
+        531,
         534,
+        541,
         547,
-        549,
-        1004,
-        1026,
+        548,
+        1020,
         1051,
-        1052,
         1054,
         1056,
         1057,
         1058,
         1060,
-        1063,
         1065,
         1067,
         1068,
@@ -112,10 +116,15 @@
       "term": "Social Class",
       "definition": "A division of society based on economic, social, and cultural factors such as income, education, and occupation",
       "level3_question_ids": [
+        532,
+        533,
         549,
         550,
-        553,
+        554,
         555,
+        1006,
+        1023,
+        1027,
         1059,
         1061,
         1063
@@ -135,12 +144,13 @@
       "level3_question_ids": [
         527,
         528,
-        531,
         544,
+        548,
         1003,
         1004,
         1029,
-        1062
+        1062,
+        1063
       ],
       "confusable_ids": [
         "ch07_t05",
@@ -177,8 +187,7 @@
         533,
         534,
         538,
-        540,
-        1032
+        540
       ],
       "confusable_ids": [
         "ch07_t05",
@@ -230,8 +239,6 @@
       "term": "Wealth",
       "definition": "The total value of an individual's or household's assets, including property, investments, and savings",
       "level3_question_ids": [
-        1049,
-        1061,
         1062
       ],
       "confusable_ids": [
@@ -247,10 +254,8 @@
       "term": "Prestige",
       "definition": "Social honor or respect granted to an individual based on their status, achievements, or occupation",
       "level3_question_ids": [
-        533,
-        1005,
-        1057,
-        1061,
+        1004,
+        1062,
         1066
       ],
       "confusable_ids": [
@@ -268,8 +273,9 @@
       "level3_question_ids": [
         527,
         539,
-        548,
+        1003,
         1004,
+        1005,
         1043,
         1044,
         1045,
@@ -293,9 +299,11 @@
       "definition": "The transmission of social and economic inequalities from one generation to the next",
       "level3_question_ids": [
         528,
-        548,
         1003,
+        1026,
+        1045,
         1046,
+        1047,
         1050
       ],
       "confusable_ids": [
@@ -313,11 +321,7 @@
       "level3_question_ids": [
         538,
         539,
-        540,
-        547,
-        550,
-        552,
-        1006
+        540
       ],
       "confusable_ids": [
         "ch07_t29",
@@ -332,8 +336,9 @@
       "term": "Social Mobility",
       "definition": "The movement of individuals or groups within a social hierarchy, either upward or downward",
       "level3_question_ids": [
-        551,
+        553,
         554,
+        555,
         1003,
         1026,
         1031,
@@ -341,6 +346,7 @@
         1033,
         1034,
         1035,
+        1036,
         1037,
         1038,
         1039,
@@ -351,7 +357,6 @@
         1047,
         1048,
         1049,
-        1055,
         1070,
         1071,
         1073,
@@ -371,7 +376,9 @@
       "term": "Closed System",
       "definition": "A system of stratification where social mobility is highly restricted, often based on ascribed status",
       "level3_question_ids": [
+        524,
         536,
+        1055,
         1070,
         1072
       ],
@@ -441,7 +448,7 @@
       "term": "Income",
       "definition": "The flow of money or monetary resources received over a period of time through wages, investments, or other sources",
       "level3_question_ids": [
-        544,
+        1049,
         1057,
         1062
       ],
@@ -474,7 +481,7 @@
       "term": "Relative Deprivation",
       "definition": "The subjective feeling of lacking resources or opportunities compared to others in society",
       "level3_question_ids": [
-        545,
+        542,
         1015,
         1016,
         1020,
@@ -500,11 +507,12 @@
         545,
         546,
         1014,
+        1015,
         1017,
         1018,
         1019,
-        1020,
-        1021
+        1021,
+        1052
       ],
       "confusable_ids": [
         "ch07_t23"
@@ -515,10 +523,11 @@
       "term": "Federal Poverty Line",
       "definition": "An income threshold set by the U.S. government to determine eligibility for social assistance programs",
       "level3_question_ids": [
-        541,
+        543,
         544,
         545,
         546,
+        1017,
         1018,
         1019,
         1021
@@ -575,6 +584,7 @@
       "definition": "The tendency to choose romantic partners who are similar in social background, such as class, religion, or education.",
       "level3_question_ids": [
         550,
+        551,
         552,
         1022,
         1023,
@@ -1045,7 +1055,7 @@
         "She lacks authenticity and is being deliberately deceptive about her true personality"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch07_t13"
     },
     {
       "id": 1006,
@@ -1057,7 +1067,7 @@
         "Professional training fails to prepare employees for real workplace challenges"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch07_t05"
     },
     {
       "id": 1014,
@@ -1717,7 +1727,7 @@
         "Stratification represents a moral failure that societies must actively work to overcome"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch07_t01"
     },
     {
       "id": 1069,
@@ -1729,7 +1739,7 @@
         "Functional necessity of having various socioeconomic levels in complex societies"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch07_t02"
     },
     {
       "id": 1070,

@@ -8,7 +8,8 @@
       "term": "Marriage",
       "definition": "A legally or socially sanctioned union, typically between two individuals, regulating sexual and economic rights and obligations.",
       "level3_question_ids": [
-        152
+        152,
+        424
       ],
       "confusable_ids": [
         "ch13_t16",
@@ -24,15 +25,13 @@
         118,
         119,
         122,
+        135,
         147,
         148,
         149,
         150,
         151,
         152,
-        419,
-        420,
-        422,
         425,
         427
       ],
@@ -55,7 +54,6 @@
         116,
         117,
         147,
-        148,
         150,
         418
       ],
@@ -74,7 +72,6 @@
       "level3_question_ids": [
         113,
         114,
-        122,
         147,
         148,
         150,
@@ -98,6 +95,7 @@
         128,
         129,
         130,
+        131,
         132,
         419
       ],
@@ -114,7 +112,7 @@
       "term": "Companionship Family",
       "definition": "Family structure based on mutual affection, shared decision-making, and emotional bonds between spouses.",
       "level3_question_ids": [
-        150,
+        127,
         420
       ],
       "confusable_ids": [
@@ -130,7 +128,8 @@
       "term": "Kin",
       "definition": "One's relatives; individuals related by blood (consanguineal) or marriage (affinal).",
       "level3_question_ids": [
-        421
+        421,
+        422
       ],
       "confusable_ids": [
         "ch13_t08",
@@ -162,9 +161,9 @@
       "definition": "The tendency to marry or partner with someone possessing similar social characteristics (e.g., race, class, religion).",
       "level3_question_ids": [
         117,
-        143,
         146,
-        156
+        156,
+        423
       ],
       "confusable_ids": [
         "ch13_t12",
@@ -180,9 +179,7 @@
       "level3_question_ids": [
         120,
         140,
-        141,
-        144,
-        145
+        141
       ],
       "confusable_ids": [
         "ch13_t11",
@@ -217,6 +214,7 @@
       "definition": "Nearness in physical space; a factor influencing relationship formation (marrying someone nearby).",
       "level3_question_ids": [
         113,
+        123,
         424
       ],
       "confusable_ids": [
@@ -246,7 +244,6 @@
       "definition": "Practical, goal-oriented tasks needed for family maintenance (e.g., earning income, fixing things).",
       "level3_question_ids": [
         128,
-        130,
         131,
         132,
         133,
@@ -273,9 +270,7 @@
       "definition": "Tasks focused on maintaining emotional relationships, socialization, and support within the family.",
       "level3_question_ids": [
         115,
-        119,
         128,
-        130,
         131,
         132,
         134,
@@ -298,6 +293,7 @@
       "term": "Second Shift",
       "definition": "The unpaid housework and childcare performed by individuals (typically women) after finishing their paid workday.",
       "level3_question_ids": [
+        130,
         426
       ],
       "confusable_ids": [
@@ -426,7 +422,7 @@
         "Romantic relationship"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch13_t02"
     },
     {
       "id": 123,
@@ -438,43 +434,7 @@
         "d) The potential for conflict and misunderstandings in the conversation."
       ],
       "correct": 0,
-      "linked_concept_id": null
-    },
-    {
-      "id": 124,
-      "question": "Which of the following best represents a symbolic interactionist approach to studying education?",
-      "choices": [
-        "b) Examining the role of teacher expectations on student performance.",
-        "a) Analyzing the impact of government funding on school resources.",
-        "c) Investigating the historical trends in educational attainment.",
-        "d) Exploring the influence of parental involvement on student achievement."
-      ],
-      "correct": 0,
-      "linked_concept_id": null
-    },
-    {
-      "id": 125,
-      "question": "What would a symbolic interactionist studying sports focus on?",
-      "choices": [
-        "d) The ways in which athletes negotiate and manage their identities.",
-        "a) The impact of sports on physical health and fitness.",
-        "b) The economic aspects of professional sports.",
-        "c) The role of competition in shaping sports culture."
-      ],
-      "correct": 0,
-      "linked_concept_id": null
-    },
-    {
-      "id": 126,
-      "question": "Which of the following is an example of a symbolic interactionist perspective on crime?",
-      "choices": [
-        "a) Examining how labeling affects individuals' engagement in criminal behavior.",
-        "b) Analyzing the social and economic factors that contribute to crime rates.",
-        "c) Investigating the effectiveness of punishment in reducing crime.",
-        "d) Exploring the cultural and historical roots of criminal behavior."
-      ],
-      "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch13_t12"
     },
     {
       "id": 127,
@@ -486,7 +446,7 @@
         "d) The psychological processes involved in self-concept development."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch13_t06"
     },
     {
       "id": 128,

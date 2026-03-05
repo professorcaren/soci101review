@@ -9,8 +9,7 @@
       "definition": "Any institutionalized system of shared beliefs and rituals that identify a relationship between the sacred and the profane",
       "level3_question_ids": [
         294,
-        302,
-        306
+        302
       ],
       "confusable_ids": [
         "ch10_t15",
@@ -184,19 +183,6 @@
         "ch10_t15",
         "ch10_t05",
         "ch10_t04",
-        "ch10_t01"
-      ]
-    },
-    {
-      "id": "ch10_t13",
-      "term": "Religiosity",
-      "definition": "The regular practice of religious beliefs, often measured in terms of frequency of attendance at worship services and the importance of religious beliefs to an individual",
-      "level3_question_ids": [],
-      "confusable_ids": [
-        "ch10_t05",
-        "ch10_t04",
-        "ch10_t11",
-        "ch10_t15",
         "ch10_t01"
       ]
     },

@@ -13,10 +13,13 @@
         336,
         338,
         339,
-        343,
-        346,
+        356,
         372,
-        813
+        852,
+        853,
+        854,
+        855,
+        856
       ],
       "confusable_ids": [
         "ch01_t03",
@@ -31,7 +34,10 @@
       "term": "Society",
       "definition": "A group of people who share a culture and territory",
       "level3_question_ids": [
-        833
+        363,
+        369,
+        834,
+        836
       ],
       "confusable_ids": [
         "ch01_t14"
@@ -65,8 +71,9 @@
         342,
         349,
         352,
+        354,
+        367,
         382,
-        384,
         813,
         814,
         815,
@@ -77,7 +84,10 @@
         825,
         826,
         827,
+        833,
+        835,
         837,
+        857,
         858,
         859,
         860
@@ -108,7 +118,6 @@
       "term": "Sociological Imagination",
       "definition": "The ability to connect individual experiences to larger social forces",
       "level3_question_ids": [
-        347,
         814,
         816,
         823,
@@ -117,7 +126,8 @@
         826,
         827,
         857,
-        858
+        858,
+        860
       ],
       "confusable_ids": [
         "ch01_t04",
@@ -156,8 +166,8 @@
         347,
         348,
         815,
-        817,
         822,
+        829,
         838,
         852,
         855,
@@ -182,9 +192,8 @@
         350,
         351,
         353,
-        354,
-        370,
-        829
+        355,
+        839
       ],
       "confusable_ids": [
         "ch01_t08",
@@ -204,10 +213,7 @@
         350,
         352,
         353,
-        354,
-        355,
-        356,
-        358
+        354
       ],
       "confusable_ids": [
         "ch01_t08",
@@ -225,7 +231,6 @@
         355,
         356,
         357,
-        360,
         370,
         371
       ],
@@ -259,11 +264,12 @@
       "term": "Structural Functionalism",
       "definition": "Theory viewing society as a complex system of parts working together",
       "level3_question_ids": [
-        361,
+        358,
         362,
         364,
         365,
-        367,
+        366,
+        368,
         373,
         374,
         375,
@@ -280,9 +286,6 @@
         839,
         840,
         841,
-        843,
-        844,
-        845,
         847,
         849,
         850,
@@ -302,13 +305,6 @@
       "definition": "Unity or agreement of feeling or action within a group",
       "level3_question_ids": [
         361,
-        362,
-        363,
-        364,
-        366,
-        368,
-        369,
-        834,
         846,
         848
       ],
@@ -398,19 +394,6 @@
       ]
     },
     {
-      "id": "ch01_t19",
-      "term": "Structural",
-      "definition": "Relating to the enduring patterns and organized relationships that shape society",
-      "level3_question_ids": [],
-      "confusable_ids": [
-        "ch01_t13",
-        "ch01_t01",
-        "ch01_t03",
-        "ch01_t20",
-        "ch01_t21"
-      ]
-    },
-    {
       "id": "ch01_t20",
       "term": "Manifest Functions",
       "definition": "Intended and recognized consequences of social patterns",
@@ -418,7 +401,10 @@
         376,
         377,
         378,
-        839
+        843,
+        844,
+        845,
+        846
       ],
       "confusable_ids": [
         "ch01_t21",
@@ -455,11 +441,11 @@
       "definition": "Perspective focusing on social, political, and material inequality",
       "level3_question_ids": [
         227,
-        350,
         379,
         380,
         381,
         383,
+        384,
         385,
         386,
         387,
@@ -475,7 +461,8 @@
         831,
         832,
         841,
-        842
+        842,
+        859
       ],
       "confusable_ids": [
         "ch01_t25",
@@ -492,6 +479,7 @@
       "level3_question_ids": [
         227,
         359,
+        360,
         379,
         380,
         381,
@@ -558,8 +546,6 @@
       "term": "Symbolic Interactionism",
       "definition": "Theory focusing on meaning and interaction in social life",
       "level3_question_ids": [
-        344,
-        350,
         833,
         834,
         835,
@@ -581,8 +567,7 @@
       "level3_question_ids": [
         391,
         392,
-        393,
-        836
+        393
       ],
       "confusable_ids": [
         "ch01_t20",

@@ -15,10 +15,13 @@
             336,
             338,
             339,
-            343,
-            346,
+            356,
             372,
-            813
+            852,
+            853,
+            854,
+            855,
+            856
           ],
           "confusable_ids": [
             "ch01_t03",
@@ -33,7 +36,10 @@
           "term": "Society",
           "definition": "A group of people who share a culture and territory",
           "level3_question_ids": [
-            833
+            363,
+            369,
+            834,
+            836
           ],
           "confusable_ids": [
             "ch01_t14"
@@ -67,8 +73,9 @@
             342,
             349,
             352,
+            354,
+            367,
             382,
-            384,
             813,
             814,
             815,
@@ -79,7 +86,10 @@
             825,
             826,
             827,
+            833,
+            835,
             837,
+            857,
             858,
             859,
             860
@@ -110,7 +120,6 @@
           "term": "Sociological Imagination",
           "definition": "The ability to connect individual experiences to larger social forces",
           "level3_question_ids": [
-            347,
             814,
             816,
             823,
@@ -119,7 +128,8 @@
             826,
             827,
             857,
-            858
+            858,
+            860
           ],
           "confusable_ids": [
             "ch01_t04",
@@ -158,8 +168,8 @@
             347,
             348,
             815,
-            817,
             822,
+            829,
             838,
             852,
             855,
@@ -184,9 +194,8 @@
             350,
             351,
             353,
-            354,
-            370,
-            829
+            355,
+            839
           ],
           "confusable_ids": [
             "ch01_t08",
@@ -206,10 +215,7 @@
             350,
             352,
             353,
-            354,
-            355,
-            356,
-            358
+            354
           ],
           "confusable_ids": [
             "ch01_t08",
@@ -227,7 +233,6 @@
             355,
             356,
             357,
-            360,
             370,
             371
           ],
@@ -261,11 +266,12 @@
           "term": "Structural Functionalism",
           "definition": "Theory viewing society as a complex system of parts working together",
           "level3_question_ids": [
-            361,
+            358,
             362,
             364,
             365,
-            367,
+            366,
+            368,
             373,
             374,
             375,
@@ -282,9 +288,6 @@
             839,
             840,
             841,
-            843,
-            844,
-            845,
             847,
             849,
             850,
@@ -304,13 +307,6 @@
           "definition": "Unity or agreement of feeling or action within a group",
           "level3_question_ids": [
             361,
-            362,
-            363,
-            364,
-            366,
-            368,
-            369,
-            834,
             846,
             848
           ],
@@ -400,19 +396,6 @@
           ]
         },
         {
-          "id": "ch01_t19",
-          "term": "Structural",
-          "definition": "Relating to the enduring patterns and organized relationships that shape society",
-          "level3_question_ids": [],
-          "confusable_ids": [
-            "ch01_t13",
-            "ch01_t01",
-            "ch01_t03",
-            "ch01_t20",
-            "ch01_t21"
-          ]
-        },
-        {
           "id": "ch01_t20",
           "term": "Manifest Functions",
           "definition": "Intended and recognized consequences of social patterns",
@@ -420,7 +403,10 @@
             376,
             377,
             378,
-            839
+            843,
+            844,
+            845,
+            846
           ],
           "confusable_ids": [
             "ch01_t21",
@@ -457,11 +443,11 @@
           "definition": "Perspective focusing on social, political, and material inequality",
           "level3_question_ids": [
             227,
-            350,
             379,
             380,
             381,
             383,
+            384,
             385,
             386,
             387,
@@ -477,7 +463,8 @@
             831,
             832,
             841,
-            842
+            842,
+            859
           ],
           "confusable_ids": [
             "ch01_t25",
@@ -494,6 +481,7 @@
           "level3_question_ids": [
             227,
             359,
+            360,
             379,
             380,
             381,
@@ -560,8 +548,6 @@
           "term": "Symbolic Interactionism",
           "definition": "Theory focusing on meaning and interaction in social life",
           "level3_question_ids": [
-            344,
-            350,
             833,
             834,
             835,
@@ -583,8 +569,7 @@
           "level3_question_ids": [
             391,
             392,
-            393,
-            836
+            393
           ],
           "confusable_ids": [
             "ch01_t20",
@@ -1926,7 +1911,7 @@
           "term": "Quantitative Research",
           "definition": "Research using numerical data and statistical analysis",
           "level3_question_ids": [
-            660,
+            676,
             679,
             680,
             681,
@@ -1950,11 +1935,10 @@
             677,
             678,
             681,
+            687,
             689,
-            691,
             711,
             714,
-            715,
             718,
             741
           ],
@@ -1976,8 +1960,7 @@
             680,
             720,
             731,
-            735,
-            738
+            735
           ],
           "confusable_ids": [
             "ch02_t24",
@@ -2035,12 +2018,6 @@
             701,
             703,
             704,
-            732,
-            733,
-            734,
-            736,
-            737,
-            739,
             740,
             744
           ],
@@ -2055,7 +2032,6 @@
           "term": "Operational Definition",
           "definition": "Specific way a concept will be measured in research",
           "level3_question_ids": [
-            693,
             700,
             701,
             702,
@@ -2087,10 +2063,6 @@
             696,
             697,
             698,
-            726,
-            727,
-            728,
-            729,
             730,
             740,
             744
@@ -2299,8 +2271,6 @@
           "term": "Validity",
           "definition": "The accuracy and trustworthiness of research methods and findings",
           "level3_question_ids": [
-            687,
-            692,
             693,
             702,
             705,
@@ -2321,13 +2291,7 @@
           "definition": "How well a sample reflects the characteristics of the larger population",
           "level3_question_ids": [
             670,
-            676,
-            687,
             690,
-            694,
-            707,
-            708,
-            709,
             710,
             717
           ],
@@ -2361,8 +2325,7 @@
             707,
             708,
             709,
-            710,
-            720
+            710
           ],
           "confusable_ids": [
             "ch02_t13",
@@ -2383,8 +2346,7 @@
             708,
             709,
             710,
-            717,
-            720
+            717
           ],
           "confusable_ids": [
             "ch02_t12",
@@ -2415,6 +2377,7 @@
           "term": "Experiment",
           "definition": "Research method testing cause-and-effect relationships",
           "level3_question_ids": [
+            660,
             671,
             699,
             745
@@ -2485,8 +2448,7 @@
           "term": "Objectivity",
           "definition": "Freedom from personal bias in research",
           "level3_question_ids": [
-            690,
-            719
+            690
           ],
           "confusable_ids": [
             "ch02_t04",
@@ -2555,11 +2517,12 @@
             667,
             668,
             676,
+            687,
             692,
             693,
             694,
             717,
-            741,
+            720,
             743
           ],
           "confusable_ids": [
@@ -3302,7 +3265,7 @@
             "Content analysis"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch02_t01"
         },
         {
           "id": 721,
@@ -3618,7 +3581,9 @@
           "level3_question_ids": [
             784,
             785,
-            786
+            786,
+            1083,
+            1088
           ],
           "confusable_ids": [
             "ch03_t02",
@@ -3650,7 +3615,11 @@
           "id": "ch03_t03",
           "term": "Material Culture",
           "definition": "Physical objects and artifacts created by a society",
-          "level3_question_ids": [],
+          "level3_question_ids": [
+            1503,
+            1504,
+            1505
+          ],
           "confusable_ids": [
             "ch03_t17",
             "ch03_t21",
@@ -3665,8 +3634,14 @@
           "definition": "Non-material aspects of culture including ideas, values, and beliefs",
           "level3_question_ids": [
             787,
+            1076,
+            1077,
+            1079,
             1082,
-            1085
+            1084,
+            1085,
+            1124,
+            1503
           ],
           "confusable_ids": [
             "ch03_t17",
@@ -3693,15 +3668,18 @@
           "term": "Values",
           "definition": "Culturally defined standards of what is desirable, good, and proper",
           "level3_question_ids": [
+            1076,
+            1077,
+            1079,
             1082,
             1085,
+            1097,
             1098,
-            1106,
-            1109,
             1113,
-            1116,
             1128,
-            1130
+            1130,
+            1503,
+            1504
           ],
           "confusable_ids": [
             "ch03_t02",
@@ -3719,7 +3697,8 @@
             1089,
             1090,
             1098,
-            1106
+            1109,
+            1129
           ],
           "confusable_ids": [
             "ch03_t21",
@@ -3750,9 +3729,7 @@
           "level3_question_ids": [
             788,
             1089,
-            1111,
-            1112,
-            1129
+            1112
           ],
           "confusable_ids": [
             "ch03_t07",
@@ -3766,9 +3743,7 @@
           "id": "ch03_t10",
           "term": "Signs",
           "definition": "Objects or gestures that carry a particular meaning in a culture",
-          "level3_question_ids": [
-            1115
-          ],
+          "level3_question_ids": [],
           "confusable_ids": [
             "ch03_t11",
             "ch03_t17",
@@ -3794,9 +3769,9 @@
           "term": "Language",
           "definition": "System of symbols that allows people to communicate with one another",
           "level3_question_ids": [
+            1084,
             1102,
-            1103,
-            1115
+            1103
           ],
           "confusable_ids": [
             "ch03_t22",
@@ -3845,7 +3820,6 @@
           "term": "Sanction",
           "definition": "Reward or punishment used to enforce social norms",
           "level3_question_ids": [
-            789,
             1091,
             1092,
             1093,
@@ -3853,7 +3827,6 @@
             1095,
             1096,
             1110,
-            1112,
             1129
           ],
           "confusable_ids": [
@@ -3867,6 +3840,10 @@
           "term": "Social Control",
           "definition": "Methods used by society to regulate behavior",
           "level3_question_ids": [
+            1078,
+            1081,
+            1082,
+            1083,
             1091,
             1092,
             1093,
@@ -3877,6 +3854,7 @@
             1108,
             1110,
             1113,
+            1122,
             1129,
             1130
           ],
@@ -3893,13 +3871,19 @@
           "term": "Dominant Culture",
           "definition": "Culture of the most powerful group in a society",
           "level3_question_ids": [
-            1098,
+            1080,
             1099,
             1101,
             1114,
+            1115,
             1116,
             1117,
-            1130
+            1123,
+            1126,
+            1127,
+            1130,
+            1504,
+            1505
           ],
           "confusable_ids": [
             "ch03_t21",
@@ -3983,7 +3967,8 @@
             1106,
             1107,
             1108,
-            1128
+            1128,
+            1505
           ],
           "confusable_ids": [
             "ch03_t17",
@@ -4138,7 +4123,7 @@
             "It is a social construct that varies across cultures and historical periods."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch03_t06"
         },
         {
           "id": 1077,
@@ -4150,7 +4135,7 @@
             "Create a sense of awe and wonder through ritual and symbolism."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch03_t06"
         },
         {
           "id": 1078,
@@ -4162,7 +4147,7 @@
             "Is socially constructed and maintained through everyday interactions."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch03_t16"
         },
         {
           "id": 1079,
@@ -4174,7 +4159,7 @@
             "It reflects the economic interests of powerful corporations."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch03_t06"
         },
         {
           "id": 1080,
@@ -4186,7 +4171,7 @@
             "All of the above."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch03_t17"
         },
         {
           "id": 1081,
@@ -4198,7 +4183,7 @@
             "The development of new technologies that transform social interaction."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch03_t16"
         },
         {
           "id": 1082,
@@ -4210,7 +4195,7 @@
             "All of the above."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch03_t06"
         },
         {
           "id": 1083,
@@ -4222,7 +4207,7 @@
             "Deviance is a result of individual pathology and psychological factors."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch03_t16"
         },
         {
           "id": 1084,
@@ -4234,7 +4219,7 @@
             "Institutions function to socialize individuals into dominant cultural norms."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch03_t04"
         },
         {
           "id": 1085,
@@ -4246,7 +4231,7 @@
             "Cultural values are primarily determined by biological and genetic factors."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch03_t04"
         },
         {
           "id": 1086,
@@ -4690,7 +4675,7 @@
             "Constantly evolving and changing through social interaction."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch03_t16"
         },
         {
           "id": 1123,
@@ -4702,7 +4687,7 @@
             "Are neutral institutions that benefit all members of society equally."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch03_t17"
         },
         {
           "id": 1124,
@@ -4714,7 +4699,7 @@
             "Poverty is a consequence of the exploitation of the poor by the rich."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch03_t04"
         },
         {
           "id": 1125,
@@ -4726,7 +4711,7 @@
             "Are primarily concerned with protecting the rights of the poor."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch03_t08"
         },
         {
           "id": 1126,
@@ -4738,7 +4723,7 @@
             "The actions of great individuals or leaders."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch03_t17"
         },
         {
           "id": 1127,
@@ -4750,7 +4735,7 @@
             "It emphasizes the role of economic capital in shaping cultural preferences."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch03_t17"
         },
         {
           "id": 1128,
@@ -4787,6 +4772,42 @@
           ],
           "correct": 0,
           "linked_concept_id": "ch03_t16"
+        },
+        {
+          "id": 1503,
+          "question": "An anthropologist studying a recently discovered indigenous community notices that their cooking vessels are intentionally made with thick, heavy clay despite access to lighter materials. When asked why, community members explain these vessels are passed down through generations and represent family heritage. Which concept does this best illustrate about material culture?",
+          "choices": [
+            "Material culture serves only practical, utilitarian purposes in society",
+            "Physical objects can encode and transmit cultural values and social meaning beyond their functional use",
+            "Communities prefer older technology because they lack access to modern innovations",
+            "The weight of objects determines their cultural significance in any society"
+          ],
+          "correct": 1,
+          "linked_concept_id": "ch03_t03"
+        },
+        {
+          "id": 1504,
+          "question": "A multinational corporation redesigns its logo and packaging to use minimalist, eco-friendly materials. Shortly after, competing companies and smaller businesses adopt similar aesthetic choices, even when it increases production costs. What does this pattern reveal about how material culture functions in society?",
+          "choices": [
+            "Material objects have no influence on social behavior or values",
+            "Physical artifacts can reflect and reinforce cultural values, while also being used to signal status and belonging within social hierarchies",
+            "Businesses change their materials solely for environmental reasons, not cultural ones",
+            "Material culture is determined entirely by the cost of production"
+          ],
+          "correct": 1,
+          "linked_concept_id": "ch03_t03"
+        },
+        {
+          "id": 1505,
+          "question": "A sociologist observes that in a particular community, the style, color, and quality of clothing a person wears directly correlates with their occupational status and access to education. When economic conditions improve and more people can afford higher-quality clothing, occupational distinctions become harder to identify through appearance alone. Which aspect of material culture does this scenario best demonstrate?",
+          "choices": [
+            "Material objects are completely independent of social structures",
+            "Physical artifacts can simultaneously reflect social inequality while also being shaped by economic and social change",
+            "Clothing has no cultural meaning in modern societies",
+            "Only wealthy people can influence what material culture represents in society"
+          ],
+          "correct": 1,
+          "linked_concept_id": "ch03_t03"
         }
       ]
     },
@@ -4802,6 +4823,8 @@
           "level3_question_ids": [
             246,
             247,
+            248,
+            249,
             252,
             259,
             266,
@@ -4811,11 +4834,9 @@
             799,
             800,
             801,
-            805,
             806,
             808,
-            810,
-            812
+            810
           ],
           "confusable_ids": [
             "ch04_t13",
@@ -4832,6 +4853,7 @@
           "level3_question_ids": [
             232,
             233,
+            242,
             243,
             251,
             255,
@@ -4840,9 +4862,10 @@
             258,
             259,
             265,
+            267,
             278,
             792,
-            793,
+            802,
             803
           ],
           "confusable_ids": [
@@ -4887,8 +4910,7 @@
           "definition": "Theory that the self develops through social interaction and role-taking",
           "level3_question_ids": [
             239,
-            793,
-            810
+            793
           ],
           "confusable_ids": [
             "ch04_t07",
@@ -4903,7 +4925,8 @@
           "term": "Generalized Other",
           "definition": "The composite mental image of the general attitudes and expectations of society",
           "level3_question_ids": [
-            241
+            241,
+            793
           ],
           "confusable_ids": [
             "ch04_t23",
@@ -4950,11 +4973,10 @@
             276,
             796,
             797,
-            804,
+            798,
             811,
             981,
-            982,
-            983
+            982
           ],
           "confusable_ids": [
             "ch04_t04",
@@ -4974,12 +4996,11 @@
             240,
             241,
             244,
-            256,
             258,
             276,
             278,
+            792,
             796,
-            798,
             803,
             807,
             811,
@@ -4998,7 +5019,9 @@
           "definition": "Public performance of social roles versus private preparation and relaxation",
           "level3_question_ids": [
             238,
+            796,
             797,
+            804,
             811,
             981,
             982
@@ -5017,8 +5040,7 @@
           "definition": "The idea that social reality is created through human interaction",
           "level3_question_ids": [
             231,
-            803,
-            811
+            803
           ],
           "confusable_ids": [
             "ch04_t04",
@@ -5056,8 +5078,6 @@
             266,
             274,
             799,
-            806,
-            808,
             810,
             812
           ],
@@ -5104,7 +5124,6 @@
           "term": "Resocialization",
           "definition": "Process of learning new norms and values, replacing previous ones",
           "level3_question_ids": [
-            248,
             250,
             251,
             253,
@@ -5136,7 +5155,8 @@
             267,
             268,
             275,
-            809
+            807,
+            808
           ],
           "confusable_ids": [
             "ch04_t18",
@@ -5151,7 +5171,6 @@
           "term": "Ascribed Status",
           "definition": "Social position assigned at birth or involuntarily",
           "level3_question_ids": [
-            275,
             809
           ],
           "confusable_ids": [
@@ -5160,19 +5179,6 @@
             "ch04_t21",
             "ch04_t19",
             "ch04_t07"
-          ]
-        },
-        {
-          "id": "ch04_t19",
-          "term": "Embodied Status",
-          "definition": "Status characteristics physically manifested in appearance or behavior",
-          "level3_question_ids": [],
-          "confusable_ids": [
-            "ch04_t21",
-            "ch04_t22",
-            "ch04_t17",
-            "ch04_t18",
-            "ch04_t20"
           ]
         },
         {
@@ -5199,7 +5205,6 @@
             230,
             231,
             267,
-            807,
             809
           ],
           "confusable_ids": [
@@ -5220,7 +5225,6 @@
             260,
             261,
             264,
-            267,
             268,
             269,
             270,
@@ -5228,7 +5232,6 @@
             272,
             273,
             795,
-            802,
             805,
             984
           ],
@@ -5247,7 +5250,8 @@
           "level3_question_ids": [
             236,
             277,
-            795
+            795,
+            802
           ],
           "confusable_ids": [
             "ch04_t22",
@@ -5276,6 +5280,7 @@
           "term": "Emotional Work/Labor",
           "definition": "Managing one's emotions to meet job or social expectations",
           "level3_question_ids": [
+            248,
             805,
             981,
             983,
@@ -5303,9 +5308,7 @@
           "id": "ch04_t27",
           "term": "Saturated Self",
           "definition": "Modern identity overwhelmed by multiple roles and relationships",
-          "level3_question_ids": [
-            802
-          ],
+          "level3_question_ids": [],
           "confusable_ids": [
             "ch04_t02",
             "ch04_t03",
@@ -6257,10 +6260,8 @@
             77,
             78,
             79,
-            96,
-            97,
-            98,
-            99
+            95,
+            100
           ],
           "confusable_ids": [
             "ch05_t04",
@@ -6353,8 +6354,10 @@
             62,
             63,
             64,
-            100,
-            101
+            101,
+            102,
+            648,
+            1508
           ],
           "confusable_ids": [
             "ch05_t05",
@@ -6367,15 +6370,12 @@
           "term": "Social Network",
           "definition": "Web of social relationships that connect individuals to one another",
           "level3_question_ids": [
-            65,
-            66,
-            67,
-            68,
-            69,
             70,
             71,
+            72,
             73,
             74,
+            96,
             102,
             106,
             107,
@@ -6399,9 +6399,7 @@
             66,
             67,
             68,
-            69,
-            107,
-            108
+            69
           ],
           "confusable_ids": [
             "ch05_t03",
@@ -6416,7 +6414,6 @@
           "term": "Strong Ties",
           "definition": "Close relationships characterized by frequent interaction and emotional intensity",
           "level3_question_ids": [
-            72,
             649
           ],
           "confusable_ids": [
@@ -6471,22 +6468,22 @@
           "term": "Group Dynamics",
           "definition": "Patterns of interaction and relationships within a group",
           "level3_question_ids": [
-            70,
-            73,
+            75,
             76,
             77,
+            78,
             79,
             87,
-            95,
-            100,
-            106,
+            90,
             109,
             110,
             281,
             285,
+            650,
             652,
             654,
-            656
+            656,
+            1507
           ],
           "confusable_ids": [
             "ch05_t15",
@@ -6501,9 +6498,6 @@
           "term": "In-group",
           "definition": "Group to which a person belongs and feels loyal",
           "level3_question_ids": [
-            75,
-            78,
-            103,
             105,
             286,
             287,
@@ -6560,6 +6554,7 @@
           "term": "Groupthink",
           "definition": "Pattern of thought characterized by self-deception, forced manufacture of consent, and conformity",
           "level3_question_ids": [
+            109,
             111,
             285,
             291,
@@ -6578,6 +6573,11 @@
           "term": "Social Influence",
           "definition": "Ways in which people affect the thoughts, feelings, and behaviors of others",
           "level3_question_ids": [
+            65,
+            66,
+            67,
+            68,
+            69,
             90,
             91,
             92,
@@ -6588,8 +6588,10 @@
             111,
             112,
             284,
-            289,
-            653
+            293,
+            653,
+            654,
+            1507
           ],
           "confusable_ids": [
             "ch05_t08",
@@ -6648,8 +6650,10 @@
             92,
             93,
             94,
-            109,
-            289
+            289,
+            655,
+            1506,
+            1508
           ],
           "confusable_ids": [
             "ch05_t21",
@@ -6663,9 +6667,7 @@
           "id": "ch05_t21",
           "term": "Coercive Power",
           "definition": "Power based on the ability to punish or threaten others",
-          "level3_question_ids": [
-            109
-          ],
+          "level3_question_ids": [],
           "confusable_ids": [
             "ch05_t25",
             "ch05_t20",
@@ -6699,7 +6701,11 @@
           "id": "ch05_t23",
           "term": "Expert Power",
           "definition": "Power based on specialized knowledge or skills",
-          "level3_question_ids": [],
+          "level3_question_ids": [
+            1506,
+            1507,
+            1508
+          ],
           "confusable_ids": [
             "ch05_t24",
             "ch05_t21",
@@ -6747,6 +6753,7 @@
           "term": "Instrumental Leadership",
           "definition": "Leadership focused on accomplishing tasks and reaching goals",
           "level3_question_ids": [
+            289,
             659
           ],
           "confusable_ids": [
@@ -7004,7 +7011,7 @@
             "social conflict theory"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch05_t01"
         },
         {
           "id": 76,
@@ -7016,7 +7023,7 @@
             "social conflict theory"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch05_t01"
         },
         {
           "id": 77,
@@ -7028,7 +7035,7 @@
             "conflict theory"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch05_t01"
         },
         {
           "id": 78,
@@ -7040,7 +7047,7 @@
             "conflict theory"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch05_t01"
         },
         {
           "id": 79,
@@ -7052,7 +7059,7 @@
             "conflict theory"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch05_t06"
         },
         {
           "id": 80,
@@ -7244,7 +7251,7 @@
             "conflict theory"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch05_t19"
         },
         {
           "id": 96,
@@ -7700,7 +7707,7 @@
             "The formation of in-groups and out-groups"
           ],
           "correct": 2,
-          "linked_concept_id": null
+          "linked_concept_id": "ch05_t12"
         },
         {
           "id": 655,
@@ -7712,7 +7719,7 @@
             "Coercive power backed by threats"
           ],
           "correct": 2,
-          "linked_concept_id": null
+          "linked_concept_id": "ch05_t24"
         },
         {
           "id": 656,
@@ -7761,6 +7768,42 @@
           ],
           "correct": 0,
           "linked_concept_id": "ch05_t26"
+        },
+        {
+          "id": 1506,
+          "question": "A hospital implements a new electronic health records system. The IT director who designed and understands the system's architecture is able to influence hospital policy decisions even when other administrators disagree with her recommendations. Which type of power is the IT director exercising?",
+          "choices": [
+            "Coercive power, because she can prevent others from accessing patient data",
+            "Expert power, because her specialized knowledge of the system makes her recommendations valuable",
+            "Legitimate power, because she holds an official administrative position",
+            "Referent power, because other staff members want to be like her"
+          ],
+          "correct": 1,
+          "linked_concept_id": "ch05_t23"
+        },
+        {
+          "id": 1507,
+          "question": "A community group is debating whether to adopt new environmental practices. A member who has a PhD in environmental science and 15 years of field experience provides data-backed arguments. While she holds no official leadership position, the group consistently follows her suggestions. However, if the group later discovers her research contains serious flaws, they would likely stop following her recommendations. What does this scenario best illustrate about expert power?",
+          "choices": [
+            "Expert power is permanent and cannot be lost once established",
+            "Expert power depends on the credibility of the knowledge being demonstrated",
+            "Expert power is identical to legitimate authority in organizational settings",
+            "Expert power requires formal credentials and official titles to be effective"
+          ],
+          "correct": 1,
+          "linked_concept_id": "ch05_t23"
+        },
+        {
+          "id": 1508,
+          "question": "A software company is hiring a new team lead. Candidate A has worked there for five years and knows many employees personally. Candidate B is a renowned software architect with rare expertise in artificial intelligence systems that the company desperately needs to develop. If the company chooses Candidate B despite her being new to the organization, which power source is most likely influencing this decision?",
+          "choices": [
+            "Referent power, because Candidate B is more likeable",
+            "Reward power, because Candidate B can give bonuses to employees",
+            "Expert power, because Candidate B's specialized knowledge is valuable to organizational goals",
+            "Legitimate power, because Candidate B has the formal authority to make decisions"
+          ],
+          "correct": 2,
+          "linked_concept_id": "ch05_t23"
         }
       ]
     },
@@ -7791,6 +7834,10 @@
             179,
             180,
             181,
+            187,
+            188,
+            190,
+            191,
             192,
             194,
             196,
@@ -7802,6 +7849,11 @@
             207,
             209,
             210,
+            217,
+            218,
+            219,
+            220,
+            221,
             312
           ],
           "confusable_ids": [
@@ -7921,7 +7973,9 @@
           "term": "Secondary Deviance",
           "definition": "Deviant behavior that results from being labeled as deviant",
           "level3_question_ids": [
-            314
+            314,
+            316,
+            318
           ],
           "confusable_ids": [
             "ch06_t06",
@@ -7987,7 +8041,6 @@
           "term": "Stigma",
           "definition": "Social disapproval attached to a person or group based on perceived differences",
           "level3_question_ids": [
-            11,
             167,
             168,
             169,
@@ -8002,7 +8055,11 @@
             198,
             199,
             200,
-            201
+            201,
+            317,
+            325,
+            326,
+            327
           ],
           "confusable_ids": [
             "ch06_t09",
@@ -8069,6 +8126,8 @@
             214,
             215,
             216,
+            328,
+            330,
             331,
             332,
             333
@@ -8089,7 +8148,6 @@
             11,
             12,
             14,
-            15,
             162,
             163,
             164,
@@ -8109,8 +8167,10 @@
           "term": "Criminology",
           "definition": "Scientific study of crime, criminals, and criminal behavior",
           "level3_question_ids": [
+            11,
             13,
             14,
+            15,
             16,
             20
           ],
@@ -8158,7 +8218,8 @@
           "definition": "Use of punishment to prevent future criminal behavior",
           "level3_question_ids": [
             17,
-            18
+            18,
+            20
           ],
           "confusable_ids": [
             "ch06_t20",
@@ -8173,6 +8234,7 @@
           "term": "Rehabilitation",
           "definition": "Efforts to reform offenders and prevent future criminal behavior through treatment",
           "level3_question_ids": [
+            17,
             19,
             20
           ],
@@ -8335,7 +8397,7 @@
             "Symbolic interactionist"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch06_t01"
         },
         {
           "id": 163,
@@ -8347,7 +8409,7 @@
             "Structural functionalist"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch06_t01"
         },
         {
           "id": 164,
@@ -8359,7 +8421,7 @@
             "Social exchange theory"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch06_t01"
         },
         {
           "id": 165,
@@ -8371,7 +8433,7 @@
             "Ethnomethodology"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch06_t01"
         },
         {
           "id": 166,
@@ -8383,7 +8445,7 @@
             "Labeling theory"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch06_t01"
         },
         {
           "id": 167,
@@ -8875,7 +8937,7 @@
             "follower of \u00c9mile Durkheim"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch06_t04"
         },
         {
           "id": 208,
@@ -8887,7 +8949,7 @@
             "symbolic interactionist"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch06_t02"
         },
         {
           "id": 209,
@@ -8899,7 +8961,7 @@
             "follower of Robert Merton"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch06_t01"
         },
         {
           "id": 210,
@@ -8911,7 +8973,7 @@
             "follower of Robert Merton"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch06_t02"
         },
         {
           "id": 211,
@@ -8923,7 +8985,7 @@
             "symbolic interactionist"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch06_t02"
         },
         {
           "id": 212,
@@ -8995,7 +9057,7 @@
             "As mainly a class inequality issue"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch06_t01"
         },
         {
           "id": 218,
@@ -9007,7 +9069,7 @@
             "As primarily a digital media concern"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch06_t01"
         },
         {
           "id": 219,
@@ -9019,7 +9081,7 @@
             "As purely an economic development issue"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch06_t01"
         },
         {
           "id": 220,
@@ -9031,7 +9093,7 @@
             "As primarily an online phenomenon"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch06_t01"
         },
         {
           "id": 221,
@@ -9043,7 +9105,7 @@
             "As primarily causing social inequality"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch06_t01"
         },
         {
           "id": 222,
@@ -9443,6 +9505,7 @@
           "level3_question_ids": [
             524,
             525,
+            530,
             532,
             533,
             534,
@@ -9455,9 +9518,12 @@
             1054,
             1055,
             1056,
+            1057,
             1058,
             1059,
             1060,
+            1061,
+            1063,
             1064,
             1065,
             1066,
@@ -9479,22 +9545,22 @@
           "definition": "Unequal distribution of resources, opportunities, and privileges within a society",
           "level3_question_ids": [
             525,
+            526,
             527,
             529,
             530,
+            531,
             534,
+            541,
             547,
-            549,
-            1004,
-            1026,
+            548,
+            1020,
             1051,
-            1052,
             1054,
             1056,
             1057,
             1058,
             1060,
-            1063,
             1065,
             1067,
             1068,
@@ -9545,10 +9611,15 @@
           "term": "Social Class",
           "definition": "A division of society based on economic, social, and cultural factors such as income, education, and occupation",
           "level3_question_ids": [
+            532,
+            533,
             549,
             550,
-            553,
+            554,
             555,
+            1006,
+            1023,
+            1027,
             1059,
             1061,
             1063
@@ -9568,12 +9639,13 @@
           "level3_question_ids": [
             527,
             528,
-            531,
             544,
+            548,
             1003,
             1004,
             1029,
-            1062
+            1062,
+            1063
           ],
           "confusable_ids": [
             "ch07_t05",
@@ -9610,8 +9682,7 @@
             533,
             534,
             538,
-            540,
-            1032
+            540
           ],
           "confusable_ids": [
             "ch07_t05",
@@ -9663,8 +9734,6 @@
           "term": "Wealth",
           "definition": "The total value of an individual's or household's assets, including property, investments, and savings",
           "level3_question_ids": [
-            1049,
-            1061,
             1062
           ],
           "confusable_ids": [
@@ -9680,10 +9749,8 @@
           "term": "Prestige",
           "definition": "Social honor or respect granted to an individual based on their status, achievements, or occupation",
           "level3_question_ids": [
-            533,
-            1005,
-            1057,
-            1061,
+            1004,
+            1062,
             1066
           ],
           "confusable_ids": [
@@ -9701,8 +9768,9 @@
           "level3_question_ids": [
             527,
             539,
-            548,
+            1003,
             1004,
+            1005,
             1043,
             1044,
             1045,
@@ -9726,9 +9794,11 @@
           "definition": "The transmission of social and economic inequalities from one generation to the next",
           "level3_question_ids": [
             528,
-            548,
             1003,
+            1026,
+            1045,
             1046,
+            1047,
             1050
           ],
           "confusable_ids": [
@@ -9746,11 +9816,7 @@
           "level3_question_ids": [
             538,
             539,
-            540,
-            547,
-            550,
-            552,
-            1006
+            540
           ],
           "confusable_ids": [
             "ch07_t29",
@@ -9765,8 +9831,9 @@
           "term": "Social Mobility",
           "definition": "The movement of individuals or groups within a social hierarchy, either upward or downward",
           "level3_question_ids": [
-            551,
+            553,
             554,
+            555,
             1003,
             1026,
             1031,
@@ -9774,6 +9841,7 @@
             1033,
             1034,
             1035,
+            1036,
             1037,
             1038,
             1039,
@@ -9784,7 +9852,6 @@
             1047,
             1048,
             1049,
-            1055,
             1070,
             1071,
             1073,
@@ -9804,7 +9871,9 @@
           "term": "Closed System",
           "definition": "A system of stratification where social mobility is highly restricted, often based on ascribed status",
           "level3_question_ids": [
+            524,
             536,
+            1055,
             1070,
             1072
           ],
@@ -9874,7 +9943,7 @@
           "term": "Income",
           "definition": "The flow of money or monetary resources received over a period of time through wages, investments, or other sources",
           "level3_question_ids": [
-            544,
+            1049,
             1057,
             1062
           ],
@@ -9907,7 +9976,7 @@
           "term": "Relative Deprivation",
           "definition": "The subjective feeling of lacking resources or opportunities compared to others in society",
           "level3_question_ids": [
-            545,
+            542,
             1015,
             1016,
             1020,
@@ -9933,11 +10002,12 @@
             545,
             546,
             1014,
+            1015,
             1017,
             1018,
             1019,
-            1020,
-            1021
+            1021,
+            1052
           ],
           "confusable_ids": [
             "ch07_t23"
@@ -9948,10 +10018,11 @@
           "term": "Federal Poverty Line",
           "definition": "An income threshold set by the U.S. government to determine eligibility for social assistance programs",
           "level3_question_ids": [
-            541,
+            543,
             544,
             545,
             546,
+            1017,
             1018,
             1019,
             1021
@@ -10008,6 +10079,7 @@
           "definition": "The tendency to choose romantic partners who are similar in social background, such as class, religion, or education.",
           "level3_question_ids": [
             550,
+            551,
             552,
             1022,
             1023,
@@ -10478,7 +10550,7 @@
             "She lacks authenticity and is being deliberately deceptive about her true personality"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch07_t13"
         },
         {
           "id": 1006,
@@ -10490,7 +10562,7 @@
             "Professional training fails to prepare employees for real workplace challenges"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch07_t05"
         },
         {
           "id": 1014,
@@ -11150,7 +11222,7 @@
             "Stratification represents a moral failure that societies must actively work to overcome"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch07_t01"
         },
         {
           "id": 1069,
@@ -11162,7 +11234,7 @@
             "Functional necessity of having various socioeconomic levels in complex societies"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch07_t02"
         },
         {
           "id": 1070,
@@ -11248,6 +11320,8 @@
           "term": "Race",
           "definition": "A socially constructed category based on real or perceived biological differences between groups of people",
           "level3_question_ids": [
+            992,
+            997,
             1498
           ],
           "confusable_ids": [
@@ -11265,14 +11339,16 @@
           "level3_question_ids": [
             773,
             774,
+            775,
             776,
             782,
             783,
             987,
             988,
+            994,
+            998,
             999,
-            1001,
-            1498
+            1001
           ],
           "confusable_ids": [
             "ch08_t03",
@@ -11289,7 +11365,6 @@
           "level3_question_ids": [
             773,
             774,
-            775,
             777,
             778,
             987,
@@ -11337,10 +11412,7 @@
             750,
             751,
             752,
-            753,
-            990,
-            992,
-            1499
+            753
           ],
           "confusable_ids": [
             "ch08_t13",
@@ -11409,14 +11481,16 @@
             765,
             766,
             767,
+            768,
             769,
             770,
             771,
             772,
+            990,
             995,
-            1494,
             1495,
-            1497
+            1497,
+            1499
           ],
           "confusable_ids": [
             "ch08_t11",
@@ -11446,7 +11520,6 @@
           "definition": "Discrimination carried out by one person against another",
           "level3_question_ids": [
             767,
-            768,
             779,
             995
           ],
@@ -11500,6 +11573,7 @@
             778,
             992,
             1002,
+            1494,
             1495,
             1496,
             1499
@@ -11532,7 +11606,8 @@
           "term": "Race Consciousness",
           "definition": "An ideology that acknowledges race as a powerful social construct that shapes our individual and social experiences",
           "level3_question_ids": [
-            993
+            993,
+            1498
           ],
           "confusable_ids": [
             "ch08_t01",
@@ -11608,7 +11683,12 @@
           "id": "ch08_t20",
           "term": "Assimilation",
           "definition": "A pattern of relations between ethnic or racial groups in which the minority group is absorbed into the mainstream or dominant group",
-          "level3_question_ids": [],
+          "level3_question_ids": [
+            781,
+            1509,
+            1510,
+            1511
+          ],
           "confusable_ids": [
             "ch08_t21",
             "ch08_t22",
@@ -11623,7 +11703,8 @@
           "definition": "The process by which racial minority groups are absorbed into the dominant group through intermarriage",
           "level3_question_ids": [
             780,
-            998
+            998,
+            1510
           ],
           "confusable_ids": [
             "ch08_t22",
@@ -11641,7 +11722,10 @@
             781,
             783,
             998,
-            1001
+            1001,
+            1509,
+            1510,
+            1511
           ],
           "confusable_ids": [
             "ch08_t21",
@@ -12387,6 +12471,42 @@
           ],
           "correct": 1,
           "linked_concept_id": "ch08_t03"
+        },
+        {
+          "id": 1509,
+          "question": "A third-generation Italian-American family celebrates Christmas with traditional Italian cuisine, but the parents primarily speak English at home, send their children to public schools with diverse peer groups, and identify strongly as American rather than Italian. Which aspect of this scenario best demonstrates assimilation?",
+          "choices": [
+            "The family's continued preparation of traditional Italian food",
+            "The family's shift to English as their primary language and adoption of mainstream American identity",
+            "The family's choice to celebrate Christmas rather than other holidays",
+            "The family's decision to live in a neighborhood with other Italian-Americans"
+          ],
+          "correct": 1,
+          "linked_concept_id": "ch08_t20"
+        },
+        {
+          "id": 1510,
+          "question": "A newly arrived immigrant group establishes businesses, social clubs, and religious institutions within their own community while maintaining distinct cultural practices. Over two generations, their descendants increasingly intermarry with members of the dominant group, pursue higher education in mainstream institutions, and move to suburban areas. What does this pattern illustrate about the assimilation process?",
+          "choices": [
+            "Assimilation occurs immediately upon arrival to a new country",
+            "Assimilation is a generational process in which later generations absorb into mainstream society while earlier generations maintain ethnic boundaries",
+            "Assimilation prevents minority groups from achieving economic success",
+            "Assimilation requires that ethnic communities completely disappear within one generation"
+          ],
+          "correct": 1,
+          "linked_concept_id": "ch08_t20"
+        },
+        {
+          "id": 1511,
+          "question": "A school administrator notices that second-generation immigrant students from a particular ethnic background are now fully integrated into mainstream academic and social networks, compete equally for academic honors, and report identifying primarily with American culture rather than their heritage culture. However, some first-generation parents from the same community express concern about cultural loss. How can assimilation best explain this intergenerational difference?",
+          "choices": [
+            "The second generation has experienced discrimination that prevented them from maintaining their heritage",
+            "The first generation deliberately prevented their children from learning about their cultural background",
+            "Assimilation progresses across generations as younger members increasingly absorb dominant group norms and institutions while older members retain stronger ethnic identities",
+            "The school administrator is biased against the ethnic community and is forcing assimilation against the students' wishes"
+          ],
+          "correct": 2,
+          "linked_concept_id": "ch08_t20"
         }
       ]
     },
@@ -12400,6 +12520,7 @@
           "term": "Sex",
           "definition": "An individual's membership in one of two biological categories\u2014male or female\u2014based on chromosomes, hormones, and reproductive organs",
           "level3_question_ids": [
+            25,
             27,
             28,
             29
@@ -12419,8 +12540,8 @@
           "level3_question_ids": [
             26,
             27,
-            28,
             29,
+            30,
             51,
             52,
             53,
@@ -12429,10 +12550,8 @@
             929,
             931,
             933,
-            973,
-            975,
-            976,
-            977
+            969,
+            976
           ],
           "confusable_ids": [
             "ch09_t08",
@@ -12472,11 +12591,12 @@
             22,
             23,
             24,
-            25,
             36,
             42,
             52,
+            53,
             54,
+            57,
             926,
             927,
             928,
@@ -12497,14 +12617,15 @@
           "definition": "A system of classification with only two distinct and opposite gender categories",
           "level3_question_ids": [
             21,
-            30,
             932,
             933,
             934,
             936,
-            969,
+            942,
+            973,
             974,
-            975
+            975,
+            976
           ],
           "confusable_ids": [
             "ch09_t03",
@@ -12519,7 +12640,6 @@
           "term": "Gender Identity",
           "definition": "An individual's self-definition or sense of gender, which may or may not correspond with the sex they were assigned at birth",
           "level3_question_ids": [
-            30,
             935,
             936,
             937,
@@ -12527,9 +12647,7 @@
             939,
             940,
             941,
-            942,
-            964,
-            968,
+            949,
             969,
             970,
             971,
@@ -12552,6 +12670,7 @@
             938,
             939,
             940,
+            964,
             968,
             969
           ],
@@ -12568,7 +12687,6 @@
           "term": "Gender Expression",
           "definition": "An individual's behavioral manifestations of gender through clothing, grooming, behavior, body language, and other external presentations",
           "level3_question_ids": [
-            30,
             53,
             54,
             941,
@@ -12593,9 +12711,7 @@
             944,
             945,
             946,
-            947,
-            948,
-            949
+            948
           ],
           "confusable_ids": [
             "ch09_t10",
@@ -12611,6 +12727,7 @@
           "definition": "How one identifies in terms of whom they are sexually attracted to, whether heterosexual, homosexual, bisexual, or other orientations",
           "level3_question_ids": [
             944,
+            945,
             946,
             947,
             948,
@@ -12628,7 +12745,6 @@
           "term": "Gender Role Socialization",
           "definition": "The lifelong process of learning to be masculine or feminine, primarily through agents of socialization",
           "level3_question_ids": [
-            26,
             30,
             31,
             32,
@@ -12648,6 +12764,7 @@
             59,
             646,
             926,
+            943,
             950,
             951,
             952,
@@ -12655,8 +12772,6 @@
             960,
             961,
             962,
-            973,
-            976,
             977,
             978,
             979
@@ -12675,6 +12790,7 @@
           "definition": "The belief that heterosexuality is and should be the norm",
           "level3_question_ids": [
             33,
+            947,
             953,
             954,
             955
@@ -12707,6 +12823,7 @@
           "level3_question_ids": [
             31,
             32,
+            34,
             35,
             37,
             38,
@@ -12718,11 +12835,12 @@
             44,
             45,
             49,
+            51,
             55,
             57,
+            59,
             641,
             926,
-            950,
             951,
             952,
             959,
@@ -12757,7 +12875,6 @@
           "definition": "The economic trend showing that women are more likely than men to live in poverty, due to gender wage gaps and family responsibilities",
           "level3_question_ids": [
             56,
-            647,
             965,
             966,
             967
@@ -12775,7 +12892,8 @@
           "term": "Cisgender",
           "definition": "Term used when gender identity and/or expression aligns with the sex assigned at birth",
           "level3_question_ids": [
-            938,
+            935,
+            939,
             968,
             970,
             971
@@ -12865,7 +12983,6 @@
           "definition": "The belief that one sex, usually male, is superior to the other",
           "level3_question_ids": [
             46,
-            51,
             56,
             58,
             640,
@@ -12888,6 +13005,7 @@
           "term": "Misogyny",
           "definition": "An ingrained prejudice against women; dislike, contempt, or hatred of women",
           "level3_question_ids": [
+            640,
             644,
             645
           ],
@@ -12990,7 +13108,7 @@
             "Social exchange theory"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch09_t11"
         },
         {
           "id": 27,
@@ -13278,7 +13396,7 @@
             "Nurturing roles"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch09_t19"
         },
         {
           "id": 51,
@@ -14157,8 +14275,7 @@
           "definition": "Any institutionalized system of shared beliefs and rituals that identify a relationship between the sacred and the profane",
           "level3_question_ids": [
             294,
-            302,
-            306
+            302
           ],
           "confusable_ids": [
             "ch10_t15",
@@ -14332,19 +14449,6 @@
             "ch10_t15",
             "ch10_t05",
             "ch10_t04",
-            "ch10_t01"
-          ]
-        },
-        {
-          "id": "ch10_t13",
-          "term": "Religiosity",
-          "definition": "The regular practice of religious beliefs, often measured in terms of frequency of attendance at worship services and the importance of religious beliefs to an individual",
-          "level3_question_ids": [],
-          "confusable_ids": [
-            "ch10_t05",
-            "ch10_t04",
-            "ch10_t11",
-            "ch10_t15",
             "ch10_t01"
           ]
         },
@@ -14586,26 +14690,17 @@
           "term": "social institutions",
           "definition": "Systems and structures within society that shape the activities of groups and individuals, providing stability and meeting essential societal needs",
           "level3_question_ids": [
+            486,
             500,
             503,
-            504
+            514,
+            523
           ],
           "confusable_ids": [
             "ch11_t02",
             "ch11_t11",
             "ch11_t10",
             "ch11_t05"
-          ]
-        },
-        {
-          "id": "ch11_t02",
-          "term": "education",
-          "definition": "The process by which a society transmits its knowledge, values, and expectations to its members so they can function effectively",
-          "level3_question_ids": [],
-          "confusable_ids": [
-            "ch11_t11",
-            "ch11_t05",
-            "ch11_t01"
           ]
         },
         {
@@ -14638,6 +14733,8 @@
           "term": "hidden curriculum",
           "definition": "Values or behaviors that students learn indirectly over the course of their schooling, often reinforcing social norms and power structures",
           "level3_question_ids": [
+            510,
+            513,
             1009
           ],
           "confusable_ids": [
@@ -14657,10 +14754,8 @@
             473,
             474,
             483,
-            486,
-            490,
             494,
-            495,
+            496,
             498,
             500,
             501,
@@ -14676,14 +14771,9 @@
             511,
             512,
             513,
-            514,
-            515,
-            516,
-            517,
-            518,
             519,
             521,
-            523
+            1011
           ],
           "confusable_ids": [
             "ch11_t08",
@@ -14701,7 +14791,8 @@
             471,
             474,
             487,
-            501
+            518,
+            1010
           ],
           "confusable_ids": [
             "ch11_t08",
@@ -14736,9 +14827,7 @@
           "level3_question_ids": [
             476,
             478,
-            510,
-            512,
-            513
+            512
           ],
           "confusable_ids": [
             "ch11_t10",
@@ -14776,9 +14865,9 @@
             482,
             483,
             484,
+            489,
             491,
             492,
-            503,
             516
           ],
           "confusable_ids": [
@@ -14815,6 +14904,7 @@
           "term": "charismatic authority",
           "definition": "Power based on the perception that a leader possesses extraordinary, possibly divine qualities, often found in religious movements",
           "level3_question_ids": [
+            515,
             517,
             519,
             520,
@@ -14864,8 +14954,8 @@
             496,
             497,
             499,
-            502,
             508,
+            509,
             511
           ],
           "confusable_ids": [
@@ -14887,7 +14977,6 @@
             497,
             498,
             499,
-            500,
             502
           ],
           "confusable_ids": [
@@ -15030,7 +15119,7 @@
             "The restriction of religious expression to private spaces rather than public domains"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch11_t11"
         },
         {
           "id": 481,
@@ -15054,7 +15143,7 @@
             "Supreme Court decisions consistently favor religious organizations in legal disputes"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch11_t11"
         },
         {
           "id": 483,
@@ -15390,7 +15479,7 @@
             "They gradually modify their religious beliefs to align with secular feminist values over time"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch11_t05"
         },
         {
           "id": 511,
@@ -15402,7 +15491,7 @@
             "They function primarily as cognitive shortcuts that simplify complex theological concepts"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch11_t15"
         },
         {
           "id": 512,
@@ -15414,7 +15503,7 @@
             "As the unconscious internalization of religious norms through repeated exposure to religious messages"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch11_t09"
         },
         {
           "id": 513,
@@ -15426,7 +15515,7 @@
             "Through private spiritual experiences that occur independently of social interaction"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch11_t09"
         },
         {
           "id": 514,
@@ -15827,7 +15916,6 @@
           "definition": "Workers in temporary or freelance positions without long-term employment contracts",
           "level3_question_ids": [
             567,
-            571,
             588,
             589,
             590,
@@ -15848,7 +15936,6 @@
             566,
             597,
             598,
-            599,
             867
           ],
           "confusable_ids": [
@@ -16510,7 +16597,8 @@
           "term": "Marriage",
           "definition": "A legally or socially sanctioned union, typically between two individuals, regulating sexual and economic rights and obligations.",
           "level3_question_ids": [
-            152
+            152,
+            424
           ],
           "confusable_ids": [
             "ch13_t16",
@@ -16526,15 +16614,13 @@
             118,
             119,
             122,
+            135,
             147,
             148,
             149,
             150,
             151,
             152,
-            419,
-            420,
-            422,
             425,
             427
           ],
@@ -16557,7 +16643,6 @@
             116,
             117,
             147,
-            148,
             150,
             418
           ],
@@ -16576,7 +16661,6 @@
           "level3_question_ids": [
             113,
             114,
-            122,
             147,
             148,
             150,
@@ -16600,6 +16684,7 @@
             128,
             129,
             130,
+            131,
             132,
             419
           ],
@@ -16616,7 +16701,7 @@
           "term": "Companionship Family",
           "definition": "Family structure based on mutual affection, shared decision-making, and emotional bonds between spouses.",
           "level3_question_ids": [
-            150,
+            127,
             420
           ],
           "confusable_ids": [
@@ -16632,7 +16717,8 @@
           "term": "Kin",
           "definition": "One's relatives; individuals related by blood (consanguineal) or marriage (affinal).",
           "level3_question_ids": [
-            421
+            421,
+            422
           ],
           "confusable_ids": [
             "ch13_t08",
@@ -16664,9 +16750,9 @@
           "definition": "The tendency to marry or partner with someone possessing similar social characteristics (e.g., race, class, religion).",
           "level3_question_ids": [
             117,
-            143,
             146,
-            156
+            156,
+            423
           ],
           "confusable_ids": [
             "ch13_t12",
@@ -16682,9 +16768,7 @@
           "level3_question_ids": [
             120,
             140,
-            141,
-            144,
-            145
+            141
           ],
           "confusable_ids": [
             "ch13_t11",
@@ -16719,6 +16803,7 @@
           "definition": "Nearness in physical space; a factor influencing relationship formation (marrying someone nearby).",
           "level3_question_ids": [
             113,
+            123,
             424
           ],
           "confusable_ids": [
@@ -16748,7 +16833,6 @@
           "definition": "Practical, goal-oriented tasks needed for family maintenance (e.g., earning income, fixing things).",
           "level3_question_ids": [
             128,
-            130,
             131,
             132,
             133,
@@ -16775,9 +16859,7 @@
           "definition": "Tasks focused on maintaining emotional relationships, socialization, and support within the family.",
           "level3_question_ids": [
             115,
-            119,
             128,
-            130,
             131,
             132,
             134,
@@ -16800,6 +16882,7 @@
           "term": "Second Shift",
           "definition": "The unpaid housework and childcare performed by individuals (typically women) after finishing their paid workday.",
           "level3_question_ids": [
+            130,
             426
           ],
           "confusable_ids": [
@@ -16928,7 +17011,7 @@
             "Romantic relationship"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch13_t02"
         },
         {
           "id": 123,
@@ -16940,43 +17023,7 @@
             "d) The potential for conflict and misunderstandings in the conversation."
           ],
           "correct": 0,
-          "linked_concept_id": null
-        },
-        {
-          "id": 124,
-          "question": "Which of the following best represents a symbolic interactionist approach to studying education?",
-          "choices": [
-            "b) Examining the role of teacher expectations on student performance.",
-            "a) Analyzing the impact of government funding on school resources.",
-            "c) Investigating the historical trends in educational attainment.",
-            "d) Exploring the influence of parental involvement on student achievement."
-          ],
-          "correct": 0,
-          "linked_concept_id": null
-        },
-        {
-          "id": 125,
-          "question": "What would a symbolic interactionist studying sports focus on?",
-          "choices": [
-            "d) The ways in which athletes negotiate and manage their identities.",
-            "a) The impact of sports on physical health and fitness.",
-            "b) The economic aspects of professional sports.",
-            "c) The role of competition in shaping sports culture."
-          ],
-          "correct": 0,
-          "linked_concept_id": null
-        },
-        {
-          "id": 126,
-          "question": "Which of the following is an example of a symbolic interactionist perspective on crime?",
-          "choices": [
-            "a) Examining how labeling affects individuals' engagement in criminal behavior.",
-            "b) Analyzing the social and economic factors that contribute to crime rates.",
-            "c) Investigating the effectiveness of punishment in reducing crime.",
-            "d) Exploring the cultural and historical roots of criminal behavior."
-          ],
-          "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch13_t12"
         },
         {
           "id": 127,
@@ -16988,7 +17035,7 @@
             "d) The psychological processes involved in self-concept development."
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch13_t06"
         },
         {
           "id": 128,
@@ -17605,15 +17652,16 @@
             1147,
             1153,
             1157,
-            1160,
             1161,
             1162,
             1163,
             1172,
+            1180,
             1183,
+            1185,
             1186,
+            1187,
             1188,
-            1201,
             1210,
             1217
           ],
@@ -17791,12 +17839,16 @@
             1143,
             1144,
             1145,
+            1176,
             1193,
             1194,
             1195,
             1196,
             1197,
-            1198
+            1198,
+            1512,
+            1514,
+            1517
           ],
           "confusable_ids": [
             "ch14_t16",
@@ -17810,7 +17862,11 @@
           "id": "ch14_t14",
           "term": "Reinforcement Theory",
           "definition": "Theory that media primarily strengthens pre-existing beliefs rather than changing them.",
-          "level3_question_ids": [],
+          "level3_question_ids": [
+            1512,
+            1513,
+            1514
+          ],
           "confusable_ids": [
             "ch14_t15",
             "ch14_t12",
@@ -17824,7 +17880,8 @@
           "term": "Agenda-Setting Theory",
           "definition": "Theory that media influences *what* topics audiences consider important.",
           "level3_question_ids": [
-            411
+            411,
+            1516
           ],
           "confusable_ids": [
             "ch14_t14",
@@ -17840,7 +17897,8 @@
           "definition": "Focuses on how audiences use media to fulfill their needs and desires.",
           "level3_question_ids": [
             406,
-            412
+            412,
+            1513
           ],
           "confusable_ids": [
             "ch14_t13",
@@ -17854,7 +17912,11 @@
           "id": "ch14_t17",
           "term": "Two-Step Flow Model",
           "definition": "Theory that media influence flows from media to opinion leaders, then to the wider public.",
-          "level3_question_ids": [],
+          "level3_question_ids": [
+            1515,
+            1516,
+            1517
+          ],
           "confusable_ids": [
             "ch14_t15",
             "ch14_t12",
@@ -17868,8 +17930,9 @@
           "term": "Interpretive Strategies",
           "definition": "Frameworks or methods audiences employ to understand media texts.",
           "level3_question_ids": [
-            414,
-            1198
+            1198,
+            1519,
+            1520
           ],
           "confusable_ids": [
             "ch14_t21",
@@ -17885,10 +17948,15 @@
           "definition": "Model where producers encode meanings and audiences decode them, possibly differently.",
           "level3_question_ids": [
             409,
+            414,
             415,
             1190,
+            1191,
             1195,
-            1198
+            1198,
+            1518,
+            1519,
+            1520
           ],
           "confusable_ids": [
             "ch14_t23",
@@ -17918,7 +17986,11 @@
           "id": "ch14_t21",
           "term": "Interpretive Community",
           "definition": "Groups sharing specific strategies for reading and understanding texts.",
-          "level3_question_ids": [],
+          "level3_question_ids": [
+            1518,
+            1519,
+            1520
+          ],
           "confusable_ids": [
             "ch14_t18",
             "ch14_t11",
@@ -17936,7 +18008,8 @@
             1190,
             1191,
             1192,
-            1193
+            1193,
+            1518
           ],
           "confusable_ids": [
             "ch14_t19"
@@ -17948,7 +18021,8 @@
           "definition": "A person whose behavior or success serves as an example for others to follow.",
           "level3_question_ids": [
             1177,
-            1178
+            1178,
+            1515
           ],
           "confusable_ids": [
             "ch14_t19",
@@ -19188,6 +19262,114 @@
           ],
           "correct": 0,
           "linked_concept_id": "ch14_t09"
+        },
+        {
+          "id": 1512,
+          "question": "A conservative voter watches Fox News daily and a liberal voter watches MSNBC daily. Both channels cover the same political event but frame it differently. According to reinforcement theory, what is most likely to happen to each viewer's political beliefs?",
+          "choices": [
+            "Both viewers will shift toward the political center due to exposure to professional journalism",
+            "Each viewer's pre-existing political beliefs will be strengthened by their chosen channel's framing",
+            "The conservative viewer will change beliefs while the liberal viewer remains unchanged",
+            "Both viewers will become more politically moderate and questioning of their original positions"
+          ],
+          "correct": 1,
+          "linked_concept_id": "ch14_t14"
+        },
+        {
+          "id": 1513,
+          "question": "A social media algorithm learns that a user frequently likes posts about environmental activism. It begins showing them more climate change content that aligns with their existing views. Based on reinforcement theory, what outcome would sociologists predict?",
+          "choices": [
+            "The user will develop a more balanced understanding of climate science by seeing diverse perspectives",
+            "The user's environmental activism beliefs will likely intensify rather than be fundamentally changed",
+            "The algorithm will accidentally expose the user to opposing viewpoints that challenge their stance",
+            "The user's media consumption will have minimal impact on their actual environmental beliefs and behaviors"
+          ],
+          "correct": 1,
+          "linked_concept_id": "ch14_t14"
+        },
+        {
+          "id": 1514,
+          "question": "A teenager who already distrusts large corporations begins following social media accounts that regularly post criticism of corporate practices. According to reinforcement theory, which outcome best explains what is happening?",
+          "choices": [
+            "The teenager is being manipulated into believing something entirely new about corporations",
+            "The teenager's pre-existing distrust of corporations is being reinforced rather than fundamentally transformed",
+            "The teenager will develop a more nuanced, balanced view that appreciates corporate contributions to society",
+            "The teenager's media exposure will have no measurable effect on their corporate attitudes or consumer behavior"
+          ],
+          "correct": 1,
+          "linked_concept_id": "ch14_t14"
+        },
+        {
+          "id": 1515,
+          "question": "A local fitness influencer with 50,000 Instagram followers posts about a new protein supplement. Within days, her followers begin purchasing the product and recommending it to friends who don't follow the influencer. Which aspect of the two-step flow model best explains why the influencer's friends are influenced despite not seeing the original post?",
+          "choices": [
+            "The supplement's quality makes it inherently persuasive to all consumers regardless of media exposure",
+            "Opinion leaders interpret media messages and pass along personally-endorsed recommendations to their social networks",
+            "Social media algorithms automatically push the product to all users in the influencer's geographic area",
+            "Direct media exposure is unnecessary because advertisements reach everyone through traditional television broadcasts"
+          ],
+          "correct": 1,
+          "linked_concept_id": "ch14_t17"
+        },
+        {
+          "id": 1516,
+          "question": "During a political election, a campaign strategist notices that while a candidate's TV advertisements reach millions, actual vote shifts occur primarily among people whose friends and family members are politically engaged. The strategist decides to invest more resources in training local community organizers rather than buying additional TV time. What is the strategist implicitly assuming about media influence?",
+          "choices": [
+            "Television advertising has no effect on voting behavior whatsoever",
+            "Voters make decisions based on rational analysis of candidate platforms alone",
+            "Information flows through personal networks of opinion leaders rather than directly from mass media to individual voters",
+            "Community organizers have access to classified information unavailable through media channels"
+          ],
+          "correct": 2,
+          "linked_concept_id": "ch14_t17"
+        },
+        {
+          "id": 1517,
+          "question": "A tech company launches a new smartphone and notices that early adopters\u2014mostly tech-savvy professionals\u2014begin discussing it in online forums and at work. Subsequently, their less tech-savvy colleagues and family members start wanting the phone, even though they haven't seen the company's advertisements. This pattern most directly demonstrates which limitation of viewing media as having uniform, direct effects on all audience members?",
+          "choices": [
+            "Mass media messages are too expensive for consumers to access",
+            "Opinion leaders mediate media messages, selectively filtering and reinterpreting them for their social circles",
+            "Smartphones are inherently superior to other communication devices and need no promotion",
+            "People only trust information that comes directly from corporate sources, never from peers"
+          ],
+          "correct": 1,
+          "linked_concept_id": "ch14_t17"
+        },
+        {
+          "id": 1518,
+          "question": "A group of film critics consistently interprets a superhero movie as a critique of authoritarianism, while casual moviegoers view it simply as entertainment. Which concept best explains why these audiences extract different meanings from the same film?",
+          "choices": [
+            "Media literacy programs that teach critical viewing skills",
+            "Interpretive communities that apply shared reading strategies to texts",
+            "The director's original intent in creating the film",
+            "Differences in individual IQ levels among audience members"
+          ],
+          "correct": 1,
+          "linked_concept_id": "ch14_t21"
+        },
+        {
+          "id": 1519,
+          "question": "A sociology class is assigned to analyze a music video. Hip-hop scholars in the class immediately recognize references to historical protest songs and racial justice movements, while their classmates only notice the visual aesthetics. What does this difference in interpretation best demonstrate?",
+          "choices": [
+            "Hip-hop scholars have better music taste than other students",
+            "The music video was deliberately designed to confuse general audiences",
+            "Members of different interpretive communities use distinct strategies to decode media texts",
+            "Visual aesthetics are less important than historical context in media analysis"
+          ],
+          "correct": 2,
+          "linked_concept_id": "ch14_t21"
+        },
+        {
+          "id": 1520,
+          "question": "When a television drama depicts a controversial political event, conservative news analysts and liberal news analysts present fundamentally different interpretations of the same episode. This phenomenon most directly illustrates how interpretive communities:",
+          "choices": [
+            "Share identical political beliefs regardless of their backgrounds",
+            "Apply learned frameworks and strategies that shape how they understand and extract meaning from texts",
+            "Determine which television networks are objectively superior",
+            "Prove that media messages are meaningless and arbitrary"
+          ],
+          "correct": 1,
+          "linked_concept_id": "ch14_t21"
         }
       ]
     },
@@ -19206,8 +19388,6 @@
             398,
             399,
             401,
-            878,
-            883,
             1013
           ],
           "confusable_ids": [
@@ -19223,6 +19403,9 @@
           "term": "Medicalization",
           "definition": "Defining non-medical problems as medical issues requiring treatment.",
           "level3_question_ids": [
+            879,
+            880,
+            881,
             889,
             891,
             892,
@@ -19263,6 +19446,8 @@
           "term": "Epidemiology",
           "definition": "The study of disease distribution and determinants in populations.",
           "level3_question_ids": [
+            878,
+            883,
             894,
             895,
             896,
@@ -19311,7 +19496,6 @@
             873,
             874,
             878,
-            883,
             885,
             886,
             887,
@@ -19344,6 +19528,8 @@
           "term": "Deprivation Amplification",
           "definition": "Exacerbated poor health in deprived areas due to combined individual and area factors.",
           "level3_question_ids": [
+            875,
+            883,
             887,
             911,
             924,
@@ -19373,9 +19559,6 @@
           "definition": "Societal expectations and exemptions for individuals deemed ill.",
           "level3_question_ids": [
             876,
-            879,
-            880,
-            881,
             882
           ],
           "confusable_ids": [
@@ -19411,7 +19594,8 @@
             397,
             400,
             402,
-            403
+            871,
+            877
           ],
           "confusable_ids": [
             "ch15_t10",
@@ -19636,7 +19820,7 @@
             "Education level"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch15_t06"
         },
         {
           "id": 875,
@@ -19696,7 +19880,7 @@
             "sick role"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch15_t06"
         },
         {
           "id": 880,
@@ -19708,7 +19892,7 @@
             "sick role"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch15_t02"
         },
         {
           "id": 881,
@@ -19720,7 +19904,7 @@
             "sick role"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch15_t09"
         },
         {
           "id": 882,
@@ -19744,7 +19928,7 @@
             "sick role"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch15_t04"
         },
         {
           "id": 884,
@@ -19912,7 +20096,7 @@
             "Conducting interviews"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch15_t04"
         },
         {
           "id": 898,
@@ -20353,6 +20537,7 @@
             463,
             466,
             469,
+            600,
             603,
             611,
             614,
@@ -20476,10 +20661,10 @@
           "term": "Demography",
           "definition": "The statistical study of human populations, including size, structure, distribution, and changes.",
           "level3_question_ids": [
+            9,
             10,
             435,
             442,
-            443,
             448,
             450,
             451,
@@ -20493,10 +20678,8 @@
             603,
             604,
             605,
-            617,
             619,
-            620,
-            633
+            620
           ],
           "confusable_ids": [
             "ch16_t11"
@@ -20564,6 +20747,7 @@
             456,
             467,
             601,
+            603,
             613,
             617,
             618
@@ -20600,8 +20784,6 @@
           "definition": "The measure of the frequency of deaths in a defined population during a specified time.",
           "level3_question_ids": [
             3,
-            9,
-            10,
             438,
             450,
             623
@@ -20641,6 +20823,7 @@
           "definition": "Average number of years an individual is expected to live based on current mortality rates.",
           "level3_question_ids": [
             4,
+            10,
             429,
             438,
             461,
@@ -20662,11 +20845,9 @@
             5,
             6,
             454,
-            600,
             602,
             608,
             609,
-            610,
             611,
             630,
             631,
@@ -20688,7 +20869,6 @@
           "level3_question_ids": [
             5,
             454,
-            600,
             608,
             609,
             610,
@@ -20712,7 +20892,7 @@
             439,
             454,
             466,
-            635,
+            633,
             638
           ],
           "confusable_ids": [
@@ -20731,7 +20911,6 @@
             439,
             457,
             464,
-            603,
             604,
             635,
             638
@@ -20760,6 +20939,7 @@
             607,
             608,
             609,
+            610,
             630,
             631,
             632,
@@ -20781,8 +20961,7 @@
           "level3_question_ids": [
             441,
             610,
-            631,
-            634
+            631
           ],
           "confusable_ids": [
             "ch16_t20",
@@ -21636,7 +21815,7 @@
             "3.7%"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch16_t03"
         },
         {
           "id": 617,
@@ -21648,7 +21827,7 @@
             "Asian"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch16_t11"
         },
         {
           "id": 618,
@@ -21672,7 +21851,7 @@
             "400 million"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch16_t08"
         },
         {
           "id": 620,
@@ -21900,7 +22079,7 @@
             "It encourages emigration"
           ],
           "correct": 0,
-          "linked_concept_id": null
+          "linked_concept_id": "ch16_t19"
         },
         {
           "id": 639,

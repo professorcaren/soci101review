@@ -71,6 +71,7 @@
         463,
         466,
         469,
+        600,
         603,
         611,
         614,
@@ -194,10 +195,10 @@
       "term": "Demography",
       "definition": "The statistical study of human populations, including size, structure, distribution, and changes.",
       "level3_question_ids": [
+        9,
         10,
         435,
         442,
-        443,
         448,
         450,
         451,
@@ -211,10 +212,8 @@
         603,
         604,
         605,
-        617,
         619,
-        620,
-        633
+        620
       ],
       "confusable_ids": [
         "ch16_t11"
@@ -282,6 +281,7 @@
         456,
         467,
         601,
+        603,
         613,
         617,
         618
@@ -318,8 +318,6 @@
       "definition": "The measure of the frequency of deaths in a defined population during a specified time.",
       "level3_question_ids": [
         3,
-        9,
-        10,
         438,
         450,
         623
@@ -359,6 +357,7 @@
       "definition": "Average number of years an individual is expected to live based on current mortality rates.",
       "level3_question_ids": [
         4,
+        10,
         429,
         438,
         461,
@@ -380,11 +379,9 @@
         5,
         6,
         454,
-        600,
         602,
         608,
         609,
-        610,
         611,
         630,
         631,
@@ -406,7 +403,6 @@
       "level3_question_ids": [
         5,
         454,
-        600,
         608,
         609,
         610,
@@ -430,7 +426,7 @@
         439,
         454,
         466,
-        635,
+        633,
         638
       ],
       "confusable_ids": [
@@ -449,7 +445,6 @@
         439,
         457,
         464,
-        603,
         604,
         635,
         638
@@ -478,6 +473,7 @@
         607,
         608,
         609,
+        610,
         630,
         631,
         632,
@@ -499,8 +495,7 @@
       "level3_question_ids": [
         441,
         610,
-        631,
-        634
+        631
       ],
       "confusable_ids": [
         "ch16_t20",
@@ -1354,7 +1349,7 @@
         "3.7%"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t03"
     },
     {
       "id": 617,
@@ -1366,7 +1361,7 @@
         "Asian"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t11"
     },
     {
       "id": 618,
@@ -1390,7 +1385,7 @@
         "400 million"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 620,
@@ -1618,7 +1613,7 @@
         "It encourages emigration"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t19"
     },
     {
       "id": 639,

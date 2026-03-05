@@ -10,7 +10,9 @@
       "level3_question_ids": [
         784,
         785,
-        786
+        786,
+        1083,
+        1088
       ],
       "confusable_ids": [
         "ch03_t02",
@@ -42,7 +44,11 @@
       "id": "ch03_t03",
       "term": "Material Culture",
       "definition": "Physical objects and artifacts created by a society",
-      "level3_question_ids": [],
+      "level3_question_ids": [
+        1503,
+        1504,
+        1505
+      ],
       "confusable_ids": [
         "ch03_t17",
         "ch03_t21",
@@ -57,8 +63,14 @@
       "definition": "Non-material aspects of culture including ideas, values, and beliefs",
       "level3_question_ids": [
         787,
+        1076,
+        1077,
+        1079,
         1082,
-        1085
+        1084,
+        1085,
+        1124,
+        1503
       ],
       "confusable_ids": [
         "ch03_t17",
@@ -85,15 +97,18 @@
       "term": "Values",
       "definition": "Culturally defined standards of what is desirable, good, and proper",
       "level3_question_ids": [
+        1076,
+        1077,
+        1079,
         1082,
         1085,
+        1097,
         1098,
-        1106,
-        1109,
         1113,
-        1116,
         1128,
-        1130
+        1130,
+        1503,
+        1504
       ],
       "confusable_ids": [
         "ch03_t02",
@@ -111,7 +126,8 @@
         1089,
         1090,
         1098,
-        1106
+        1109,
+        1129
       ],
       "confusable_ids": [
         "ch03_t21",
@@ -142,9 +158,7 @@
       "level3_question_ids": [
         788,
         1089,
-        1111,
-        1112,
-        1129
+        1112
       ],
       "confusable_ids": [
         "ch03_t07",
@@ -158,9 +172,7 @@
       "id": "ch03_t10",
       "term": "Signs",
       "definition": "Objects or gestures that carry a particular meaning in a culture",
-      "level3_question_ids": [
-        1115
-      ],
+      "level3_question_ids": [],
       "confusable_ids": [
         "ch03_t11",
         "ch03_t17",
@@ -186,9 +198,9 @@
       "term": "Language",
       "definition": "System of symbols that allows people to communicate with one another",
       "level3_question_ids": [
+        1084,
         1102,
-        1103,
-        1115
+        1103
       ],
       "confusable_ids": [
         "ch03_t22",
@@ -237,7 +249,6 @@
       "term": "Sanction",
       "definition": "Reward or punishment used to enforce social norms",
       "level3_question_ids": [
-        789,
         1091,
         1092,
         1093,
@@ -245,7 +256,6 @@
         1095,
         1096,
         1110,
-        1112,
         1129
       ],
       "confusable_ids": [
@@ -259,6 +269,10 @@
       "term": "Social Control",
       "definition": "Methods used by society to regulate behavior",
       "level3_question_ids": [
+        1078,
+        1081,
+        1082,
+        1083,
         1091,
         1092,
         1093,
@@ -269,6 +283,7 @@
         1108,
         1110,
         1113,
+        1122,
         1129,
         1130
       ],
@@ -285,13 +300,19 @@
       "term": "Dominant Culture",
       "definition": "Culture of the most powerful group in a society",
       "level3_question_ids": [
-        1098,
+        1080,
         1099,
         1101,
         1114,
+        1115,
         1116,
         1117,
-        1130
+        1123,
+        1126,
+        1127,
+        1130,
+        1504,
+        1505
       ],
       "confusable_ids": [
         "ch03_t21",
@@ -375,7 +396,8 @@
         1106,
         1107,
         1108,
-        1128
+        1128,
+        1505
       ],
       "confusable_ids": [
         "ch03_t17",
@@ -530,7 +552,7 @@
         "It is a social construct that varies across cultures and historical periods."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t06"
     },
     {
       "id": 1077,
@@ -542,7 +564,7 @@
         "Create a sense of awe and wonder through ritual and symbolism."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t06"
     },
     {
       "id": 1078,
@@ -554,7 +576,7 @@
         "Is socially constructed and maintained through everyday interactions."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t16"
     },
     {
       "id": 1079,
@@ -566,7 +588,7 @@
         "It reflects the economic interests of powerful corporations."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t06"
     },
     {
       "id": 1080,
@@ -578,7 +600,7 @@
         "All of the above."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t17"
     },
     {
       "id": 1081,
@@ -590,7 +612,7 @@
         "The development of new technologies that transform social interaction."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t16"
     },
     {
       "id": 1082,
@@ -602,7 +624,7 @@
         "All of the above."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t06"
     },
     {
       "id": 1083,
@@ -614,7 +636,7 @@
         "Deviance is a result of individual pathology and psychological factors."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t16"
     },
     {
       "id": 1084,
@@ -626,7 +648,7 @@
         "Institutions function to socialize individuals into dominant cultural norms."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t04"
     },
     {
       "id": 1085,
@@ -638,7 +660,7 @@
         "Cultural values are primarily determined by biological and genetic factors."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t04"
     },
     {
       "id": 1086,
@@ -1082,7 +1104,7 @@
         "Constantly evolving and changing through social interaction."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t16"
     },
     {
       "id": 1123,
@@ -1094,7 +1116,7 @@
         "Are neutral institutions that benefit all members of society equally."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t17"
     },
     {
       "id": 1124,
@@ -1106,7 +1128,7 @@
         "Poverty is a consequence of the exploitation of the poor by the rich."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t04"
     },
     {
       "id": 1125,
@@ -1118,7 +1140,7 @@
         "Are primarily concerned with protecting the rights of the poor."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t08"
     },
     {
       "id": 1126,
@@ -1130,7 +1152,7 @@
         "The actions of great individuals or leaders."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t17"
     },
     {
       "id": 1127,
@@ -1142,7 +1164,7 @@
         "It emphasizes the role of economic capital in shaping cultural preferences."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t17"
     },
     {
       "id": 1128,
@@ -1179,6 +1201,42 @@
       ],
       "correct": 0,
       "linked_concept_id": "ch03_t16"
+    },
+    {
+      "id": 1503,
+      "question": "An anthropologist studying a recently discovered indigenous community notices that their cooking vessels are intentionally made with thick, heavy clay despite access to lighter materials. When asked why, community members explain these vessels are passed down through generations and represent family heritage. Which concept does this best illustrate about material culture?",
+      "choices": [
+        "Material culture serves only practical, utilitarian purposes in society",
+        "Physical objects can encode and transmit cultural values and social meaning beyond their functional use",
+        "Communities prefer older technology because they lack access to modern innovations",
+        "The weight of objects determines their cultural significance in any society"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch03_t03"
+    },
+    {
+      "id": 1504,
+      "question": "A multinational corporation redesigns its logo and packaging to use minimalist, eco-friendly materials. Shortly after, competing companies and smaller businesses adopt similar aesthetic choices, even when it increases production costs. What does this pattern reveal about how material culture functions in society?",
+      "choices": [
+        "Material objects have no influence on social behavior or values",
+        "Physical artifacts can reflect and reinforce cultural values, while also being used to signal status and belonging within social hierarchies",
+        "Businesses change their materials solely for environmental reasons, not cultural ones",
+        "Material culture is determined entirely by the cost of production"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch03_t03"
+    },
+    {
+      "id": 1505,
+      "question": "A sociologist observes that in a particular community, the style, color, and quality of clothing a person wears directly correlates with their occupational status and access to education. When economic conditions improve and more people can afford higher-quality clothing, occupational distinctions become harder to identify through appearance alone. Which aspect of material culture does this scenario best demonstrate?",
+      "choices": [
+        "Material objects are completely independent of social structures",
+        "Physical artifacts can simultaneously reflect social inequality while also being shaped by economic and social change",
+        "Clothing has no cultural meaning in modern societies",
+        "Only wealthy people can influence what material culture represents in society"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch03_t03"
     }
   ]
 }

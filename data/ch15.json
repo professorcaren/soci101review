@@ -13,8 +13,6 @@
         398,
         399,
         401,
-        878,
-        883,
         1013
       ],
       "confusable_ids": [
@@ -30,6 +28,9 @@
       "term": "Medicalization",
       "definition": "Defining non-medical problems as medical issues requiring treatment.",
       "level3_question_ids": [
+        879,
+        880,
+        881,
         889,
         891,
         892,
@@ -70,6 +71,8 @@
       "term": "Epidemiology",
       "definition": "The study of disease distribution and determinants in populations.",
       "level3_question_ids": [
+        878,
+        883,
         894,
         895,
         896,
@@ -118,7 +121,6 @@
         873,
         874,
         878,
-        883,
         885,
         886,
         887,
@@ -151,6 +153,8 @@
       "term": "Deprivation Amplification",
       "definition": "Exacerbated poor health in deprived areas due to combined individual and area factors.",
       "level3_question_ids": [
+        875,
+        883,
         887,
         911,
         924,
@@ -180,9 +184,6 @@
       "definition": "Societal expectations and exemptions for individuals deemed ill.",
       "level3_question_ids": [
         876,
-        879,
-        880,
-        881,
         882
       ],
       "confusable_ids": [
@@ -218,7 +219,8 @@
         397,
         400,
         402,
-        403
+        871,
+        877
       ],
       "confusable_ids": [
         "ch15_t10",
@@ -443,7 +445,7 @@
         "Education level"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch15_t06"
     },
     {
       "id": 875,
@@ -503,7 +505,7 @@
         "sick role"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch15_t06"
     },
     {
       "id": 880,
@@ -515,7 +517,7 @@
         "sick role"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch15_t02"
     },
     {
       "id": 881,
@@ -527,7 +529,7 @@
         "sick role"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch15_t09"
     },
     {
       "id": 882,
@@ -551,7 +553,7 @@
         "sick role"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch15_t04"
     },
     {
       "id": 884,
@@ -719,7 +721,7 @@
         "Conducting interviews"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch15_t04"
     },
     {
       "id": 898,

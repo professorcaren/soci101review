@@ -8,6 +8,8 @@
       "term": "Race",
       "definition": "A socially constructed category based on real or perceived biological differences between groups of people",
       "level3_question_ids": [
+        992,
+        997,
         1498
       ],
       "confusable_ids": [
@@ -25,14 +27,16 @@
       "level3_question_ids": [
         773,
         774,
+        775,
         776,
         782,
         783,
         987,
         988,
+        994,
+        998,
         999,
-        1001,
-        1498
+        1001
       ],
       "confusable_ids": [
         "ch08_t03",
@@ -49,7 +53,6 @@
       "level3_question_ids": [
         773,
         774,
-        775,
         777,
         778,
         987,
@@ -97,10 +100,7 @@
         750,
         751,
         752,
-        753,
-        990,
-        992,
-        1499
+        753
       ],
       "confusable_ids": [
         "ch08_t13",
@@ -169,14 +169,16 @@
         765,
         766,
         767,
+        768,
         769,
         770,
         771,
         772,
+        990,
         995,
-        1494,
         1495,
-        1497
+        1497,
+        1499
       ],
       "confusable_ids": [
         "ch08_t11",
@@ -206,7 +208,6 @@
       "definition": "Discrimination carried out by one person against another",
       "level3_question_ids": [
         767,
-        768,
         779,
         995
       ],
@@ -260,6 +261,7 @@
         778,
         992,
         1002,
+        1494,
         1495,
         1496,
         1499
@@ -292,7 +294,8 @@
       "term": "Race Consciousness",
       "definition": "An ideology that acknowledges race as a powerful social construct that shapes our individual and social experiences",
       "level3_question_ids": [
-        993
+        993,
+        1498
       ],
       "confusable_ids": [
         "ch08_t01",
@@ -368,7 +371,12 @@
       "id": "ch08_t20",
       "term": "Assimilation",
       "definition": "A pattern of relations between ethnic or racial groups in which the minority group is absorbed into the mainstream or dominant group",
-      "level3_question_ids": [],
+      "level3_question_ids": [
+        781,
+        1509,
+        1510,
+        1511
+      ],
       "confusable_ids": [
         "ch08_t21",
         "ch08_t22",
@@ -383,7 +391,8 @@
       "definition": "The process by which racial minority groups are absorbed into the dominant group through intermarriage",
       "level3_question_ids": [
         780,
-        998
+        998,
+        1510
       ],
       "confusable_ids": [
         "ch08_t22",
@@ -401,7 +410,10 @@
         781,
         783,
         998,
-        1001
+        1001,
+        1509,
+        1510,
+        1511
       ],
       "confusable_ids": [
         "ch08_t21",
@@ -1147,6 +1159,42 @@
       ],
       "correct": 1,
       "linked_concept_id": "ch08_t03"
+    },
+    {
+      "id": 1509,
+      "question": "A third-generation Italian-American family celebrates Christmas with traditional Italian cuisine, but the parents primarily speak English at home, send their children to public schools with diverse peer groups, and identify strongly as American rather than Italian. Which aspect of this scenario best demonstrates assimilation?",
+      "choices": [
+        "The family's continued preparation of traditional Italian food",
+        "The family's shift to English as their primary language and adoption of mainstream American identity",
+        "The family's choice to celebrate Christmas rather than other holidays",
+        "The family's decision to live in a neighborhood with other Italian-Americans"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch08_t20"
+    },
+    {
+      "id": 1510,
+      "question": "A newly arrived immigrant group establishes businesses, social clubs, and religious institutions within their own community while maintaining distinct cultural practices. Over two generations, their descendants increasingly intermarry with members of the dominant group, pursue higher education in mainstream institutions, and move to suburban areas. What does this pattern illustrate about the assimilation process?",
+      "choices": [
+        "Assimilation occurs immediately upon arrival to a new country",
+        "Assimilation is a generational process in which later generations absorb into mainstream society while earlier generations maintain ethnic boundaries",
+        "Assimilation prevents minority groups from achieving economic success",
+        "Assimilation requires that ethnic communities completely disappear within one generation"
+      ],
+      "correct": 1,
+      "linked_concept_id": "ch08_t20"
+    },
+    {
+      "id": 1511,
+      "question": "A school administrator notices that second-generation immigrant students from a particular ethnic background are now fully integrated into mainstream academic and social networks, compete equally for academic honors, and report identifying primarily with American culture rather than their heritage culture. However, some first-generation parents from the same community express concern about cultural loss. How can assimilation best explain this intergenerational difference?",
+      "choices": [
+        "The second generation has experienced discrimination that prevented them from maintaining their heritage",
+        "The first generation deliberately prevented their children from learning about their cultural background",
+        "Assimilation progresses across generations as younger members increasingly absorb dominant group norms and institutions while older members retain stronger ethnic identities",
+        "The school administrator is biased against the ethnic community and is forcing assimilation against the students' wishes"
+      ],
+      "correct": 2,
+      "linked_concept_id": "ch08_t20"
     }
   ]
 }

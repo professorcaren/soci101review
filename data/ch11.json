@@ -8,26 +8,17 @@
       "term": "social institutions",
       "definition": "Systems and structures within society that shape the activities of groups and individuals, providing stability and meeting essential societal needs",
       "level3_question_ids": [
+        486,
         500,
         503,
-        504
+        514,
+        523
       ],
       "confusable_ids": [
         "ch11_t02",
         "ch11_t11",
         "ch11_t10",
         "ch11_t05"
-      ]
-    },
-    {
-      "id": "ch11_t02",
-      "term": "education",
-      "definition": "The process by which a society transmits its knowledge, values, and expectations to its members so they can function effectively",
-      "level3_question_ids": [],
-      "confusable_ids": [
-        "ch11_t11",
-        "ch11_t05",
-        "ch11_t01"
       ]
     },
     {
@@ -60,6 +51,8 @@
       "term": "hidden curriculum",
       "definition": "Values or behaviors that students learn indirectly over the course of their schooling, often reinforcing social norms and power structures",
       "level3_question_ids": [
+        510,
+        513,
         1009
       ],
       "confusable_ids": [
@@ -79,10 +72,8 @@
         473,
         474,
         483,
-        486,
-        490,
         494,
-        495,
+        496,
         498,
         500,
         501,
@@ -98,14 +89,9 @@
         511,
         512,
         513,
-        514,
-        515,
-        516,
-        517,
-        518,
         519,
         521,
-        523
+        1011
       ],
       "confusable_ids": [
         "ch11_t08",
@@ -123,7 +109,8 @@
         471,
         474,
         487,
-        501
+        518,
+        1010
       ],
       "confusable_ids": [
         "ch11_t08",
@@ -158,9 +145,7 @@
       "level3_question_ids": [
         476,
         478,
-        510,
-        512,
-        513
+        512
       ],
       "confusable_ids": [
         "ch11_t10",
@@ -198,9 +183,9 @@
         482,
         483,
         484,
+        489,
         491,
         492,
-        503,
         516
       ],
       "confusable_ids": [
@@ -237,6 +222,7 @@
       "term": "charismatic authority",
       "definition": "Power based on the perception that a leader possesses extraordinary, possibly divine qualities, often found in religious movements",
       "level3_question_ids": [
+        515,
         517,
         519,
         520,
@@ -286,8 +272,8 @@
         496,
         497,
         499,
-        502,
         508,
+        509,
         511
       ],
       "confusable_ids": [
@@ -309,7 +295,6 @@
         497,
         498,
         499,
-        500,
         502
       ],
       "confusable_ids": [
@@ -452,7 +437,7 @@
         "The restriction of religious expression to private spaces rather than public domains"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch11_t11"
     },
     {
       "id": 481,
@@ -476,7 +461,7 @@
         "Supreme Court decisions consistently favor religious organizations in legal disputes"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch11_t11"
     },
     {
       "id": 483,
@@ -812,7 +797,7 @@
         "They gradually modify their religious beliefs to align with secular feminist values over time"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch11_t05"
     },
     {
       "id": 511,
@@ -824,7 +809,7 @@
         "They function primarily as cognitive shortcuts that simplify complex theological concepts"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch11_t15"
     },
     {
       "id": 512,
@@ -836,7 +821,7 @@
         "As the unconscious internalization of religious norms through repeated exposure to religious messages"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch11_t09"
     },
     {
       "id": 513,
@@ -848,7 +833,7 @@
         "Through private spiritual experiences that occur independently of social interaction"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch11_t09"
     },
     {
       "id": 514,

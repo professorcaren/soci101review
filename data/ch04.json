@@ -10,6 +10,8 @@
       "level3_question_ids": [
         246,
         247,
+        248,
+        249,
         252,
         259,
         266,
@@ -19,11 +21,9 @@
         799,
         800,
         801,
-        805,
         806,
         808,
-        810,
-        812
+        810
       ],
       "confusable_ids": [
         "ch04_t13",
@@ -40,6 +40,7 @@
       "level3_question_ids": [
         232,
         233,
+        242,
         243,
         251,
         255,
@@ -48,9 +49,10 @@
         258,
         259,
         265,
+        267,
         278,
         792,
-        793,
+        802,
         803
       ],
       "confusable_ids": [
@@ -95,8 +97,7 @@
       "definition": "Theory that the self develops through social interaction and role-taking",
       "level3_question_ids": [
         239,
-        793,
-        810
+        793
       ],
       "confusable_ids": [
         "ch04_t07",
@@ -111,7 +112,8 @@
       "term": "Generalized Other",
       "definition": "The composite mental image of the general attitudes and expectations of society",
       "level3_question_ids": [
-        241
+        241,
+        793
       ],
       "confusable_ids": [
         "ch04_t23",
@@ -158,11 +160,10 @@
         276,
         796,
         797,
-        804,
+        798,
         811,
         981,
-        982,
-        983
+        982
       ],
       "confusable_ids": [
         "ch04_t04",
@@ -182,12 +183,11 @@
         240,
         241,
         244,
-        256,
         258,
         276,
         278,
+        792,
         796,
-        798,
         803,
         807,
         811,
@@ -206,7 +206,9 @@
       "definition": "Public performance of social roles versus private preparation and relaxation",
       "level3_question_ids": [
         238,
+        796,
         797,
+        804,
         811,
         981,
         982
@@ -225,8 +227,7 @@
       "definition": "The idea that social reality is created through human interaction",
       "level3_question_ids": [
         231,
-        803,
-        811
+        803
       ],
       "confusable_ids": [
         "ch04_t04",
@@ -264,8 +265,6 @@
         266,
         274,
         799,
-        806,
-        808,
         810,
         812
       ],
@@ -312,7 +311,6 @@
       "term": "Resocialization",
       "definition": "Process of learning new norms and values, replacing previous ones",
       "level3_question_ids": [
-        248,
         250,
         251,
         253,
@@ -344,7 +342,8 @@
         267,
         268,
         275,
-        809
+        807,
+        808
       ],
       "confusable_ids": [
         "ch04_t18",
@@ -359,7 +358,6 @@
       "term": "Ascribed Status",
       "definition": "Social position assigned at birth or involuntarily",
       "level3_question_ids": [
-        275,
         809
       ],
       "confusable_ids": [
@@ -368,19 +366,6 @@
         "ch04_t21",
         "ch04_t19",
         "ch04_t07"
-      ]
-    },
-    {
-      "id": "ch04_t19",
-      "term": "Embodied Status",
-      "definition": "Status characteristics physically manifested in appearance or behavior",
-      "level3_question_ids": [],
-      "confusable_ids": [
-        "ch04_t21",
-        "ch04_t22",
-        "ch04_t17",
-        "ch04_t18",
-        "ch04_t20"
       ]
     },
     {
@@ -407,7 +392,6 @@
         230,
         231,
         267,
-        807,
         809
       ],
       "confusable_ids": [
@@ -428,7 +412,6 @@
         260,
         261,
         264,
-        267,
         268,
         269,
         270,
@@ -436,7 +419,6 @@
         272,
         273,
         795,
-        802,
         805,
         984
       ],
@@ -455,7 +437,8 @@
       "level3_question_ids": [
         236,
         277,
-        795
+        795,
+        802
       ],
       "confusable_ids": [
         "ch04_t22",
@@ -484,6 +467,7 @@
       "term": "Emotional Work/Labor",
       "definition": "Managing one's emotions to meet job or social expectations",
       "level3_question_ids": [
+        248,
         805,
         981,
         983,
@@ -511,9 +495,7 @@
       "id": "ch04_t27",
       "term": "Saturated Self",
       "definition": "Modern identity overwhelmed by multiple roles and relationships",
-      "level3_question_ids": [
-        802
-      ],
+      "level3_question_ids": [],
       "confusable_ids": [
         "ch04_t02",
         "ch04_t03",
