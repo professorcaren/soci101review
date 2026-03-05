@@ -6,7 +6,7 @@
     <title>SOCI 101 Exam Review</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/components.css">
 </head>
@@ -36,6 +36,29 @@
         </div>
     </div>
 
+    <!-- Welcome Modal (first-time only) -->
+    <div id="welcome-modal" class="modal-overlay hidden">
+        <div class="modal-card welcome-card">
+            <h2>Welcome to Exam Review</h2>
+            <p class="modal-subtitle">Here's how it works.</p>
+            <div class="welcome-items">
+                <div class="welcome-item">
+                    <span class="welcome-item-label">Chapters</span>
+                    <span class="welcome-item-desc">Master concepts level by level &mdash; term recognition, definition recall, then application.</span>
+                </div>
+                <div class="welcome-item">
+                    <span class="welcome-item-label">Practice Exams</span>
+                    <span class="welcome-item-desc">Test yourself across chapters in Test Mode (no feedback) or Study Mode (with feedback).</span>
+                </div>
+                <div class="welcome-item">
+                    <span class="welcome-item-label">Progress</span>
+                    <span class="welcome-item-desc">Your progress saves automatically and syncs across devices.</span>
+                </div>
+            </div>
+            <button id="btn-welcome-dismiss" class="btn btn-primary">Start Studying</button>
+        </div>
+    </div>
+
     <!-- Home Screen -->
     <div id="screen-home" class="screen">
         <div class="container home-container">
@@ -53,6 +76,7 @@
                     <div id="home-exam-list" class="home-exam-list"></div>
                 </div>
             </div>
+            <a id="link-how-it-works" class="home-how-link">How it works</a>
         </div>
     </div>
 
@@ -120,7 +144,7 @@
             <div class="exam-practice-section">
                 <p class="exam-practice-label" id="exam-question-count"></p>
                 <div class="exam-slider-row">
-                    <input type="range" id="exam-question-slider" min="10" max="100" step="5" value="50" class="exam-slider">
+                    <input type="range" id="exam-question-slider" min="5" max="50" step="5" value="15" class="exam-slider">
                 </div>
                 <div class="exam-practice-buttons">
                     <button id="btn-test-mode" class="btn btn-primary">Test Mode</button>

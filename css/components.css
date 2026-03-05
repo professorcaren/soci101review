@@ -292,7 +292,7 @@
 }
 .choice-btn:hover:not(.answered) {
     border-color: var(--color-primary);
-    background: rgba(176, 94, 58, 0.08);
+    background: rgba(42, 125, 110, 0.06);
 }
 .choice-btn.selected-correct {
     border-color: var(--color-success);
@@ -319,7 +319,7 @@
 /* Exam Mode - Neutral Selection */
 .choice-btn.selected-neutral {
     border-color: var(--color-primary);
-    background: rgba(176, 94, 58, 0.12);
+    background: rgba(42, 125, 110, 0.10);
 }
 
 /* Chapter Study Section */

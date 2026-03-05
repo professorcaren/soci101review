@@ -64,6 +64,10 @@ const App = (() => {
                 // Try to restore progress from cloud
                 await Sync.pullProgress();
                 showHome();
+                // Show welcome modal for first-time users
+                if (!localStorage.getItem('soci101_welcomed')) {
+                    UI.showWelcomeModal();
+                }
             }
         });
 
@@ -212,6 +216,16 @@ const App = (() => {
                     showHome();
                 }
             }
+        });
+
+        // --- Welcome Modal ---
+        document.getElementById('btn-welcome-dismiss').addEventListener('click', () => {
+            localStorage.setItem('soci101_welcomed', 'true');
+            UI.hideWelcomeModal();
+        });
+
+        document.getElementById('link-how-it-works').addEventListener('click', () => {
+            UI.showWelcomeModal();
         });
 
         // --- Theme Toggle ---

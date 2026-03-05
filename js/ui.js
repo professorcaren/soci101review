@@ -534,6 +534,14 @@ const UI = (() => {
         document.getElementById('identity-modal').classList.add('hidden');
     }
 
+    function showWelcomeModal() {
+        document.getElementById('welcome-modal').classList.remove('hidden');
+    }
+
+    function hideWelcomeModal() {
+        document.getElementById('welcome-modal').classList.add('hidden');
+    }
+
     function updateIdentityButton() {
         const nameInput = document.getElementById('input-name');
         const onyenInput = document.getElementById('input-onyen');
@@ -571,6 +579,7 @@ const UI = (() => {
         startStudySession, nextQuestion, handleKeydown,
         renderSessionSummary,
         showIdentityModal, hideIdentityModal, updateIdentityButton,
+        showWelcomeModal, hideWelcomeModal,
         getMissedQuestions, getCurrentExamId, isExamMode,
     };
 })();
