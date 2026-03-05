@@ -474,7 +474,15 @@
 .exam-practice-label {
     font-weight: 600;
     font-size: 0.95rem;
+    margin-bottom: 8px;
+}
+.exam-slider-row {
     margin-bottom: 16px;
+}
+.exam-slider {
+    width: 100%;
+    max-width: 300px;
+    accent-color: var(--color-primary);
 }
 .exam-practice-buttons {
     display: flex;

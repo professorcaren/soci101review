@@ -8,10 +8,9 @@
       "term": "Religion",
       "definition": "Any institutionalized system of shared beliefs and rituals that identify a relationship between the sacred and the profane",
       "level3_question_ids": [
-        295,
-        297,
+        294,
         302,
-        304
+        306
       ],
       "confusable_ids": [
         "ch10_t15",
@@ -27,13 +26,8 @@
       "definition": "The holy, divine, or supernatural",
       "level3_question_ids": [
         294,
-        295,
-        296,
-        299,
-        301,
-        302,
-        303,
-        305
+        305,
+        1502
       ],
       "confusable_ids": [
         "ch10_t04"
@@ -45,9 +39,6 @@
       "definition": "The ordinary, mundane, or everyday",
       "level3_question_ids": [
         294,
-        295,
-        296,
-        302,
         305
       ],
       "confusable_ids": []
@@ -57,9 +48,7 @@
       "term": "Intrinsic Religiosity",
       "definition": "A person's inner religious life or personal relationship to the divine",
       "level3_question_ids": [
-        294,
         295,
-        296,
         297,
         300,
         303
@@ -79,11 +68,7 @@
       "level3_question_ids": [
         295,
         297,
-        298,
-        302,
-        304,
-        305,
-        306
+        303
       ],
       "confusable_ids": [
         "ch10_t04",
@@ -98,13 +83,8 @@
       "term": "Secular",
       "definition": "Nonreligious; a secular society separates church and state and does not endorse any religion",
       "level3_question_ids": [
-        294,
-        295,
-        296,
-        297,
-        300,
-        303,
-        306
+        298,
+        304
       ],
       "confusable_ids": [
         "ch10_t07",
@@ -117,9 +97,7 @@
       "definition": "The process by which religious influence declines in a society and religious institutions lose social and political power",
       "level3_question_ids": [
         298,
-        302,
-        304,
-        305
+        304
       ],
       "confusable_ids": [
         "ch10_t08",
@@ -134,11 +112,7 @@
       "term": "Traditional Authority",
       "definition": "Power legitimized through respect for long-established cultural patterns, often found in religious institutions",
       "level3_question_ids": [
-        294,
-        295,
-        299,
-        301,
-        306
+        301
       ],
       "confusable_ids": [
         "ch10_t09",
@@ -153,11 +127,7 @@
       "term": "Charismatic Authority",
       "definition": "Power legitimized through exceptional personal qualities or the ability to inspire followers, often seen in religious leaders",
       "level3_question_ids": [
-        295,
-        298,
         299,
-        301,
-        305,
         306
       ],
       "confusable_ids": [
@@ -173,8 +143,7 @@
       "term": "Unchurched",
       "definition": "A term describing those who consider themselves spiritual but not religious and who often adopt aspects of various religious traditions",
       "level3_question_ids": [
-        300,
-        303
+        300
       ],
       "confusable_ids": [
         "ch10_t12",
@@ -189,9 +158,9 @@
       "term": "Ritual",
       "definition": "Formal, ceremonial behaviors or practices based on religious beliefs that are regularly performed by believers",
       "level3_question_ids": [
+        294,
         296,
-        302,
-        305
+        302
       ],
       "confusable_ids": [
         "ch10_t15",
@@ -206,7 +175,9 @@
       "term": "Collective Effervescence",
       "definition": "Durkheim's term for the heightened sense of shared energy and community that people experience during religious gatherings",
       "level3_question_ids": [
-        296
+        296,
+        1500,
+        1501
       ],
       "confusable_ids": [
         "ch10_t10",
@@ -220,19 +191,7 @@
       "id": "ch10_t13",
       "term": "Religiosity",
       "definition": "The regular practice of religious beliefs, often measured in terms of frequency of attendance at worship services and the importance of religious beliefs to an individual",
-      "level3_question_ids": [
-        294,
-        295,
-        296,
-        297,
-        298,
-        300,
-        302,
-        303,
-        304,
-        305,
-        306
-      ],
+      "level3_question_ids": [],
       "confusable_ids": [
         "ch10_t05",
         "ch10_t04",
@@ -246,9 +205,7 @@
       "term": "Cult",
       "definition": "A small religious group that exists in tension with the dominant society, typically organized around a charismatic leader who demands complete obedience, and may involve strict rituals and isolation from mainstream culture",
       "level3_question_ids": [
-        1218,
-        1219,
-        1220
+        299
       ],
       "confusable_ids": [
         "ch10_t07",
@@ -287,7 +244,7 @@
         "Traditional authority within religious institutions"
       ],
       "correct": 2,
-      "linked_concept_id": "ch10_t04"
+      "linked_concept_id": "ch10_t11"
     },
     {
       "id": 295,
@@ -310,7 +267,7 @@
         "Ritual behavior outside traditional institutions",
         "The distinction between sacred and profane experiences"
       ],
-      "correct": 2,
+      "correct": 1,
       "linked_concept_id": "ch10_t12"
     },
     {
@@ -323,7 +280,7 @@
         "Religious fundamentalism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch10_t04"
+      "linked_concept_id": "ch10_t05"
     },
     {
       "id": 298,
@@ -335,7 +292,7 @@
         "The transformation from traditional to charismatic authority"
       ],
       "correct": 2,
-      "linked_concept_id": "ch10_t05"
+      "linked_concept_id": "ch10_t07"
     },
     {
       "id": 299,
@@ -347,7 +304,7 @@
         "Sacred authority derived from religious texts"
       ],
       "correct": 1,
-      "linked_concept_id": "ch10_t08"
+      "linked_concept_id": "ch10_t09"
     },
     {
       "id": 300,
@@ -359,7 +316,7 @@
         "Religious fundamentalism across different faith traditions"
       ],
       "correct": 2,
-      "linked_concept_id": "ch10_t04"
+      "linked_concept_id": "ch10_t10"
     },
     {
       "id": 301,
@@ -383,7 +340,7 @@
         "The process of secularization in modern communities"
       ],
       "correct": 2,
-      "linked_concept_id": "ch10_t05"
+      "linked_concept_id": "ch10_t11"
     },
     {
       "id": 303,
@@ -407,7 +364,7 @@
         "The transformation of traditional religious authority"
       ],
       "correct": 2,
-      "linked_concept_id": "ch10_t05"
+      "linked_concept_id": "ch10_t07"
     },
     {
       "id": 305,
@@ -419,7 +376,7 @@
         "The process of secularization in traditional societies"
       ],
       "correct": 0,
-      "linked_concept_id": "ch10_t05"
+      "linked_concept_id": "ch10_t02"
     },
     {
       "id": 306,
@@ -431,7 +388,7 @@
         "The tension between intrinsic and extrinsic religiosity"
       ],
       "correct": 1,
-      "linked_concept_id": "ch10_t05"
+      "linked_concept_id": "ch10_t09"
     },
     {
       "id": 1500,

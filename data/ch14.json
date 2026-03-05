@@ -8,6 +8,7 @@
       "term": "Leisure",
       "definition": "Time free for relaxing, recreation, or other freely chosen activities.",
       "level3_question_ids": [
+        412,
         1131,
         1132,
         1133,
@@ -31,16 +32,12 @@
         1156,
         1157,
         1158,
-        1159,
         1160,
         1161,
         1162,
         1163,
         1164,
         1165,
-        1166,
-        1168,
-        1169,
         1171,
         1172,
         1173,
@@ -64,8 +61,7 @@
         1209,
         1210,
         1211,
-        1212,
-        1213
+        1212
       ],
       "confusable_ids": [
         "ch14_t24"
@@ -77,7 +73,22 @@
       "definition": "Pleasurable activity that is refreshing and renewing for body, mind, and spirit.",
       "level3_question_ids": [
         406,
-        1172
+        412,
+        1137,
+        1147,
+        1153,
+        1157,
+        1160,
+        1161,
+        1162,
+        1163,
+        1172,
+        1183,
+        1186,
+        1188,
+        1201,
+        1210,
+        1217
       ],
       "confusable_ids": []
     },
@@ -86,14 +97,9 @@
       "term": "Consumption",
       "definition": "The process of selecting, acquiring, using, and disposing of goods and services.",
       "level3_question_ids": [
-        412,
-        413,
-        1142,
-        1143,
+        1159,
         1166,
-        1169,
-        1179,
-        1196
+        1207
       ],
       "confusable_ids": []
     },
@@ -108,8 +114,6 @@
         1168,
         1169,
         1170,
-        1178,
-        1179,
         1204,
         1205,
         1206,
@@ -125,8 +129,8 @@
       "term": "Conglomeration",
       "definition": "A large corporation composed of numerous smaller, often unrelated companies.",
       "level3_question_ids": [
-        416,
-        1177
+        407,
+        416
       ],
       "confusable_ids": [
         "ch14_t06"
@@ -138,8 +142,7 @@
       "definition": "The state where a small number of corporations control a large share of an industry (e.g., media).",
       "level3_question_ids": [
         407,
-        416,
-        1178
+        416
       ],
       "confusable_ids": [
         "ch14_t05",
@@ -155,11 +158,7 @@
       "definition": "Cultural patterns, products, and tastes widely shared and consumed by the general population.",
       "level3_question_ids": [
         408,
-        417,
-        1167,
-        1170,
-        1179,
-        1192
+        1150
       ],
       "confusable_ids": [
         "ch14_t08",
@@ -174,12 +173,7 @@
       "term": "High Culture",
       "definition": "Cultural patterns, products, and tastes associated with societal elites or aesthetic standards.",
       "level3_question_ids": [
-        408,
-        417,
-        1166,
-        1177,
-        1192,
-        1204
+        408
       ],
       "confusable_ids": [
         "ch14_t07",
@@ -194,9 +188,13 @@
       "term": "Third Place",
       "definition": "Social settings distinct from home (first) and work (second) that foster community interaction.",
       "level3_question_ids": [
+        410,
         413,
+        1213,
         1214,
-        1216
+        1215,
+        1216,
+        1217
       ],
       "confusable_ids": [
         "ch14_t24",
@@ -224,9 +222,10 @@
       "term": "Taste Publics and Cultures",
       "definition": "Groups sharing similar aesthetic preferences (publics) forming distinct cultural patterns (cultures).",
       "level3_question_ids": [
-        1178,
-        1192,
-        1204
+        408,
+        417,
+        1155,
+        1164
       ],
       "confusable_ids": [
         "ch14_t08",
@@ -241,13 +240,9 @@
       "term": "Hypodermic Needle Theory",
       "definition": "Outdated theory that media directly 'injects' messages into a passive audience.",
       "level3_question_ids": [
-        409,
-        412,
-        1167,
         1176,
-        1189,
-        1197,
-        1204
+        1196,
+        1197
       ],
       "confusable_ids": [
         "ch14_t15",
@@ -262,14 +257,14 @@
       "term": "Active Audience",
       "definition": "View that audiences actively interpret, engage with, and use media messages.",
       "level3_question_ids": [
+        409,
+        414,
         1141,
         1142,
         1143,
         1144,
         1145,
-        1167,
-        1170,
-        1176,
+        1193,
         1194,
         1195,
         1196,
@@ -288,12 +283,7 @@
       "id": "ch14_t14",
       "term": "Reinforcement Theory",
       "definition": "Theory that media primarily strengthens pre-existing beliefs rather than changing them.",
-      "level3_question_ids": [
-        409,
-        412,
-        1169,
-        1189
-      ],
+      "level3_question_ids": [],
       "confusable_ids": [
         "ch14_t15",
         "ch14_t12",
@@ -307,9 +297,7 @@
       "term": "Agenda-Setting Theory",
       "definition": "Theory that media influences *what* topics audiences consider important.",
       "level3_question_ids": [
-        411,
-        412,
-        1190
+        411
       ],
       "confusable_ids": [
         "ch14_t14",
@@ -324,8 +312,7 @@
       "term": "Uses and Gratifications Paradigm",
       "definition": "Focuses on how audiences use media to fulfill their needs and desires.",
       "level3_question_ids": [
-        409,
-        411,
+        406,
         412
       ],
       "confusable_ids": [
@@ -340,12 +327,7 @@
       "id": "ch14_t17",
       "term": "Two-Step Flow Model",
       "definition": "Theory that media influence flows from media to opinion leaders, then to the wider public.",
-      "level3_question_ids": [
-        410,
-        411,
-        1170,
-        1190
-      ],
+      "level3_question_ids": [],
       "confusable_ids": [
         "ch14_t15",
         "ch14_t12",
@@ -359,7 +341,8 @@
       "term": "Interpretive Strategies",
       "definition": "Frameworks or methods audiences employ to understand media texts.",
       "level3_question_ids": [
-        1190
+        414,
+        1198
       ],
       "confusable_ids": [
         "ch14_t21",
@@ -375,9 +358,10 @@
       "definition": "Model where producers encode meanings and audiences decode them, possibly differently.",
       "level3_question_ids": [
         409,
-        411,
         415,
-        1190
+        1190,
+        1195,
+        1198
       ],
       "confusable_ids": [
         "ch14_t23",
@@ -392,13 +376,7 @@
       "term": "Textual Poaching",
       "definition": "Audiences actively reinterpreting and reusing elements from cultural texts for their own purposes.",
       "level3_question_ids": [
-        410,
         414,
-        417,
-        1141,
-        1143,
-        1144,
-        1145,
         1192
       ],
       "confusable_ids": [
@@ -413,15 +391,7 @@
       "id": "ch14_t21",
       "term": "Interpretive Community",
       "definition": "Groups sharing specific strategies for reading and understanding texts.",
-      "level3_question_ids": [
-        410,
-        413,
-        1141,
-        1142,
-        1143,
-        1144,
-        1145
-      ],
+      "level3_question_ids": [],
       "confusable_ids": [
         "ch14_t18",
         "ch14_t11",
@@ -435,7 +405,6 @@
       "definition": "The capacity for a sign or text to have multiple meanings or interpretations.",
       "level3_question_ids": [
         415,
-        1177,
         1189,
         1190,
         1191,
@@ -451,6 +420,7 @@
       "term": "Role Model",
       "definition": "A person whose behavior or success serves as an example for others to follow.",
       "level3_question_ids": [
+        1177,
         1178
       ],
       "confusable_ids": [
@@ -463,10 +433,7 @@
       "term": "Lifestyle Enclaves",
       "definition": "Social groups primarily united by shared leisure activities, consumption, and tastes.",
       "level3_question_ids": [
-        415,
-        417,
-        1176,
-        1189
+        410
       ],
       "confusable_ids": [
         "ch14_t07",
@@ -512,7 +479,7 @@
         "These musical preferences reflect individual psychology rather than social patterns"
       ],
       "correct": 1,
-      "linked_concept_id": "ch14_t07"
+      "linked_concept_id": "ch14_t11"
     },
     {
       "id": 409,
@@ -524,7 +491,7 @@
         "Reinforcement theory"
       ],
       "correct": 1,
-      "linked_concept_id": "ch14_t16"
+      "linked_concept_id": "ch14_t19"
     },
     {
       "id": 410,
@@ -536,7 +503,7 @@
         "It has become an interpretive community focused on textual poaching"
       ],
       "correct": 2,
-      "linked_concept_id": "ch14_t21"
+      "linked_concept_id": "ch14_t24"
     },
     {
       "id": 411,
@@ -548,7 +515,7 @@
         "Two-step flow model"
       ],
       "correct": 1,
-      "linked_concept_id": "ch14_t16"
+      "linked_concept_id": "ch14_t15"
     },
     {
       "id": 412,
@@ -572,7 +539,7 @@
         "A primary group that provides intimate personal relationships"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t21"
+      "linked_concept_id": "ch14_t09"
     },
     {
       "id": 414,
@@ -596,7 +563,7 @@
         "The formation of different lifestyle enclaves around the film"
       ],
       "correct": 2,
-      "linked_concept_id": "ch14_t19"
+      "linked_concept_id": "ch14_t22"
     },
     {
       "id": 416,
@@ -620,7 +587,7 @@
         "Lifestyle enclaves and third places"
       ],
       "correct": 1,
-      "linked_concept_id": "ch14_t24"
+      "linked_concept_id": "ch14_t11"
     },
     {
       "id": 985,
@@ -781,7 +748,7 @@
         "Passive audience"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t21"
+      "linked_concept_id": "ch14_t13"
     },
     {
       "id": 1142,
@@ -793,7 +760,7 @@
         "Textual poachers"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t21"
+      "linked_concept_id": "ch14_t13"
     },
     {
       "id": 1143,
@@ -805,7 +772,7 @@
         "Passive audience"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t21"
+      "linked_concept_id": "ch14_t13"
     },
     {
       "id": 1144,
@@ -817,7 +784,7 @@
         "Passive audience"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t21"
+      "linked_concept_id": "ch14_t13"
     },
     {
       "id": 1145,
@@ -829,7 +796,7 @@
         "Passive audience"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t21"
+      "linked_concept_id": "ch14_t13"
     },
     {
       "id": 1146,
@@ -1093,7 +1060,7 @@
         "Hypodermic needle theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t12"
+      "linked_concept_id": "ch14_t04"
     },
     {
       "id": 1168,
@@ -1117,7 +1084,7 @@
         "Reinforcement theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t14"
+      "linked_concept_id": "ch14_t04"
     },
     {
       "id": 1170,
@@ -1129,7 +1096,7 @@
         "Two-step flow model"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t17"
+      "linked_concept_id": "ch14_t04"
     },
     {
       "id": 1171,
@@ -1153,7 +1120,7 @@
         "Recreation is a passive process, while leisure is an active engagement"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t02"
+      "linked_concept_id": "ch14_t01"
     },
     {
       "id": 1173,
@@ -1213,7 +1180,7 @@
         "polysemy"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t05"
+      "linked_concept_id": "ch14_t23"
     },
     {
       "id": 1178,
@@ -1225,7 +1192,7 @@
         "concentration"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t11"
+      "linked_concept_id": "ch14_t23"
     },
     {
       "id": 1179,
@@ -1237,7 +1204,7 @@
         "Popular culture"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t04"
+      "linked_concept_id": "ch14_t01"
     },
     {
       "id": 1180,
@@ -1285,7 +1252,7 @@
         "The relationship between leisure and well-being depends on the type of leisure activity."
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t01"
+      "linked_concept_id": "ch14_t02"
     },
     {
       "id": 1184,
@@ -1321,7 +1288,7 @@
         "Leisure enhances physical fitness and health."
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t01"
+      "linked_concept_id": "ch14_t02"
     },
     {
       "id": 1187,
@@ -1357,7 +1324,7 @@
         "Lifestyle enclaves"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t12"
+      "linked_concept_id": "ch14_t22"
     },
     {
       "id": 1190,
@@ -1369,7 +1336,7 @@
         "Interpretive strategies"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t18"
+      "linked_concept_id": "ch14_t19"
     },
     {
       "id": 1191,
@@ -1393,7 +1360,7 @@
         "Taste publics and cultures"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t11"
+      "linked_concept_id": "ch14_t20"
     },
     {
       "id": 1193,
@@ -1453,7 +1420,7 @@
         "The active audience concept argues that media effects are solely determined by individual psychological factors."
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t12"
+      "linked_concept_id": "ch14_t13"
     },
     {
       "id": 1198,
@@ -1537,7 +1504,7 @@
         "Hypodermic needle theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t11"
+      "linked_concept_id": "ch14_t04"
     },
     {
       "id": 1205,
@@ -1645,7 +1612,7 @@
         "They are primarily focused on economic transactions."
       ],
       "correct": 0,
-      "linked_concept_id": "ch14_t01"
+      "linked_concept_id": "ch14_t09"
     },
     {
       "id": 1214,
@@ -1669,7 +1636,7 @@
         "They contribute to economic development."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch14_t09"
     },
     {
       "id": 1216,
@@ -1693,7 +1660,7 @@
         "They disrupt thaditional family structures."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch14_t09"
     }
   ]
 }

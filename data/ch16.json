@@ -12,15 +12,15 @@
         2,
         428,
         430,
+        432,
+        433,
+        434,
+        436,
         443,
-        445,
-        448,
-        455,
         460,
+        614,
         621,
-        622,
-        623,
-        624
+        636
       ],
       "confusable_ids": [
         "ch16_t02",
@@ -40,9 +40,13 @@
         4,
         429,
         430,
-        436,
+        432,
+        433,
+        434,
         444,
-        455
+        458,
+        614,
+        636
       ],
       "confusable_ids": [
         "ch16_t01",
@@ -57,13 +61,22 @@
       "term": "Rate of Natural Increase (RNI)",
       "definition": "Population growth rate based only on births and deaths (CBR minus CDR), excluding migration.",
       "level3_question_ids": [
+        1,
+        2,
         5,
         6,
         430,
+        437,
         445,
+        463,
         466,
+        469,
+        603,
+        611,
         614,
-        636
+        616,
+        636,
+        638
       ],
       "confusable_ids": [
         "ch16_t02",
@@ -79,7 +92,15 @@
       "definition": "High birth rates and high death rates result in slow or stable population growth.",
       "level3_question_ids": [
         431,
-        446
+        447,
+        449,
+        456,
+        468,
+        469,
+        625,
+        626,
+        629,
+        639
       ],
       "confusable_ids": [
         "ch16_t05",
@@ -94,8 +115,19 @@
       "term": "Demographic Transition Stage 2",
       "definition": "Death rates fall while birth rates remain high, causing rapid population growth.",
       "level3_question_ids": [
+        1,
+        432,
         446,
-        458
+        447,
+        449,
+        456,
+        458,
+        468,
+        469,
+        626,
+        627,
+        629,
+        639
       ],
       "confusable_ids": [
         "ch16_t04",
@@ -110,8 +142,18 @@
       "term": "Demographic Transition Stage 3",
       "definition": "Birth rates decline and death rates remain low, slowing population growth.",
       "level3_question_ids": [
+        8,
         433,
-        446
+        446,
+        447,
+        449,
+        456,
+        468,
+        469,
+        626,
+        628,
+        629,
+        639
       ],
       "confusable_ids": [
         "ch16_t05",
@@ -126,7 +168,18 @@
       "term": "Demographic Transition Stage 4",
       "definition": "Both birth and death rates are low, leading to stable, zero, or declining population growth.",
       "level3_question_ids": [
-        452
+        434,
+        447,
+        449,
+        452,
+        456,
+        461,
+        468,
+        469,
+        615,
+        626,
+        629,
+        639
       ],
       "confusable_ids": [
         "ch16_t04",
@@ -141,9 +194,27 @@
       "term": "Demography",
       "definition": "The statistical study of human populations, including size, structure, distribution, and changes.",
       "level3_question_ids": [
+        10,
         435,
+        442,
+        443,
+        448,
+        450,
         451,
-        462
+        453,
+        455,
+        457,
+        462,
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        617,
+        619,
+        620,
+        633
       ],
       "confusable_ids": [
         "ch16_t11"
@@ -157,18 +228,20 @@
         7,
         8,
         436,
-        444,
-        445,
-        448,
-        450,
+        451,
         453,
-        454,
         455,
+        458,
+        459,
         460,
-        621,
+        461,
+        463,
+        465,
+        467,
+        612,
         622,
-        623,
-        624
+        628,
+        637
       ],
       "confusable_ids": [
         "ch16_t15",
@@ -184,7 +257,8 @@
       "definition": "Rule of 70: Approximate years to double = 70 / (Annual Growth Rate %).",
       "level3_question_ids": [
         437,
-        448
+        448,
+        616
       ],
       "confusable_ids": [
         "ch16_t03",
@@ -199,7 +273,18 @@
       "term": "Age Structure Diagrams",
       "definition": "Graphs (population pyramids) showing the distribution of a population by age and sex.",
       "level3_question_ids": [
-        639
+        2,
+        3,
+        4,
+        429,
+        449,
+        452,
+        456,
+        467,
+        601,
+        613,
+        617,
+        618
       ],
       "confusable_ids": [
         "ch16_t02",
@@ -214,6 +299,9 @@
       "term": "Replacement Level Fertility",
       "definition": "The TFR required for a generation to replace itself without migration (approx. 2.1 children per woman).",
       "level3_question_ids": [
+        7,
+        612,
+        628,
         637
       ],
       "confusable_ids": [
@@ -229,18 +317,12 @@
       "term": "Mortality Rate",
       "definition": "The measure of the frequency of deaths in a defined population during a specified time.",
       "level3_question_ids": [
+        3,
+        9,
         10,
-        444,
-        448,
+        438,
         450,
-        454,
-        611,
-        621,
-        622,
-        623,
-        624,
-        636,
-        637
+        623
       ],
       "confusable_ids": [
         "ch16_t02",
@@ -257,16 +339,11 @@
       "level3_question_ids": [
         9,
         10,
+        431,
         438,
         444,
-        448,
         450,
-        454,
-        621,
-        622,
-        623,
-        624,
-        636
+        624
       ],
       "confusable_ids": [
         "ch16_t01",
@@ -282,11 +359,10 @@
       "definition": "Average number of years an individual is expected to live based on current mortality rates.",
       "level3_question_ids": [
         4,
-        6,
-        611,
-        612,
-        614,
-        636
+        429,
+        438,
+        461,
+        611
       ],
       "confusable_ids": [
         "ch16_t09",
@@ -301,14 +377,18 @@
       "term": "Immigration",
       "definition": "The movement of people *into* a country or region to settle.",
       "level3_question_ids": [
+        5,
         6,
-        441,
+        454,
+        600,
         602,
         608,
+        609,
+        610,
         611,
-        612,
-        614,
-        626,
+        630,
+        631,
+        632,
         635
       ],
       "confusable_ids": [
@@ -324,12 +404,15 @@
       "term": "Emigration",
       "definition": "The movement of people *out of* a country or region to settle elsewhere.",
       "level3_question_ids": [
-        441,
-        461,
+        5,
+        454,
         600,
         608,
-        614,
-        638
+        609,
+        610,
+        630,
+        631,
+        632
       ],
       "confusable_ids": [
         "ch16_t16",
@@ -344,41 +427,10 @@
       "term": "Migration",
       "definition": "The movement of people from one place to another with the intent to settle.",
       "level3_question_ids": [
-        5,
-        435,
         439,
-        440,
-        441,
-        444,
-        445,
-        449,
-        450,
-        451,
         454,
-        455,
-        456,
-        457,
-        458,
-        459,
-        464,
-        465,
         466,
-        467,
-        468,
-        469,
-        606,
-        607,
-        608,
-        609,
-        610,
-        630,
-        631,
-        632,
-        633,
-        634,
         635,
-        636,
-        637,
         638
       ],
       "confusable_ids": [
@@ -395,12 +447,11 @@
       "definition": "Migration occurring *within* the borders of a country.",
       "level3_question_ids": [
         439,
-        445,
-        450,
         457,
-        458,
         464,
-        467,
+        603,
+        604,
+        635,
         638
       ],
       "confusable_ids": [
@@ -416,14 +467,17 @@
       "term": "Net Migration",
       "definition": "The difference between the number of immigrants and emigrants for a specific area over time.",
       "level3_question_ids": [
+        5,
+        6,
         440,
-        444,
-        449,
+        441,
+        445,
+        466,
+        600,
         606,
         607,
         608,
         609,
-        610,
         630,
         631,
         632,
@@ -444,7 +498,9 @@
       "definition": "Occurs when the number of emigrants exceeds the number of immigrants in an area.",
       "level3_question_ids": [
         441,
-        600
+        610,
+        631,
+        634
       ],
       "confusable_ids": [
         "ch16_t20",
@@ -459,7 +515,7 @@
       "term": "Malthusian Theorem",
       "definition": "Theory that population tends to grow faster than resources, leading to inevitable population checks (famine, disease, war).",
       "level3_question_ids": [
-        605,
+        447,
         639
       ],
       "confusable_ids": [
@@ -482,7 +538,7 @@
         "The demographic dividend with economic prosperity"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t01"
+      "linked_concept_id": "ch16_t05"
     },
     {
       "id": 2,
@@ -494,7 +550,7 @@
         "The age structure difference will have no impact on future birth rates"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t01"
+      "linked_concept_id": "ch16_t11"
     },
     {
       "id": 3,
@@ -506,7 +562,7 @@
         "The dominant religious beliefs in each country"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t02"
+      "linked_concept_id": "ch16_t11"
     },
     {
       "id": 4,
@@ -518,7 +574,7 @@
         "Higher rates of accidents and violence among young people"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t02"
+      "linked_concept_id": "ch16_t11"
     },
     {
       "id": 5,
@@ -530,7 +586,7 @@
         "Statistical errors in calculating the birth and death rates"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t03"
+      "linked_concept_id": "ch16_t20"
     },
     {
       "id": 6,
@@ -542,7 +598,7 @@
         "Increasing urbanization concentrating population growth"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t03"
+      "linked_concept_id": "ch16_t16"
     },
     {
       "id": 7,
@@ -650,7 +706,7 @@
         "Stage 4"
       ],
       "correct": 1,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t05"
     },
     {
       "id": 433,
@@ -674,7 +730,7 @@
         "This pattern doesn't fit the demographic transition model"
       ],
       "correct": 2,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t07"
     },
     {
       "id": 435,
@@ -770,7 +826,7 @@
         "Geographic mapping of population density"
       ],
       "correct": 1,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 443,
@@ -794,7 +850,7 @@
         "Population Doubling Formula"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t14"
+      "linked_concept_id": "ch16_t02"
     },
     {
       "id": 445,
@@ -818,7 +874,7 @@
         "Population doubling acceleration"
       ],
       "correct": 2,
-      "linked_concept_id": "ch16_t04"
+      "linked_concept_id": "ch16_t06"
     },
     {
       "id": 447,
@@ -830,7 +886,7 @@
         "Both theories ignore the role of economic development in population change"
       ],
       "correct": 1,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t22"
     },
     {
       "id": 448,
@@ -854,7 +910,7 @@
         "Population Doubling calculations"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t20"
+      "linked_concept_id": "ch16_t04"
     },
     {
       "id": 450,
@@ -914,7 +970,7 @@
         "Infant Mortality Rate improvements"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t14"
+      "linked_concept_id": "ch16_t18"
     },
     {
       "id": 455,
@@ -938,7 +994,7 @@
         "Different calculation methods for population growth"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t18"
+      "linked_concept_id": "ch16_t11"
     },
     {
       "id": 457,
@@ -974,7 +1030,7 @@
         "Geographic mapping of migration flows"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t18"
+      "linked_concept_id": "ch16_t09"
     },
     {
       "id": 460,
@@ -986,7 +1042,7 @@
         "CBR is more accurate than TFR for all demographic analysis"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t09"
+      "linked_concept_id": "ch16_t01"
     },
     {
       "id": 461,
@@ -998,7 +1054,7 @@
         "High rates of international emigration"
       ],
       "correct": 2,
-      "linked_concept_id": "ch16_t17"
+      "linked_concept_id": "ch16_t07"
     },
     {
       "id": 462,
@@ -1022,7 +1078,7 @@
         "Climate-related mortality patterns"
       ],
       "correct": 1,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t09"
     },
     {
       "id": 464,
@@ -1046,7 +1102,7 @@
         "Population doubling times in educated communities"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t18"
+      "linked_concept_id": "ch16_t09"
     },
     {
       "id": 466,
@@ -1070,7 +1126,7 @@
         "Stable population doubling times"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t19"
+      "linked_concept_id": "ch16_t09"
     },
     {
       "id": 468,
@@ -1082,7 +1138,7 @@
         "Population doubling acceleration in developed countries"
       ],
       "correct": 1,
-      "linked_concept_id": "ch16_t18"
+      "linked_concept_id": "ch16_t04"
     },
     {
       "id": 469,
@@ -1094,7 +1150,7 @@
         "Migration policies vary significantly between countries"
       ],
       "correct": 2,
-      "linked_concept_id": "ch16_t18"
+      "linked_concept_id": "ch16_t04"
     },
     {
       "id": 600,
@@ -1106,7 +1162,7 @@
         "nongovernmental organization"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t21"
+      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 601,
@@ -1118,7 +1174,7 @@
         "nongovernmental organization"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 602,
@@ -1130,7 +1186,7 @@
         "nongovernmental organization"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t16"
+      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 603,
@@ -1142,7 +1198,7 @@
         "nongovernmental organization"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 604,
@@ -1154,7 +1210,7 @@
         "nongovernmental organization"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 605,
@@ -1166,7 +1222,7 @@
         "the Malthusian theorem"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t22"
+      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 606,
@@ -1226,7 +1282,7 @@
         "when there are no immigrants in a country"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t20"
+      "linked_concept_id": "ch16_t21"
     },
     {
       "id": 611,
@@ -1238,7 +1294,7 @@
         "Advances in modern medicine"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t15"
+      "linked_concept_id": "ch16_t16"
     },
     {
       "id": 612,
@@ -1250,7 +1306,7 @@
         "Decline in immigration rates"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t15"
+      "linked_concept_id": "ch16_t09"
     },
     {
       "id": 613,
@@ -1262,7 +1318,7 @@
         "Immigrants"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t11"
     },
     {
       "id": 614,
@@ -1286,7 +1342,7 @@
         "Stage 3"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t07"
     },
     {
       "id": 616,
@@ -1322,7 +1378,7 @@
         "32%"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t11"
     },
     {
       "id": 619,
@@ -1346,7 +1402,7 @@
         "Pluralism"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 621,
@@ -1358,7 +1414,7 @@
         "Infant mortality rate"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t14"
+      "linked_concept_id": "ch16_t01"
     },
     {
       "id": 622,
@@ -1370,7 +1426,7 @@
         "Infant mortality rate"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t14"
+      "linked_concept_id": "ch16_t09"
     },
     {
       "id": 623,
@@ -1382,7 +1438,7 @@
         "Infant mortality rate"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t14"
+      "linked_concept_id": "ch16_t02"
     },
     {
       "id": 624,
@@ -1406,7 +1462,7 @@
         "Stage 4"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t04"
     },
     {
       "id": 626,
@@ -1418,7 +1474,7 @@
         "A model that explains the impact of social factors on population growth and distribution."
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t16"
+      "linked_concept_id": "ch16_t04"
     },
     {
       "id": 627,
@@ -1430,7 +1486,7 @@
         "Stage 4"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t05"
     },
     {
       "id": 628,
@@ -1442,7 +1498,7 @@
         "Higher levels of education for women."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t06"
     },
     {
       "id": 629,
@@ -1454,7 +1510,7 @@
         "Only developed countries experience a decline in population growth."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch16_t05"
     },
     {
       "id": 630,
@@ -1478,7 +1534,7 @@
         "The country has a low death rate"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t20"
+      "linked_concept_id": "ch16_t21"
     },
     {
       "id": 632,
@@ -1562,7 +1618,7 @@
         "It encourages emigration"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t19"
+      "linked_concept_id": null
     },
     {
       "id": 639,
@@ -1574,7 +1630,7 @@
         "Age structure diagrams"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t11"
+      "linked_concept_id": "ch16_t04"
     }
   ]
 }

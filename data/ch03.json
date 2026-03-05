@@ -25,6 +25,7 @@
       "term": "Cultural Relativism",
       "definition": "Understanding and evaluating a culture by its own standards",
       "level3_question_ids": [
+        784,
         785,
         786,
         1088
@@ -41,10 +42,7 @@
       "id": "ch03_t03",
       "term": "Material Culture",
       "definition": "Physical objects and artifacts created by a society",
-      "level3_question_ids": [
-        790,
-        1104
-      ],
+      "level3_question_ids": [],
       "confusable_ids": [
         "ch03_t17",
         "ch03_t21",
@@ -58,9 +56,9 @@
       "term": "Symbolic Culture",
       "definition": "Non-material aspects of culture including ideas, values, and beliefs",
       "level3_question_ids": [
-        785,
         787,
-        790
+        1082,
+        1085
       ],
       "confusable_ids": [
         "ch03_t17",
@@ -75,7 +73,8 @@
       "term": "Sapir-Whorf Hypothesis",
       "definition": "Theory that language shapes how people think and perceive reality",
       "level3_question_ids": [
-        1102
+        1102,
+        1103
       ],
       "confusable_ids": [
         "ch03_t12"
@@ -86,27 +85,13 @@
       "term": "Values",
       "definition": "Culturally defined standards of what is desirable, good, and proper",
       "level3_question_ids": [
-        786,
-        787,
-        791,
-        1079,
         1082,
         1085,
-        1088,
-        1094,
         1098,
-        1099,
-        1101,
-        1104,
-        1105,
         1106,
-        1107,
-        1108,
         1109,
-        1114,
+        1113,
         1116,
-        1123,
-        1126,
         1128,
         1130
       ],
@@ -121,18 +106,12 @@
       "term": "Norms",
       "definition": "Rules and expectations by which a society guides behavior",
       "level3_question_ids": [
+        788,
         789,
-        1083,
-        1084,
+        1089,
         1090,
-        1092,
-        1094,
-        1095,
         1098,
-        1105,
-        1108,
-        1109,
-        1128
+        1106
       ],
       "confusable_ids": [
         "ch03_t21",
@@ -147,13 +126,8 @@
       "term": "Laws",
       "definition": "Formal rules enacted and enforced by political authority",
       "level3_question_ids": [
-        788,
         1090,
-        1091,
-        1108,
-        1112,
-        1125,
-        1128
+        1125
       ],
       "confusable_ids": [
         "ch03_t07",
@@ -166,10 +140,11 @@
       "term": "Folkways",
       "definition": "Informal rules and customs for everyday behavior",
       "level3_question_ids": [
-        785,
-        787,
         788,
-        1112
+        1089,
+        1111,
+        1112,
+        1129
       ],
       "confusable_ids": [
         "ch03_t07",
@@ -184,7 +159,7 @@
       "term": "Signs",
       "definition": "Objects or gestures that carry a particular meaning in a culture",
       "level3_question_ids": [
-        787
+        1115
       ],
       "confusable_ids": [
         "ch03_t11",
@@ -211,12 +186,9 @@
       "term": "Language",
       "definition": "System of symbols that allows people to communicate with one another",
       "level3_question_ids": [
-        787,
-        1086,
+        1102,
         1103,
-        1115,
-        1118,
-        1121
+        1115
       ],
       "confusable_ids": [
         "ch03_t22",
@@ -230,10 +202,9 @@
       "term": "Mores",
       "definition": "Strongly held moral norms or customs in a society",
       "level3_question_ids": [
-        785,
-        788,
-        1090,
         1109,
+        1110,
+        1111,
         1112,
         1113,
         1128
@@ -266,8 +237,16 @@
       "term": "Sanction",
       "definition": "Reward or punishment used to enforce social norms",
       "level3_question_ids": [
+        789,
+        1091,
         1092,
-        1093
+        1093,
+        1094,
+        1095,
+        1096,
+        1110,
+        1112,
+        1129
       ],
       "confusable_ids": [
         "ch03_t14",
@@ -280,9 +259,17 @@
       "term": "Social Control",
       "definition": "Methods used by society to regulate behavior",
       "level3_question_ids": [
+        1091,
+        1092,
+        1093,
         1094,
+        1095,
         1096,
+        1107,
+        1108,
+        1110,
         1113,
+        1129,
         1130
       ],
       "confusable_ids": [
@@ -298,10 +285,13 @@
       "term": "Dominant Culture",
       "definition": "Culture of the most powerful group in a society",
       "level3_question_ids": [
-        790,
-        1100,
+        1098,
+        1099,
         1101,
-        1116
+        1114,
+        1116,
+        1117,
+        1130
       ],
       "confusable_ids": [
         "ch03_t21",
@@ -316,6 +306,7 @@
       "term": "Subculture",
       "definition": "Group within a society that has distinct cultural patterns while still sharing main culture",
       "level3_question_ids": [
+        1097,
         1100,
         1114,
         1115,
@@ -335,6 +326,8 @@
       "definition": "Cultural group that opposes mainstream cultural values",
       "level3_question_ids": [
         1097,
+        1098,
+        1099,
         1100,
         1101,
         1116,
@@ -357,7 +350,10 @@
         790,
         1104,
         1105,
-        1107
+        1106,
+        1107,
+        1108,
+        1128
       ],
       "confusable_ids": [
         "ch03_t17",
@@ -375,9 +371,11 @@
         789,
         790,
         1104,
+        1105,
         1106,
         1107,
-        1108
+        1108,
+        1128
       ],
       "confusable_ids": [
         "ch03_t17",
@@ -393,7 +391,8 @@
       "definition": "Spread of cultural elements from one society to another",
       "level3_question_ids": [
         791,
-        1104,
+        1086,
+        1087,
         1118,
         1119,
         1120,
@@ -412,8 +411,8 @@
       "term": "Cultural Imperialism",
       "definition": "Domination of one culture over others through media, economics, or politics",
       "level3_question_ids": [
-        789,
-        791
+        791,
+        1086
       ],
       "confusable_ids": [
         "ch03_t02",
@@ -435,7 +434,7 @@
         "The researcher documenting both systems without making value judgments"
       ],
       "correct": 3,
-      "linked_concept_id": "ch03_t01"
+      "linked_concept_id": "ch03_t02"
     },
     {
       "id": 785,
@@ -447,7 +446,7 @@
         "Identifying the difference between folkways and mores"
       ],
       "correct": 2,
-      "linked_concept_id": "ch03_t02"
+      "linked_concept_id": "ch03_t01"
     },
     {
       "id": 786,
@@ -459,7 +458,7 @@
         "Ethnocentrism would ignore polygamy while cultural relativism would overemphasize it"
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t02"
+      "linked_concept_id": "ch03_t01"
     },
     {
       "id": 787,
@@ -471,7 +470,7 @@
         "Values expressed through nonmaterial culture"
       ],
       "correct": 1,
-      "linked_concept_id": "ch03_t04"
+      "linked_concept_id": "ch03_t11"
     },
     {
       "id": 788,
@@ -495,7 +494,7 @@
         "Cultural imperialism spreading through tourism"
       ],
       "correct": 1,
-      "linked_concept_id": "ch03_t23"
+      "linked_concept_id": "ch03_t20"
     },
     {
       "id": 790,
@@ -507,7 +506,7 @@
         "Material culture and symbolic culture"
       ],
       "correct": 2,
-      "linked_concept_id": "ch03_t03"
+      "linked_concept_id": "ch03_t20"
     },
     {
       "id": 791,
@@ -567,7 +566,7 @@
         "It reflects the economic interests of powerful corporations."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": null
     },
     {
       "id": 1080,
@@ -603,7 +602,7 @@
         "All of the above."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": null
     },
     {
       "id": 1083,
@@ -615,7 +614,7 @@
         "Deviance is a result of individual pathology and psychological factors."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t07"
+      "linked_concept_id": null
     },
     {
       "id": 1084,
@@ -627,7 +626,7 @@
         "Institutions function to socialize individuals into dominant cultural norms."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t07"
+      "linked_concept_id": null
     },
     {
       "id": 1085,
@@ -639,7 +638,7 @@
         "Cultural values are primarily determined by biological and genetic factors."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": null
     },
     {
       "id": 1086,
@@ -651,7 +650,7 @@
         "The adoption of similar fashion trends in different countries."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t12"
+      "linked_concept_id": "ch03_t22"
     },
     {
       "id": 1087,
@@ -663,7 +662,7 @@
         "The global dominance of American popular culture."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t22"
     },
     {
       "id": 1088,
@@ -687,7 +686,7 @@
         "Wearing clothing in public."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t09"
     },
     {
       "id": 1090,
@@ -699,7 +698,7 @@
         "Always consistent with societal mores."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t07"
+      "linked_concept_id": "ch03_t08"
     },
     {
       "id": 1091,
@@ -711,7 +710,7 @@
         "Are always negative and involve punishment."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t08"
+      "linked_concept_id": "ch03_t15"
     },
     {
       "id": 1092,
@@ -759,7 +758,7 @@
         "To punish those who violate social norms."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t07"
+      "linked_concept_id": "ch03_t15"
     },
     {
       "id": 1096,
@@ -771,7 +770,7 @@
         "Restorative justice practices."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t16"
+      "linked_concept_id": "ch03_t15"
     },
     {
       "id": 1097,
@@ -795,7 +794,7 @@
         "All of the above."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": "ch03_t19"
     },
     {
       "id": 1099,
@@ -807,7 +806,7 @@
         "The development of unique cultural practices and styles."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": "ch03_t19"
     },
     {
       "id": 1100,
@@ -819,7 +818,7 @@
         "Cultural lag."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t17"
+      "linked_concept_id": "ch03_t19"
     },
     {
       "id": 1101,
@@ -831,7 +830,7 @@
         "Assimilation of the counterculture into the dominant culture."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t17"
+      "linked_concept_id": "ch03_t19"
     },
     {
       "id": 1102,
@@ -855,7 +854,7 @@
         "Language completely determines a culture's worldview."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t12"
+      "linked_concept_id": "ch03_t05"
     },
     {
       "id": 1104,
@@ -867,7 +866,7 @@
         "Cultural leveling, the process by which cultures become more similar."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t22"
+      "linked_concept_id": "ch03_t20"
     },
     {
       "id": 1105,
@@ -915,7 +914,7 @@
         "The need to enforce stricter marriage laws."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t21"
+      "linked_concept_id": "ch03_t20"
     },
     {
       "id": 1109,
@@ -927,7 +926,7 @@
         "Personal preferences that vary by individual."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": "ch03_t13"
     },
     {
       "id": 1110,
@@ -939,7 +938,7 @@
         "No reaction from others."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t13"
     },
     {
       "id": 1111,
@@ -951,7 +950,7 @@
         "Using proper table manners at dinner."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t14"
+      "linked_concept_id": "ch03_t13"
     },
     {
       "id": 1112,
@@ -963,7 +962,7 @@
         "Folkways have stronger punishments than mores."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t09"
+      "linked_concept_id": "ch03_t13"
     },
     {
       "id": 1113,
@@ -975,7 +974,7 @@
         "They only affect formal legal systems."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t16"
+      "linked_concept_id": "ch03_t13"
     },
     {
       "id": 1114,
@@ -1011,7 +1010,7 @@
         "Any group that's different from the mainstream."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t17"
+      "linked_concept_id": "ch03_t19"
     },
     {
       "id": 1117,
@@ -1095,7 +1094,7 @@
         "Are neutral institutions that benefit all members of society equally."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": null
     },
     {
       "id": 1124,
@@ -1119,7 +1118,7 @@
         "Are primarily concerned with protecting the rights of the poor."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t08"
+      "linked_concept_id": null
     },
     {
       "id": 1126,
@@ -1131,7 +1130,7 @@
         "The actions of great individuals or leaders."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": null
     },
     {
       "id": 1127,
@@ -1155,7 +1154,7 @@
         "Marijuana use is purely a matter of individual choice."
       ],
       "correct": 0,
-      "linked_concept_id": "ch03_t06"
+      "linked_concept_id": "ch03_t13"
     },
     {
       "id": 1129,
@@ -1167,7 +1166,7 @@
         "Informal positive sanctions encouraging youth subcultures."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch03_t15"
     },
     {
       "id": 1130,

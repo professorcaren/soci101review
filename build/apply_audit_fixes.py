@@ -105,8 +105,8 @@ def main():
             print(f"  Q{fix['question_id']}: {old_link} ({old_term}) -> {new_link} ({new_term})")
             ch_fixed += 1
 
-        # Rebuild level3_question_ids
-        rebuild_level3_ids(chapter)
+        # NOTE: level3_question_ids rebuild is handled by rebuild_level3_llm.py
+        # Do NOT use regex-based rebuild here
 
         # Write per-chapter file
         with open(ch_path, "w") as f:

@@ -236,9 +236,14 @@ const UI = (() => {
         document.getElementById('exam-stats').textContent =
             totalLearned + ' of ' + totalConcepts + ' concepts learned';
 
-        // Question count
-        document.getElementById('exam-question-count').textContent =
-            '50 questions from all chapters';
+        // Question count slider
+        const slider = document.getElementById('exam-question-slider');
+        const countLabel = document.getElementById('exam-question-count');
+        function updateCountLabel() {
+            countLabel.textContent = slider.value + ' questions from all chapters';
+        }
+        slider.oninput = updateCountLabel;
+        updateCountLabel();
 
         // Chapter list
         const listEl = document.getElementById('exam-chapter-list');

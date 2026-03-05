@@ -8,56 +8,35 @@
       "term": "Deviance",
       "definition": "Behavior that violates social norms or expectations within a society",
       "level3_question_ids": [
+        11,
+        12,
+        162,
+        163,
+        164,
+        165,
+        166,
         172,
         173,
         174,
         175,
         176,
         177,
+        178,
         179,
         180,
-        187,
-        191,
+        181,
         192,
-        193,
         194,
-        195,
         196,
+        197,
         198,
-        202,
-        203,
-        204,
-        205,
-        206,
-        212,
-        213,
-        214,
-        215,
-        216,
-        307,
-        308,
-        309,
-        310,
-        311,
-        313,
-        314,
-        315,
-        316,
-        317,
-        318,
-        320,
-        321,
-        322,
-        324,
-        325,
-        326,
-        327,
-        328,
-        329,
-        330,
-        331,
-        332,
-        333
+        199,
+        200,
+        201,
+        207,
+        209,
+        210,
+        312
       ],
       "confusable_ids": [
         "ch06_t21",
@@ -72,6 +51,18 @@
       "term": "Merton's Typology of Deviance",
       "definition": "Theory identifying five modes of adaptation to strain: conformity, innovation, ritualism, retreatism, and rebellion",
       "level3_question_ids": [
+        202,
+        203,
+        204,
+        205,
+        206,
+        208,
+        211,
+        222,
+        223,
+        224,
+        225,
+        226,
         307,
         308,
         309
@@ -89,9 +80,7 @@
       "term": "Social Control Theory",
       "definition": "Theory suggesting people avoid deviance due to bonds with conventional society",
       "level3_question_ids": [
-        190,
-        310,
-        312
+        333
       ],
       "confusable_ids": [
         "ch06_t04",
@@ -106,6 +95,11 @@
       "term": "Differential Association Theory",
       "definition": "Theory that criminal behavior is learned through interaction with others",
       "level3_question_ids": [
+        187,
+        188,
+        189,
+        190,
+        191,
         310,
         311,
         312
@@ -123,13 +117,12 @@
       "term": "Labeling Theory",
       "definition": "Perspective focusing on how society's reaction to deviance can lead to further deviant behavior",
       "level3_question_ids": [
-        166,
-        189,
-        310,
-        312,
-        315,
-        319,
-        323
+        192,
+        193,
+        194,
+        195,
+        196,
+        314
       ],
       "confusable_ids": [
         "ch06_t07",
@@ -146,17 +139,8 @@
       "level3_question_ids": [
         193,
         195,
-        196,
-        311,
         313,
-        314,
-        315,
-        316,
-        318,
-        320,
-        322,
-        330,
-        332
+        315
       ],
       "confusable_ids": [
         "ch06_t07",
@@ -171,22 +155,7 @@
       "term": "Secondary Deviance",
       "definition": "Deviant behavior that results from being labeled as deviant",
       "level3_question_ids": [
-        192,
-        194,
-        311,
-        313,
-        314,
-        315,
-        316,
-        317,
-        318,
-        320,
-        324,
-        326,
-        328,
-        331,
-        332,
-        333
+        314
       ],
       "confusable_ids": [
         "ch06_t06",
@@ -201,20 +170,9 @@
       "term": "Tertiary Deviance",
       "definition": "Process of rejecting or transforming a deviant identity into a positive one",
       "level3_question_ids": [
-        311,
-        313,
-        314,
-        315,
         316,
         317,
-        318,
-        321,
-        322,
-        325,
-        327,
-        329,
-        331,
-        333
+        318
       ],
       "confusable_ids": [
         "ch06_t14",
@@ -231,12 +189,7 @@
       "level3_question_ids": [
         319,
         320,
-        321,
-        322,
-        323,
-        324,
-        329,
-        333
+        321
       ],
       "confusable_ids": [
         "ch06_t10",
@@ -251,8 +204,6 @@
       "term": "Stereotype Promise",
       "definition": "Positive performance resulting from awareness of favorable stereotypes about one's group",
       "level3_question_ids": [
-        319,
-        321,
         322,
         323,
         324
@@ -270,6 +221,7 @@
       "term": "Stigma",
       "definition": "Social disapproval attached to a person or group based on perceived differences",
       "level3_question_ids": [
+        11,
         167,
         168,
         169,
@@ -280,11 +232,11 @@
         184,
         185,
         186,
-        194,
-        195,
+        197,
+        198,
+        199,
         200,
-        325,
-        326
+        201
       ],
       "confusable_ids": [
         "ch06_t09",
@@ -299,14 +251,14 @@
       "term": "Passing",
       "definition": "Concealing one's stigmatized identity to be accepted as part of the dominant group",
       "level3_question_ids": [
-        317,
+        167,
+        168,
+        169,
+        170,
+        171,
         325,
         326,
-        327,
-        328,
-        329,
-        330,
-        331
+        327
       ],
       "confusable_ids": [
         "ch06_t09",
@@ -321,10 +273,11 @@
       "term": "In-group Orientation",
       "definition": "Preference for associating with others who share similar stigmatized characteristics",
       "level3_question_ids": [
-        318,
-        325,
-        326,
-        327,
+        167,
+        168,
+        169,
+        170,
+        171,
         328,
         329,
         330,
@@ -340,15 +293,16 @@
       "term": "Deviance Avowal",
       "definition": "Process of openly acknowledging and accepting a deviant identity",
       "level3_question_ids": [
+        167,
+        168,
+        169,
+        170,
+        171,
         212,
         213,
         214,
         215,
         216,
-        317,
-        325,
-        326,
-        328,
         331,
         332,
         333
@@ -370,7 +324,11 @@
         12,
         14,
         15,
-        16
+        162,
+        163,
+        164,
+        165,
+        166
       ],
       "confusable_ids": [
         "ch06_t19",
@@ -386,7 +344,9 @@
       "definition": "Scientific study of crime, criminals, and criminal behavior",
       "level3_question_ids": [
         13,
-        14
+        14,
+        16,
+        20
       ],
       "confusable_ids": [
         "ch06_t04",
@@ -415,7 +375,8 @@
       "definition": "Punishment based on the principle that offenders deserve to suffer for their crimes",
       "level3_question_ids": [
         17,
-        18
+        18,
+        19
       ],
       "confusable_ids": [
         "ch06_t19",
@@ -430,9 +391,8 @@
       "term": "Deterrence",
       "definition": "Use of punishment to prevent future criminal behavior",
       "level3_question_ids": [
-        187,
-        188,
-        191
+        17,
+        18
       ],
       "confusable_ids": [
         "ch06_t20",
@@ -447,7 +407,6 @@
       "term": "Rehabilitation",
       "definition": "Efforts to reform offenders and prevent future criminal behavior through treatment",
       "level3_question_ids": [
-        11,
         19,
         20
       ],
@@ -464,11 +423,11 @@
       "term": "Positive Deviance",
       "definition": "Departure from norms that benefits society or leads to positive social change",
       "level3_question_ids": [
-        313,
-        315,
-        316,
-        321,
-        327
+        182,
+        183,
+        184,
+        185,
+        186
       ],
       "confusable_ids": [
         "ch06_t01",
@@ -490,7 +449,7 @@
         "The legal system prioritizes rehabilitation over punishment"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t20"
+      "linked_concept_id": "ch06_t01"
     },
     {
       "id": 12,
@@ -586,7 +545,7 @@
         "Public safety concerns about releasing trained inmates"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t20"
+      "linked_concept_id": "ch06_t18"
     },
     {
       "id": 20,
@@ -658,7 +617,7 @@
         "Labeling theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t05"
+      "linked_concept_id": null
     },
     {
       "id": 167,
@@ -790,7 +749,7 @@
         "It requires psychiatric evaluations"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t01"
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 178,
@@ -802,7 +761,7 @@
         "It demands psychiatric evaluation"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 179,
@@ -814,7 +773,7 @@
         "It needs psychiatric assessment"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t01"
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 180,
@@ -826,7 +785,7 @@
         "It requires mental health evaluation"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t01"
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 181,
@@ -838,7 +797,7 @@
         "It requires psychiatric screening"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 182,
@@ -850,7 +809,7 @@
         "Stigmatized identities never change"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t11"
+      "linked_concept_id": "ch06_t21"
     },
     {
       "id": 183,
@@ -862,7 +821,7 @@
         "Stigma can be hidden through discretion"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t11"
+      "linked_concept_id": "ch06_t21"
     },
     {
       "id": 184,
@@ -874,7 +833,7 @@
         "Stigma requires concealment"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t11"
+      "linked_concept_id": "ch06_t21"
     },
     {
       "id": 185,
@@ -886,7 +845,7 @@
         "Stigma requires hiding"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t11"
+      "linked_concept_id": "ch06_t21"
     },
     {
       "id": 186,
@@ -898,7 +857,7 @@
         "Stigma requires secrecy"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t11"
+      "linked_concept_id": "ch06_t21"
     },
     {
       "id": 187,
@@ -910,7 +869,7 @@
         "Functional Theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t19"
+      "linked_concept_id": "ch06_t04"
     },
     {
       "id": 188,
@@ -922,7 +881,7 @@
         "Conformity Theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t19"
+      "linked_concept_id": "ch06_t04"
     },
     {
       "id": 189,
@@ -934,7 +893,7 @@
         "Labeling Theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t05"
+      "linked_concept_id": "ch06_t04"
     },
     {
       "id": 190,
@@ -946,7 +905,7 @@
         "Anomie Theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t03"
+      "linked_concept_id": "ch06_t04"
     },
     {
       "id": 191,
@@ -958,7 +917,7 @@
         "Deterrence Theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t19"
+      "linked_concept_id": "ch06_t04"
     },
     {
       "id": 192,
@@ -970,7 +929,7 @@
         "secondary deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t05"
     },
     {
       "id": 193,
@@ -994,7 +953,7 @@
         "a stigma"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t05"
     },
     {
       "id": 195,
@@ -1018,7 +977,7 @@
         "tertiary deviation"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t06"
+      "linked_concept_id": "ch06_t05"
     },
     {
       "id": 197,
@@ -1030,7 +989,7 @@
         "hierarchical pattern"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch06_t11"
     },
     {
       "id": 198,
@@ -1054,7 +1013,7 @@
         "secondary compliance"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch06_t11"
     },
     {
       "id": 200,
@@ -1078,7 +1037,7 @@
         "conformity"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch06_t11"
     },
     {
       "id": 202,
@@ -1090,7 +1049,7 @@
         "Media glorification promotes deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t01"
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 203,
@@ -1102,7 +1061,7 @@
         "Media influences encourage deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t01"
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 204,
@@ -1114,7 +1073,7 @@
         "Media influence on behavior"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t01"
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 205,
@@ -1126,7 +1085,7 @@
         "Media glorification encourages deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t01"
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 206,
@@ -1138,7 +1097,7 @@
         "Media promotion increases deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t01"
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 207,
@@ -1330,7 +1289,7 @@
         "retreatism"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 223,
@@ -1342,7 +1301,7 @@
         "retreatism"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 224,
@@ -1354,7 +1313,7 @@
         "ritualism"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 225,
@@ -1366,7 +1325,7 @@
         "retreatism"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 226,
@@ -1378,7 +1337,7 @@
         "retreatism"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch06_t02"
     },
     {
       "id": 307,
@@ -1462,7 +1421,7 @@
         "Positive deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t06"
     },
     {
       "id": 314,
@@ -1486,7 +1445,7 @@
         "Positive deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t06"
     },
     {
       "id": 316,
@@ -1498,7 +1457,7 @@
         "Positive deviance"
       ],
       "correct": 2,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t08"
     },
     {
       "id": 317,
@@ -1510,7 +1469,7 @@
         "Passing"
       ],
       "correct": 1,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t08"
     },
     {
       "id": 318,
@@ -1522,7 +1481,7 @@
         "In-group orientation"
       ],
       "correct": 2,
-      "linked_concept_id": "ch06_t13"
+      "linked_concept_id": "ch06_t08"
     },
     {
       "id": 319,
@@ -1534,7 +1493,7 @@
         "Labeling theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t10"
+      "linked_concept_id": "ch06_t09"
     },
     {
       "id": 320,
@@ -1546,7 +1505,7 @@
         "Differential association"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t09"
     },
     {
       "id": 321,
@@ -1558,7 +1517,7 @@
         "Positive deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t10"
+      "linked_concept_id": "ch06_t09"
     },
     {
       "id": 322,
@@ -1594,7 +1553,7 @@
         "Self-fulfilling prophecy"
       ],
       "correct": 1,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t10"
     },
     {
       "id": 325,
@@ -1606,7 +1565,7 @@
         "Tertiary deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t13"
+      "linked_concept_id": "ch06_t12"
     },
     {
       "id": 326,
@@ -1618,7 +1577,7 @@
         "Secondary deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t13"
+      "linked_concept_id": "ch06_t12"
     },
     {
       "id": 327,
@@ -1630,7 +1589,7 @@
         "Tertiary deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch06_t13"
+      "linked_concept_id": "ch06_t12"
     },
     {
       "id": 328,
@@ -1678,7 +1637,7 @@
         "Deviance avowal"
       ],
       "correct": 3,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t14"
     },
     {
       "id": 332,
@@ -1690,7 +1649,7 @@
         "In-group orientation"
       ],
       "correct": 2,
-      "linked_concept_id": "ch06_t13"
+      "linked_concept_id": "ch06_t14"
     },
     {
       "id": 333,
@@ -1702,7 +1661,7 @@
         "Stereotype threat"
       ],
       "correct": 2,
-      "linked_concept_id": "ch06_t07"
+      "linked_concept_id": "ch06_t14"
     }
   ]
 }

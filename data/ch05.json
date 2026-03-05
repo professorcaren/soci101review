@@ -8,39 +8,15 @@
       "term": "Group",
       "definition": "Two or more people who interact regularly and share a sense of unity and common identity",
       "level3_question_ids": [
-        60,
-        61,
-        62,
-        63,
-        64,
-        73,
+        75,
+        76,
+        77,
         78,
-        87,
-        89,
-        90,
-        101,
-        102,
-        103,
-        104,
-        105,
-        109,
-        110,
-        111,
-        112,
-        280,
-        283,
-        285,
-        286,
-        287,
-        648,
-        649,
-        650,
-        651,
-        652,
-        654,
-        656,
-        658,
-        659
+        79,
+        96,
+        97,
+        98,
+        99
       ],
       "confusable_ids": [
         "ch05_t04",
@@ -55,8 +31,7 @@
       "term": "Crowd",
       "definition": "Temporary gathering of people who share a common focus of attention",
       "level3_question_ids": [
-        281,
-        648
+        281
       ],
       "confusable_ids": [
         "ch05_t04",
@@ -72,7 +47,8 @@
       "definition": "Collection of people who happen to be in the same place but have no social connection",
       "level3_question_ids": [
         280,
-        281
+        281,
+        648
       ],
       "confusable_ids": [
         "ch05_t08",
@@ -87,7 +63,6 @@
       "term": "Category",
       "definition": "People who share common characteristics but may not interact",
       "level3_question_ids": [
-        281,
         282,
         283
       ],
@@ -109,14 +84,12 @@
         62,
         63,
         64,
-        87,
-        88,
         96,
         97,
         98,
         99,
         100,
-        656
+        649
       ],
       "confusable_ids": [
         "ch05_t09",
@@ -136,10 +109,8 @@
         62,
         63,
         64,
-        97,
-        98,
         100,
-        656
+        101
       ],
       "confusable_ids": [
         "ch05_t05",
@@ -152,9 +123,20 @@
       "term": "Social Network",
       "definition": "Web of social relationships that connect individuals to one another",
       "level3_question_ids": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        73,
+        74,
         102,
-        650,
-        658
+        106,
+        107,
+        108,
+        650
       ],
       "confusable_ids": [
         "ch05_t08",
@@ -169,7 +151,13 @@
       "term": "Social Ties",
       "definition": "Connections between people in a social network",
       "level3_question_ids": [
-        86
+        65,
+        66,
+        67,
+        68,
+        69,
+        107,
+        108
       ],
       "confusable_ids": [
         "ch05_t03",
@@ -184,9 +172,8 @@
       "term": "Strong Ties",
       "definition": "Close relationships characterized by frequent interaction and emotional intensity",
       "level3_question_ids": [
-        649,
-        650,
-        656
+        72,
+        649
       ],
       "confusable_ids": [
         "ch05_t10",
@@ -208,9 +195,7 @@
         74,
         81,
         108,
-        649,
-        650,
-        656
+        650
       ],
       "confusable_ids": [
         "ch05_t09",
@@ -229,8 +214,7 @@
         81,
         82,
         83,
-        84,
-        107
+        84
       ],
       "confusable_ids": [
         "ch05_t08",
@@ -243,11 +227,22 @@
       "term": "Group Dynamics",
       "definition": "Patterns of interaction and relationships within a group",
       "level3_question_ids": [
+        70,
         73,
+        76,
+        77,
+        79,
         87,
-        650,
-        651,
-        654
+        95,
+        100,
+        106,
+        109,
+        110,
+        281,
+        285,
+        652,
+        654,
+        656
       ],
       "confusable_ids": [
         "ch05_t15",
@@ -262,10 +257,13 @@
       "term": "In-group",
       "definition": "Group to which a person belongs and feels loyal",
       "level3_question_ids": [
-        102,
+        75,
+        78,
+        103,
         105,
         286,
-        658
+        287,
+        656
       ],
       "confusable_ids": [
         "ch05_t14",
@@ -280,9 +278,10 @@
       "term": "Out-group",
       "definition": "Group that a person does not belong to and may view as different or opposing",
       "level3_question_ids": [
-        101,
         103,
-        104
+        104,
+        286,
+        656
       ],
       "confusable_ids": [
         "ch05_t13",
@@ -302,9 +301,6 @@
         103,
         104,
         105,
-        648,
-        649,
-        652,
         658
       ],
       "confusable_ids": [
@@ -320,13 +316,10 @@
       "term": "Groupthink",
       "definition": "Pattern of thought characterized by self-deception, forced manufacture of consent, and conformity",
       "level3_question_ids": [
-        80,
-        81,
-        82,
-        83,
-        84,
-        652,
-        654
+        111,
+        285,
+        291,
+        652
       ],
       "confusable_ids": [
         "ch05_t09",
@@ -341,7 +334,18 @@
       "term": "Social Influence",
       "definition": "Ways in which people affect the thoughts, feelings, and behaviors of others",
       "level3_question_ids": [
-        91
+        90,
+        91,
+        92,
+        93,
+        94,
+        109,
+        110,
+        111,
+        112,
+        284,
+        289,
+        653
       ],
       "confusable_ids": [
         "ch05_t08",
@@ -357,7 +361,8 @@
       "definition": "Classic study demonstrating how group pressure can lead to conformity",
       "level3_question_ids": [
         284,
-        285
+        285,
+        653
       ],
       "confusable_ids": [
         "ch05_t12",
@@ -372,8 +377,14 @@
       "term": "Social Identity Theory",
       "definition": "Theory explaining how people develop sense of self through group membership",
       "level3_question_ids": [
+        85,
+        86,
+        87,
+        88,
+        89,
         286,
-        287
+        287,
+        658
       ],
       "confusable_ids": [
         "ch05_t08",
@@ -388,29 +399,13 @@
       "term": "Power",
       "definition": "Ability to exercise one's will over others",
       "level3_question_ids": [
-        70,
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
+        90,
         91,
         92,
         93,
-        95,
+        94,
         109,
-        288,
-        289,
-        290,
-        291,
-        292,
-        293,
-        655,
-        657,
-        659
+        289
       ],
       "confusable_ids": [
         "ch05_t21",
@@ -425,9 +420,7 @@
       "term": "Coercive Power",
       "definition": "Power based on the ability to punish or threaten others",
       "level3_question_ids": [
-        95,
-        655,
-        659
+        109
       ],
       "confusable_ids": [
         "ch05_t25",
@@ -442,6 +435,11 @@
       "term": "Legitimate Power",
       "definition": "Power derived from formal position or authority",
       "level3_question_ids": [
+        90,
+        91,
+        92,
+        93,
+        94,
         288,
         289
       ],
@@ -457,9 +455,7 @@
       "id": "ch05_t23",
       "term": "Expert Power",
       "definition": "Power based on specialized knowledge or skills",
-      "level3_question_ids": [
-        657
-      ],
+      "level3_question_ids": [],
       "confusable_ids": [
         "ch05_t24",
         "ch05_t21",
@@ -473,8 +469,10 @@
       "term": "Referent Power",
       "definition": "Power based on personal charisma or attractiveness",
       "level3_question_ids": [
+        112,
         290,
-        291
+        291,
+        655
       ],
       "confusable_ids": [
         "ch05_t23",
@@ -517,7 +515,6 @@
       "term": "Expressive Leadership",
       "definition": "Leadership focused on maintaining group harmony and emotional well-being",
       "level3_question_ids": [
-        654,
         659
       ],
       "confusable_ids": [
@@ -533,9 +530,8 @@
       "term": "Bureaucracy",
       "definition": "Formal organization characterized by hierarchy, rules, and impersonal relationships",
       "level3_question_ids": [
-        105,
-        651,
-        657
+        98,
+        651
       ],
       "confusable_ids": [
         "ch05_t09",
@@ -550,6 +546,7 @@
       "term": "Rationalization",
       "definition": "Process of replacing traditional and emotional thought with reason and efficiency",
       "level3_question_ids": [
+        651,
         657
       ],
       "confusable_ids": [
@@ -565,7 +562,6 @@
       "term": "McDonaldization",
       "definition": "Process by which principles of fast-food restaurants dominate other sectors of society",
       "level3_question_ids": [
-        651,
         657
       ],
       "confusable_ids": [
@@ -584,7 +580,7 @@
         "way secondary groups uphold impersonal relationships."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t05"
     },
     {
       "id": 61,
@@ -596,7 +592,7 @@
         "way secondary groups facilitate impersonal relationships."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t05"
     },
     {
       "id": 62,
@@ -608,7 +604,7 @@
         "way membership in a primary group can result in joining secondary groups."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t05"
     },
     {
       "id": 63,
@@ -620,7 +616,7 @@
         "way primary groups can generate secondary group memberships."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t05"
     },
     {
       "id": 64,
@@ -632,7 +628,7 @@
         "way primary groups can lead to participation in secondary groups."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t05"
     },
     {
       "id": 65,
@@ -644,7 +640,7 @@
         "The green movement is a direct consequence of globalization."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t08"
     },
     {
       "id": 66,
@@ -656,7 +652,7 @@
         "Rapid worldwide changes lead to standardized work cultures."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t08"
     },
     {
       "id": 67,
@@ -668,7 +664,7 @@
         "Globalization encourages uniformity in community programs."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t08"
     },
     {
       "id": 68,
@@ -680,7 +676,7 @@
         "Global connectivity fosters a universal culture of physical fitness."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t08"
     },
     {
       "id": 69,
@@ -692,7 +688,7 @@
         "Globalization tends to uniform eating habits across societies."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t08"
     },
     {
       "id": 70,
@@ -740,7 +736,7 @@
         "the importance of group dynamics"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t12"
+      "linked_concept_id": "ch05_t10"
     },
     {
       "id": 74,
@@ -764,7 +760,7 @@
         "social conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t20"
+      "linked_concept_id": null
     },
     {
       "id": 76,
@@ -776,7 +772,7 @@
         "social conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t20"
+      "linked_concept_id": null
     },
     {
       "id": 77,
@@ -788,7 +784,7 @@
         "conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t20"
+      "linked_concept_id": null
     },
     {
       "id": 78,
@@ -800,7 +796,7 @@
         "conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t01"
+      "linked_concept_id": null
     },
     {
       "id": 79,
@@ -812,7 +808,7 @@
         "conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t20"
+      "linked_concept_id": null
     },
     {
       "id": 80,
@@ -824,7 +820,7 @@
         "positive deviance"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t16"
+      "linked_concept_id": "ch05_t11"
     },
     {
       "id": 81,
@@ -836,7 +832,7 @@
         "informal social control"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t16"
+      "linked_concept_id": "ch05_t11"
     },
     {
       "id": 82,
@@ -848,7 +844,7 @@
         "planned obsolescence"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t16"
+      "linked_concept_id": "ch05_t11"
     },
     {
       "id": 83,
@@ -860,7 +856,7 @@
         "moral panic"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t16"
+      "linked_concept_id": "ch05_t11"
     },
     {
       "id": 84,
@@ -872,7 +868,7 @@
         "chronic mobility"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t16"
+      "linked_concept_id": "ch05_t11"
     },
     {
       "id": 85,
@@ -884,7 +880,7 @@
         "It strived to evaluate the influence of societal norms on individual behaviors."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t19"
     },
     {
       "id": 86,
@@ -896,7 +892,7 @@
         "It assists in understanding the degree to which societal norms impose restrictions on individuals."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t08"
+      "linked_concept_id": "ch05_t19"
     },
     {
       "id": 87,
@@ -908,7 +904,7 @@
         "It gauges the extent of influence that societal norms have on individual actions."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t05"
+      "linked_concept_id": "ch05_t19"
     },
     {
       "id": 88,
@@ -920,7 +916,7 @@
         "It helps to study the individual adherence to the rules of their primary groups."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t05"
+      "linked_concept_id": "ch05_t19"
     },
     {
       "id": 89,
@@ -932,7 +928,7 @@
         "It studies the individual's compliance with societal norms."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t01"
+      "linked_concept_id": "ch05_t19"
     },
     {
       "id": 90,
@@ -944,7 +940,7 @@
         "They illustrate that only people with weak moral compasses tend to conform to questionable group norms."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t01"
+      "linked_concept_id": "ch05_t17"
     },
     {
       "id": 91,
@@ -968,7 +964,7 @@
         "It shows how people's fear of authority has declined over years due to societal evolution."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t20"
+      "linked_concept_id": "ch05_t22"
     },
     {
       "id": 93,
@@ -980,7 +976,7 @@
         "It stresses the innate resilience of individuals in resisting socio-cultural influences."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t20"
+      "linked_concept_id": "ch05_t17"
     },
     {
       "id": 94,
@@ -992,7 +988,7 @@
         "It suggests an ingrained human tendency to defy strict authoritative expectations."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t22"
     },
     {
       "id": 95,
@@ -1004,7 +1000,7 @@
         "conflict theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t21"
+      "linked_concept_id": null
     },
     {
       "id": 96,
@@ -1028,7 +1024,7 @@
         "Categories"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t05"
     },
     {
       "id": 98,
@@ -1040,7 +1036,7 @@
         "Bureaucratic structures"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t05"
     },
     {
       "id": 99,
@@ -1064,7 +1060,7 @@
         "Secondary groups"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t05"
     },
     {
       "id": 101,
@@ -1136,7 +1132,7 @@
         "cultural relativity"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t07"
     },
     {
       "id": 107,
@@ -1148,7 +1144,7 @@
         "anomie"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t11"
+      "linked_concept_id": "ch05_t07"
     },
     {
       "id": 108,
@@ -1160,7 +1156,7 @@
         "social closure"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t10"
+      "linked_concept_id": "ch05_t07"
     },
     {
       "id": 109,
@@ -1172,7 +1168,7 @@
         "The participants didn't understand the experiment's guidelines."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t01"
+      "linked_concept_id": "ch05_t12"
     },
     {
       "id": 110,
@@ -1184,7 +1180,7 @@
         "People in larger groups are often more courageous."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t01"
+      "linked_concept_id": "ch05_t12"
     },
     {
       "id": 111,
@@ -1196,7 +1192,7 @@
         "Individual engineers lack personal opinions."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t01"
+      "linked_concept_id": "ch05_t16"
     },
     {
       "id": 112,
@@ -1208,7 +1204,7 @@
         "Book club recommendations don't affect individual reading choices."
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t01"
+      "linked_concept_id": "ch05_t17"
     },
     {
       "id": 280,
@@ -1232,7 +1228,7 @@
         "The music had already established permanent relationships between audience members"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t03"
+      "linked_concept_id": "ch05_t02"
     },
     {
       "id": 282,
@@ -1388,7 +1384,7 @@
         "An aggregate"
       ],
       "correct": 3,
-      "linked_concept_id": "ch05_t15"
+      "linked_concept_id": "ch05_t03"
     },
     {
       "id": 649,
@@ -1400,7 +1396,7 @@
         "Reference group influence on her behavior"
       ],
       "correct": 2,
-      "linked_concept_id": "ch05_t15"
+      "linked_concept_id": "ch05_t09"
     },
     {
       "id": 650,
@@ -1412,7 +1408,7 @@
         "Social networks and the flow of information through weak ties"
       ],
       "correct": 1,
-      "linked_concept_id": "ch05_t07"
+      "linked_concept_id": "ch05_t10"
     },
     {
       "id": 651,
@@ -1424,7 +1420,7 @@
         "Charismatic authority in leadership"
       ],
       "correct": 0,
-      "linked_concept_id": "ch05_t30"
+      "linked_concept_id": "ch05_t28"
     },
     {
       "id": 652,
@@ -1436,7 +1432,7 @@
         "Groupthink leading to poor decision-making"
       ],
       "correct": 3,
-      "linked_concept_id": "ch05_t15"
+      "linked_concept_id": "ch05_t16"
     },
     {
       "id": 653,
@@ -1448,7 +1444,7 @@
         "Zimbardo's research on deindividuation"
       ],
       "correct": 1,
-      "linked_concept_id": null
+      "linked_concept_id": "ch05_t18"
     },
     {
       "id": 654,
@@ -1460,7 +1456,7 @@
         "The formation of in-groups and out-groups"
       ],
       "correct": 2,
-      "linked_concept_id": "ch05_t27"
+      "linked_concept_id": null
     },
     {
       "id": 655,
@@ -1472,7 +1468,7 @@
         "Coercive power backed by threats"
       ],
       "correct": 2,
-      "linked_concept_id": "ch05_t21"
+      "linked_concept_id": null
     },
     {
       "id": 656,
@@ -1484,7 +1480,7 @@
         "Strong ties versus weak ties in social networks"
       ],
       "correct": 1,
-      "linked_concept_id": "ch05_t06"
+      "linked_concept_id": "ch05_t13"
     },
     {
       "id": 657,
@@ -1496,7 +1492,7 @@
         "Rationalization through expert power"
       ],
       "correct": 1,
-      "linked_concept_id": "ch05_t29"
+      "linked_concept_id": "ch05_t30"
     },
     {
       "id": 658,

@@ -8,13 +8,14 @@
       "term": "Socialization",
       "definition": "The lifelong process of learning cultural norms and social patterns",
       "level3_question_ids": [
-        245,
         246,
         247,
-        248,
+        252,
+        259,
         266,
+        268,
         274,
-        794,
+        279,
         799,
         800,
         801,
@@ -39,26 +40,18 @@
       "level3_question_ids": [
         232,
         233,
-        234,
-        240,
-        242,
         243,
-        244,
+        251,
         255,
         256,
         257,
         258,
         259,
         265,
-        276,
         278,
         792,
         793,
-        796,
-        802,
-        803,
-        804,
-        811
+        803
       ],
       "confusable_ids": [
         "ch04_t27",
@@ -76,7 +69,6 @@
         232,
         233,
         234,
-        240,
         242,
         243,
         244,
@@ -87,9 +79,7 @@
         259,
         265,
         278,
-        792,
-        804,
-        811
+        792
       ],
       "confusable_ids": [
         "ch04_t02",
@@ -104,7 +94,9 @@
       "term": "Mead's Theory of the Self",
       "definition": "Theory that the self develops through social interaction and role-taking",
       "level3_question_ids": [
-        793
+        239,
+        793,
+        810
       ],
       "confusable_ids": [
         "ch04_t07",
@@ -119,9 +111,7 @@
       "term": "Generalized Other",
       "definition": "The composite mental image of the general attitudes and expectations of society",
       "level3_question_ids": [
-        241,
-        792,
-        793
+        241
       ],
       "confusable_ids": [
         "ch04_t23",
@@ -134,8 +124,7 @@
       "term": "Thomas Theorem",
       "definition": "If people define situations as real, they are real in their consequences",
       "level3_question_ids": [
-        794,
-        803
+        794
       ],
       "confusable_ids": [
         "ch04_t07",
@@ -147,7 +136,8 @@
       "term": "Definition of the Situation",
       "definition": "How people understand and interpret social situations",
       "level3_question_ids": [
-        798
+        234,
+        794
       ],
       "confusable_ids": [
         "ch04_t13",
@@ -162,9 +152,17 @@
       "term": "Dramaturgy",
       "definition": "Goffman's theory viewing social life as a theatrical performance",
       "level3_question_ids": [
+        237,
+        238,
+        240,
         276,
         796,
-        804
+        797,
+        804,
+        811,
+        981,
+        982,
+        983
       ],
       "confusable_ids": [
         "ch04_t04",
@@ -184,9 +182,17 @@
         240,
         241,
         244,
-        794,
+        256,
+        258,
+        276,
+        278,
+        796,
         798,
-        803
+        803,
+        807,
+        811,
+        982,
+        983
       ],
       "confusable_ids": [
         "ch04_t03",
@@ -201,8 +207,6 @@
       "level3_question_ids": [
         238,
         797,
-        804,
-        806,
         811,
         981,
         982
@@ -220,6 +224,7 @@
       "term": "Social Construction",
       "definition": "The idea that social reality is created through human interaction",
       "level3_question_ids": [
+        231,
         803,
         811
       ],
@@ -256,7 +261,12 @@
         246,
         247,
         248,
+        266,
+        274,
         799,
+        806,
+        808,
+        810,
         812
       ],
       "confusable_ids": [
@@ -272,10 +282,8 @@
       "term": "Hidden Curriculum",
       "definition": "Unofficial lessons, values, and perspectives learned in school",
       "level3_question_ids": [
-        800,
-        805,
-        810,
-        812
+        245,
+        800
       ],
       "confusable_ids": [
         "ch04_t16"
@@ -286,12 +294,14 @@
       "term": "Total Institutions",
       "definition": "Organizations that control all aspects of members' lives",
       "level3_question_ids": [
-        245,
+        249,
         250,
         251,
+        252,
         253,
         254,
-        279
+        279,
+        801
       ],
       "confusable_ids": [
         "ch04_t09"
@@ -302,9 +312,13 @@
       "term": "Resocialization",
       "definition": "Process of learning new norms and values, replacing previous ones",
       "level3_question_ids": [
+        248,
+        250,
+        251,
+        253,
+        254,
+        279,
         801,
-        807,
-        810,
         812
       ],
       "confusable_ids": [
@@ -322,25 +336,14 @@
       "level3_question_ids": [
         229,
         230,
-        231,
-        233,
-        234,
-        240,
-        243,
         260,
         261,
         262,
         263,
         264,
         267,
-        270,
-        273,
+        268,
         275,
-        795,
-        802,
-        806,
-        807,
-        808,
         809
       ],
       "confusable_ids": [
@@ -356,6 +359,7 @@
       "term": "Ascribed Status",
       "definition": "Social position assigned at birth or involuntarily",
       "level3_question_ids": [
+        275,
         809
       ],
       "confusable_ids": [
@@ -370,10 +374,7 @@
       "id": "ch04_t19",
       "term": "Embodied Status",
       "definition": "Status characteristics physically manifested in appearance or behavior",
-      "level3_question_ids": [
-        802,
-        808
-      ],
+      "level3_question_ids": [],
       "confusable_ids": [
         "ch04_t21",
         "ch04_t22",
@@ -387,8 +388,7 @@
       "term": "Achieved Status",
       "definition": "Social position attained through individual effort",
       "level3_question_ids": [
-        275,
-        806
+        275
       ],
       "confusable_ids": [
         "ch04_t17",
@@ -407,6 +407,7 @@
         230,
         231,
         267,
+        807,
         809
       ],
       "confusable_ids": [
@@ -422,31 +423,22 @@
       "term": "Role",
       "definition": "Expected behavior associated with a particular status",
       "level3_question_ids": [
-        233,
         235,
         236,
-        239,
-        240,
+        260,
         261,
         264,
+        267,
         268,
         269,
         270,
         271,
         272,
         273,
-        277,
-        792,
-        793,
-        794,
         795,
-        797,
         802,
         805,
-        807,
-        808,
-        811,
-        981
+        984
       ],
       "confusable_ids": [
         "ch04_t19",
@@ -462,13 +454,8 @@
       "definition": "Tension between incompatible expectations of different roles",
       "level3_question_ids": [
         236,
-        240,
         277,
-        795,
-        797,
-        805,
-        807,
-        811
+        795
       ],
       "confusable_ids": [
         "ch04_t22",
@@ -483,14 +470,9 @@
       "term": "Role Strain",
       "definition": "Difficulty fulfilling obligations of a single role",
       "level3_question_ids": [
-        233,
         235,
-        236,
         277,
-        794,
-        795,
-        802,
-        808
+        802
       ],
       "confusable_ids": [
         "ch04_t22",
@@ -502,9 +484,8 @@
       "term": "Emotional Work/Labor",
       "definition": "Managing one's emotions to meet job or social expectations",
       "level3_question_ids": [
-        804,
         805,
-        807,
+        981,
         983,
         984
       ],
@@ -531,8 +512,7 @@
       "term": "Saturated Self",
       "definition": "Modern identity overwhelmed by multiple roles and relationships",
       "level3_question_ids": [
-        802,
-        803
+        802
       ],
       "confusable_ids": [
         "ch04_t02",
@@ -547,7 +527,6 @@
       "term": "Civil Inattention",
       "definition": "Acknowledging others' presence while maintaining their privacy",
       "level3_question_ids": [
-        803,
         804
       ],
       "confusable_ids": [
@@ -711,7 +690,7 @@
         "It requires conscious effort to maintain."
       ],
       "correct": 0,
-      "linked_concept_id": "ch04_t09"
+      "linked_concept_id": "ch04_t05"
     },
     {
       "id": 242,
@@ -747,7 +726,7 @@
         "Looking-glass self operates only in childhood, while impression management continues throughout life."
       ],
       "correct": 0,
-      "linked_concept_id": "ch04_t09"
+      "linked_concept_id": "ch04_t03"
     },
     {
       "id": 245,
@@ -807,7 +786,7 @@
         "It allows members to freely come and go."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch04_t15"
     },
     {
       "id": 250,
@@ -843,7 +822,7 @@
         "A public school vs. a private school."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch04_t15"
     },
     {
       "id": 253,
@@ -951,7 +930,7 @@
         "Sanctions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch04_t17"
+      "linked_concept_id": "ch04_t22"
     },
     {
       "id": 262,
@@ -987,7 +966,7 @@
         "Subculture"
       ],
       "correct": 0,
-      "linked_concept_id": "ch04_t17"
+      "linked_concept_id": "ch04_t22"
     },
     {
       "id": 265,
@@ -1059,7 +1038,7 @@
         "Social status"
       ],
       "correct": 0,
-      "linked_concept_id": "ch04_t17"
+      "linked_concept_id": "ch04_t22"
     },
     {
       "id": 271,
@@ -1095,7 +1074,7 @@
         "Cultural mandate"
       ],
       "correct": 0,
-      "linked_concept_id": "ch04_t17"
+      "linked_concept_id": "ch04_t22"
     },
     {
       "id": 274,
@@ -1203,7 +1182,7 @@
         "The student is practicing anticipatory socialization"
       ],
       "correct": 2,
-      "linked_concept_id": "ch04_t09"
+      "linked_concept_id": "ch04_t06"
     },
     {
       "id": 795,
@@ -1251,7 +1230,7 @@
         "Cooling the mark out"
       ],
       "correct": 3,
-      "linked_concept_id": "ch04_t07"
+      "linked_concept_id": "ch04_t12"
     },
     {
       "id": 799,
@@ -1299,7 +1278,7 @@
         "The saturated self in postmodern society"
       ],
       "correct": 1,
-      "linked_concept_id": "ch04_t19"
+      "linked_concept_id": "ch04_t23"
     },
     {
       "id": 803,
@@ -1323,7 +1302,7 @@
         "The looking-glass self in anonymous settings"
       ],
       "correct": 2,
-      "linked_concept_id": "ch04_t10"
+      "linked_concept_id": "ch04_t28"
     },
     {
       "id": 805,
@@ -1347,7 +1326,7 @@
         "Frontstage and backstage behavior"
       ],
       "correct": 2,
-      "linked_concept_id": "ch04_t10"
+      "linked_concept_id": "ch04_t26"
     },
     {
       "id": 807,
@@ -1371,7 +1350,7 @@
         "Agency in choosing their social identity"
       ],
       "correct": 2,
-      "linked_concept_id": "ch04_t19"
+      "linked_concept_id": "ch04_t16"
     },
     {
       "id": 809,
@@ -1383,7 +1362,7 @@
         "A person moves from being single to married"
       ],
       "correct": 1,
-      "linked_concept_id": "ch04_t18"
+      "linked_concept_id": "ch04_t21"
     },
     {
       "id": 810,
@@ -1395,7 +1374,7 @@
         "Secondary socialization through new agents and experiences"
       ],
       "correct": 3,
-      "linked_concept_id": "ch04_t14"
+      "linked_concept_id": "ch04_t13"
     },
     {
       "id": 811,
@@ -1419,7 +1398,7 @@
         "Agents of the hidden curriculum"
       ],
       "correct": 1,
-      "linked_concept_id": "ch04_t13"
+      "linked_concept_id": "ch04_t16"
     },
     {
       "id": 981,

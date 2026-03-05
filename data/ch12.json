@@ -8,9 +8,7 @@
       "term": "Agricultural Revolution",
       "definition": "Social and economic changes following the domestication of plants and animals and increased food production efficiency",
       "level3_question_ids": [
-        861,
-        862,
-        863
+        861
       ],
       "confusable_ids": [
         "ch12_t03",
@@ -25,9 +23,7 @@
       "term": "Industrial Revolution",
       "definition": "Social transformation resulting from technological developments including assembly lines, steam power, and urbanization",
       "level3_question_ids": [
-        861,
-        862,
-        863
+        862
       ],
       "confusable_ids": [
         "ch12_t03",
@@ -40,8 +36,13 @@
       "term": "Information Revolution",
       "definition": "Social change from microchip development in the 1970s, shifting from goods production to knowledge and services",
       "level3_question_ids": [
-        861,
-        862,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
         863
       ],
       "confusable_ids": [
@@ -56,8 +57,11 @@
       "term": "Knowledge Work",
       "definition": "Work producing economic value through ideas, analyses, designs, or innovations rather than physical labor",
       "level3_question_ids": [
+        561,
+        562,
         563,
-        864
+        564,
+        565
       ],
       "confusable_ids": [
         "ch12_t05",
@@ -72,6 +76,11 @@
       "term": "Service Work",
       "definition": "Work providing services to businesses or consumers rather than manufacturing goods",
       "level3_question_ids": [
+        561,
+        562,
+        563,
+        564,
+        565,
         864
       ],
       "confusable_ids": [
@@ -160,9 +169,7 @@
         557,
         558,
         559,
-        560,
-        865,
-        866
+        560
       ],
       "confusable_ids": [
         "ch12_t11",
@@ -175,7 +182,10 @@
       "term": "Sweatshop",
       "definition": "Workplace with extreme worker exploitation including substandard wages, excessive hours, and hazardous conditions",
       "level3_question_ids": [
-        594
+        593,
+        594,
+        595,
+        598
       ],
       "confusable_ids": [
         "ch12_t10",
@@ -204,6 +214,13 @@
       "term": "Contingent Workforce",
       "definition": "Workers in temporary or freelance positions without long-term employment contracts",
       "level3_question_ids": [
+        567,
+        571,
+        588,
+        589,
+        590,
+        591,
+        592,
         866
       ],
       "confusable_ids": [
@@ -216,6 +233,9 @@
       "term": "Globalization",
       "definition": "Cultural and economic changes from increased international trade and exchange in recent decades",
       "level3_question_ids": [
+        566,
+        597,
+        598,
         599,
         867
       ],
@@ -312,7 +332,7 @@
         "create new markets for physical technological hardware and devices."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch12_t03"
     },
     {
       "id": 562,
@@ -324,7 +344,7 @@
         "equalized market access between large corporations and small businesses."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch12_t03"
     },
     {
       "id": 563,
@@ -336,7 +356,7 @@
         "establishing rigid career paths with clearly defined progression opportunities."
       ],
       "correct": 0,
-      "linked_concept_id": "ch12_t04"
+      "linked_concept_id": "ch12_t03"
     },
     {
       "id": 564,
@@ -348,7 +368,7 @@
         "balancing trade deficits through increased efficiency in domestic production."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch12_t03"
     },
     {
       "id": 565,
@@ -360,7 +380,7 @@
         "stabilizing economic cycles by reducing market volatility and speculation."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch12_t03"
     },
     {
       "id": 566,
@@ -372,7 +392,7 @@
         "eliminating the advantages previously held by large corporations."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch12_t03"
     },
     {
       "id": 567,
@@ -384,7 +404,7 @@
         "standardizing work hours and practices across different industries."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch12_t13"
     },
     {
       "id": 568,
@@ -636,7 +656,7 @@
         "per diem hospital nurse"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch12_t13"
     },
     {
       "id": 589,
@@ -648,7 +668,7 @@
         "Jobs with established career advancement ladders"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch12_t13"
     },
     {
       "id": 590,
@@ -660,7 +680,7 @@
         "management consultant with a regional client base"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch12_t13"
     },
     {
       "id": 591,
@@ -672,7 +692,7 @@
         "Operating within organizational reporting structures"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch12_t13"
     },
     {
       "id": 592,
@@ -684,7 +704,7 @@
         "Work arrangements with negotiated performance incentives"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch12_t13"
     },
     {
       "id": 593,
@@ -696,7 +716,7 @@
         "cost-optimized production facilities"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch12_t11"
     },
     {
       "id": 594,
@@ -720,7 +740,7 @@
         "product finishing industries with quality control focus, such as furniture production"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch12_t11"
     },
     {
       "id": 596,
@@ -768,7 +788,7 @@
         "business process relocation"
       ],
       "correct": 0,
-      "linked_concept_id": "ch12_t14"
+      "linked_concept_id": "ch12_t12"
     },
     {
       "id": 861,
@@ -792,7 +812,7 @@
         "Digital Revolution"
       ],
       "correct": 1,
-      "linked_concept_id": "ch12_t01"
+      "linked_concept_id": "ch12_t02"
     },
     {
       "id": 863,
@@ -804,7 +824,7 @@
         "Service Integration"
       ],
       "correct": 2,
-      "linked_concept_id": "ch12_t01"
+      "linked_concept_id": "ch12_t03"
     },
     {
       "id": 864,
@@ -816,7 +836,7 @@
         "Service work"
       ],
       "correct": 3,
-      "linked_concept_id": "ch12_t04"
+      "linked_concept_id": "ch12_t05"
     },
     {
       "id": 865,

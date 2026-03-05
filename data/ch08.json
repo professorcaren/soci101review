@@ -8,9 +8,7 @@
       "term": "Race",
       "definition": "A socially constructed category based on real or perceived biological differences between groups of people",
       "level3_question_ids": [
-        759,
-        767,
-        993
+        1498
       ],
       "confusable_ids": [
         "ch08_t15",
@@ -25,20 +23,14 @@
       "term": "Ethnicity",
       "definition": "A social category applied to a group with a shared ancestry or cultural heritage",
       "level3_question_ids": [
-        769,
         773,
         774,
-        775,
         776,
-        777,
-        778,
         782,
+        783,
         987,
         988,
-        991,
-        992,
-        994,
-        995,
+        999,
         1001,
         1498
       ],
@@ -55,18 +47,12 @@
       "term": "Symbolic Ethnicity",
       "definition": "An ethnic identity that is relevant only on specific occasions and does not significantly affect everyday life",
       "level3_question_ids": [
-        769,
         773,
         774,
         775,
         777,
         778,
-        782,
         987,
-        991,
-        994,
-        995,
-        1001,
         1499
       ],
       "confusable_ids": [
@@ -86,11 +72,10 @@
         776,
         777,
         782,
-        987,
         988,
-        992,
-        1230,
-        1497
+        1497,
+        1498,
+        1499
       ],
       "confusable_ids": [
         "ch08_t03",
@@ -112,7 +97,10 @@
         750,
         751,
         752,
-        753
+        753,
+        990,
+        992,
+        1499
       ],
       "confusable_ids": [
         "ch08_t13",
@@ -133,17 +121,8 @@
         757,
         758,
         764,
-        988,
-        989,
-        990,
-        993,
-        996,
-        1002,
-        1231,
-        1232,
         1494,
-        1495,
-        1496
+        1495
       ],
       "confusable_ids": [
         "ch08_t22",
@@ -159,15 +138,17 @@
       "definition": "An idea about the characteristics of a group that is applied to all members of that group and is unlikely to change regardless of evidence",
       "level3_question_ids": [
         755,
+        756,
         759,
         760,
         761,
         762,
         763,
         764,
-        768,
+        766,
         770,
-        771
+        771,
+        989
       ],
       "confusable_ids": [
         "ch08_t02",
@@ -182,25 +163,20 @@
       "term": "Discrimination",
       "definition": "Unequal treatment of individuals based on their membership in a social group; usually motivated by prejudice",
       "level3_question_ids": [
-        755,
+        757,
         758,
         762,
         765,
         766,
         767,
-        768,
         769,
         770,
         771,
         772,
-        777,
-        778,
-        779,
-        989,
-        990,
-        992,
         995,
-        1002
+        1494,
+        1495,
+        1497
       ],
       "confusable_ids": [
         "ch08_t11",
@@ -215,8 +191,10 @@
       "term": "Implicit Bias",
       "definition": "Unrecognized or unconscious prejudices and stereotypes that shape our interactions with others",
       "level3_question_ids": [
+        771,
         989,
-        1002
+        996,
+        1497
       ],
       "confusable_ids": [
         "ch08_t15"
@@ -228,10 +206,8 @@
       "definition": "Discrimination carried out by one person against another",
       "level3_question_ids": [
         767,
-        769,
+        768,
         779,
-        989,
-        990,
         995
       ],
       "confusable_ids": [
@@ -246,13 +222,14 @@
       "term": "Institutional Discrimination",
       "definition": "Discrimination carried out systematically by institutions that affects all members of a group who come into contact with it",
       "level3_question_ids": [
+        757,
         768,
         769,
         772,
-        989,
+        779,
         990,
-        992,
-        1002
+        1494,
+        1496
       ],
       "confusable_ids": [
         "ch08_t10",
@@ -267,10 +244,7 @@
       "term": "White Nationalism",
       "definition": "The belief that the nation should be built around a white identity that is reflected in religion, politics, economics, and culture",
       "level3_question_ids": [
-        991,
-        993,
-        995,
-        1002
+        991
       ],
       "confusable_ids": [
         "ch08_t03",
@@ -283,10 +257,12 @@
       "term": "Privilege",
       "definition": "Unearned advantage accorded to members of dominant social groups",
       "level3_question_ids": [
-        749,
-        988,
+        778,
         992,
-        996
+        1002,
+        1495,
+        1496,
+        1499
       ],
       "confusable_ids": [
         "ch08_t05",
@@ -301,9 +277,7 @@
       "term": "Color-Blind Racism",
       "definition": "An ideology that removes race as an explanation for any form of unequal treatment",
       "level3_question_ids": [
-        989,
-        993,
-        996
+        993
       ],
       "confusable_ids": [
         "ch08_t18",
@@ -333,11 +307,7 @@
       "term": "Microaggressions",
       "definition": "Everyday uses of subtle verbal and nonverbal communications that convey denigrating messages to members of certain social groups",
       "level3_question_ids": [
-        758,
-        990,
-        994,
-        996,
-        1001
+        996
       ],
       "confusable_ids": [
         "ch08_t13",
@@ -352,10 +322,7 @@
       "term": "Cultural Appropriation",
       "definition": "The adoption of cultural elements belonging to an oppressed group by members of the dominant group, without permission",
       "level3_question_ids": [
-        988,
-        992,
-        994,
-        996
+        994
       ],
       "confusable_ids": [
         "ch08_t22",
@@ -370,9 +337,6 @@
       "term": "Reverse Racism",
       "definition": "The claim by whites that they suffer discrimination based upon their race and experience social disadvantages",
       "level3_question_ids": [
-        988,
-        990,
-        993,
         1002
       ],
       "confusable_ids": [
@@ -389,10 +353,8 @@
       "definition": "The physical and legal separation of groups by race or ethnicity",
       "level3_question_ids": [
         997,
-        998,
-        999,
         1000,
-        1001
+        1496
       ],
       "confusable_ids": [
         "ch08_t13",
@@ -406,19 +368,7 @@
       "id": "ch08_t20",
       "term": "Assimilation",
       "definition": "A pattern of relations between ethnic or racial groups in which the minority group is absorbed into the mainstream or dominant group",
-      "level3_question_ids": [
-        778,
-        780,
-        781,
-        783,
-        987,
-        991,
-        997,
-        998,
-        999,
-        1000,
-        1001
-      ],
+      "level3_question_ids": [],
       "confusable_ids": [
         "ch08_t21",
         "ch08_t22",
@@ -448,15 +398,9 @@
       "term": "Cultural Assimilation",
       "definition": "The process by which racial or ethnic groups are absorbed into the dominant group by adopting the dominant group's culture",
       "level3_question_ids": [
-        778,
-        780,
         781,
         783,
-        987,
-        991,
-        997,
-        999,
-        1000,
+        998,
         1001
       ],
       "confusable_ids": [
@@ -472,12 +416,7 @@
       "term": "Pluralism",
       "definition": "A cultural pattern of intergroup relations that encourages racial and ethnic variation and acceptance within a society",
       "level3_question_ids": [
-        991,
-        994,
-        995,
-        997,
-        999,
-        1000
+        999
       ],
       "confusable_ids": [
         "ch08_t20",
@@ -607,7 +546,7 @@
         "Racism is always acted upon through discrimination, while prejudice remains at the level of thought"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t08"
+      "linked_concept_id": "ch08_t06"
     },
     {
       "id": 756,
@@ -631,7 +570,7 @@
         "Formation of racially segregated communities through historical housing policies"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t06"
+      "linked_concept_id": "ch08_t08"
     },
     {
       "id": 758,
@@ -643,7 +582,7 @@
         "Individual racism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t16"
+      "linked_concept_id": "ch08_t08"
     },
     {
       "id": 759,
@@ -715,7 +654,7 @@
         "Racism primarily involves biological or cultural arguments for group differences, while prejudice primarily involves stereotypes about group behavior."
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t07"
+      "linked_concept_id": "ch08_t06"
     },
     {
       "id": 765,
@@ -787,7 +726,7 @@
         "Prejudice reflects cultural biases, while discrimination reflects structural inequalities"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t08"
+      "linked_concept_id": "ch08_t07"
     },
     {
       "id": 771,
@@ -871,7 +810,7 @@
         "Symbolic ethnicity represents authentic cultural practices, while situational ethnicity involves strategic adaptation to avoid discrimination"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t04"
+      "linked_concept_id": "ch08_t03"
     },
     {
       "id": 778,
@@ -883,7 +822,7 @@
         "Because symbolic ethnicity represents the final stage in the process of cultural assimilation"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t22"
+      "linked_concept_id": "ch08_t03"
     },
     {
       "id": 779,
@@ -895,7 +834,7 @@
         "It only affects public institutions while individual discrimination affects private interactions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t10"
+      "linked_concept_id": "ch08_t11"
     },
     {
       "id": 780,
@@ -907,7 +846,7 @@
         "Double Consciousness"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t22"
+      "linked_concept_id": "ch08_t21"
     },
     {
       "id": 781,
@@ -955,7 +894,7 @@
         "Racial passing"
       ],
       "correct": 1,
-      "linked_concept_id": "ch08_t04"
+      "linked_concept_id": "ch08_t03"
     },
     {
       "id": 988,
@@ -967,7 +906,7 @@
         "White privilege"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t17"
+      "linked_concept_id": "ch08_t04"
     },
     {
       "id": 989,
@@ -979,7 +918,7 @@
         "Color-blind racism"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t11"
+      "linked_concept_id": "ch08_t09"
     },
     {
       "id": 990,
@@ -1003,7 +942,7 @@
         "Symbolic ethnicity"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t22"
+      "linked_concept_id": "ch08_t12"
     },
     {
       "id": 992,
@@ -1015,7 +954,7 @@
         "Situational ethnicity"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t11"
+      "linked_concept_id": "ch08_t13"
     },
     {
       "id": 993,
@@ -1027,7 +966,7 @@
         "Reverse racism"
       ],
       "correct": 1,
-      "linked_concept_id": "ch08_t14"
+      "linked_concept_id": "ch08_t15"
     },
     {
       "id": 994,
@@ -1063,7 +1002,7 @@
         "Color-blind racism"
       ],
       "correct": 1,
-      "linked_concept_id": "ch08_t17"
+      "linked_concept_id": "ch08_t16"
     },
     {
       "id": 997,
@@ -1075,7 +1014,7 @@
         "Population transfer"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t22"
+      "linked_concept_id": "ch08_t19"
     },
     {
       "id": 998,
@@ -1099,7 +1038,7 @@
         "Population transfer"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t22"
+      "linked_concept_id": "ch08_t23"
     },
     {
       "id": 1000,
@@ -1111,7 +1050,7 @@
         "Pluralism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch08_t22"
+      "linked_concept_id": "ch08_t19"
     },
     {
       "id": 1001,
@@ -1135,7 +1074,7 @@
         "Implicit bias"
       ],
       "correct": 2,
-      "linked_concept_id": "ch08_t11"
+      "linked_concept_id": "ch08_t18"
     },
     {
       "id": 1494,
@@ -1195,7 +1134,7 @@
         "Ethnic identity is only meaningful in formal institutional settings"
       ],
       "correct": 1,
-      "linked_concept_id": "ch08_t02"
+      "linked_concept_id": "ch08_t01"
     },
     {
       "id": 1499,

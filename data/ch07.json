@@ -8,14 +8,29 @@
       "term": "Social Stratification",
       "definition": "The hierarchical arrangement of individuals in society based on wealth, power, and prestige",
       "level3_question_ids": [
-        1043,
+        524,
+        525,
+        532,
+        533,
+        534,
+        535,
+        537,
+        1038,
+        1042,
+        1045,
+        1051,
         1054,
         1055,
+        1056,
         1058,
         1059,
         1060,
         1064,
-        1070
+        1065,
+        1066,
+        1067,
+        1068,
+        1069
       ],
       "confusable_ids": [
         "ch07_t05",
@@ -30,9 +45,27 @@
       "term": "Social Inequality",
       "definition": "Unequal distribution of resources, opportunities, and privileges within a society",
       "level3_question_ids": [
+        525,
+        527,
+        529,
+        530,
+        534,
+        547,
+        549,
+        1004,
+        1026,
+        1051,
+        1052,
+        1054,
         1056,
         1057,
-        1058
+        1058,
+        1060,
+        1063,
+        1065,
+        1067,
+        1068,
+        1069
       ],
       "confusable_ids": [
         "ch07_t23",
@@ -47,9 +80,8 @@
       "term": "Caste System",
       "definition": "A rigid system of stratification in which social status is inherited and movement between castes is restricted",
       "level3_question_ids": [
-        524,
-        1073,
-        1075
+        1055,
+        1072
       ],
       "confusable_ids": [
         "ch07_t17",
@@ -65,11 +97,7 @@
       "definition": "A system of institutionalized racial segregation and discrimination, particularly in South Africa from 1948 to 1994",
       "level3_question_ids": [
         524,
-        526,
-        529,
-        533,
-        535,
-        536
+        526
       ],
       "confusable_ids": [
         "ch07_t03",
@@ -84,25 +112,11 @@
       "term": "Social Class",
       "definition": "A division of society based on economic, social, and cultural factors such as income, education, and occupation",
       "level3_question_ids": [
-        524,
-        525,
-        529,
-        531,
-        532,
-        533,
-        534,
-        535,
-        536,
-        537,
-        538,
-        540,
-        546,
         549,
         550,
         553,
-        1023,
-        1027,
-        1054,
+        555,
+        1059,
         1061,
         1063
       ],
@@ -121,18 +135,11 @@
       "level3_question_ids": [
         527,
         528,
-        532,
-        534,
-        535,
-        536,
-        537,
-        539,
-        542,
+        531,
         544,
-        549,
         1003,
         1004,
-        1060,
+        1029,
         1062
       ],
       "confusable_ids": [
@@ -151,22 +158,7 @@
         526,
         529,
         530,
-        531,
-        532,
-        533,
-        534,
-        536,
-        537,
-        538,
-        540,
-        541,
-        545,
-        548,
-        550,
-        552,
-        553,
-        554,
-        555
+        531
       ],
       "confusable_ids": [
         "ch07_t12",
@@ -181,18 +173,12 @@
       "term": "The U.S. Social Class Ladder",
       "definition": "A framework categorizing American society into upper class, upper-middle class, middle class, working class, and lower class based on economic and social factors",
       "level3_question_ids": [
-        529,
-        531,
         532,
         533,
         534,
-        535,
-        537,
         538,
         540,
-        546,
-        549,
-        553
+        1032
       ],
       "confusable_ids": [
         "ch07_t05",
@@ -226,13 +212,10 @@
       "term": "Feudal System",
       "definition": "A medieval European system of land ownership and hierarchy where lords controlled land and serfs worked it in exchange for protection",
       "level3_question_ids": [
-        524,
         535,
         536,
         537,
-        538,
-        539,
-        1075
+        1072
       ],
       "confusable_ids": [
         "ch07_t03",
@@ -247,15 +230,9 @@
       "term": "Wealth",
       "definition": "The total value of an individual's or household's assets, including property, investments, and savings",
       "level3_question_ids": [
-        1014,
-        1015,
         1049,
-        1054,
-        1056,
         1061,
-        1062,
-        1063,
-        1067
+        1062
       ],
       "confusable_ids": [
         "ch07_t20",
@@ -270,11 +247,10 @@
       "term": "Prestige",
       "definition": "Social honor or respect granted to an individual based on their status, achievements, or occupation",
       "level3_question_ids": [
-        1032,
-        1054,
-        1056,
+        533,
+        1005,
+        1057,
         1061,
-        1062,
         1066
       ],
       "confusable_ids": [
@@ -290,10 +266,9 @@
       "term": "Cultural Capital",
       "definition": "Non-financial social assets, such as education, style, and knowledge, that can enhance social mobility",
       "level3_question_ids": [
-        525,
-        526,
         527,
-        530,
+        539,
+        548,
         1004,
         1043,
         1044,
@@ -302,9 +277,7 @@
         1047,
         1048,
         1049,
-        1050,
-        1061,
-        1062
+        1050
       ],
       "confusable_ids": [
         "ch07_t17",
@@ -319,8 +292,11 @@
       "term": "Social Reproduction",
       "definition": "The transmission of social and economic inequalities from one generation to the next",
       "level3_question_ids": [
+        528,
+        548,
         1003,
-        1033
+        1046,
+        1050
       ],
       "confusable_ids": [
         "ch07_t19",
@@ -335,18 +311,13 @@
       "term": "Class Consciousness",
       "definition": "An awareness of one's own social class and the class positions of others in daily interactions",
       "level3_question_ids": [
-        525,
         538,
         539,
         540,
-        543,
-        545,
         547,
-        548,
         550,
-        551,
         552,
-        555
+        1006
       ],
       "confusable_ids": [
         "ch07_t29",
@@ -361,21 +332,30 @@
       "term": "Social Mobility",
       "definition": "The movement of individuals or groups within a social hierarchy, either upward or downward",
       "level3_question_ids": [
-        530,
-        553,
+        551,
+        554,
         1003,
         1026,
         1031,
+        1032,
         1033,
-        1036,
+        1034,
+        1035,
         1037,
+        1038,
         1039,
+        1040,
         1041,
+        1042,
         1043,
-        1053,
+        1047,
+        1048,
+        1049,
         1055,
         1070,
+        1071,
         1073,
+        1074,
         1075
       ],
       "confusable_ids": [
@@ -391,10 +371,9 @@
       "term": "Closed System",
       "definition": "A system of stratification where social mobility is highly restricted, often based on ascribed status",
       "level3_question_ids": [
+        536,
         1070,
-        1072,
-        1073,
-        1075
+        1072
       ],
       "confusable_ids": [
         "ch07_t03",
@@ -409,6 +388,7 @@
       "term": "Open System",
       "definition": "A system of stratification that allows individuals to move between social classes based on achievement",
       "level3_question_ids": [
+        536,
         1071,
         1073,
         1074,
@@ -427,13 +407,10 @@
       "term": "Intergenerational Mobility",
       "definition": "Changes in social status that occur from one generation to the next within a family",
       "level3_question_ids": [
+        528,
         1033,
-        1034,
-        1036,
         1037,
-        1039,
-        1040,
-        1042
+        1075
       ],
       "confusable_ids": [
         "ch07_t20",
@@ -448,12 +425,8 @@
       "term": "Intragenerational Mobility",
       "definition": "Changes in social status that occur within an individual's lifetime",
       "level3_question_ids": [
-        1033,
-        1034,
         1035,
-        1037,
-        1039,
-        1042
+        1039
       ],
       "confusable_ids": [
         "ch07_t19",
@@ -468,27 +441,9 @@
       "term": "Income",
       "definition": "The flow of money or monetary resources received over a period of time through wages, investments, or other sources",
       "level3_question_ids": [
-        525,
-        527,
-        530,
-        534,
-        540,
-        542,
         544,
-        546,
-        547,
-        549,
-        552,
-        1027,
-        1029,
-        1051,
-        1054,
-        1055,
-        1059,
-        1061,
-        1062,
-        1063,
-        1067
+        1057,
+        1062
       ],
       "confusable_ids": [
         "ch07_t02",
@@ -502,9 +457,7 @@
       "definition": "Changes in social class due to shifts in the economy or societal structure rather than individual effort",
       "level3_question_ids": [
         1034,
-        1036,
         1038,
-        1039,
         1040,
         1042
       ],
@@ -521,12 +474,12 @@
       "term": "Relative Deprivation",
       "definition": "The subjective feeling of lacking resources or opportunities compared to others in society",
       "level3_question_ids": [
-        541,
-        542,
-        543,
-        544,
-        546,
-        1020
+        545,
+        1015,
+        1016,
+        1020,
+        1053,
+        1069
       ],
       "confusable_ids": [
         "ch07_t02",
@@ -541,18 +494,17 @@
       "term": "Absolute Deprivation",
       "definition": "The objective lack of basic necessities required for survival and minimal well-being",
       "level3_question_ids": [
-        527,
-        531,
-        533,
-        540,
         541,
         542,
         543,
-        544,
         545,
         546,
-        547,
-        549
+        1014,
+        1017,
+        1018,
+        1019,
+        1020,
+        1021
       ],
       "confusable_ids": [
         "ch07_t23"
@@ -563,17 +515,13 @@
       "term": "Federal Poverty Line",
       "definition": "An income threshold set by the U.S. government to determine eligibility for social assistance programs",
       "level3_question_ids": [
-        526,
-        530,
         541,
-        542,
-        543,
         544,
         545,
         546,
-        547,
-        548,
-        554
+        1018,
+        1019,
+        1021
       ],
       "confusable_ids": [
         "ch07_t09",
@@ -606,13 +554,12 @@
       "definition": "The physical separation of social groups based on factors such as race, income, or social class",
       "level3_question_ids": [
         525,
-        532,
-        534,
-        539,
         547,
         548,
         549,
-        551
+        552,
+        1024,
+        1025
       ],
       "confusable_ids": [
         "ch07_t05",
@@ -628,7 +575,6 @@
       "definition": "The tendency to choose romantic partners who are similar in social background, such as class, religion, or education.",
       "level3_question_ids": [
         550,
-        551,
         552,
         1022,
         1023,
@@ -650,9 +596,7 @@
       "term": "Heterogamy",
       "definition": "The practice of selecting a mate with social characteristics different from one's own, such as different class or racial backgrounds.",
       "level3_question_ids": [
-        550,
-        551,
-        552
+        551
       ],
       "confusable_ids": [
         "ch07_t15",
@@ -667,14 +611,11 @@
       "term": "Horizontal Mobility",
       "definition": "A change in occupation or role that does not result in a shift in social class, such as moving from one job to another with a similar salary.",
       "level3_question_ids": [
-        525,
-        527,
-        531,
         553,
         554,
         555,
-        1040,
-        1042
+        1036,
+        1041
       ],
       "confusable_ids": [
         "ch07_t19",
@@ -696,7 +637,7 @@
         "A caste system based on Hindu beliefs"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t10"
+      "linked_concept_id": "ch07_t04"
     },
     {
       "id": 525,
@@ -720,7 +661,7 @@
         "Cultural capital acquisition"
       ],
       "correct": 1,
-      "linked_concept_id": "ch07_t25"
+      "linked_concept_id": "ch07_t07"
     },
     {
       "id": 527,
@@ -756,7 +697,7 @@
         "Intersectionality of social identities"
       ],
       "correct": 3,
-      "linked_concept_id": "ch07_t08"
+      "linked_concept_id": "ch07_t07"
     },
     {
       "id": 530,
@@ -768,7 +709,7 @@
         "Cultural capital differences"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t25"
+      "linked_concept_id": "ch07_t07"
     },
     {
       "id": 531,
@@ -780,7 +721,7 @@
         "Horizontal mobility analysis"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t08"
+      "linked_concept_id": "ch07_t07"
     },
     {
       "id": 532,
@@ -828,7 +769,7 @@
         "Modern socioeconomic status"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t08"
+      "linked_concept_id": "ch07_t10"
     },
     {
       "id": 536,
@@ -840,7 +781,7 @@
         "Apartheid legal structures"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t06"
+      "linked_concept_id": "ch07_t10"
     },
     {
       "id": 537,
@@ -852,7 +793,7 @@
         "Intersectionality in historical context"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t08"
+      "linked_concept_id": "ch07_t10"
     },
     {
       "id": 538,
@@ -864,7 +805,7 @@
         "The U.S. Social Class Ladder structure"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t08"
+      "linked_concept_id": "ch07_t15"
     },
     {
       "id": 539,
@@ -876,7 +817,7 @@
         "Residential segregation effects"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t06"
+      "linked_concept_id": "ch07_t15"
     },
     {
       "id": 540,
@@ -888,7 +829,7 @@
         "Absolute deprivation effects"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t08"
+      "linked_concept_id": "ch07_t15"
     },
     {
       "id": 541,
@@ -900,7 +841,7 @@
         "Intersectionality of economic factors"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t23"
+      "linked_concept_id": "ch07_t24"
     },
     {
       "id": 542,
@@ -912,7 +853,7 @@
         "Socioeconomic status categories"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t06"
+      "linked_concept_id": "ch07_t24"
     },
     {
       "id": 543,
@@ -924,7 +865,7 @@
         "Class consciousness measurement"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t23"
+      "linked_concept_id": "ch07_t24"
     },
     {
       "id": 544,
@@ -936,7 +877,7 @@
         "The federal poverty line threshold"
       ],
       "correct": 3,
-      "linked_concept_id": "ch07_t06"
+      "linked_concept_id": "ch07_t25"
     },
     {
       "id": 545,
@@ -948,7 +889,7 @@
         "Class consciousness effects"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t24"
+      "linked_concept_id": "ch07_t25"
     },
     {
       "id": 546,
@@ -960,7 +901,7 @@
         "The U.S. Social Class Ladder boundaries"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t08"
+      "linked_concept_id": "ch07_t25"
     },
     {
       "id": 547,
@@ -996,7 +937,7 @@
         "Absolute deprivation effects"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t08"
+      "linked_concept_id": "ch07_t27"
     },
     {
       "id": 550,
@@ -1008,7 +949,7 @@
         "Heterogamy across social boundaries"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t15"
+      "linked_concept_id": "ch07_t28"
     },
     {
       "id": 551,
@@ -1020,7 +961,7 @@
         "Class consciousness in relationships"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t27"
+      "linked_concept_id": "ch07_t29"
     },
     {
       "id": 552,
@@ -1032,7 +973,7 @@
         "Class consciousness in dating"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t15"
+      "linked_concept_id": "ch07_t28"
     },
     {
       "id": 553,
@@ -1044,7 +985,7 @@
         "The U.S. Social Class Ladder climbing"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t08"
+      "linked_concept_id": "ch07_t30"
     },
     {
       "id": 554,
@@ -1056,7 +997,7 @@
         "Intersectionality in career choices"
       ],
       "correct": 2,
-      "linked_concept_id": "ch07_t25"
+      "linked_concept_id": "ch07_t30"
     },
     {
       "id": 555,
@@ -1068,7 +1009,7 @@
         "Class consciousness in career decisions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t15"
+      "linked_concept_id": "ch07_t30"
     },
     {
       "id": 1003,
@@ -1080,7 +1021,7 @@
         "Cultural assimilation - how groups adopt dominant cultural practices"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t06"
+      "linked_concept_id": "ch07_t14"
     },
     {
       "id": 1004,
@@ -1092,7 +1033,7 @@
         "It dictates which courses she is legally allowed to enroll in"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t06"
+      "linked_concept_id": "ch07_t13"
     },
     {
       "id": 1005,
@@ -1128,7 +1069,7 @@
         "Relative poverty measure"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t11"
+      "linked_concept_id": "ch07_t24"
     },
     {
       "id": 1015,
@@ -1140,7 +1081,7 @@
         "A person who cannot afford essential medication for a chronic illness in any economic context"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t11"
+      "linked_concept_id": "ch07_t23"
     },
     {
       "id": 1016,
@@ -1152,7 +1093,7 @@
         "Standardized poverty measure"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch07_t23"
     },
     {
       "id": 1017,
@@ -1164,7 +1105,7 @@
         "A worker without reliable transportation in an area with limited public transit options"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch07_t24"
     },
     {
       "id": 1018,
@@ -1176,7 +1117,7 @@
         "Multidimensional poverty measurement"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch07_t24"
     },
     {
       "id": 1019,
@@ -1188,7 +1129,7 @@
         "They are more effective at measuring poverty in wealthy nations"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch07_t24"
     },
     {
       "id": 1020,
@@ -1212,7 +1153,7 @@
         "They often underestimate poverty in developed countries where basic necessities are universally available"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch07_t24"
     },
     {
       "id": 1022,
@@ -1236,7 +1177,7 @@
         "A deeply religious individual marrying someone who does not share their faith"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t05"
+      "linked_concept_id": "ch07_t28"
     },
     {
       "id": 1024,
@@ -1284,7 +1225,7 @@
         "Taylor and Jordan, who were raised in the same neighborhood but differ in religious beliefs and family structures"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t05"
+      "linked_concept_id": "ch07_t28"
     },
     {
       "id": 1028,
@@ -1302,7 +1243,7 @@
       "id": 1029,
       "question": "Which of the following is the best example of status inconsistency?",
       "choices": [
-        "A highly educated immigrant with an advanced degree working as a taxi driver due",
+        "A highly educated immigrant with an advanced degree working as a taxi driver due to credential non-recognition",
         "A CEO of a major corporation who lives in an expensive home and belongs to exclusive social clubs",
         "A teacher who earns a modest income and lives in a middle-class neighborhood",
         "A skilled tradesperson who earns a good income and is respected in their working-class community"
@@ -1368,7 +1309,7 @@
         "collective mobility"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t19"
+      "linked_concept_id": "ch07_t22"
     },
     {
       "id": 1035,
@@ -1392,7 +1333,7 @@
         "vertical social mobility"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t19"
+      "linked_concept_id": "ch07_t30"
     },
     {
       "id": 1037,
@@ -1428,7 +1369,7 @@
         "structural mobility"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t19"
+      "linked_concept_id": "ch07_t20"
     },
     {
       "id": 1040,
@@ -1440,7 +1381,7 @@
         "horizontal mobility"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t19"
+      "linked_concept_id": "ch07_t22"
     },
     {
       "id": 1041,
@@ -1452,7 +1393,7 @@
         "A society experiencing upward mobility due to rapid technological advancement"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t16"
+      "linked_concept_id": "ch07_t30"
     },
     {
       "id": 1042,
@@ -1464,7 +1405,7 @@
         "horizontal mobility"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t19"
+      "linked_concept_id": "ch07_t22"
     },
     {
       "id": 1043,
@@ -1476,7 +1417,7 @@
         "cultural reproduction"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t01"
+      "linked_concept_id": "ch07_t13"
     },
     {
       "id": 1044,
@@ -1668,7 +1609,7 @@
         "A workplace where older employees receive preferential treatment"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t01"
+      "linked_concept_id": "ch07_t05"
     },
     {
       "id": 1060,
@@ -1680,7 +1621,7 @@
         "Legal systems that classify citizens according to their birthplace"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t06"
+      "linked_concept_id": "ch07_t02"
     },
     {
       "id": 1061,
@@ -1692,7 +1633,7 @@
         "A categorization method that divides society according to inherited status and family lineage"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t13"
+      "linked_concept_id": "ch07_t05"
     },
     {
       "id": 1062,
@@ -1740,7 +1681,7 @@
         "A city implements a merit-based civil service exam for all government positions"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch07_t02"
     },
     {
       "id": 1066,
@@ -1800,7 +1741,7 @@
         "A system where social stratification is acknowledged but not rigidly maintained"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t01"
+      "linked_concept_id": "ch07_t17"
     },
     {
       "id": 1071,
@@ -1836,7 +1777,7 @@
         "Feudal estate system with hereditary social positions"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t16"
+      "linked_concept_id": "ch07_t18"
     },
     {
       "id": 1074,
@@ -1860,7 +1801,7 @@
         "Feudal system with legally enforced class boundaries"
       ],
       "correct": 0,
-      "linked_concept_id": "ch07_t16"
+      "linked_concept_id": "ch07_t18"
     }
   ]
 }

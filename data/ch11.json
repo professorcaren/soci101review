@@ -8,7 +8,9 @@
       "term": "social institutions",
       "definition": "Systems and structures within society that shape the activities of groups and individuals, providing stability and meeting essential societal needs",
       "level3_question_ids": [
-        503
+        500,
+        503,
+        504
       ],
       "confusable_ids": [
         "ch11_t02",
@@ -21,10 +23,7 @@
       "id": "ch11_t02",
       "term": "education",
       "definition": "The process by which a society transmits its knowledge, values, and expectations to its members so they can function effectively",
-      "level3_question_ids": [
-        479,
-        489
-      ],
+      "level3_question_ids": [],
       "confusable_ids": [
         "ch11_t11",
         "ch11_t05",
@@ -77,23 +76,36 @@
       "definition": "Any institutionalized system of shared beliefs and rituals that identify a relationship between the sacred and the profane",
       "level3_question_ids": [
         470,
-        472,
         473,
         474,
-        477,
         483,
+        486,
         490,
-        491,
-        493,
         494,
+        495,
+        498,
         500,
         501,
         502,
         503,
         504,
         505,
+        506,
         507,
-        509
+        508,
+        509,
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        521,
+        523
       ],
       "confusable_ids": [
         "ch11_t08",
@@ -111,10 +123,7 @@
         471,
         474,
         487,
-        496,
-        514,
-        518,
-        1010
+        501
       ],
       "confusable_ids": [
         "ch11_t08",
@@ -147,7 +156,11 @@
       "term": "intrinsic religiosity",
       "definition": "A person's inner religious life or personal relationship to the divine, reflecting internal spiritual motivation",
       "level3_question_ids": [
-        476
+        476,
+        478,
+        510,
+        512,
+        513
       ],
       "confusable_ids": [
         "ch11_t10",
@@ -180,9 +193,15 @@
       "term": "secularization",
       "definition": "The process by which religious institutions, practices, and consciousness lose their social significance in society",
       "level3_question_ids": [
+        480,
         481,
+        482,
+        483,
         484,
-        489
+        491,
+        492,
+        503,
+        516
       ],
       "confusable_ids": [
         "ch11_t15",
@@ -199,7 +218,11 @@
       "level3_question_ids": [
         514,
         515,
-        518
+        516,
+        517,
+        518,
+        520,
+        522
       ],
       "confusable_ids": [
         "ch11_t13",
@@ -214,6 +237,7 @@
       "term": "charismatic authority",
       "definition": "Power based on the perception that a leader possesses extraordinary, possibly divine qualities, often found in religious movements",
       "level3_question_ids": [
+        517,
         519,
         520,
         521,
@@ -233,8 +257,11 @@
       "term": "unchurched",
       "definition": "A term describing those who consider themselves spiritual but not religious and who often adopt aspects of various religious traditions",
       "level3_question_ids": [
+        481,
         490,
         491,
+        492,
+        493,
         494,
         1011
       ],
@@ -251,11 +278,17 @@
       "term": "ritual",
       "definition": "Formal, patterned behaviors or practices based on religious beliefs that create social cohesion and reinforce group identity",
       "level3_question_ids": [
+        485,
+        486,
+        487,
         488,
         489,
+        496,
+        497,
         499,
-        501,
-        521
+        502,
+        508,
+        511
       ],
       "confusable_ids": [
         "ch11_t11",
@@ -270,11 +303,14 @@
       "term": "collective effervescence",
       "definition": "The heightened sense of energy, unity, and emotional intensity experienced in religious gatherings that strengthens social bonds",
       "level3_question_ids": [
+        485,
         495,
         496,
         497,
         498,
-        499
+        499,
+        500,
+        502
       ],
       "confusable_ids": [
         "ch11_t11",
@@ -320,7 +356,7 @@
         "The elements of worship that are accessible to all members rather than only clergy"
       ],
       "correct": 0,
-      "linked_concept_id": "ch11_t06"
+      "linked_concept_id": "ch11_t08"
     },
     {
       "id": 473,
@@ -476,7 +512,7 @@
         "They establish clear boundaries between members of the religious community and outsiders"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch11_t16"
     },
     {
       "id": 486,
@@ -488,7 +524,7 @@
         "They formalize the process of membership, clearly distinguishing between insiders and outsiders"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch11_t15"
     },
     {
       "id": 487,
@@ -524,7 +560,7 @@
         "Observance of weekly sabbath or holy day practices across generations"
       ],
       "correct": 0,
-      "linked_concept_id": "ch11_t11"
+      "linked_concept_id": "ch11_t15"
     },
     {
       "id": 490,
@@ -560,7 +596,7 @@
         "It has fluctuated repeatedly in response to political and economic cycles without clear direction"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch11_t11"
     },
     {
       "id": 493,
@@ -572,7 +608,7 @@
         "Ethnically diverse millennials raised in interfaith or mixed-religion households"
       ],
       "correct": 0,
-      "linked_concept_id": "ch11_t06"
+      "linked_concept_id": "ch11_t14"
     },
     {
       "id": 494,
@@ -644,7 +680,7 @@
         "Collective effervescence primarily serves to compensate for the declining significance of religious rituals"
       ],
       "correct": 0,
-      "linked_concept_id": "ch11_t16"
+      "linked_concept_id": "ch11_t15"
     },
     {
       "id": 500,
@@ -680,7 +716,7 @@
         "Offering psychological comfort and certainty in an unpredictable world"
       ],
       "correct": 0,
-      "linked_concept_id": "ch11_t06"
+      "linked_concept_id": "ch11_t16"
     },
     {
       "id": 503,
@@ -728,7 +764,7 @@
         "By offering women special recognition in limited domains while maintaining overall patriarchal structures"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch11_t06"
     },
     {
       "id": 507,
@@ -752,7 +788,7 @@
         "They emphasized individual spiritual transformation as a prerequisite to social change rather than structural reforms"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch11_t06"
     },
     {
       "id": 509,
@@ -848,7 +884,7 @@
         "By separating religious communities from mainstream society to preserve traditional practices"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch11_t12"
     },
     {
       "id": 517,
@@ -860,7 +896,7 @@
         "It becomes more rigidly enforced through increased emphasis on conformity and discipline"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch11_t13"
     },
     {
       "id": 518,

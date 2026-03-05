@@ -26,8 +26,8 @@ DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 REPORT_JSON = os.path.join(SCRIPT_DIR, "audit_report.json")
 REPORT_MD = os.path.join(SCRIPT_DIR, "audit_report.md")
 
-BATCH_SIZE = 15  # questions per API call
-RATE_LIMIT_DELAY = 1.0  # seconds between API calls
+BATCH_SIZE = 10  # questions per API call
+RATE_LIMIT_DELAY = 0.5  # seconds between API calls
 
 
 def load_chapter(chapter_id):
@@ -87,7 +87,7 @@ Q124: ch07_t12
 Q125: none"""
 
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-haiku-4-5-20251001",
         max_tokens=2000,
         messages=[{"role": "user", "content": prompt}],
     )
@@ -127,7 +127,7 @@ def main():
     for ch_info in manifest:
         chapter = load_chapter(ch_info["id"])
         concepts = chapter["concepts"]
-        questions = [q for q in chapter["chapter_questions"] if q["linked_concept_id"]]
+        questions = chapter["chapter_questions"]
         concepts_by_id = {c["id"]: c for c in concepts}
 
         if not questions:
@@ -152,7 +152,7 @@ def main():
                 total_audited += 1
                 current = q["linked_concept_id"]
                 if suggested != current:
-                    current_term = concepts_by_id[current]["term"] if current in concepts_by_id else "none"
+                    current_term = concepts_by_id[current]["term"] if current and current in concepts_by_id else "none"
                     suggested_term = concepts_by_id[suggested]["term"] if suggested and suggested in concepts_by_id else "none"
                     mismatches.append({
                         "question_id": qid,

@@ -234,7 +234,8 @@ const App = (() => {
         const exam = EXAMS.find(e => e.id === examId);
         if (!exam) return;
         const chapters = exam.chapters.map(id => ContentLoader.getChapter(id)).filter(Boolean);
-        const questions = QuizEngine.buildPracticeExam(chapters, 50);
+        const size = parseInt(document.getElementById('exam-question-slider').value, 10) || 50;
+        const questions = QuizEngine.buildPracticeExam(chapters, size);
         _returnTo = 'exam';
         UI.startStudySession(questions, {
             examTestMode: testMode,

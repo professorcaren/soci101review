@@ -283,27 +283,51 @@ const QuizEngine = (() => {
     function buildPracticeExam(chapters, size) {
         if (!Array.isArray(chapters)) chapters = [chapters];
         size = size || 50;
-        const allQuestions = [];
+        const l1Pool = [], l2Pool = [], l3Pool = [];
 
         for (const chapter of chapters) {
             for (const concept of chapter.concepts) {
                 if (Progress.isConceptSkipped(concept.id)) continue;
-                const hasL3 = concept.level3_question_ids.length > 0;
 
-                allQuestions.push(makeLevel1Question(chapter, concept));
-                allQuestions.push(makeLevel2Question(chapter, concept));
+                l1Pool.push(makeLevel1Question(chapter, concept));
+                l2Pool.push(makeLevel2Question(chapter, concept));
 
-                if (hasL3) {
+                if (concept.level3_question_ids.length > 0) {
                     const qIds = concept.level3_question_ids;
                     const randomId = qIds[Math.floor(Math.random() * qIds.length)];
                     const qData = chapter.chapter_questions.find(cq => cq.id === randomId);
-                    if (qData) allQuestions.push(makeLevel3FromData(qData, concept, chapter));
+                    if (qData) l3Pool.push(makeLevel3FromData(qData, concept, chapter));
                 }
             }
         }
 
-        shuffle(allQuestions);
-        return allQuestions.slice(0, size);
+        // Target 25% L1, 25% L2, 50% L3 — but cap each to pool size
+        const l3Want = Math.min(Math.round(size * 0.5), l3Pool.length);
+        const l1Want = Math.min(Math.round(size * 0.25), l1Pool.length);
+        const l2Want = Math.min(size - l3Want - l1Want, l2Pool.length);
+        // Fill any remainder from whichever pool has leftovers
+        let remainder = size - l1Want - l2Want - l3Want;
+        const extra = [];
+        if (remainder > 0 && l1Pool.length > l1Want) {
+            const take = Math.min(remainder, l1Pool.length - l1Want);
+            extra.push(...l1Pool.slice(l1Want, l1Want + take));
+            remainder -= take;
+        }
+        if (remainder > 0 && l2Pool.length > l2Want) {
+            const take = Math.min(remainder, l2Pool.length - l2Want);
+            extra.push(...l2Pool.slice(l2Want, l2Want + take));
+            remainder -= take;
+        }
+
+        shuffle(l1Pool); shuffle(l2Pool); shuffle(l3Pool);
+        const selected = [
+            ...l1Pool.slice(0, l1Want),
+            ...l2Pool.slice(0, l2Want),
+            ...l3Pool.slice(0, l3Want),
+            ...extra,
+        ];
+        shuffle(selected);
+        return selected.slice(0, size);
     }
 
     return { buildSession, buildExamSession, buildPracticeExam, recordAnswer, setSessionSize, getSessionSize };

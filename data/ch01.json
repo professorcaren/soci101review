@@ -13,14 +13,10 @@
         336,
         338,
         339,
-        342,
-        352,
-        354,
-        356,
-        370,
-        380,
-        388,
-        390
+        343,
+        346,
+        372,
+        813
       ],
       "confusable_ids": [
         "ch01_t03",
@@ -35,26 +31,7 @@
       "term": "Society",
       "definition": "A group of people who share a culture and territory",
       "level3_question_ids": [
-        334,
-        352,
-        359,
-        364,
-        366,
-        367,
-        379,
-        381,
-        814,
-        815,
-        818,
-        819,
-        828,
-        829,
-        830,
-        832,
-        833,
-        849,
-        851,
-        855
+        833
       ],
       "confusable_ids": [
         "ch01_t14"
@@ -83,10 +60,27 @@
       "term": "Sociological Perspective",
       "definition": "Understanding human behavior by placing it within its broader social context",
       "level3_question_ids": [
+        228,
+        336,
+        342,
+        349,
+        352,
+        382,
+        384,
         813,
-        838,
-        839,
-        842
+        814,
+        815,
+        816,
+        817,
+        823,
+        824,
+        825,
+        826,
+        827,
+        837,
+        858,
+        859,
+        860
       ],
       "confusable_ids": [
         "ch01_t06",
@@ -114,12 +108,16 @@
       "term": "Sociological Imagination",
       "definition": "The ability to connect individual experiences to larger social forces",
       "level3_question_ids": [
+        347,
+        814,
+        816,
         823,
         824,
         825,
         826,
         827,
-        857
+        857,
+        858
       ],
       "confusable_ids": [
         "ch01_t04",
@@ -137,8 +135,9 @@
         343,
         344,
         345,
-        346,
-        347
+        817,
+        853,
+        854
       ],
       "confusable_ids": [
         "ch01_t01",
@@ -153,10 +152,17 @@
       "term": "Macrosociology",
       "definition": "Study of large-scale social structures and institutions",
       "level3_question_ids": [
-        343,
-        344,
         346,
-        347
+        347,
+        348,
+        815,
+        817,
+        822,
+        838,
+        852,
+        855,
+        856,
+        860
       ],
       "confusable_ids": [
         "ch01_t01",
@@ -171,10 +177,14 @@
       "term": "Theories",
       "definition": "Sets of statements that explain social phenomena",
       "level3_question_ids": [
+        228,
         349,
         350,
         351,
-        393
+        353,
+        354,
+        370,
+        829
       ],
       "confusable_ids": [
         "ch01_t08",
@@ -190,7 +200,14 @@
       "definition": "A theoretical framework used to understand social reality",
       "level3_question_ids": [
         227,
-        228
+        228,
+        350,
+        352,
+        353,
+        354,
+        355,
+        356,
+        358
       ],
       "confusable_ids": [
         "ch01_t08",
@@ -207,7 +224,10 @@
       "level3_question_ids": [
         355,
         356,
-        357
+        357,
+        360,
+        370,
+        371
       ],
       "confusable_ids": [
         "ch01_t01",
@@ -239,13 +259,34 @@
       "term": "Structural Functionalism",
       "definition": "Theory viewing society as a complex system of parts working together",
       "level3_question_ids": [
-        381,
+        361,
+        362,
+        364,
+        365,
+        367,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        821,
         828,
         829,
         830,
+        831,
         832,
+        838,
+        839,
+        840,
         841,
-        842
+        843,
+        844,
+        845,
+        847,
+        849,
+        850,
+        851
       ],
       "confusable_ids": [
         "ch01_t19",
@@ -264,14 +305,12 @@
         362,
         363,
         364,
-        365,
         366,
-        840,
-        847,
-        848,
-        849,
-        850,
-        851
+        368,
+        369,
+        834,
+        846,
+        848
       ],
       "confusable_ids": [
         "ch01_t15",
@@ -289,10 +328,6 @@
         361,
         362,
         363,
-        364,
-        365,
-        366,
-        847,
         848,
         850,
         851
@@ -310,17 +345,13 @@
       "term": "Organic Solidarity",
       "definition": "Social cohesion based on interdependence in modern societies",
       "level3_question_ids": [
-        361,
-        362,
-        363,
         364,
         365,
         366,
         840,
         847,
         849,
-        850,
-        851
+        850
       ],
       "confusable_ids": [
         "ch01_t15",
@@ -335,13 +366,9 @@
       "term": "Anomie",
       "definition": "A state of normlessness or lack of social norms in society",
       "level3_question_ids": [
-        362,
         367,
         368,
-        369,
-        847,
-        850,
-        851
+        369
       ],
       "confusable_ids": [
         "ch01_t01",
@@ -356,6 +383,8 @@
       "term": "Empirical",
       "definition": "Based on observation or experience rather than theory",
       "level3_question_ids": [
+        335,
+        357,
         370,
         371,
         372
@@ -372,17 +401,7 @@
       "id": "ch01_t19",
       "term": "Structural",
       "definition": "Relating to the enduring patterns and organized relationships that shape society",
-      "level3_question_ids": [
-        381,
-        828,
-        829,
-        830,
-        831,
-        832,
-        841,
-        842,
-        853
-      ],
+      "level3_question_ids": [],
       "confusable_ids": [
         "ch01_t13",
         "ch01_t01",
@@ -396,12 +415,10 @@
       "term": "Manifest Functions",
       "definition": "Intended and recognized consequences of social patterns",
       "level3_question_ids": [
-        373,
-        374,
-        375,
         376,
         377,
-        378
+        378,
+        839
       ],
       "confusable_ids": [
         "ch01_t21",
@@ -419,9 +436,10 @@
         373,
         374,
         375,
-        376,
-        377,
-        378
+        843,
+        844,
+        845,
+        846
       ],
       "confusable_ids": [
         "ch01_t20",
@@ -437,14 +455,25 @@
       "definition": "Perspective focusing on social, political, and material inequality",
       "level3_question_ids": [
         227,
-        358,
+        350,
         379,
         380,
         381,
+        383,
+        385,
+        386,
+        387,
         388,
-        838,
-        839,
-        840,
+        389,
+        390,
+        818,
+        819,
+        820,
+        821,
+        822,
+        830,
+        831,
+        832,
         841,
         842
       ],
@@ -461,11 +490,26 @@
       "term": "Social Inequality",
       "definition": "Unequal distribution of resources and opportunities in society",
       "level3_question_ids": [
+        227,
+        359,
+        379,
+        380,
+        381,
         382,
         383,
         384,
-        389,
-        828
+        818,
+        819,
+        820,
+        821,
+        822,
+        828,
+        830,
+        831,
+        832,
+        841,
+        842,
+        859
       ],
       "confusable_ids": [
         "ch01_t03",
@@ -482,8 +526,7 @@
       "level3_question_ids": [
         385,
         386,
-        387,
-        851
+        387
       ],
       "confusable_ids": [
         "ch01_t01",
@@ -498,7 +541,6 @@
       "term": "Critical Theory",
       "definition": "Approach combining social theory and criticism to promote social change",
       "level3_question_ids": [
-        355,
         388,
         389,
         390
@@ -516,19 +558,13 @@
       "term": "Symbolic Interactionism",
       "definition": "Theory focusing on meaning and interaction in social life",
       "level3_question_ids": [
-        357,
-        358,
-        379,
-        381,
+        344,
+        350,
         833,
         834,
         835,
         836,
-        837,
-        838,
-        840,
-        841,
-        842
+        837
       ],
       "confusable_ids": [
         "ch01_t22",
@@ -545,7 +581,8 @@
       "level3_question_ids": [
         391,
         392,
-        393
+        393,
+        836
       ],
       "confusable_ids": [
         "ch01_t20",
@@ -613,7 +650,7 @@
         "Researching historical causes of wars"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t03"
+      "linked_concept_id": "ch01_t04"
     },
     {
       "id": 337,
@@ -733,7 +770,7 @@
         "Technology studies"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t07"
+      "linked_concept_id": "ch01_t08"
     },
     {
       "id": 347,
@@ -745,7 +782,7 @@
         "Community psychology"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t07"
+      "linked_concept_id": "ch01_t08"
     },
     {
       "id": 348,
@@ -757,7 +794,7 @@
         "Friendship formation among college roommates"
       ],
       "correct": 2,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t08"
     },
     {
       "id": 349,
@@ -781,7 +818,7 @@
         "Academic disciplines"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t09"
+      "linked_concept_id": "ch01_t10"
     },
     {
       "id": 351,
@@ -805,7 +842,7 @@
         "Data sources"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t01"
+      "linked_concept_id": "ch01_t10"
     },
     {
       "id": 353,
@@ -817,7 +854,7 @@
         "Administrative policies"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t10"
     },
     {
       "id": 354,
@@ -829,7 +866,7 @@
         "Geographic locations"
       ],
       "correct": 2,
-      "linked_concept_id": "ch01_t01"
+      "linked_concept_id": "ch01_t10"
     },
     {
       "id": 355,
@@ -841,7 +878,7 @@
         "Postmodernism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t25"
+      "linked_concept_id": "ch01_t11"
     },
     {
       "id": 356,
@@ -865,7 +902,7 @@
         "Symbolic interactionism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t26"
+      "linked_concept_id": "ch01_t11"
     },
     {
       "id": 358,
@@ -877,7 +914,7 @@
         "Symbolic interactionism"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t26"
+      "linked_concept_id": "ch01_t12"
     },
     {
       "id": 359,
@@ -949,7 +986,7 @@
         "Urban interdependence"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t15"
+      "linked_concept_id": "ch01_t16"
     },
     {
       "id": 365,
@@ -961,7 +998,7 @@
         "Professional hierarchy"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t15"
+      "linked_concept_id": "ch01_t16"
     },
     {
       "id": 366,
@@ -973,7 +1010,7 @@
         "Economic relationships"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t15"
+      "linked_concept_id": "ch01_t16"
     },
     {
       "id": 367,
@@ -985,7 +1022,7 @@
         "Identity crisis"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t02"
+      "linked_concept_id": "ch01_t17"
     },
     {
       "id": 368,
@@ -1021,7 +1058,7 @@
         "Interpretive sociology"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t01"
+      "linked_concept_id": "ch01_t18"
     },
     {
       "id": 371,
@@ -1057,7 +1094,7 @@
         "Implementation problems"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t20"
+      "linked_concept_id": "ch01_t21"
     },
     {
       "id": 374,
@@ -1069,7 +1106,7 @@
         "Social benefits"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t20"
+      "linked_concept_id": "ch01_t21"
     },
     {
       "id": 375,
@@ -1081,7 +1118,7 @@
         "Social services"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t20"
+      "linked_concept_id": "ch01_t21"
     },
     {
       "id": 376,
@@ -1129,7 +1166,7 @@
         "Social psychology"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t26"
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 380,
@@ -1153,7 +1190,7 @@
         "Social exchange theory"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t13"
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 382,
@@ -1237,7 +1274,7 @@
         "Political sociology"
       ],
       "correct": 1,
-      "linked_concept_id": "ch01_t22"
+      "linked_concept_id": "ch01_t25"
     },
     {
       "id": 389,
@@ -1249,7 +1286,7 @@
         "Communication research"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t23"
+      "linked_concept_id": "ch01_t25"
     },
     {
       "id": 390,
@@ -1321,7 +1358,7 @@
         "By tracing the historical evolution of human behavior patterns across different societies."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t02"
+      "linked_concept_id": "ch01_t04"
     },
     {
       "id": 815,
@@ -1333,7 +1370,7 @@
         "The biological basis of social behavior and the role of genetics."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t02"
+      "linked_concept_id": "ch01_t04"
     },
     {
       "id": 816,
@@ -1345,7 +1382,7 @@
         "By studying the physical environment and its impact on the development of societies."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t04"
     },
     {
       "id": 817,
@@ -1357,7 +1394,7 @@
         "The biological and genetic basis of human social behavior."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t04"
     },
     {
       "id": 818,
@@ -1369,7 +1406,7 @@
         "Investigating the impact of technological innovations on social change."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t02"
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 819,
@@ -1381,7 +1418,7 @@
         "The level of technological development within a society."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t02"
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 820,
@@ -1393,7 +1430,7 @@
         "As a system of interconnected parts that function to maintain equilibrium."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 821,
@@ -1405,7 +1442,7 @@
         "Adapting to changing environmental conditions."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 822,
@@ -1417,7 +1454,7 @@
         "Technological innovation is the key to societal progress and development."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 823,
@@ -1525,7 +1562,7 @@
         "By focusing on the unintended consequences of institutional actions."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t19"
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 832,
@@ -1609,7 +1646,7 @@
         "Postmodernism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t04"
+      "linked_concept_id": "ch01_t13"
     },
     {
       "id": 839,
@@ -1621,7 +1658,7 @@
         "Phenomenology"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t04"
+      "linked_concept_id": "ch01_t13"
     },
     {
       "id": 840,
@@ -1633,7 +1670,7 @@
         "Postmodernism"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t26"
+      "linked_concept_id": "ch01_t13"
     },
     {
       "id": 841,
@@ -1645,7 +1682,7 @@
         "Feminist theory"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t13"
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 842,
@@ -1657,7 +1694,7 @@
         "Phenomenology"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t04"
+      "linked_concept_id": "ch01_t22"
     },
     {
       "id": 843,
@@ -1669,7 +1706,7 @@
         "Teaching strategic thinking and teamwork to players and coaches."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t21"
     },
     {
       "id": 844,
@@ -1681,7 +1718,7 @@
         "Providing a comfortable environment for studying or working remotely."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t21"
     },
     {
       "id": 845,
@@ -1693,7 +1730,7 @@
         "Providing a platform for sharing personal updates and experiences."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t21"
     },
     {
       "id": 846,
@@ -1705,7 +1742,7 @@
         "Beautifying the neighborhood and increasing property values."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t21"
     },
     {
       "id": 847,
@@ -1717,7 +1754,7 @@
         "Anomie"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t15"
+      "linked_concept_id": "ch01_t16"
     },
     {
       "id": 848,
@@ -1753,7 +1790,7 @@
         "Collective effervescence to individualism."
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t15"
+      "linked_concept_id": "ch01_t16"
     },
     {
       "id": 851,
@@ -1777,7 +1814,7 @@
         "Conflict theorist"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t08"
     },
     {
       "id": 853,
@@ -1789,7 +1826,7 @@
         "Postmodernist perspective"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t19"
+      "linked_concept_id": "ch01_t07"
     },
     {
       "id": 854,
@@ -1801,7 +1838,7 @@
         "The role of the pharmaceutical industry in shaping healthcare policy."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t07"
     },
     {
       "id": 855,
@@ -1813,7 +1850,7 @@
         "Psychological analysis"
       ],
       "correct": 0,
-      "linked_concept_id": "ch01_t02"
+      "linked_concept_id": "ch01_t08"
     },
     {
       "id": 856,
@@ -1825,7 +1862,7 @@
         "Feminist theorist"
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t08"
     },
     {
       "id": 857,
@@ -1849,7 +1886,7 @@
         "Biological factors solely determine perceptions of attractiveness."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t04"
     },
     {
       "id": 859,
@@ -1861,7 +1898,7 @@
         "Educational institutions are inherently meritocratic."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t23"
     },
     {
       "id": 860,
@@ -1873,7 +1910,7 @@
         "The psychological motivations underlying eating behaviors."
       ],
       "correct": 0,
-      "linked_concept_id": null
+      "linked_concept_id": "ch01_t04"
     }
   ]
 }
