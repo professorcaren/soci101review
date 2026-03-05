@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOCI 101 Admin Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --color-bg: #1C1A17;
+            --color-surface: #2A2724;
+            --color-surface-hover: #35322E;
+            --color-text: #E8E2D9;
+            --color-text-secondary: #9E9689;
+            --color-primary: #D4845A;
+            --color-primary-hover: #E0956B;
+            --color-success: #7AAF7E;
+            --color-success-bg: rgba(122, 175, 126, 0.15);
+            --color-error: #D06060;
+            --color-error-bg: rgba(208, 96, 96, 0.15);
+            --color-warning: #D4A84A;
+            --color-warning-bg: rgba(212, 168, 74, 0.15);
+            --color-border: #3E3A35;
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.2);
+            --shadow-md: 0 3px 12px rgba(0, 0, 0, 0.3);
+        }
+        body {
+            font-family: 'Source Sans 3', sans-serif;
+            background: var(--color-bg);
+            color: var(--color-text);
+            min-height: 100vh;
+        }
+
+        /* Password Gate */
+        #password-gate {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            flex-direction: column;
+            gap: 16px;
+        }
+        #password-gate input {
+            padding: 10px 16px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--color-border);
+            background: var(--color-surface);
+            color: var(--color-text);
+            font-size: 16px;
+            width: 240px;
+        }
+        #password-gate button {
+            padding: 10px 24px;
+            border-radius: var(--radius-sm);
+            border: none;
+            background: var(--color-primary);
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        #password-gate button:hover { background: var(--color-primary-hover); }
+        #password-error { color: var(--color-error); font-size: 14px; min-height: 20px; }
+
+        /* Dashboard (hidden until authenticated) */
+        #dashboard { display: none; }
+
+        /* Header */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 24px;
+            border-bottom: 1px solid var(--color-border);
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .header h1 { font-size: 20px; font-weight: 700; }
+        .filter-group { display: flex; gap: 8px; }
+        .filter-btn {
+            padding: 6px 16px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--color-border);
+            background: var(--color-surface);
+            color: var(--color-text-secondary);
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .filter-btn.active {
+            background: var(--color-primary);
+            color: #fff;
+            border-color: var(--color-primary);
+        }
+        .refresh-group {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 13px;
+            color: var(--color-text-secondary);
+        }
+        .refresh-btn {
+            padding: 6px 14px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--color-border);
+            background: var(--color-surface);
+            color: var(--color-text);
+            font-size: 13px;
+            cursor: pointer;
+        }
+        .refresh-btn:hover { background: var(--color-surface-hover); }
+
+        /* Main Content */
+        .main { padding: 24px; max-width: 1200px; margin: 0 auto; }
+
+        /* Engagement Stats Cards */
+        .stats-row {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+        .stat-card {
+            background: var(--color-surface);
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            flex: 1;
+            min-width: 160px;
+            box-shadow: var(--shadow-sm);
+        }
+        .stat-card .label {
+            font-size: 13px;
+            color: var(--color-text-secondary);
+            margin-bottom: 4px;
+        }
+        .stat-card .value {
+            font-size: 28px;
+            font-weight: 800;
+        }
+
+        /* Chapter Coverage Bars */
+        .chapter-bars {
+            background: var(--color-surface);
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            margin-bottom: 24px;
+            box-shadow: var(--shadow-sm);
+        }
+        .chapter-bars h3 {
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--color-text-secondary);
+        }
+        .bar-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 6px;
+            font-size: 13px;
+        }
+        .bar-label { width: 50px; text-align: right; color: var(--color-text-secondary); }
+        .bar-track {
+            flex: 1;
+            height: 16px;
+            background: var(--color-border);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .bar-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+        .bar-pct { width: 40px; font-size: 12px; color: var(--color-text-secondary); }
+
+        /* Concepts Table */
+        .table-container {
+            background: var(--color-surface);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-sm);
+            overflow-x: auto;
+        }
+        .table-container h3 {
+            font-size: 14px;
+            font-weight: 700;
+            padding: 16px 20px 0;
+            color: var(--color-text-secondary);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        th {
+            text-align: left;
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--color-border);
+            color: var(--color-text-secondary);
+            font-weight: 600;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+            user-select: none;
+        }
+        th:hover { color: var(--color-text); }
+        td {
+            padding: 10px 16px;
+            border-bottom: 1px solid var(--color-border);
+        }
+        tr:last-child td { border-bottom: none; }
+        tr.row-red { background: var(--color-error-bg); }
+        tr.row-yellow { background: var(--color-warning-bg); }
+        tr.row-green { background: var(--color-success-bg); }
+        .pct-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 13px;
+        }
+        .pct-red { background: var(--color-error); color: #fff; }
+        .pct-yellow { background: var(--color-warning); color: #1C1A17; }
+        .pct-green { background: var(--color-success); color: #fff; }
+
+        .loading { text-align: center; padding: 40px; color: var(--color-text-secondary); }
+        .no-data { text-align: center; padding: 40px; color: var(--color-text-secondary); font-style: italic; }
+    </style>
+</head>
+<body>
+
+<!-- Password Gate -->
+<div id="password-gate">
+    <h1>SOCI 101 Admin</h1>
+    <input type="password" id="password-input" placeholder="Password" autofocus>
+    <button onclick="checkPassword()">Enter</button>
+    <div id="password-error"></div>
+</div>
+
+<!-- Dashboard -->
+<div id="dashboard">
+    <div class="header">
+        <h1>SOCI 101 Admin Dashboard</h1>
+        <div class="filter-group">
+            <button class="filter-btn active" data-exam="all">All</button>
+            <button class="filter-btn" data-exam="exam1">Exam 1</button>
+            <button class="filter-btn" data-exam="exam2">Exam 2</button>
+            <button class="filter-btn" data-exam="final">Final</button>
+        </div>
+        <div class="refresh-group">
+            <span id="refresh-countdown"></span>
+            <button class="refresh-btn" onclick="refreshData()">Refresh</button>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="stats-row">
+            <div class="stat-card"><div class="label">Active Students</div><div class="value" id="stat-students">--</div></div>
+            <div class="stat-card"><div class="label">Avg Concepts / Student</div><div class="value" id="stat-avg-concepts">--</div></div>
+            <div class="stat-card"><div class="label">Concepts with Data</div><div class="value" id="stat-coverage">--</div></div>
+        </div>
+
+        <div class="chapter-bars" id="chapter-bars-section">
+            <h3>Chapter Attempt Coverage</h3>
+            <div id="chapter-bars"></div>
+        </div>
+
+        <div class="table-container">
+            <h3>Struggling Concepts (sorted by % correct, ascending)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th data-sort="term">Term</th>
+                        <th data-sort="chapter">Chapter</th>
+                        <th data-sort="students">Students</th>
+                        <th data-sort="pct">% Correct</th>
+                        <th data-sort="level">Hardest Level</th>
+                    </tr>
+                </thead>
+                <tbody id="concepts-tbody"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+// ── Configuration ──
+const ADMIN_PASSWORD = 'soci101admin';
+const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSYWtlumtOLWo-gOTs5grT8i4M8JE8gW-wxAUfEjX3DVPi1RWCMl6rmRFFxsS3EWgqrHHZrCu60W950/pub?gid=1507396121&single=true&output=csv';
+const REFRESH_INTERVAL = 60; // seconds
+
+// Exam chapter mappings
+const EXAMS = {
+    all: ['ch01','ch02','ch03','ch04','ch05','ch06','ch07','ch08','ch09','ch10','ch11','ch12','ch13','ch14','ch15','ch16'],
+    exam1: ['ch01','ch02','ch03','ch04','ch05','ch06'],
+    exam2: ['ch07','ch08','ch09','ch10','ch11'],
+    final: ['ch12','ch13','ch14','ch15','ch16'],
+};
+
+let contentData = null;
+let csvRows = [];
+let currentExam = 'all';
+let refreshTimer = null;
+let countdown = REFRESH_INTERVAL;
+let currentSort = { key: 'pct', asc: true };
+
+// ── Password Gate ──
+function checkPassword() {
+    const input = document.getElementById('password-input').value;
+    if (input === ADMIN_PASSWORD) {
+        sessionStorage.setItem('soci101_admin_auth', 'true');
+        showDashboard();
+    } else {
+        document.getElementById('password-error').textContent = 'Incorrect password';
+    }
+}
+document.getElementById('password-input').addEventListener('keydown', e => {
+    if (e.key === 'Enter') checkPassword();
+});
+
+function showDashboard() {
+    document.getElementById('password-gate').style.display = 'none';
+    document.getElementById('dashboard').style.display = 'block';
+    loadData();
+    startAutoRefresh();
+}
+
+if (sessionStorage.getItem('soci101_admin_auth') === 'true') {
+    showDashboard();
+}
+
+// ── Data Loading ──
+async function loadData() {
+    try {
+        if (!contentData) {
+            const resp = await fetch('data/content.json');
+            contentData = await resp.json();
+        }
+        if (!CSV_URL) {
+            document.getElementById('concepts-tbody').innerHTML =
+                '<tr><td colspan="5" class="no-data">Set CSV_URL in admin.html to the published Google Sheets URL for the Student Concepts tab.</td></tr>';
+            return;
+        }
+        const csvResp = await fetch(CSV_URL);
+        const csvText = await csvResp.text();
+        csvRows = parseCSV(csvText);
+        renderAll();
+    } catch (err) {
+        document.getElementById('concepts-tbody').innerHTML =
+            '<tr><td colspan="5" class="no-data">Error loading data: ' + err.message + '</td></tr>';
+    }
+}
+
+function refreshData() {
+    countdown = REFRESH_INTERVAL;
+    loadData();
+}
+
+// ── CSV Parsing ──
+function parseCSV(text) {
+    const lines = text.trim().split('\n');
+    if (lines.length < 2) return [];
+    const rows = [];
+    for (let i = 1; i < lines.length; i++) {
+        const cols = parseCSVLine(lines[i]);
+        if (cols.length < 9) continue;
+        const l1 = parseFraction(cols[6]);
+        const l2 = parseFraction(cols[7]);
+        const l3 = parseFraction(cols[8]);
+        rows.push({
+            onyen: cols[0].trim(),
+            name: cols[1].trim(),
+            chapter: cols[2].trim(),
+            term: cols[3].trim(),
+            learned: cols[4].trim().toLowerCase() === 'yes',
+            currentLevel: cols[5].trim(),
+            l1correct: l1.correct, l1attempts: l1.attempts,
+            l2correct: l2.correct, l2attempts: l2.attempts,
+            l3correct: l3.correct, l3attempts: l3.attempts,
+        });
+    }
+    return rows;
+}
+
+function parseCSVLine(line) {
+    const result = [];
+    let current = '';
+    let inQuotes = false;
+    for (let i = 0; i < line.length; i++) {
+        const ch = line[i];
+        if (inQuotes) {
+            if (ch === '"' && line[i + 1] === '"') { current += '"'; i++; }
+            else if (ch === '"') { inQuotes = false; }
+            else { current += ch; }
+        } else {
+            if (ch === '"') { inQuotes = true; }
+            else if (ch === ',') { result.push(current); current = ''; }
+            else { current += ch; }
+        }
+    }
+    result.push(current);
+    return result;
+}
+
+function parseFraction(str) {
+    const parts = str.trim().split('/');
+    if (parts.length === 2) {
+        return { correct: parseInt(parts[0]) || 0, attempts: parseInt(parts[1]) || 0 };
+    }
+    return { correct: 0, attempts: 0 };
+}
+
+// ── Chapter ID Mapping ──
+function buildChapterNameToId() {
+    const map = {};
+    if (!contentData || !contentData.chapters) return map;
+    for (const ch of contentData.chapters) {
+        map[ch.name.toLowerCase()] = ch.id;
+    }
+    return map;
+}
+
+function getChapterIdForRow(row, nameToId) {
+    return nameToId[row.chapter.toLowerCase()] || '';
+}
+
+// ── Aggregation ──
+function aggregate() {
+    const nameToId = buildChapterNameToId();
+    const examChapters = new Set(EXAMS[currentExam]);
+    const filtered = csvRows.filter(r => {
+        const chId = getChapterIdForRow(r, nameToId);
+        return examChapters.has(chId);
+    });
+
+    const concepts = {};
+    const allStudents = new Set();
+
+    for (const row of filtered) {
+        const chId = getChapterIdForRow(row, nameToId);
+        const key = chId + '|' + row.term;
+        allStudents.add(row.onyen);
+
+        if (!concepts[key]) {
+            concepts[key] = {
+                term: row.term,
+                chapter: row.chapter,
+                chId: chId,
+                totalCorrect: 0,
+                totalAttempts: 0,
+                l1errors: 0, l2errors: 0, l3errors: 0,
+                students: new Set(),
+            };
+        }
+        const c = concepts[key];
+        c.students.add(row.onyen);
+        c.totalCorrect += row.l1correct + row.l2correct + row.l3correct;
+        c.totalAttempts += row.l1attempts + row.l2attempts + row.l3attempts;
+        c.l1errors += row.l1attempts - row.l1correct;
+        c.l2errors += row.l2attempts - row.l2correct;
+        c.l3errors += row.l3attempts - row.l3correct;
+    }
+
+    const conceptList = Object.values(concepts).map(c => {
+        const pct = c.totalAttempts > 0 ? Math.round((c.totalCorrect / c.totalAttempts) * 100) : 0;
+        let hardest = '--';
+        const maxErr = Math.max(c.l1errors, c.l2errors, c.l3errors);
+        if (maxErr > 0) {
+            if (c.l1errors === maxErr) hardest = 'L1';
+            else if (c.l2errors === maxErr) hardest = 'L2';
+            else hardest = 'L3';
+        }
+        return {
+            term: c.term,
+            chapter: c.chapter,
+            chId: c.chId,
+            students: c.students.size,
+            pct: pct,
+            level: hardest,
+        };
+    });
+
+    const chaptersInExam = contentData ? contentData.chapters.filter(ch => examChapters.has(ch.id)) : [];
+    const chapterCoverage = chaptersInExam.map(ch => {
+        const totalConcepts = ch.concepts.length;
+        const attemptedConcepts = new Set();
+        for (const row of filtered) {
+            const chId = getChapterIdForRow(row, nameToId);
+            if (chId === ch.id) attemptedConcepts.add(row.term);
+        }
+        return { id: ch.id, name: ch.name, total: totalConcepts, attempted: attemptedConcepts.size };
+    });
+
+    const studentConceptCounts = {};
+    for (const row of filtered) {
+        if (!studentConceptCounts[row.onyen]) studentConceptCounts[row.onyen] = new Set();
+        studentConceptCounts[row.onyen].add(getChapterIdForRow(row, nameToId) + '|' + row.term);
+    }
+    const avgConcepts = allStudents.size > 0
+        ? Math.round(Object.values(studentConceptCounts).reduce((a, s) => a + s.size, 0) / allStudents.size)
+        : 0;
+
+    const totalConceptsInExam = chaptersInExam.reduce((a, ch) => a + ch.concepts.length, 0);
+    const conceptsWithData = new Set(Object.keys(concepts)).size;
+
+    return {
+        conceptList,
+        totalStudents: allStudents.size,
+        avgConcepts,
+        conceptsWithData,
+        totalConceptsInExam,
+        chapterCoverage,
+    };
+}
+
+// ── Rendering ──
+function renderAll() {
+    const data = aggregate();
+
+    document.getElementById('stat-students').textContent = data.totalStudents;
+    document.getElementById('stat-avg-concepts').textContent = data.avgConcepts;
+    document.getElementById('stat-coverage').textContent = data.conceptsWithData + ' / ' + data.totalConceptsInExam;
+
+    const barsHtml = data.chapterCoverage.map(ch => {
+        const pct = ch.total > 0 ? Math.round((ch.attempted / ch.total) * 100) : 0;
+        const color = pct >= 80 ? 'var(--color-success)' : pct >= 50 ? 'var(--color-warning)' : 'var(--color-error)';
+        return `<div class="bar-row">
+            <span class="bar-label">${ch.id.replace('ch', 'Ch')}</span>
+            <div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${color}"></div></div>
+            <span class="bar-pct">${ch.attempted}/${ch.total}</span>
+        </div>`;
+    }).join('');
+    document.getElementById('chapter-bars').innerHTML = barsHtml;
+
+    sortConceptList(data.conceptList);
+
+    if (data.conceptList.length === 0) {
+        document.getElementById('concepts-tbody').innerHTML =
+            '<tr><td colspan="5" class="no-data">No student data for the selected filter.</td></tr>';
+        return;
+    }
+    const rowsHtml = data.conceptList.map(c => {
+        const rowClass = c.pct < 60 ? 'row-red' : c.pct < 80 ? 'row-yellow' : 'row-green';
+        const pctClass = c.pct < 60 ? 'pct-red' : c.pct < 80 ? 'pct-yellow' : 'pct-green';
+        return `<tr class="${rowClass}">
+            <td>${c.term}</td>
+            <td>${c.chapter}</td>
+            <td>${c.students}</td>
+            <td><span class="pct-badge ${pctClass}">${c.pct}%</span></td>
+            <td>${c.level}</td>
+        </tr>`;
+    }).join('');
+    document.getElementById('concepts-tbody').innerHTML = rowsHtml;
+}
+
+function sortConceptList(list) {
+    const { key, asc } = currentSort;
+    list.sort((a, b) => {
+        let va = a[key], vb = b[key];
+        if (typeof va === 'string') { va = va.toLowerCase(); vb = vb.toLowerCase(); }
+        if (va < vb) return asc ? -1 : 1;
+        if (va > vb) return asc ? 1 : -1;
+        return 0;
+    });
+}
+
+// ── Sorting ──
+document.querySelectorAll('th[data-sort]').forEach(th => {
+    th.addEventListener('click', () => {
+        const key = th.dataset.sort;
+        if (currentSort.key === key) {
+            currentSort.asc = !currentSort.asc;
+        } else {
+            currentSort = { key, asc: key === 'pct' };
+        }
+        renderAll();
+    });
+});
+
+// ── Exam Filters ──
+document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentExam = btn.dataset.exam;
+        renderAll();
+    });
+});
+
+// ── Auto-Refresh ──
+function startAutoRefresh() {
+    countdown = REFRESH_INTERVAL;
+    updateCountdown();
+    if (refreshTimer) clearInterval(refreshTimer);
+    refreshTimer = setInterval(() => {
+        countdown--;
+        if (countdown <= 0) {
+            refreshData();
+        }
+        updateCountdown();
+    }, 1000);
+}
+
+function updateCountdown() {
+    document.getElementById('refresh-countdown').textContent = 'Refresh in ' + countdown + 's';
+}
+</script>
+</body>
+</html>
