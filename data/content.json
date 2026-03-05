@@ -14520,7 +14520,8 @@
             306
           ],
           "confusable_ids": [
-            "ch10_t07"
+            "ch10_t07",
+            "ch10_t14"
           ]
         },
         {
@@ -14536,9 +14537,9 @@
           "confusable_ids": [
             "ch10_t08",
             "ch10_t09",
+            "ch10_t14",
             "ch10_t05",
-            "ch10_t04",
-            "ch10_t06"
+            "ch10_t04"
           ]
         },
         {
@@ -14651,6 +14652,23 @@
             "ch10_t11",
             "ch10_t15",
             "ch10_t01"
+          ]
+        },
+        {
+          "id": "ch10_t14",
+          "term": "Cult",
+          "definition": "A small religious group that exists in tension with the dominant society, typically organized around a charismatic leader who demands complete obedience, and may involve strict rituals and isolation from mainstream culture",
+          "level3_question_ids": [
+            1218,
+            1219,
+            1220
+          ],
+          "confusable_ids": [
+            "ch10_t07",
+            "ch10_t15",
+            "ch10_t05",
+            "ch10_t04",
+            "ch10_t06"
           ]
         },
         {
