@@ -547,6 +547,38 @@
     padding: 4px 0;
 }
 
+/* Review Nudge (session summary) */
+.summary-nudge {
+    margin-top: 16px;
+    padding: 12px 16px;
+    background: rgba(42, 125, 110, 0.08);
+    border: 1px solid rgba(42, 125, 110, 0.25);
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    color: var(--color-text);
+    text-align: center;
+}
+
+/* Review Due Badge (chapter list) */
+.review-due-badge {
+    display: inline-block;
+    background: var(--color-primary);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 8px;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+/* Review Due Inline (home + chapter detail) */
+.review-due-inline {
+    font-size: 0.8rem;
+    color: var(--color-primary);
+    margin-top: 6px;
+}
+
 /* Text helper */
 .text-secondary {
     color: var(--color-text-secondary);

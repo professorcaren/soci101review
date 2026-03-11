@@ -54,9 +54,15 @@ const UI = (() => {
         const chaptersProgress = document.getElementById('home-chapters-progress');
         const pct = totalConcepts > 0 ? Math.round((totalLearned / totalConcepts) * 100) : 0;
         const fillClass = pct === 100 ? ' complete' : '';
+        const forecast = Progress.getReviewForecast(chapters);
+        let reviewHtml = '';
+        if (forecast.dueNow > 0) {
+            reviewHtml = '<div class="review-due-inline">' + forecast.dueNow + ' item' + (forecast.dueNow > 1 ? 's' : '') + ' due for review</div>';
+        }
         chaptersProgress.innerHTML =
             totalLearned + ' of ' + totalConcepts + ' concepts learned' +
-            '<div class="progress-bar"><div class="progress-fill' + fillClass + '" style="width:' + pct + '%"></div></div>';
+            '<div class="progress-bar"><div class="progress-fill' + fillClass + '" style="width:' + pct + '%"></div></div>' +
+            reviewHtml;
 
         // Exam list
         const examList = document.getElementById('home-exam-list');
@@ -86,10 +92,14 @@ const UI = (() => {
             row.dataset.chapterId = ch.id;
 
             const fillClass = stats.pct === 100 ? ' complete' : '';
+            const review = Progress.getChapterReviewCount(ch);
+            const dueBadge = review.dueCount > 0
+                ? ' <span class="review-due-badge">' + review.dueCount + ' due</span>'
+                : '';
             row.innerHTML =
                 '<div class="chapter-list-info">' +
                     '<div class="chapter-list-name">' + ch.name + '</div>' +
-                    '<div class="chapter-list-stats">' + stats.learned + '/' + stats.total + ' learned</div>' +
+                    '<div class="chapter-list-stats">' + stats.learned + '/' + stats.total + ' learned' + dueBadge + '</div>' +
                 '</div>' +
                 '<div class="chapter-list-bar">' +
                     '<div class="progress-bar"><div class="progress-fill' + fillClass + '" style="width:' + stats.pct + '%"></div></div>' +
@@ -112,6 +122,25 @@ const UI = (() => {
             ? 'All ' + stats.total + ' concepts learned!'
             : stats.learned + ' of ' + stats.total + ' concepts learned';
         document.getElementById('chapter-stats').textContent = statsText;
+
+        // Review due info
+        const review = Progress.getChapterReviewCount(chapter);
+        let reviewEl = document.getElementById('chapter-review-info');
+        if (!reviewEl) {
+            reviewEl = document.createElement('div');
+            reviewEl.id = 'chapter-review-info';
+            reviewEl.className = 'review-due-inline';
+            document.getElementById('chapter-stats').after(reviewEl);
+        }
+        if (review.dueCount > 0) {
+            reviewEl.textContent = review.dueCount + ' item' + (review.dueCount > 1 ? 's' : '') + ' due for review';
+            reviewEl.style.display = '';
+        } else if (review.nextReviewDate) {
+            reviewEl.textContent = 'Next review ' + formatRelativeDate(review.nextReviewDate);
+            reviewEl.style.display = '';
+        } else {
+            reviewEl.style.display = 'none';
+        }
 
         // Update toggle label
         document.getElementById('toggle-concepts-label').textContent =
@@ -498,6 +527,17 @@ const UI = (() => {
             html += '</div>';
         }
 
+        // Review nudge
+        if (total > 0) {
+            const chapters = ContentLoader.getChapters();
+            const forecast = Progress.getReviewForecast(chapters);
+            if (forecast.dueNow > 0) {
+                html += '<div class="summary-nudge">You have ' + forecast.dueNow + ' item' + (forecast.dueNow > 1 ? 's' : '') + ' due for review. Keep studying to stay on track!</div>';
+            } else if (forecast.nextReviewDate) {
+                html += '<div class="summary-nudge">Come back ' + formatRelativeDate(forecast.nextReviewDate) + ' to review what you learned today.</div>';
+            }
+        }
+
         // Buttons
         html += '<div class="summary-actions">';
         html += '<button id="btn-keep-studying" class="btn btn-primary">Keep Studying</button>';
@@ -567,6 +607,16 @@ const UI = (() => {
     }
 
     // --- Utility ---
+    function formatRelativeDate(date) {
+        const now = new Date();
+        const diff = date - now;
+        if (diff <= 0) return 'now';
+        const hours = Math.ceil(diff / (1000 * 60 * 60));
+        if (hours < 24) return hours === 1 ? '1 hour' : hours + ' hours';
+        const days = Math.ceil(diff / (1000 * 60 * 60 * 24));
+        return days === 1 ? 'tomorrow' : 'in ' + days + ' days';
+    }
+
     function escapeHtml(str) {
         const div = document.createElement('div');
         div.textContent = str;

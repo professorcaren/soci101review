@@ -306,6 +306,70 @@ const Progress = (() => {
         save();
     }
 
+    // --- Review forecast ---
+
+    function getChapterReviewCount(chapter) {
+        const now = Date.now();
+        const data = getData();
+        let dueCount = 0;
+        let earliestFuture = null;
+
+        for (const concept of chapter.concepts) {
+            if (isConceptSkipped(concept.id)) continue;
+            // L1 and L2 keys
+            for (const level of [1, 2]) {
+                const key = concept.id + '_L' + level;
+                const sr = data.questions?.[key];
+                if (!sr || sr.timesAnswered === 0) continue;
+                if (sr.nextReview <= now) {
+                    dueCount++;
+                } else if (!earliestFuture || sr.nextReview < earliestFuture) {
+                    earliestFuture = sr.nextReview;
+                }
+            }
+            // L3 keys
+            for (const qId of (concept.level3_question_ids || [])) {
+                const key = 'L3_' + qId;
+                const sr = data.questions?.[key];
+                if (!sr || sr.timesAnswered === 0) continue;
+                if (sr.nextReview <= now) {
+                    dueCount++;
+                } else if (!earliestFuture || sr.nextReview < earliestFuture) {
+                    earliestFuture = sr.nextReview;
+                }
+            }
+        }
+
+        return { dueCount, nextReviewDate: earliestFuture ? new Date(earliestFuture) : null };
+    }
+
+    function getReviewForecast(chapters) {
+        const now = Date.now();
+        const endOfTomorrow = new Date();
+        endOfTomorrow.setHours(0, 0, 0, 0);
+        endOfTomorrow.setDate(endOfTomorrow.getDate() + 2);
+
+        let dueNow = 0;
+        let dueTomorrow = 0;
+        let earliestFuture = null;
+
+        for (const ch of chapters) {
+            const review = getChapterReviewCount(ch);
+            dueNow += review.dueCount;
+            if (review.nextReviewDate) {
+                const t = review.nextReviewDate.getTime();
+                if (t <= endOfTomorrow.getTime()) {
+                    dueTomorrow++;
+                }
+                if (!earliestFuture || t < earliestFuture) {
+                    earliestFuture = t;
+                }
+            }
+        }
+
+        return { dueNow, dueTomorrow, nextReviewDate: earliestFuture ? new Date(earliestFuture) : null };
+    }
+
     return {
         load, save, getData, setStudentName, getStudentName, setStudent, getOnyen,
         getConceptProgress, recordConceptAnswer,
@@ -313,6 +377,7 @@ const Progress = (() => {
         getQuestionSR, recordQuestionAnswer, isDueForReview,
         getChapterStats, getSyncPayload, getAnalyticsPayload, mergeRemoteData,
         isConceptSkipped, toggleSkipConcept, getSkippedCount,
+        getChapterReviewCount, getReviewForecast,
         LEVEL1_PASS, LEVEL2_PASS, LEVEL3_PASS,
     };
 })();
