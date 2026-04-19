@@ -100,7 +100,9 @@
       "level3_question_ids": [
         1159,
         1166,
-        1207
+        1207,
+        1521,
+        1522
       ],
       "confusable_ids": []
     },
@@ -243,7 +245,8 @@
       "level3_question_ids": [
         1176,
         1196,
-        1197
+        1197,
+        1523
       ],
       "confusable_ids": [
         "ch14_t15",
@@ -1796,6 +1799,42 @@
       ],
       "correct": 1,
       "linked_concept_id": "ch14_t21"
+    },
+    {
+      "id": 1521,
+      "question": "Recent time-use surveys find that the average American spends more than half of their total leisure hours watching television, streaming video, and scrolling through social media. Which concept best describes how Americans are using the majority of their leisure time?",
+      "choices": [
+        "Consumption of media goods and services",
+        "Unpaid productive labor for household members",
+        "Mechanical solidarity within neighborhood peer groups",
+        "Direct political engagement with civic institutions"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t03"
+    },
+    {
+      "id": 1522,
+      "question": "Sociologists argue that work and leisure are complementary activities in modern capitalism: wages earned at work are spent on food, entertainment, clothing, and vacations enjoyed during leisure hours. What most directly links work and leisure together in this view?",
+      "choices": [
+        "Consumption",
+        "Rationalization",
+        "Conglomeration",
+        "Mechanical solidarity"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t03"
+    },
+    {
+      "id": 1523,
+      "question": "Frankfurt School theorists Theodor Adorno and Max Horkheimer argued that advertising is so powerful that consumers feel compelled to buy and use its products \"even though they see through them.\" This view of advertising as overwhelming a passive audience aligns most closely with which theory of media effects?",
+      "choices": [
+        "Hypodermic needle theory",
+        "Uses and gratifications paradigm",
+        "Active audience theory",
+        "Encoding/decoding model"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch14_t12"
     }
   ]
 }

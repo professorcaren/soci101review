@@ -126,7 +126,6 @@
         468,
         469,
         626,
-        627,
         629,
         639
       ],
@@ -152,6 +151,7 @@
         468,
         469,
         626,
+        627,
         628,
         629,
         639
@@ -511,7 +511,8 @@
       "definition": "Theory that population tends to grow faster than resources, leading to inevitable population checks (famine, disease, war).",
       "level3_question_ids": [
         447,
-        639
+        639,
+        1525
       ],
       "confusable_ids": [
         "ch16_t07",
@@ -1305,12 +1306,12 @@
     },
     {
       "id": 613,
-      "question": "Which age group has the highest proportion of the population in the United States?",
+      "question": "On a U.S. age structure diagram, which age group makes up the largest share of the population?",
       "choices": [
-        "People older than 65",
-        "People younger than 18",
-        "Non-Hispanic white people",
-        "Immigrants"
+        "Working-age adults (18\u201364)",
+        "Children under 18",
+        "Adults older than 65",
+        "Adults older than 85"
       ],
       "correct": 0,
       "linked_concept_id": "ch16_t11"
@@ -1473,15 +1474,15 @@
     },
     {
       "id": 627,
-      "question": "In which stage of demographic transition theory does a country experience a decline in birth rates while death rates remain high?",
+      "question": "In which stage of demographic transition theory do birth rates begin to decline while death rates remain low, slowing population growth?",
       "choices": [
-        "Stage 2",
-        "Stage 1",
         "Stage 3",
+        "Stage 1",
+        "Stage 2",
         "Stage 4"
       ],
       "correct": 0,
-      "linked_concept_id": "ch16_t05"
+      "linked_concept_id": "ch16_t06"
     },
     {
       "id": 628,
@@ -1626,6 +1627,18 @@
       ],
       "correct": 0,
       "linked_concept_id": "ch16_t04"
+    },
+    {
+      "id": 1525,
+      "question": "Over the past seventy years, the Earth's population has grown from roughly 2.5 billion to nearly 8 billion \u2014 almost tripling within a single lifetime. Which nineteenth-century idea most directly anticipated concerns about this kind of rapid, compounding growth outpacing available resources?",
+      "choices": [
+        "The Malthusian theorem",
+        "Replacement level fertility",
+        "Demographic Transition Stage 4",
+        "The population doubling estimate formula"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch16_t22"
     }
   ]
 }

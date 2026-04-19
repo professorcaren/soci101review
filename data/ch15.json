@@ -42,7 +42,8 @@
         907,
         917,
         919,
-        920
+        920,
+        1524
       ],
       "confusable_ids": [
         "ch15_t03"
@@ -1086,6 +1087,18 @@
       ],
       "correct": 0,
       "linked_concept_id": "ch15_t06"
+    },
+    {
+      "id": 1524,
+      "question": "Behaviors that were once treated as religious fervor, eccentricity, or moral failing are now frequently diagnosed as psychiatric conditions, and some categories in older editions of the DSM (such as homosexuality, removed in 1973) have since been eliminated. Which statement best captures how sociologists understand mental illness?",
+      "choices": [
+        "The meanings and definitions of mental illness vary over time and place",
+        "Mental illness categories are determined entirely by universal biological markers",
+        "Mental illness is diagnosed identically across every culture and historical period",
+        "Mental illness can only be recognized through a patient's own self-report"
+      ],
+      "correct": 0,
+      "linked_concept_id": "ch15_t02"
     }
   ]
 }
