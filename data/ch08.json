@@ -809,7 +809,7 @@
         "A professional who emphasizes their ethnic background when applying for a diversity scholarship but minimizes it in job interviews",
         "A second-generation immigrant who legally changes their name to better reflect their cultural heritage"
       ],
-      "correct": 0,
+      "correct": 2,
       "linked_concept_id": "ch08_t04"
     },
     {
@@ -996,7 +996,7 @@
       "id": 995,
       "question": "A study finds that job applicants with \"white-sounding\" names receive significantly more callbacks than those with identical qualifications but \"Black-sounding\" names. This research demonstrates:",
       "choices": [
-        "Individual discrimination",
+        "Institutional discrimination",
         "Symbolic ethnicity",
         "White nationalism",
         "Pluralism"

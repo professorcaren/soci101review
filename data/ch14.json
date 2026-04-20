@@ -1190,21 +1190,21 @@
     },
     {
       "id": 1176,
-      "question": "A research study found that people who watch violent movies are more likely to display aggressive behavior. This finding supports which sociological concept?",
+      "question": "A research study claims that people who watch violent movies are directly made more aggressive by those films, with the media message injected straight into passive viewers. This view of media influence reflects which sociological concept?",
       "choices": [
         "media effects",
         "active audience",
         "hypodermic needle theory",
         "lifestyle enclaves"
       ],
-      "correct": 0,
+      "correct": 2,
       "linked_concept_id": "ch14_t12"
     },
     {
       "id": 1177,
-      "question": "A celebrity endorses a brand of sneakers, and sales of that brand increase significantly. This demonstrates the power of which sociological concept?",
+      "question": "A professional basketball player endorses a brand of sneakers, and teenagers who admire him and want to emulate his style rush to buy the same shoes. The athlete is functioning as which sociological concept?",
       "choices": [
-        "celebrity influence",
+        "role model",
         "conglomeration",
         "high culture",
         "polysemy"

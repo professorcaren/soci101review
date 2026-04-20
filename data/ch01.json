@@ -687,7 +687,7 @@
     },
     {
       "id": 341,
-      "question": "An anthropologist studying a remote tribe finds herself initially disturbed by their burial practices, gender roles, and concept of time, but gradually begins to understand their logic within that cultural context. This transformation represents:",
+      "question": "An anthropologist who has just arrived to live among a remote tribe finds herself disturbed and disoriented by their burial practices, gender roles, and concept of time. Daily interactions feel alien and she struggles to cope with the unfamiliarity. This initial experience represents:",
       "choices": [
         "Professional development",
         "Culture shock",
@@ -699,7 +699,7 @@
     },
     {
       "id": 342,
-      "question": "A sociology student decides to spend a day observing life in a nursing home to better understand aging in America. Despite having visited her grandmother in similar facilities, she finds herself surprised by the complex social hierarchies, informal rules, and daily rituals she hadn't noticed before. What concept does this illustrate?",
+      "question": "An American sociology student travels for the first time to a rural village in a country whose language and customs she does not know. She finds herself unable to follow basic daily interactions \u2014 meals, greetings, and work rhythms all feel unintelligible \u2014 and she becomes exhausted and disoriented. What concept does this illustrate?",
       "choices": [
         "Participant observation",
         "Culture shock",
@@ -1683,12 +1683,12 @@
     },
     {
       "id": 843,
-      "question": "Which scenario best exemplifies a latent function of a high school football team?",
+      "question": "A high school football team's official, stated purpose is to field a competitive team and win games against rival schools. Which of the following is instead a latent function of that same football team?",
       "choices": [
-        "Fostering a sense of school unity and community spirit among students.",
-        "Providing entertainment and leisure for spectators at games.",
-        "Developing physical fitness and athletic skills in players.",
-        "Teaching strategic thinking and teamwork to players and coaches."
+        "Fostering a sense of school unity and community spirit among students and alumni.",
+        "Fielding a competitive team to win games against rival schools.",
+        "Training student-athletes in the formal rules and techniques of the sport.",
+        "Providing an organized athletic program as required by school board policy."
       ],
       "correct": 0,
       "linked_concept_id": "ch01_t21"
