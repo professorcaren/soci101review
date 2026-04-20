@@ -75,7 +75,6 @@
         603,
         611,
         614,
-        616,
         636,
         638
       ],
@@ -212,7 +211,6 @@
         603,
         604,
         605,
-        619,
         620
       ],
       "confusable_ids": [
@@ -256,8 +254,7 @@
       "definition": "Rule of 70: Approximate years to double = 70 / (Annual Growth Rate %).",
       "level3_question_ids": [
         437,
-        448,
-        616
+        448
       ],
       "confusable_ids": [
         "ch16_t03",
@@ -283,8 +280,7 @@
         601,
         603,
         613,
-        617,
-        618
+        617
       ],
       "confusable_ids": [
         "ch16_t02",
@@ -1341,18 +1337,6 @@
       "linked_concept_id": "ch16_t07"
     },
     {
-      "id": 616,
-      "question": "What is the current estimated population growth rate in the United States?",
-      "choices": [
-        "0.8%",
-        "1.5%",
-        "2.3%",
-        "3.7%"
-      ],
-      "correct": 0,
-      "linked_concept_id": "ch16_t03"
-    },
-    {
       "id": 617,
       "question": "Which demographic group has the highest percentage of the total population in the United States?",
       "choices": [
@@ -1363,30 +1347,6 @@
       ],
       "correct": 0,
       "linked_concept_id": "ch16_t11"
-    },
-    {
-      "id": 618,
-      "question": "What is the current percentage of the population in the United States that is younger than 18 years old?",
-      "choices": [
-        "22%",
-        "15%",
-        "28%",
-        "32%"
-      ],
-      "correct": 0,
-      "linked_concept_id": "ch16_t11"
-    },
-    {
-      "id": 619,
-      "question": "What is the current estimated population of the United States?",
-      "choices": [
-        "331 million",
-        "290 million",
-        "365 million",
-        "400 million"
-      ],
-      "correct": 0,
-      "linked_concept_id": "ch16_t08"
     },
     {
       "id": 620,
