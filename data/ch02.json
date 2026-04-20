@@ -1080,12 +1080,12 @@
       "id": 697,
       "question": "Which of the following statements about correlation and causation is TRUE?",
       "choices": [
-        "Correlation implies causation.",
+        "Correlation always implies causation.",
         "Causation implies correlation.",
         "Correlation does not necessarily imply causation.",
         "Correlation and causation are interchangeable terms."
       ],
-      "correct": 1,
+      "correct": 2,
       "linked_concept_id": "ch02_t09"
     },
     {
@@ -1188,7 +1188,7 @@
       "id": 706,
       "question": "Which of the following is NOT a potential limitation of using historical job postings to study social change?",
       "choices": [
-        "Job postings provide direct evidence of actual hiring practices and discrimination.",
+        "Job postings perfectly capture actual hiring outcomes and real instances of discrimination in the workplace.",
         "Job postings reflect the idealized image that employers want to project.",
         "Job postings may not capture the full range of employment opportunities available.",
         "The language used in job postings can be influenced by social and cultural norms."
@@ -1210,14 +1210,14 @@
     },
     {
       "id": 708,
-      "question": "A study aims to understand the experiences of female entrepreneurs in the tech industry. Researchers conduct interviews with 50 women who founded tech startups in Silicon Valley. What is the target population?",
+      "question": "A study aims to understand the experiences of female entrepreneurs in the tech industry in Silicon Valley. Researchers conduct interviews with 50 women who founded tech startups there. What is the target population?",
       "choices": [
         "All female entrepreneurs in the tech industry.",
         "All entrepreneurs in the tech industry.",
         "Female entrepreneurs in Silicon Valley.",
         "The 50 women interviewed in the study."
       ],
-      "correct": 0,
+      "correct": 2,
       "linked_concept_id": "ch02_t22"
     },
     {
@@ -1577,7 +1577,7 @@
         "It is specific.",
         "It proposes a relationship between variables."
       ],
-      "correct": 0,
+      "correct": 1,
       "linked_concept_id": "ch02_t05"
     },
     {
