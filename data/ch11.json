@@ -417,7 +417,7 @@
     },
     {
       "id": 479,
-      "question": "According to sociological research, which demographic group in America shows the highest levels of extrinsic religiosity?",
+      "question": "According to sociological research, which demographic group in America shows the highest rates of regular attendance at religious services?",
       "choices": [
         "Older adults who regularly attend traditional religious services",
         "Middle-aged adults who participate in multiple religious communities simultaneously",
@@ -587,7 +587,7 @@
       "id": 493,
       "question": "Which demographic group is most likely to identify as \"spiritual but not religious\" in the United States?",
       "choices": [
-        "Young, white, male residents of western and northeastern states",
+        "Young, white, female residents of western and northeastern states",
         "Middle-aged professionals with advanced degrees living in urban areas",
         "Young women attending liberal arts colleges in progressive communities",
         "Ethnically diverse millennials raised in interfaith or mixed-religion households"
