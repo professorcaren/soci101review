@@ -330,5 +330,18 @@ const QuizEngine = (() => {
         return selected.slice(0, size);
     }
 
-    return { buildSession, buildExamSession, buildPracticeExam, recordAnswer, setSessionSize, getSessionSize };
+    function buildFinalExam(blocks, size) {
+        const defaultTotal = blocks.reduce((s, b) => s + b.count, 0);
+        size = size || defaultTotal;
+        const scale = size / defaultTotal;
+        const selected = [];
+        for (const block of blocks) {
+            const blockSize = Math.max(1, Math.round(block.count * scale));
+            selected.push(...buildPracticeExam(block.chapters, blockSize));
+        }
+        shuffle(selected);
+        return selected.slice(0, size);
+    }
+
+    return { buildSession, buildExamSession, buildPracticeExam, buildFinalExam, recordAnswer, setSessionSize, getSessionSize };
 })();

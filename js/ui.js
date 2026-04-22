@@ -265,9 +265,16 @@ const UI = (() => {
         document.getElementById('exam-stats').textContent =
             totalLearned + ' of ' + totalConcepts + ' concepts learned';
 
-        // Question count slider
+        // Question count slider — final exam scales up to 85 (mirrors real cumulative final)
         const slider = document.getElementById('exam-question-slider');
         const countLabel = document.getElementById('exam-question-count');
+        if (exam && exam.blocks) {
+            slider.max = 85;
+            slider.value = 85;
+        } else {
+            slider.max = 50;
+            if (parseInt(slider.value, 10) > 50) slider.value = 50;
+        }
         function updateCountLabel() {
             countLabel.textContent = slider.value + ' questions from all chapters';
         }

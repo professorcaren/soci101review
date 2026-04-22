@@ -4,7 +4,20 @@
 const EXAMS = [
     { id: 1, name: 'Exam 1', chapters: ['ch01','ch02','ch03','ch04','ch05','ch06'] },
     { id: 2, name: 'Exam 2', chapters: ['ch07','ch08','ch09','ch10','ch11','ch12'] },
-    { id: 3, name: 'Exam 3', chapters: ['ch13','ch14','ch15','ch16'] },
+    {
+        id: 3,
+        name: 'Final Exam',
+        chapters: ['ch01','ch02','ch03','ch04','ch05','ch06','ch07','ch08','ch09','ch10','ch11','ch12','ch13','ch14','ch15','ch16'],
+        // Mirrors the actual cumulative final: 21 from Exam 1 block, 24 from Exam 2, 10 from each of ch13–16.
+        blocks: [
+            { chapters: ['ch01','ch02','ch03','ch04','ch05','ch06'], count: 21 },
+            { chapters: ['ch07','ch08','ch09','ch10','ch11','ch12'], count: 24 },
+            { chapters: ['ch13'], count: 10 },
+            { chapters: ['ch14'], count: 10 },
+            { chapters: ['ch15'], count: 10 },
+            { chapters: ['ch16'], count: 10 },
+        ],
+    },
 ];
 
 const App = (() => {
@@ -247,9 +260,18 @@ const App = (() => {
     function startPracticeExam(examId, testMode) {
         const exam = EXAMS.find(e => e.id === examId);
         if (!exam) return;
-        const chapters = exam.chapters.map(id => ContentLoader.getChapter(id)).filter(Boolean);
         const size = parseInt(document.getElementById('exam-question-slider').value, 10) || 50;
-        const questions = QuizEngine.buildPracticeExam(chapters, size);
+        let questions;
+        if (exam.blocks) {
+            const resolvedBlocks = exam.blocks.map(b => ({
+                chapters: b.chapters.map(id => ContentLoader.getChapter(id)).filter(Boolean),
+                count: b.count,
+            }));
+            questions = QuizEngine.buildFinalExam(resolvedBlocks, size);
+        } else {
+            const chapters = exam.chapters.map(id => ContentLoader.getChapter(id)).filter(Boolean);
+            questions = QuizEngine.buildPracticeExam(chapters, size);
+        }
         _returnTo = 'exam';
         UI.startStudySession(questions, {
             examTestMode: testMode,
